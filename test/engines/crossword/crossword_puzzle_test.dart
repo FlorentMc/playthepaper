@@ -107,6 +107,64 @@ void main() {
       expect(again.solution, puzzle.solution);
     });
 
+    test('exposes story seeding when present and round-trips it', () {
+      final payload = payloadFor(staircaseGrid);
+      (((payload['clues'] as Map)['across'] as List)[2] as Map)['storyId'] = 'front';
+      payload['teaser'] = 'One of today\'s clues comes from the news.';
+      final reveal = {
+        'solution': staircaseSolution,
+        'seeded': [
+          {'label': '5 Across', 'storyId': 'front', 'excerpt': 'A cold front swept in.'},
+        ],
+      };
+      final puzzle = CrosswordPuzzle.parse(payload, reveal);
+      expect(puzzle.teaser, 'One of today\'s clues comes from the news.');
+      final seeded = puzzle.entryLabelled('5 Across')!;
+      expect(seeded.isSeeded, isTrue);
+      expect(seeded.storyId, 'front');
+      expect(puzzle.entries.where((e) => e.isSeeded), [seeded]);
+      expect(puzzle.seeded, [const CrosswordSeedReveal(label: '5 Across', storyId: 'front', excerpt: 'A cold front swept in.')]);
+      expect(puzzle.toPayload()['teaser'], payload['teaser']);
+      expect(puzzle.toReveal()['seeded'], reveal['seeded']);
+      final again = CrosswordPuzzle.parse(puzzle.toPayload(), puzzle.toReveal());
+      expect(again.entries, puzzle.entries);
+      expect(again.seeded, puzzle.seeded);
+      expect(again.teaser, puzzle.teaser);
+    });
+
+    test('an unseeded puzzle has no teaser, no seeded entries and omits them from its json', () {
+      final puzzle = CrosswordPuzzle.parse(payloadFor(staircaseGrid), {'solution': staircaseSolution});
+      expect(puzzle.teaser, isNull);
+      expect(puzzle.seeded, isEmpty);
+      expect(puzzle.entries.any((e) => e.isSeeded), isFalse);
+      expect(puzzle.toPayload().containsKey('teaser'), isFalse);
+      expect(puzzle.toReveal().containsKey('seeded'), isFalse);
+      expect(puzzle.entryLabelled('9 Down'), isNull);
+    });
+
+    test('rejects malformed seeding', () {
+      final payload = payloadFor(staircaseGrid);
+      final reveal = {'solution': staircaseSolution};
+      expect(() => CrosswordPuzzle.parse({...payload, 'teaser': ' '}, reveal), throwsFormatException);
+      expect(() => CrosswordPuzzle.parse({...payload, 'teaser': 3}, reveal), throwsFormatException);
+      final badStory = payloadFor(staircaseGrid);
+      (((badStory['clues'] as Map)['across'] as List)[0] as Map)['storyId'] = '';
+      expect(() => CrosswordPuzzle.parse(badStory, reveal), throwsFormatException);
+      for (final seeded in [
+        'x',
+        [1],
+        [{'label': '5 Across', 'storyId': 'front'}],
+        [{'label': '9 Across', 'storyId': 'front', 'excerpt': 'x'}],
+        [{'label': '5 Across', 'storyId': '', 'excerpt': 'x'}],
+        [
+          {'label': '5 Across', 'storyId': 'a', 'excerpt': 'x'},
+          {'label': '5 Across', 'storyId': 'b', 'excerpt': 'y'},
+        ],
+      ]) {
+        expect(() => CrosswordPuzzle.parse(payload, {...reveal, 'seeded': seeded}), throwsFormatException, reason: '$seeded');
+      }
+    });
+
     test('rejects a clue whose number does not match the derived numbering', () {
       final payload = payloadFor(staircaseGrid);
       final across = (payload['clues'] as Map)['across'] as List;

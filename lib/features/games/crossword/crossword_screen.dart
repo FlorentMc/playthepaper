@@ -3,7 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
+import '../../../content/models.dart';
 import '../../../core/game_result.dart';
 import '../../../core/theme.dart';
 import '../../../engines/crossword/crossword_puzzle.dart';
@@ -13,6 +15,9 @@ import '../../../shared/widgets/letter_keyboard.dart';
 import '../../../storage/local_store.dart';
 import '../../play/play_context.dart';
 import 'crossword_grid.dart';
+
+const String _storiesTitle = "From today's stories";
+const String _seededSuffix = ", from today's stories";
 
 class CrosswordScreen extends StatefulWidget {
   const CrosswordScreen({super.key, required this.play});
@@ -129,8 +134,12 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
       isArchivePlay: _play.isArchivePlay,
     );
     setState(() => _result = result);
-    await _play.complete(context, result);
+    await _play.complete(context, result, revealTitle: _revealTitle, reveal: _reveal());
   }
+
+  String? get _revealTitle => _puzzle.seeded.isEmpty ? null : _storiesTitle;
+
+  Widget? _reveal() => _puzzle.seeded.isEmpty ? null : _StoriesReveal(puzzle: _puzzle, play: _play);
 
   void _tapCell(int cell) {
     if (cell == _state.selected) {
@@ -215,14 +224,30 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
       child: LayoutBuilder(
         builder: (context, constraints) {
           final wide = constraints.maxWidth >= 720;
-          final grid = Padding(
-            padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-            child: Center(
-              child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: 420),
-                child: CrosswordGrid(state: _state, onTap: _tapCell, enabled: !done),
+          final teaser = _puzzle.teaser;
+          final grid = Column(
+            children: [
+              if (teaser != null)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+                  child: Row(
+                    children: [
+                      Icon(Icons.newspaper, size: 14, color: colors.subtle),
+                      const SizedBox(width: 6),
+                      Expanded(child: Text('$_storiesTitle · $teaser', style: theme.textTheme.bodySmall)),
+                    ],
+                  ),
+                ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+                child: Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 420),
+                    child: CrosswordGrid(state: _state, onTap: _tapCell, enabled: !done),
+                  ),
+                ),
               ),
-            ),
+            ],
           );
           final info = Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -261,7 +286,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
                       Text(result.summary(), style: theme.textTheme.titleMedium, textAlign: TextAlign.center),
                       const SizedBox(height: 12),
                       FilledButton(
-                        onPressed: () => _play.showResult(context, result),
+                        onPressed: () => _play.showResult(context, result, revealTitle: _revealTitle, reveal: _reveal()),
                         child: const Text('See result'),
                       ),
                     ],
@@ -345,7 +370,7 @@ class _ClueBar extends StatelessWidget {
           Expanded(
             child: Semantics(
               button: true,
-              label: '${entry.label}: ${entry.clue}. Switch direction',
+              label: '${entry.label}: ${entry.clue}${entry.isSeeded ? _seededSuffix : ''}. Switch direction',
               child: InkWell(
                 onTap: onToggle,
                 child: Padding(
@@ -354,6 +379,7 @@ class _ClueBar extends StatelessWidget {
                     TextSpan(children: [
                       TextSpan(text: '${entry.label} · ', style: theme.textTheme.labelMedium),
                       TextSpan(text: entry.clue, style: theme.textTheme.bodyMedium),
+                      if (entry.isSeeded) _seededGlyph(theme),
                     ]),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
@@ -419,7 +445,7 @@ class _ClueColumn extends StatelessWidget {
           Semantics(
             button: true,
             selected: e == current,
-            label: '${e.label}, ${e.clue}${state.isEntryFull(e) ? ', filled' : ''}',
+            label: '${e.label}, ${e.clue}${e.isSeeded ? _seededSuffix : ''}${state.isEntryFull(e) ? ', filled' : ''}',
             child: InkWell(
               onTap: () => onSelect(e),
               child: Container(
@@ -430,8 +456,11 @@ class _ClueColumn extends StatelessWidget {
                   children: [
                     SizedBox(width: 24, child: Text('${e.number}', style: theme.textTheme.labelMedium)),
                     Expanded(
-                      child: Text(
-                        e.clue,
+                      child: Text.rich(
+                        TextSpan(children: [
+                          TextSpan(text: e.clue),
+                          if (e.isSeeded) _seededGlyph(theme),
+                        ]),
                         style: theme.textTheme.bodyMedium?.copyWith(
                           color: state.isEntryFull(e) ? colors.subtle : null,
                         ),
@@ -441,6 +470,80 @@ class _ClueColumn extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+      ],
+    );
+  }
+}
+
+/// The newspaper mark after a seeded clue. Silent to screen readers; the
+/// clue's semantics label carries the suffix instead.
+WidgetSpan _seededGlyph(ThemeData theme) => WidgetSpan(
+      alignment: PlaceholderAlignment.middle,
+      child: Padding(
+        padding: const EdgeInsets.only(left: 4),
+        child: Icon(Icons.newspaper, size: 14, color: theme.colorScheme.onSurface),
+      ),
+    );
+
+/// The result screen's explanation: which entries came from the news, the
+/// sentence each answer appeared in, and a link to the story.
+class _StoriesReveal extends StatelessWidget {
+  const _StoriesReveal({required this.puzzle, required this.play});
+
+  final CrosswordPuzzle puzzle;
+  final PlayContext play;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        for (final s in puzzle.seeded) ...[
+          _SeededEntry(
+            seed: s,
+            answer: puzzle.answerOf(puzzle.entryLabelled(s.label)!),
+            story: play.storyById(s.storyId),
+          ),
+          if (s != puzzle.seeded.last) const SizedBox(height: 12),
+        ],
+      ],
+    );
+  }
+}
+
+class _SeededEntry extends StatelessWidget {
+  const _SeededEntry({required this.seed, required this.answer, required this.story});
+
+  final CrosswordSeedReveal seed;
+  final String answer;
+  final Story? story;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final bold = theme.textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w700);
+    final spans = <InlineSpan>[];
+    var at = 0;
+    for (final m in RegExp('\\b$answer\\b', caseSensitive: false).allMatches(seed.excerpt)) {
+      if (m.start > at) spans.add(TextSpan(text: seed.excerpt.substring(at, m.start)));
+      spans.add(TextSpan(text: m.group(0), style: bold));
+      at = m.end;
+    }
+    if (at < seed.excerpt.length) spans.add(TextSpan(text: seed.excerpt.substring(at)));
+    final story = this.story;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('${seed.label} · $answer', style: bold),
+        const SizedBox(height: 2),
+        Text.rich(TextSpan(children: spans), style: theme.textTheme.bodyMedium),
+        if (story != null)
+          TextButton.icon(
+            style: TextButton.styleFrom(padding: EdgeInsets.zero),
+            icon: const Icon(Icons.open_in_new, size: 18),
+            label: Text('${story.publisher} · Read the story'),
+            onPressed: () => launchUrl(Uri.parse(story.url), mode: LaunchMode.externalApplication),
           ),
       ],
     );

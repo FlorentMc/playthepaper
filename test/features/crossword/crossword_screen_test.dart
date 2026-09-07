@@ -44,6 +44,39 @@ void main() {
     reveal: {'solution': solution},
   );
 
+  /// The same puzzle with 5 Across (FRONT) and 1 Down (FROST) seeded from stories.
+  const storyIds = {'5 Across': 'weather', '1 Down': 'farm'};
+  final seededRecord = PuzzleRecord(
+    id: id,
+    locale: 'en-GB',
+    contentVersion: 1,
+    scoringVersion: 1,
+    storyId: 'weather',
+    payload: {
+      ...record.payload,
+      'clues': {
+        for (final d in Direction.values)
+          d.name: [
+            for (final e in deriveEntries(grid))
+              if (e.direction == d)
+                {...e.toJson(), 'clue': 'Clue for ${e.label}', if (storyIds.containsKey(e.label)) 'storyId': storyIds[e.label]},
+          ],
+      },
+      'teaser': 'Two of today\'s clues come from the news.',
+    },
+    reveal: {
+      'solution': solution,
+      'seeded': [
+        {'label': '5 Across', 'storyId': 'weather', 'excerpt': 'A cold front swept across the country overnight.'},
+        {'label': '1 Down', 'storyId': 'farm', 'excerpt': 'Frost covered the fields by dawn.'},
+      ],
+    },
+  );
+  const stories = [
+    Story(id: 'weather', headline: 'Cold snap', summary: 's', publisher: 'The Gazette', url: 'https://example.com/cold', publishedAt: '2026-09-07'),
+    Story(id: 'farm', headline: 'Early frost', summary: 's', publisher: 'Farm Weekly', url: 'https://example.com/frost', publishedAt: '2026-09-07'),
+  ];
+
   setUpAll(() async {
     dir = await Directory.systemTemp.createTemp('daypencil_crossword');
     store = await LocalStore.open(subDir: dir.path);
@@ -63,8 +96,8 @@ void main() {
     await tester.pump(const Duration(milliseconds: 400));
   }
 
-  Future<void> pumpScreen(WidgetTester tester) async {
-    tester.view.physicalSize = const Size(430, 900);
+  Future<void> pumpScreen(WidgetTester tester, {bool seeded = false, Size size = const Size(430, 900)}) async {
+    tester.view.physicalSize = size;
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.reset);
     await tester.pumpWidget(
@@ -75,7 +108,11 @@ void main() {
         ],
         child: MaterialApp(
           theme: DaypencilTheme.light(),
-          home: CrosswordScreen(play: PlayContext(store: store, record: record)),
+          home: CrosswordScreen(
+            play: seeded
+                ? PlayContext(store: store, record: seededRecord, stories: stories)
+                : PlayContext(store: store, record: record),
+          ),
         ),
       ),
     );
@@ -137,6 +174,70 @@ void main() {
       await pumpScreen(tester);
       expect(find.text('See result'), findsOneWidget);
       expect(find.text('Solved in 1:01 · 1 hint'), findsOneWidget);
+      expect(find.byIcon(Icons.newspaper), findsNothing);
+      await tearDownScreen(tester);
+    });
+  });
+
+  testWidgets('an unseeded puzzle shows no teaser or newspaper glyph', (tester) async {
+    await tester.runAsync(() async {
+      await pumpScreen(tester);
+      expect(find.textContaining("From today's stories"), findsNothing);
+      expect(find.byIcon(Icons.newspaper), findsNothing);
+      await tearDownScreen(tester);
+    });
+  });
+
+  testWidgets('a seeded puzzle shows the teaser and marks seeded clues', (tester) async {
+    await tester.runAsync(() async {
+      final semantics = tester.ensureSemantics();
+      await pumpScreen(tester, seeded: true, size: const Size(430, 1400));
+      expect(find.text("From today's stories · Two of today's clues come from the news."), findsOneWidget);
+      // The teaser icon plus one glyph per seeded clue in the list; 1 Across is selected and unseeded.
+      expect(find.byIcon(Icons.newspaper), findsNWidgets(3));
+      expect(find.bySemanticsLabel(RegExp(r"^5 Across, Clue for 5 Across, from today's stories\n")), findsOneWidget);
+      expect(find.bySemanticsLabel(RegExp(r"^1 Across, Clue for 1 Across\n")), findsOneWidget);
+
+      await tester.tap(find.textContaining('Clue for 5 Across'));
+      await tester.pump();
+      expect(find.byIcon(Icons.newspaper), findsNWidgets(4));
+      expect(find.bySemanticsLabel(RegExp(r"^5 Across: Clue for 5 Across, from today's stories\. Switch direction")), findsOneWidget);
+      semantics.dispose();
+      await tearDownScreen(tester);
+    });
+  });
+
+  testWidgets('completing a seeded puzzle reveals the stories behind the seeded entries', (tester) async {
+    await tester.runAsync(() async {
+      await pumpScreen(tester, seeded: true);
+      for (final ch in 'FANTRUEFRONTRESTYET'.split('')) {
+        await tester.tap(key(ch));
+        await tester.pump();
+      }
+      await pumpUntil(tester, () => store.result(id) != null, reason: 'result saved');
+      await pumpUntil(tester, () => find.text("From today's stories").evaluate().isNotEmpty, reason: 'reveal shown');
+      await settle(tester);
+      expect(find.text('All filled in'), findsOneWidget);
+      expect(find.text('5 Across · FRONT'), findsOneWidget);
+      expect(find.text('1 Down · FROST'), findsOneWidget);
+      expect(find.textContaining('A cold front swept across the country overnight.'), findsOneWidget);
+      expect(find.textContaining('Frost covered the fields by dawn.'), findsOneWidget);
+      expect(find.text('The Gazette · Read the story'), findsOneWidget);
+      expect(find.text('Farm Weekly · Read the story'), findsOneWidget);
+      await tearDownScreen(tester);
+    });
+  });
+
+  testWidgets('See result on a completed seeded puzzle shows the same reveal', (tester) async {
+    await tester.runAsync(() async {
+      await store.saveResult(GameResult(puzzleId: id, completedAt: DateTime.utc(2026), solved: true, seconds: 61, hints: 0));
+      await pumpScreen(tester, seeded: true);
+      expect(find.text("From today's stories · Two of today's clues come from the news."), findsOneWidget);
+      await tester.tap(find.text('See result'));
+      await pumpUntil(tester, () => find.text("From today's stories").evaluate().isNotEmpty, reason: 'reveal shown');
+      await settle(tester);
+      expect(find.text('5 Across · FRONT'), findsOneWidget);
+      expect(find.text('Farm Weekly · Read the story'), findsOneWidget);
       await tearDownScreen(tester);
     });
   });

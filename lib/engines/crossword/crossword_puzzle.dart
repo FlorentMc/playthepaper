@@ -12,7 +12,8 @@ enum Direction {
 }
 
 /// One numbered entry: a maximal run of letter cells in one direction.
-/// [cells] are row-major grid indices, in reading order.
+/// [cells] are row-major grid indices, in reading order. [storyId] is set
+/// when the entry was seeded from one of the day's stories.
 class CrosswordEntry extends Equatable {
   CrosswordEntry({
     required this.number,
@@ -22,6 +23,7 @@ class CrosswordEntry extends Equatable {
     required this.direction,
     required int size,
     this.clue = '',
+    this.storyId,
   }) : cells = List.unmodifiable([
           for (var i = 0; i < length; i++)
             direction == Direction.across ? row * size + col + i : (row + i) * size + col,
@@ -35,6 +37,7 @@ class CrosswordEntry extends Equatable {
     required this.direction,
     required this.cells,
     required this.clue,
+    required this.storyId,
   });
 
   final int number;
@@ -44,11 +47,14 @@ class CrosswordEntry extends Equatable {
   final Direction direction;
   final List<int> cells;
   final String clue;
+  final String? storyId;
 
   /// `3 Across`.
   String get label => '$number ${direction.label}';
 
-  CrosswordEntry withClue(String clue) => CrosswordEntry._(
+  bool get isSeeded => storyId != null;
+
+  CrosswordEntry withClue(String clue, {String? storyId}) => CrosswordEntry._(
         number: number,
         row: row,
         col: col,
@@ -56,6 +62,7 @@ class CrosswordEntry extends Equatable {
         direction: direction,
         cells: cells,
         clue: clue,
+        storyId: storyId,
       );
 
   Map<String, dynamic> toJson() => {
@@ -64,10 +71,27 @@ class CrosswordEntry extends Equatable {
         'col': col,
         'length': length,
         'clue': clue,
+        if (storyId != null) 'storyId': storyId,
       };
 
   @override
-  List<Object?> get props => [number, row, col, length, direction, clue];
+  List<Object?> get props => [number, row, col, length, direction, clue, storyId];
+}
+
+/// One seeded entry as explained after play: which story it came from and
+/// the sentence of that story containing the answer.
+class CrosswordSeedReveal extends Equatable {
+  const CrosswordSeedReveal({required this.label, required this.storyId, required this.excerpt});
+
+  /// `5 Across`.
+  final String label;
+  final String storyId;
+  final String excerpt;
+
+  Map<String, dynamic> toJson() => {'label': label, 'storyId': storyId, 'excerpt': excerpt};
+
+  @override
+  List<Object?> get props => [label, storyId, excerpt];
 }
 
 const String blockChar = '#';
@@ -145,12 +169,15 @@ List<CrosswordEntry> deriveEntries(List<String> grid) {
 
 /// A parsed, validated crossword: grid, numbered and clued entries, and the
 /// solution. Entries are ordered across by number, then down by number.
+/// [teaser] and [seeded] are present when stories seeded some entries.
 class CrosswordPuzzle {
   CrosswordPuzzle._({
     required this.size,
     required this.grid,
     required this.solution,
     required this.entries,
+    required this.teaser,
+    required this.seeded,
   })  : _acrossAt = List<CrosswordEntry?>.filled(size * size, null),
         _downAt = List<CrosswordEntry?>.filled(size * size, null),
         _numberAt = List<int?>.filled(size * size, null) {
@@ -167,6 +194,8 @@ class CrosswordPuzzle {
   final List<String> grid;
   final List<String> solution;
   final List<CrosswordEntry> entries;
+  final String? teaser;
+  final List<CrosswordSeedReveal> seeded;
   final List<CrosswordEntry?> _acrossAt;
   final List<CrosswordEntry?> _downAt;
   final List<int?> _numberAt;
@@ -193,6 +222,9 @@ class CrosswordPuzzle {
 
   /// The clue number printed in [cell], if it starts an entry.
   int? numberAt(int cell) => _numberAt[cell];
+
+  /// The entry labelled `5 Across`, if any.
+  CrosswordEntry? entryLabelled(String label) => entries.where((e) => e.label == label).firstOrNull;
 
   String answerOf(CrosswordEntry entry) => entry.cells.map((c) => solution[rowOf(c)][colOf(c)]).join();
 
@@ -246,10 +278,24 @@ class CrosswordPuzzle {
             '(row ${e.row + 1}, column ${e.col + 1}, length ${e.length})',
           );
         }
-        entries.add(e.withClue(c.clue));
+        entries.add(e.withClue(c.clue, storyId: c.storyId));
       }
     }
-    return CrosswordPuzzle._(size: size, grid: List.unmodifiable(grid), solution: List.unmodifiable(solution), entries: List.unmodifiable(entries));
+
+    final teaser = payload['teaser'];
+    if (teaser != null && (teaser is! String || teaser.trim().isEmpty)) {
+      throw const FormatException('Crossword "teaser" must be a non-empty string');
+    }
+    final seeded = _seededList(reveal['seeded'], entries);
+
+    return CrosswordPuzzle._(
+      size: size,
+      grid: List.unmodifiable(grid),
+      solution: List.unmodifiable(solution),
+      entries: List.unmodifiable(entries),
+      teaser: teaser as String?,
+      seeded: List.unmodifiable(seeded),
+    );
   }
 
   Map<String, dynamic> toPayload() => {
@@ -262,9 +308,13 @@ class CrosswordPuzzle {
                 if (e.direction == direction) e.toJson(),
             ],
         },
+        if (teaser != null) 'teaser': teaser,
       };
 
-  Map<String, dynamic> toReveal() => {'solution': solution};
+  Map<String, dynamic> toReveal() => {
+        'solution': solution,
+        if (seeded.isNotEmpty) 'seeded': seeded.map((s) => s.toJson()).toList(),
+      };
 
   static List<String> _stringList(Object? raw, String field) {
     if (raw is! List || raw.isEmpty || raw.any((r) => r is! String)) {
@@ -289,20 +339,45 @@ class CrosswordPuzzle {
       if (clue is! String || clue.trim().isEmpty) {
         throw FormatException('Clue $number ${direction.name} has no text');
       }
-      out.add(_RawClue(number, row, col, length, clue));
+      final storyId = item['storyId'];
+      if (storyId != null && (storyId is! String || storyId.isEmpty)) {
+        throw FormatException('Clue $number ${direction.name} has an invalid storyId');
+      }
+      out.add(_RawClue(number, row, col, length, clue, storyId as String?));
     }
     out.sort((a, b) => a.number.compareTo(b.number));
+    return out;
+  }
+
+  static List<CrosswordSeedReveal> _seededList(Object? raw, List<CrosswordEntry> entries) {
+    if (raw == null) return const [];
+    if (raw is! List) throw const FormatException('Crossword reveal "seeded" must be a list');
+    final labels = <String>{};
+    final out = <CrosswordSeedReveal>[];
+    for (final item in raw) {
+      if (item is! Map) throw const FormatException('Each seeded reveal must be an object');
+      final label = item['label'];
+      final storyId = item['storyId'];
+      final excerpt = item['excerpt'];
+      if (label is! String || storyId is! String || storyId.isEmpty || excerpt is! String || excerpt.trim().isEmpty) {
+        throw FormatException('Seeded reveal needs a label, storyId and excerpt: $item');
+      }
+      if (!entries.any((e) => e.label == label)) throw FormatException('Seeded reveal names no entry: $label');
+      if (!labels.add(label)) throw FormatException('Seeded reveal repeats $label');
+      out.add(CrosswordSeedReveal(label: label, storyId: storyId, excerpt: excerpt));
+    }
     return out;
   }
 }
 
 class _RawClue {
-  const _RawClue(this.number, this.row, this.col, this.length, this.clue);
+  const _RawClue(this.number, this.row, this.col, this.length, this.clue, this.storyId);
   final int number;
   final int row;
   final int col;
   final int length;
   final String clue;
+  final String? storyId;
 }
 
 /// The answer of every entry, in entry order.

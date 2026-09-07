@@ -12,22 +12,12 @@ import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
 ///
 ///   dart run tool/gen_crossword.dart --from 2026-09-01 --to 2026-12-31 --out content/puzzles [--force]
 ///
-/// The seed is the FNV-1a hash of `crossword-<date>`, so a date always
-/// yields the same puzzle for the same bank and the same earlier puzzles in
-/// the output directory. Answers from the previous [_hardDays] days are
-/// never reused; answers from the previous [_recentDays] days are used only
-/// when nothing fresher fits: candidates are tried least-used first, up to
-/// [_candidates] fills are tried per template and the one whose answers
-/// were used least is kept. A fill that shares more than [_maxShared]
-/// answers with any puzzle of the previous [_historyDays] days is rejected.
-/// The summary line counts the repeats.
+/// A thin wrapper over [CrosswordGenerator]: a date always yields the same
+/// puzzle for the same bank and the same earlier puzzles in the output
+/// directory, which are read back as history. The summary line counts the
+/// answers repeated from the previous [CrosswordGenerator.recentDays] days.
 const _bankPath = 'content_src/crossword/clues.json';
 const _dictionaryPath = 'tool/data/enable1.txt';
-const _recentDays = 30;
-const _hardDays = 3;
-const _historyDays = 400;
-const _maxShared = 5;
-const _candidates = 6;
 
 Future<void> main(List<String> args) async {
   final options = _parseArgs(args);
@@ -39,16 +29,20 @@ Future<void> main(List<String> args) async {
   await outDir.create(recursive: true);
 
   final bank = _loadBank();
-  _checkDictionary(bank);
+  final CrosswordGenerator generator;
+  try {
+    generator = CrosswordGenerator(bank: bank, dictionary: _loadDictionary());
+  } on FormatException catch (e) {
+    _fail(e.message);
+  }
   stdout.writeln(
     'Bank: ${bank.entries.length} answers '
     '(${[3, 4, 5].map((n) => '$n-letter: ${bank.byLength[n]?.length ?? 0}').join(', ')})',
   );
 
-  final history = <DateTime, Set<String>>{};
-  for (var d = from.subtract(const Duration(days: _historyDays)); d.isBefore(from); d = d.add(const Duration(days: 1))) {
+  for (var d = from.subtract(Duration(days: generator.historyDays)); d.isBefore(from); d = d.add(const Duration(days: 1))) {
     final existing = _readExisting(outDir, d);
-    if (existing != null) history[d] = existing;
+    if (existing != null) generator.remember(d, existing);
   }
 
   final attempts = List<int>.filled(crosswordTemplates.length, 0);
@@ -63,87 +57,39 @@ Future<void> main(List<String> args) async {
     if (file.existsSync() && !force) {
       final existing = _readExisting(outDir, date);
       if (existing == null) _fail('$dateText: existing ${file.path} is not a valid crossword');
-      history[date] = existing;
+      generator.remember(date, existing);
       skipped++;
       stdout.writeln('$dateText  skipped (exists)');
       continue;
     }
 
-    final seed = fnv1a('crossword-$dateText');
-    final start = seed % crosswordTemplates.length;
-    final usage = _usage(history, date, _recentDays);
-    final banned = _recentAnswers(history, date, _hardDays);
-    CrosswordFill? fill;
-    int? templateIndex;
-    for (var k = 0; k < crosswordTemplates.length && fill == null; k++) {
-      final t = (start + k) % crosswordTemplates.length;
-      attempts[t]++;
-      var bestWear = 0;
-      for (var r = 0; r < _candidates; r++) {
-        final candidate = fillGrid(
-          crosswordTemplates[t],
-          bank,
-          SeededRandom(seed + k * _candidates + r),
-          used: banned,
-          usage: usage,
-        );
-        if (candidate == null) {
-          if (r == 0) break;
-          continue;
-        }
-        final answers = candidate.answers.values.toSet();
-        if (!_isNovel(answers, history, date)) continue;
-        final wear = answers.fold(0, (sum, w) => sum + (usage[w] ?? 0));
-        if (fill == null || wear < bestWear) {
-          fill = candidate;
-          bestWear = wear;
-        }
-        if (wear == 0) break;
+    final result = generator.generate(date);
+    if (result == null) {
+      for (var t = 0; t < crosswordTemplates.length; t++) {
+        attempts[t]++;
       }
-      if (fill != null) {
-        successes[t]++;
-        templateIndex = t;
-      }
-    }
-
-    if (fill == null) {
       failed++;
       stderr.writeln('$dateText  FAILED: no template could be filled');
       continue;
     }
+    for (final t in result.templatesTried) {
+      attempts[t]++;
+    }
+    successes[result.templateIndex]++;
 
-    final parts = buildRecordParts(fill, bank, SeededRandom(seed ^ 0x9E3779B9));
-    final record = PuzzleRecord(
-      id: id,
-      locale: 'en-GB',
-      contentVersion: 1,
-      scoringVersion: 1,
-      dictionaryVersion: 'enable1-2026-09',
-      payload: parts.payload,
-      reveal: parts.reveal,
-    );
-    final json = const JsonEncoder.withIndent('  ').convert(record.toJson());
-    final reparsed = PuzzleRecord.fromJson(jsonDecode(json) as Map<String, dynamic>);
-    final puzzle = CrosswordPuzzle.parse(reparsed.payload, reparsed.reveal);
-    final answers = answersOf(puzzle);
-    if (answers.toSet().length != answers.length) _fail('$dateText: duplicate answer in fill');
-    if (!answers.every((a) => fill!.answers.containsValue(a))) _fail('$dateText: solution does not match fill');
-
-    file.writeAsStringSync('$json\n');
-    history[date] = answers.toSet();
+    file.writeAsStringSync('${const JsonEncoder.withIndent('  ').convert(result.record.toJson())}\n');
     generated++;
-    final repeats = answers.where(usage.containsKey).length;
-    repeatsTotal += repeats;
-    final repeatNote = repeats == 0 ? '' : '  repeats $repeats';
+    repeatsTotal += result.repeats;
+    final repeatNote = result.repeats == 0 ? '' : '  repeats ${result.repeats}';
     stdout.writeln(
-      '$dateText  template $templateIndex ${crosswordTemplates[templateIndex!].join('/')}$repeatNote  ${answers.join(' ')}',
+      '$dateText  template ${result.templateIndex} ${crosswordTemplates[result.templateIndex].join('/')}$repeatNote  ${result.answers.join(' ')}',
     );
   }
 
   stdout.writeln('');
   stdout.writeln(
     'Generated $generated, skipped $skipped, failed $failed, '
-    'answers repeated from the previous $_recentDays days: $repeatsTotal',
+    'answers repeated from the previous ${generator.recentDays} days: $repeatsTotal',
   );
   for (var t = 0; t < crosswordTemplates.length; t++) {
     if (attempts[t] == 0) continue;
@@ -151,36 +97,6 @@ Future<void> main(List<String> args) async {
     stdout.writeln('template ${t.toString().padLeft(2)} ${crosswordTemplates[t].join('/')}  ${successes[t]}/${attempts[t]} ($pct%)');
   }
   if (failed > 0) exit(1);
-}
-
-/// A fill is novel when it shares at most [_maxShared] answers with every
-/// puzzle of the previous [_historyDays] days.
-bool _isNovel(Set<String> answers, Map<DateTime, Set<String>> history, DateTime date) {
-  for (var d = 1; d <= _historyDays; d++) {
-    final past = history[date.subtract(Duration(days: d))];
-    if (past != null && answers.intersection(past).length > _maxShared) return false;
-  }
-  return true;
-}
-
-/// How many times each answer appeared in the [days] before [date].
-Map<String, int> _usage(Map<DateTime, Set<String>> history, DateTime date, int days) {
-  final out = <String, int>{};
-  for (var d = 1; d <= days; d++) {
-    for (final w in history[date.subtract(Duration(days: d))] ?? const <String>{}) {
-      out[w] = (out[w] ?? 0) + 1;
-    }
-  }
-  return out;
-}
-
-Set<String> _recentAnswers(Map<DateTime, Set<String>> history, DateTime date, int days) {
-  final out = <String>{};
-  for (var d = 1; d <= days; d++) {
-    final past = history[date.subtract(Duration(days: d))];
-    if (past != null) out.addAll(past);
-  }
-  return out;
 }
 
 Set<String>? _readExisting(Directory outDir, DateTime date) {
@@ -200,12 +116,10 @@ CrosswordBank _loadBank() {
   return CrosswordBank.fromJson(jsonDecode(file.readAsStringSync()));
 }
 
-void _checkDictionary(CrosswordBank bank) {
+Set<String> _loadDictionary() {
   final file = File(_dictionaryPath);
   if (!file.existsSync()) _fail('Dictionary not found at $_dictionaryPath');
-  final words = file.readAsLinesSync().map((w) => w.trim().toUpperCase()).toSet();
-  final missing = bank.entries.where((e) => !words.contains(e.answer)).map((e) => e.answer).toList();
-  if (missing.isNotEmpty) _fail('Bank answers missing from ENABLE: ${missing.join(', ')}');
+  return file.readAsLinesSync().map((w) => w.trim().toUpperCase()).toSet();
 }
 
 Map<String, String> _parseArgs(List<String> args) {
