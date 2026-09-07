@@ -115,7 +115,7 @@ class _GameStats extends StatelessWidget {
                 _Cell('Best', '${summary.bestStreak}'),
               ],
             ),
-            if (summary.game == GameKind.word || summary.game == GameKind.correct) ...[
+            if (summary.game == GameKind.word) ...[
               const SizedBox(height: 12),
               _Distribution(summary.distribution),
             ],

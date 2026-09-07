@@ -107,13 +107,8 @@ void main(List<String> args) {
       if (!seen.add(id)) errors.add('editions/$d.json lists $id twice');
       referenced.add(id.toString());
       final record = loadPuzzle(id, 'editions/$d.json');
-      if (record != null && record.game.isNews) {
-        final story = m.stories.where((s) => s.id == record.storyId).firstOrNull;
-        if (story == null) {
-          errors.add('editions/$d.json: puzzle $id references story "${record.storyId}" that is not in the edition');
-        } else if (story.game != record.game) {
-          errors.add('editions/$d.json: story ${story.id} is for ${story.game.slug} but puzzle $id is ${record.game.slug}');
-        }
+      if (record?.storyId != null && m.story(record!.storyId!) == null) {
+        errors.add('editions/$d.json: puzzle $id references story "${record.storyId}" that is not in the edition');
       }
     }
     final storyIds = m.stories.map((s) => s.id).toList();
@@ -121,11 +116,9 @@ void main(List<String> args) {
     for (final s in m.stories) {
       if (!s.url.startsWith('https://')) errors.add('editions/$d.json: story ${s.id} url must be https');
     }
-    final news = [
-      for (final g in GameKind.newsOrder)
-        if (m.puzzleFor(g) != null) puzzleCache[m.puzzleFor(g).toString()],
-    ].whereType<PuzzleRecord>().toList();
-    errors.addAll(leakChecks(news).map((e) => 'editions/$d.json: $e'));
+    for (final storyId in m.seeds.keys) {
+      if (m.story(storyId) == null) errors.add('editions/$d.json: seeds reference unknown story "$storyId"');
+    }
   }
 
   final puzzleFiles = Directory('$root/puzzles')

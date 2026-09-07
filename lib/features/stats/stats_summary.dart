@@ -73,21 +73,16 @@ class StatsSummary {
         final pts = list.map((r) => r.points ?? 0).toList();
         rateLabel = 'Avg points';
         rateValue = pts.isEmpty ? '–' : (pts.reduce((a, b) => a + b) / pts.length).round().toString();
-      case GameKind.number:
-        final e = list.where((r) => r.errorPct != null).map((r) => r.errorPct!).toList();
-        rateLabel = 'Avg off';
-        rateValue = e.isEmpty ? '–' : '${(e.reduce((a, b) => a + b) / e.length).round()}%';
-      case GameKind.where:
-        final d = list.where((r) => r.distanceKm != null).map((r) => r.distanceKm!).toList();
-        rateLabel = 'Avg km';
-        rateValue = d.isEmpty ? '–' : (d.reduce((a, b) => a + b) / d.length).round().toString();
+      case GameKind.quiz:
+        final pts = list.map((r) => r.points ?? 0).toList();
+        rateLabel = 'Avg score';
+        rateValue = pts.isEmpty ? '–' : '${(pts.reduce((a, b) => a + b) / pts.length).toStringAsFixed(1)}/6';
       case GameKind.sudoku:
       case GameKind.crossword:
         final t = list.where((r) => r.solved && r.seconds != null).map((r) => r.seconds!).toList();
         rateLabel = 'Best time';
         rateValue = t.isEmpty ? '–' : GameResult.formatSeconds(t.reduce((a, b) => a < b ? a : b));
       case GameKind.word:
-      case GameKind.correct:
         rateLabel = 'Win rate';
         rateValue = played == 0 ? '–' : '${(solved * 100 / played).round()}%';
     }

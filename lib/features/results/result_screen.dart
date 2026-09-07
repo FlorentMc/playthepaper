@@ -89,7 +89,7 @@ class ResultScreen extends StatelessWidget {
             Text(ShareService.titleFor(id).toUpperCase(), style: theme.textTheme.labelSmall),
             const SizedBox(height: 4),
             Text(
-              result.solved ? _headline(result.game) : 'Not this time',
+              result.solved || result.game == GameKind.quiz ? _headline(result.game, result) : 'Not this time',
               style: DaypencilTheme.display(size: 30, color: theme.colorScheme.onSurface),
             ),
             const SizedBox(height: 6),
@@ -163,14 +163,17 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  String _headline(GameKind game) => switch (game) {
+  String _headline(GameKind game, GameResult result) => switch (game) {
         GameKind.word => 'Word found',
         GameKind.sudoku => 'Grid complete',
         GameKind.letters => 'Well spelled',
         GameKind.crossword => 'All filled in',
-        GameKind.correct => 'Corrected',
-        GameKind.number => 'Estimate in',
-        GameKind.where => 'Pin placed',
+        GameKind.quiz => switch (result.points ?? 0) {
+            6 => 'Full marks',
+            5 || 4 => 'Well read',
+            3 || 2 => 'Not bad',
+            _ => 'Tomorrow, then',
+          },
       };
 }
 
@@ -232,10 +235,10 @@ class _ChallengeCompare extends StatelessWidget {
     if (mine.solved != theirs.solved) return mine.solved ? 1 : -1;
     switch (mine.game) {
       case GameKind.word:
-      case GameKind.correct:
         if (mine.attempts == null || theirs.attempts == null) return null;
         return theirs.attempts!.compareTo(mine.attempts!);
       case GameKind.letters:
+      case GameKind.quiz:
         if (mine.points == null || theirs.points == null) return null;
         return mine.points!.compareTo(theirs.points!);
       case GameKind.sudoku:
@@ -244,12 +247,6 @@ class _ChallengeCompare extends StatelessWidget {
         if (mh != th) return th.compareTo(mh);
         if (mine.seconds == null || theirs.seconds == null) return null;
         return theirs.seconds!.compareTo(mine.seconds!);
-      case GameKind.number:
-        if (mine.errorPct == null || theirs.errorPct == null) return null;
-        return theirs.errorPct!.compareTo(mine.errorPct!);
-      case GameKind.where:
-        if (mine.distanceKm == null || theirs.distanceKm == null) return null;
-        return theirs.distanceKm!.compareTo(mine.distanceKm!);
     }
   }
 }

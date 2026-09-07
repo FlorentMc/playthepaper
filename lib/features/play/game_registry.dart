@@ -1,10 +1,8 @@
 import '../../core/game_kind.dart';
-import '../games/correct/correct_screen.dart';
 import '../games/crossword/crossword_screen.dart';
 import '../games/letters/letters_screen.dart';
-import '../games/number/number_screen.dart';
+import '../games/quiz/quiz_screen.dart';
 import '../games/sudoku/sudoku_screen.dart';
-import '../games/where/where_screen.dart';
 import '../games/word/word_screen.dart';
 import 'play_context.dart';
 
@@ -16,9 +14,7 @@ class GameRegistry {
     GameKind.sudoku: (context, play) => SudokuScreen(play: play),
     GameKind.letters: (context, play) => LettersScreen(play: play),
     GameKind.crossword: (context, play) => CrosswordScreen(play: play),
-    GameKind.correct: (context, play) => CorrectScreen(play: play),
-    GameKind.number: (context, play) => NumberScreen(play: play),
-    GameKind.where: (context, play) => WhereScreen(play: play),
+    GameKind.quiz: (context, play) => QuizScreen(play: play),
   };
 
   static final Map<GameKind, GameHelp> help = {
@@ -26,9 +22,7 @@ class GameRegistry {
     GameKind.sudoku: SudokuScreen.help,
     GameKind.letters: LettersScreen.help,
     GameKind.crossword: CrosswordScreen.help,
-    GameKind.correct: CorrectScreen.help,
-    GameKind.number: NumberScreen.help,
-    GameKind.where: WhereScreen.help,
+    GameKind.quiz: QuizScreen.help,
   };
 
   /// One-line description for the home page cards.
@@ -37,8 +31,6 @@ class GameRegistry {
     GameKind.sudoku: 'Three difficulties, notes and undo.',
     GameKind.letters: 'Seven letters. Find the words. Find the pangram.',
     GameKind.crossword: 'A compact 5×5 for a quick coffee.',
-    GameKind.correct: 'One detail in the dispatch is wrong. Fix it.',
-    GameKind.number: 'Estimate the figure behind the story.',
-    GameKind.where: 'Two clues, one map. Find the place.',
+    GameKind.quiz: 'Five questions from today\'s stories. One wager.',
   };
 }

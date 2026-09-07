@@ -41,13 +41,12 @@ class ShareService {
   static String challengeText(GameResult result) {
     final id = result.puzzleId;
     final verb = switch (id.game) {
-      GameKind.word || GameKind.correct => 'Beat my ${result.summary().toLowerCase()}',
+      GameKind.word => 'Beat my ${result.summary().toLowerCase()}',
+      GameKind.quiz => 'Beat my ${result.summary()}',
       GameKind.letters => 'Beat my ${result.points} points',
       GameKind.sudoku || GameKind.crossword => result.seconds == null
           ? 'Can you solve it?'
           : 'Beat my time of ${GameResult.formatSeconds(result.seconds!)}',
-      GameKind.number => 'Can you get closer than ${result.errorPct?.round()}% off?',
-      GameKind.where => 'Can you land closer than ${result.distanceKm?.round()} km?',
     };
     return 'Daypencil ${titleFor(id)} · ${dateLabel(id)}\n$verb\n${puzzleUrl(id, toBeat: result)}';
   }

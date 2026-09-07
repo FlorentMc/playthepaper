@@ -13,6 +13,7 @@ class PlayContext {
     required this.record,
     this.challenge,
     this.story,
+    this.stories = const [],
     this.isArchivePlay = false,
     this.onCompleted,
     this.nextLabel,
@@ -25,8 +26,13 @@ class PlayContext {
   /// A friend's result carried by a challenge link, if any.
   final GameResult? challenge;
 
-  /// The story behind a news puzzle, for the reveal and the Front Page.
+  /// The story that seeded this puzzle, if any, for the teaser and reveal.
   final Story? story;
+
+  /// Every story in the edition, for puzzles that reference several.
+  final List<Story> stories;
+
+  Story? storyById(String id) => stories.where((s) => s.id == id).firstOrNull;
 
   /// True when the puzzle is played from the archive after its own date.
   final bool isArchivePlay;

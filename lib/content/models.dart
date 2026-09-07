@@ -77,11 +77,11 @@ enum EditionKind {
       values.firstWhere((k) => k.slug == s, orElse: () => throw FormatException('Unknown edition kind: $s'));
 }
 
-/// One of the three stories behind the news edition.
+/// A story behind the day's edition. Stories feed the quiz questions and
+/// seed the classics; the manifest's [EditionManifest.seeds] says which.
 class Story extends Equatable {
   const Story({
     required this.id,
-    required this.game,
     required this.headline,
     required this.summary,
     required this.publisher,
@@ -90,12 +90,9 @@ class Story extends Equatable {
   });
 
   final String id;
-
-  /// Which news game this story feeds.
-  final GameKind game;
   final String headline;
 
-  /// Two or three plain sentences explaining the story after the reveal.
+  /// Two or three plain sentences explaining the story.
   final String summary;
   final String publisher;
   final String url;
@@ -103,11 +100,8 @@ class Story extends Equatable {
 
   static Story fromJson(Map<String, dynamic> json) {
     const where = 'story';
-    final game = GameKind.fromSlug(_string(json, 'game', where));
-    if (!game.isNews) throw FormatException('Story game must be a news game: ${game.slug}');
     return Story(
       id: _string(json, 'id', where),
-      game: game,
       headline: _string(json, 'headline', where),
       summary: _string(json, 'summary', where),
       publisher: _string(json, 'publisher', where),
@@ -118,7 +112,6 @@ class Story extends Equatable {
 
   Map<String, dynamic> toJson() => {
         'id': id,
-        'game': game.slug,
         'headline': headline,
         'summary': summary,
         'publisher': publisher,
@@ -127,7 +120,7 @@ class Story extends Equatable {
       };
 
   @override
-  List<Object?> get props => [id, game, headline, summary, publisher, url, publishedAt];
+  List<Object?> get props => [id, headline, summary, publisher, url, publishedAt];
 }
 
 /// Lists the exact puzzle versions for one date.
@@ -139,6 +132,7 @@ class EditionManifest extends Equatable {
     required this.puzzles,
     required this.stories,
     required this.version,
+    this.seeds = const {},
     this.publishedAt,
     this.correctionNote,
   });
@@ -153,6 +147,9 @@ class EditionManifest extends Equatable {
   final List<PuzzleId> puzzles;
   final List<Story> stories;
   final int version;
+
+  /// Story id → what it fed, e.g. `["quiz:1", "quiz:4", "word", "crossword:5 Across"]`.
+  final Map<String, List<String>> seeds;
   final String? publishedAt;
 
   /// Present when a puzzle in this edition was revised after opening.
@@ -167,12 +164,7 @@ class EditionManifest extends Equatable {
     return null;
   }
 
-  Story? storyFor(GameKind game) {
-    for (final s in stories) {
-      if (s.game == game) return s;
-    }
-    return null;
-  }
+  Story? story(String id) => stories.where((s) => s.id == id).firstOrNull;
 
   bool get isComplete {
     for (final g in GameKind.values) {
@@ -184,7 +176,7 @@ class EditionManifest extends Equatable {
         return false;
       }
     }
-    return GameKind.newsOrder.every((g) => storyFor(g) != null);
+    return stories.length >= 3;
   }
 
   static EditionManifest fromJson(Map<String, dynamic> json) {
@@ -200,6 +192,15 @@ class EditionManifest extends Equatable {
     }
     final rawStories = json['stories'];
     if (rawStories is! List) _missing('stories', where);
+    final rawSeeds = json['seeds'];
+    final seeds = <String, List<String>>{};
+    if (rawSeeds is Map) {
+      for (final e in rawSeeds.entries) {
+        final v = e.value;
+        if (v is! List) throw FormatException('seeds for ${e.key} must be a list');
+        seeds[e.key as String] = v.map((x) => x.toString()).toList();
+      }
+    }
     return EditionManifest(
       date: date,
       kind: EditionKind.fromSlug(_string(json, 'kind', where)),
@@ -207,6 +208,7 @@ class EditionManifest extends Equatable {
       puzzles: puzzles,
       stories: rawStories.map((s) => Story.fromJson(_map(s, 'story', where))).toList(),
       version: _int(json, 'version', where),
+      seeds: seeds,
       publishedAt: json['publishedAt'] as String?,
       correctionNote: json['correctionNote'] as String?,
     );
@@ -219,12 +221,13 @@ class EditionManifest extends Equatable {
         'puzzles': puzzles.map((p) => p.toString()).toList(),
         'stories': stories.map((s) => s.toJson()).toList(),
         'version': version,
+        if (seeds.isNotEmpty) 'seeds': seeds,
         if (publishedAt != null) 'publishedAt': publishedAt,
         if (correctionNote != null) 'correctionNote': correctionNote,
       };
 
   @override
-  List<Object?> get props => [date, kind, label, puzzles, stories, version, publishedAt, correctionNote];
+  List<Object?> get props => [date, kind, label, puzzles, stories, version, seeds, publishedAt, correctionNote];
 }
 
 /// A source passage backing a news puzzle.
@@ -271,7 +274,8 @@ class PuzzleRecord extends Equatable {
   final Map<String, dynamic> payload;
   final Map<String, dynamic> reveal;
 
-  /// News puzzles reference their story in the edition manifest.
+  /// The story that seeded this puzzle, when there is one. Quiz questions
+  /// reference their stories individually inside the payload.
   final String? storyId;
   final List<SourceRef> sources;
 
@@ -300,9 +304,6 @@ class PuzzleRecord extends Equatable {
     );
     if (record.contentVersion != id.version) {
       throw FormatException('Puzzle $id contentVersion ${record.contentVersion} does not match id');
-    }
-    if (id.game.isNews && record.storyId == null) {
-      throw FormatException('News puzzle $id must reference a story');
     }
     return record;
   }

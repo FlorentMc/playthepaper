@@ -20,12 +20,12 @@ lib/
     play/          PlayContext, GameRegistry, PlayScreen (opens any puzzle id)
     results/       ResultScreen, ShareService
     games/<game>/  <game>_screen.dart exports <Game>Screen({required PlayContext play}) and static help
-    news/          NewsEditionScreen (flow), FrontPageScreen
+    news/          NewsEditionScreen (the quiz, then the Front Page), FrontPageScreen
     home/ archive/ stats/ settings/ about/
   shared/widgets/  GameShell, showHelpSheet, Rule, LetterKeyboard
 tool/              Dart CLI generators and the validator (dart run tool/<x>.dart)
 content/           the published content tree (index.json, editions/, puzzles/)
-content_src/       hand-written sources: evergreen news templates, crossword clue bank
+content_src/       hand-written sources: evergreen edition templates, crossword clue bank; news/<date>.json written by the publisher
 assets/content/    a subset of content/ bundled with the app (starter editions)
 assets/dictionaries/words6_en.txt   6-letter valid guesses, uppercase, one per line (ENABLE)
 assets/map/ne_110m_land.geojson     Natural Earth coastlines
@@ -48,15 +48,18 @@ tool/data/enable1.txt, 20k.txt      full dictionary and common-word list, for ge
 `content/editions/2026-09-08.json`
 ```json
 {
-  "date": "2026-09-08", "kind": "news" | "evergreen", "label": "Today" | "Evergreen · Science",
+  "date": "2026-09-08", "kind": "news" | "evergreen", "label": "Today" | "Evergreen · Nature",
   "version": 1, "publishedAt": "2026-09-08T02:20:00Z",
   "puzzles": ["word-2026-09-08-en-v1", "sudoku-2026-09-08-en-easy-v1", "sudoku-2026-09-08-en-medium-v1",
               "sudoku-2026-09-08-en-hard-v1", "letters-2026-09-08-en-v1", "crossword-2026-09-08-en-v1",
-              "correct-2026-09-08-en-v1", "number-2026-09-08-en-v1", "where-2026-09-08-en-v1"],
-  "stories": [{"id": "...", "game": "correct", "headline": "...", "summary": "...",
-               "publisher": "...", "url": "https://...", "publishedAt": "2026-09-07"}]
+              "quiz-2026-09-08-en-v1"],
+  "stories": [{"id": "nature-1-whale", "headline": "...", "summary": "...",
+               "publisher": "...", "url": "https://...", "publishedAt": "2026-09-07"}],
+  "seeds": {"nature-1-whale": ["quiz:1", "quiz:4", "word"], "nature-1-falls": ["quiz:2", "crossword:5 Across"]}
 }
 ```
+`seeds` maps a story id to what it fed: `quiz:<question number>`, `word`, `letters`, `crossword:<entry label>`.
+An edition is complete with the four classics (sudoku three times), the quiz, and at least three stories.
 
 `content/puzzles/<id>.json` (common envelope, see `PuzzleRecord`)
 ```json
@@ -64,7 +67,7 @@ tool/data/enable1.txt, 20k.txt      full dictionary and common-word list, for ge
   "id": "word-2026-09-08-en-v1", "game": "word", "editionDate": "2026-09-08", "locale": "en-GB",
   "contentVersion": 1, "scoringVersion": 1, "dictionaryVersion": "enable1-2026-09",
   "payload": {...}, "reveal": {...},
-  "storyId": "only for news games", "sources": [{"publisher": "", "url": "", "excerpt": ""}]
+  "storyId": "the story that seeded this puzzle, if any", "sources": [{"publisher": "", "url": "", "excerpt": ""}]
 }
 ```
 
@@ -109,36 +112,58 @@ reveal:  {"solution": ["ABCD#", "EFGHI", ...]}
 in that direction, is a block or edge, and the entry is at least 2 cells). Clue numbers in the
 payload must equal the derived numbering. Result: `seconds`, `hints` (checks and reveals used), `solved`.
 
-**correct** (find the altered detail, then repair it)
+**quiz** (five questions from the day's stories, one wager)
 ```json
-payload: {"dispatch": "text containing every detail verbatim",
-          "details": ["1889", "230 metres", "Paris"],
-          "options": ["330 metres", "300 metres", "430 metres", "230 metres"],
-          "evidence": [{"title": "...", "text": "...", "source": "Wikipedia"}],
-          "maxAttempts": 3}
-reveal:  {"alteredDetail": 1, "correctOption": 0, "explanation": "..."}
+payload: {"questions": [{"prompt": "How much does a blue whale's heart weigh?",
+                         "options": ["18 kg", "180 kg", "1,800 kg", "18,000 kg"], "storyId": "nature-1-whale"}],
+          "wagerQuestion": 4}
+reveal:  {"answers": [1, 0, 2, 3, 1],
+          "explanations": ["180 kg, the largest heart known in any animal. When the whale dives it can slow to two beats a minute."]}
 ```
-Step 1: pick the altered detail. Step 2: pick the repair. Each wrong pick uses one attempt.
-`attempts` = wrong picks + 1. `solved` if both steps done within `maxAttempts`.
+Exactly five questions, four distinct options each, `answers[i]` is the index of the correct option, one
+explanation per question (two plain sentences, warm not wry), every question names its story. One point per
+correct answer. Before the wager question (index `wagerQuestion`, default 4) a player with at least one
+point may stake one: correct scores 2 for that question, wrong loses the stake. `maxPoints` is 6.
+Result: `points`, `maxPoints: 6`, `solved: true` (a finished quiz is always a result), one `shareLines`
+entry of 🟩/🟥 per question with ⭐ before the wager mark when staked.
 
-**number**
-```json
-payload: {"question": "How tall is the Eiffel Tower, to the tip?", "unit": "metres",
-          "min": 100, "max": 600, "step": 1, "comparison": "The Shard in London is 310 metres."}
-reveal:  {"answer": 330, "context": "...", "scoring": {"perfectPct": 2, "zeroPct": 50}}
-```
-`errorPct = |guess − answer| / answer × 100`. `solved` = errorPct ≤ zeroPct.
+### Story seeding of the classics
 
-**where**
+The same stories seed the classics so the paper reads as one edition. Seeding is optional per puzzle;
+an unseeded puzzle is a plain classic. When seeded:
+
+* `storyId` at record level names the story.
+* **word**: `payload.teaser` ("Today's word comes from a story about the deep sea."), `reveal.excerpt`
+  (the sentence from the story containing the answer). The answer must appear verbatim in the excerpt
+  and be in the shipped guess list.
+* **letters**: `payload.teaser`, `reveal.excerpt` containing the pangram. The pangram must be one of
+  `reveal.pangrams`.
+* **crossword**: seeded clues carry `storyId`; `payload.teaser`; `reveal.seeded` lists
+  `{"label": "5 Across", "storyId": "...", "excerpt": "..."}` and each answer appears verbatim in its excerpt.
+
+The validator checks every one of those rules mechanically.
+
+### Edition templates (`content_src/evergreen/<slug>.json`, `content_src/news/<date>.json`)
+
 ```json
-payload: {"clues": ["...", "..."]}
-reveal:  {"lat": 48.858, "lon": 2.294, "placeName": "Paris, France", "acceptRadiusKm": 300, "explanation": "..."}
+{
+  "slug": "nature-1", "label": "Evergreen · Nature",
+  "stories": [ {Story}, {Story}, {Story} ],
+  "quiz": {"payload": {...}, "reveal": {...}},
+  "seeds": {
+    "word":      {"answer": "WHALES", "storyId": "...", "teaser": "...", "excerpt": "..."},
+    "letters":   {"pangram": "EXPLORE", "storyId": "...", "teaser": "...", "excerpt": "..."} | null,
+    "crossword": [{"answer": "ANGEL", "clue": "Falls in Venezuela, 979 metres tall", "storyId": "...", "excerpt": "..."}]
+  }
+}
 ```
-Distance by haversine (Earth radius 6371 km). `solved` = distance ≤ acceptRadiusKm.
+`tool/build_content.dart` stamps a template onto each date (news file if present, else evergreen by
+rotation), generates the seeded classics through the engine generators, writes the quiz, computes
+`seeds`, and bumps a puzzle's version when its content differs from an existing file.
 
 ## Game screen contract
 
-Each `lib/features/games/<game>/<game>_screen.dart` exports:
+Each `lib/features/games/<game>/<game>_screen.dart` exports (the quiz likewise, `QuizScreen`):
 
 ```dart
 class WordScreen extends StatefulWidget {

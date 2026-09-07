@@ -15,23 +15,21 @@ Map<String, dynamic> editionJson({List<String>? puzzles, List<Map<String, dynami
             'sudoku-2026-09-08-en-hard-v1',
             'letters-2026-09-08-en-v1',
             'crossword-2026-09-08-en-v1',
-            'correct-2026-09-08-en-v1',
-            'number-2026-09-08-en-v1',
-            'where-2026-09-08-en-v1',
+            'quiz-2026-09-08-en-v1',
           ],
       'stories': stories ??
           [
-            for (final g in ['correct', 'number', 'where'])
+            for (final n in ['a', 'b', 'c'])
               {
-                'id': 'story-$g',
-                'game': g,
-                'headline': 'Headline $g',
+                'id': 'story-$n',
+                'headline': 'Headline $n',
                 'summary': 'Summary.',
                 'publisher': 'Wikipedia',
                 'url': 'https://en.wikipedia.org/',
                 'publishedAt': '2026-09-01',
               },
           ],
+      'seeds': {'story-a': ['quiz:1', 'word'], 'story-b': ['quiz:2', 'crossword:5 Across']},
     };
 
 void main() {
@@ -41,7 +39,8 @@ void main() {
       expect(m.isComplete, isTrue);
       expect(m.puzzleFor(GameKind.sudoku, difficulty: Difficulty.hard)!.toString(), 'sudoku-2026-09-08-en-hard-v1');
       expect(m.puzzleFor(GameKind.sudoku), isNull);
-      expect(m.storyFor(GameKind.where)!.headline, 'Headline where');
+      expect(m.story('story-c')!.headline, 'Headline c');
+      expect(m.seeds['story-a'], ['quiz:1', 'word']);
       expect(EditionManifest.fromJson(m.toJson()), m);
     });
 
@@ -52,13 +51,21 @@ void main() {
         'sudoku-2026-09-08-en-medium-v1',
         'letters-2026-09-08-en-v1',
         'crossword-2026-09-08-en-v1',
-        'correct-2026-09-08-en-v1',
-        'number-2026-09-08-en-v1',
-        'where-2026-09-08-en-v1',
+        'quiz-2026-09-08-en-v1',
       ]));
       expect(noHard.isComplete, isFalse);
-      final noStory = EditionManifest.fromJson(editionJson(stories: []));
-      expect(noStory.isComplete, isFalse);
+      final twoStories = EditionManifest.fromJson(editionJson(stories: [
+        for (final n in ['a', 'b'])
+          {
+            'id': 'story-$n',
+            'headline': 'h',
+            'summary': 's',
+            'publisher': 'p',
+            'url': 'u',
+            'publishedAt': 'd',
+          }
+      ]));
+      expect(twoStories.isComplete, isFalse);
     });
 
     test('rejects a puzzle from another date', () {
@@ -68,35 +75,19 @@ void main() {
       );
     });
 
-    test('rejects a story for a classic game', () {
-      expect(
-        () => EditionManifest.fromJson(editionJson(stories: [
-          {
-            'id': 's',
-            'game': 'word',
-            'headline': 'h',
-            'summary': 's',
-            'publisher': 'p',
-            'url': 'u',
-            'publishedAt': 'd',
-          }
-        ])),
-        throwsFormatException,
-      );
-    });
   });
 
   group('PuzzleRecord', () {
     final base = {
-      'id': 'number-2026-09-08-en-v1',
-      'game': 'number',
+      'id': 'word-2026-09-08-en-v1',
+      'game': 'word',
       'editionDate': '2026-09-08',
       'locale': 'en-GB',
       'contentVersion': 1,
       'scoringVersion': 1,
-      'payload': {'question': 'How tall?'},
-      'reveal': {'answer': 330},
-      'storyId': 'story-number',
+      'payload': {'length': 6, 'firstLetter': 'W', 'maxGuesses': 6},
+      'reveal': {'answer': 'WHALES'},
+      'storyId': 'story-a',
       'sources': [
         {'publisher': 'Wikipedia', 'url': 'https://example.org', 'excerpt': 'It is 330 m tall.'}
       ],
@@ -104,19 +95,15 @@ void main() {
 
     test('parses and round trips', () {
       final r = PuzzleRecord.fromJson(base);
-      expect(r.game, GameKind.number);
+      expect(r.game, GameKind.word);
+      expect(r.storyId, 'story-a');
       expect(r.sources.single.excerpt, 'It is 330 m tall.');
       expect(PuzzleRecord.fromJson(r.toJson()), r);
     });
 
     test('rejects mismatched game or version', () {
-      expect(() => PuzzleRecord.fromJson({...base, 'game': 'where'}), throwsFormatException);
+      expect(() => PuzzleRecord.fromJson({...base, 'game': 'quiz'}), throwsFormatException);
       expect(() => PuzzleRecord.fromJson({...base, 'contentVersion': 2}), throwsFormatException);
-    });
-
-    test('news puzzles must reference a story', () {
-      final noStory = Map<String, dynamic>.from(base)..remove('storyId');
-      expect(() => PuzzleRecord.fromJson(noStory), throwsFormatException);
     });
 
     test('missing fields fail loudly', () {

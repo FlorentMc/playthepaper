@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../../content/content_repository.dart';
 import '../../content/models.dart';
+import '../../core/game_kind.dart';
 import '../../core/game_result.dart';
 import '../../core/puzzle_id.dart';
 import '../../storage/local_store.dart';
@@ -34,9 +35,10 @@ class PlayScreen extends StatefulWidget {
 }
 
 class _LoadedPlay {
-  _LoadedPlay(this.record, this.story);
+  _LoadedPlay(this.record, this.story, this.stories);
   final PuzzleRecord record;
   final Story? story;
+  final List<Story> stories;
 }
 
 class _PlayScreenState extends State<PlayScreen> {
@@ -54,15 +56,17 @@ class _PlayScreenState extends State<PlayScreen> {
     final repo = context.read<ContentRepository>();
     final record = await repo.puzzle(id);
     Story? story;
-    if (id.game.isNews) {
+    var stories = const <Story>[];
+    if (record.storyId != null || id.game == GameKind.quiz) {
       try {
         final edition = await repo.edition(id.date);
-        story = edition.stories.where((s) => s.id == record.storyId).firstOrNull ?? edition.storyFor(id.game);
+        stories = edition.stories;
+        story = record.storyId == null ? null : edition.story(record.storyId!);
       } on ContentNotFound {
         story = null;
       }
     }
-    return _LoadedPlay(record, story);
+    return _LoadedPlay(record, story, stories);
   }
 
   @override
@@ -113,6 +117,7 @@ class _PlayScreenState extends State<PlayScreen> {
           store: store,
           record: loaded.record,
           story: loaded.story,
+          stories: loaded.stories,
           challenge: challenge,
           isArchivePlay: id.date.isBefore(editions.todayDate),
           nextLabel: widget.nextLabel,

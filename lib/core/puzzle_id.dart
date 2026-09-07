@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 import 'edition_clock.dart';
 import 'game_kind.dart';
 
-/// A permanent identity for one puzzle: `word-2026-09-08-en-v1` or
+/// A permanent identity for one puzzle: `word-2026-09-08-en-v1`, `quiz-2026-09-08-en-v1` or
 /// `sudoku-2026-09-08-en-hard-v1`. A shared link always opens this exact
 /// puzzle and this exact content version.
 class PuzzleId extends Equatable {
@@ -22,7 +22,7 @@ class PuzzleId extends Equatable {
   final int version;
 
   static final RegExp _pattern = RegExp(
-    r'^(word|sudoku|letters|crossword|correct|number|where)'
+    r'^(word|sudoku|letters|crossword|quiz)'
     r'-(\d{4}-\d{2}-\d{2})'
     r'-([a-z]{2})'
     r'(?:-(easy|medium|hard))?'

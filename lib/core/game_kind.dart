@@ -3,9 +3,7 @@ enum GameKind {
   sudoku('sudoku', 'Sudoku', isClassic: true),
   letters('letters', 'Letters', isClassic: true),
   crossword('crossword', 'Mini Crossword', isClassic: true),
-  correct('correct', 'Correct', isClassic: false),
-  number('number', 'The Number', isClassic: false),
-  where('where', 'Where', isClassic: false);
+  quiz('quiz', 'The Quiz', isClassic: false);
 
   const GameKind(this.slug, this.title, {required this.isClassic});
 
@@ -25,8 +23,9 @@ enum GameKind {
   static List<GameKind> get classics =>
       values.where((k) => k.isClassic).toList(growable: false);
 
-  /// The fixed order of the news edition.
-  static List<GameKind> get newsOrder => const [correct, number, where];
+  /// The news edition is the quiz. The classics are seeded from the same
+  /// stories but keep their own logic.
+  static List<GameKind> get newsOrder => const [quiz];
 }
 
 enum Difficulty {

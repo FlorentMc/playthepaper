@@ -36,7 +36,6 @@ flutter:
     - assets/content/editions/
     - assets/content/puzzles/
     - assets/dictionaries/
-    - assets/map/
   fonts:
     - family: Playfair Display
       fonts:

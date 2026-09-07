@@ -28,10 +28,10 @@ class GameResult extends Equatable {
   final DateTime completedAt;
   final bool solved;
 
-  /// Guesses used (Daily Word, Correct).
+  /// Guesses used (Daily Word).
   final int? attempts;
 
-  /// Points earned (Letters).
+  /// Points earned (Letters, The Quiz).
   final int? points;
   final int? maxPoints;
 
@@ -41,10 +41,10 @@ class GameResult extends Equatable {
   /// Hints or reveals used (Crossword, Sudoku).
   final int? hints;
 
-  /// Distance from the target (Where).
+  /// Reserved for games that measure distance; unused today.
   final double? distanceKm;
 
-  /// Percentage error of the estimate (The Number).
+  /// Reserved for games that measure estimation error; unused today.
   final double? errorPct;
 
   /// Optional spoiler-free emoji rows for the share card.
@@ -60,8 +60,8 @@ class GameResult extends Equatable {
     switch (game) {
       case GameKind.word:
         return solved ? 'Solved in $attempts/6' : 'Not solved';
-      case GameKind.correct:
-        return solved ? 'Corrected on attempt $attempts' : 'Not corrected';
+      case GameKind.quiz:
+        return '$points/${maxPoints ?? 6}';
       case GameKind.letters:
         final max = maxPoints == null ? '' : ' of $maxPoints';
         return '$points points$max';
@@ -70,12 +70,6 @@ class GameResult extends Equatable {
         final time = seconds == null ? '' : ' in ${formatSeconds(seconds!)}';
         final h = (hints ?? 0) == 0 ? '' : ' · $hints hint${hints == 1 ? '' : 's'}';
         return solved ? 'Solved$time$h' : 'Not solved';
-      case GameKind.number:
-        if (errorPct == null) return 'No estimate';
-        return '${errorPct!.round()}% off';
-      case GameKind.where:
-        if (distanceKm == null) return 'No guess';
-        return '${distanceKm!.round()} km away';
     }
   }
 

@@ -74,29 +74,28 @@ class _NewsCard extends StatelessWidget {
     final store = context.watch<LocalStore>();
     final theme = Theme.of(context);
     final colors = context.gameColors;
-    final rounds = GameKind.newsOrder.map((g) => manifest.puzzleFor(g)).toList();
-    final done = rounds.where((id) => id != null && store.isCompleted(id)).length;
-    final started = rounds.any((id) => id != null && (store.isCompleted(id) || store.hasProgress(id)));
-    final available = rounds.every((id) => id != null);
-    final kindLabel = manifest.kind == EditionKind.evergreen ? 'Evergreen edition' : 'News edition';
+    final quiz = manifest.puzzleFor(GameKind.quiz);
+    final result = quiz == null ? null : store.result(quiz);
+    final inProgress = quiz != null && store.hasProgress(quiz);
+    final kindLabel = manifest.kind == EditionKind.evergreen ? 'Evergreen edition' : 'Today\'s edition';
 
     final String action;
-    if (!available) {
+    if (quiz == null) {
       action = 'Not available';
-    } else if (done == rounds.length) {
+    } else if (result != null) {
       action = 'Read the Front Page';
-    } else if (started) {
-      action = 'Continue the edition';
+    } else if (inProgress) {
+      action = 'Continue the quiz';
     } else {
-      action = 'Start the edition';
+      action = 'Start the quiz';
     }
 
     return Card(
       child: InkWell(
         borderRadius: BorderRadius.circular(8),
-        onTap: !available
+        onTap: quiz == null
             ? null
-            : () => done == rounds.length
+            : () => result != null
                 ? context.push('/front/${manifest.dateString}')
                 : context.push('/news/${manifest.dateString}'),
         child: Padding(
@@ -107,30 +106,37 @@ class _NewsCard extends StatelessWidget {
               Row(
                 children: [
                   Expanded(child: Text(kindLabel.toUpperCase(), style: theme.textTheme.labelSmall)),
-                  Text('$done / ${rounds.length}', style: theme.textTheme.labelSmall),
+                  if (result != null) Text(result.summary(), style: theme.textTheme.labelSmall),
                 ],
               ),
               const SizedBox(height: 6),
               Text(
-                manifest.kind == EditionKind.evergreen ? manifest.label : 'Three stories, three rounds',
+                manifest.kind == EditionKind.evergreen ? manifest.label : 'The Quiz',
                 style: DaypencilTheme.display(size: 22, color: theme.colorScheme.onSurface),
               ),
               const SizedBox(height: 8),
               Text(
-                'Correct · The Number · Where · Front Page. About four minutes.',
+                'Five questions from ${manifest.stories.length} stories, one wager. '
+                'The same stories seed today\'s word, letters and crossword.',
                 style: theme.textTheme.bodyMedium,
               ),
               const SizedBox(height: 14),
               Row(
                 children: [
-                  for (var i = 0; i < rounds.length; i++) ...[
-                    _RoundDot(
-                      label: GameKind.newsOrder[i].title,
-                      done: rounds[i] != null && store.isCompleted(rounds[i]!),
-                      color: colors.correct,
+                  for (var i = 0; i < manifest.stories.length; i++) ...[
+                    Icon(
+                      result != null ? Icons.check_circle : Icons.circle_outlined,
+                      size: 14,
+                      color: result != null ? colors.correct : theme.colorScheme.outline,
                     ),
-                    if (i < rounds.length - 1) const SizedBox(width: 12),
+                    const SizedBox(width: 6),
                   ],
+                  Expanded(
+                    child: Text(
+                      result != null ? 'Stories unlocked' : '${manifest.stories.length} stories to unlock',
+                      style: theme.textTheme.labelSmall,
+                    ),
+                  ),
                 ],
               ),
               const SizedBox(height: 14),
@@ -142,26 +148,6 @@ class _NewsCard extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-}
-
-class _RoundDot extends StatelessWidget {
-  const _RoundDot({required this.label, required this.done, required this.color});
-  final String label;
-  final bool done;
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Icon(done ? Icons.check_circle : Icons.circle_outlined, size: 16, color: done ? color : theme.colorScheme.outline),
-        const SizedBox(width: 4),
-        Text(label, style: theme.textTheme.labelSmall),
-      ],
     );
   }
 }
