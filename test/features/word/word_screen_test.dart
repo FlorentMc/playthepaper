@@ -150,6 +150,7 @@ void main() {
       await type(tester, 'TREAM');
       await enter(tester);
       await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
+      await pumpUntil(tester, () => find.text('Word found').evaluate().isNotEmpty, reason: 'result screen shown');
       await settle(tester);
 
       final result = store.result(id);
@@ -175,6 +176,7 @@ void main() {
         }
       }
       await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
+      await pumpUntil(tester, () => find.text('Not this time').evaluate().isNotEmpty, reason: 'result screen shown');
       await settle(tester);
       final result = store.result(id);
       expect(result, isNotNull);

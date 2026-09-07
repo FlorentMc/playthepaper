@@ -124,6 +124,7 @@ void main() {
       final result = store.result(id)!;
       expect(result.solved, isTrue);
       expect(result.hints, 0);
+      await pumpUntil(tester, () => find.text('All filled in').evaluate().isNotEmpty, reason: 'result screen shown');
       await settle(tester);
       expect(find.text('All filled in'), findsOneWidget);
       await tearDownScreen(tester);

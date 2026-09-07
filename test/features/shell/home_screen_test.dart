@@ -34,15 +34,12 @@ String edition(String date) => jsonEncode({
         'sudoku-$date-en-hard-v1',
         'letters-$date-en-v1',
         'crossword-$date-en-v1',
-        'correct-$date-en-v1',
-        'number-$date-en-v1',
-        'where-$date-en-v1',
+        'quiz-$date-en-v1',
       ],
       'stories': [
-        for (final g in ['correct', 'number', 'where'])
+        for (final g in ['a', 'b', 'c'])
           {
             'id': 's-$g',
-            'game': g,
             'headline': 'H $g',
             'summary': 'S',
             'publisher': 'P',

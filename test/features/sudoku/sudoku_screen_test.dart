@@ -14,6 +14,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
+import '../../support/pump_until.dart';
+
 /// Every body runs under [WidgetTester.runAsync]: the screen saves progress
 /// to Hive after each move, and that file I/O can only complete with a real
 /// event loop. Left in the fake-async zone, a pending write would hold the
@@ -209,7 +211,8 @@ void main() {
       await pumpScreen(tester, isArchivePlay: true);
       await tapThenPump(tester, cell(blank));
       await tapThenPump(tester, key(answer));
-      await Future<void>.delayed(const Duration(milliseconds: 100));
+      await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
+      await pumpUntil(tester, () => find.text('Grid complete').evaluate().isNotEmpty, reason: 'result screen shown');
       await tester.pumpAndSettle();
 
       expect(find.text('Grid complete'), findsOneWidget);

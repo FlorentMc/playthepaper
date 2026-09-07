@@ -11,6 +11,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
+import '../../support/pump_until.dart';
+
 /// The store writes to disk, so every test body runs under [WidgetTester.runAsync].
 void main() {
   late Directory dir;
@@ -91,6 +93,7 @@ void main() {
     await tester.tap(find.widgetWithText(OutlinedButton, 'Finish'));
     await tester.pumpAndSettle();
     await tester.tap(find.widgetWithText(FilledButton, 'Finish'));
+    await pumpUntil(tester, () => store.result(id) != null, reason: 'result saved');
     await settle(tester);
   }
 
@@ -239,8 +242,10 @@ void main() {
       await tapLetters(tester, 'BEAT');
       await enter(tester);
       await finish(tester);
+      await pumpUntil(tester, () => find.byTooltip('Close').evaluate().isNotEmpty, reason: 'result screen shown');
       await tester.tap(find.byTooltip('Close'));
       await settle(tester);
+      await pumpUntil(tester, () => store.progress(id)?['finished'] == true, reason: 'finished board saved');
 
       final challenge = store.result(id)!;
       await pumpScreen(
