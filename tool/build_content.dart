@@ -5,10 +5,11 @@ import 'package:daypencil/core/game_kind.dart';
 import 'package:daypencil/core/puzzle_id.dart';
 
 import '_common.dart';
+import '_share_pages.dart';
 
 /// Assembles the content tree from generated classics and evergreen templates.
 ///
-///   dart run tool/build_content.dart --from 2026-09-01 --to 2026-12-31 [--content content] [--src content_src]
+///   dart run tool/build_content.dart --from 2026-09-01 --to 2026-12-31 [--content content] [--src content_src] [--web web/index.html]
 ///
 /// For every date in the range:
 ///   * the four classic puzzle files must already exist (run the gen_* tools first);
@@ -98,6 +99,8 @@ void main(List<String> args) {
       .toList()
     ..sort();
   writeJsonFile('$content/index.json', {'dates': dates, 'latest': dates.last});
+  final sharePages = writeSharePages(content, opts['web'] ?? 'web/index.html');
+  stdout.writeln('share pages: $sharePages written');
   stdout.writeln('editions: $stamped stamped evergreen, $kept news kept, ${dates.length} in index (${dates.first} → ${dates.last})');
 }
 
