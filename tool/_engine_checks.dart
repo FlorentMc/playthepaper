@@ -1,5 +1,6 @@
 import 'package:daypencil/content/models.dart';
 import 'package:daypencil/core/game_kind.dart';
+import 'package:daypencil/engines/word/word_engine.dart';
 
 /// Runs a puzzle through its engine's parser. Returns null when valid,
 /// otherwise a one-line description of the problem.
@@ -19,7 +20,9 @@ String? checkPuzzleWithEngine(PuzzleRecord record) {
 
 typedef EngineCheck = void Function(PuzzleRecord record);
 
-final Map<GameKind, EngineCheck> engineChecks = {};
+final Map<GameKind, EngineCheck> engineChecks = {
+  GameKind.word: (r) => WordPuzzle.parse(r.payload, r.reveal),
+};
 
 /// Answers of one news game must not appear in another's wording.
 List<String> leakChecks(List<PuzzleRecord> news) {

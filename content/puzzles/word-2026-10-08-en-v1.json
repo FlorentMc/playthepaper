@@ -1,0 +1,17 @@
+{
+  "id": "word-2026-10-08-en-v1",
+  "game": "word",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6
+  },
+  "reveal": {
+    "answer": "CUDDLE"
+  }
+}
