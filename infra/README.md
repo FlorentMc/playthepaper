@@ -167,7 +167,7 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
 
 | Time | What | Where to look |
 |---|---|---|
-| 02:15 | routine starts (may be a few minutes late), fetches sources, writes 3 puzzles + manifest + report, validates, pushes `content: news edition D` | claude.ai/code/routines run log, final status line |
+| 02:15 | routine starts (may be a few minutes late), fetches sources, writes `content_src/news/D.json` (three stories, five quiz questions, seed words), runs `build_content --date D --news` and the validator, pushes `content: news edition D` | claude.ai/code/routines run log, final status line |
 | ~02:30–03:30 | `validate-content` re-validates, fast-forwards `live`; droplet pulls within 5 min | Actions tab; `journalctl -u daypencil-pull` |
 | 03:10 | `retry`: if the served manifest is still evergreen, fires the routine again (job succeeds) | Actions → edition-watch |
 | 03:45 | `verify`: still evergreen → job fails → email. 404 → `FALLBACK MISSING` | email; Actions → edition-watch |
@@ -226,18 +226,20 @@ Target: `index.json.latest` at least 30 days ahead at all times (the 05:00
 UTC job alerts below that); generate 90 days at a time.
 
 ```
-dart run tool/gen_word.dart      …    # classic generators, one per game; see each tool's --help
-dart run tool/gen_sudoku.dart    …    # for the date range flags
-dart run tool/gen_letters.dart   …
-dart run tool/gen_crossword.dart …
-dart run tool/build_content.dart      # stamps evergreen editions (content_src/evergreen) onto
-                                      # every date that has classics but no manifest, writes index.json
+dart run tool/gen_sudoku.dart --from <first> --to <last> --out content/puzzles   # sudoku is unseeded
+dart run tool/build_content.dart --from <first> --to <last>   # per date: picks the evergreen template by
+                                                              # rotation (or content_src/news/<date>.json if
+                                                              # present), generates the seeded Daily Word,
+                                                              # Letters and Mini Crossword, writes the quiz,
+                                                              # the manifest with its seeds map, share pages
+                                                              # and index.json
 dart run tool/validate.dart content
 git add content && git commit -m "content: reserve to <last date>" && git push origin main
 ```
 
-Generators are deterministic per date, so re-running for an existing date
-reproduces the same file. `content_src/evergreen/` templates and the
+Generation is deterministic per date and template, so re-running for an
+existing date reproduces the same file; when a template changes, the builder
+writes a new version of each affected puzzle rather than overwriting. `content_src/evergreen/` templates and the
 crossword clue bank need occasional additions so evergreen days and clues do
 not repeat; that is editorial work, reviewed before it enters the bank.
 

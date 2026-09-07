@@ -166,8 +166,15 @@ class _StoryCard extends StatelessWidget {
             children: [
               Icon(Icons.lock_outline, color: colors.subtle),
               const SizedBox(width: 12),
-              Expanded(child: Text('Story $index', style: theme.textTheme.titleMedium)),
-              Text(_seedSummary(), style: theme.textTheme.labelSmall),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Story $index', style: theme.textTheme.titleMedium),
+                    if (seeds.isNotEmpty) Text(_seedSummary(), style: theme.textTheme.labelSmall),
+                  ],
+                ),
+              ),
             ],
           ),
         ),

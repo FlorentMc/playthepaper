@@ -14,9 +14,11 @@ in a fresh sandbox whose working directory is a checkout of this repository
 
 ## Goal
 
-Upgrade **today's** edition manifest from `kind: "evergreen"` to `kind: "news"`
-by writing three new news puzzle files and rewriting the manifest, validating,
-committing and pushing to `main`. One commit, or nothing.
+Upgrade **today's** edition from `kind: "evergreen"` to `kind: "news"`: three
+stories from the day's news, a five-question quiz about them, and the same
+stories seeding the Daily Word, Letters and Mini Crossword. You write ONE
+hand-authored file, `content_src/news/DATE.json`, run the content builder and
+the validator, and push one commit. One commit, or nothing.
 
 ## Time and dates: read this first
 
@@ -41,31 +43,36 @@ committing and pushing to `main`. One commit, or nothing.
 
 ## Hard rules
 
-1. Write only under `content/`: three files in `content/puzzles/`, one file in
-   `content/editions/`, one file in `content/reports/`. Never create, edit or
-   delete anything else. In particular never touch `tool/`, `lib/`,
-   `assets/`, `content_src/`, `.github/`, `infra/`, `pubspec.*`.
-2. Never edit, patch, skip, or work around `tool/validate.dart`. It is the
-   trust boundary. If it fails and you cannot fix your own files, abandon.
-3. Never publish if validation fails. Never commit a partial result. Never
-   overwrite an existing puzzle file: puzzle files are immutable; a new
-   attempt is a new version number.
+1. You hand-write exactly two files: `content_src/news/DATE.json` and
+   `content/reports/DATE.md`. Everything under `content/` other than the
+   report is produced by `dart run tool/build_content.dart`. Never edit a
+   generated file by hand. Never create, edit or delete anything else. In
+   particular never touch `tool/`, `lib/`, `assets/`, `content_src/evergreen/`,
+   `content_src/crossword/`, `.github/`, `infra/`, `pubspec.*`.
+2. Never edit, patch, skip, or work around `tool/validate.dart` or
+   `tool/build_content.dart`. They are the trust boundary. If validation
+   fails and you cannot fix your own file, abandon.
+3. Never publish if validation fails. Never commit a partial result. Puzzle
+   files are immutable; the builder creates new version numbers itself.
 4. Never fabricate a fact. Every number, date, quantity, unit, name and place
-   used in a puzzle, an evidence card, a comparison, a reveal or a summary must
-   appear verbatim in a fetched source excerpt that you store in that puzzle's
-   `sources[].excerpt`. If you cannot quote it, you cannot use it. The only
-   exception is latitude/longitude for the `where` game, which come from the
-   gazetteer described in step 4 and are also recorded in `sources[]`.
+   used in a question, an option, an explanation, a story summary or a seed
+   excerpt must appear verbatim in a fetched source excerpt that you store in
+   `quiz.sources[].excerpt` or the seed's `excerpt`. If you cannot quote it,
+   you cannot use it.
 5. Use only the sources listed in SOURCES. Fetch over HTTP(S) with `curl`.
    The sandbox has outbound HTTP(S) through a proxy and nothing else; you
    never reach the web server: publishing is a `git push` to `main`.
 6. Keep excerpts short (one or two sentences, at most 300 characters each, at
-   most three per source). Everything the player reads is in your own words.
-7. Do not print or commit credentials (API keys live in environment
+   most three per source). Everything the player reads is in your own words,
+   except quoted excerpts shown in reveals.
+7. Voice: plain and warm. Short sentences, British spelling, no jokes, no
+   editorialising, no exclamation marks. Explanations are exactly two
+   sentences: what the answer is, then one thing worth knowing about it.
+8. Do not print or commit credentials (API keys live in environment
    variables; never echo them, never put a keyed URL into a file).
-8. Never modify a puzzle or manifest of any date other than `DATE`.
-9. Finish within about 25 minutes of wall-clock time. Bounded retries: at most
-   three validate-fix cycles, at most two replacement candidates per game.
+9. Never modify any date other than `DATE`.
+10. Finish within about 25 minutes of wall-clock time. Bounded retries: at
+    most three validate-fix cycles, at most two replacement stories.
 
 ## Steps
 
@@ -77,23 +84,17 @@ git status --porcelain                      # must print nothing
 git fetch origin main && git reset --hard origin/main
 DATE=$(date -u +%F)
 cat content/editions/$DATE.json
+ls content_src/news/$DATE.json 2>/dev/null
 dart --version && dart run tool/validate.dart content   # baseline must pass
 ```
 
 * If `content/editions/$DATE.json` does not exist: report `ABANDONED $DATE:
-  fallback missing` and stop. Do not create it (the reserve is the owner's
-  job and the 05:00 UTC watch job alerts on it).
-* If its `kind` is already `news`: report `NOOP $DATE: already news` and stop.
+  fallback missing` and stop. Do not create it.
+* If its `kind` is already `news`, or `content_src/news/$DATE.json` exists on
+  `main`: report `NOOP $DATE: already news` and stop.
 * If the baseline validation fails on untouched content: report
-  `ABANDONED $DATE: baseline validation failed` with the first error lines and
-  stop. That is not yours to fix.
-* Note the six classic puzzle ids in the manifest (`word-…`, `sudoku-…-easy`,
-  `-medium`, `-hard`, `letters-…`, `crossword-…`). They stay exactly as they
-  are.
-* Choose the news version number N: the smallest N ≥ 1 such that none of
-  `content/puzzles/correct-$DATE-en-vN.json`, `number-$DATE-en-vN.json`,
-  `where-$DATE-en-vN.json` exists. The evergreen fallback normally occupies
-  v1, so N is normally 2; after an earlier partial attempt it may be 3.
+  `ABANDONED $DATE: baseline validation failed` with the first error lines
+  and stop. That is not yours to fix.
 * If a `<routine-fire-payload>` block is present in your input, this is a
   retry fired by the 03:10 UTC watch job; see step 9.
 
@@ -104,10 +105,9 @@ For each source in SOURCES, fetch its feed or API endpoint with
 source that fails is skipped, not retried more than once. Parse RSS/Atom/JSON
 with a throwaway script under `/tmp` (python3 or jq), never inside the repo.
 
-Keep items published on D−3 or later (`publishedAt` ≥ DATE − 3 days) whose
-link is on that source's allowlisted domain. Fetch the article page for each
-candidate you seriously consider (not for all of them) and extract the text
-you will quote.
+Keep items published on D−3 or later whose link is on that source's
+allowlisted domain. Fetch the article page for each candidate you seriously
+consider (not for all of them) and extract the text you will quote.
 
 ### 2. Deduplicate
 
@@ -118,8 +118,7 @@ same event as one of those stories, even from a different publisher.
 
 ### 3. Select three stories
 
-Pick three stories on three different topics, one per game, in the fixed
-order **correct, number, where**:
+Pick three stories on three different topics.
 
 * Topics welcome: science, culture, technology, nature, discoveries, sport
   results, space, archaeology, everyday life, records, animals, food, art.
@@ -128,14 +127,20 @@ order **correct, number, where**:
   deaths and obituaries, court cases, health advice, anything centred on a
   private individual or a minor, opinion pieces, live blogs, paywalled or
   ambiguous items.
-* Each story must supply what its game needs:
-  * **correct**: at least three concrete details (numbers, dates, units,
-    places, comparisons) in one short passage, one of which can be altered to
-    a plausible wrong value, plus enough source text for two evidence cards.
-  * **number**: one figure with a clear unit and scope ("how many", "how
-    tall", "how old", "how much") whose true value is stated in the source.
-  * **where**: a specific, nameable place (city, island, park, region) that
-    the story is set in, which two short clues can narrow down without naming.
+* Each story must offer at least one askable fact with a definite answer
+  stated in the source (a figure, a name, a place, a date, a first, a
+  comparison). Two of the three must offer two.
+* Between them the stories must supply the seeds (step 5): at least one
+  common six-letter word and two to four three-to-five-letter words. Run the
+  seed helper on each story's text to see what qualifies:
+
+  ```
+  dart run tool/seed_candidates.dart /tmp/story1.txt
+  ```
+
+  It lists the qualifying Daily Word answers, Letters pangrams and crossword
+  answers found in the text. If the three stories together cannot seed the
+  Daily Word, swap one story.
 * Prefer stories readers will enjoy discovering; the edition is "a selection
   of interesting current stories", not news coverage.
 
@@ -143,176 +148,96 @@ If fewer than three qualify, abandon (do not publish a two-story edition).
 
 ### 4. Extract facts and excerpts
 
-For each chosen story write down, before writing any puzzle: publisher, URL,
+For each chosen story write down, before writing anything: publisher, URL,
 publication date (`YYYY-MM-DD`), the verbatim excerpt(s) you will quote, and
-the structured facts you will use (entity, value, unit, period, qualifiers).
-Every value you use later must be visible in one of these excerpts.
+the facts you will use. Every value you use later must be visible in one of
+these excerpts.
 
-Gazetteer for `where` coordinates, in this order:
+### 5. Write `content_src/news/DATE.json`
 
-1. `assets/map/ne_110m_populated_places_simple.geojson` in the repo (243
-   major cities; properties `name`, `adm0name`, `latitude`, `longitude`).
-2. `https://en.wikipedia.org/api/rest_v1/page/summary/<Article_title>` →
-   `coordinates.lat` / `coordinates.lon`. Record the URL and the JSON fragment
-   as a `sources[]` entry of the `where` puzzle.
-
-The place name itself must appear in the story's excerpt.
-
-### 5. Write the three puzzle files
-
-Formats are fixed by `docs/ARCHITECTURE.md` and enforced by the validator. Use
-2-space indentation, UTF-8, a trailing newline. `contentVersion` must equal
-the `vN` in the id. `storyId` is `"$DATE-<game>"`. `locale` is `"en-GB"`.
-British spelling throughout.
-
-**`content/puzzles/correct-$DATE-en-vN.json`**
+Exactly this shape (see `docs/ARCHITECTURE.md`, "Edition templates", for the
+authoritative definition; `content_src/evergreen/*.json` are finished
+examples of the voice and the option style):
 
 ```json
 {
-  "id": "correct-DATE-en-vN",
-  "game": "correct",
-  "editionDate": "DATE",
-  "locale": "en-GB",
-  "contentVersion": N,
-  "scoringVersion": 1,
-  "storyId": "DATE-correct",
-  "sources": [
-    {"publisher": "PUBLISHER", "url": "https://…", "excerpt": "verbatim sentence(s) containing every detail used"}
+  "slug": "DATE",
+  "label": "Today",
+  "stories": [
+    {"id": "DATE-1", "headline": "Own-words headline, at most 12 words",
+     "summary": "Two or three plain sentences in your own words.",
+     "publisher": "PUBLISHER", "url": "https://…", "publishedAt": "YYYY-MM-DD"},
+    {"id": "DATE-2", …}, {"id": "DATE-3", …}
   ],
-  "payload": {
-    "dispatch": "Two or three sentences, at most 60 words, containing each of the three details verbatim. Exactly one detail is altered from the source.",
-    "details": ["detail as it appears in the dispatch", "…", "…"],
-    "options": ["four repair options; exactly one is the true value from the source; one is the altered value; two are plausible but wrong"],
-    "evidence": [
-      {"title": "short card title", "text": "one or two sentences, in your own words, that let a reader spot the error and choose the repair", "source": "PUBLISHER"},
-      {"title": "…", "text": "…", "source": "PUBLISHER or Wikipedia"}
-    ],
-    "maxAttempts": 3
-  },
-  "reveal": {
-    "alteredDetail": 0,
-    "correctOption": 0,
-    "explanation": "One or two sentences: what was altered, what the source says."
-  }
-}
-```
-
-Rules: alter a number, date, unit, place or comparison, never a person's
-name; the altered value must be plausible (same order of magnitude, same
-format); exactly one option must be consistent with the evidence cards;
-`alteredDetail` and `correctOption` are 0-based indexes; `details[i]` must
-occur verbatim in `dispatch`; the evidence must not literally say "the answer
-is".
-
-**`content/puzzles/number-$DATE-en-vN.json`**
-
-```json
-{
-  "id": "number-DATE-en-vN",
-  "game": "number",
-  "editionDate": "DATE",
-  "locale": "en-GB",
-  "contentVersion": N,
-  "scoringVersion": 1,
-  "storyId": "DATE-number",
-  "sources": [
-    {"publisher": "PUBLISHER", "url": "https://…", "excerpt": "verbatim sentence containing the figure and its unit"}
-  ],
-  "payload": {
-    "question": "One question naming the entity, measure and period, e.g. 'How many visitors did the exhibition receive in its first week?'",
-    "unit": "visitors",
-    "min": 0,
-    "max": 100000,
-    "step": 1000,
-    "comparison": "One sentence giving a useful reference point from a source excerpt, not the answer itself."
-  },
-  "reveal": {
-    "answer": 42000,
-    "context": "One or two sentences of context in your own words.",
-    "scoring": {"perfectPct": 2, "zeroPct": 50}
-  }
-}
-```
-
-Rules: `answer` is a JSON number exactly as stated in the excerpt (no
-rounding unless the source itself rounds); `min < answer < max` with
-`min ≤ answer/3` and `max ≥ answer×3` where sensible, `min ≥ 0`; `step`
-divides `max − min` and gives 50–500 slider positions; the comparison figure
-must also come from an excerpt and must not reveal the answer.
-
-**`content/puzzles/where-$DATE-en-vN.json`**
-
-```json
-{
-  "id": "where-DATE-en-vN",
-  "game": "where",
-  "editionDate": "DATE",
-  "locale": "en-GB",
-  "contentVersion": N,
-  "scoringVersion": 1,
-  "storyId": "DATE-where",
-  "sources": [
-    {"publisher": "PUBLISHER", "url": "https://…", "excerpt": "verbatim sentence naming the place"},
-    {"publisher": "Wikipedia", "url": "https://en.wikipedia.org/api/rest_v1/page/summary/…", "excerpt": "\"coordinates\":{\"lat\":…,\"lon\":…}"}
-  ],
-  "payload": {
-    "clues": [
-      "First clue: what happened, without naming the city, country or any landmark that gives it away.",
-      "Second clue: a geographic or cultural hint that narrows the region."
+  "quiz": {
+    "payload": {
+      "questions": [
+        {"prompt": "…?", "options": ["…", "…", "…", "…"], "storyId": "DATE-1"},
+        … five in total …
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [i, i, i, i, i],
+      "explanations": ["Two sentences.", "…", "…", "…", "…"]
+    },
+    "sources": [
+      {"publisher": "PUBLISHER", "url": "https://…", "excerpt": "verbatim sentence(s) supporting every answer drawn from this story"},
+      … one per story …
     ]
   },
-  "reveal": {
-    "lat": 0.0,
-    "lon": 0.0,
-    "placeName": "City, Country",
-    "acceptRadiusKm": 300,
-    "explanation": "One or two sentences: where it is and why the story is set there."
+  "seeds": {
+    "word":      {"answer": "SIXLET", "storyId": "DATE-2", "teaser": "Today's word comes from a story about …", "excerpt": "the sentence containing the word"},
+    "letters":   {"pangram": "SEVENLETTERS", "storyId": "DATE-1", "teaser": "…", "excerpt": "…"}   or null,
+    "crossword": [
+      {"answer": "FIVER", "clue": "A clue written from the story, not containing the answer", "storyId": "DATE-3", "excerpt": "…"},
+      … two to four …
+    ]
   }
 }
 ```
 
-Rules: `acceptRadiusKm` 150 for a city in a densely populated region, 300 for
-a city or a small country, 500 for a region or a large sparsely populated
-area; the clues must not contain the place name, its country, or a unique
-landmark name; the clues must narrow the location meaningfully (a continent
-is not enough).
+Rules for the quiz:
 
-**Leak checks** (a player plays the games in order and sees each reveal):
+* Five questions: two from one story, two from another, one from the third.
+  Question five (`wagerQuestion: 4`) is the hardest.
+* Four options, all distinct, all on the same scale and category, so a reader
+  can reason towards the answer: numbers spread by plausible steps or orders
+  of magnitude, names from the same field, places from the same region.
+* One correct option; its key figure or name is visible verbatim in that
+  story's `sources[].excerpt`.
+* Prompts are one sentence ending in a question mark. Explanations are two
+  plain sentences. No trick questions, no negatives ("which is NOT").
 
-* The `where` place name and its country appear nowhere in the `correct` or
-  `number` texts, nor in the other two stories' headline/summary.
-* The `number` answer figure appears nowhere in the `correct` or `where`
-  texts, nor in the other two stories' summaries.
-* The `correct` true value appears nowhere in the `number` or `where` texts.
+Rules for the seeds (checked mechanically):
 
-### 6. Rewrite the manifest
+* `word.answer`: six uppercase letters, present in
+  `assets/dictionaries/words6_en.txt`, appearing as a whole word in
+  `excerpt`. Required.
+* `letters.pangram`: a word with exactly seven distinct letters (seven letters
+  or more), in `tool/data/enable1.txt` and in `tool/data/en_50k.txt`,
+  appearing as a whole word in `excerpt`. Use `null` when nothing qualifies;
+  the builder then keeps the evergreen letter set.
+* `crossword[]`: two to four answers of three to five uppercase letters, in
+  `tool/data/enable1.txt`, each appearing as a whole word in its `excerpt`,
+  with a clue written from the story that does not contain the answer.
+* No seeded word may equal any quiz option.
+* The seed helper (step 3) prints only qualifying words; take them from it.
 
-Rewrite `content/editions/$DATE.json` in place (this is the only file you
-change that already exists):
+### 6. Build
 
-```json
-{
-  "date": "DATE",
-  "kind": "news",
-  "label": "Today",
-  "version": <previous version + 1>,
-  "publishedAt": "<now, ISO-8601 UTC, e.g. 2026-09-08T02:41:07Z>",
-  "puzzles": [
-    "<the six classic ids exactly as they were, in their existing order>",
-    "correct-DATE-en-vN",
-    "number-DATE-en-vN",
-    "where-DATE-en-vN"
-  ],
-  "stories": [
-    {"id": "DATE-correct", "game": "correct", "headline": "Own-words headline, at most 12 words", "summary": "Two or three plain sentences in your own words explaining the story after the reveal.", "publisher": "PUBLISHER", "url": "https://…", "publishedAt": "YYYY-MM-DD"},
-    {"id": "DATE-number",  "game": "number",  "headline": "…", "summary": "…", "publisher": "…", "url": "https://…", "publishedAt": "YYYY-MM-DD"},
-    {"id": "DATE-where",   "game": "where",   "headline": "…", "summary": "…", "publisher": "…", "url": "https://…", "publishedAt": "YYYY-MM-DD"}
-  ]
-}
+```
+dart run tool/build_content.dart --date $DATE --news
 ```
 
-Nine puzzle ids, three stories in the order correct, number, where, all dated
-`DATE`. No `correctionNote`. Do not keep the evergreen stories.
+The builder reads your file, writes the quiz puzzle, regenerates the Daily
+Word, Letters and Mini Crossword for `DATE` with your seeds as new version
+numbers (the evergreen versions stay on disk for old links), leaves Sudoku
+untouched, rewrites `content/editions/DATE.json` as `kind: "news"` with the
+`seeds` map, and writes share pages. It prints one line per puzzle saying
+what it did, including how many crossword seeds were placed and whether the
+Letters seed was used. Read that output. If it reports that the Daily Word
+seed was rejected, fix the seed and rebuild.
 
 ### 7. Validate
 
@@ -321,12 +246,12 @@ dart run tool/validate.dart content
 ```
 
 Exit code 0 with no error lines is the only pass. On failure read every line,
-fix only your own five files, and re-run; at most three cycles. If it still
-fails, abandon:
+fix only `content_src/news/DATE.json`, rebuild (step 6) and re-run; at most
+three cycles. If it still fails, abandon:
 
 ```
-git checkout -- content/editions/$DATE.json
-rm -f content/puzzles/correct-$DATE-en-vN.json content/puzzles/number-$DATE-en-vN.json content/puzzles/where-$DATE-en-vN.json content/reports/$DATE.md
+git checkout -- content
+git clean -fd content content_src/news
 git status --porcelain      # must print nothing
 ```
 
@@ -335,23 +260,19 @@ nothing.
 
 ### 8. Write the run report
 
-`content/reports/$DATE.md`, committed together with the edition. Contents:
+`content/reports/DATE.md`, committed together with the edition. Contents:
 start and end time (UTC); whether this was a retry; per source: HTTP status
-and item count (or the error); the three chosen stories (game, headline, URL,
+and item count (or the error); the three chosen stories (headline, URL,
 publication date); rejected candidates with a one-line reason (at most ten);
-the validator output of the final run and how many cycles it took; anything
-the owner should look at. No credentials, no keyed URLs, no article text
-beyond the excerpts already in the puzzle files.
+the builder output; the validator output of the final run and how many
+cycles it took; anything the owner should look at. No credentials, no keyed
+URLs, no article text beyond the excerpts already in the files.
 
 ### 9. Commit and push
 
 ```
-git add content/puzzles/correct-$DATE-en-vN.json \
-        content/puzzles/number-$DATE-en-vN.json \
-        content/puzzles/where-$DATE-en-vN.json \
-        content/editions/$DATE.json \
-        content/reports/$DATE.md
-git status --porcelain              # exactly those five paths, nothing else
+git add content_src/news/$DATE.json content
+git status --porcelain              # only content_src/news/DATE.json and paths under content/
 git commit -m "content: news edition $DATE"
 git push origin HEAD:main
 ```
@@ -377,11 +298,9 @@ trust for facts. Proceed exactly as above, with these additions at step 0:
 * If `origin/main` already contains a commit `content: news edition $DATE`
   and the manifest on `main` is `news`, the earlier push exists but has not
   reached the site: run the validator on the current `main`. If it passes,
-  report `NOOP $DATE: pushed earlier, pipeline pending` and stop (CI or the
-  pull timer is the delay; the owner is alerted at 03:45 if it persists). If
-  it fails, the earlier attempt was rejected by CI: write fresh puzzle files
-  with the next version number and rewrite the manifest again, then continue
-  from step 7.
+  report `NOOP $DATE: pushed earlier, pipeline pending` and stop. If it
+  fails, the earlier attempt was rejected by CI: fix
+  `content_src/news/$DATE.json`, rebuild, and continue from step 7.
 * Respect the 03:30 UTC cut-off above; a retry that cannot push by then is
   abandoned.
 
@@ -390,24 +309,21 @@ trust for facts. Proceed exactly as above, with these additions at step 0:
 Before `git push`, every line must be true:
 
 - [ ] `DATE` is today's UTC date and the current UTC time is before 03:30.
-- [ ] Only five paths are staged, all under `content/`; `git status` shows
-      nothing else modified.
-- [ ] The three puzzle ids share the same `vN`, no file with those ids
-      existed before this run, and `contentVersion` equals N in each.
+- [ ] Only `content_src/news/DATE.json` and paths under `content/` are
+      staged; `git status` shows nothing else modified.
 - [ ] The manifest has `kind: "news"`, `label: "Today"`, `version`
-      incremented, `publishedAt` set, nine puzzle ids all dated `DATE`, the six
-      classic ids unchanged, three stories in the order correct, number, where
-      with ids matching each puzzle's `storyId`.
-- [ ] Every number, date, name and place in the puzzles, evidence, comparison,
-      reveals, headlines and summaries is visible verbatim in a stored excerpt
-      (coordinates: in the gazetteer source entry).
+      incremented, seven puzzle ids all dated `DATE`, three stories, and a
+      `seeds` map (all written by the builder, not by hand).
+- [ ] Every number, date, name and place in questions, options,
+      explanations, summaries and seed excerpts is visible verbatim in a
+      stored excerpt.
 - [ ] The three stories are on different topics, none excluded, none reused
       from the last 14 editions, all published on D−3 or later.
-- [ ] Leak checks pass.
 - [ ] `dart run tool/validate.dart content` exited 0 on the exact files being
       committed.
 - [ ] `content/reports/DATE.md` exists and contains no credentials.
-- [ ] Nothing under `tool/`, `lib/`, `.github/`, `infra/` was touched.
+- [ ] Nothing under `tool/`, `lib/`, `.github/`, `infra/`,
+      `content_src/evergreen/`, `content_src/crossword/` was touched.
 
 End your final message with exactly one status line so the run log can be
 skimmed (a green run status does not mean the edition was published):
@@ -452,7 +368,7 @@ with article domain `www.theguardian.com`. An RSS row is just the feed URL.
   * `SOURCE_1_DOMAIN`, `SOURCE_1_FEED_DOMAIN` (API host if different),
     `SOURCE_2_DOMAIN`, `SOURCE_3_DOMAIN`, … one entry per feed host and per
     article host;
-  * `en.wikipedia.org` (gazetteer and evidence);
+  * `en.wikipedia.org` (background and verification);
   * `storage.googleapis.com` (Flutter SDK archive and pub package archives)
     and `pub.dev` (package metadata), needed by the setup script.
   Everything else is blocked; only outbound HTTP(S) exists and only that is
