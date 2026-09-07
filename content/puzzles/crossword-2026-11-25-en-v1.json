@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Silky trap"
+          "clue": "Near the ground"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Small skin spot"
+          "col": 2,
+          "length": 3,
+          "clue": "Rowboat propeller"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Comparative of bad"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Golf target"
+          "clue": "Unsteady"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Vessel in the flood story"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Strange"
+          "clue": "Word of agreement"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Everyone and everything"
+          "clue": "They lift ships 26 metres up to Gatun Lake",
+          "storyId": "technology-1-canal"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Otherwise"
+          "length": 3,
+          "clue": "Wood for sturdy furniture"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Buzzing pollinator"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Frame of mind"
+          "clue": "Twisted, as a smile"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Beam of light"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Miner's find"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##WEB",
-      "#MOLE",
-      "WORSE",
-      "HOLE#",
-      "ODD##"
+      "##LOW",
+      "##OAR",
+      "ROCKY",
+      "ARK##",
+      "YES##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "technology-1-canal",
+        "excerpt": "Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-canal"
 }

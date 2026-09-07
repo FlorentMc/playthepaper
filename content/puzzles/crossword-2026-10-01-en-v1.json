@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pose a question"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Notice with the eyes"
+          "clue": "Sick"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Spiteful"
+          "clue": "Stop, as an engine"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Grow older"
+          "clue": "Possess"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Deep vessel for boiling soup"
+          "clue": "Seek the affection of"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Useful quality"
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Group of matching items"
+          "clue": "Wing of a building"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Door opener"
+          "clue": "The whole lot"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Short sleep"
+          "clue": "Female pig"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "In the past"
+          "clue": "Pair"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##ASK",
-      "##SEE",
-      "NASTY",
-      "AGE##",
-      "POT##"
+      "##PEA",
+      "##ILL",
+      "STALL",
+      "OWN##",
+      "WOO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

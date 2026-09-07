@@ -42,7 +42,8 @@
     "technology-1-flyer": [
       "quiz:1",
       "quiz:2",
-      "word"
+      "word",
+      "crossword:1 Down"
     ],
     "technology-1-chip": [
       "quiz:3",

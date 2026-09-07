@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
+      "#....",
       "#....",
       ".....",
       "....#",
-      "...##"
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "clue": "Pair"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Beard's home"
+          "clue": "Hunter's target"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "clue": "Not here"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "All-night dance party"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Make less painful"
+          "length": 5,
+          "clue": "Handed over"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "So be it"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "clue": "Finished a meal"
+          "length": 4,
+          "clue": "Period before Easter"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "clue": "The ones here"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "clue": "Thin metal strand"
+          "col": 2,
+          "length": 5,
+          "clue": "Big black bird"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Single"
+          "col": 3,
+          "length": 5,
+          "clue": "Happening"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Friendly talk"
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Japanese currency"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "Guy's counterpart"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#CHIN",
-      "THERE",
-      "EASE#",
-      "ATE##"
+      "#PREY",
+      "#RAVE",
+      "GIVEN",
+      "AMEN#",
+      "LENT#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:typed_data';
 
 import '../../content/models.dart';
 import '../../core/edition_clock.dart';
@@ -165,6 +166,111 @@ class CrosswordFill {
   final Map<CrosswordEntry, String> answers;
 }
 
+/// A cap on the search steps shared by several [fillGrid] calls, so a
+/// generation that tries many seed placements does bounded work.
+class FillBudget {
+  FillBudget(this.limit);
+
+  final int limit;
+  int spent = 0;
+
+  bool get exhausted => spent >= limit;
+}
+
+/// The answers of one length in preference order, with a bitset per
+/// (position, letter) over their indexes so the candidates matching a
+/// letter pattern are found by AND-ing masks instead of scanning words.
+/// Bits are kept in 32-bit chunks so the arithmetic is exact on every
+/// platform. [available] clears a word's bit while it is in the puzzle.
+class _WordIndex {
+  _WordIndex(this.words, this.length)
+      : chunks = (words.length + 31) >> 5,
+        position = {for (var i = 0; i < words.length; i++) words[i]: i},
+        masks = Uint32List(length * 26 * ((words.length + 31) >> 5)),
+        available = Uint32List((words.length + 31) >> 5),
+        scratch = Uint32List((words.length + 31) >> 5) {
+    for (var i = 0; i < words.length; i++) {
+      final chunk = i >> 5;
+      final bit = 1 << (i & 31);
+      available[chunk] |= bit;
+      for (var p = 0; p < length; p++) {
+        masks[((p * 26) + words[i].codeUnitAt(p) - 65) * chunks + chunk] |= bit;
+      }
+    }
+  }
+
+  final List<String> words;
+  final int length;
+  final int chunks;
+  final Map<String, int> position;
+  final Uint32List masks;
+  final Uint32List available;
+  final Uint32List scratch;
+
+  void take(String word) {
+    final i = position[word];
+    if (i != null) available[i >> 5] &= ~(1 << (i & 31));
+  }
+
+  void release(String word) {
+    final i = position[word];
+    if (i != null) available[i >> 5] |= 1 << (i & 31);
+  }
+
+  /// Leaves the bitset of available words matching [pattern] (0 for an
+  /// open cell) in [scratch] and returns how many there are.
+  int match(List<int> pattern) {
+    for (var c = 0; c < chunks; c++) {
+      scratch[c] = available[c];
+    }
+    for (var p = 0; p < length; p++) {
+      final ch = pattern[p];
+      if (ch == 0) continue;
+      final base = ((p * 26) + ch - 65) * chunks;
+      for (var c = 0; c < chunks; c++) {
+        scratch[c] &= masks[base + c];
+      }
+    }
+    var count = 0;
+    for (var c = 0; c < chunks; c++) {
+      count += _popcount(scratch[c]);
+    }
+    return count;
+  }
+
+  /// The words of the last [match], in preference order.
+  List<String> matched() {
+    final out = <String>[];
+    for (var c = 0; c < chunks; c++) {
+      var bits = scratch[c];
+      while (bits != 0) {
+        final low = bits & -bits;
+        out.add(words[(c << 5) + _bitIndex(low)]);
+        bits ^= low;
+      }
+    }
+    return out;
+  }
+
+  static int _popcount(int v) {
+    v = v - ((v >> 1) & 0x55555555);
+    v = (v & 0x33333333) + ((v >> 2) & 0x33333333);
+    v = (v + (v >> 4)) & 0x0F0F0F0F;
+    return (v + (v >> 8) + (v >> 16) + (v >> 24)) & 0x3F;
+  }
+
+  /// The index of the single set bit in [v].
+  static int _bitIndex(int v) {
+    var i = 0;
+    if (v & 0xFFFF0000 != 0) i += 16;
+    if (v & 0xFF00FF00 != 0) i += 8;
+    if (v & 0xF0F0F0F0 != 0) i += 4;
+    if (v & 0xCCCCCCCC != 0) i += 2;
+    if (v & 0xAAAAAAAA != 0) i += 1;
+    return i;
+  }
+}
+
 /// Fills [grid] from [bank] by backtracking. One of the longest entries is
 /// filled first, so different seeds anchor on different words; after that
 /// the most constrained entry is filled next. Candidates matching the
@@ -173,7 +279,8 @@ class CrosswordFill {
 /// count, so well-worn answers are chosen only when nothing fresher fits.
 /// Answers in [used] are never chosen and no answer repeats within a
 /// puzzle. Entries in [fixed] are written before the search starts and kept
-/// as given. Returns null when no fill is found within [maxNodes] steps.
+/// as given. Returns null when no fill is found within [maxNodes] steps, or
+/// when [budget] runs out.
 CrosswordFill? fillGrid(
   List<String> grid,
   CrosswordBank bank,
@@ -182,12 +289,12 @@ CrosswordFill? fillGrid(
   Map<String, int> usage = const {},
   Map<CrosswordEntry, String> fixed = const {},
   int maxNodes = 5000,
+  FillBudget? budget,
 }) {
   final size = grid.length;
   final entries = deriveEntries(grid);
   final cells = List<int>.filled(size * size, 0);
   final chosen = <CrosswordEntry, String>{};
-  final inPuzzle = <String>{};
   for (final e in entries) {
     final w = fixed[e];
     if (w == null) continue;
@@ -198,79 +305,79 @@ CrosswordFill? fillGrid(
       cells[e.cells[i]] = w.codeUnitAt(i);
     }
     chosen[e] = w;
-    inPuzzle.add(w);
   }
-  final ordered = <int, List<String>>{};
+  final indexes = <int, _WordIndex>{};
   for (final e in entries) {
-    ordered.putIfAbsent(e.length, () {
+    indexes.putIfAbsent(e.length, () {
       final buckets = <int, List<String>>{};
       for (final b in bank.byLength[e.length] ?? const <BankEntry>[]) {
         if (used.contains(b.answer)) continue;
         buckets.putIfAbsent(usage[b.answer] ?? 0, () => []).add(b.answer);
       }
       final counts = buckets.keys.toList()..sort();
-      return [for (final c in counts) ...random.shuffled(buckets[c]!)];
+      return _WordIndex([for (final c in counts) ...random.shuffled(buckets[c]!)], e.length);
     });
   }
+  for (final w in chosen.values) {
+    indexes[w.length]?.take(w);
+  }
   var nodes = 0;
+  final pattern = List<int>.filled(size, 0);
 
-  List<String> candidates(CrosswordEntry e) {
-    final out = <String>[];
-    final slots = e.cells;
-    for (final w in ordered[e.length]!) {
-      if (inPuzzle.contains(w)) continue;
-      var ok = true;
-      for (var i = 0; i < slots.length; i++) {
-        final have = cells[slots[i]];
-        if (have != 0 && have != w.codeUnitAt(i)) {
-          ok = false;
-          break;
-        }
-      }
-      if (ok) out.add(w);
+  int matches(CrosswordEntry e) {
+    for (var i = 0; i < e.length; i++) {
+      pattern[i] = cells[e.cells[i]];
     }
-    return out;
+    return indexes[e.length]!.match(pattern);
   }
 
   final longest = entries.map((e) => e.length).reduce((a, b) => a > b ? a : b);
   final anchors = entries.where((e) => e.length == longest).toList();
   final anchor = anchors[random.nextInt(anchors.length)];
 
+  bool exhausted() => nodes > maxNodes || (budget != null && budget.exhausted);
+
   bool solve() {
     if (chosen.length == entries.length) return true;
     if (++nodes > maxNodes) return false;
+    if (budget != null) {
+      if (budget.exhausted) return false;
+      budget.spent++;
+    }
     CrosswordEntry? best;
-    List<String>? bestCandidates;
+    var bestCount = 0;
     if (chosen.isEmpty) {
       best = anchor;
-      bestCandidates = candidates(anchor);
+      bestCount = matches(anchor);
     } else {
       for (final e in entries) {
         if (chosen.containsKey(e)) continue;
-        final c = candidates(e);
-        if (c.isEmpty) return false;
-        if (bestCandidates == null || c.length < bestCandidates.length) {
+        final c = matches(e);
+        if (c == 0) return false;
+        if (best == null || c < bestCount) {
           best = e;
-          bestCandidates = c;
+          bestCount = c;
         }
       }
     }
     final e = best!;
+    final index = indexes[e.length]!;
+    matches(e);
     final previous = List<int>.filled(e.length, 0);
-    for (final w in bestCandidates!) {
+    for (final w in index.matched()) {
       for (var i = 0; i < e.length; i++) {
         previous[i] = cells[e.cells[i]];
         cells[e.cells[i]] = w.codeUnitAt(i);
       }
       chosen[e] = w;
-      inPuzzle.add(w);
+      index.take(w);
       if (solve()) return true;
       chosen.remove(e);
-      inPuzzle.remove(w);
+      index.release(w);
       for (var i = 0; i < e.length; i++) {
         cells[e.cells[i]] = previous[i];
       }
-      if (nodes > maxNodes) return false;
+      if (exhausted()) return false;
     }
     return false;
   }
@@ -373,6 +480,30 @@ List<Map<CrosswordEntry, String>> seedAssignments(List<CrosswordEntry> entries, 
   return out;
 }
 
+/// Every non-empty subset of [seeds], largest first and, within a size, in
+/// the order the seeds were given: for `[a, b, c]` that is `[a, b, c]`,
+/// `[a, b]`, `[a, c]`, `[b, c]`, `[a]`, `[b]`, `[c]`.
+List<List<CrosswordSeed>> seedSubsets(List<CrosswordSeed> seeds) {
+  final out = <List<CrosswordSeed>>[];
+  final picked = <CrosswordSeed>[];
+  void pick(int size, int from) {
+    if (picked.length == size) {
+      out.add(List.unmodifiable(picked));
+      return;
+    }
+    for (var i = from; i <= seeds.length - (size - picked.length); i++) {
+      picked.add(seeds[i]);
+      pick(size, i + 1);
+      picked.removeLast();
+    }
+  }
+
+  for (var size = seeds.length; size >= 1; size--) {
+    pick(size, 0);
+  }
+  return out;
+}
+
 /// The outcome of [CrosswordGenerator.generate].
 class CrosswordGeneration {
   const CrosswordGeneration({
@@ -416,10 +547,14 @@ class CrosswordGeneration {
 /// fill that shares more than [maxShared] answers with any puzzle of the
 /// previous [historyDays] days is rejected.
 ///
-/// With seeds, each template (in date-seeded order) is tried with every
-/// assignment of the seeds to distinct entries of their length, and the rest
-/// is filled from the bank. When no template takes them all, the last seed
-/// is dropped and the search restarts, down to an unseeded puzzle.
+/// With seeds, every subset of them is tried largest first (see
+/// [seedSubsets]); for each subset every template (in date-seeded order) is
+/// tried with every assignment of the seeds to distinct entries of their
+/// length, across or down, and the rest is filled from the bank. A seeded
+/// fill whose least-worn attempts all fail the novelty rule is retried with
+/// wear ignored (see [_bestFill]). The seeded search as a whole is capped at
+/// [seedNodes] backtracking steps, after which the puzzle is generated
+/// unseeded exactly as it would be with no seeds at all.
 class CrosswordGenerator {
   CrosswordGenerator({
     required this.bank,
@@ -430,6 +565,7 @@ class CrosswordGenerator {
     this.historyDays = 400,
     this.maxShared = 5,
     this.candidates = 6,
+    this.seedNodes = 1500000,
   }) : history = Map.of(history) {
     final missing = bank.entries.where((e) => !dictionary.contains(e.answer)).map((e) => e.answer).toList();
     if (missing.isNotEmpty) throw FormatException('Bank answers missing from the dictionary: ${missing.join(', ')}');
@@ -444,6 +580,9 @@ class CrosswordGenerator {
   final int historyDays;
   final int maxShared;
   final int candidates;
+
+  /// The most backtracking steps spent looking for a seeded fill per date.
+  final int seedNodes;
 
   /// Records an existing puzzle's answers so later dates avoid them.
   void remember(DateTime date, Set<String> answers) => history[date] = answers;
@@ -461,18 +600,27 @@ class CrosswordGenerator {
     final usage = _usage(date);
     final banned = _recentAnswers(date);
 
-    for (var n = seeds.length; n >= 0; n--) {
-      final active = seeds.sublist(0, n);
+    final budget = FillBudget(seedNodes);
+    for (final active in seedSubsets(seeds)) {
+      if (budget.exhausted) break;
       final tried = <int>[];
-      for (var k = 0; k < crosswordTemplates.length; k++) {
+      for (var k = 0; k < crosswordTemplates.length && !budget.exhausted; k++) {
         final t = (start + k) % crosswordTemplates.length;
         tried.add(t);
         final grid = crosswordTemplates[t];
         for (final fixed in seedAssignments(deriveEntries(grid), active)) {
-          final fill = _bestFill(grid, seed + k * candidates, fixed, date, usage, banned);
+          final fill = _bestFill(grid, seed + k * candidates, fixed, date, usage, banned, budget);
           if (fill != null) return _finish(fill, date, active, teaser, version, t, List.unmodifiable(tried));
+          if (budget.exhausted) break;
         }
       }
+    }
+    final tried = <int>[];
+    for (var k = 0; k < crosswordTemplates.length; k++) {
+      final t = (start + k) % crosswordTemplates.length;
+      tried.add(t);
+      final fill = _bestFill(crosswordTemplates[t], seed + k * candidates, const {}, date, usage, banned, null);
+      if (fill != null) return _finish(fill, date, const [], teaser, version, t, List.unmodifiable(tried));
     }
     return null;
   }
@@ -480,7 +628,15 @@ class CrosswordGenerator {
   static int _seedFor(DateTime date) => fnv1a('crossword-${EditionClock.formatDate(date)}');
 
   /// The least-worn novel fill of [grid] with [fixed] entries over up to
-  /// [candidates] PRNG seeds from [base]; null when the first attempt fails.
+  /// [candidates] PRNG seeds from [base]; null when the first attempt fails
+  /// or [budget] runs out.
+  ///
+  /// A forced entry leaves few ways to fill its crossings, so with the same
+  /// seed recurring the least-worn choice tends to rebuild the puzzle from
+  /// just outside the [recentDays] window, which [_isNovel] then rejects.
+  /// When every least-worn attempt at a seeded fill fails only on novelty,
+  /// [candidates] more attempts are made with the candidates shuffled
+  /// regardless of wear.
   CrosswordFill? _bestFill(
     List<String> grid,
     int base,
@@ -488,15 +644,18 @@ class CrosswordGenerator {
     DateTime date,
     Map<String, int> usage,
     Set<String> banned,
+    FillBudget? budget,
   ) {
     CrosswordFill? best;
     var bestWear = 0;
+    var filled = false;
     for (var r = 0; r < candidates; r++) {
-      final candidate = fillGrid(grid, bank, SeededRandom(base + r), used: banned, usage: usage, fixed: fixed);
+      final candidate = fillGrid(grid, bank, SeededRandom(base + r), used: banned, usage: usage, fixed: fixed, budget: budget);
       if (candidate == null) {
         if (r == 0) break;
         continue;
       }
+      filled = true;
       final answers = candidate.answers.values.toSet();
       if (!_isNovel(answers, date)) continue;
       final wear = answers.fold(0, (sum, w) => sum + (usage[w] ?? 0));
@@ -506,7 +665,14 @@ class CrosswordGenerator {
       }
       if (wear == 0) break;
     }
-    return best;
+    if (best != null || !filled || fixed.isEmpty) return best;
+    final retry = base + candidates * crosswordTemplates.length;
+    for (var r = 0; r < candidates; r++) {
+      final candidate = fillGrid(grid, bank, SeededRandom(retry + r), used: banned, fixed: fixed, budget: budget);
+      if (candidate == null) continue;
+      if (_isNovel(candidate.answers.values.toSet(), date)) return candidate;
+    }
+    return null;
   }
 
   CrosswordGeneration _finish(

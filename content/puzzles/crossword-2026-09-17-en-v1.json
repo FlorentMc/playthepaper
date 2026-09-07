@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Fruit seed"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Famous performer"
+          "clue": "Helper"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Browned bread"
+          "clue": "Top of the head"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Red or white drink"
+          "clue": "Evergreen with cones"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Not new"
+          "clue": "Much ___ About Nothing"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Market stall"
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Make less painful"
+          "clue": "Lazy"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Painting or sculpture"
+          "clue": "Liveliness"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Ground for planting"
+          "clue": "Vinegar's sour component"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Resort with hot springs"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SEA",
-      "#STAR",
-      "TOAST",
-      "WINE#",
-      "OLD##"
+      "##PIP",
+      "#AIDE",
+      "SCALP",
+      "PINE#",
+      "ADO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

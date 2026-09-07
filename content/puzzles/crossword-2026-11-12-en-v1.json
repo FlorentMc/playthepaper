@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
-      ".....",
+      "##...",
       "#....",
-      "##..."
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Pork on a Christmas table"
+          "clue": "Liveliness"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Small screen symbol"
+          "clue": "Left or right"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Toss"
+          "clue": "Killed"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "clue": "Make less painful"
+          "clue": "Pub measure"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Allow"
+          "clue": "Much ___ About Nothing"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Strike"
+          "col": 2,
+          "length": 5,
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "clue": "Dull pain"
+          "clue": "Revise text"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Lesson of a fable"
+          "col": 4,
+          "length": 3,
+          "clue": "Writing tool"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Moved smoothly"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Smelling organ"
-        },
-        {
-          "number": 7,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "Resort with hot springs"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "HAM##",
-      "ICON#",
-      "THROW",
-      "#EASE",
-      "##LET"
+      "##PEP",
+      "#SIDE",
+      "SLAIN",
+      "PINT#",
+      "ADO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

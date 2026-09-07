@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Switched ___"
+          "clue": "Chop off"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Owed"
+          "clue": "Hearing organ"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Sketched"
+          "clue": "Motivation"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "That girl"
+          "clue": "Damage the look of"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Pull a car"
+          "clue": "Letter after zeta"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Not even"
+          "clue": "Guided"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Bear's coat"
+          "clue": "Rowing blade"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Grand meal"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Large tank"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Brand ___"
+          "clue": "Age or epoch"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "OFF##",
-      "DUE##",
-      "DRAWN",
-      "##SHE",
-      "##TOW"
+      "LOP##",
+      "EAR##",
+      "DRIVE",
+      "##MAR",
+      "##ETA"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

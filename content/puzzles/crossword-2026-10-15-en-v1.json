@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Ink holder"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Television programme"
+          "clue": "Ocean's rise and fall"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Extra"
+          "clue": "Wait for"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Caring and gentle"
+          "clue": "Pub measure"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pen filler"
+          "clue": "Sense of self-importance"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Show gratitude to"
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Unit of language"
+          "clue": "Revise text"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Goal's back"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Twirl"
+          "clue": "Thin shoot"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Slide down a snowy slope"
+          "clue": "Gorilla or chimp"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#SHOW",
-      "SPARE",
-      "KIND#",
-      "INK##"
+      "##PEN",
+      "#TIDE",
+      "AWAIT",
+      "PINT#",
+      "EGO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

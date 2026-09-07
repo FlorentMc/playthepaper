@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
+      "#....",
       ".....",
-      ".....",
-      ".....",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Group of matching items"
+          "clue": "Feathery scarf"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "clue": "Serious"
+          "col": 1,
+          "length": 4,
+          "clue": "Subtle suggestion"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Monarch"
+          "clue": "Honourable"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Friendly nation"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "clue": "Warning bell"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Where you sleep"
+          "clue": "Goodbye"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Bowl of lettuce"
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "At any time"
+          "clue": "Sole"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "clue": "Word with a special meaning"
+          "length": 3,
+          "clue": "Had dinner"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Seize"
+          "clue": "Blessed"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Govern"
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Arrest"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SET",
-      "GRAVE",
-      "RULER",
-      "ALARM",
-      "BED##"
+      "##BOA",
+      "#HINT",
+      "NOBLE",
+      "ALLY#",
+      "BYE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

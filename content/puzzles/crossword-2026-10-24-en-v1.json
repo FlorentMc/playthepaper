@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Atlas page"
+          "clue": "Mischievous sprite"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Slippery liquid"
+          "clue": "Black sticky substance"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Thinking organ"
+          "clue": "Flavouring"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "As well"
+          "clue": "Damage the look of"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Conclusion"
+          "clue": "Greek letter"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Unruly crowd"
+          "clue": "Belonging to that thing"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Atlas page"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Flat dish for food"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Charged particle"
+          "clue": "Feline pet"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Head bob"
+          "clue": "Period of history"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "MAP##",
-      "OIL##",
-      "BRAIN",
-      "##TOO",
-      "##END"
+      "IMP##",
+      "TAR##",
+      "SPICE",
+      "##MAR",
+      "##ETA"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

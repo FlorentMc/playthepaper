@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "___ is the question"
+          "clue": "Pull along the ground"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Came into being"
+          "clue": "Get up"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Shopping trolley"
+          "clue": "Look steadily"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Land along the water's edge"
+          "clue": "Nobel honour Fleming shared in 1945",
+          "storyId": "discovery-1-penicillin"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Where the sun rises"
+          "clue": "Comfort"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Had dinner"
+          "clue": "Years lived"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Serving platter"
+          "clue": "Tie in a match"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Top card in the deck"
+          "clue": "Long ___"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SEA",
-      "#THAT",
-      "AROSE",
-      "CART#",
-      "EYE##"
+      "##PEA",
+      "#DRAG",
+      "ARISE",
+      "GAZE#",
+      "OWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "discovery-1-penicillin",
+        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+      }
     ]
-  }
+  },
+  "storyId": "discovery-1-penicillin"
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Expert"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Blueprint"
+          "clue": "Opera solo"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Where a belt goes"
+          "clue": "Turn"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Animal skin"
+          "clue": "Light mist"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Needle's hole"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Glide"
+          "clue": "Nobel honour Fleming shared in 1945",
+          "storyId": "discovery-1-penicillin"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Comfort"
+          "clue": "Get out of bed"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Picnic pest"
+          "clue": "Porridge grain"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Discomfort"
+          "clue": "Far off"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Most common English word"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SEA",
-      "#PLAN",
-      "WAIST",
-      "HIDE#",
-      "ONE##"
+      "##PRO",
+      "#ARIA",
+      "TWIST",
+      "HAZE#",
+      "EYE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "discovery-1-penicillin",
+        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+      }
     ]
-  }
+  },
+  "storyId": "discovery-1-penicillin"
 }

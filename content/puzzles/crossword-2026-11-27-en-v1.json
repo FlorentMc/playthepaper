@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Argument in favour"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Wide smile"
+          "clue": "Let fall"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Rub out"
+          "clue": "Joint below the hand"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Travel on horseback"
+          "clue": "Misty"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Mimic"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Swap"
+          "clue": "Nobel honour Fleming shared in 1945",
+          "storyId": "discovery-1-penicillin"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Sage"
+          "clue": "Optimistic"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Single"
+          "clue": "Decide to"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Firm hold"
+          "clue": "Sketch"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Period of history"
+          "clue": "Which person"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#GRIN",
-      "ERASE",
-      "RIDE#",
-      "APE##"
+      "##PRO",
+      "#DROP",
+      "WRIST",
+      "HAZY#",
+      "OWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "discovery-1-penicillin",
+        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+      }
     ]
-  }
+  },
+  "storyId": "discovery-1-penicillin"
 }

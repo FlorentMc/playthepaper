@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
-      ".....",
       "##...",
-      "##..."
+      "#....",
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Tattered cloth"
+          "clue": "Place for a massage"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 3,
-          "clue": "Night bird that hoots"
+          "col": 1,
+          "length": 4,
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Whiskers"
+          "clue": "Score unit"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "Polite address for a man"
+          "col": 0,
+          "length": 4,
+          "clue": "Hockey surface"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Secret agent"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Steal from"
+          "col": 2,
+          "length": 5,
+          "clue": "Gleam"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "clue": "Wonder and amazement"
+          "col": 3,
+          "length": 4,
+          "clue": "Colour of flamingos"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Drinking vessel"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 3,
-          "length": 3,
-          "clue": "Torn place in fabric"
-        },
-        {
-          "number": 7,
-          "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Like a desert"
+          "clue": "Fitting or suitable"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Penny or dime"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Argument in favour"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "RAG##",
-      "OWL##",
-      "BEARD",
-      "##SIR",
-      "##SPY"
+      "##SPA",
+      "#CHIP",
+      "POINT",
+      "RINK#",
+      "ONE##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

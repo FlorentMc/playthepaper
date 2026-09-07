@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Not on"
+          "clue": "Argument in favour"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Zero, in a football score"
+          "clue": "Use oars"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Tooth ___"
+          "clue": "Out of the way"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "In the past"
+          "clue": "Tasselled hat"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Golf ball's perch"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Layered bulb"
+          "clue": "Nobel honour Fleming shared in 1945",
+          "storyId": "discovery-1-penicillin"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Christmas tree, often"
+          "clue": "Straight metal bar"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Travel by plane"
+          "clue": "Need to pay back"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Plump"
+          "clue": "At the back of a ship"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Years lived"
+          "clue": "Notice with the eyes"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##OFF",
-      "##NIL",
-      "FAIRY",
-      "AGO##",
-      "TEN##"
+      "##PRO",
+      "##ROW",
+      "ASIDE",
+      "FEZ##",
+      "TEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "discovery-1-penicillin",
+        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+      }
     ]
-  }
+  },
+  "storyId": "discovery-1-penicillin"
 }

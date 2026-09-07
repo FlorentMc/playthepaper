@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
+      "#....",
       "#....",
       ".....",
       "....#",
-      "...##"
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "clue": "Enjoyment"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Full of wisdom"
+          "clue": "Speak to a god"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "clue": "Piece of paper"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Fury"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Gripped"
+          "length": 5,
+          "clue": "Assumed fact"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Sign of things to come"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "clue": "Finish"
+          "length": 4,
+          "clue": "Small hollow"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "clue": "Farm's open land"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "clue": "Pre-owned"
+          "col": 2,
+          "length": 5,
+          "clue": "Big black bird"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Goal's back"
+          "col": 3,
+          "length": 5,
+          "clue": "Representative"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Question about timing"
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Strong desire"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Object of worship"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##FUN",
-      "#WISE",
-      "SHEET",
-      "HELD#",
-      "END##"
+      "#PRAY",
+      "#RAGE",
+      "GIVEN",
+      "OMEN#",
+      "DENT#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

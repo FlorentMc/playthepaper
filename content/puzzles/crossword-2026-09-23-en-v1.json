@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Past of feed"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Garden storage hut"
+          "col": 2,
+          "length": 3,
+          "clue": "Necklace of flowers"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Fencing weapon"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Make less painful"
+          "clue": "Fashion"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Garden tool for weeds"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Gorilla or chimp"
+          "clue": "Be wrong"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Plural of that"
+          "clue": "Wright ___, the aircraft of 17 December 1903",
+          "storyId": "technology-1-flyer"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Past of are"
+          "length": 3,
+          "clue": "Slippery swimmer"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Strange"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Exchange"
+          "clue": "Cease to live"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Woman's pronoun"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Dartmoor landmark"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#SHED",
-      "SWORD",
-      "EASE#",
-      "APE##"
+      "##FED",
+      "##LEI",
+      "STYLE",
+      "HOE##",
+      "ERR##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "technology-1-flyer",
+        "excerpt": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-flyer"
 }

@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
-      ".....",
       "##...",
-      "##..."
+      "#....",
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Small, north of the border"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 3,
-          "clue": "Behave"
+          "col": 1,
+          "length": 4,
+          "clue": "Taller ___ me"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "End of life"
+          "clue": "Prize"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "Payment to a lawyer"
+          "col": 0,
+          "length": 4,
+          "clue": "Fish's breathing organ"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Devoted supporter"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Owned"
+          "col": 2,
+          "length": 5,
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "clue": "Cubes in a drink"
+          "col": 3,
+          "length": 4,
+          "clue": "British nobleman"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Walking stick"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 3,
-          "length": 3,
-          "clue": "Afternoon cuppa"
-        },
-        {
-          "number": 7,
-          "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Female chicken"
+          "clue": "Conclusion"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "One of two born together"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Long ___"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "HIS##",
-      "ACT##",
-      "DEATH",
-      "##FEE",
-      "##FAN"
+      "##WEE",
+      "#THAN",
+      "AWARD",
+      "GILL#",
+      "ONE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

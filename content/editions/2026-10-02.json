@@ -42,7 +42,8 @@
     "discovery-1-penicillin": [
       "quiz:1",
       "quiz:2",
-      "letters"
+      "letters",
+      "crossword:3 Down"
     ],
     "discovery-1-deep": [
       "quiz:3",

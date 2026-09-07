@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Secret agent"
+          "clue": "Resort with hot springs"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Footwear"
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Football or tennis"
+          "clue": "Put seeds in the ground"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Strike with the foot"
+          "clue": "Tortoise's rival"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pen filler"
+          "clue": "Little devil"
         }
       ],
       "down": [
@@ -59,46 +60,55 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Electric jolt"
+          "clue": "Keen-edged"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Pig meat"
+          "clue": "Evergreen with cones"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Up to now"
+          "clue": "Fitting or suitable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rotate quickly"
+          "clue": "Shellfish"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Snow runner"
+          "clue": "Greek letter"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SPY",
-      "#SHOE",
-      "SPORT",
-      "KICK#",
-      "INK##"
+      "##SPA",
+      "#CHIP",
+      "PLANT",
+      "HARE#",
+      "IMP##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

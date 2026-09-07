@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
-      ".....",
+      "##...",
       "#....",
-      "##..."
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Used to be"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Painting, music and drama"
+          "clue": "Ocean liner"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Ethical"
+          "clue": "Suspicious"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "clue": "Label for a person"
+          "clue": "Long rod"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "Feeling before a grand view"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Sandwich meat from a pig"
+          "col": 2,
+          "length": 5,
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "clue": "Metal that rusts"
+          "clue": "Assistant"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Dried stalks for bedding"
+          "col": 4,
+          "length": 3,
+          "clue": "Undercover agent"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Display"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Not different"
-        },
-        {
-          "number": 7,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "clue": "Allow"
+          "clue": "Place for a massage"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "HIS##",
-      "ARTS#",
-      "MORAL",
-      "#NAME",
-      "##WET"
+      "##WAS",
+      "#SHIP",
+      "SHADY",
+      "POLE#",
+      "AWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

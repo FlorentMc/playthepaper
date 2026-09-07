@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Deep vessel for boiling soup"
+          "clue": "Number of wheels on a bike"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Fresh ___"
+          "col": 1,
+          "length": 4,
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Response"
+          "clue": "Middle of the body"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Shrek, for one"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Exist, in the present tense"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Road surface material"
+          "clue": "Tie the knot"
         }
       ],
       "down": [
@@ -59,46 +60,55 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Writing sheet"
+          "clue": "After second"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Olive ___"
+          "length": 4,
+          "clue": "Full of wisdom"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Attempt"
+          "clue": "Choose"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Barred enclosure"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Rodent with a long tail"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Exclamation of amazement"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##POT",
-      "##AIR",
-      "REPLY",
-      "ARE##",
-      "TAR##"
+      "##TWO",
+      "#CHIP",
+      "WAIST",
+      "OGRE#",
+      "WED##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

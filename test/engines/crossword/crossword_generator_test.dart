@@ -19,8 +19,8 @@ void main() {
   final dictionary = File('tool/data/enable1.txt').readAsLinesSync().map((w) => w.trim().toUpperCase()).toSet();
   final bankAnswers = bank.entries.map((e) => e.answer).toSet();
 
-  Map<String, dynamic> readPuzzle(String date) =>
-      jsonDecode(File('content/puzzles/crossword-$date-en-v1.json').readAsStringSync()) as Map<String, dynamic>;
+  Map<String, dynamic> readFixture(String date) =>
+      jsonDecode(File('test/fixtures/unseeded/crossword-$date-en-v1.json').readAsStringSync()) as Map<String, dynamic>;
 
   /// A generator that knows every published crossword before [date].
   CrosswordGenerator generatorBefore(DateTime date) {
@@ -75,15 +75,26 @@ void main() {
       expect(() => CrosswordGenerator(bank: odd, dictionary: dictionary), throwsFormatException);
     });
 
-    test('unseeded output is identical to the published files', () {
-      for (final date in ['2026-09-01', '2026-10-15', '2026-12-31']) {
-        final d = EditionClock.parseDate(date);
-        final result = generatorBefore(d).generate(d);
+    test('unseeded output is identical to the reference files', () {
+      // The references were produced from the bank snapshot in the fixtures
+      // directory by generating every date from 2026-09-01 in order, each
+      // generation remembered for the next. They pin the unseeded path of
+      // the generator: growing the live bank must not change this test.
+      final snapshot = CrosswordBank.fromJson(jsonDecode(File('test/fixtures/unseeded/clues.json').readAsStringSync()));
+      final generator = CrosswordGenerator(bank: snapshot, dictionary: dictionary);
+      final references = {'2026-09-08', '2026-10-15', '2026-12-31'};
+      var checked = 0;
+      for (var d = DateTime.utc(2026, 9, 1); !d.isAfter(DateTime.utc(2026, 12, 31)); d = d.add(const Duration(days: 1))) {
+        final result = generator.generate(d);
+        final date = EditionClock.formatDate(d);
         expect(result, isNotNull, reason: date);
         expect(result!.seeds, isEmpty);
         expect(result.record.storyId, isNull);
-        expect(jsonDecode(jsonEncode(result.record.toJson())), readPuzzle(date), reason: date);
+        if (!references.contains(date)) continue;
+        expect(jsonDecode(jsonEncode(result.record.toJson())), readFixture(date), reason: date);
+        checked++;
       }
+      expect(checked, references.length);
     });
 
     test('places every seed, clues them from the story and explains them in the reveal', () {
@@ -148,8 +159,9 @@ void main() {
       expect(a.record, b.record);
     });
 
-    test('drops seeds from the end when they cannot all be placed', () {
+    test('keeps the largest subset of seeds that fits, whatever their order', () {
       final impossible = seed('XQZJV', story: 'odd', excerpt: 'XQZJV is not a word.');
+      final hopeless = seed('QQQQ', story: 'odder', excerpt: 'QQQQ is not a word either.');
       final date = DateTime.utc(2026, 11, 4);
 
       final partial = generatorBefore(date).generate(date, seeds: [seed('FJORD', story: 'norway', excerpt: 'A fjord.'), impossible], teaser: 't')!;
@@ -159,12 +171,45 @@ void main() {
       expect(partial.record.payload['teaser'], 't');
       expect((partial.record.reveal['seeded'] as List).length, 1);
 
-      final none = generatorBefore(date).generate(date, seeds: [impossible, seed('FJORD', excerpt: 'A fjord.')], teaser: 't')!;
+      final later = generatorBefore(date).generate(date, seeds: [impossible, hopeless, seed('FJORD', story: 'norway', excerpt: 'A fjord.')], teaser: 't')!;
+      expect(later.seedsPlaced, 1);
+      expect(later.seeds.single.answer, 'FJORD');
+      expect(later.record, partial.record);
+
+      final none = generatorBefore(date).generate(date, seeds: [impossible, hopeless], teaser: 't')!;
       expect(none.seedsPlaced, 0);
       expect(none.record.storyId, isNull);
       expect(none.record.payload.containsKey('teaser'), isFalse);
       expect(none.record.reveal.containsKey('seeded'), isFalse);
-      expect(jsonDecode(jsonEncode(none.record.toJson())), readPuzzle('2026-11-04'));
+      expect(none.record, generatorBefore(date).generate(date)!.record);
+    });
+
+    test('tries every subset of the seeds, largest first, in the seeds\' order', () {
+      final a = seed('AAA', story: 'a', excerpt: 'aaa');
+      final b = seed('BBB', story: 'b', excerpt: 'bbb');
+      final c = seed('CCC', story: 'c', excerpt: 'ccc');
+      List<String> names(List<CrosswordSeed> s) => s.map((x) => x.answer).toList();
+      expect(seedSubsets([a, b, c]).map(names), [
+        ['AAA', 'BBB', 'CCC'],
+        ['AAA', 'BBB'],
+        ['AAA', 'CCC'],
+        ['BBB', 'CCC'],
+        ['AAA'],
+        ['BBB'],
+        ['CCC'],
+      ]);
+      expect(seedSubsets([a, b, c, seed('DDD', story: 'd', excerpt: 'ddd')]).length, 15);
+      expect(seedSubsets(const []), isEmpty);
+    });
+
+    test('falls back to the unseeded puzzle when the seed budget runs out', () {
+      final date = DateTime.utc(2026, 11, 4);
+      final seeds = [seed('FJORD', story: 'norway', excerpt: 'A fjord.'), seed('OAK', excerpt: 'An oak.')];
+      final starved = CrosswordGenerator(bank: bank, dictionary: dictionary, seedNodes: 1).generate(date, seeds: seeds)!;
+      expect(starved.seedsPlaced, 0);
+      expect(starved.record, CrosswordGenerator(bank: bank, dictionary: dictionary).generate(date)!.record);
+      final fed = CrosswordGenerator(bank: bank, dictionary: dictionary).generate(date, seeds: seeds)!;
+      expect(fed.seedsPlaced, greaterThan(0));
     });
 
     test('rejects seeds that repeat an answer', () {

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Cry loudly"
+          "clue": "Throw in a high arc"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Hearing organ"
+          "clue": "Much ___ About Nothing"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Court case"
+          "clue": "Thick"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Hearing organ"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "A handful"
+          "clue": "Place for a massage"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Put in place"
+          "clue": "Boy"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Rowing blade"
+          "clue": "Poem of praise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Concise"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "___ you ready?"
+          "clue": "Tree juice"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Rule of the land"
+          "clue": "Period of history"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "SOB##",
-      "EAR##",
-      "TRIAL",
-      "##ERA",
-      "##FEW"
+      "LOB##",
+      "ADO##",
+      "DENSE",
+      "##EAR",
+      "##SPA"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

@@ -29,14 +29,14 @@
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Unwell"
+          "clue": "Roadside lodging"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Skeleton of a building"
+          "clue": "Suspicious"
         },
         {
           "number": 7,
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Tree often lining a street"
+          "clue": "Conclusion"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Some, no matter which"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Healthy and in shape"
+          "clue": "Take a seat"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Line of seats"
+          "clue": "In what way"
         }
       ]
     },
@@ -97,8 +97,8 @@
   "reveal": {
     "solution": [
       "##PEA",
-      "##ILL",
-      "FRAME",
+      "##INN",
+      "SHADY",
       "ION##",
       "TWO##"
     ],

@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Opponent"
+          "clue": "Item of lingerie"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Produce an egg"
+          "col": 1,
+          "length": 4,
+          "clue": "King of the jungle"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Alert and conscious"
+          "clue": "Leisure activity"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Small island"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Beaver's construction"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Start of a golf hole"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Tongue of fire"
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Wood for sturdy furniture"
+          "length": 4,
+          "clue": "Judge's garment"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "___ time now"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Misplace"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Put together, as numbers"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Route"
+          "clue": "Strike"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##FOE",
-      "##LAY",
-      "AWAKE",
-      "DAM##",
-      "DYE##"
+      "##BRA",
+      "#LION",
+      "HOBBY",
+      "ISLE#",
+      "TEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

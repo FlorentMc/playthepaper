@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
+      "##...",
+      "##...",
       ".....",
-      "#....",
-      "##..."
+      "...##",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Straight metal bar"
+          "clue": "Cushion"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "clue": "Baking appliance"
+          "col": 2,
+          "length": 3,
+          "clue": "Slippery in winter"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Opposite of above"
+          "clue": "Dinner dish"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Charged particle"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "clue": "Price per unit"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Up to now"
+          "clue": "Excessively"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Steal from"
+          "col": 2,
+          "length": 5,
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "clue": "Finished"
+          "col": 3,
+          "length": 3,
+          "clue": "Behave"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Postpone"
+          "col": 4,
+          "length": 3,
+          "clue": "Hair colouring"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Short written message"
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Cherry stone"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
-          "col": 4,
+          "col": 1,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "The lavatory"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "ROD##",
-      "OVEN#",
-      "BELOW",
-      "#RATE",
-      "##YET"
+      "##PAD",
+      "##ICY",
+      "PLATE",
+      "ION##",
+      "TOO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

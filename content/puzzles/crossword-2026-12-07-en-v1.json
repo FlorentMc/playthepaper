@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Jeweller's stone"
+          "clue": "Small, north of the border"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Stubborn animal"
+          "clue": "Warm up after frost"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Browned bread"
+          "clue": "Rub out"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Past of wear"
+          "clue": "Lean"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Strange"
+          "clue": "Mimic"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Protect"
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Compass point opposite west"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Past of meet"
+          "clue": "Ram's mate"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Frame of mind"
+          "clue": "Stumble"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Greek letter"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##GEM",
-      "#MULE",
-      "TOAST",
-      "WORE#",
-      "ODD##"
+      "##WEE",
+      "#THAW",
+      "ERASE",
+      "TILT#",
+      "APE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

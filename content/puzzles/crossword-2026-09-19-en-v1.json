@@ -9,55 +9,55 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "##...",
+      "#....",
+      "#....",
       ".....",
-      "...##",
-      "...##"
+      "....#",
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "clue": "Pod's content"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Cleaning cloth"
+          "col": 1,
+          "length": 4,
+          "clue": "Say grace"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Govern"
+        },
+        {
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Compose a letter"
+          "clue": "Cockpit worker"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "clue": "Sing with closed lips"
+          "length": 4,
+          "clue": "Prayer ender"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "clue": "Lowest whole number above zero"
+          "length": 4,
+          "clue": "Past of are"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
           "clue": "___ Meridian, the line that runs through Greenwich",
           "storyId": "everyday-1-greenwich"
@@ -65,30 +65,30 @@
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "clue": "Have a meal"
+          "col": 2,
+          "length": 5,
+          "clue": "Measuring stick"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Years lived"
+          "col": 3,
+          "length": 5,
+          "clue": "By oneself"
         },
         {
-          "number": 5,
-          "row": 2,
-          "col": 0,
+          "number": 4,
+          "row": 0,
+          "col": 4,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Up to now"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "clue": "Sprint"
+          "clue": "Cat's foot"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PEA",
-      "##RAG",
-      "WRITE",
-      "HUM##",
-      "ONE##"
+      "#PRAY",
+      "#RULE",
+      "PILOT",
+      "AMEN#",
+      "WERE#"
     ],
     "seeded": [
       {

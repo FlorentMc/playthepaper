@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Recycling ___"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Be familiar with"
+          "clue": "Helper"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Point of view"
+          "clue": "Bend in the arm"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Sunflower's kernel"
+          "clue": "Row of shops under one roof"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that woman"
+          "clue": "Put to work"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Rage"
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Precious yellow metal"
+          "clue": "Object of worship"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Just made"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "It bends when you kneel"
+          "clue": "Cry of woe"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Cigarette leftover"
+          "clue": "Australian bird that cannot fly"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##AGO",
-      "#KNOW",
-      "ANGLE",
-      "SEED#",
-      "HER##"
+      "##BIN",
+      "#AIDE",
+      "ELBOW",
+      "MALL#",
+      "USE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

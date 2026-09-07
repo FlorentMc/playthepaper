@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Feline pet"
+          "clue": "Shopping carrier"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Paste"
+          "clue": "What a clock shows"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Concert venue"
+          "clue": "Circle in space"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Bearded farm animal"
+          "clue": "Fuse"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to oneself"
+          "clue": "Sheltered side"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Free of dirt"
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Uncle's wife"
+          "clue": "Surrounded by"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hot drink with a bag"
+          "clue": "Receive"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cultivate"
+          "clue": "Trunk and branches"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Wise bird"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##CAT",
-      "#GLUE",
-      "ARENA",
-      "GOAT#",
-      "OWN##"
+      "##BAG",
+      "#TIME",
+      "ORBIT",
+      "WELD#",
+      "LEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

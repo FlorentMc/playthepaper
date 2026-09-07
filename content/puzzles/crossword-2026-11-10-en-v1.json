@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Jeweller's stone"
+          "clue": "Place to order a drink"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Stubborn animal"
+          "clue": "St Paul's has a famous one"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Where a belt goes"
+          "clue": "Ruled, as paper"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Animal skin"
+          "clue": "Divisible by two"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Cooker fuel"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Tour leader"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "So be it"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Past of meet"
+          "clue": "Colour of ripe tomatoes"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Principal"
+          "clue": "Leading lady of opera"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Limb with a knee"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##GEM",
-      "#MULE",
-      "WAIST",
-      "HIDE#",
-      "ONE##"
+      "##BAR",
+      "#DOME",
+      "LINED",
+      "EVEN#",
+      "GAS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

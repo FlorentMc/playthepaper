@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Automated program online"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "At that time"
+          "clue": "Very small"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Leading"
+          "clue": "Television via a wire"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Compass point opposite east"
+          "clue": "Friendly nation"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Needle's hole"
+          "clue": "Small, north of the border"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Plural of this"
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Warmth"
+          "clue": "No more than"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Neckwear for a suit"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Pronoun for a group"
+          "clue": "Man or boy"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Feeling before a grand view"
+          "clue": "Rook's call"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##THE",
-      "#THEN",
-      "AHEAD",
-      "WEST#",
-      "EYE##"
+      "##BOT",
+      "#MINI",
+      "CABLE",
+      "ALLY#",
+      "WEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

@@ -9,86 +9,86 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "##...",
-      ".....",
       "...##",
-      "...##"
+      "...##",
+      ".....",
+      "##...",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Chop off"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Dried grass for horses"
+          "clue": "What we breathe"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "___ Meridian, the line that runs through Greenwich",
-          "storyId": "everyday-1-greenwich"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Hearing organ"
+          "clue": "Perfect happiness"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 2,
           "length": 3,
-          "clue": "Insect that lives in a colony"
+          "clue": "Cow's sound"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Conclusion"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Top with sleeves"
+          "col": 0,
+          "length": 3,
+          "clue": "Scientist's workplace"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 3,
-          "clue": "Sandwich meat from a pig"
+          "clue": "Olive ___"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Seeing organ"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Pod's content"
+          "col": 2,
+          "length": 5,
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 1,
+          "col": 3,
           "length": 3,
-          "clue": "Past of run"
+          "clue": "Parent's boy"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Piece of grass and earth"
         }
       ]
     },
@@ -96,15 +96,15 @@
   },
   "reveal": {
     "solution": [
-      "##SHE",
-      "##HAY",
-      "PRIME",
-      "EAR##",
-      "ANT##"
+      "LOP##",
+      "AIR##",
+      "BLISS",
+      "##MOO",
+      "##END"
     ],
     "seeded": [
       {
-        "label": "5 Across",
+        "label": "3 Down",
         "storyId": "everyday-1-greenwich",
         "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
       }

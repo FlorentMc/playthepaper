@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
+      "##...",
+      "##...",
       ".....",
-      "#....",
-      "##..."
+      "...##",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Night bird that hoots"
+          "clue": "Gentle tap"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "clue": "Leg's end"
+          "col": 2,
+          "length": 3,
+          "clue": "Bread grain"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Sharpen an image"
+          "clue": "Foreign"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Tasselled hat"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "clue": "Narrow road"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Allow"
+          "clue": "Neckwear for a suit"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Not on"
+          "col": 2,
+          "length": 5,
+          "clue": "Nobel honour Fleming shared in 1945",
+          "storyId": "discovery-1-penicillin"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "clue": "Sheep's fleece"
+          "col": 3,
+          "length": 3,
+          "clue": "Vote in favour"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Nearby"
+          "col": 4,
+          "length": 3,
+          "clue": "Number of fingers"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Adjust an instrument"
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "At the back of a ship"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
-          "col": 4,
+          "col": 1,
           "length": 3,
-          "clue": "Put in place"
+          "clue": "Necklace of flowers"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "OWL##",
-      "FOOT#",
-      "FOCUS",
-      "#LANE",
-      "##LET"
+      "##PAT",
+      "##RYE",
+      "ALIEN",
+      "FEZ##",
+      "TIE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "discovery-1-penicillin",
+        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+      }
     ]
-  }
+  },
+  "storyId": "discovery-1-penicillin"
 }

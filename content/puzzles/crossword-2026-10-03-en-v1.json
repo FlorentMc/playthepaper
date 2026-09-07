@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
       ".....",
-      "...##",
+      ".....",
+      ".....",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Whale group"
+          "clue": "Toddler"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Flat fish with a whip tail"
+          "col": 0,
+          "length": 5,
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Similar"
+          "clue": "Consumed"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "clue": "Male sheep"
+          "length": 5,
+          "clue": "Rise to your feet"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Number of fingers"
         }
       ],
       "down": [
@@ -59,36 +60,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "___ Meridian, the line that runs through Greenwich",
-          "storyId": "everyday-1-greenwich"
+          "clue": "Giant"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Acorn tree"
+          "length": 4,
+          "clue": "Sign of things to come"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "clue": "Hair colouring"
+          "length": 4,
+          "clue": "Be inclined"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Nuisance"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Exist, in the present tense"
-        },
-        {
-          "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 1,
-          "length": 3,
-          "clue": "Put down"
+          "length": 4,
+          "clue": "Price per unit"
         }
       ]
     },
@@ -96,15 +96,15 @@
   },
   "reveal": {
     "solution": [
-      "##POD",
-      "##RAY",
-      "ALIKE",
-      "RAM##",
-      "EYE##"
+      "##TOT",
+      "PRIME",
+      "EATEN",
+      "STAND",
+      "TEN##"
     ],
     "seeded": [
       {
-        "label": "1 Down",
+        "label": "4 Across",
         "storyId": "everyday-1-greenwich",
         "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
       }

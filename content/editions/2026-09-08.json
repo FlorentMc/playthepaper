@@ -47,11 +47,12 @@
     "science-1-bones": [
       "quiz:3",
       "quiz:4",
-      "crossword:1 Down"
+      "crossword:3 Down"
     ],
     "science-1-cern": [
       "quiz:5",
-      "letters"
+      "letters",
+      "crossword:1 Down"
     ]
   }
 }

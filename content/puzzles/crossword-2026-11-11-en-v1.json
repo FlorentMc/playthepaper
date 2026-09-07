@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Taxi"
+          "clue": "Used to be"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Accurate"
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Facing side"
+          "clue": "Temperamental"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Remainder"
+          "clue": "___ of Wight"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Change the colour of fabric"
         }
       ],
       "down": [
@@ -59,46 +60,55 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Angry"
+          "clue": "Entire"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Parent's sister"
+          "clue": "Assistant"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Wager"
+          "clue": "Secret agent"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Warm and comfortable"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Sizzle in a pan"
+          "clue": "___-air"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##CAB",
-      "#TRUE",
-      "FRONT",
-      "REST#",
-      "YES##"
+      "##WAS",
+      "#CHIP",
+      "MOODY",
+      "ISLE#",
+      "DYE##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "#....",
+      "#...#",
       ".....",
-      "....#",
-      "...##"
+      ".....",
+      ".....",
+      "#...#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 3,
-          "clue": "Charge for a service"
+          "clue": "Wager"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Neat"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Not small"
+          "clue": "Plank"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Or ___"
+          "length": 5,
+          "clue": "Rage"
         },
         {
           "number": 7,
-          "row": 4,
+          "row": 3,
           "col": 0,
+          "length": 5,
+          "clue": "Pass on"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
           "length": 3,
-          "clue": "Obtain"
+          "clue": "Put in place"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "clue": "Before all others"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "clue": "Border"
+          "col": 2,
+          "length": 5,
+          "clue": "Large bird of prey"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Seeing organ"
+          "col": 3,
+          "length": 5,
+          "clue": "Special pleasure"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Fable"
+          "col": 0,
+          "length": 3,
+          "clue": "Chocolate ___"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
+          "row": 1,
+          "col": 4,
           "length": 3,
-          "clue": "Table support"
+          "clue": "Like a desert"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##FEE",
-      "#TIDY",
-      "LARGE",
-      "ELSE#",
-      "GET##"
+      "#BET#",
+      "BOARD",
+      "ANGER",
+      "RELAY",
+      "#SET#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

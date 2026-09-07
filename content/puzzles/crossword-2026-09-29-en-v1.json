@@ -29,28 +29,28 @@
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Fib"
+          "clue": "Rock with metal in it"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Separated"
+          "clue": "Make new again"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Wall that holds back a river"
+          "clue": "Finished a meal"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Oxygen or helium"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Fault"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Exist, in the present tense"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Fishing mesh"
+          "clue": "Brand ___"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Total up"
+          "clue": "Cleaning cloth"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Wages"
+          "clue": "Letter after zeta"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
       "##BAN",
-      "##LIE",
-      "APART",
-      "DAM##",
-      "DYE##"
+      "##ORE",
+      "RENEW",
+      "ATE##",
+      "GAS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

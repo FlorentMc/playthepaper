@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
       ".....",
-      "....#",
+      ".....",
+      ".....",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Automated program online"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Footwear"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Expertise"
+          "clue": "Kitchen appliance with burners"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Rent"
+          "length": 5,
+          "clue": "Bed sheets"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Warning"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Word of agreement"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "One of three equal parts"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Golf target"
+          "clue": "Above"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "clue": "Slippery swimmer"
+          "length": 4,
+          "clue": "Canvas home"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "clue": "Peel of a fruit"
+          "clue": "Kill, as a dragon"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "That girl"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Bathroom wall piece"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##THE",
-      "#SHOE",
-      "SKILL",
-      "HIRE#",
-      "END##"
+      "##BOT",
+      "STOVE",
+      "LINEN",
+      "ALERT",
+      "YES##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

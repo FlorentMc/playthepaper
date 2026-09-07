@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Gave food to"
+          "clue": "To and ___"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Serving platter"
+          "col": 2,
+          "length": 3,
+          "clue": "Not high"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Came into being"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Reddish coating on old iron"
+          "clue": "Perhaps"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Grow older"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Past of meet"
+          "clue": "Rocky hilltop"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Icy coating"
+          "clue": "Wright ___, the aircraft of 17 December 1903",
+          "storyId": "technology-1-flyer"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Where the sun rises"
+          "length": 3,
+          "clue": "Steal from"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hair colouring"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Accurate"
+          "clue": "Be in debt"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Sleeve filler"
+          "clue": "Yoga ___"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Long ___"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##FED",
-      "#TRAY",
-      "AROSE",
-      "RUST#",
-      "MET##"
+      "##FRO",
+      "##LOW",
+      "MAYBE",
+      "AGE##",
+      "TOR##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "technology-1-flyer",
+        "excerpt": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-flyer"
 }

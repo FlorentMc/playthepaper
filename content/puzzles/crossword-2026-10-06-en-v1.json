@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
       ".....",
-      "....#",
+      ".....",
+      ".....",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Silky trap"
+          "clue": "Archer's weapon"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Deep affection"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Boundary"
+          "clue": "Call device"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Stretched circle"
+          "length": 5,
+          "clue": "Sixteenth of a pound"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Rest at night"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Possesses"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Adult female"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Wicked"
+          "clue": "One time only"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "clue": "Wager"
+          "length": 4,
+          "clue": "Cry"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "clue": "Reside"
+          "clue": "Upper-class"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Plenty"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "___ hoop"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##WEB",
-      "#LOVE",
-      "LIMIT",
-      "OVAL#",
-      "TEN##"
+      "##BOW",
+      "PHONE",
+      "OUNCE",
+      "SLEEP",
+      "HAS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

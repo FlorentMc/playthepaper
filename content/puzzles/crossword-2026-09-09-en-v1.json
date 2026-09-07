@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "#....",
-      ".....",
+      "...##",
       "....#",
-      "...##"
+      ".....",
+      "#....",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Definite article"
+          "clue": "Not on"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Smile broadly"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
-          "length": 5,
-          "clue": "Farm's open land"
+          "length": 4,
+          "clue": "Keep in the hands"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Egg shape"
+          "length": 5,
+          "clue": "City's elected leader"
         },
         {
-          "number": 7,
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Short reminder"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Receive"
+          "clue": "Colour of a stop sign"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Deal with"
+          "col": 0,
+          "length": 3,
+          "clue": "Resistance measure"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 4,
-          "clue": "Small mountain"
+          "clue": "Bubbly froth"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Conclusion"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Donate"
+          "col": 2,
+          "length": 5,
+          "clue": "Wright ___, the aircraft of 17 December 1903",
+          "storyId": "technology-1-flyer"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "St Paul's has a famous one"
+        },
+        {
+          "number": 7,
           "row": 2,
-          "col": 0,
+          "col": 4,
           "length": 3,
-          "clue": "Low cloud that hides the road"
+          "clue": "Fishing pole"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##THE",
-      "#GRIN",
-      "FIELD",
-      "OVAL#",
-      "GET##"
+      "OFF##",
+      "HOLD#",
+      "MAYOR",
+      "#MEMO",
+      "##RED"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "technology-1-flyer",
+        "excerpt": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-flyer"
 }

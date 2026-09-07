@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
       ".....",
-      "...##",
+      ".....",
+      ".....",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Used to be"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Mother of chicks"
+          "col": 0,
+          "length": 5,
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Backup tyre"
+          "clue": "Lift up"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 3,
-          "clue": "Slippery liquid"
+          "length": 5,
+          "clue": "Crime of burning"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Honey maker"
+          "clue": "Dog or cat, often"
         }
       ],
       "down": [
@@ -59,36 +60,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "The blue one is the largest animal known ever to have existed",
-          "storyId": "nature-1-whale"
+          "clue": "Middle of the body"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "___ and him"
+          "length": 4,
+          "clue": "As well as"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 3,
-          "clue": "Lowest whole number above zero"
+          "length": 4,
+          "clue": "Past participle of see"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Enclose a gift"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Cry loudly"
-        },
-        {
-          "number": 6,
-          "row": 2,
+          "row": 1,
           "col": 1,
-          "length": 3,
-          "clue": "Apple dessert with a crust"
+          "length": 4,
+          "clue": "Long-eared runner"
         }
       ]
     },
@@ -96,15 +96,15 @@
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "##HEN",
-      "SPARE",
-      "OIL##",
-      "BEE##"
+      "##WAS",
+      "WHALE",
+      "RAISE",
+      "ARSON",
+      "PET##"
     ],
     "seeded": [
       {
-        "label": "1 Down",
+        "label": "4 Across",
         "storyId": "nature-1-whale",
         "excerpt": "The blue whale is the largest animal known ever to have existed."
       }

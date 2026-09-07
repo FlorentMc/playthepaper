@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Tie the knot"
+          "clue": "___ is it?"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Dried grass for horses"
+          "clue": "Joint near the waist"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Backup tyre"
+          "clue": "Freewheel downhill"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Slippery swimmer"
+          "clue": "Wise bird"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Years lived"
+          "clue": "Golf ball's perch"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Hearing organ"
+          "clue": "Belonging to that man"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Decide to"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Baby's bed"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Tent fastener"
+          "clue": "Need to pay back"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WED",
-      "##HAY",
-      "SPARE",
-      "EEL##",
-      "AGE##"
+      "##WHO",
+      "##HIP",
+      "COAST",
+      "OWL##",
+      "TEE##"
     ],
     "seeded": [
       {

@@ -9,46 +9,47 @@
   "payload": {
     "size": 5,
     "grid": [
-      "#...#",
+      "...##",
+      "...##",
       ".....",
-      ".....",
-      ".....",
-      "#...#"
+      "##...",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 0,
           "length": 3,
-          "clue": "Plead"
+          "clue": "World Wide ___, invented at CERN",
+          "storyId": "science-1-cern"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
-          "length": 5,
-          "clue": "Plank"
+          "length": 3,
+          "clue": "Long ___"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Rage"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "clue": "Postpone"
+          "clue": "Giver"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Period of history"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 1,
+          "col": 2,
           "length": 3,
           "clue": "Put in place"
         }
@@ -57,54 +58,59 @@
         {
           "number": 1,
           "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Bundle of banknotes"
+        },
+        {
+          "number": 2,
+          "row": 0,
           "col": 1,
+          "length": 3,
+          "clue": "Sense of self-importance"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
           "length": 5,
           "clue": "They fuse together as a child grows",
           "storyId": "science-1-bones"
         },
         {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Large bird of prey"
-        },
-        {
-          "number": 3,
-          "row": 0,
+          "number": 6,
+          "row": 2,
           "col": 3,
-          "length": 5,
-          "clue": "Very large"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
           "length": 3,
-          "clue": "Not good"
+          "clue": "Rock with metal in it"
         },
         {
-          "number": 5,
-          "row": 1,
+          "number": 7,
+          "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Not wet"
+          "clue": "Large rodent"
         }
       ]
     },
-    "teaser": "One of today's clues comes from the news."
+    "teaser": "Two of today's clues come from the news."
   },
   "reveal": {
     "solution": [
-      "#BEG#",
-      "BOARD",
-      "ANGER",
-      "DELAY",
-      "#SET#"
+      "WEB##",
+      "AGO##",
+      "DONOR",
+      "##ERA",
+      "##SET"
     ],
     "seeded": [
       {
-        "label": "1 Down",
+        "label": "1 Across",
+        "storyId": "science-1-cern",
+        "excerpt": "In 1989, the World Wide Web was invented at CERN by Tim Berners-Lee."
+      },
+      {
+        "label": "3 Down",
         "storyId": "science-1-bones",
         "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
       }

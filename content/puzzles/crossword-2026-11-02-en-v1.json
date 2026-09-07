@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Marry"
+          "clue": "Impress greatly"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Dried grass for horses"
+          "clue": "Shade of colour"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Flat dish for food"
+          "clue": "Into pieces"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Snake-like fish"
+          "clue": "Hair styler"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Miner's find"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Consume food"
+          "clue": "___ house"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Not dry"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "In the past"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Allow"
+          "clue": "For each"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WED",
-      "##HAY",
-      "PLATE",
-      "EEL##",
-      "ATE##"
+      "##WOW",
+      "##HUE",
+      "APART",
+      "GEL##",
+      "ORE##"
     ],
     "seeded": [
       {

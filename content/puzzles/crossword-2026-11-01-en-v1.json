@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
-      ".....",
       "##...",
-      "##..."
+      "#....",
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Paid work"
+          "clue": "Undergarment with cups"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 3,
-          "clue": "Corn unit"
+          "col": 1,
+          "length": 4,
+          "clue": "Opinion"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Deal with"
+          "clue": "Chart of data"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "In the past"
+          "col": 0,
+          "length": 4,
+          "clue": "Friendly nation"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Morning moisture on grass"
+          "clue": "Golf ball's perch"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Fast plane"
+          "col": 2,
+          "length": 5,
+          "clue": "Gutenberg's book, an edition of the Latin Vulgate",
+          "storyId": "history-1-gutenberg"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "clue": "Rowing blade"
+          "col": 3,
+          "length": 4,
+          "clue": "Depend"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Sandwich base"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 3,
-          "length": 3,
-          "clue": "Years lived"
-        },
-        {
-          "number": 7,
-          "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Haul behind"
+          "clue": "Wonder and amazement"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Dale"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Tasteless rubbish"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "JOB##",
-      "EAR##",
-      "TREAT",
-      "##AGO",
-      "##DEW"
+      "##BRA",
+      "#VIEW",
+      "TABLE",
+      "ALLY#",
+      "TEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "history-1-gutenberg",
+        "excerpt": "A single complete copy of the Gutenberg Bible has 1,288 pages (4×322 = 1288) (usually bound in two volumes); with four pages per folio-sheet, 322 sheets of paper are required per copy."
+      }
     ]
-  }
+  },
+  "storyId": "history-1-gutenberg"
 }

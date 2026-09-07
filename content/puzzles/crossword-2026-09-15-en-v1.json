@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
+      "#....",
       "#....",
       ".....",
       "....#",
-      "...##"
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 3,
-          "clue": "In the past"
-        },
-        {
-          "number": 4,
-          "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Crab's pincer"
+          "clue": "Follow orders"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "clue": "Simple"
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Adore"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Deserve"
+          "length": 5,
+          "clue": "Tablecloth fabric"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Where a cake bakes"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
-          "length": 3,
-          "clue": "Workout place"
+          "length": 4,
+          "clue": "Top quality"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 1,
           "length": 5,
-          "clue": "Wake-up clock feature"
+          "clue": "Oil source"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 4,
-          "clue": "Increase"
+          "col": 2,
+          "length": 5,
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Possess"
+          "col": 3,
+          "length": 5,
+          "clue": "Occasion"
         },
         {
           "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Potter's material"
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Japanese currency"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Tent fastener"
+          "clue": "Throw in a high arc"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##AGO",
-      "#CLAW",
-      "PLAIN",
-      "EARN#",
-      "GYM##"
+      "#OBEY",
+      "#LOVE",
+      "LINEN",
+      "OVEN#",
+      "BEST#"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

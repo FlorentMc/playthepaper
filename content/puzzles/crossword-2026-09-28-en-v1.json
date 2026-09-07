@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
+      "##...",
+      "##...",
       ".....",
-      "#....",
-      "##..."
+      "...##",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Sleeve filler"
+          "clue": "Tie the knot"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 4,
-          "clue": "Sonnet composer"
+          "col": 2,
+          "length": 3,
+          "clue": "Dried grass for horses"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "The present day"
+          "clue": "Gaze"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Mate"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "clue": "Opposite of female"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Permit"
+          "clue": "Tool for chopping logs"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Fitting or suitable"
+          "col": 2,
+          "length": 5,
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "clue": "Kitchen or bedroom"
+          "col": 3,
+          "length": 3,
+          "clue": "Corn unit"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Award worn on a ribbon"
+          "col": 4,
+          "length": 3,
+          "clue": "Hair colouring"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Story"
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Resort with hot springs"
         },
         {
-          "number": 7,
+          "number": 6,
           "row": 2,
-          "col": 4,
+          "col": 1,
           "length": 3,
-          "clue": "Still"
+          "clue": "Income ___"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "ARM##",
-      "POET#",
-      "TODAY",
-      "#MALE",
-      "##LET"
+      "##WED",
+      "##HAY",
+      "STARE",
+      "PAL##",
+      "AXE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

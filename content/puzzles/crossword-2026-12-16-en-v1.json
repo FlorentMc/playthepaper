@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Past of do"
+          "clue": "Cooker fuel"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "___ time now"
+          "col": 1,
+          "length": 4,
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Gleam"
+          "clue": "Given to sulks"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Or ___"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Slippery swimmer"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Have a go"
+          "clue": "Cheap junk"
         }
       ],
       "down": [
@@ -59,46 +60,55 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Every day"
+          "clue": "Halloween spook"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Roadside lodging"
+          "length": 4,
+          "clue": "Helper"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Undercover agent"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Soft drink"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Put in place"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Belonging to that woman"
+          "clue": "Came together"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##DID",
-      "##ANY",
-      "SHINE",
-      "EEL##",
-      "TRY##"
+      "##GAS",
+      "#CHIP",
+      "MOODY",
+      "ELSE#",
+      "TAT##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

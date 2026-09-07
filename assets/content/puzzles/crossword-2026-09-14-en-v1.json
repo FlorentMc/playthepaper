@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Came first"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "It has laces or a buckle"
+          "col": 2,
+          "length": 3,
+          "clue": "Tint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Knock over, as a drink"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Considerate"
+          "clue": "A blue whale's can slow to two beats a minute on a deep dive",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Night bird that hoots"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pen filler"
+          "clue": "Start of a golf hole"
         }
       ],
       "down": [
@@ -59,46 +60,61 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Ponder"
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Keep in the hands"
+          "length": 3,
+          "clue": "___ house"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Slippery swimmer"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Rotate quickly"
+          "clue": "Goal's back"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Snow runner"
+          "clue": "Scorching"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Ram's mate"
         }
       ]
-    }
+    },
+    "teaser": "Two of today's clues come from the news."
   },
   "reveal": {
     "solution": [
-      "##THE",
-      "#SHOE",
-      "SPILL",
-      "KIND#",
-      "INK##"
+      "##WON",
+      "##HUE",
+      "HEART",
+      "OWL##",
+      "TEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "nature-1-whale",
+        "excerpt": "A blue whale's heart rate can drop to 2 beats per minute (bpm) at deep depths, but upon surfacing, can rise to 37 bpm, which is close to its peak heart rate."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

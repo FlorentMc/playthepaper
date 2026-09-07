@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Silky trap"
+          "clue": "Globe"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 4,
-          "clue": "Solid, like rock"
+          "clue": "Plunder"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Vast body of salt water"
+          "clue": "Blood ___"
         },
         {
           "number": 8,
           "row": 3,
           "col": 1,
           "length": 4,
-          "clue": "Strong dislike"
+          "clue": "Restaurant's list"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Morning moisture on grass"
+          "clue": "Group of matching items"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Aged"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 4,
-          "clue": "Per person"
+          "clue": "Space"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Sandwich base"
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 5,
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "Romantic outing"
+          "clue": "Shade of colour"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Just made"
+          "clue": "Wheel groove"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "WEB##",
-      "HARD#",
-      "OCEAN",
-      "#HATE",
-      "##DEW"
+      "ORB##",
+      "LOOT#",
+      "DONOR",
+      "#MENU",
+      "##SET"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

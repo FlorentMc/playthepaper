@@ -41,7 +41,9 @@
   "seeds": {
     "nature-1-whale": [
       "quiz:1",
-      "quiz:2"
+      "quiz:2",
+      "crossword:1 Down",
+      "crossword:5 Across"
     ],
     "nature-1-falls": [
       "quiz:3",

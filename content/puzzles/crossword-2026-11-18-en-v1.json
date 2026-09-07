@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "##...",
-      ".....",
       "...##",
-      "...##"
+      "....#",
+      ".....",
+      "#....",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Cubes in a drink"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Come first"
+          "col": 0,
+          "length": 4,
+          "clue": "___ is the question"
         },
         {
-          "number": 5,
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Market stall"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Something seen"
         },
         {
           "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Court statement of guilt or innocence"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Tie the knot"
+          "clue": "Conclusion"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Prize"
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that thing"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
-          "length": 3,
-          "clue": "Baking ___"
+          "col": 1,
+          "length": 4,
+          "clue": "The 4004 squeezed a whole CPU onto a single one",
+          "storyId": "technology-1-chip"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Conclusion"
+          "col": 2,
+          "length": 5,
+          "clue": "Golf score of two under par"
         },
         {
           "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Noticed"
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "At that time"
         },
         {
-          "number": 6,
+          "number": 7,
           "row": 2,
-          "col": 1,
+          "col": 4,
           "length": 3,
-          "clue": "Draw, in a match"
+          "clue": "A little bit"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##ATE",
-      "##WIN",
-      "STAND",
-      "AIR##",
-      "WED##"
+      "ICE##",
+      "THAT#",
+      "SIGHT",
+      "#PLEA",
+      "##END"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "technology-1-chip",
+        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+      }
     ]
-  }
+  },
+  "storyId": "technology-1-chip"
 }

@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
+      "#....",
       ".....",
-      "##...",
-      "##..."
+      ".....",
+      ".....",
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Straight metal bar"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 3,
-          "clue": "Hearing organ"
+          "col": 1,
+          "length": 4,
+          "clue": "Erode"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Cool spot out of the sun"
+        },
+        {
+          "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Beverage"
+          "clue": "Four-wheeled cart"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Warning"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "Opponent"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "clue": "Have a go"
+          "col": 0,
+          "length": 4,
+          "clue": "Small lake, in poetry"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Colour of ripe tomatoes"
+          "col": 1,
+          "length": 5,
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 3,
-          "clue": "Rowboat propeller"
+          "col": 2,
+          "length": 5,
+          "clue": "Enthusiastic"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Snow pile"
-        },
-        {
-          "number": 6,
-          "row": 2,
           "col": 3,
-          "length": 3,
-          "clue": "Neither's partner"
+          "length": 5,
+          "clue": "Worship"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 4,
+          "row": 0,
           "col": 4,
-          "length": 3,
-          "clue": "Piano part"
+          "length": 4,
+          "clue": "Monthly payment to a landlord"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Moved through water"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "ROD##",
-      "EAR##",
-      "DRINK",
-      "##FOE",
-      "##TRY"
+      "#WEAR",
+      "SHADE",
+      "WAGON",
+      "ALERT",
+      "MERE#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

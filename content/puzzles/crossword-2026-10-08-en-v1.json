@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
-      ".....",
       "#....",
-      "##..."
+      "#....",
+      ".....",
+      "....#",
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Brief swim"
+          "col": 1,
+          "length": 4,
+          "clue": "Moved smoothly"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Smallest unit of an element"
+          "clue": "Restaurant's list"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Opposite of above"
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Otherwise"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "clue": "Man or boy"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "clue": "Colour of ripe tomatoes"
+          "col": 0,
+          "length": 4,
+          "clue": "Equal"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Small amount of cream"
+          "col": 1,
+          "length": 5,
+          "clue": "Happy expression"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "clue": "Single article"
+          "col": 2,
+          "length": 5,
+          "clue": "Let, as a flat"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Of the North or South Pole"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 3,
-          "length": 4,
-          "clue": "Burrowing animal"
+          "length": 5,
+          "clue": "Inside"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 4,
+          "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Tie the knot"
+          "clue": "Twosome"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Liveliness"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "DIP##",
-      "ATOM#",
-      "BELOW",
-      "#MALE",
-      "##RED"
+      "#SLID",
+      "#MENU",
+      "PIANO",
+      "ELSE#",
+      "PEER#"
+    ],
+    "seeded": [
+      {
+        "label": "6 Across",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

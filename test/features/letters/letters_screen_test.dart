@@ -275,6 +275,8 @@ void main() {
       await tapLetters(tester, 'BRACHET');
       await enter(tester);
       await finish(tester);
+      await pumpUntil(tester, () => find.text('Every word').evaluate().isNotEmpty, reason: 'result screen shown');
+      await settle(tester);
 
       expect(find.text('Every word'), findsOneWidget);
       expect(find.text(excerpt), findsOneWidget);

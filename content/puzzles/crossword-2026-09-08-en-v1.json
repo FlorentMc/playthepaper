@@ -9,102 +9,108 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "##...",
-      ".....",
       "...##",
-      "...##"
+      "...##",
+      ".....",
+      "##...",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Not good"
+          "clue": "Used to be"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Large deer"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bed sheets"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Top card in the deck"
+          "clue": "Go red"
         },
         {
           "number": 8,
-          "row": 4,
-          "col": 0,
+          "row": 3,
+          "col": 2,
           "length": 3,
-          "clue": "Opposite of no"
+          "clue": "Sheltered side"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Not strict"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "They fuse together as a child grows",
-          "storyId": "science-1-bones"
+          "col": 0,
+          "length": 3,
+          "clue": "World Wide ___, invented at CERN",
+          "storyId": "science-1-cern"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 3,
-          "clue": "Wonder and amazement"
+          "clue": "Every one of them"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Lion's home"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Put down"
+          "col": 2,
+          "length": 5,
+          "clue": "Part of the axial skeleton, with the spinal column and rib cage",
+          "storyId": "science-1-bones"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 1,
+          "col": 3,
           "length": 3,
-          "clue": "Frozen water"
+          "clue": "Salt water expanse"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Curse"
         }
       ]
     },
-    "teaser": "One of today's clues comes from the news."
+    "teaser": "Two of today's clues come from the news."
   },
   "reveal": {
     "solution": [
-      "##BAD",
-      "##OWE",
-      "LINEN",
-      "ACE##",
-      "YES##"
+      "WAS##",
+      "ELK##",
+      "BLUSH",
+      "##LEE",
+      "##LAX"
     ],
     "seeded": [
       {
         "label": "1 Down",
+        "storyId": "science-1-cern",
+        "excerpt": "In 1989, the World Wide Web was invented at CERN by Tim Berners-Lee."
+      },
+      {
+        "label": "3 Down",
         "storyId": "science-1-bones",
         "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
       }
