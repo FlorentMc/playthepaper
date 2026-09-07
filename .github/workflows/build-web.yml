@@ -1,0 +1,82 @@
+# Daypencil: build the Flutter web app from `main` and publish it to branch `build`.
+#
+# The droplet (infra/systemd/daypencil-pull.service) checks `build` out at
+# /var/www/daypencil/app every 5 minutes and nginx serves it as static files.
+# Nothing is built on the droplet.
+#
+# Content pushes (content/**) do not rebuild the app: they go through
+# validate-content.yml instead. Edition dates roll at 04:00 UTC; an app deploy
+# has no relation to that boundary and can happen at any time.
+#
+# Publishing choice: peaceiris/actions-gh-pages@v4 with publish_branch: build
+# and force_orphan: true. It produces a single-commit orphan branch containing
+# exactly build/web, handles the empty-diff case (no commit when nothing
+# changed) and token auth, and pushes with GITHUB_TOKEN, which does not trigger
+# other workflows. A hand-rolled `git init && git push --force` does the same
+# in ~12 lines but re-implements those edge cases; the action is the smaller
+# surface. If the action is ever unavailable, replace the last step with:
+#   cd build/web && git init -b build && git add -A && git -c user.name=ci -c user.email=ci@localhost commit -qm "build: $GITHUB_SHA"
+#   git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" build
+
+name: build-web
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'content/**'
+      - 'content_src/**'
+      - 'docs/**'
+      - 'infra/**'
+      - '**.md'
+      - '.github/workflows/validate-content.yml'
+      - '.github/workflows/edition-watch.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One build at a time; a newer push cancels an older in-flight build so the
+# `build` branch always ends at the newest main.
+concurrency:
+  group: build-web
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.41.x
+          cache: true
+
+      - run: flutter --version
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build web --release --base-href /
+
+      - name: Sanity-check the build output
+        run: |
+          set -euo pipefail
+          test -f build/web/index.html
+          test -f build/web/flutter_bootstrap.js
+          test -f build/web/main.dart.js || test -f build/web/main.dart.wasm
+          grep -q '<base href="/">' build/web/index.html
+          du -sh build/web
+
+      - name: Publish build/web to branch build
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web
+          publish_branch: build
+          force_orphan: true
+          commit_message: 'build: ${{ github.sha }}'
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'

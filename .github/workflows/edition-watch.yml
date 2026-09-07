@@ -1,0 +1,148 @@
+# Daypencil: watch the published edition and the content reserve.
+#
+# Edition boundary: edition dates roll at 04:00 UTC. The edition for date D
+# opens at 04:00 UTC on D. The nightly routine runs at 02:15 UTC on D and
+# upgrades /content/editions/D.json from kind "evergreen" to kind "news".
+# "Today" below is therefore `date -u +%F` at run time: every job here runs
+# between 03:00 and 06:00 UTC, so today's UTC date is exactly the edition date
+# that opens (or opened) at 04:00 UTC the same morning.
+#
+#   03:10 UTC  retry    edition still evergreen -> fire the routine again (job succeeds)
+#   03:45 UTC  verify   edition still evergreen -> job FAILS (this failure is the owner alert)
+#                       edition file missing    -> job FAILS with FALLBACK MISSING
+#   05:00 UTC  reserve  latest date in index.json < today + 30 days -> job FAILS (reserve low)
+#                       tomorrow's edition file missing             -> job FAILS (fallback missing)
+#
+# A failed scheduled run emails the GitHub user who last committed this file
+# (keep that the repo owner; the routine never edits workflows). GitHub may
+# start scheduled runs several minutes late; the times above leave room for
+# that. GitHub also disables schedules after 60 days without repo activity;
+# the routine's daily commits keep the repo active.
+#
+# Secrets: ROUTINE_ID, ROUTINE_TOKEN (see infra/README.md).
+# Manual run: Actions -> edition-watch -> Run workflow -> choose a job.
+
+name: edition-watch
+
+on:
+  schedule:
+    - cron: '10 3 * * *'   # retry
+    - cron: '45 3 * * *'   # verify
+    - cron: '0 5 * * *'    # reserve
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Which check to run
+        type: choice
+        options: [retry, verify, reserve]
+        default: verify
+
+env:
+  CONTENT_URL: https://daypencil.com/content
+
+jobs:
+  retry:
+    if: github.event.schedule == '10 3 * * *' || inputs.job == 'retry'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fire the routine if today's edition is still evergreen
+        env:
+          ROUTINE_ID: ${{ secrets.ROUTINE_ID }}
+          ROUTINE_TOKEN: ${{ secrets.ROUTINE_TOKEN }}
+        run: |
+          set -euo pipefail
+          date="$(date -u +%F)"
+          url="${CONTENT_URL}/editions/${date}.json"
+          code="$(curl -sS --max-time 20 --retry 2 -o edition.json -w '%{http_code}' "$url" || echo 000)"
+          kind="$(jq -r '.kind // "unparsable"' edition.json 2>/dev/null || echo unparsable)"
+          echo "edition ${date}: http ${code}, kind ${kind}"
+          if [ "$code" = "200" ] && [ "$kind" = "news" ]; then
+            echo "already news; nothing to do"
+            exit 0
+          fi
+          if [ "$code" = "404" ]; then
+            echo "::warning::FALLBACK MISSING: ${url} returned 404 (verify at 03:45 UTC will fail)"
+          fi
+          if [ -z "${ROUTINE_ID}" ] || [ -z "${ROUTINE_TOKEN}" ]; then
+            echo "::error::secrets ROUTINE_ID / ROUTINE_TOKEN are not set"
+            exit 1
+          fi
+          text="Retry: edition ${date} is still evergreen at 03:10 UTC"
+          echo "firing routine ${ROUTINE_ID}: ${text}"
+          curl -sS --fail-with-body --max-time 30 -X POST \
+            "https://api.anthropic.com/v1/claude_code/routines/${ROUTINE_ID}/fire" \
+            -H "Authorization: Bearer ${ROUTINE_TOKEN}" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "content-type: application/json" \
+            --data "$(jq -cn --arg text "$text" '{text: $text}')"
+          echo
+          echo "routine fired; verify runs at 03:45 UTC"
+
+  verify:
+    if: github.event.schedule == '45 3 * * *' || inputs.job == 'verify'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fail unless today's edition is kind news
+        run: |
+          set -euo pipefail
+          date="$(date -u +%F)"
+          url="${CONTENT_URL}/editions/${date}.json"
+          code="$(curl -sS --max-time 20 --retry 2 -o edition.json -w '%{http_code}' "$url" || echo 000)"
+          kind="$(jq -r '.kind // "unparsable"' edition.json 2>/dev/null || echo unparsable)"
+          echo "edition ${date}: http ${code}, kind ${kind}"
+          if [ "$code" = "404" ]; then
+            echo "::error::FALLBACK MISSING: ${url} returned 404. No edition at all for ${date}; the app will fall back to the latest older edition. Replenish the reserve now (infra/README.md, 'Reserve replenishment')."
+            exit 1
+          fi
+          if [ "$code" != "200" ]; then
+            echo "::error::${url} returned HTTP ${code}. Site or droplet problem: check nginx and daypencil-pull on 142.93.63.8 (infra/README.md, 'When edition-watch fails')."
+            exit 1
+          fi
+          if [ "$kind" != "news" ]; then
+            echo "::error::Edition ${date} is still kind '${kind}' at 03:45 UTC; it opens at 04:00 UTC as an evergreen day. Check the routine run log (claude.ai/code/routines), the validate-content workflow, and content/reports/${date}.md if present."
+            exit 1
+          fi
+          echo "edition ${date} is news"
+
+  reserve:
+    if: github.event.schedule == '0 5 * * *' || inputs.job == 'reserve'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fail if fewer than 30 days of editions are published ahead
+        run: |
+          set -euo pipefail
+          today="$(date -u +%F)"
+          tomorrow="$(date -u -d "${today} + 1 day" +%F)"
+          url="${CONTENT_URL}/index.json"
+          code="$(curl -sS --max-time 20 --retry 2 -o index.json -w '%{http_code}' "$url" || echo 000)"
+          if [ "$code" != "200" ]; then
+            echo "::error::${url} returned HTTP ${code}"
+            exit 1
+          fi
+          latest="$(jq -r '.latest // empty' index.json)"
+          if [ -z "$latest" ]; then
+            echo "::error::index.json has no .latest"
+            exit 1
+          fi
+          days=$(( ( $(date -u -d "$latest" +%s) - $(date -u -d "$today" +%s) ) / 86400 ))
+          echo "today ${today}, latest ${latest}: ${days} days of editions ahead"
+          status=0
+          if [ "$days" -lt 30 ]; then
+            echo "::error::reserve low: latest edition ${latest} is only ${days} days after ${today} (need >= 30). Run the replenishment steps in infra/README.md."
+            status=1
+          fi
+          # Tomorrow's fallback must already be on the site; 23 hours' notice
+          # beats the 15 minutes the 03:45 verify job would give.
+          turl="${CONTENT_URL}/editions/${tomorrow}.json"
+          tcode="$(curl -sS --max-time 20 --retry 2 -o tomorrow.json -w '%{http_code}' "$turl" || echo 000)"
+          tkind="$(jq -r '.kind // "unparsable"' tomorrow.json 2>/dev/null || echo unparsable)"
+          echo "edition ${tomorrow}: http ${tcode}, kind ${tkind}"
+          if [ "$tcode" != "200" ] || [ "$tkind" = "unparsable" ]; then
+            echo "::error::FALLBACK MISSING for ${tomorrow}: ${turl} returned HTTP ${tcode} (kind ${tkind})"
+            status=1
+          fi
+          exit "$status"

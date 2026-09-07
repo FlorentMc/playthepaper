@@ -1,0 +1,80 @@
+# Daypencil: validate the content tree and promote `main` to `live`.
+#
+# `dart run tool/validate.dart content` is the trust boundary: it exits
+# non-zero on any problem and prints one line per error. The droplet serves
+# content from branch `live`, which this workflow fast-forwards to the
+# validated `main` commit. A red run therefore keeps the last good content on
+# the site and, because this is the workflow that failed, emails the owner.
+#
+# Timing: the nightly routine pushes the news upgrade for edition date D to
+# `main` between about 02:30 and 03:30 UTC on D; this run takes ~3-5 minutes
+# (cached SDK), then daypencil-pull.timer picks `live` up within 5 minutes.
+# The edition opens at 04:00 UTC. edition-watch.yml checks the served file at
+# 03:10 and 03:45 UTC.
+#
+# The Flutter SDK is used (not bare Dart) because the package depends on
+# flutter and the validator imports package code.
+
+name: validate-content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'content_src/**'
+      - 'tool/**'
+      - 'lib/engines/**'
+      - 'lib/content/**'
+      - 'lib/core/**'
+      - 'assets/dictionaries/**'
+      - 'pubspec.yaml'
+      - 'pubspec.lock'
+      - '.github/workflows/validate-content.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'content_src/**'
+      - 'tool/**'
+      - 'lib/engines/**'
+      - 'lib/content/**'
+      - 'lib/core/**'
+      - 'assets/dictionaries/**'
+      - 'pubspec.yaml'
+      - 'pubspec.lock'
+      - '.github/workflows/validate-content.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One run per ref; a newer push to main cancels an older run so `live` is
+# only ever moved to the newest validated commit.
+concurrency:
+  group: validate-content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.41.x
+          cache: true
+
+      - run: flutter pub get
+
+      - name: Validate content tree
+        run: dart run tool/validate.dart content
+
+      - name: Promote main to live
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          echo "live <- ${GITHUB_SHA}"
+          git push --force origin "${GITHUB_SHA}:refs/heads/live"

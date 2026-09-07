@@ -1,0 +1,22 @@
+# Daypencil: run daypencil-pull.service every 5 minutes.
+#
+# OnBootSec=2min      first pull shortly after boot
+# OnUnitActiveSec=5min then every 5 minutes after the previous run started
+# Persistent=true     a run missed while the box was down happens at next boot
+#
+# Times here are relative; the edition boundary (04:00 UTC) and the routine
+# schedule (02:15 UTC) are documented in infra/README.md. The box's timezone
+# is America/New_York and must not be changed; systemd timers do not care.
+
+[Unit]
+Description=Daypencil: pull content and web app from GitHub every 5 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Persistent=true
+AccuracySec=30s
+Unit=daypencil-pull.service
+
+[Install]
+WantedBy=timers.target
