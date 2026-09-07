@@ -31,6 +31,32 @@ void main() {
       'maxScore': 26,
     },
   );
+  const teaser = "Today's letters come from a story about a hunting hound.";
+  const excerpt = 'A brachet, the old word for a scent hound, ran ahead of the riders.';
+  final seeded = PuzzleRecord(
+    id: id,
+    locale: 'en-GB',
+    contentVersion: 1,
+    scoringVersion: 1,
+    dictionaryVersion: 'test',
+    payload: const {'center': 'T', 'outer': 'ABCEHR', 'minLength': 4, 'teaser': teaser},
+    reveal: const {
+      'answers': ['BEAT', 'BRACHET', 'BREATH', 'TEACH'],
+      'pangrams': ['BRACHET'],
+      'maxScore': 26,
+      'storyId': 'hunt-1-hound',
+      'excerpt': excerpt,
+    },
+    storyId: 'hunt-1-hound',
+  );
+  const story = Story(
+    id: 'hunt-1-hound',
+    headline: 'The hound that led the hunt',
+    summary: 'A medieval word for a scent hound survives in a handful of place names.',
+    publisher: 'Field Notes',
+    url: 'https://example.com/brachet',
+    publishedAt: '2026-09-07',
+  );
 
   setUp(() async {
     dir = await Directory.systemTemp.createTemp('daypencil_letters');
@@ -232,6 +258,63 @@ void main() {
       expect(find.text('✓ TEACH'), findsOneWidget);
       expect(store.progress(id)!['found'], ['BRACHET', 'TEACH']);
       expect(store.allResults().length, 1);
+    });
+  });
+
+  testWidgets('a seeded puzzle shows the teaser before play and the excerpt after', (tester) async {
+    await tester.runAsync(() async {
+      final semantics = tester.ensureSemantics();
+      await pumpScreen(
+        tester,
+        play: PlayContext(store: store, record: seeded, story: story),
+      );
+      expect(find.text("From today's stories · $teaser"), findsOneWidget);
+      expect(find.text(excerpt), findsNothing);
+      expect(find.text('Read the story'), findsNothing);
+
+      await tapLetters(tester, 'BRACHET');
+      await enter(tester);
+      await finish(tester);
+
+      expect(find.text('Every word'), findsOneWidget);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.text('— Field Notes'), findsOneWidget);
+      expect(find.widgetWithText(TextButton, 'Read the story'), findsOneWidget);
+      expect(find.text('✓ ★ BRACHET'), findsOneWidget);
+      final rich = tester.widget<Text>(find.text(excerpt));
+      final bold = <String>[];
+      rich.textSpan!.visitChildren((span) {
+        if (span is TextSpan && span.style?.fontWeight == FontWeight.w600) bold.add(span.text!);
+        return true;
+      });
+      expect(bold, ['brachet']);
+
+      await tester.tap(find.byTooltip('Close'));
+      await settle(tester);
+      expect(find.text('Finished · the board is locked'), findsOneWidget);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.widgetWithText(TextButton, 'Read the story'), findsOneWidget);
+      expect(find.text('EVERY WORD'), findsOneWidget);
+      semantics.dispose();
+    });
+  });
+
+  testWidgets('an unseeded puzzle shows no teaser, and a seeded one without its story shows no link', (tester) async {
+    await tester.runAsync(() async {
+      await pumpScreen(tester);
+      expect(find.textContaining("From today's stories"), findsNothing);
+
+      await store.saveProgress(id, {
+        'found': ['BEAT'],
+        'finished': false,
+      });
+      await pumpScreen(
+        tester,
+        play: PlayContext(store: store, record: seeded),
+      );
+      await finish(tester);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.text('Read the story'), findsNothing);
     });
   });
 

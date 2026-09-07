@@ -8,6 +8,7 @@ import '../../../core/theme.dart';
 import '../../../engines/letters/letters.dart';
 import '../../../shared/widgets/game_shell.dart';
 import '../../play/play_context.dart';
+import '../../../shared/widgets/story_widgets.dart';
 import 'letters_answer_list.dart';
 import 'letters_honeycomb.dart';
 import 'letters_rank_bar.dart';
@@ -55,6 +56,11 @@ class _LettersScreenState extends State<LettersScreen> {
   static const int _maxWordLength = 20;
 
   PlayContext get play => widget.play;
+
+  String? get _teaser => _text(play.record.payload['teaser']);
+  String? get _excerpt => _text(play.record.reveal['excerpt']);
+
+  static String? _text(Object? value) => value is String && value.isNotEmpty ? value : null;
 
   @override
   void initState() {
@@ -202,13 +208,27 @@ class _LettersScreenState extends State<LettersScreen> {
     if (mounted) setState(() => _existing = result);
   }
 
-  Widget _reveal() => LettersAnswerList(puzzle: _puzzle, found: _state.found.toSet());
+  Widget _reveal() {
+    final excerpt = _excerpt;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (excerpt != null) ...[_storyExcerpt(excerpt), const SizedBox(height: 16)],
+        _answerList(),
+      ],
+    );
+  }
+
+  Widget _answerList() => LettersAnswerList(puzzle: _puzzle, found: _state.found.toSet());
+
+  Widget _storyExcerpt(String excerpt) => StoryExcerpt(excerpt: excerpt, words: _puzzle.pangrams, story: play.story);
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final existing = _existing;
     final friendPoints = play.challenge?.points;
+    final teaser = _teaser;
     return GameShell(
       game: play.record.game,
       date: play.record.date,
@@ -229,6 +249,7 @@ class _LettersScreenState extends State<LettersScreen> {
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
                 children: [
+                  if (teaser != null) ...[StoryTeaser(teaser: teaser), const SizedBox(height: 12)],
                   LettersRankBar(points: existing?.points ?? _state.points, maxScore: _puzzle.maxScore),
                   if (friendPoints != null) ...[
                     const SizedBox(height: 6),
@@ -307,6 +328,7 @@ class _LettersScreenState extends State<LettersScreen> {
   }
 
   List<Widget> _finishedBody(ThemeData theme, GameResult result) {
+    final excerpt = _excerpt;
     return [
       Text('Finished · the board is locked', style: theme.textTheme.bodySmall),
       const SizedBox(height: 12),
@@ -319,9 +341,10 @@ class _LettersScreenState extends State<LettersScreen> {
       const SizedBox(height: 24),
       const Rule(),
       const SizedBox(height: 12),
+      if (excerpt != null) ...[_storyExcerpt(excerpt), const SizedBox(height: 16)],
       Text('EVERY WORD', style: theme.textTheme.labelSmall),
       const SizedBox(height: 8),
-      _reveal(),
+      _answerList(),
     ];
   }
 }

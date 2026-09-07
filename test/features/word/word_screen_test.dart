@@ -20,7 +20,7 @@ void main() {
   late Directory dir;
   late LocalStore store;
   final id = PuzzleId.parse('word-2026-09-08-en-v1');
-  final record = PuzzleRecord(
+  final plain = PuzzleRecord(
     id: id,
     locale: 'en-GB',
     contentVersion: 1,
@@ -28,6 +28,26 @@ void main() {
     dictionaryVersion: 'enable1-2026-09',
     payload: const {'length': 6, 'firstLetter': 'S', 'maxGuesses': 6},
     reveal: const {'answer': 'STREAM'},
+  );
+  const teaser = "Today's word comes from a story about the deep sea.";
+  const excerpt = 'A stream of cold water, the researchers found, runs along the trench floor.';
+  final seeded = PuzzleRecord(
+    id: id,
+    locale: 'en-GB',
+    contentVersion: 1,
+    scoringVersion: 1,
+    dictionaryVersion: 'enable1-2026-09',
+    payload: const {'length': 6, 'firstLetter': 'S', 'maxGuesses': 6, 'teaser': teaser},
+    reveal: const {'answer': 'STREAM', 'storyId': 'nature-1-trench', 'excerpt': excerpt},
+    storyId: 'nature-1-trench',
+  );
+  const story = Story(
+    id: 'nature-1-trench',
+    headline: 'A river at the bottom of the sea',
+    summary: 'Researchers mapped a current running along the floor of the trench.',
+    publisher: 'Ocean Weekly',
+    url: 'https://example.com/trench',
+    publishedAt: '2026-09-07',
   );
 
   setUp(() async {
@@ -42,8 +62,8 @@ void main() {
     await dir.delete(recursive: true);
   });
 
-  Future<void> pumpScreen(WidgetTester tester, {GameResult? challenge}) async {
-    final play = PlayContext(store: store, record: record, challenge: challenge);
+  Future<void> pumpScreen(WidgetTester tester, {GameResult? challenge, PuzzleRecord? record, Story? story}) async {
+    final play = PlayContext(store: store, record: record ?? plain, challenge: challenge, story: story);
     await tester.pumpWidget(const SizedBox());
     await tester.pumpWidget(
       MultiProvider(
@@ -172,7 +192,11 @@ void main() {
         await type(tester, 'TRAND');
         await enter(tester);
         if (i < 5) {
-          await pumpUntil(tester, () => (store.progress(id)?['guesses'] as List?)?.length == i + 1, reason: 'guess ${i + 1} saved');
+          await pumpUntil(
+            tester,
+            () => (store.progress(id)?['guesses'] as List?)?.length == i + 1,
+            reason: 'guess ${i + 1} saved',
+          );
         }
       }
       await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
@@ -229,6 +253,70 @@ void main() {
     expect(find.text('Not in word'), findsOneWidget);
     expect(find.text('✓'), findsOneWidget);
     expect(find.text('•'), findsOneWidget);
+  });
+
+  testWidgets('a seeded puzzle shows the teaser above the board and nothing else gives the story away', (tester) async {
+    await tester.runAsync(() async {
+      await pumpScreen(tester, record: seeded, story: story);
+      expect(find.text("From today's stories · $teaser"), findsOneWidget);
+      expect(find.text(excerpt), findsNothing);
+      expect(find.text('Read the story'), findsNothing);
+
+      await pumpScreen(tester);
+      expect(find.textContaining("From today's stories"), findsNothing);
+    });
+  });
+
+  testWidgets('the reveal shows the excerpt and the story link after play', (tester) async {
+    await tester.runAsync(() async {
+      await pumpScreen(tester, record: seeded, story: story);
+      await type(tester, 'TREAM');
+      await enter(tester);
+      await pumpUntil(tester, () => store.result(id) != null, reason: 'result saved');
+      await pumpUntil(tester, () => find.text('Word found').evaluate().isNotEmpty, reason: 'result screen shown');
+      await settle(tester);
+
+      expect(find.text('The word'), findsOneWidget);
+      expect(find.text('STREAM'), findsOneWidget);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.text('— Ocean Weekly'), findsOneWidget);
+      expect(find.widgetWithText(TextButton, 'Read the story'), findsOneWidget);
+      final rich = tester.widget<Text>(find.text(excerpt));
+      final bold = <String>[];
+      rich.textSpan!.visitChildren((span) {
+        if (span is TextSpan && span.style?.fontWeight == FontWeight.w600) bold.add(span.text!);
+        return true;
+      });
+      expect(bold, ['stream']);
+    });
+  });
+
+  testWidgets('a finished seeded board shows the excerpt, and no link without the story', (tester) async {
+    await tester.runAsync(() async {
+      await store.saveResult(
+        GameResult(
+          puzzleId: id,
+          completedAt: DateTime.utc(2026, 9, 8),
+          solved: true,
+          attempts: 2,
+          shareLines: const ['🟩🟩🟩🟨⬜⬜', '🟩🟩🟩🟩🟩🟩'],
+        ),
+      );
+      await pumpScreen(tester, record: seeded, story: story);
+      expect(find.byType(LetterKeyboard), findsNothing);
+      expect(find.text('STREAM'), findsOneWidget);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.widgetWithText(TextButton, 'Read the story'), findsOneWidget);
+      expect(find.text("From today's stories · $teaser"), findsOneWidget);
+
+      await pumpScreen(tester, record: seeded);
+      expect(find.text(excerpt), findsOneWidget);
+      expect(find.text('Read the story'), findsNothing);
+      await tester.tap(find.text('See result'));
+      await tester.pumpAndSettle();
+      expect(find.text('Word found'), findsOneWidget);
+      expect(find.text(excerpt), findsOneWidget);
+    });
   });
 
   testWidgets('a challenge summary is shown above the board', (tester) async {

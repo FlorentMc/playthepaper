@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../../../content/models.dart';
 import '../../../core/game_result.dart';
 import '../../../core/theme.dart';
 import '../../../engines/word/word_engine.dart';
 import '../../../shared/widgets/game_shell.dart';
 import '../../../shared/widgets/letter_keyboard.dart';
 import '../../play/play_context.dart';
+import '../../../shared/widgets/story_widgets.dart';
 import 'word_board.dart';
 import 'word_dictionary.dart';
 
@@ -63,6 +65,11 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
   bool _finishing = false;
 
   PlayContext get play => widget.play;
+
+  String? get _teaser => _text(play.record.payload['teaser']);
+  String? get _excerpt => _text(play.record.reveal['excerpt']);
+
+  static String? _text(Object? value) => value is String && value.isNotEmpty ? value : null;
 
   @override
   void initState() {
@@ -165,13 +172,10 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
       if (!mounted) return;
     }
     setState(() => _result = result);
-    await play.complete(
-      context,
-      result,
-      revealTitle: 'The word',
-      reveal: _AnswerReveal(answer: _puzzle.answer),
-    );
+    await play.complete(context, result, revealTitle: 'The word', reveal: _reveal());
   }
+
+  Widget _reveal() => _AnswerReveal(answer: _puzzle.answer, excerpt: _excerpt, story: play.story);
 
   Map<String, KeyState> _keyStates() => {
     for (final e in _state.keyStates().entries)
@@ -186,6 +190,8 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final result = _result;
+    final teaser = _teaser;
+    final excerpt = _excerpt;
     return GameShell(
       game: play.record.game,
       date: play.record.date,
@@ -195,6 +201,11 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
       puzzleId: play.record.id.toString(),
       child: Column(
         children: [
+          if (teaser != null)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
+              child: StoryTeaser(teaser: teaser),
+            ),
           if (play.challenge != null)
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 10, 16, 0),
@@ -220,14 +231,17 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
                 children: [
                   Text('THE WORD', style: theme.textTheme.labelSmall),
                   Text(_puzzle.answer, style: DaypencilTheme.display(size: 26, color: theme.colorScheme.onSurface)),
+                  if (excerpt != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: SizedBox(
+                        width: double.infinity,
+                        child: StoryExcerpt(excerpt: excerpt, words: [_puzzle.answer], story: play.story),
+                      ),
+                    ),
                   const SizedBox(height: 12),
                   FilledButton(
-                    onPressed: () => play.showResult(
-                      context,
-                      result,
-                      revealTitle: 'The word',
-                      reveal: _AnswerReveal(answer: _puzzle.answer),
-                    ),
+                    onPressed: () => play.showResult(context, result, revealTitle: 'The word', reveal: _reveal()),
                     child: const Text('See result'),
                   ),
                 ],
@@ -249,16 +263,28 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
 }
 
 class _AnswerReveal extends StatelessWidget {
-  const _AnswerReveal({required this.answer});
+  const _AnswerReveal({required this.answer, this.excerpt, this.story});
 
   final String answer;
+  final String? excerpt;
+  final Story? story;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Text(
-      answer,
-      style: DaypencilTheme.display(size: 40, color: theme.colorScheme.onSurface).copyWith(letterSpacing: 4),
+    final excerpt = this.excerpt;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          answer,
+          style: DaypencilTheme.display(size: 40, color: theme.colorScheme.onSurface).copyWith(letterSpacing: 4),
+        ),
+        if (excerpt != null) ...[
+          const SizedBox(height: 12),
+          StoryExcerpt(excerpt: excerpt, words: [answer], story: story),
+        ],
+      ],
     );
   }
 }
