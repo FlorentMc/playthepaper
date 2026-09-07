@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-10-18-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "P",
+    "outer": "GHINOW",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "GOOP",
+      "HIPPO",
+      "HOOP",
+      "HOPING",
+      "HOPPING",
+      "NIPPING",
+      "OPINION",
+      "PHONING",
+      "PING",
+      "PINGING",
+      "PINING",
+      "PINNING",
+      "PIPING",
+      "PIPPIN",
+      "PONG",
+      "POOH",
+      "POON",
+      "POOP",
+      "POOPING",
+      "POPPING",
+      "POWWOW",
+      "WHIP",
+      "WHIPPING",
+      "WHOOP",
+      "WHOOPING",
+      "WHOPPING",
+      "WIPING"
+    ],
+    "pangrams": [
+      "WHOOPING",
+      "WHOPPING"
+    ],
+    "maxScore": 148
+  }
+}

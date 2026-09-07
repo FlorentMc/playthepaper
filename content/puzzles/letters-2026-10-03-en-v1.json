@@ -1,0 +1,59 @@
+{
+  "id": "letters-2026-10-03-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "L",
+    "outer": "CDEKPU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "CELL",
+      "CLUCK",
+      "CLUE",
+      "CUDDLE",
+      "CUDDLED",
+      "CULL",
+      "CULLED",
+      "DELL",
+      "DELUDE",
+      "DELUDED",
+      "DUEL",
+      "DULL",
+      "DULLED",
+      "ELUDE",
+      "ELUDED",
+      "KEEL",
+      "KEELED",
+      "KELP",
+      "LEEK",
+      "LUCE",
+      "LUCK",
+      "LUCKED",
+      "LULL",
+      "LULLED",
+      "LULU",
+      "PEDDLE",
+      "PEEL",
+      "PEELED",
+      "PELE",
+      "PLED",
+      "PLUCK",
+      "PLUCKED",
+      "PUDDLE",
+      "PULL",
+      "PULLED",
+      "PULP",
+      "UKULELE"
+    ],
+    "pangrams": [
+      "PLUCKED"
+    ],
+    "maxScore": 140
+  }
+}

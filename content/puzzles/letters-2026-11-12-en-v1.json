@@ -1,0 +1,53 @@
+{
+  "id": "letters-2026-11-12-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-12",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "I",
+    "outer": "GHLRTY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "GILL",
+      "GILLY",
+      "GILT",
+      "GIRL",
+      "GIRLY",
+      "GIRTH",
+      "GRILL",
+      "GRIT",
+      "GRITTY",
+      "HIGH",
+      "HIGHLIGHT",
+      "HIGHLY",
+      "HILL",
+      "HILLY",
+      "HILT",
+      "LIGHT",
+      "LIGHTLY",
+      "LILY",
+      "RIGHT",
+      "RIGHTLY",
+      "RIGHTY",
+      "THIGH",
+      "THIRTY",
+      "THRILL",
+      "TIGHT",
+      "TIGHTLY",
+      "TILL",
+      "TILT",
+      "TITI",
+      "TRIG",
+      "TRILL"
+    ],
+    "pangrams": [
+      "RIGHTLY"
+    ],
+    "maxScore": 129
+  }
+}

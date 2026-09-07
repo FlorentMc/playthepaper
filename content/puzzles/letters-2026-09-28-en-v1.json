@@ -1,0 +1,63 @@
+{
+  "id": "letters-2026-09-28-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-28",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "O",
+    "outer": "EILNTU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "INTENTION",
+      "INTO",
+      "INTUITION",
+      "LENO",
+      "LEONE",
+      "LINO",
+      "LION",
+      "LOIN",
+      "LONE",
+      "LOON",
+      "LOOT",
+      "LOTION",
+      "LOTTE",
+      "LOTTO",
+      "LOUIE",
+      "LOUT",
+      "NEON",
+      "NOEL",
+      "NONE",
+      "NOON",
+      "NOTE",
+      "NOTION",
+      "NOUN",
+      "ONION",
+      "ONTO",
+      "OTTO",
+      "OUTLET",
+      "OUTLINE",
+      "TOIL",
+      "TOILET",
+      "TOLL",
+      "TONE",
+      "TONNE",
+      "TOOL",
+      "TOON",
+      "TOOT",
+      "TOTE",
+      "TOUT",
+      "TUITION",
+      "UNION",
+      "UNTO"
+    ],
+    "pangrams": [
+      "OUTLINE"
+    ],
+    "maxScore": 124
+  }
+}

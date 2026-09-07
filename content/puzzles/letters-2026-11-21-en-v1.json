@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-11-21-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "DEMNOT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DONUT",
+      "DUDE",
+      "DUET",
+      "DUNE",
+      "MENU",
+      "MOMENTUM",
+      "MONUMENT",
+      "MOUND",
+      "MOUNT",
+      "MOUNTED",
+      "MUTE",
+      "MUTED",
+      "MUTT",
+      "MUTTON",
+      "NOUN",
+      "NUDE",
+      "OUTDO",
+      "OUTDONE",
+      "OUTED",
+      "OUTMODED",
+      "TOUT",
+      "TUNE",
+      "TUNED",
+      "TUTU",
+      "UNDO",
+      "UNDONE",
+      "UNDUE",
+      "UNTO"
+    ],
+    "pangrams": [
+      "MOUNTED"
+    ],
+    "maxScore": 110
+  }
+}

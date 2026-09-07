@@ -1,0 +1,61 @@
+{
+  "id": "letters-2026-11-09-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "N",
+    "outer": "BDGILU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "BIDDING",
+      "BIDING",
+      "BILLING",
+      "BIND",
+      "BINDING",
+      "BLIND",
+      "BLINDING",
+      "BUBBLING",
+      "BUDDING",
+      "BUDGING",
+      "BUGGING",
+      "BUILDING",
+      "BULGING",
+      "BUNG",
+      "BUNGLING",
+      "DIGGING",
+      "DING",
+      "DINGING",
+      "DINING",
+      "DUBBING",
+      "DUNG",
+      "DUNNING",
+      "GIGGLING",
+      "GLIDING",
+      "GLUING",
+      "GUIDING",
+      "GUNNING",
+      "IDLING",
+      "INDULGING",
+      "INNING",
+      "LING",
+      "LINGUINI",
+      "LINING",
+      "LINN",
+      "LUGGING",
+      "LUNG",
+      "NIBBLING",
+      "NULL",
+      "UNDID"
+    ],
+    "pangrams": [
+      "BUILDING"
+    ],
+    "maxScore": 231
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "letters-2026-09-10-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-10",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "ADEMRT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "AMATEUR",
+      "AURA",
+      "DEMURE",
+      "DRUM",
+      "DRUMMED",
+      "DRUMMER",
+      "DUDE",
+      "DUET",
+      "DUMA",
+      "EARDRUM",
+      "MARAUDER",
+      "MATURE",
+      "MATURED",
+      "MAUD",
+      "MURDER",
+      "MURDERED",
+      "MURDERER",
+      "MURMUR",
+      "MUTATE",
+      "MUTATED",
+      "MUTE",
+      "MUTED",
+      "MUTT",
+      "MUTTER",
+      "RUDD",
+      "RUDDER",
+      "RUDE",
+      "TAUT",
+      "TRAUMA",
+      "TRUE",
+      "TRUER",
+      "TURRET",
+      "TUTU",
+      "UDDER",
+      "UTTER",
+      "UTTERED"
+    ],
+    "pangrams": [
+      "MATURED"
+    ],
+    "maxScore": 167
+  }
+}

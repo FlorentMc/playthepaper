@@ -1,0 +1,53 @@
+{
+  "id": "letters-2026-09-18-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "T",
+    "outer": "CIJNOU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "COCONUT",
+      "CONCOCT",
+      "CONCOCTION",
+      "CONJUNCTION",
+      "COOT",
+      "COTTON",
+      "COUNT",
+      "CUTOUT",
+      "INJUNCTION",
+      "INTO",
+      "INTUITION",
+      "JOINT",
+      "JUNCTION",
+      "NOTION",
+      "ONTO",
+      "OTTO",
+      "TINT",
+      "TITI",
+      "TONIC",
+      "TOON",
+      "TOOT",
+      "TOUT",
+      "TUITION",
+      "TUNIC",
+      "TUTTI",
+      "TUTU",
+      "UNCUT",
+      "UNIT",
+      "UNTO"
+    ],
+    "pangrams": [
+      "CONJUNCTION",
+      "INJUNCTION",
+      "JUNCTION"
+    ],
+    "maxScore": 150
+  }
+}

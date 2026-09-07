@@ -1,0 +1,52 @@
+{
+  "id": "letters-2026-12-01-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-01",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "AILNTU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ACACIA",
+      "ACTIN",
+      "ACTUAL",
+      "ATTIC",
+      "CACA",
+      "CACTI",
+      "CAIN",
+      "CALL",
+      "CALLA",
+      "CANAL",
+      "CANCAN",
+      "CANT",
+      "CANTINA",
+      "CLAN",
+      "CLINIC",
+      "CLINICAL",
+      "CULL",
+      "CULT",
+      "ILLICIT",
+      "INTACT",
+      "LILAC",
+      "LUNATIC",
+      "NAUTICAL",
+      "TACT",
+      "TACTIC",
+      "TACTICAL",
+      "TITANIC",
+      "TUNIC",
+      "UNCUT"
+    ],
+    "pangrams": [
+      "LUNATIC",
+      "NAUTICAL"
+    ],
+    "maxScore": 150
+  }
+}

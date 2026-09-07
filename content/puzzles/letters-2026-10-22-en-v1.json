@@ -1,0 +1,54 @@
+{
+  "id": "letters-2026-10-22-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-22",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "ADEILT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ADIEU",
+      "ADULT",
+      "ALLELUIA",
+      "ALTITUDE",
+      "ATTITUDE",
+      "AUDIT",
+      "AUDITED",
+      "AULD",
+      "DELUDE",
+      "DELUDED",
+      "DILUTE",
+      "DILUTED",
+      "DUAL",
+      "DUDE",
+      "DUEL",
+      "DUET",
+      "DULL",
+      "DULLED",
+      "ELUDE",
+      "ELUDED",
+      "LATITUDE",
+      "LIEU",
+      "LUAU",
+      "LULL",
+      "LULLED",
+      "LULU",
+      "LUTE",
+      "TAUT",
+      "TULLE",
+      "TUTTI",
+      "TUTU"
+    ],
+    "pangrams": [
+      "ALTITUDE",
+      "LATITUDE"
+    ],
+    "maxScore": 140
+  }
+}

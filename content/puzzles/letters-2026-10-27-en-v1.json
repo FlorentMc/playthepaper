@@ -1,0 +1,58 @@
+{
+  "id": "letters-2026-10-27-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-27",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "F",
+    "outer": "DEGINO",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DEFEND",
+      "DEFENDED",
+      "DEFENDING",
+      "DEFIED",
+      "DEFINE",
+      "DEFINED",
+      "DEFINING",
+      "DIGNIFIED",
+      "EFFENDI",
+      "FEED",
+      "FEEDING",
+      "FEIGN",
+      "FEIGNED",
+      "FEIGNING",
+      "FEND",
+      "FENDING",
+      "FIDO",
+      "FIEF",
+      "FIEND",
+      "FIFE",
+      "FIND",
+      "FINDING",
+      "FINE",
+      "FINED",
+      "FOND",
+      "FOOD",
+      "FOODIE",
+      "GOOF",
+      "GOOFED",
+      "GOOFING",
+      "INFO",
+      "OFFED",
+      "OFFEND",
+      "OFFENDED",
+      "OFFENDING",
+      "OFFING"
+    ],
+    "pangrams": [
+      "OFFENDING"
+    ],
+    "maxScore": 188
+  }
+}

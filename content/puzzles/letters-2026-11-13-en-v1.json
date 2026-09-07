@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-11-13-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "R",
+    "outer": "ADJNOU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ADJOURN",
+      "ADORN",
+      "AJAR",
+      "ARDOR",
+      "AROUND",
+      "AURA",
+      "AURORA",
+      "DARN",
+      "DONOR",
+      "DOOR",
+      "DORADO",
+      "DOUR",
+      "JORDAN",
+      "JURA",
+      "JUROR",
+      "ODOR",
+      "ODOUR",
+      "RADAR",
+      "RADON",
+      "RAJA",
+      "RAND",
+      "ROAD",
+      "ROAN",
+      "ROAR",
+      "RONDO",
+      "ROUND",
+      "RUDD",
+      "RUNAROUND"
+    ],
+    "pangrams": [
+      "ADJOURN"
+    ],
+    "maxScore": 105
+  }
+}

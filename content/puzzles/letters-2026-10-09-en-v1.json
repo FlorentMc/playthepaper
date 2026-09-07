@@ -1,0 +1,56 @@
+{
+  "id": "letters-2026-10-09-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "T",
+    "outer": "CDEHOU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "CHUTE",
+      "COOT",
+      "CUTE",
+      "CUTOUT",
+      "DEDUCT",
+      "DEDUCTED",
+      "DETECT",
+      "DETECTED",
+      "DOTE",
+      "DOTH",
+      "DOTTED",
+      "DUCT",
+      "DUET",
+      "DUTCH",
+      "ETCH",
+      "ETCHED",
+      "HOOT",
+      "HOTCH",
+      "HUTCH",
+      "OTTO",
+      "OUTDO",
+      "OUTED",
+      "TEETH",
+      "THEE",
+      "THOU",
+      "THUD",
+      "TOOT",
+      "TOOTH",
+      "TOTE",
+      "TOUCH",
+      "TOUCHE",
+      "TOUCHED",
+      "TOUT",
+      "TUTU"
+    ],
+    "pangrams": [
+      "TOUCHED"
+    ],
+    "maxScore": 127
+  }
+}

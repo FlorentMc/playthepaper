@@ -1,0 +1,48 @@
+{
+  "id": "letters-2026-09-19-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "ACINOT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ACCOUNT",
+      "ACCOUNTANT",
+      "AUCTION",
+      "AUNT",
+      "AUTO",
+      "CAUTION",
+      "COCONUT",
+      "CONTINUATION",
+      "COUNT",
+      "CUTOUT",
+      "INTUITION",
+      "NOUN",
+      "TAUNT",
+      "TAUT",
+      "TOUT",
+      "TUITION",
+      "TUNA",
+      "TUNIC",
+      "TUTTI",
+      "TUTU",
+      "UNCUT",
+      "UNION",
+      "UNIT",
+      "UNTO"
+    ],
+    "pangrams": [
+      "AUCTION",
+      "CAUTION",
+      "CONTINUATION"
+    ],
+    "maxScore": 132
+  }
+}

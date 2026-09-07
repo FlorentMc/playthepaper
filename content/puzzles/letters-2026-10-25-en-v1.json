@@ -1,0 +1,57 @@
+{
+  "id": "letters-2026-10-25-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "AEINTY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ACACIA",
+      "ACCENT",
+      "ACNE",
+      "ACTIN",
+      "ANCIENT",
+      "ATTIC",
+      "CACA",
+      "CACTI",
+      "CAIN",
+      "CANCAN",
+      "CANE",
+      "CANINE",
+      "CANNY",
+      "CANT",
+      "CANTEEN",
+      "CANTINA",
+      "CATE",
+      "CATTY",
+      "CAYENNE",
+      "CENT",
+      "CITE",
+      "CITY",
+      "CYNIC",
+      "ENACT",
+      "ENTICE",
+      "INCITE",
+      "INTACT",
+      "NANCE",
+      "NANCY",
+      "NICE",
+      "NIECE",
+      "TACT",
+      "TACTIC",
+      "TENACITY",
+      "TITANIC"
+    ],
+    "pangrams": [
+      "TENACITY"
+    ],
+    "maxScore": 159
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "letters-2026-09-17-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-17",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "T",
+    "outer": "AINQUY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ANNUITY",
+      "ANTI",
+      "ANTIQUITY",
+      "ATTAIN",
+      "AUNT",
+      "AUNTY",
+      "INIQUITY",
+      "NATTY",
+      "NUTTY",
+      "QUAINT",
+      "QUANTITY",
+      "QUINT",
+      "QUIT",
+      "TAINT",
+      "TAUNT",
+      "TAUT",
+      "TINNY",
+      "TINT",
+      "TINY",
+      "TITAN",
+      "TITI",
+      "TUNA",
+      "TUTTI",
+      "TUTU",
+      "UNIT",
+      "UNITY"
+    ],
+    "pangrams": [
+      "ANTIQUITY",
+      "QUANTITY"
+    ],
+    "maxScore": 118
+  }
+}

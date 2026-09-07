@@ -1,0 +1,53 @@
+{
+  "id": "letters-2026-09-13-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "Y",
+    "outer": "DELMOP",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DEEPLY",
+      "DEPLOY",
+      "DEPLOYED",
+      "DOLLY",
+      "DOPEY",
+      "DYED",
+      "EDDY",
+      "EMPLOY",
+      "EMPLOYED",
+      "EMPLOYEE",
+      "EYED",
+      "LOLLY",
+      "LOLLYPOP",
+      "LOOPY",
+      "MEDLEY",
+      "MELODY",
+      "MOLDY",
+      "MOLLY",
+      "MOLY",
+      "MOMMY",
+      "MOODY",
+      "MOPEY",
+      "ODDLY",
+      "PEPPY",
+      "PLOY",
+      "POLY",
+      "POPPY",
+      "YELL",
+      "YELLED",
+      "YELP",
+      "YODEL"
+    ],
+    "pangrams": [
+      "EMPLOYED"
+    ],
+    "maxScore": 148
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "letters-2026-12-17-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-17",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "O",
+    "outer": "DFNRUY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DODO",
+      "DONOR",
+      "DOOR",
+      "DORY",
+      "DOUR",
+      "FOND",
+      "FOOD",
+      "FORD",
+      "FOUND",
+      "FOUNDRY",
+      "FOUR",
+      "FROND",
+      "NOON",
+      "NOUN",
+      "ODOR",
+      "ODOUR",
+      "RONDO",
+      "ROOF",
+      "ROUND",
+      "RUNOFF",
+      "UNDO",
+      "YOUR"
+    ],
+    "pangrams": [
+      "FOUNDRY"
+    ],
+    "maxScore": 64
+  }
+}

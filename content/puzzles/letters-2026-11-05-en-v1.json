@@ -1,0 +1,45 @@
+{
+  "id": "letters-2026-11-05-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-05",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "W",
+    "outer": "GINORY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "GOWN",
+      "GROW",
+      "GROWING",
+      "GROWN",
+      "OWING",
+      "OWNING",
+      "ROWING",
+      "WIGGY",
+      "WING",
+      "WINGING",
+      "WINING",
+      "WINNING",
+      "WINO",
+      "WIRING",
+      "WIRY",
+      "WOOING",
+      "WORN",
+      "WORRY",
+      "WORRYING",
+      "WRING",
+      "WRINGING",
+      "WRONG",
+      "WYNN"
+    ],
+    "pangrams": [
+      "WORRYING"
+    ],
+    "maxScore": 111
+  }
+}

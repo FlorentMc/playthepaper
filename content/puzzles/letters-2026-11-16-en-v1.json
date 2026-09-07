@@ -1,0 +1,58 @@
+{
+  "id": "letters-2026-11-16-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "A",
+    "outer": "CHMNTW",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ANNA",
+      "ATTACH",
+      "CACA",
+      "CANCAN",
+      "CANT",
+      "CATCH",
+      "CHAM",
+      "CHANT",
+      "CHAT",
+      "HAHA",
+      "HATCH",
+      "HATH",
+      "HWAN",
+      "MACH",
+      "MAHATMA",
+      "MAMA",
+      "MAMMA",
+      "MANA",
+      "MANHATTAN",
+      "MANNA",
+      "MANTA",
+      "MATCH",
+      "MATH",
+      "MATT",
+      "NANA",
+      "TACH",
+      "TACT",
+      "THAN",
+      "THAT",
+      "THAW",
+      "WANT",
+      "WATCH",
+      "WATCHMAN",
+      "WATT",
+      "WHAM",
+      "WHAT"
+    ],
+    "pangrams": [
+      "WATCHMAN"
+    ],
+    "maxScore": 106
+  }
+}

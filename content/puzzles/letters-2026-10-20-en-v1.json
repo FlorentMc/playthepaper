@@ -1,0 +1,45 @@
+{
+  "id": "letters-2026-10-20-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "T",
+    "outer": "BEIOQU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "BEET",
+      "BITE",
+      "BOOT",
+      "BOOTIE",
+      "BOUQUET",
+      "BOUT",
+      "BOUTIQUE",
+      "BUTT",
+      "BUTTE",
+      "ETIQUETTE",
+      "OBIT",
+      "OTTO",
+      "QUIET",
+      "QUIT",
+      "QUITE",
+      "QUOTE",
+      "TITI",
+      "TOOT",
+      "TOTE",
+      "TOUT",
+      "TUBE",
+      "TUTTI",
+      "TUTU"
+    ],
+    "pangrams": [
+      "BOUTIQUE"
+    ],
+    "maxScore": 76
+  }
+}

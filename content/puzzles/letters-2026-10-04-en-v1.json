@@ -1,0 +1,47 @@
+{
+  "id": "letters-2026-10-04-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-04",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "DELMOW",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "CEDE",
+      "CELL",
+      "CELLO",
+      "CLOD",
+      "COCO",
+      "CODDLE",
+      "CODDLED",
+      "CODE",
+      "CODED",
+      "COED",
+      "COLD",
+      "COLE",
+      "COME",
+      "COMMODE",
+      "COOL",
+      "COOLED",
+      "COWL",
+      "DECO",
+      "DECODE",
+      "DECODED",
+      "DOLCE",
+      "EMCEE",
+      "LOCO",
+      "WELCOME",
+      "WELCOMED"
+    ],
+    "pangrams": [
+      "WELCOMED"
+    ],
+    "maxScore": 94
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "letters-2026-10-29-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "P",
+    "outer": "EILMNT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "IMPLEMENT",
+      "INEPT",
+      "LIMP",
+      "NIPPLE",
+      "PEEL",
+      "PEEP",
+      "PELE",
+      "PELLET",
+      "PELT",
+      "PENITENT",
+      "PENT",
+      "PETIT",
+      "PETITE",
+      "PILE",
+      "PILL",
+      "PIMP",
+      "PIMPLE",
+      "PINE",
+      "PINT",
+      "PIPE",
+      "PIPELINE",
+      "PIPPIN",
+      "TEEPEE",
+      "TEMP",
+      "TEMPLE",
+      "TEMPT"
+    ],
+    "pangrams": [
+      "IMPLEMENT"
+    ],
+    "maxScore": 102
+  }
+}

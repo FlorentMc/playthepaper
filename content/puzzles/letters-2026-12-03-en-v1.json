@@ -1,0 +1,43 @@
+{
+  "id": "letters-2026-12-03-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "V",
+    "outer": "EHMORW",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "EVER",
+      "EVERMORE",
+      "HOVE",
+      "HOVER",
+      "HOWEVER",
+      "MOREOVER",
+      "MOVE",
+      "MOVER",
+      "OVER",
+      "REEVE",
+      "REMOVE",
+      "REMOVER",
+      "REVERE",
+      "ROVE",
+      "ROVER",
+      "VEER",
+      "VROOM",
+      "WHEREVER",
+      "WHOEVER",
+      "WHOMEVER",
+      "WOVE"
+    ],
+    "pangrams": [
+      "WHOMEVER"
+    ],
+    "maxScore": 104
+  }
+}

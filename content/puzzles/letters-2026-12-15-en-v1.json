@@ -1,0 +1,57 @@
+{
+  "id": "letters-2026-12-15-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "EGIMNO",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "COCO",
+      "COCOON",
+      "COIN",
+      "COME",
+      "COMIC",
+      "COMING",
+      "COMMENCE",
+      "COMMENCING",
+      "COMMIE",
+      "COMMON",
+      "CONE",
+      "CONGEE",
+      "CONGO",
+      "CONN",
+      "CONNING",
+      "COOING",
+      "ECONOMIC",
+      "EMCEE",
+      "EMINENCE",
+      "ICING",
+      "ICON",
+      "ICONIC",
+      "INCOME",
+      "INCOMING",
+      "INNOCENCE",
+      "IONIC",
+      "MICE",
+      "MIMIC",
+      "MINCE",
+      "MNEMONIC",
+      "NICE",
+      "NIECE",
+      "NONCE",
+      "ONCE",
+      "ONCOMING"
+    ],
+    "pangrams": [
+      "COMMENCING"
+    ],
+    "maxScore": 183
+  }
+}

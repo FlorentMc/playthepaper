@@ -1,0 +1,53 @@
+{
+  "id": "letters-2026-12-05-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-05",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "P",
+    "outer": "ADINOR",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "APRON",
+      "DRIP",
+      "DROOP",
+      "DROP",
+      "OPINION",
+      "PAID",
+      "PAIN",
+      "PAIR",
+      "PANDA",
+      "PANDORA",
+      "PAPA",
+      "PAPPI",
+      "PARA",
+      "PARANOIA",
+      "PARANOID",
+      "PARDON",
+      "PARR",
+      "PIANO",
+      "PINA",
+      "PIPPIN",
+      "POND",
+      "POON",
+      "POOP",
+      "POOR",
+      "POPPA",
+      "PRIOR",
+      "PROD",
+      "PROP",
+      "RAINDROP",
+      "RAPID"
+    ],
+    "pangrams": [
+      "PARANOID",
+      "RAINDROP"
+    ],
+    "maxScore": 119
+  }
+}

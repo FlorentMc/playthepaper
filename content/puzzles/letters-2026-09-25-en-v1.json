@@ -1,0 +1,46 @@
+{
+  "id": "letters-2026-09-25-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "N",
+    "outer": "DIMOPU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DOMINION",
+      "DOMINO",
+      "IMPOUND",
+      "MIND",
+      "MINI",
+      "MINIMUM",
+      "MINION",
+      "MONDO",
+      "MONO",
+      "MOON",
+      "MOUND",
+      "NOON",
+      "NOUN",
+      "ONION",
+      "OPINION",
+      "PINUP",
+      "PIPPIN",
+      "POND",
+      "POON",
+      "POUND",
+      "UNDID",
+      "UNDO",
+      "UNION",
+      "UPON"
+    ],
+    "pangrams": [
+      "IMPOUND"
+    ],
+    "maxScore": 99
+  }
+}

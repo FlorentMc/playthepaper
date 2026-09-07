@@ -1,0 +1,48 @@
+{
+  "id": "letters-2026-09-23-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-23",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "L",
+    "outer": "ANRTUY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ALAN",
+      "ALLY",
+      "ALTAR",
+      "ANNUAL",
+      "ANNUALLY",
+      "ANNUL",
+      "LAURA",
+      "LUAU",
+      "LULL",
+      "LULU",
+      "LUNA",
+      "LUNAR",
+      "NATAL",
+      "NATURAL",
+      "NATURALLY",
+      "NULL",
+      "RALLY",
+      "RURAL",
+      "TALL",
+      "TALLY",
+      "TARANTULA",
+      "TRULY",
+      "ULNA",
+      "ULTRA",
+      "UNNATURAL",
+      "UNRULY"
+    ],
+    "pangrams": [
+      "NATURALLY"
+    ],
+    "maxScore": 120
+  }
+}

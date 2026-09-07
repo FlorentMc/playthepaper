@@ -1,0 +1,60 @@
+{
+  "id": "letters-2026-11-03-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "D",
+    "outer": "AGINOT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ADDING",
+      "ADDITION",
+      "AIDING",
+      "DADA",
+      "DADO",
+      "DANG",
+      "DATA",
+      "DATING",
+      "DATO",
+      "DIDO",
+      "DIGGING",
+      "DIGIT",
+      "DING",
+      "DINGING",
+      "DINGO",
+      "DINING",
+      "DINT",
+      "DITTO",
+      "DODGING",
+      "DODO",
+      "DOGGING",
+      "DOING",
+      "DONA",
+      "DONATING",
+      "DONATION",
+      "DONG",
+      "DONNA",
+      "DOTING",
+      "GOAD",
+      "GOOD",
+      "IDIOT",
+      "INDIGNANT",
+      "INDIGNATION",
+      "INDIGO",
+      "NADA",
+      "NODDING",
+      "TOAD"
+    ],
+    "pangrams": [
+      "DONATING",
+      "INDIGNATION"
+    ],
+    "maxScore": 174
+  }
+}

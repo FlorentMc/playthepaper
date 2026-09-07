@@ -1,0 +1,48 @@
+{
+  "id": "letters-2026-11-25-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "Y",
+    "outer": "AEGINR",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "AIRY",
+      "ANGRY",
+      "ARRAY",
+      "EGGY",
+      "ENERGY",
+      "EYEING",
+      "EYRE",
+      "GAYER",
+      "GINNY",
+      "GRAINY",
+      "GRANARY",
+      "GRANNY",
+      "GRAY",
+      "GRAYER",
+      "GREENERY",
+      "GREY",
+      "NANNY",
+      "NARY",
+      "NINNY",
+      "RAINY",
+      "RAYA",
+      "YANG",
+      "YARN",
+      "YEAR",
+      "YEARN",
+      "YEARNING"
+    ],
+    "pangrams": [
+      "YEARNING"
+    ],
+    "maxScore": 110
+  }
+}

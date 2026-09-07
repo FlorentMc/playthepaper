@@ -1,0 +1,55 @@
+{
+  "id": "letters-2026-11-18-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "W",
+    "outer": "AEIPRT",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "AWAIT",
+      "AWARE",
+      "PEEWEE",
+      "REWIRE",
+      "REWRITE",
+      "TWEET",
+      "TWERP",
+      "TWIT",
+      "TWITTER",
+      "WAIT",
+      "WAITER",
+      "WARE",
+      "WARP",
+      "WART",
+      "WATER",
+      "WATT",
+      "WEAR",
+      "WEARER",
+      "WEEP",
+      "WEET",
+      "WEIR",
+      "WEPT",
+      "WERE",
+      "WETTER",
+      "WIPE",
+      "WIPER",
+      "WIRE",
+      "WIRETAP",
+      "WRAP",
+      "WRAPPER",
+      "WRIT",
+      "WRITE",
+      "WRITER"
+    ],
+    "pangrams": [
+      "WIRETAP"
+    ],
+    "maxScore": 122
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "letters-2026-10-19-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "L",
+    "outer": "BHIORY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "BILBO",
+      "BILL",
+      "BILLY",
+      "BLOB",
+      "BOIL",
+      "BOLO",
+      "BRILL",
+      "HILL",
+      "HILLBILLY",
+      "HILLY",
+      "HOLLY",
+      "HOLY",
+      "HORRIBLY",
+      "LILY",
+      "LOBBY",
+      "LOBO",
+      "LOLLY",
+      "LORRY",
+      "OILY",
+      "ROLL"
+    ],
+    "pangrams": [
+      "HORRIBLY"
+    ],
+    "maxScore": 74
+  }
+}

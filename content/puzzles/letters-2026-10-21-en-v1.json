@@ -1,0 +1,56 @@
+{
+  "id": "letters-2026-10-21-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "A",
+    "outer": "DKLRWY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ALLY",
+      "ALWAY",
+      "ARRAY",
+      "AWARD",
+      "AWAY",
+      "AWKWARD",
+      "AWKWARDLY",
+      "AWRY",
+      "DADA",
+      "DADDY",
+      "DALLY",
+      "DARK",
+      "DARKLY",
+      "DRAW",
+      "DRYWALL",
+      "DYAD",
+      "KAKA",
+      "KAYAK",
+      "LADY",
+      "LARD",
+      "LARK",
+      "LAYAWAY",
+      "RADAR",
+      "RALLY",
+      "RAYA",
+      "WALK",
+      "WALKWAY",
+      "WALL",
+      "WALLA",
+      "WALLY",
+      "WARD",
+      "WARY",
+      "WAYWARD",
+      "YARD"
+    ],
+    "pangrams": [
+      "AWKWARDLY"
+    ],
+    "maxScore": 124
+  }
+}

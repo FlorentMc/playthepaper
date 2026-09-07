@@ -1,0 +1,61 @@
+{
+  "id": "letters-2026-12-20-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "P",
+    "outer": "CDENRU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "CREEP",
+      "CREEPER",
+      "CREPE",
+      "DEEP",
+      "DEEPEN",
+      "DEEPENED",
+      "DEEPER",
+      "DEPEND",
+      "DEPENDED",
+      "DEPENDENCE",
+      "DUPE",
+      "DUPED",
+      "DUPER",
+      "PEED",
+      "PEEP",
+      "PEEPED",
+      "PEEPER",
+      "PEER",
+      "PEERED",
+      "PENCE",
+      "PENNED",
+      "PENNER",
+      "PEPPER",
+      "PEPPERED",
+      "PRECEDE",
+      "PRECEDED",
+      "PRECEDENCE",
+      "PREP",
+      "PREPPED",
+      "PRUDE",
+      "PRUDENCE",
+      "PRUNE",
+      "PURE",
+      "PUREE",
+      "PURER",
+      "PURR",
+      "RUPEE",
+      "UPPED",
+      "UPPER"
+    ],
+    "pangrams": [
+      "PRUDENCE"
+    ],
+    "maxScore": 210
+  }
+}

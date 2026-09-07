@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-11-27-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-27",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "M",
+    "outer": "BILOTY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "BIMBO",
+      "BLOOM",
+      "BOMB",
+      "BOOM",
+      "BOTTOM",
+      "LIMB",
+      "LIMBO",
+      "LIMIT",
+      "LIMO",
+      "LOBOTOMY",
+      "LOOM",
+      "MILL",
+      "MILO",
+      "MILT",
+      "MITT",
+      "MOBILITY",
+      "MOLL",
+      "MOLLY",
+      "MOLTO",
+      "MOLY",
+      "MOMMY",
+      "MOOT",
+      "MOTT",
+      "MOTTO",
+      "OMIT",
+      "TOMB",
+      "TOMBOY",
+      "TOMMY"
+    ],
+    "pangrams": [
+      "MOBILITY"
+    ],
+    "maxScore": 95
+  }
+}

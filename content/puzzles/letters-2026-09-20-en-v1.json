@@ -1,0 +1,47 @@
+{
+  "id": "letters-2026-09-20-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "V",
+    "outer": "AEFGOR",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ARVO",
+      "AVER",
+      "AVERAGE",
+      "EVER",
+      "FAVE",
+      "FAVOR",
+      "FERVOR",
+      "FEVER",
+      "FOREVER",
+      "FORGAVE",
+      "GAVE",
+      "GRAVE",
+      "GROOVE",
+      "GROVE",
+      "OVER",
+      "RAVAGE",
+      "RAVE",
+      "REEVE",
+      "REVERE",
+      "ROVE",
+      "ROVER",
+      "VEER",
+      "VERA",
+      "VERGE",
+      "VERGER"
+    ],
+    "pangrams": [
+      "FORGAVE"
+    ],
+    "maxScore": 103
+  }
+}

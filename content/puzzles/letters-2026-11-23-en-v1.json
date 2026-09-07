@@ -1,0 +1,61 @@
+{
+  "id": "letters-2026-11-23-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-23",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "B",
+    "outer": "ADEHNO",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ABANDON",
+      "ABANDONED",
+      "ABBA",
+      "ABED",
+      "ABODE",
+      "BABA",
+      "BABE",
+      "BABOON",
+      "BADE",
+      "BANANA",
+      "BAND",
+      "BANDANA",
+      "BANDED",
+      "BANE",
+      "BANNED",
+      "BEAD",
+      "BEAN",
+      "BEDDED",
+      "BEEN",
+      "BEHEAD",
+      "BEHEADED",
+      "BEND",
+      "BENDED",
+      "BENE",
+      "BODE",
+      "BONBON",
+      "BOND",
+      "BONDED",
+      "BONE",
+      "BONED",
+      "BONEHEAD",
+      "BONNE",
+      "BOOB",
+      "BOOED",
+      "BOON",
+      "HEADBAND",
+      "HOBO",
+      "NABBED",
+      "OBOE"
+    ],
+    "pangrams": [
+      "BONEHEAD"
+    ],
+    "maxScore": 153
+  }
+}

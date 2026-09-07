@@ -1,0 +1,56 @@
+{
+  "id": "letters-2026-11-20-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "I",
+    "outer": "CGNOPY",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "COIN",
+      "CONNING",
+      "COOING",
+      "COPING",
+      "COPPING",
+      "COPYING",
+      "CYNIC",
+      "GINNY",
+      "GOING",
+      "ICING",
+      "ICON",
+      "ICONIC",
+      "INNING",
+      "IONIC",
+      "NINNY",
+      "NIPPING",
+      "NIPPY",
+      "NOGGIN",
+      "ONGOING",
+      "ONION",
+      "OPINION",
+      "PICNIC",
+      "PIGGY",
+      "PING",
+      "PINGING",
+      "PINING",
+      "PINNING",
+      "PIPING",
+      "PIPPIN",
+      "POOPING",
+      "POPPING",
+      "YIPPING",
+      "YOGI",
+      "YONI"
+    ],
+    "pangrams": [
+      "COPYING"
+    ],
+    "maxScore": 188
+  }
+}

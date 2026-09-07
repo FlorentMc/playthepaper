@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-12-06-en-v1",
+  "game": "letters",
+  "editionDate": "2026-12-06",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "F",
+    "outer": "DEKLNU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DEFEND",
+      "DEFENDED",
+      "DUFF",
+      "DUFFEL",
+      "DUFFLE",
+      "FEED",
+      "FEEL",
+      "FELL",
+      "FELLED",
+      "FEND",
+      "FENNEL",
+      "FEUD",
+      "FLED",
+      "FLEE",
+      "FLUE",
+      "FLUFF",
+      "FLUKE",
+      "FLUNK",
+      "FLUNKED",
+      "FUEL",
+      "FUELED",
+      "FUELLED",
+      "FULL",
+      "FUND",
+      "FUNDED",
+      "FUNK",
+      "FUNNEL",
+      "NEEDFUL"
+    ],
+    "pangrams": [
+      "FLUNKED"
+    ],
+    "maxScore": 112
+  }
+}

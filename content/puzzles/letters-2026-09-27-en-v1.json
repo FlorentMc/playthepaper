@@ -1,0 +1,51 @@
+{
+  "id": "letters-2026-09-27-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-27",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "A",
+    "outer": "BEHQTU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ABATE",
+      "ABBA",
+      "ABUT",
+      "AQUA",
+      "BABA",
+      "BABE",
+      "BABU",
+      "BAHT",
+      "BATH",
+      "BATHE",
+      "BATHTUB",
+      "BEAT",
+      "BEAU",
+      "BEAUT",
+      "BEQUEATH",
+      "BETA",
+      "EQUATE",
+      "HAHA",
+      "HATE",
+      "HATH",
+      "HAUTE",
+      "HEAT",
+      "HEATH",
+      "TATE",
+      "TAUT",
+      "TEAT",
+      "THAT",
+      "THETA",
+      "TUBA"
+    ],
+    "pangrams": [
+      "BEQUEATH"
+    ],
+    "maxScore": 78
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "letters-2026-11-02-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "N",
+    "outer": "DEFMRU",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "DEFEND",
+      "DEFENDED",
+      "DEFENDER",
+      "DUNE",
+      "ENDED",
+      "ENDER",
+      "ENDURE",
+      "ENDURED",
+      "FEND",
+      "FENDER",
+      "FERN",
+      "FUND",
+      "FUNDED",
+      "MEND",
+      "MENDED",
+      "MENU",
+      "NEED",
+      "NEEDED",
+      "NENE",
+      "NERD",
+      "NUDE",
+      "REFERENDUM",
+      "REFUND",
+      "RENDER",
+      "RENDERED",
+      "RERUN",
+      "RUNE",
+      "RUNNER",
+      "UNDER",
+      "UNDUE"
+    ],
+    "pangrams": [
+      "REFERENDUM"
+    ],
+    "maxScore": 138
+  }
+}

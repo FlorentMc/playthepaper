@@ -1,0 +1,58 @@
+{
+  "id": "letters-2026-11-10-en-v1",
+  "game": "letters",
+  "editionDate": "2026-11-10",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "AEIKMN",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "ACACIA",
+      "ACME",
+      "ACNE",
+      "ANEMIC",
+      "CACA",
+      "CAIMAN",
+      "CAIN",
+      "CAKE",
+      "CAME",
+      "CANCAN",
+      "CANE",
+      "CANINE",
+      "CINEMA",
+      "EMCEE",
+      "EMINENCE",
+      "ICEMAN",
+      "KECK",
+      "KICK",
+      "KNACK",
+      "MACE",
+      "MACK",
+      "MANIAC",
+      "MANIC",
+      "MECCA",
+      "MENACE",
+      "MICA",
+      "MICE",
+      "MICK",
+      "MIMIC",
+      "MINCE",
+      "NANCE",
+      "NECK",
+      "NICE",
+      "NICK",
+      "NICKNAME",
+      "NIECE"
+    ],
+    "pangrams": [
+      "NICKNAME"
+    ],
+    "maxScore": 134
+  }
+}

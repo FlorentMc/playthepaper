@@ -1,0 +1,47 @@
+{
+  "id": "letters-2026-10-08-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "G",
+    "outer": "ABCIKN",
+    "minLength": 4
+  },
+  "reveal": {
+    "answers": [
+      "AGAIN",
+      "AGING",
+      "ANGINA",
+      "BACKING",
+      "BAGGING",
+      "BAKING",
+      "BANG",
+      "BANGING",
+      "BANKING",
+      "BANNING",
+      "BIKING",
+      "CANNING",
+      "GABBING",
+      "GAGA",
+      "GAGGING",
+      "GAIN",
+      "GAINING",
+      "GANG",
+      "GANGING",
+      "ICING",
+      "INNING",
+      "KICKING",
+      "KING",
+      "NAGGING",
+      "NICKING"
+    ],
+    "pangrams": [
+      "BACKING"
+    ],
+    "maxScore": 142
+  }
+}
