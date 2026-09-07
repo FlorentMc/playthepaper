@@ -6,6 +6,7 @@ import 'package:daypencil/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import '../../support/pump_until.dart';
 import 'news_test_support.dart';
 
 void main() {
@@ -80,10 +81,11 @@ void main() {
     await tester.runAsync(() async {
       await pump(tester);
       await tester.tap(detail('1983'));
-      await settle(tester);
+      await pumpUntil(tester, () => store.progress(record.id) != null, reason: 'first pick saved');
       await tester.tap(detail('8.3 minutes'));
       await settle(tester);
       await tester.tap(detail('299,792,458 metres per second'));
+      await pumpUntil(tester, () => store.result(record.id) != null && !store.hasProgress(record.id), reason: 'result saved');
       await settle(tester);
       final result = store.result(record.id);
       expect(result, isNotNull);

@@ -13,6 +13,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
+import '../../support/pump_until.dart';
+
 /// The store writes to disk, so every test body runs under [WidgetTester.runAsync].
 void main() {
   late Directory dir;
@@ -144,9 +146,10 @@ void main() {
       await pumpScreen(tester);
       await type(tester, 'TRAND');
       await enter(tester);
-      await settle(tester);
+      await pumpUntil(tester, () => store.progress(id) != null, reason: 'first guess saved');
       await type(tester, 'TREAM');
       await enter(tester);
+      await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
       await settle(tester);
 
       final result = store.result(id);
@@ -167,8 +170,12 @@ void main() {
       for (var i = 0; i < 6; i++) {
         await type(tester, 'TRAND');
         await enter(tester);
-        await settle(tester);
+        if (i < 5) {
+          await pumpUntil(tester, () => (store.progress(id)?['guesses'] as List?)?.length == i + 1, reason: 'guess ${i + 1} saved');
+        }
       }
+      await pumpUntil(tester, () => store.result(id) != null && !store.hasProgress(id), reason: 'result saved');
+      await settle(tester);
       final result = store.result(id);
       expect(result, isNotNull);
       expect(result!.solved, isFalse);
