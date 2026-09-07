@@ -1,0 +1,96 @@
+{
+  "id": "quiz-2026-11-09-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "prompt": "How much did the heart of a stranded North Atlantic blue whale weigh?",
+        "options": [
+          "18 kg",
+          "180 kg",
+          "1,800 kg",
+          "18,000 kg"
+        ],
+        "storyId": "nature-1-whale"
+      },
+      {
+        "prompt": "In which year did the International Whaling Commission ban all blue whale hunting?",
+        "options": [
+          "1946",
+          "1966",
+          "1986",
+          "2006"
+        ],
+        "storyId": "nature-1-whale"
+      },
+      {
+        "prompt": "How tall is Angel Falls?",
+        "options": [
+          "79 metres",
+          "379 metres",
+          "979 metres",
+          "1,979 metres"
+        ],
+        "storyId": "nature-1-falls"
+      },
+      {
+        "prompt": "How long is the single uninterrupted plunge of Angel Falls?",
+        "options": [
+          "307 metres",
+          "507 metres",
+          "807 metres",
+          "979 metres"
+        ],
+        "storyId": "nature-1-falls"
+      },
+      {
+        "prompt": "In which year did HMS Beagle reach the Galápagos Islands?",
+        "options": [
+          "1815",
+          "1825",
+          "1835",
+          "1845"
+        ],
+        "storyId": "nature-1-galapagos"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "explanations": [
+      "The heart of a stranded North Atlantic blue whale weighed 180 kg, the largest known in any animal. Its beat can slow to two a minute when the whale dives deep.",
+      "The International Whaling Commission banned all blue whale hunting in 1966, after whalers had hunted the species almost to extinction. Blue whales remain the largest animals known ever to have existed.",
+      "Angel Falls is 979 metres high, which makes it the world's tallest uninterrupted waterfall. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park.",
+      "The single uninterrupted plunge is 807 metres. The rest of the 979-metre height is made up of about 400 metres of sloped cascade and rapids and a 30-metre plunge further downstream.",
+      "HMS Beagle reached the Galápagos on 15 September 1835. The young naturalist Charles Darwin was aboard, and the volcanic landscape struck him so much that he later called the archipelago \"that land of craters\"."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue_whale",
+      "excerpt": "The blue whale is the largest animal known ever to have existed. The longest blue whale ever scientifically measured was an individual captured in the Panama Canal; an examination of its cervical vertebrae confirmed that its length had not been exaggerated, and it measured 29.9 m (98 ft) from the tip of its snout to the tip of its tail. The weight of the heart of a stranded North Atlantic blue whale was 180 kg (400 lb), the largest known in any animal. A blue whale's heart rate can drop to 2 beats per minute (bpm) at deep depths, but upon surfacing, can rise to 37 bpm, which is close to its peak heart rate. It was hunted almost to the point of extinction by whalers until the International Whaling Commission banned all blue whale hunting in 1966."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
+      "excerpt": "Angel Falls (Spanish: Salto Ángel; Pemon: Körepakupai Vená) is a waterfall in Venezuela. It is the world's tallest uninterrupted waterfall, with a height of 979 metres (3,212 ft), and a plunge of 807 m (2,648 ft). The waterfall drops over the edge of the Auyán-tepui mountain in the Canaima National Park (Spanish: Parque Nacional Canaima), a UNESCO World Heritage Site in the Gran Sabana region of Bolívar State. The height figure, 979 m (3,212 ft), mostly consists of the main plunge but also includes about 400 metres (1,300 ft) of sloped cascade and rapids below the drop and then a 30-metre-high (100 ft) plunge downstream of these talus rapids."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+      "excerpt": "The Galápagos Islands (Spanish: Islas Galápagos) are an archipelago of volcanic islands in the Eastern Pacific, located around the equator, 485 nautical miles (898 km; 558 mi) west of the mainland of South America. Darwin's voyage on HMS Beagle was part of an extensive British survey of the coasts of South America. The second voyage of HMS Beagle under captain Robert FitzRoy was undertaken to better survey the coasts and harbours of South America for the British Navy's Hydrographic Department. It reached the Galápagos on 15 September 1835 and—while surveying its islands, channels, and bays—the captain and others on the crew observed the geology, plants, and wildlife on Floreana, Isabela, and Santiago before continuing on their round-the-world expedition on 20 October. The young naturalist Charles Darwin, primarily a geologist at the time, was struck by the many volcanic features they saw, later referring to the archipelago as \"that land of craters\"."
+    }
+  ]
+}

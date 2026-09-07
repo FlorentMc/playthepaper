@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
+      "##...",
       ".....",
-      ".....",
-      ".....",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Fedora or beret"
+          "clue": "Which person"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "clue": "Twenty"
+          "col": 2,
+          "length": 3,
+          "clue": "Mother of chicks"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "External"
+          "clue": "Backup tyre"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
-          "length": 5,
-          "clue": "Sleep story"
+          "length": 3,
+          "clue": "Slippery liquid"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "The whole lot"
+          "clue": "Honey maker"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Lodging with a lobby"
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Length times width"
+          "length": 3,
+          "clue": "___ and him"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "clue": "Word with a special meaning"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 0,
-          "length": 4,
-          "clue": "Fizzy drink"
+          "length": 3,
+          "clue": "Lowest whole number above zero"
         },
         {
           "number": 5,
-          "row": 1,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Cry loudly"
+        },
+        {
+          "number": 6,
+          "row": 2,
           "col": 1,
-          "length": 4,
-          "clue": "Loop of hair"
+          "length": 3,
+          "clue": "Apple dessert with a crust"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##HAT",
-      "SCORE",
-      "OUTER",
-      "DREAM",
-      "ALL##"
+      "##WHO",
+      "##HEN",
+      "SPARE",
+      "OIL##",
+      "BEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

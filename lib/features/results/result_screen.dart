@@ -115,7 +115,7 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(height: 20),
             Container(height: 1, color: colors.rule),
             const SizedBox(height: 12),
-            Text('YOUR ${id.game.title.toUpperCase()} RECORD', style: theme.textTheme.labelSmall),
+            Text('YOUR ${id.game.title.replaceFirst('The ', '').toUpperCase()} RECORD', style: theme.textTheme.labelSmall),
             const SizedBox(height: 8),
             Row(
               children: [

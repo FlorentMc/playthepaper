@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Snow runner"
+          "clue": "___ is it?"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Beard's home"
+          "clue": "Television programme"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Racecourse"
+          "clue": "Snail's home"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Labour"
+          "clue": "Cargo"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Still"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Divide up"
+          "clue": "Grain for bread"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Strike with the foot"
+          "clue": "Grip"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Printer cartridge contents"
+          "clue": "Wise bird"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Black bird with a caw"
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Cunning"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SKI",
-      "#CHIN",
-      "TRACK",
-      "WORK#",
-      "OWE##"
+      "##WHO",
+      "#SHOW",
+      "SHELL",
+      "LOAD#",
+      "YET##"
     ]
   }
 }

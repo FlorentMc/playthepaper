@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Timid"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Draw, in a match"
+          "clue": "Unwell"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "School group"
+          "clue": "Skeleton of a building"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Atom that has lost or gained an electron"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Stake money on a horse"
+          "clue": "Number of wheels on a bike"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Beginning"
+          "clue": "Instrument with a row of 88 keys",
+          "storyId": "culture-1-piano"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Tree often lining a street"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Pub pint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Taxi"
+          "clue": "Healthy and in shape"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Fib"
+          "clue": "Line of seats"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SHY",
-      "##TIE",
-      "CLASS",
-      "AIR##",
-      "BET##"
+      "##PEA",
+      "##ILL",
+      "FRAME",
+      "ION##",
+      "TWO##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "culture-1-piano",
+        "excerpt": "The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments."
+      }
     ]
-  }
+  },
+  "storyId": "culture-1-piano"
 }

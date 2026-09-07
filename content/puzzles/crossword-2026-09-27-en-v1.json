@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Draw, in a match"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Temper"
+          "clue": "Windy-day toy"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Planet Earth"
+          "clue": "Winged heavenly being"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Give the impression"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Honey maker"
+          "clue": "Belonging to that woman"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Comparative of bad"
+          "clue": "Jungle cat with stripes"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Golf target"
+          "clue": "Single article"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Strange"
+          "clue": "Slippery swimmer"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Burrowing animal"
+          "clue": "Leg joint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Spider's creation"
+          "clue": "Fireplace residue"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#MOOD",
-      "WORLD",
-      "ELSE#",
-      "BEE##"
+      "##TIE",
+      "#KITE",
+      "ANGEL",
+      "SEEM#",
+      "HER##"
     ]
   }
 }

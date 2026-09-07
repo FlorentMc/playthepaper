@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Local watering hole"
+          "clue": "A long way off"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shade of colour"
+          "clue": "Accurate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Apple or pear"
+          "clue": "British currency unit"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Parent's sister"
+          "clue": "Single item"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Colour of ripe tomatoes"
+          "clue": "Stake money on a horse"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "British currency unit"
+          "clue": "Apple or pear"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Uncle's wife"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Wager"
+          "clue": "Colour of a stop sign"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not false"
+          "clue": "Quality of a sound"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Not near"
+          "clue": "Place for a pint"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##PUB",
-      "#TONE",
-      "FRUIT",
-      "AUNT#",
-      "RED##"
+      "##FAR",
+      "#TRUE",
+      "POUND",
+      "UNIT#",
+      "BET##"
     ]
   }
 }

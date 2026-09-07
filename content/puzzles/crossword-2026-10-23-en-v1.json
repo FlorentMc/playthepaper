@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Shed tears"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Visit for a while"
+          "clue": "Trunk and branches"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "By oneself"
+          "clue": "Lawn greenery"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Not bad"
+          "clue": "Parent's sister"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Wise bird"
+          "clue": "Notice with the eyes"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Bar seat"
+          "clue": "Lifting machine"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "It has five fingers"
+          "clue": "Relax"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Opposite of no"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not fast"
+          "clue": "Not false"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "In the past"
+          "clue": "Oxygen or helium"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SHE",
-      "#STAY",
-      "ALONE",
-      "GOOD#",
-      "OWL##"
+      "##CRY",
+      "#TREE",
+      "GRASS",
+      "AUNT#",
+      "SEE##"
     ]
   }
 }

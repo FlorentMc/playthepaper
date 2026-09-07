@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Gave food to"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Visit for a while"
+          "clue": "Say grace"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Colour of snow"
+          "clue": "Not tight"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Golf target"
+          "clue": "Otherwise"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Wise bird"
+          "clue": "Receive"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Motionless"
+          "clue": "Icy coating"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Loathe"
+          "clue": "Comfort"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Needle's hole"
+          "clue": "Change the colour of fabric"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Display"
+          "clue": "Long rod"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Table support"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SHE",
-      "#STAY",
-      "WHITE",
-      "HOLE#",
-      "OWL##"
+      "##FED",
+      "#PRAY",
+      "LOOSE",
+      "ELSE#",
+      "GET##"
     ]
   }
 }

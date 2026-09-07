@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Put to work"
+          "clue": "Number of wheels on a bike"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Oak or elm"
+          "clue": "Garden storage hut"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Tag"
+          "clue": "Fencing weapon"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Written test"
+          "clue": "Make less painful"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Metal in a can"
+          "clue": "Gorilla or chimp"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Not rural"
+          "clue": "Plural of that"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Give the impression"
+          "clue": "Past of are"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Slippery swimmer"
+          "clue": "Strange"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cab"
+          "clue": "Exchange"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Allow"
+          "clue": "Ocean"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##USE",
-      "#TREE",
-      "LABEL",
-      "EXAM#",
-      "TIN##"
+      "##TWO",
+      "#SHED",
+      "SWORD",
+      "EASE#",
+      "APE##"
     ]
   }
 }

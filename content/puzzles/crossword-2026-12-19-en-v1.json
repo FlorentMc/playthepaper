@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Some, no matter which"
+          "clue": "Pull sharply"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Used up"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Very large"
+          "clue": "Demand as a right"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Parent's sister"
+          "clue": "Reddish coating on old iron"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pod's content"
+          "clue": "Still"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Concert venue"
+          "clue": "Raise a glass to"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Orderly"
+          "clue": "Measurement standard"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Still"
+          "clue": "Jeweller's stone"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Accurate"
+          "clue": "Paste"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Opening or space"
+          "clue": "Shed tears"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ANY",
-      "#TREE",
-      "GREAT",
-      "AUNT#",
-      "PEA##"
+      "##TUG",
+      "#GONE",
+      "CLAIM",
+      "RUST#",
+      "YET##"
     ]
   }
 }

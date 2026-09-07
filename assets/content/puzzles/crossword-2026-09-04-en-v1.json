@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ time now"
+          "clue": "Have a go"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Set loose"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Push down"
+          "clue": "Huge person of fairy tales"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Uncle's wife"
+          "clue": "Measurement standard"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Hot drink with a bag"
+          "clue": "Adult males"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Sports stadium"
+          "clue": "Railway transport"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Bird's home"
+          "clue": "Tenant's payment"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Still"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not false"
+          "clue": "Parking ticket penalty"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Butter portion"
+          "clue": "Tooth's surrounding tissue"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ANY",
-      "#TREE",
-      "PRESS",
-      "AUNT#",
-      "TEA##"
+      "##TRY",
+      "#FREE",
+      "GIANT",
+      "UNIT#",
+      "MEN##"
     ]
   }
 }

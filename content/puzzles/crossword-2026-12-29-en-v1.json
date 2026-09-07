@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "That girl"
+          "clue": "Light touch"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Manner"
+          "clue": "Unreturnable tennis serve"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Out of the way"
+          "clue": "Compose a letter"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Jogged"
+          "clue": "What we breathe"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Hen's product"
+          "clue": "Undercover agent"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Playground seat on chains"
+          "clue": "Milk products"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Owned"
+          "clue": "Behave"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Honey maker"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Exist, in the present tense"
+          "clue": "Past of is"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Hang loosely"
+          "clue": "Torn place in fabric"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SHE",
-      "##WAY",
-      "ASIDE",
-      "RAN##",
-      "EGG##"
+      "##DAB",
+      "##ACE",
+      "WRITE",
+      "AIR##",
+      "SPY##"
     ]
   }
 }

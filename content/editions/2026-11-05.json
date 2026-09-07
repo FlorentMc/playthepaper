@@ -10,37 +10,47 @@
     "sudoku-2026-11-05-en-hard-v1",
     "letters-2026-11-05-en-v1",
     "crossword-2026-11-05-en-v1",
-    "correct-2026-11-05-en-v1",
-    "number-2026-11-05-en-v1",
-    "where-2026-11-05-en-v1"
+    "quiz-2026-11-05-en-v1"
   ],
   "stories": [
     {
-      "id": "culture-1-correct",
-      "game": "correct",
+      "id": "culture-1-monalisa",
       "headline": "A small panel that has hung in the Louvre since 1797",
-      "summary": "Leonardo da Vinci painted the Mona Lisa in oil on a white poplar panel, beginning around 1503. It measures only 77 by 53 centimetres. King Francis I of France acquired it after Leonardo's death in 1519, and it has normally been on display at the Louvre since 1797.",
+      "summary": "Leonardo da Vinci painted the Mona Lisa in oil on a white poplar panel, probably between 1503 and 1506, though he may have kept working on it as late as 1517. King Francis I of France acquired it after Leonardo's death in 1519, and it has normally been on display at the Louvre in Paris since 1797.",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
       "publishedAt": "evergreen"
     },
     {
-      "id": "culture-1-number",
-      "game": "number",
+      "id": "culture-1-piano",
       "headline": "Eighty-eight keys, and the man who built the first of them",
-      "summary": "Modern pianos have a row of 88 black and white keys: 52 white and 36 black. The invention of the instrument is credited to Bartolomeo Cristofori of Padua, and a Medici inventory shows that a piano existed by 1700.",
+      "summary": "Most modern pianos have 52 white keys and 36 black keys, a total of 88. The invention of the instrument is credited to Bartolomeo Cristofori of Padua, keeper of the instruments for Ferdinando de' Medici, and an inventory made by the Medici family shows that a piano existed by 1700.",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Piano",
       "publishedAt": "evergreen"
     },
     {
-      "id": "culture-1-where",
-      "game": "where",
+      "id": "culture-1-tajmahal",
       "headline": "A mausoleum in white marble on the bank of the Yamuna",
-      "summary": "The Taj Mahal was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his wife Mumtaz Mahal, and the mausoleum was completed in 1648. It stands on the right bank of the Yamuna in Agra, about 230 km south-east of Delhi, beneath a marble dome 23 metres high.",
+      "summary": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his late wife, Mumtaz Mahal. The mausoleum was completed in 1648, and its most striking feature is the 23-metre-high marble dome above the tomb.",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
       "publishedAt": "evergreen"
     }
-  ]
+  ],
+  "seeds": {
+    "culture-1-monalisa": [
+      "quiz:1",
+      "quiz:2",
+      "letters"
+    ],
+    "culture-1-piano": [
+      "quiz:3",
+      "quiz:4"
+    ],
+    "culture-1-tajmahal": [
+      "quiz:5",
+      "word"
+    ]
+  }
 }

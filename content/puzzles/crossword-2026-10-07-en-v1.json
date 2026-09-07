@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Gave food to"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Garden earth"
+          "clue": "Serving platter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Market stall"
+          "clue": "Came into being"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Comfort"
+          "clue": "Reddish coating on old iron"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Painting or sculpture"
+          "clue": "Past of meet"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Browned bread"
+          "clue": "Icy coating"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Grape drink"
+          "clue": "Where the sun rises"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Not new"
+          "clue": "Hair colouring"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Famous performer"
+          "clue": "Accurate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Sleeve filler"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#SOIL",
-      "STAND",
-      "EASE#",
-      "ART##"
+      "##FED",
+      "#TRAY",
+      "AROSE",
+      "RUST#",
+      "MET##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rear end of a plane"
+          "clue": "Bring hands together"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "One of three equal parts"
+          "clue": "Freewheel downhill"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Make less painful"
+          "clue": "Measurement standard"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Insect that lives in a colony"
+          "clue": "Ink holder"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Middle of the body"
+          "clue": "Flat land"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Employ"
+          "clue": "Where the sun rises"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Not new"
+          "clue": "Fitting or suitable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Comparison word"
+          "clue": "Ice cream holder"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "Measuring ___"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#TAIL",
-      "THIRD",
-      "EASE#",
-      "ANT##"
+      "##PEA",
+      "#CLAP",
+      "COAST",
+      "UNIT#",
+      "PEN##"
     ]
   }
 }

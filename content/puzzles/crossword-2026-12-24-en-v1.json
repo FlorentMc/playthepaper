@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Switched ___"
+          "clue": "Barking pet"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Battle between nations"
+          "clue": "Flat fish with a whip tail"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Smallest coin"
+          "clue": "Wake-up clock feature"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "___ you ready?"
+          "clue": "Edge of a wheel"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Road surface material"
+          "clue": "Hot drink with a bag"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Proprietor"
+          "clue": "Theatre genre"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Devoted supporter"
+          "clue": "Rowboat propeller"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Cook in hot oil"
+          "clue": "Workout place"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Butter portion"
+          "clue": "Painting or sculpture"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Period of history"
+          "clue": "Untruth"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##OFF",
-      "##WAR",
-      "PENNY",
-      "ARE##",
-      "TAR##"
+      "##DOG",
+      "##RAY",
+      "ALARM",
+      "RIM##",
+      "TEA##"
     ]
   }
 }

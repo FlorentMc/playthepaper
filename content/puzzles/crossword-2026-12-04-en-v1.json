@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "Large drinking vessel"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "___ time is it?"
+          "clue": "Shade of colour"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Plural of this"
+          "clue": "Sweet produce of a tree"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Existed, in the past"
+          "clue": "Parent's sister"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Goal's back"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Not here"
+          "clue": "Mountain"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Comfort"
+          "clue": "Single item"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Had dinner"
+          "clue": "Obtain"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Question about timing"
+          "clue": "Accurate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Devoted supporter"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TEA",
-      "#WHAT",
-      "THESE",
-      "WERE#",
-      "ONE##"
+      "##MUG",
+      "#TONE",
+      "FRUIT",
+      "AUNT#",
+      "NET##"
     ]
   }
 }

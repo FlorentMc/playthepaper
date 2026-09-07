@@ -140,8 +140,8 @@ void main() {
       ));
       await pump(tester);
       expect(find.text('Headline b'), findsOneWidget);
-      expect(find.text('Question 1 🟩'), findsOneWidget);
-      expect(find.text('Question 2 🟥'), findsOneWidget);
+      expect(find.text('Question 1 ✓'), findsOneWidget);
+      expect(find.text('Question 2 ✗'), findsOneWidget);
       expect(find.text('Daily Word · Solved in 3/6'), findsOneWidget);
       expect(find.text('Mini Crossword 5 Across'), findsOneWidget);
       expect(find.text('Share the edition'), findsOneWidget);

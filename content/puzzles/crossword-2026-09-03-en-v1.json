@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
+      "#....",
       ".....",
-      ".....",
-      ".....",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Soaked"
+          "clue": "That girl"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
-          "length": 5,
-          "clue": "Fearless"
+          "col": 1,
+          "length": 4,
+          "clue": "Sculptor's earth"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Enthusiastic"
+          "clue": "Colour of snow"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Animal skin"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 5,
-          "clue": "Violent weather"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Decade's count"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Horse-drawn vehicle"
+          "clue": "Glide"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "At any time"
+          "clue": "Loathe"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
-          "length": 4,
-          "clue": "Word with a special meaning"
+          "length": 3,
+          "clue": "Needle's hole"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Better than all others"
+          "clue": "Part of the face below the mouth"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Speed"
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "___ is it?"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WET",
-      "BRAVE",
-      "EAGER",
-      "STORM",
-      "TEN##"
+      "##SHE",
+      "#CLAY",
+      "WHITE",
+      "HIDE#",
+      "ONE##"
     ]
   }
 }

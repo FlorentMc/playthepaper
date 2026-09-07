@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Whale group"
+          "clue": "Jeweller's stone"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Numerous"
+          "clue": "Stubborn animal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Gravy or ketchup"
+          "clue": "Browned bread"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Past of wear"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Beer's cousin"
+          "clue": "Strange"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Hesitate"
+          "clue": "Protect"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Formerly"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Past of meet"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shopping centre"
+          "clue": "Frame of mind"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Pair"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##POD",
-      "#MANY",
-      "SAUCE",
-      "ELSE#",
-      "ALE##"
+      "##GEM",
+      "#MULE",
+      "TOAST",
+      "WORE#",
+      "ODD##"
     ]
   }
 }

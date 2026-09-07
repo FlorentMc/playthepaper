@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Get bigger"
+          "clue": "Applaud"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Shut"
+          "clue": "Browned bread"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Uncle's wife"
+          "clue": "Red or white drink"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Plead"
+          "clue": "Single"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Incorrect"
+          "clue": "Aircraft"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Party giver"
+          "clue": "Comfort"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Fitting or suitable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Paste"
+          "clue": "Metal money"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Hail one in the street"
+          "clue": "Number of wheels on a bike"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#GROW",
-      "CLOSE",
-      "AUNT#",
-      "BEG##"
+      "##PEA",
+      "#CLAP",
+      "TOAST",
+      "WINE#",
+      "ONE##"
     ]
   }
 }

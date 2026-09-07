@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Weep"
+          "clue": "Silky trap"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Small skin spot"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "What cows graze on"
+          "clue": "Comparative of bad"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Uncle's wife"
+          "clue": "Golf target"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Notice with the eyes"
+          "clue": "Strange"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Lifting machine"
+          "clue": "Everyone and everything"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Remainder"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Buzzing pollinator"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not false"
+          "clue": "Frame of mind"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Oxygen or helium"
+          "clue": "Which person"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CRY",
-      "#TREE",
-      "GRASS",
-      "AUNT#",
-      "SEE##"
+      "##WEB",
+      "#MOLE",
+      "WORSE",
+      "HOLE#",
+      "ODD##"
     ]
   }
 }

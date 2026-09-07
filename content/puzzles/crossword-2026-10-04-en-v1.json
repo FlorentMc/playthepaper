@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Age or epoch"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Part of the face below the mouth"
+          "clue": "Journey"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Playground chute"
+          "clue": "Circle or square"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Loathe"
+          "clue": "Comfort"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Had dinner"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Colour of milk"
+          "clue": "Delete"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Conceal"
+          "clue": "Ready to eat"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Mimic"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sculptor's earth"
+          "clue": "___ is the question"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Ocean"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#CHIN",
-      "SLIDE",
-      "HATE#",
-      "EYE##"
+      "##ERA",
+      "#TRIP",
+      "SHAPE",
+      "EASE#",
+      "ATE##"
     ]
   }
 }

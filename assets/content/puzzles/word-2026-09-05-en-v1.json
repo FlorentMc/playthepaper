@@ -8,10 +8,14 @@
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
     "length": 6,
-    "firstLetter": "B",
-    "maxGuesses": 6
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about the thing this paper is named after."
   },
   "reveal": {
-    "answer": "BULLET"
-  }
+    "answer": "PENCIL",
+    "storyId": "everyday-1-pencil",
+    "excerpt": "Other types of pencil cores, such as those of charcoal, are mainly used for drawing and sketching."
+  },
+  "storyId": "everyday-1-pencil"
 }

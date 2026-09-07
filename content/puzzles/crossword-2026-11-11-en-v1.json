@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Taxi"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Lose, as leaves"
+          "clue": "Accurate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Leading"
+          "clue": "Facing side"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Loud bellow"
+          "clue": "Remainder"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Past of meet"
+          "clue": "Word of agreement"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Grain for bread"
+          "clue": "Angry"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Use your ears"
+          "clue": "Parent's sister"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Not even"
+          "clue": "Wager"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "It has laces or a buckle"
+          "clue": "Trunk and branches"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Sleeve filler"
+          "clue": "Sizzle in a pan"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#SHED",
-      "AHEAD",
-      "ROAR#",
-      "MET##"
+      "##CAB",
+      "#TRUE",
+      "FRONT",
+      "REST#",
+      "YES##"
     ]
   }
 }

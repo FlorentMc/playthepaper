@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Bashful"
+          "clue": "Whale group"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Footwear"
+          "col": 2,
+          "length": 3,
+          "clue": "Flat fish with a whip tail"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Kick off"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Make money"
+          "clue": "Similar"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Male sheep"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Vessel in the flood story"
+          "clue": "Seeing organ"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Fish with a fin above the water"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Car honker"
+          "length": 3,
+          "clue": "Acorn tree"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Still"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Famous performer"
+          "clue": "Hair colouring"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Exist, in the present tense"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Put down"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##SHY",
-      "#SHOE",
-      "START",
-      "EARN#",
-      "ARK##"
+      "##POD",
+      "##RAY",
+      "ALIKE",
+      "RAM##",
+      "EYE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

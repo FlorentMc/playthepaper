@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "In the past"
+          "clue": "Shed tears"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cat's sharp nail"
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Flat land"
+          "clue": "Raise a glass to"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Deserve"
+          "clue": "Rent"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Workout place"
+          "clue": "Tall shade tree"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Warning bell"
+          "clue": "Attractiveness"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Increase"
+          "clue": "Got up"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Possess"
+          "clue": "Up to now"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sculptor's earth"
+          "clue": "Ground for planting"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Tent fastener"
+          "clue": "Definite article"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##AGO",
-      "#CLAW",
-      "PLAIN",
-      "EARN#",
-      "GYM##"
+      "##CRY",
+      "#SHOE",
+      "TOAST",
+      "HIRE#",
+      "ELM##"
     ]
   }
 }

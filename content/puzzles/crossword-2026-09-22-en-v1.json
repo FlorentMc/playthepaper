@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Charge for a service"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Banner on a pole"
+          "clue": "Neat"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "From end to end of"
+          "clue": "Not small"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "No longer here"
+          "clue": "Or ___"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Obtain"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "By oneself"
+          "clue": "Before all others"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Narrow road"
+          "clue": "Border"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Omelette ingredient"
+          "clue": "Seeing organ"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Stream steadily"
+          "clue": "Fable"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Table support"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ALE",
-      "#FLAG",
-      "ALONG",
-      "GONE#",
-      "OWE##"
+      "##FEE",
+      "#TIDY",
+      "LARGE",
+      "ELSE#",
+      "GET##"
     ]
   }
 }

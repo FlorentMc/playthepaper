@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Sizzle in a pan"
+          "clue": "Beer's cousin"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Oak or elm"
+          "clue": "Banner on a pole"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Say numbers in order"
+          "clue": "Come ___"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Used up"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Wager"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Sweet produce of a tree"
+          "clue": "Without company"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Tenant's payment"
+          "clue": "Narrow road"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Still"
+          "clue": "Hen's product"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shade of colour"
+          "clue": "Stream steadily"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Baby fox"
+          "clue": "Long ___"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##FRY",
-      "#TREE",
-      "COUNT",
-      "UNIT#",
-      "BET##"
+      "##ALE",
+      "#FLAG",
+      "ALONG",
+      "GONE#",
+      "OWE##"
     ]
   }
 }

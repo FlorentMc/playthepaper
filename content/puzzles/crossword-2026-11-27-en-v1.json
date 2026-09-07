@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Hang loosely"
+          "clue": "Number of wheels on a bike"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Neckwear for a suit"
+          "col": 1,
+          "length": 4,
+          "clue": "Wide smile"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Thunder and lightning event"
+          "clue": "Rub out"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Travel on horseback"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Charged particle"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sock's end"
+          "clue": "Mimic"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Peach's pit"
+          "clue": "Swap"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Fresh ___"
+          "length": 4,
+          "clue": "Sage"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Precious stone"
+          "clue": "Single"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Firm hold"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Take a seat"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "As well"
+          "clue": "Period of history"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SAG",
-      "##TIE",
-      "STORM",
-      "ION##",
-      "TOE##"
+      "##TWO",
+      "#GRIN",
+      "ERASE",
+      "RIDE#",
+      "APE##"
     ]
   }
 }

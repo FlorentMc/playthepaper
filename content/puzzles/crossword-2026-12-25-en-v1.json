@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Past of do"
+          "clue": "Request"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Some, no matter which"
+          "clue": "Apple dessert with a crust"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Similar"
+          "clue": "Transport by hand"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Polite address for a man"
+          "clue": "Long ___"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Piano part"
+          "clue": "Ink holder"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Farm building for milking"
+          "clue": "Kitchen cover-up"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Printer cartridge contents"
+          "clue": "Polite address for a man"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Piano part"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pose a question"
+          "clue": "Baseball hat"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Untruth"
+          "clue": "Years lived"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##DID",
-      "##ANY",
-      "ALIKE",
-      "SIR##",
-      "KEY##"
+      "##ASK",
+      "##PIE",
+      "CARRY",
+      "AGO##",
+      "PEN##"
     ]
   }
 }

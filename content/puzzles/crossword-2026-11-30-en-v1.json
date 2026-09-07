@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "Which person"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Friendly talk"
+          "clue": "Display"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Got up"
+          "clue": "Motionless"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Musical tone"
+          "clue": "Strong dislike"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Seeing organ"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Camera's picture"
+          "clue": "Colour of milk"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Make less painful"
+          "clue": "Golf target"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Wise bird"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Black bird with a caw"
+          "clue": "Remain"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Insect that lives in a colony"
+          "clue": "That girl"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##PEA",
-      "#CHAT",
-      "AROSE",
-      "NOTE#",
-      "TWO##"
+      "##WHO",
+      "#SHOW",
+      "STILL",
+      "HATE#",
+      "EYE##"
     ]
   }
 }

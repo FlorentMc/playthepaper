@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Cry loudly"
+          "clue": "Ocean"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Draw, in a match"
+          "clue": "Grain in muesli"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Responsibility for a mistake"
+          "clue": "Way from A to B"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "First ___ kit"
+          "clue": "Belonging to oneself"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Attempt"
+          "clue": "Marry"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Room for reading"
+          "clue": "Noise"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Slippery liquid"
+          "clue": "Consume food"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Stake money on a horse"
+          "clue": "Finished a meal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Butter is mostly this"
+          "clue": "Line of seats"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "What we breathe"
+          "clue": "Be in debt"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SOB",
-      "##TIE",
-      "FAULT",
-      "AID##",
-      "TRY##"
+      "##SEA",
+      "##OAT",
+      "ROUTE",
+      "OWN##",
+      "WED##"
     ]
   }
 }

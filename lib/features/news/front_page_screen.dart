@@ -248,9 +248,9 @@ class _SeedChip extends StatelessWidget {
       if (result != null && detail != null) {
         final n = int.tryParse(detail);
         final strip = result.shareLines.isEmpty ? '' : result.shareLines.first;
-        if (n != null && n >= 1 && n <= strip.runes.length) {
-          final mark = String.fromCharCode(strip.runes.elementAt(n - 1));
-          label = 'Question $detail $mark';
+        final marks = strip.runes.where((r) => r != 0x2B50).toList();
+        if (n != null && n >= 1 && n <= marks.length) {
+          label = 'Question $detail ${marks[n - 1] == 0x1F7E9 ? '✓' : '✗'}';
         }
       }
     } else {

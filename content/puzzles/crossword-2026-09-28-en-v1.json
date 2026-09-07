@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Not on"
+          "clue": "Sleeve filler"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 4,
-          "clue": "Jumper material"
+          "clue": "Sonnet composer"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Of the neighbourhood"
+          "clue": "The present day"
         },
         {
           "number": 8,
           "row": 3,
           "col": 1,
           "length": 4,
-          "clue": "Adjust an instrument"
+          "clue": "Opposite of female"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Group of matching items"
+          "clue": "Permit"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Wise bird"
+          "clue": "Fitting or suitable"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 4,
-          "clue": "Twelve inches"
+          "clue": "Kitchen or bedroom"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Centre of attention"
+          "clue": "Award worn on a ribbon"
         },
         {
           "number": 5,
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "Narrow road"
+          "clue": "Story"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Permit"
+          "clue": "Still"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "OFF##",
-      "WOOL#",
-      "LOCAL",
-      "#TUNE",
-      "##SET"
+      "ARM##",
+      "POET#",
+      "TODAY",
+      "#MALE",
+      "##LET"
     ]
   }
 }

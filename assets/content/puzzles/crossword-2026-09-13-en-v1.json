@@ -22,7 +22,7 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Pea's home"
+          "clue": "Negative word"
         },
         {
           "number": 4,
@@ -36,21 +36,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Not ripe"
+          "clue": "Honesty"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "___ you ready?"
+          "clue": "Look at"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Floor covering at a door"
+          "clue": "Road surface material"
         }
       ],
       "down": [
@@ -59,7 +59,7 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Tent fastener"
+          "clue": "Goal's back"
         },
         {
           "number": 2,
@@ -73,32 +73,32 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Sleep story"
+          "clue": "Have faith in"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Afternoon cuppa"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Fishing mesh"
+          "clue": "Belonging to that woman"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "POD##",
+      "NOT##",
       "EAR##",
-      "GREEN",
-      "##ARE",
-      "##MAT"
+      "TRUTH",
+      "##SEE",
+      "##TAR"
     ]
   }
 }

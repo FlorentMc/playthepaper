@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Gasping cry"
+          "clue": "Keyboard key"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Hearing organ"
+          "clue": "Every one of them"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Put pen to paper"
+          "clue": "Oyster's gem"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Zero, in a football score"
+          "clue": "Owed"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Jeweller's stone"
+          "clue": "Hen's product"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Stitch"
+          "clue": "Light knock"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Rowing blade"
+          "clue": "Pub pint"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Carry along"
+          "clue": "Knife's cutting edge"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Draw, in a match"
+          "clue": "Carpet piece"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Tall shade tree"
+          "clue": "Limb with a knee"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "SOB##",
-      "EAR##",
-      "WRITE",
-      "##NIL",
-      "##GEM"
+      "TAB##",
+      "ALL##",
+      "PEARL",
+      "##DUE",
+      "##EGG"
     ]
   }
 }

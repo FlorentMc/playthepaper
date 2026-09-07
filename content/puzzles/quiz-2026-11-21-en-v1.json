@@ -1,0 +1,96 @@
+{
+  "id": "quiz-2026-11-21-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-11-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "prompt": "What is the black core of an ordinary pencil made of?",
+        "options": [
+          "Graphite",
+          "Lead",
+          "Charcoal",
+          "Coal"
+        ],
+        "storyId": "everyday-1-pencil"
+      },
+      {
+        "prompt": "In which year did Hymen Lipman patent the pencil with an eraser on the end?",
+        "options": [
+          "1758",
+          "1808",
+          "1858",
+          "1908"
+        ],
+        "storyId": "everyday-1-pencil"
+      },
+      {
+        "prompt": "How many tiles are in a traditional double-six domino set?",
+        "options": [
+          "21",
+          "28",
+          "36",
+          "45"
+        ],
+        "storyId": "everyday-1-dominoes"
+      },
+      {
+        "prompt": "How many tiles does a double-nine domino set have?",
+        "options": [
+          "45",
+          "55",
+          "66",
+          "91"
+        ],
+        "storyId": "everyday-1-dominoes"
+      },
+      {
+        "prompt": "In which year did the International Meridian Conference adopt the Greenwich meridian as the world's Prime Meridian?",
+        "options": [
+          "1854",
+          "1884",
+          "1914",
+          "1934"
+        ],
+        "storyId": "everyday-1-greenwich"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      2,
+      1,
+      1,
+      1
+    ],
+    "explanations": [
+      "The core of a pencil is graphite, and it has never contained the element lead. Before graphite was discovered at Borrowdale in 1565, the closest predecessor to the pencil was silverpoint or leadpoint.",
+      "Hymen Lipman received the first patent for attaching an eraser to the end of a pencil on 30 March 1858. Sixty-three years earlier, in 1795, Nicolas-Jacques Conté had found the way to mix graphite with clay and fire it in a kiln.",
+      "A traditional double-six set has 28 tiles, covering every combination of spot counts from zero to six. The tiles are also known as bones, stones, rocks or simply dominoes.",
+      "A double-nine set has 55 tiles. Each larger set adds three to the maximum number of pips on an end, giving 91 tiles for double-twelve and 190 for double-eighteen, the largest in practice.",
+      "The International Meridian Conference in Washington adopted the Greenwich meridian as the world's Prime Meridian on 22 October 1884. The observatory itself had been commissioned by King Charles II back in 1675."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pencil",
+      "excerpt": "Because the pencil core is still referred to as \"lead\", or \"a lead\", many people have the misconception that the graphite in the pencil is lead, and the black core of pencils is still referred to as lead, even though it never contained the element lead. As a technique for drawing, the closest predecessor to the pencil was silverpoint or leadpoint until, in 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England. In 1795, Nicolas-Jacques Conté discovered a method of mixing powdered graphite with clay and forming the mixture into rods that were then fired in a kiln. On 30 March 1858, Hymen Lipman received the first patent for attaching an eraser to the end of a pencil."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dominoes",
+      "excerpt": "The traditional European domino set consists of 28 tiles, also known as pieces, bones, rocks, stones, men, cards or just dominoes, featuring all combinations of spot counts between zero and six. Each progressively larger set increases the maximum number of pips on an end by three; so the common extended sets are double-nine (55 tiles), double-12 (91 tiles), double-15 (136 tiles), and double-18 (190 tiles), which is the maximum in practice."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+      "excerpt": "The Royal Observatory, Greenwich (ROG; known as the Old Royal Observatory from 1957 to 1998, when the working Royal Greenwich Observatory, RGO, temporarily moved south from Greenwich to Herstmonceux) is an observatory situated on a hill in Greenwich Park in south east London, overlooking the River Thames to the north. It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC). The observatory was commissioned in 1675 by King Charles II, with the foundation stone being laid on 10 August. The basis of longitude, the meridian that passes through the Airy transit circle, first used in 1851, was adopted as the world's Prime Meridian at the International Meridian Conference at Washington, DC, on 22 October 1884 (voting took place on 13 October)."
+    }
+  ]
+}

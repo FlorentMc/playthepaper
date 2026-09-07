@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Ocean"
+          "clue": "Most common English word"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "The one over there"
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Delete"
+          "clue": "Expertise"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Differ"
+          "clue": "Rent"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Finish"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Your part of the whole"
+          "clue": "One of three equal parts"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Simple"
+          "clue": "Golf target"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Slippery swimmer"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Flat carrier for dishes"
+          "clue": "Peel of a fruit"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "New Year's ___"
+          "clue": "That girl"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SEA",
-      "#THAT",
-      "ERASE",
-      "VARY#",
-      "EYE##"
+      "##THE",
+      "#SHOE",
+      "SKILL",
+      "HIRE#",
+      "END##"
     ]
   }
 }

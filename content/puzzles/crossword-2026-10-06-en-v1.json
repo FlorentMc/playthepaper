@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Bottle top"
+          "clue": "Silky trap"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sticky adhesive"
+          "clue": "Deep affection"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Sports stadium"
+          "clue": "Boundary"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Animal that climbs cliffs"
+          "clue": "Stretched circle"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Possess"
+          "clue": "Number of fingers"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Spotless"
+          "clue": "Adult female"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Parent's sister"
+          "clue": "Wicked"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "Wager"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cultivate"
+          "clue": "Reside"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Plenty"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CAP",
-      "#GLUE",
-      "ARENA",
-      "GOAT#",
-      "OWN##"
+      "##WEB",
+      "#LOVE",
+      "LIMIT",
+      "OVAL#",
+      "TEN##"
     ]
   }
 }

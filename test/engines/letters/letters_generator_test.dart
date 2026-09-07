@@ -78,7 +78,7 @@ void main() {
     test('matches the published file when built from the shipped word lists', () {
       final g = _shippedGenerator();
       final text = '${const JsonEncoder.withIndent('  ').convert(g.generate(date)!.toJson())}\n';
-      expect(text, File('content/puzzles/letters-2026-09-08-en-v1.json').readAsStringSync());
+      expect(text, File('test/fixtures/unseeded/letters-2026-09-08-en-v1.json').readAsStringSync());
     });
   });
 
@@ -128,7 +128,7 @@ void main() {
       expect(puzzle.center, 'B');
       expect(puzzle.outer, 'AEGINR');
       expect(puzzle.pangrams, contains('BEARING'));
-      final shipped = jsonDecode(File('content/puzzles/letters-2026-09-08-en-v1.json').readAsStringSync());
+      final shipped = jsonDecode(File('test/fixtures/unseeded/letters-2026-09-08-en-v1.json').readAsStringSync());
       expect(record.reveal['answers'], shipped['reveal']['answers']);
       expect(record.reveal['maxScore'], shipped['reveal']['maxScore']);
     });

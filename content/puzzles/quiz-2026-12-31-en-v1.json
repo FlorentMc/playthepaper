@@ -1,0 +1,96 @@
+{
+  "id": "quiz-2026-12-31-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-12-31",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "prompt": "Since which year has the Mona Lisa normally been on display at the Louvre?",
+        "options": [
+          "1697",
+          "1797",
+          "1897",
+          "1997"
+        ],
+        "storyId": "culture-1-monalisa"
+      },
+      {
+        "prompt": "Who acquired the Mona Lisa after Leonardo's death in 1519?",
+        "options": [
+          "King Francis I of France",
+          "King Henry VIII of England",
+          "Pope Leo X",
+          "Emperor Charles V"
+        ],
+        "storyId": "culture-1-monalisa"
+      },
+      {
+        "prompt": "How many black keys does a modern piano have?",
+        "options": [
+          "24",
+          "36",
+          "44",
+          "52"
+        ],
+        "storyId": "culture-1-piano"
+      },
+      {
+        "prompt": "Who is credited with inventing the piano?",
+        "options": [
+          "Bartolomeo Cristofori",
+          "Antonio Stradivari",
+          "Antonio Vivaldi",
+          "Domenico Scarlatti"
+        ],
+        "storyId": "culture-1-piano"
+      },
+      {
+        "prompt": "The Taj Mahal was commissioned in 1631. In which year was the mausoleum completed?",
+        "options": [
+          "1636",
+          "1648",
+          "1662",
+          "1681"
+        ],
+        "storyId": "culture-1-tajmahal"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "explanations": [
+      "The Mona Lisa has normally been on display at the Louvre in Paris since 1797. By then it had passed from the French kings into the property of the French Republic.",
+      "King Francis I of France acquired the Mona Lisa after Leonardo's death in 1519. Leonardo had been working on the portrait since around 1503 and may have continued until as late as 1517.",
+      "Most modern pianos have 36 black keys alongside 52 white ones, making 88 in all. Together they span seven octaves plus a minor third, from A0 to C8.",
+      "Bartolomeo Cristofori of Padua, keeper of the instruments for Ferdinando de' Medici, is credited with inventing the piano. An inventory made by the Medici family shows that a piano existed by 1700.",
+      "The mausoleum was completed in 1648, seventeen years after Shah Jahan commissioned it. Work on other parts of the complex went on for another five years."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "excerpt": "It is painted in oil on a white poplar panel. It was believed to have been painted between 1503 and 1506; however, Leonardo may have continued working on it as late as 1517. King Francis I of France acquired the Mona Lisa after Leonardo's death in 1519, and it became the property of the French Republic. It has normally been on display at the Louvre in Paris since 1797."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "Most modern pianos have 52 white keys and 36 black keys, for a total of 88 keys (seven octaves plus a minor third, from A0 to C8). The invention of the piano is credited to Bartolomeo Cristofori of Padua, Italy, who was employed by Ferdinando de' Medici, Grand Prince of Tuscany, as the Keeper of the Instruments. An inventory made by his employers, the Medici family, indicates the existence of a piano by 1700."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. Construction of the mausoleum was completed in 1648, although work on other parts of the complex continued for another five years. The predominant feature of the mausoleum is the 23-metre (75 ft) high marble dome that surmounts the tomb."
+    }
+  ]
+}

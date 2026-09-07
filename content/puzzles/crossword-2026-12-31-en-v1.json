@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,31 +22,31 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Thick mist"
+          "clue": "Pair"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Flat fish with a whip tail"
+          "col": 1,
+          "length": 4,
+          "clue": "Like a rake"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Wake-up clock feature"
+          "clue": "Came into being"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Short sprint"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Wall that holds back a river"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
@@ -59,45 +59,45 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Picture border"
+          "clue": "The ones over there"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Rowboat propeller"
+          "length": 4,
+          "clue": "Hope for"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Workout place"
+          "clue": "Single"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Serving platter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Total up"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Put down"
+          "clue": "Put together, as numbers"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##FOG",
-      "##RAY",
-      "ALARM",
-      "DAM##",
+      "##TWO",
+      "#THIN",
+      "AROSE",
+      "DASH#",
       "DYE##"
     ]
   }

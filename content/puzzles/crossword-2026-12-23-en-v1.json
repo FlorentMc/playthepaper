@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Deep vessel for boiling soup"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "___ is the question"
+          "col": 2,
+          "length": 3,
+          "clue": "Fresh ___"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Came into being"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Horse-drawn wagon"
+          "clue": "Response"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Exist, in the present tense"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Road surface material"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Land along the water's edge"
+          "clue": "Writing sheet"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Where the sun rises"
+          "length": 3,
+          "clue": "Olive ___"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Had dinner"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Flat carrier for dishes"
+          "clue": "Attempt"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Unreturnable tennis serve"
+          "clue": "Rodent with a long tail"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Age or epoch"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SEA",
-      "#THAT",
-      "AROSE",
-      "CART#",
-      "EYE##"
+      "##POT",
+      "##AIR",
+      "REPLY",
+      "ARE##",
+      "TAR##"
     ]
   }
 }

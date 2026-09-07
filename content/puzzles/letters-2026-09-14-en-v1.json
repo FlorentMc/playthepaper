@@ -7,42 +7,47 @@
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-en50k-2026-09",
   "payload": {
-    "center": "U",
-    "outer": "ALNOPR",
-    "minLength": 4
+    "center": "W",
+    "outer": "AEFLRT",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a kilometre of falling water."
   },
   "reveal": {
     "answers": [
-      "ANNUAL",
-      "ANNUL",
-      "AURA",
-      "AURORA",
-      "LAURA",
-      "LOUP",
-      "LUAU",
-      "LULL",
-      "LULU",
-      "LUNA",
-      "LUNAR",
-      "NOUN",
-      "NULL",
-      "PARLOUR",
-      "PLURAL",
-      "POPULAR",
-      "POUR",
-      "PRONOUN",
-      "PULL",
-      "PULP",
-      "PURR",
-      "RURAL",
-      "ULNA",
-      "UNPOPULAR",
-      "UPON",
-      "UPROAR"
+      "AWARE",
+      "FAREWELL",
+      "FEWER",
+      "FLAW",
+      "FLEW",
+      "TRAWL",
+      "TRAWLER",
+      "TWEET",
+      "WAFER",
+      "WAFFLE",
+      "WALL",
+      "WALLA",
+      "WALLET",
+      "WARE",
+      "WARFARE",
+      "WART",
+      "WATER",
+      "WATERFALL",
+      "WATT",
+      "WEAR",
+      "WEARER",
+      "WEET",
+      "WELFARE",
+      "WELL",
+      "WELT",
+      "WERE",
+      "WETTER"
     ],
     "pangrams": [
-      "UNPOPULAR"
+      "WATERFALL"
     ],
-    "maxScore": 95
-  }
+    "maxScore": 115,
+    "storyId": "nature-1-falls",
+    "excerpt": "The waterfall drops over the edge of the Auyán-tepui mountain in the Canaima National Park (Spanish: Parque Nacional Canaima), a UNESCO World Heritage Site in the Gran Sabana region of Bolívar State."
+  },
+  "storyId": "nature-1-falls"
 }

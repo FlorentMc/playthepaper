@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Hail one in the street"
+          "clue": "___ is it?"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Fib"
+          "col": 1,
+          "length": 4,
+          "clue": "Travel by boat"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Knight's blade"
+          "clue": "After second"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Thorny flower"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Have a meal"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Fireplace residue"
+          "clue": "Up to now"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Fabric"
+          "clue": "Where a belt goes"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Fresh ___"
+          "length": 4,
+          "clue": "Rent"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Where you sleep"
+          "clue": "Not new"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Ocean"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Past of is"
+          "clue": "Have a go"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CAB",
-      "##LIE",
-      "SWORD",
-      "EAT##",
-      "ASH##"
+      "##WHO",
+      "#SAIL",
+      "THIRD",
+      "ROSE#",
+      "YET##"
     ]
   }
 }

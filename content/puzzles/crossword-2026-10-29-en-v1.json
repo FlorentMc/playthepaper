@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Silky trap"
+          "clue": "Finished a meal"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Deep affection"
+          "clue": "Socket filler"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Maximum allowed"
+          "clue": "Come ___"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Stretched circle"
+          "clue": "Swimming pool division"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Decade's count"
+          "clue": "Needle's hole"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Lady"
+          "clue": "Without company"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Wicked"
+          "clue": "Melody"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Wager"
+          "clue": "Omelette ingredient"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Reside"
+          "clue": "Have fun"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Parking area"
+          "clue": "Pub pint"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WEB",
-      "#LOVE",
-      "LIMIT",
-      "OVAL#",
-      "TEN##"
+      "##ATE",
+      "#PLUG",
+      "ALONG",
+      "LANE#",
+      "EYE##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "That girl"
+          "clue": "Salt water expanse"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Twirl"
+          "clue": "Big jump"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "One of three equal parts"
+          "clue": "Comparative of bad"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Gap in the ground"
+          "clue": "Own"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Slippery swimmer"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Knock over, as a drink"
+          "clue": "Bring food to the table"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Rent"
+          "clue": "Make less painful"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Conclusion"
+          "clue": "Mimic"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "It has laces or a buckle"
+          "clue": "Bank advance"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Which person"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SHE",
-      "#SPIN",
-      "THIRD",
-      "HOLE#",
-      "EEL##"
+      "##SEA",
+      "#LEAP",
+      "WORSE",
+      "HAVE#",
+      "ONE##"
     ]
   }
 }

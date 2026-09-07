@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Ask on your knees"
+          "clue": "Opponent"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Flag support"
+          "col": 2,
+          "length": 3,
+          "clue": "Produce an egg"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Browned bread"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Past of wear"
+          "clue": "Alert and conscious"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Beaver's construction"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Not new"
+          "clue": "Hair colouring"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Get on a plane"
+          "clue": "Tongue of fire"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Otherwise"
+          "length": 3,
+          "clue": "Wood for sturdy furniture"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Obtain"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Billiards' cousin"
+          "clue": "Seeing organ"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Put together, as numbers"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Route"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##BEG",
-      "#POLE",
-      "TOAST",
-      "WORE#",
-      "OLD##"
+      "##FOE",
+      "##LAY",
+      "AWAKE",
+      "DAM##",
+      "DYE##"
     ]
   }
 }

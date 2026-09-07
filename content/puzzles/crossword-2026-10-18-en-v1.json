@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "___ is it?"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Borrowed money"
+          "clue": "Garden storage hut"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Champion's status"
+          "clue": "Leading"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Egg shape"
+          "clue": "Street"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Slippery swimmer"
+          "clue": "Past of meet"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Add up to"
+          "clue": "Flour source"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Room divider"
+          "clue": "Top of the body"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Strange"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Be alive"
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Foot digit"
+          "clue": "Limb with an elbow"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#LOAN",
-      "TITLE",
-      "OVAL#",
-      "EEL##"
+      "##WHO",
+      "#SHED",
+      "AHEAD",
+      "ROAD#",
+      "MET##"
     ]
   }
 }

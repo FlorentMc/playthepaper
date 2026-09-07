@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Flying mammal"
+          "clue": "Belonging to that man"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Employ"
+          "clue": "Behave"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "The ones here"
+          "clue": "End of life"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "Payment to a lawyer"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Head topper"
+          "clue": "Devoted supporter"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "However"
+          "clue": "Owned"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Cigarette leftover"
+          "clue": "Cubes in a drink"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Molars and incisors"
+          "clue": "Walking stick"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Afternoon cuppa"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Have a meal"
+          "clue": "Female chicken"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "BAT##",
-      "USE##",
-      "THESE",
-      "##TEA",
-      "##HAT"
+      "HIS##",
+      "ACT##",
+      "DEATH",
+      "##FEE",
+      "##FAN"
     ]
   }
 }

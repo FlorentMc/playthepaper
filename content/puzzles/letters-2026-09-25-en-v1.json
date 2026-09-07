@@ -7,40 +7,52 @@
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-en50k-2026-09",
   "payload": {
-    "center": "N",
-    "outer": "DIMOPU",
-    "minLength": 4
+    "center": "D",
+    "outer": "AHILOY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about what a scientist found when he came back to work."
   },
   "reveal": {
     "answers": [
-      "DOMINION",
-      "DOMINO",
-      "IMPOUND",
-      "MIND",
-      "MINI",
-      "MINIMUM",
-      "MINION",
-      "MONDO",
-      "MONO",
-      "MOON",
-      "MOUND",
-      "NOON",
-      "NOUN",
-      "ONION",
-      "OPINION",
-      "PINUP",
-      "PIPPIN",
-      "POND",
-      "POON",
-      "POUND",
-      "UNDID",
-      "UNDO",
-      "UNION",
-      "UPON"
+      "AHOLD",
+      "DADA",
+      "DADDY",
+      "DADO",
+      "DAHL",
+      "DAHLIA",
+      "DAILY",
+      "DALLY",
+      "DIAL",
+      "DIDDLY",
+      "DIDO",
+      "DILDO",
+      "DILL",
+      "DILLY",
+      "DODO",
+      "DOILY",
+      "DOLL",
+      "DOLLY",
+      "DYAD",
+      "HOLD",
+      "HOLIDAY",
+      "HOOD",
+      "HOODOO",
+      "HYOID",
+      "IDLY",
+      "IDOL",
+      "ILIAD",
+      "LADY",
+      "LAID",
+      "LIDO",
+      "LOAD",
+      "ODDLY"
     ],
     "pangrams": [
-      "IMPOUND"
+      "HOLIDAY"
     ],
-    "maxScore": 99
-  }
+    "maxScore": 104,
+    "storyId": "discovery-1-penicillin",
+    "excerpt": "Before leaving for his holiday, he inoculated staphylococci on culture plates and left them on a bench in a corner of his laboratory."
+  },
+  "storyId": "discovery-1-penicillin"
 }

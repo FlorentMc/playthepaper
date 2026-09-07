@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Unruly crowd"
+          "clue": "Secret agent"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Ice cream holder"
+          "clue": "Burrowing animal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Liquid served with food"
+          "clue": "Cockpit worker"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Measurement standard"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Where you sleep"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Small rodent"
+          "clue": "Not liquid"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Formerly"
+          "clue": "Garden patch"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Buzzing pollinator"
+          "clue": "Still"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shout out"
+          "clue": "Coal pit"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Local watering hole"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##MOB",
-      "#CONE",
-      "SAUCE",
-      "ELSE#",
-      "ALE##"
+      "##SPY",
+      "#MOLE",
+      "PILOT",
+      "UNIT#",
+      "BED##"
     ]
   }
 }

@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,31 +22,31 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Total up"
+          "clue": "Pod's content"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Flat carrier for dishes"
+          "col": 2,
+          "length": 3,
+          "clue": "Cleaning cloth"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Plural of that"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Hope for"
+          "clue": "Compose a letter"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Sing with closed lips"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Got up"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Short sprint"
+          "length": 3,
+          "clue": "Have a meal"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hair colouring"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Like a rake"
+          "clue": "Years lived"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "___ is it?"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Sprint"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##ADD",
-      "#TRAY",
-      "THOSE",
-      "WISH#",
+      "##PEA",
+      "##RAG",
+      "WRITE",
+      "HUM##",
       "ONE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

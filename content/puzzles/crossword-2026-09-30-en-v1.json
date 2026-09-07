@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Taxi"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Wide smile"
+          "clue": "Sticky adhesive"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Meadow"
+          "clue": "Mistaken"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Egg shape"
+          "clue": "Party giver"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Receive"
+          "clue": "Need to pay back"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Deal with"
+          "clue": "Near"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Gentle slope"
+          "clue": "Uncle's wife"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Conclusion"
+          "clue": "Ask on your knees"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Donate"
+          "clue": "Cultivate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Thick mist"
+          "clue": "Which person"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##THE",
-      "#GRIN",
-      "FIELD",
-      "OVAL#",
-      "GET##"
+      "##CAB",
+      "#GLUE",
+      "WRONG",
+      "HOST#",
+      "OWE##"
     ]
   }
 }

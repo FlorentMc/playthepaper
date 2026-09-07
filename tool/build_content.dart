@@ -1,93 +1,201 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:daypencil/content/models.dart';
 import 'package:daypencil/core/game_kind.dart';
 import 'package:daypencil/core/puzzle_id.dart';
+import 'package:daypencil/engines/crossword/crossword_generator.dart';
+import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
+import 'package:daypencil/engines/letters/letters.dart';
+import 'package:daypencil/engines/quiz/quiz_engine.dart';
+import 'package:daypencil/engines/word/word_engine.dart';
 
 import '_common.dart';
 import '_share_pages.dart';
 
-/// Assembles the content tree from generated classics and evergreen templates.
+/// Assembles the content tree for a date range from edition templates.
 ///
-///   dart run tool/build_content.dart --from 2026-09-01 --to 2026-12-31 [--content content] [--src content_src] [--web web/index.html]
+///   dart run tool/build_content.dart --from 2026-09-01 --to 2026-12-31
+///   dart run tool/build_content.dart --date 2026-09-08 [--news]
 ///
-/// For every date in the range:
-///   * the four classic puzzle files must already exist (run the gen_* tools first);
-///   * if no edition manifest exists, or the existing one is evergreen, an
-///     evergreen template is stamped onto the date (round robin by day index),
-///     its three news puzzles are written with dated ids, and the manifest is
-///     written with kind "evergreen";
-///   * an existing "news" manifest is never touched.
-/// Finally index.json is rewritten from the manifests present.
+/// For every date: the template is `content_src/news/<date>.json` when it
+/// exists, otherwise an evergreen template chosen by rotation. The builder
+/// writes the quiz, generates the Daily Word, Letters and Mini Crossword
+/// with the template's seeds, requires the Sudoku files (run gen_sudoku
+/// first), writes the manifest with its `seeds` map, share pages and
+/// index.json. Puzzle files are immutable: when generated content differs
+/// from every existing version of that puzzle, a new version is written and
+/// the manifest points at it; identical content reuses the existing id.
 void main(List<String> args) {
-  final opts = parseArgs(args, defaults: {'content': 'content', 'src': 'content_src'});
-  final from = parseDate(opts['from'] ?? fail('--from required'));
-  final to = parseDate(opts['to'] ?? fail('--to required'));
+  final opts = parseArgs(args, defaults: {'content': 'content', 'src': 'content_src', 'web': 'web/index.html'});
+  final DateTime from;
+  final DateTime to;
+  if (opts.containsKey('date')) {
+    from = to = parseDate(opts['date']!);
+  } else {
+    from = parseDate(opts['from'] ?? fail('--from/--to or --date required'));
+    to = parseDate(opts['to'] ?? fail('--to required'));
+  }
   final content = opts['content']!;
   final src = opts['src']!;
+  final requireNews = opts.containsKey('news');
 
-  final templates = _loadTemplates('$src/evergreen');
-  if (templates.isEmpty) fail('no evergreen templates in $src/evergreen');
+  final evergreen = _loadTemplates('$src/evergreen');
+  if (evergreen.isEmpty) fail('no evergreen templates in $src/evergreen');
+  final generators = _Generators.load();
 
-  var stamped = 0, kept = 0;
+  // Letters never repeats a letter set and the crossword avoids recent
+  // answers: seed both memories with every puzzle already on disk.
+  for (final f in _puzzleFiles(content, GameKind.letters)) {
+    try {
+      final r = PuzzleRecord.fromJson(readJsonFile(f.path));
+      generators.letters.markUsed(LettersPuzzle.parse(r.payload, r.reveal).letters);
+    } on FormatException {
+      continue;
+    }
+  }
+  for (final f in _puzzleFiles(content, GameKind.crossword)) {
+    try {
+      final r = PuzzleRecord.fromJson(readJsonFile(f.path));
+      generators.crossword.remember(r.date, answersOf(CrosswordPuzzle.parse(r.payload, r.reveal)).toSet());
+    } on FormatException {
+      continue;
+    }
+  }
+
+  var built = 0;
+  var keptNews = 0;
   for (final date in dateRange(from, to)) {
     final ds = formatDate(date);
-    final classics = _classicIds(date);
-    for (final id in classics) {
-      if (!File('$content/puzzles/$id.json').existsSync()) {
-        fail('missing classic puzzle $content/puzzles/$id.json (run the gen_* tools first)');
+    final newsFile = File('$src/news/$ds.json');
+    if (requireNews && !newsFile.existsSync()) fail('--news given but $src/news/$ds.json does not exist');
+    final _Template template;
+    final EditionKind kind;
+    if (newsFile.existsSync()) {
+      template = _Template.fromJson(readJsonFile(newsFile.path), newsFile.path);
+      kind = EditionKind.news;
+    } else {
+      final manifestFile = File('$content/editions/$ds.json');
+      if (manifestFile.existsSync() && EditionManifest.fromJson(readJsonFile(manifestFile.path)).kind == EditionKind.news) {
+        keptNews++;
+        stdout.writeln('$ds  news edition kept (no template change possible without $src/news/$ds.json)');
+        continue;
       }
+      final dayIndex = date.difference(DateTime.utc(2026, 1, 1)).inDays;
+      template = evergreen[dayIndex % evergreen.length];
+      kind = EditionKind.evergreen;
     }
 
-    final manifestPath = '$content/editions/$ds.json';
-    if (File(manifestPath).existsSync()) {
-      final existing = EditionManifest.fromJson(readJsonFile(manifestPath));
-      if (existing.kind == EditionKind.news) {
-        kept++;
+    final classics = <PuzzleId>[];
+    final lines = <String>[];
+    for (final d in Difficulty.values) {
+      final id = PuzzleId(game: GameKind.sudoku, date: date, difficulty: d);
+      if (!File('$content/puzzles/$id.json').existsSync()) {
+        fail('missing $content/puzzles/$id.json (run gen_sudoku first)');
+      }
+      classics.add(id);
+    }
+
+    // Daily Word.
+    final wordSeed = template.wordSeed;
+    PuzzleRecord word;
+    try {
+      word = generators.word.generate(date, seed: wordSeed);
+      lines.add('word ${wordSeed == null ? 'unseeded' : 'seeded ${wordSeed.answer}'}');
+    } on FormatException catch (e) {
+      fail('$ds word seed rejected: ${e.message}');
+    }
+    final wordId = _writeVersioned(content, word);
+
+    // Letters, with fallback to an unseeded set when the pangram never fits.
+    var lettersSeed = template.lettersSeed;
+    PuzzleRecord? letters;
+    if (lettersSeed != null) {
+      try {
+        letters = generators.letters.generate(date, seed: lettersSeed);
+      } on FormatException catch (e) {
+        fail('$ds letters seed rejected: ${e.message}');
+      }
+      if (letters == null) {
+        lines.add('letters seed ${lettersSeed.pangram} yields no valid set; falling back to unseeded');
+        lettersSeed = null;
+      }
+    }
+    letters ??= generators.letters.generate(date) ?? fail('$ds letters: no letter set satisfied the constraints');
+    lines.add('letters ${lettersSeed == null ? 'unseeded' : 'seeded ${lettersSeed.pangram}'}');
+    final lettersId = _writeVersioned(content, letters);
+
+    // Mini Crossword. The teaser depends on how many seeds fit, so generate
+    // once to learn the count, then once more with the matching teaser.
+    var generation = generators.crossword.generate(date, seeds: template.crosswordSeeds) ??
+        fail('$ds crossword: no template could be filled');
+    if (generation.seedsPlaced > 0) {
+      generation = generators.crossword.generate(date, seeds: template.crosswordSeeds, teaser: _crosswordTeaser(generation.seedsPlaced))!;
+    }
+    final crossword = generation.record;
+    lines.add('crossword ${template.crosswordSeeds.isEmpty ? 'unseeded' : '${generation.seedsPlaced} of ${template.crosswordSeeds.length} seeds placed'}');
+    final crosswordId = _writeVersioned(content, crossword);
+
+    // The Quiz.
+    final quizId = PuzzleId(game: GameKind.quiz, date: date);
+    final quiz = PuzzleRecord(
+      id: quizId,
+      locale: 'en-GB',
+      contentVersion: 1,
+      scoringVersion: 1,
+      payload: template.quizPayload,
+      reveal: template.quizReveal,
+      sources: template.quizSources,
+    );
+    QuizPuzzle.parse(quiz.payload, quiz.reveal);
+    final quizWrittenId = _writeVersioned(content, quiz);
+
+    // Seeds map for the Front Page.
+    final seeds = <String, List<String>>{};
+    void feed(String storyId, String what) => seeds.putIfAbsent(storyId, () => []).add(what);
+    final questions = template.quizPayload['questions'] as List;
+    for (var i = 0; i < questions.length; i++) {
+      feed((questions[i] as Map)['storyId'] as String, 'quiz:${i + 1}');
+    }
+    if (word.storyId != null) feed(word.storyId!, 'word');
+    if (letters.storyId != null) feed(letters.storyId!, 'letters');
+    for (final s in CrosswordPuzzle.parse(crossword.payload, crossword.reveal).seeded) {
+      feed(s.storyId, 'crossword:${s.label}');
+    }
+    for (final storyId in seeds.keys) {
+      if (!template.stories.any((s) => s['id'] == storyId)) fail('$ds: seed references unknown story $storyId');
+    }
+
+    final manifestFile = File('$content/editions/$ds.json');
+    var version = 1;
+    if (manifestFile.existsSync()) {
+      final old = EditionManifest.fromJson(readJsonFile(manifestFile.path));
+      version = old.version;
+    }
+    final manifest = {
+      'date': ds,
+      'kind': kind.slug,
+      'label': template.label,
+      'version': version,
+      'puzzles': [wordId, ...classics, lettersId, crosswordId, quizWrittenId].map((i) => i.toString()).toList(),
+      'stories': template.stories,
+      'seeds': seeds,
+      if (kind == EditionKind.news) 'publishedAt': DateTime.now().toUtc().toIso8601String(),
+    };
+    if (manifestFile.existsSync()) {
+      final old = readJsonFile(manifestFile.path);
+      final same = _sameManifest(old, manifest);
+      if (!same) manifest['version'] = version + 1;
+      if (same) {
+        stdout.writeln('$ds  unchanged (${template.slug})');
         continue;
       }
     }
-
-    final dayIndex = date.difference(DateTime.utc(2026, 1, 1)).inDays;
-    final template = templates[dayIndex % templates.length];
-    final newsIds = <PuzzleId>[];
-    final stories = <Map<String, dynamic>>[];
-    for (final game in GameKind.newsOrder) {
-      final spec = template.puzzles[game.slug] ?? fail('${template.slug} lacks a ${game.slug} puzzle');
-      final id = PuzzleId(game: game, date: date);
-      final story = template.stories.firstWhere((s) => s['game'] == game.slug,
-          orElse: () => fail('${template.slug} lacks a ${game.slug} story'));
-      final storyId = '${template.slug}-${game.slug}';
-      final record = {
-        'id': id.toString(),
-        'game': game.slug,
-        'editionDate': ds,
-        'locale': 'en-GB',
-        'contentVersion': 1,
-        'scoringVersion': 1,
-        'payload': spec['payload'],
-        'reveal': spec['reveal'],
-        'storyId': storyId,
-        'sources': spec['sources'] ?? [],
-      };
-      PuzzleRecord.fromJson(record);
-      writeJsonFile('$content/puzzles/$id.json', record);
-      newsIds.add(id);
-      stories.add({...story, 'id': storyId});
-    }
-
-    final manifest = {
-      'date': ds,
-      'kind': 'evergreen',
-      'label': template.label,
-      'version': 1,
-      'puzzles': [...classics.map((i) => i.toString()), ...newsIds.map((i) => i.toString())],
-      'stories': stories,
-    };
     final parsed = EditionManifest.fromJson(manifest);
     if (!parsed.isComplete) fail('assembled edition $ds is incomplete');
-    writeJsonFile(manifestPath, manifest);
-    stamped++;
+    writeJsonFile(manifestFile.path, manifest);
+    built++;
+    stdout.writeln('$ds  ${kind.slug} ${template.slug}: ${lines.join('; ')}');
   }
 
   final dates = Directory('$content/editions')
@@ -99,24 +207,176 @@ void main(List<String> args) {
       .toList()
     ..sort();
   writeJsonFile('$content/index.json', {'dates': dates, 'latest': dates.last});
-  final sharePages = writeSharePages(content, opts['web'] ?? 'web/index.html');
-  stdout.writeln('share pages: $sharePages written');
-  stdout.writeln('editions: $stamped stamped evergreen, $kept news kept, ${dates.length} in index (${dates.first} → ${dates.last})');
+  final sharePages = writeSharePages(content, opts['web']!);
+  stdout.writeln('editions: $built written, $keptNews news kept, ${dates.length} in index (${dates.first} → ${dates.last}); share pages: $sharePages written');
 }
 
-List<PuzzleId> _classicIds(DateTime date) => [
-      PuzzleId(game: GameKind.word, date: date),
-      for (final d in Difficulty.values) PuzzleId(game: GameKind.sudoku, date: date, difficulty: d),
-      PuzzleId(game: GameKind.letters, date: date),
-      PuzzleId(game: GameKind.crossword, date: date),
-    ];
+String _crosswordTeaser(int n) => switch (n) {
+      1 => 'One of today\'s clues comes from the news.',
+      2 => 'Two of today\'s clues come from the news.',
+      3 => 'Three of today\'s clues come from the news.',
+      _ => 'Four of today\'s clues come from the news.',
+    };
+
+bool _sameManifest(Map<String, dynamic> a, Map<String, dynamic> b) {
+  Map<String, dynamic> strip(Map<String, dynamic> m) =>
+      Map.of(m)..remove('version')..remove('publishedAt')..remove('correctionNote');
+  return jsonEncode(strip(a)) == jsonEncode(strip(b));
+}
+
+/// Writes [record] as the lowest version whose content matches, creating a
+/// new version when no existing file has the same payload and reveal.
+PuzzleId _writeVersioned(String content, PuzzleRecord record) {
+  final base = record.id;
+  var version = 1;
+  while (true) {
+    final id = PuzzleId(game: base.game, date: base.date, language: base.language, difficulty: base.difficulty, version: version);
+    final file = File('$content/puzzles/$id.json');
+    final candidate = _withVersion(record, id);
+    if (!file.existsSync()) {
+      writeJsonFile(file.path, candidate.toJson());
+      return id;
+    }
+    final existing = readJsonFile(file.path);
+    if (_sameContent(existing, candidate.toJson())) return id;
+    version++;
+  }
+}
+
+bool _sameContent(Map<String, dynamic> a, Map<String, dynamic> b) {
+  Map<String, dynamic> strip(Map<String, dynamic> m) => Map.of(m)..remove('id')..remove('contentVersion');
+  return jsonEncode(strip(a)) == jsonEncode(strip(b));
+}
+
+PuzzleRecord _withVersion(PuzzleRecord r, PuzzleId id) => PuzzleRecord(
+      id: id,
+      locale: r.locale,
+      contentVersion: id.version,
+      scoringVersion: r.scoringVersion,
+      dictionaryVersion: r.dictionaryVersion,
+      payload: r.payload,
+      reveal: r.reveal,
+      storyId: r.storyId,
+      sources: r.sources,
+    );
+
+Iterable<File> _puzzleFiles(String content, GameKind game) {
+  final dir = Directory('$content/puzzles');
+  if (!dir.existsSync()) return const [];
+  return dir.listSync().whereType<File>().where((f) => f.uri.pathSegments.last.startsWith('${game.slug}-')).toList()
+    ..sort((a, b) => a.path.compareTo(b.path));
+}
+
+class _Generators {
+  _Generators({required this.word, required this.letters, required this.crossword});
+
+  final WordGenerator word;
+  final LettersGenerator letters;
+  final CrosswordGenerator crossword;
+
+  static _Generators load() {
+    final enable = File('tool/data/enable1.txt').readAsLinesSync().map((l) => l.trim().toLowerCase()).where((l) => l.isNotEmpty).toSet();
+    final ranked = File('tool/data/en_50k.txt').readAsLinesSync().map((l) => l.trim().split(RegExp(r'\s+')).first).toList();
+    final rankOf = <String, int>{for (var i = 0; i < ranked.length; i++) ranked[i]: i + 1};
+    final guessList = File('assets/dictionaries/words6_en.txt').readAsLinesSync().map((l) => l.trim().toUpperCase()).toSet();
+    return _Generators(
+      word: WordGenerator(candidates: WordGenerator.buildCandidates(enable: enable, rankOf: rankOf), guessList: guessList),
+      letters: LettersGenerator(pool: LettersGenerator.buildPool(enable: enable, rankedWords: ranked)),
+      crossword: CrosswordGenerator(
+        bank: CrosswordBank.fromJson(jsonDecode(File('content_src/crossword/clues.json').readAsStringSync())),
+        dictionary: enable.map((w) => w.toUpperCase()).toSet(),
+      ),
+    );
+  }
+}
 
 class _Template {
-  _Template(this.slug, this.label, this.stories, this.puzzles);
+  _Template({
+    required this.slug,
+    required this.label,
+    required this.stories,
+    required this.quizPayload,
+    required this.quizReveal,
+    required this.quizSources,
+    required this.wordSeed,
+    required this.lettersSeed,
+    required this.crosswordSeeds,
+  });
+
   final String slug;
   final String label;
   final List<Map<String, dynamic>> stories;
-  final Map<String, Map<String, dynamic>> puzzles;
+  final Map<String, dynamic> quizPayload;
+  final Map<String, dynamic> quizReveal;
+  final List<SourceRef> quizSources;
+  final WordSeed? wordSeed;
+  final LettersSeed? lettersSeed;
+  final List<CrosswordSeed> crosswordSeeds;
+
+  static _Template fromJson(Map<String, dynamic> json, String path) {
+    Never bad(String what) => fail('$path: $what');
+    final slug = json['slug'] as String? ?? bad('missing slug');
+    final label = json['label'] as String? ?? bad('missing label');
+    final stories = (json['stories'] as List? ?? bad('missing stories')).cast<Map<String, dynamic>>();
+    for (final s in stories) {
+      Story.fromJson(s);
+    }
+    final quiz = json['quiz'] as Map<String, dynamic>? ?? bad('missing quiz');
+    final payload = quiz['payload'] as Map<String, dynamic>? ?? bad('missing quiz.payload');
+    final reveal = quiz['reveal'] as Map<String, dynamic>? ?? bad('missing quiz.reveal');
+    QuizPuzzle.parse(payload, reveal);
+    final sources = (quiz['sources'] as List? ?? const []).map((s) => SourceRef.fromJson(s as Map<String, dynamic>)).toList();
+    final seeds = json['seeds'] as Map<String, dynamic>? ?? bad('missing seeds');
+
+    WordSeed? wordSeed;
+    final w = seeds['word'];
+    if (w is Map) {
+      wordSeed = WordSeed(
+        answer: (w['answer'] as String).toUpperCase(),
+        storyId: w['storyId'] as String,
+        teaser: w['teaser'] as String,
+        excerpt: w['excerpt'] as String,
+      );
+    }
+    LettersSeed? lettersSeed;
+    final l = seeds['letters'];
+    if (l is Map) {
+      lettersSeed = LettersSeed(
+        pangram: (l['pangram'] as String).toUpperCase(),
+        storyId: l['storyId'] as String,
+        teaser: l['teaser'] as String,
+        excerpt: l['excerpt'] as String,
+      );
+    }
+    final crosswordSeeds = <CrosswordSeed>[];
+    final c = seeds['crossword'];
+    if (c is List) {
+      for (final item in c) {
+        final m = item as Map;
+        crosswordSeeds.add(CrosswordSeed(
+          answer: (m['answer'] as String).toUpperCase(),
+          clue: m['clue'] as String,
+          storyId: m['storyId'] as String,
+          excerpt: m['excerpt'] as String,
+        ));
+      }
+    }
+    final storyIds = stories.map((s) => s['id']).toSet();
+    for (final id in [wordSeed?.storyId, lettersSeed?.storyId, ...crosswordSeeds.map((s) => s.storyId)]) {
+      if (id != null && !storyIds.contains(id)) bad('seed references unknown story $id');
+    }
+    return _Template(
+      slug: slug,
+      label: label,
+      stories: stories,
+      quizPayload: payload,
+      quizReveal: reveal,
+      quizSources: sources,
+      wordSeed: wordSeed,
+      lettersSeed: lettersSeed,
+      crosswordSeeds: crosswordSeeds,
+    );
+  }
 }
 
 List<_Template> _loadTemplates(String dir) {
@@ -124,13 +384,5 @@ List<_Template> _loadTemplates(String dir) {
   if (!d.existsSync()) return [];
   final files = d.listSync().whereType<File>().where((f) => f.path.endsWith('.json')).toList()
     ..sort((a, b) => a.path.compareTo(b.path));
-  return files.map((f) {
-    final json = readJsonFile(f.path);
-    final slug = json['slug'] as String? ?? fail('${f.path}: missing slug');
-    final label = json['label'] as String? ?? fail('${f.path}: missing label');
-    final stories = (json['stories'] as List? ?? fail('${f.path}: missing stories')).cast<Map<String, dynamic>>();
-    final puzzles = (json['puzzles'] as Map<String, dynamic>? ?? fail('${f.path}: missing puzzles'))
-        .map((k, v) => MapEntry(k, v as Map<String, dynamic>));
-    return _Template(slug, label, stories, puzzles);
-  }).toList();
+  return files.map((f) => _Template.fromJson(readJsonFile(f.path), f.path)).toList();
 }

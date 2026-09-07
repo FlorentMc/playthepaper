@@ -29,28 +29,28 @@
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Pastry-topped dish"
+          "clue": "Notice with the eyes"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Content"
+          "clue": "Spiteful"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Unwell"
+          "clue": "Grow older"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Notice with the eyes"
+          "clue": "Deep vessel for boiling soup"
         }
       ],
       "down": [
@@ -59,14 +59,14 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Cider fruit"
+          "clue": "Useful quality"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Taste of tea"
+          "clue": "Group of matching items"
         },
         {
           "number": 3,
@@ -80,14 +80,14 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Short sleep"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "In the past"
         }
       ]
     }
@@ -95,10 +95,10 @@
   "reveal": {
     "solution": [
       "##ASK",
-      "##PIE",
-      "HAPPY",
-      "ILL##",
-      "SEE##"
+      "##SEE",
+      "NASTY",
+      "AGE##",
+      "POT##"
     ]
   }
 }

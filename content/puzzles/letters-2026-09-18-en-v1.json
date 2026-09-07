@@ -7,47 +7,41 @@
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-en50k-2026-09",
   "payload": {
-    "center": "T",
-    "outer": "CIJNOU",
-    "minLength": 4
+    "center": "H",
+    "outer": "ADILOY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about what a scientist found when he came back to work."
   },
   "reveal": {
     "answers": [
-      "COCONUT",
-      "CONCOCT",
-      "CONCOCTION",
-      "CONJUNCTION",
-      "COOT",
-      "COTTON",
-      "COUNT",
-      "CUTOUT",
-      "INJUNCTION",
-      "INTO",
-      "INTUITION",
-      "JOINT",
-      "JUNCTION",
-      "NOTION",
-      "ONTO",
-      "OTTO",
-      "TINT",
-      "TITI",
-      "TONIC",
-      "TOON",
-      "TOOT",
-      "TOUT",
-      "TUITION",
-      "TUNIC",
-      "TUTTI",
-      "TUTU",
-      "UNCUT",
-      "UNIT",
-      "UNTO"
+      "AHOLD",
+      "AHOY",
+      "ALOHA",
+      "DAHL",
+      "DAHLIA",
+      "HAHA",
+      "HAIL",
+      "HALL",
+      "HALLO",
+      "HALO",
+      "HILL",
+      "HILLY",
+      "HOLD",
+      "HOLIDAY",
+      "HOLLA",
+      "HOLLY",
+      "HOLY",
+      "HOOD",
+      "HOODOO",
+      "HYOID",
+      "YAHOO"
     ],
     "pangrams": [
-      "CONJUNCTION",
-      "INJUNCTION",
-      "JUNCTION"
+      "HOLIDAY"
     ],
-    "maxScore": 150
-  }
+    "maxScore": 76,
+    "storyId": "discovery-1-penicillin",
+    "excerpt": "Before leaving for his holiday, he inoculated staphylococci on culture plates and left them on a bench in a corner of his laboratory."
+  },
+  "storyId": "discovery-1-penicillin"
 }

@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Honey maker"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Have fun"
+          "col": 2,
+          "length": 3,
+          "clue": "Past of run"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Delete"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "What you're called"
+          "clue": "Farm building for milking"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Limb with an elbow"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Honey maker"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Fault"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Make less painful"
+          "length": 3,
+          "clue": "Corn unit"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Needle's hole"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Speak to a god"
+          "clue": "___ time now"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Small amount of cream"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Exist, in the present tense"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##BEE",
-      "#PLAY",
-      "ERASE",
-      "NAME#",
-      "DYE##"
+      "##PEA",
+      "##RAN",
+      "DAIRY",
+      "ARM##",
+      "BEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

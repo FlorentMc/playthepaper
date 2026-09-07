@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Colour of ripe tomatoes"
+          "clue": "Atlas page"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Rowboat propeller"
+          "clue": "Slippery liquid"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Float along"
+          "clue": "Thinking organ"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Neither's partner"
+          "clue": "As well"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Piano part"
+          "clue": "Conclusion"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Fishing pole"
+          "clue": "Unruly crowd"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Corn unit"
+          "clue": "Fresh ___"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Swallow liquid"
+          "clue": "Flat dish for food"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Enemy"
+          "clue": "Charged particle"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Have a go"
+          "clue": "Head bob"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "RED##",
-      "OAR##",
-      "DRIFT",
-      "##NOR",
-      "##KEY"
+      "MAP##",
+      "OIL##",
+      "BRAIN",
+      "##TOO",
+      "##END"
     ]
   }
 }

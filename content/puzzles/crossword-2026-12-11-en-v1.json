@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "Ocean"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "In good health"
+          "clue": "Blueprint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Rub out"
+          "clue": "Where a belt goes"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Compete for speed"
+          "clue": "Animal skin"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Mimic"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Calm"
+          "clue": "Glide"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Or ___"
+          "clue": "Comfort"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Picnic pest"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cover in paper"
+          "clue": "Discomfort"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Period of history"
+          "clue": "Which person"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##PEA",
-      "#WELL",
-      "ERASE",
-      "RACE#",
-      "APE##"
+      "##SEA",
+      "#PLAN",
+      "WAIST",
+      "HIDE#",
+      "ONE##"
     ]
   }
 }

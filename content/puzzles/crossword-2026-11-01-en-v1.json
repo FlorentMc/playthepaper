@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Put together, as numbers"
+          "clue": "Paid work"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Pastry-topped dish"
+          "clue": "Corn unit"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Vacant"
+          "clue": "Deal with"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Foot digit"
+          "clue": "In the past"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Not cold"
+          "clue": "Morning moisture on grass"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Gorilla or chimp"
+          "clue": "Fast plane"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Not bright"
+          "clue": "Rowing blade"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Deepness"
+          "clue": "Sandwich base"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "As well"
+          "clue": "Years lived"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Still"
+          "clue": "Haul behind"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "ADD##",
-      "PIE##",
-      "EMPTY",
-      "##TOE",
-      "##HOT"
+      "JOB##",
+      "EAR##",
+      "TREAT",
+      "##AGO",
+      "##DEW"
     ]
   }
 }

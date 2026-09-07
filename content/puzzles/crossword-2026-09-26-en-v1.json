@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
-      ".....",
       "##...",
-      "##..."
+      "##...",
+      ".....",
+      "...##",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Unruly crowd"
+          "clue": "Woman's pronoun"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Wonder and amazement"
+          "clue": "Dried grass for horses"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Passing away"
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Hearing organ"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "Notice with the eyes"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Sunbather's goal"
+          "clue": "Insect that lives in a colony"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Crazy"
+          "col": 2,
+          "length": 5,
+          "clue": "Top with sleeves"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Sandwich meat from a pig"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Wild animal"
+          "col": 4,
+          "length": 3,
+          "clue": "Seeing organ"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Pod's content"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 3,
+          "col": 1,
           "length": 3,
-          "clue": "Afternoon cuppa"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "clue": "Female chicken"
+          "clue": "Past of run"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "MOB##",
-      "AWE##",
-      "DEATH",
-      "##SEE",
-      "##TAN"
+      "##SHE",
+      "##HAY",
+      "PRIME",
+      "EAR##",
+      "ANT##"
+    ],
+    "seeded": [
+      {
+        "label": "5 Across",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
     ]
-  }
+  },
+  "storyId": "everyday-1-greenwich"
 }

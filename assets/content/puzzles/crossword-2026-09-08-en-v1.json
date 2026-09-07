@@ -9,96 +9,106 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "...##",
-      ".....",
       "##...",
-      "##..."
+      "##...",
+      ".....",
+      "...##",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Gratuity"
+          "clue": "Not good"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Beer's cousin"
+          "clue": "Be in debt"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Knife's cutting edge"
+          "clue": "Bed sheets"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Top card in the deck"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 2,
-          "length": 3,
-          "clue": "Floor covering"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Limb with a knee"
+          "clue": "Opposite of no"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Bill at a bar"
+          "col": 2,
+          "length": 5,
+          "clue": "They fuse together as a child grows",
+          "storyId": "science-1-bones"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 3,
-          "clue": "Sick"
+          "clue": "Wonder and amazement"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Oyster's gem"
+          "col": 4,
+          "length": 3,
+          "clue": "Lion's home"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Put down"
         },
         {
           "number": 6,
           "row": 2,
-          "col": 3,
+          "col": 1,
           "length": 3,
-          "clue": "Expected to arrive"
-        },
-        {
-          "number": 7,
-          "row": 2,
-          "col": 4,
-          "length": 3,
-          "clue": "Omelette ingredient"
+          "clue": "Frozen water"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "TIP##",
-      "ALE##",
-      "BLADE",
-      "##RUG",
-      "##LEG"
+      "##BAD",
+      "##OWE",
+      "LINEN",
+      "ACE##",
+      "YES##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "science-1-bones",
+        "excerpt": "The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones."
+      }
     ]
-  }
+  },
+  "storyId": "science-1-bones"
 }

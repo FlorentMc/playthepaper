@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Neckwear for a suit"
+          "clue": "Untruth"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Flying toy on a string"
+          "clue": "Travel on horseback"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Winged heavenly being"
+          "clue": "Flat board"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Give the impression"
+          "clue": "Length times width"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that woman"
+          "clue": "Lion's home"
         }
       ],
       "down": [
@@ -59,14 +59,14 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Striped big cat"
+          "clue": "Tablecloth fabric"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Thing on a list"
+          "clue": "Thought"
         },
         {
           "number": 3,
@@ -80,25 +80,25 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Leg joint"
+          "clue": "Uncommon"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Cigarette leftover"
+          "clue": "Cushion"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TIE",
-      "#KITE",
-      "ANGEL",
-      "SEEM#",
-      "HER##"
+      "##LIE",
+      "#RIDE",
+      "PANEL",
+      "AREA#",
+      "DEN##"
     ]
   }
 }

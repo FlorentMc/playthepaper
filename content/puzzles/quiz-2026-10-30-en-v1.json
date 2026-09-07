@@ -1,0 +1,96 @@
+{
+  "id": "quiz-2026-10-30-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-10-30",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "prompt": "In which year did Fleming notice the fungus that led to penicillin?",
+        "options": [
+          "1908",
+          "1918",
+          "1928",
+          "1938"
+        ],
+        "storyId": "discovery-1-penicillin"
+      },
+      {
+        "prompt": "With whom did Fleming share the 1945 Nobel Prize in Physiology or Medicine?",
+        "options": [
+          "Howard Florey and Ernst Chain",
+          "Marie Curie and Pierre Curie",
+          "Francis Crick and James Watson",
+          "Louis Pasteur and Robert Koch"
+        ],
+        "storyId": "discovery-1-penicillin"
+      },
+      {
+        "prompt": "How deep is the Challenger Deep?",
+        "options": [
+          "1,935 metres",
+          "5,935 metres",
+          "10,935 metres",
+          "20,935 metres"
+        ],
+        "storyId": "discovery-1-deep"
+      },
+      {
+        "prompt": "In which year did the bathyscaphe Trieste make the first descent to the Challenger Deep?",
+        "options": [
+          "1940",
+          "1960",
+          "1980",
+          "2000"
+        ],
+        "storyId": "discovery-1-deep"
+      },
+      {
+        "prompt": "How many tombs and chambers is the Valley of the Kings known to contain?",
+        "options": [
+          "15",
+          "65",
+          "165",
+          "650"
+        ],
+        "storyId": "discovery-1-valley"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      0,
+      2,
+      1,
+      1
+    ],
+    "explanations": [
+      "Fleming made his discovery on 3 September 1928, just back from a holiday with his family in Suffolk. One of the culture plates he had left on a bench had grown a fungus that destroyed the staphylococci around it.",
+      "Fleming shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain. The prize recognised the discovery of penicillin and its curative effect in various infectious diseases.",
+      "A 2021 study put the Challenger Deep at 10,935 metres below sea level, give or take about six metres. It lies at the southern end of the Mariana Trench in the western Pacific.",
+      "The bathyscaphe Trieste, operated by the United States Navy, made the first descent in January 1960. The Challenger Deep takes its name from the Royal Navy survey ship HMS Challenger, whose expedition of 1872 to 1876 first located it.",
+      "The Valley of the Kings is known to contain 65 tombs and chambers. They range from the simple pit of KV54 to KV5, which alone has over 120 chambers for the sons of Ramesses II."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "excerpt": "Before leaving for his holiday, he inoculated staphylococci on culture plates and left them on a bench in a corner of his laboratory. On 3 September 1928, Fleming returned to his laboratory having spent a holiday with his family at Suffolk. On his return, Fleming noticed that one culture was contaminated with a fungus, and that the colonies of staphylococci immediately surrounding the fungus had been destroyed, whereas other staphylococci colonies farther away were normal, famously remarking \"That's funny\". He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
+      "excerpt": "The Challenger Deep is the deepest known point of the seabed of Earth, located in the western Pacific Ocean at the southern end of the Mariana Trench, in the ocean territory of the Federated States of Micronesia. A 2011 study placed the depth at 5,971 ± 5 fathoms (10,920 ± 9 m; 35,826 ± 30 ft) with a 2021 study revising the value to 10,935 ± 6 m (35,876 ± 20 ft) at a 95% confidence level. The depression is named after the British Royal Navy survey ships HMS Challenger, whose expedition of 1872–1876 first located it, and HMS Challenger II, whose expedition of 1950–1952 established its record-setting depth. The first descent by any vehicle was conducted by the United States Navy using the bathyscaphe Trieste in January 1960."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+      "excerpt": "The Valley of the Kings, also known as the Valley of the Gates of the Kings, is an area in Egypt where, for a period of nearly 500 years from the Eighteenth Dynasty to the Twentieth Dynasty, rock-cut tombs were excavated for pharaohs and powerful nobles under the New Kingdom of ancient Egypt. It is a wadi sitting on the west bank of the Nile, opposite Thebes (modern-day Luxor) and within the heart of the Theban Necropolis. With the 2005 discovery of a new chamber and the 2008 discovery of two further tomb entrances, the Valley of the Kings is known to contain 65 tombs and chambers, ranging in size from the simple pit that is KV54 to the complex tomb that is KV5, which alone has over 120 chambers for the sons of Ramesses II. After a systematic search, they discovered the actual tomb of Tutankhamun (KV62) in November 1922. It was discovered by Howard Carter on 4 November 1922, with clearance and conservation work continuing until 1932."
+    }
+  ]
+}

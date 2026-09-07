@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Slide down a snowy slope"
+          "clue": "Pair"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rotate quickly"
+          "clue": "Beard's home"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Electric jolt"
+          "clue": "Not here"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Meat in a sausage roll"
+          "clue": "Make less painful"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Still"
+          "clue": "Finished a meal"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Football or tennis"
+          "clue": "The ones here"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Strike with the foot"
+          "clue": "Thin metal strand"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Pen filler"
+          "clue": "Single"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Footwear"
+          "clue": "Friendly talk"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Undercover agent"
+          "clue": "Afternoon cuppa"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SKI",
-      "#SPIN",
-      "SHOCK",
-      "PORK#",
-      "YET##"
+      "##TWO",
+      "#CHIN",
+      "THERE",
+      "EASE#",
+      "ATE##"
     ]
   }
 }

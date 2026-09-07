@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Whale group"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Be familiar with"
+          "clue": "Numerous"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Point of view"
+          "clue": "Liquid served with food"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Sunflower's kernel"
+          "clue": "Otherwise"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that woman"
+          "clue": "Pub pint"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Rage"
+          "clue": "Brief stop"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Precious yellow metal"
+          "clue": "One time only"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Hair colouring"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Leg joint"
+          "clue": "Shopping centre"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Fireplace residue"
+          "clue": "Ocean"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##AGO",
-      "#KNOW",
-      "ANGLE",
-      "SEED#",
-      "HER##"
+      "##POD",
+      "#MANY",
+      "SAUCE",
+      "ELSE#",
+      "ALE##"
     ]
   }
 }

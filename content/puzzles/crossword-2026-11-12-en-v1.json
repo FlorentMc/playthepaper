@@ -9,96 +9,96 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "#....",
-      ".....",
+      "...##",
       "....#",
-      "...##"
+      ".....",
+      "#....",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Low cloud that hides the road"
+          "clue": "Pork on a Christmas table"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Grow weary"
-        },
-        {
-          "number": 5,
-          "row": 2,
           "col": 0,
-          "length": 5,
-          "clue": "Perspiration"
+          "length": 4,
+          "clue": "Small screen symbol"
         },
         {
           "number": 6,
-          "row": 3,
+          "row": 2,
           "col": 0,
-          "length": 4,
-          "clue": "Gentle slope"
+          "length": 5,
+          "clue": "Toss"
         },
         {
-          "number": 7,
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Make less painful"
+        },
+        {
+          "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Allow"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Farm's open land"
+          "col": 0,
+          "length": 3,
+          "clue": "Strike"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 3,
+          "col": 1,
           "length": 4,
-          "clue": "Spoken"
+          "clue": "Dull pain"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Obtain"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "One of two born together"
+          "col": 2,
+          "length": 5,
+          "clue": "Lesson of a fable"
         },
         {
           "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Smelling organ"
+        },
+        {
+          "number": 7,
           "row": 2,
-          "col": 0,
+          "col": 4,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Not dry"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##FOG",
-      "#TIRE",
-      "SWEAT",
-      "HILL#",
-      "END##"
+      "HAM##",
+      "ICON#",
+      "THROW",
+      "#EASE",
+      "##LET"
     ]
   }
 }

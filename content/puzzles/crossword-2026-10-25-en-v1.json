@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Long ___"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Bring hands together"
+          "clue": "Be familiar with"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Nun's garment"
+          "clue": "Point of view"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Metal that rusts"
+          "clue": "Sunflower's kernel"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Use a needle and thread"
+          "clue": "Belonging to that woman"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Arm joint"
+          "clue": "Rage"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Wet weather"
+          "clue": "Precious yellow metal"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Fitting or suitable"
+          "clue": "Need to pay back"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Concern"
+          "clue": "It bends when you kneel"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Cigarette leftover"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ERA",
-      "#CLAP",
-      "HABIT",
-      "IRON#",
-      "SEW##"
+      "##AGO",
+      "#KNOW",
+      "ANGLE",
+      "SEED#",
+      "HER##"
     ]
   }
 }

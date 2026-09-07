@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Taxi"
+          "clue": "Pair"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not false"
+          "clue": "Swimming spot"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Opposite of back"
+          "clue": "Plank"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Relax"
+          "clue": "Or ___"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Opposite of no"
+          "clue": "Obtain"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Angry"
+          "clue": "Browned bread"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Uncle's wife"
+          "clue": "Past of wear"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Stake money on a horse"
+          "clue": "Aged"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Flag support"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Sizzle in a pan"
+          "clue": "Ask on your knees"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CAB",
-      "#TRUE",
-      "FRONT",
-      "REST#",
-      "YES##"
+      "##TWO",
+      "#POOL",
+      "BOARD",
+      "ELSE#",
+      "GET##"
     ]
   }
 }

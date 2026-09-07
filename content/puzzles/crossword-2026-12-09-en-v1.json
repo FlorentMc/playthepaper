@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Payment to a lawyer"
+          "clue": "Light knock"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Flat carrier for dishes"
+          "clue": "Accurate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Computer pointer device"
+          "clue": "Concert venue"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Single item"
+          "clue": "Tidy"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Obtain"
+          "clue": "Up to now"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Sweet produce of a tree"
+          "clue": "Deal with"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Where the sun rises"
+          "clue": "Parent's sister"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Small green vegetable"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Quality of a sound"
+          "clue": "Oak or elm"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Large drinking vessel"
+          "clue": "___ time now"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##FEE",
-      "#TRAY",
-      "MOUSE",
-      "UNIT#",
-      "GET##"
+      "##TAP",
+      "#TRUE",
+      "ARENA",
+      "NEAT#",
+      "YET##"
     ]
   }
 }

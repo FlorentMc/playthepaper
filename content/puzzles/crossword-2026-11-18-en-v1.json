@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Not on"
+          "clue": "Finished a meal"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Zero, in a football score"
+          "clue": "Come first"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Farm building for milking"
+          "clue": "Market stall"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Fresh ___"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Gentlemen"
+          "clue": "Tie the knot"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Vegetable that makes you cry"
+          "clue": "Prize"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Christmas tree, often"
+          "clue": "Baking ___"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Travel by plane"
+          "clue": "Conclusion"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Beaver's construction"
+          "clue": "Noticed"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Grow older"
+          "clue": "Draw, in a match"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##OFF",
-      "##NIL",
-      "DAIRY",
-      "AGO##",
-      "MEN##"
+      "##ATE",
+      "##WIN",
+      "STAND",
+      "AIR##",
+      "WED##"
     ]
   }
 }

@@ -22,28 +22,28 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Had dinner"
+          "clue": "Warm embrace"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Socket filler"
+          "clue": "Quality of a sound"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Come ___"
+          "clue": "Sweet produce of a tree"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Narrow road"
+          "clue": "Where the sun rises"
         },
         {
           "number": 7,
@@ -59,45 +59,45 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Without company"
+          "clue": "Home with a roof"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Adjust an instrument"
+          "clue": "Measurement standard"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hen's product"
+          "clue": "Receive"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Stage drama"
+          "clue": "Serving platter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Charge for a service"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ATE",
-      "#PLUG",
-      "ALONG",
-      "LANE#",
+      "##HUG",
+      "#TONE",
+      "FRUIT",
+      "EAST#",
       "EYE##"
     ]
   }

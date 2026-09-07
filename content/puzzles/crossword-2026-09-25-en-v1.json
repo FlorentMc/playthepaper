@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Small drink"
+          "clue": "Gentle tap"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Foot digit"
+          "clue": "Period of history"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Living creature"
+          "clue": "Proprietor"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Curved line"
+          "clue": "Cooling device"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Long-haired ox of the high mountains"
+          "clue": "Cook in hot oil"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Adhere"
+          "clue": "One cent"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Atom that has lost or gained an electron"
+          "clue": "Exist, in the present tense"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Clothes ___"
+          "clue": "Road surface material"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Horse's reddish-brown colour"
+          "clue": "Not on"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Battle between nations"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SIP",
-      "##TOE",
-      "BEING",
-      "ARC##",
-      "YAK##"
+      "##PAT",
+      "##ERA",
+      "OWNER",
+      "FAN##",
+      "FRY##"
     ]
   }
 }

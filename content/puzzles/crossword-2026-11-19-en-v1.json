@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Buzzing pollinator"
+          "clue": "That girl"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Past of run"
+          "clue": "Afternoon cuppa"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Watchman"
+          "clue": "Knee or elbow"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Pose a question"
+          "clue": "Possess"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Look at"
+          "clue": "Plead"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Pedal that slows you"
+          "clue": "Sharp pain"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Hearing organ"
+          "clue": "Female chicken"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Have a meal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Oxygen or helium"
+          "clue": "Paid work"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Put to work"
+          "clue": "Need to pay back"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##BEE",
-      "##RAN",
-      "GUARD",
-      "ASK##",
-      "SEE##"
+      "##SHE",
+      "##TEA",
+      "JOINT",
+      "OWN##",
+      "BEG##"
     ]
   }
 }

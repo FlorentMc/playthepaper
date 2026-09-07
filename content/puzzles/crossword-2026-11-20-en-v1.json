@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Rotten, as an apple"
+          "clue": "Not on"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Fib"
+          "clue": "Zero, in a football score"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Study"
+          "clue": "Tooth ___"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Curved line"
+          "clue": "In the past"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Long-haired ox of the high mountains"
+          "clue": "Number of fingers"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Darkest colour"
+          "clue": "Layered bulb"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Christmas tree, often"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Cosy room"
+          "clue": "Travel by plane"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Produce an egg"
+          "clue": "Plump"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Period of history"
+          "clue": "Years lived"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##BAD",
-      "##LIE",
-      "LEARN",
-      "ARC##",
-      "YAK##"
+      "##OFF",
+      "##NIL",
+      "FAIRY",
+      "AGO##",
+      "TEN##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pose a question"
+          "clue": "Marry"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Notice with the eyes"
+          "clue": "Dried grass for horses"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Unpleasant"
+          "clue": "Flat dish for food"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Snake-like fish"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "Finished a meal"
         }
       ],
       "down": [
@@ -59,46 +59,56 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Useful quality"
+          "clue": "The blue one is the largest animal known ever to have existed",
+          "storyId": "nature-1-whale"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Put in place"
+          "clue": "Consume food"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Door opener"
+          "clue": "Hair colouring"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "At this moment"
+          "clue": "Small green vegetable"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Wonder and amazement"
+          "clue": "Allow"
         }
       ]
-    }
+    },
+    "teaser": "One of today's clues comes from the news."
   },
   "reveal": {
     "solution": [
-      "##ASK",
-      "##SEE",
-      "NASTY",
-      "OWE##",
-      "WET##"
+      "##WED",
+      "##HAY",
+      "PLATE",
+      "EEL##",
+      "ATE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "nature-1-whale",
+        "excerpt": "The blue whale is the largest animal known ever to have existed."
+      }
     ]
-  }
+  },
+  "storyId": "nature-1-whale"
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pod's content"
+          "clue": "Definite article"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "___ is the question"
+          "clue": "Smile broadly"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "The ones over there"
+          "clue": "Farm's open land"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Desire"
+          "clue": "Egg shape"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Receive"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Mobile"
+          "clue": "Deal with"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Where the sun rises"
+          "clue": "Small mountain"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Conclusion"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Taller ___ me"
+          "clue": "Donate"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Low cloud that hides the road"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##PEA",
-      "#THAT",
-      "THOSE",
-      "WANT#",
-      "ONE##"
+      "##THE",
+      "#GRIN",
+      "FIELD",
+      "OVAL#",
+      "GET##"
     ]
   }
 }

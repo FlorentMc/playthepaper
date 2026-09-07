@@ -32,3 +32,101 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.quiz: (r) => QuizPuzzle.parse(r.payload, r.reveal),
 };
 
+
+bool _wholeWord(String text, String word) =>
+    RegExp('(?<![A-Za-z])${RegExp.escape(word)}(?![A-Za-z])', caseSensitive: false).hasMatch(text);
+
+/// Seeding rules for one edition: teasers and excerpts present and honest,
+/// quiz figures backed by sources, no seeded word doubling as a quiz option,
+/// and the manifest's seeds map matching the puzzles.
+List<String> seedChecks(EditionManifest m, PuzzleRecord? Function(GameKind) recordOf) {
+  final errors = <String>[];
+  final expectedSeeds = <String, List<String>>{};
+  void feed(String storyId, String what) => expectedSeeds.putIfAbsent(storyId, () => []).add(what);
+  final seededWords = <String>{};
+
+  final word = recordOf(GameKind.word);
+  if (word != null && word.storyId != null) {
+    final answer = word.reveal['answer'];
+    final excerpt = word.reveal['excerpt'];
+    if (word.payload['teaser'] is! String || (word.payload['teaser'] as String).trim().isEmpty) {
+      errors.add('word ${word.id} is seeded but has no teaser');
+    }
+    if (excerpt is! String || answer is! String || !_wholeWord(excerpt, answer)) {
+      errors.add('word ${word.id}: the answer does not appear in its excerpt');
+    }
+    if (answer is String) seededWords.add(answer.toUpperCase());
+    feed(word.storyId!, 'word');
+  }
+
+  final letters = recordOf(GameKind.letters);
+  if (letters != null && letters.storyId != null) {
+    final excerpt = letters.reveal['excerpt'];
+    final pangrams = (letters.reveal['pangrams'] as List?)?.cast<String>() ?? const [];
+    if (letters.payload['teaser'] is! String || (letters.payload['teaser'] as String).trim().isEmpty) {
+      errors.add('letters ${letters.id} is seeded but has no teaser');
+    }
+    final hit = excerpt is String ? pangrams.where((p) => _wholeWord(excerpt, p)).toList() : const <String>[];
+    if (hit.isEmpty) {
+      errors.add('letters ${letters.id}: no pangram appears in its excerpt');
+    } else {
+      seededWords.addAll(hit.map((p) => p.toUpperCase()));
+    }
+    feed(letters.storyId!, 'letters');
+  }
+
+  final crossword = recordOf(GameKind.crossword);
+  if (crossword != null) {
+    final puzzle = CrosswordPuzzle.parse(crossword.payload, crossword.reveal);
+    for (final s in puzzle.seeded) {
+      final entry = puzzle.entries.where((e) => e.label == s.label).firstOrNull;
+      if (entry == null) {
+        errors.add('crossword ${crossword.id}: seeded label ${s.label} is not an entry');
+        continue;
+      }
+      final answer = puzzle.answerOf(entry);
+      if (!_wholeWord(s.excerpt, answer)) errors.add('crossword ${crossword.id}: $answer (${s.label}) not in its excerpt');
+      if (entry.storyId != s.storyId) errors.add('crossword ${crossword.id}: ${s.label} story mismatch between clue and reveal');
+      seededWords.add(answer.toUpperCase());
+      feed(s.storyId, 'crossword:${s.label}');
+    }
+    if (puzzle.seeded.isNotEmpty && (puzzle.teaser == null || puzzle.teaser!.trim().isEmpty)) {
+      errors.add('crossword ${crossword.id} is seeded but has no teaser');
+    }
+  }
+
+  final quiz = recordOf(GameKind.quiz);
+  if (quiz != null) {
+    final q = QuizPuzzle.parse(quiz.payload, quiz.reveal);
+    final sourceText = quiz.sources.map((s) => s.excerpt).join('\n');
+    final numberPattern = RegExp(r'\d[\d,.]*');
+    for (var i = 0; i < q.questions.length; i++) {
+      final question = q.questions[i];
+      if (m.story(question.storyId) == null) {
+        errors.add('quiz ${quiz.id}: question ${i + 1} references unknown story ${question.storyId}');
+      }
+      feed(question.storyId, 'quiz:${i + 1}');
+      final correct = question.options[q.answerOf(i)];
+      for (final n in numberPattern.allMatches(correct).map((x) => x.group(0)!)) {
+        final bare = n.replaceAll(RegExp(r'[,.]$'), '');
+        if (!sourceText.contains(bare) && !sourceText.contains(bare.replaceAll(',', ''))) {
+          errors.add('quiz ${quiz.id}: question ${i + 1} answer figure "$bare" is not in any stored source excerpt');
+        }
+      }
+      for (final option in question.options) {
+        if (seededWords.contains(option.trim().toUpperCase())) {
+          errors.add('quiz ${quiz.id}: option "$option" is also a seeded word');
+        }
+      }
+    }
+  }
+
+  String canonical(Map<String, List<String>> seeds) {
+    final keys = seeds.keys.toList()..sort();
+    return keys.map((k) => '$k=${(List<String>.of(seeds[k]!)..sort()).join(',')}').join(';');
+  }
+  if (canonical(m.seeds) != canonical(expectedSeeds)) {
+    errors.add('seeds map does not match the puzzles: manifest ${canonical(m.seeds)}, puzzles ${canonical(expectedSeeds)}');
+  }
+  return errors;
+}

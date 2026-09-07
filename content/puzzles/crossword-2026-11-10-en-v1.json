@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Snow runner"
+          "clue": "Jeweller's stone"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rotate quickly"
+          "clue": "Stubborn animal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Show gratitude to"
+          "clue": "Where a belt goes"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Unit of language"
+          "clue": "Animal skin"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Lowest whole number above zero"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Backup tyre"
+          "clue": "Tour leader"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Considerate"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Printer cartridge contents"
+          "clue": "Past of meet"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Display"
+          "clue": "Principal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Which person"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SKI",
-      "#SPIN",
-      "THANK",
-      "WORD#",
-      "OWE##"
+      "##GEM",
+      "#MULE",
+      "WAIST",
+      "HIDE#",
+      "ONE##"
     ]
   }
 }

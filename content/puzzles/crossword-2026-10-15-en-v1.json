@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Harbour boat"
+          "clue": "Number of wheels on a bike"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Dog's treat"
+          "clue": "Television programme"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Assert"
+          "clue": "Extra"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Reddish coating on old iron"
+          "clue": "Caring and gentle"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Up to now"
+          "clue": "Pen filler"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Browned bread"
+          "clue": "Show gratitude to"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Unit of language"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Precious stone"
+          "clue": "Be in debt"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Colour of a clear sky"
+          "clue": "Twirl"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Shed tears"
+          "clue": "Slide down a snowy slope"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TUG",
-      "#BONE",
-      "CLAIM",
-      "RUST#",
-      "YET##"
+      "##TWO",
+      "#SHOW",
+      "SPARE",
+      "KIND#",
+      "INK##"
     ]
   }
 }

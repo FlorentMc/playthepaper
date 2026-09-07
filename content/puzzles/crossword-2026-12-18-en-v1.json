@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Unreturnable tennis serve"
+          "clue": "Salt water expanse"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Potter's material"
+          "clue": "The one over there"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "The ones over there"
+          "clue": "Rub out"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Red or white drink"
+          "clue": "Differ"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Single"
+          "clue": "Seeing organ"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "By oneself"
+          "clue": "Divide up"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Protective cover for a phone"
+          "clue": "Simple"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Had dinner"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Beard's home"
+          "clue": "Flat carrier for dishes"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "New Year's ___"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ACE",
-      "#CLAY",
-      "THOSE",
-      "WINE#",
-      "ONE##"
+      "##SEA",
+      "#THAT",
+      "ERASE",
+      "VARY#",
+      "EYE##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Attempt"
+          "clue": "Ocean"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Accurate"
+          "clue": "___ is the question"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Responsibility for a mistake"
+          "clue": "Came into being"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Or ___"
+          "clue": "Shopping trolley"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "Seeing organ"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Have faith in"
+          "clue": "Land along the water's edge"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Regulation"
+          "clue": "Where the sun rises"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Up to now"
+          "clue": "Had dinner"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Story"
+          "clue": "Serving platter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Not many"
+          "clue": "Top card in the deck"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TRY",
-      "#TRUE",
-      "FAULT",
-      "ELSE#",
-      "WET##"
+      "##SEA",
+      "#THAT",
+      "AROSE",
+      "CART#",
+      "EYE##"
     ]
   }
 }

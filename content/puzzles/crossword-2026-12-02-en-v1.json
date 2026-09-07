@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Marry"
+          "clue": "Secret agent"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Rowing blade"
+          "col": 1,
+          "length": 4,
+          "clue": "Footwear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bear a load"
+          "clue": "Football or tennis"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Strike with the foot"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Every one of them"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Colour of a stop sign"
+          "clue": "Pen filler"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Everyone and everything"
+          "clue": "Electric jolt"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Hearing organ"
+          "length": 4,
+          "clue": "Pig meat"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Not wet"
+          "clue": "Up to now"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Rotate quickly"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Road vehicle"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Beer's cousin"
+          "clue": "Snow runner"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WED",
-      "##OAR",
-      "CARRY",
-      "ALL##",
-      "RED##"
+      "##SPY",
+      "#SHOE",
+      "SPORT",
+      "KICK#",
+      "INK##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pair"
+          "clue": "Unruly crowd"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shortly"
+          "clue": "Dog's treat"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Tremble"
+          "clue": "Gravy or ketchup"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Fail to win"
+          "clue": "Or ___"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Still"
+          "clue": "Beer's cousin"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Browned bread"
+          "clue": "Small rodent"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Past of wake"
+          "clue": "Formerly"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Single"
+          "clue": "Honey maker"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Footwear"
+          "clue": "Round toy to kick or throw"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Cunning"
+          "clue": "Ocean"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TWO",
-      "#SOON",
-      "SHAKE",
-      "LOSE#",
-      "YET##"
+      "##MOB",
+      "#BONE",
+      "SAUCE",
+      "ELSE#",
+      "ALE##"
     ]
   }
 }

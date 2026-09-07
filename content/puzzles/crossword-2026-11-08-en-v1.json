@@ -9,96 +9,96 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
-      ".....",
       "#....",
-      "##..."
+      "#....",
+      ".....",
+      "....#",
+      "....#"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Sandwich meat from a pig"
+          "col": 1,
+          "length": 4,
+          "clue": "Fizzy drink"
         },
         {
-          "number": 4,
+          "number": 5,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Press clothes"
+          "clue": "Loop of hair"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Dried stalks for bedding"
+          "clue": "Lodging with a lobby"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Region"
         },
         {
           "number": 8,
-          "row": 3,
-          "col": 1,
-          "length": 4,
-          "clue": "Identical"
-        },
-        {
-          "number": 9,
           "row": 4,
-          "col": 2,
-          "length": 3,
-          "clue": "Allow"
+          "col": 0,
+          "length": 4,
+          "clue": "School period"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Belonging to that man"
+          "col": 1,
+          "length": 5,
+          "clue": "Twenty"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
-          "length": 4,
-          "clue": "Crafts' partner"
+          "col": 2,
+          "length": 5,
+          "clue": "External"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Lesson of a fable"
-        },
-        {
-          "number": 5,
-          "row": 1,
           "col": 3,
-          "length": 4,
-          "clue": "What you're called"
+          "length": 5,
+          "clue": "Sleep story"
         },
         {
-          "number": 7,
-          "row": 2,
+          "number": 4,
+          "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Soaked"
+          "clue": "Every one of them"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Head topper"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "HAM##",
-      "IRON#",
-      "STRAW",
-      "#SAME",
-      "##LET"
+      "#SODA",
+      "#CURL",
+      "HOTEL",
+      "AREA#",
+      "TERM#"
     ]
   }
 }

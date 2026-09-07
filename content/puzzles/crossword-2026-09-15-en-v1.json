@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Cry loudly"
+          "clue": "In the past"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Central part"
+          "clue": "Crab's pincer"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bowl of lettuce"
+          "clue": "Simple"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Villain's quality"
+          "clue": "Deserve"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Marry"
+          "clue": "Workout place"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Not liquid"
+          "clue": "Wake-up clock feature"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "By mouth"
+          "clue": "Increase"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Where you sleep"
+          "clue": "Possess"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Bat's dark home"
+          "clue": "Potter's material"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Stitch"
+          "clue": "Tent fastener"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##SOB",
-      "#CORE",
-      "SALAD",
-      "EVIL#",
-      "WED##"
+      "##AGO",
+      "#CLAW",
+      "PLAIN",
+      "EARN#",
+      "GYM##"
     ]
   }
 }

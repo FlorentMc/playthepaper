@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Low cloud that hides the road"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Comparison word"
+          "clue": "Grow weary"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Gleam"
+          "clue": "Perspiration"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Gripped"
+          "clue": "Small mountain"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Needle's hole"
+          "clue": "Conclusion"
         }
       ],
       "down": [
@@ -59,28 +59,28 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "During the time that"
+          "clue": "Farm's open land"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Clock pointer"
+          "clue": "By mouth"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Single"
+          "clue": "Obtain"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Those people, as subject"
+          "clue": "One of two born together"
         },
         {
           "number": 5,
@@ -94,11 +94,11 @@
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#THAN",
-      "SHINE",
-      "HELD#",
-      "EYE##"
+      "##FOG",
+      "#TIRE",
+      "SWEAT",
+      "HILL#",
+      "END##"
     ]
   }
 }

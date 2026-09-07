@@ -119,6 +119,15 @@ void main(List<String> args) {
     for (final storyId in m.seeds.keys) {
       if (m.story(storyId) == null) errors.add('editions/$d.json: seeds reference unknown story "$storyId"');
     }
+    PuzzleRecord? recordOf(GameKind g) {
+      final id = m.puzzleFor(g);
+      return id == null ? null : puzzleCache[id.toString()];
+    }
+    try {
+      errors.addAll(seedChecks(m, recordOf).map((e) => 'editions/$d.json: $e'));
+    } on FormatException catch (e) {
+      errors.add('editions/$d.json: seed checks could not run: ${e.message}');
+    }
   }
 
   final puzzleFiles = Directory('$root/puzzles')

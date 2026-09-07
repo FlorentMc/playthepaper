@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Flower ___"
+          "clue": "Pod's content"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Serving platter"
+          "clue": "Rip"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Plural of that"
+          "clue": "Delete"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Warmth"
+          "clue": "Speed contest"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Conclusion"
+          "clue": "Mimic"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Wide"
+          "clue": "Absence of war"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Compass point opposite west"
+          "clue": "Make less painful"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Exist, in the present tense"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Next"
+          "clue": "Mouse catcher"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Most common English word"
+          "clue": "Period of history"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##BED",
-      "#TRAY",
-      "THOSE",
-      "HEAT#",
-      "END##"
+      "##PEA",
+      "#TEAR",
+      "ERASE",
+      "RACE#",
+      "APE##"
     ]
   }
 }

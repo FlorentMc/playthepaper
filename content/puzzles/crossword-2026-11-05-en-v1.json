@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "New Year's ___"
+          "clue": "Butter portion"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Costing nothing"
+          "clue": "Not false"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Oyster's gem"
+          "clue": "Sports stadium"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Simple"
+          "clue": "Eggs' cradle"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "___ you ready?"
+          "clue": "Opposite of no"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Rub out"
+          "clue": "Push down"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Extremely"
+          "clue": "Parent's sister"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Slippery swimmer"
+          "clue": "Afternoon cuppa"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Dread"
+          "clue": "Oak or elm"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "Some, no matter which"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##EVE",
-      "#FREE",
-      "PEARL",
-      "EASY#",
-      "ARE##"
+      "##PAT",
+      "#TRUE",
+      "ARENA",
+      "NEST#",
+      "YES##"
     ]
   }
 }

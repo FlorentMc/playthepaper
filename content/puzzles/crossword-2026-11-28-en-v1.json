@@ -9,96 +9,96 @@
   "payload": {
     "size": 5,
     "grid": [
-      "...##",
-      "....#",
-      ".....",
+      "##...",
       "#....",
-      "##..."
+      ".....",
+      "....#",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Pointed end"
+          "clue": "Baby fox"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 0,
+          "col": 1,
           "length": 4,
-          "clue": "Smallest unit of an element"
+          "clue": "Quality of a sound"
         },
         {
-          "number": 6,
+          "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Opposite of above"
+          "clue": "Sweet produce of a tree"
         },
         {
-          "number": 8,
+          "number": 6,
           "row": 3,
-          "col": 1,
+          "col": 0,
           "length": 4,
-          "clue": "Man or boy"
+          "clue": "Tenant's payment"
         },
         {
-          "number": 9,
+          "number": 7,
           "row": 4,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Colour of a stop sign"
+          "clue": "Up to now"
         }
       ],
       "down": [
         {
           "number": 1,
           "row": 0,
-          "col": 0,
-          "length": 3,
-          "clue": "Keyboard key"
+          "col": 2,
+          "length": 5,
+          "clue": "Say numbers in order"
         },
         {
           "number": 2,
           "row": 0,
-          "col": 1,
+          "col": 3,
           "length": 4,
-          "clue": "Single article"
+          "clue": "Measurement standard"
         },
         {
           "number": 3,
           "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "___ bear"
+          "col": 4,
+          "length": 3,
+          "clue": "Stake money on a horse"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Trunk and branches"
         },
         {
           "number": 5,
-          "row": 1,
-          "col": 3,
-          "length": 4,
-          "clue": "Small skin spot"
-        },
-        {
-          "number": 7,
           "row": 2,
-          "col": 4,
+          "col": 0,
           "length": 3,
-          "clue": "Marry"
+          "clue": "Cook in hot oil"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "TIP##",
-      "ATOM#",
-      "BELOW",
-      "#MALE",
-      "##RED"
+      "##CUB",
+      "#TONE",
+      "FRUIT",
+      "RENT#",
+      "YET##"
     ]
   }
 }

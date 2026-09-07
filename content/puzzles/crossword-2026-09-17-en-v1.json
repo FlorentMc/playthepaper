@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Cushion"
+          "clue": "Salt water expanse"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Lightly cooked, as steak"
+          "clue": "Famous performer"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Tablecloth fabric"
+          "clue": "Browned bread"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Brainwave"
+          "clue": "Red or white drink"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Snake-like fish"
+          "clue": "Not new"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Group of experts"
+          "clue": "Market stall"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Length times width"
+          "clue": "Make less painful"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Cosy room"
+          "clue": "Painting or sculpture"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sit on a bike"
+          "clue": "Ground for planting"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Untruth"
+          "clue": "Pair"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##PAD",
-      "#RARE",
-      "LINEN",
-      "IDEA#",
-      "EEL##"
+      "##SEA",
+      "#STAR",
+      "TOAST",
+      "WINE#",
+      "OLD##"
     ]
   }
 }

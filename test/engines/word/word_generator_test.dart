@@ -122,7 +122,7 @@ void main() {
         guessList: guesses,
       );
       final text = '${const JsonEncoder.withIndent('  ').convert(g.generate(date).toJson())}\n';
-      expect(text, File('content/puzzles/word-2026-09-08-en-v1.json').readAsStringSync());
+      expect(text, File('test/fixtures/unseeded/word-2026-09-08-en-v1.json').readAsStringSync());
     });
   });
 

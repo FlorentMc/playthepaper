@@ -10,37 +10,48 @@
     "sudoku-2026-09-07-en-hard-v1",
     "letters-2026-09-07-en-v1",
     "crossword-2026-09-07-en-v1",
-    "correct-2026-09-07-en-v1",
-    "number-2026-09-07-en-v1",
-    "where-2026-09-07-en-v1"
+    "quiz-2026-09-07-en-v1"
   ],
   "stories": [
     {
-      "id": "nature-1-correct",
-      "game": "correct",
+      "id": "nature-1-whale",
       "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known to have ever existed. The longest one scientifically measured was 29.9 metres and the heaviest on record weighed 190 tonnes. The International Whaling Commission banned all hunting of the species in 1966.",
+      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Blue_whale",
       "publishedAt": "evergreen"
     },
     {
-      "id": "nature-1-number",
-      "game": "number",
+      "id": "nature-1-falls",
       "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls is the world's tallest uninterrupted waterfall. It drops 979 metres over the edge of the Auyán-tepui mountain in Canaima National Park, with a single plunge of 807 metres.",
+      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Angel_Falls",
       "publishedAt": "evergreen"
     },
     {
-      "id": "nature-1-where",
-      "game": "where",
+      "id": "nature-1-galapagos",
       "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands lie around the equator, about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835 with the young naturalist Charles Darwin aboard.",
+      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
       "publishedAt": "evergreen"
     }
-  ]
+  ],
+  "seeds": {
+    "nature-1-whale": [
+      "quiz:1",
+      "quiz:2",
+      "crossword:1 Down"
+    ],
+    "nature-1-falls": [
+      "quiz:3",
+      "quiz:4",
+      "letters"
+    ],
+    "nature-1-galapagos": [
+      "quiz:5",
+      "word"
+    ]
+  }
 }

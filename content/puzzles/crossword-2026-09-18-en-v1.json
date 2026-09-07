@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Payment to a lawyer"
+          "clue": "Gasping cry"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Put in order"
+          "clue": "Central part"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Not small"
+          "clue": "Bowl of lettuce"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Villain's quality"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Obtain"
+          "clue": "Marry"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Before all others"
+          "clue": "Not liquid"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Border"
+          "clue": "Spoken"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Where you sleep"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Story"
+          "clue": "Bat's dark home"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Limb with a knee"
+          "clue": "Use a needle and thread"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##FEE",
-      "#TIDY",
-      "LARGE",
-      "ELSE#",
-      "GET##"
+      "##SOB",
+      "#CORE",
+      "SALAD",
+      "EVIL#",
+      "WED##"
     ]
   }
 }

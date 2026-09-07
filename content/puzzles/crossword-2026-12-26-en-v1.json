@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Jar top"
+          "clue": "Switched ___"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Beer's cousin"
+          "clue": "Owed"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Explosion"
+          "clue": "Sketched"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "That girl"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Female chicken"
+          "clue": "Pull a car"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Scientist's workplace"
+          "clue": "Not even"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Sick"
+          "clue": "Bear's coat"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "End of life"
+          "clue": "Grand meal"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Notice with the eyes"
+          "clue": "___ is it?"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Light brown"
+          "clue": "Brand ___"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "LID##",
-      "ALE##",
-      "BLAST",
-      "##TEA",
-      "##HEN"
+      "OFF##",
+      "DUE##",
+      "DRAWN",
+      "##SHE",
+      "##TOW"
     ]
   }
 }

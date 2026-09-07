@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Sing with closed lips"
+          "clue": "Have a meal"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Quality of a sound"
+          "clue": "Day of the month"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Apple or pear"
+          "clue": "Four-wheeled cart"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Compass point opposite west"
+          "clue": "Single article"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Black sticky substance"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Family dwelling"
+          "clue": "Keen"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Single item"
+          "clue": "Smallest unit of an element"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Came together"
+          "clue": "Number of fingers"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Serving platter"
+          "clue": "Facts and figures"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Past of feed"
+          "clue": "Quick intelligence"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##HUM",
-      "#TONE",
-      "FRUIT",
-      "EAST#",
-      "DYE##"
+      "##EAT",
+      "#DATE",
+      "WAGON",
+      "ITEM#",
+      "TAR##"
     ]
   }
 }

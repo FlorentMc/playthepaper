@@ -9,18 +9,76 @@
   "payload": {
     "size": 5,
     "grid": [
-      "#....",
-      "#....",
+      "##...",
       ".....",
-      "....#",
-      "....#"
+      ".....",
+      ".....",
+      "...##"
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Group of matching items"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Serious"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Monarch"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Warning bell"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Where you sleep"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Bowl of lettuce"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "At any time"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Word with a special meaning"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
           "length": 4,
           "clue": "Seize"
         },
@@ -30,75 +88,17 @@
           "col": 1,
           "length": 4,
           "clue": "Govern"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 5,
-          "clue": "Cold vegetable dish"
-        },
-        {
-          "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Always"
-        },
-        {
-          "number": 8,
-          "row": 4,
-          "col": 0,
-          "length": 4,
-          "clue": "School period"
-        }
-      ],
-      "down": [
-        {
-          "number": 1,
-          "row": 0,
-          "col": 1,
-          "length": 5,
-          "clue": "Burial place"
-        },
-        {
-          "number": 2,
-          "row": 0,
-          "col": 2,
-          "length": 5,
-          "clue": "Measuring stick"
-        },
-        {
-          "number": 3,
-          "row": 0,
-          "col": 3,
-          "length": 5,
-          "clue": "Warning bell"
-        },
-        {
-          "number": 4,
-          "row": 0,
-          "col": 4,
-          "length": 3,
-          "clue": "Flower ___"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Group of matching items"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "#GRAB",
-      "#RULE",
-      "SALAD",
-      "EVER#",
-      "TERM#"
+      "##SET",
+      "GRAVE",
+      "RULER",
+      "ALARM",
+      "BED##"
     ]
   }
 }

@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Past of do"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Lose, as leaves"
+          "col": 2,
+          "length": 3,
+          "clue": "___ time now"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "In front"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Sonnet composer"
+          "clue": "Gleam"
         },
         {
           "number": 7,
-          "row": 4,
+          "row": 3,
           "col": 0,
           "length": 3,
           "clue": "Slippery swimmer"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Have a go"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Car's round part"
+          "clue": "Every day"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Warm up"
+          "length": 3,
+          "clue": "Roadside lodging"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Strange"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Footwear"
+          "clue": "Change the colour of fabric"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Gorilla or chimp"
+          "clue": "Put in place"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Belonging to that woman"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "#SHED",
-      "AHEAD",
-      "POET#",
-      "EEL##"
+      "##DID",
+      "##ANY",
+      "SHINE",
+      "EEL##",
+      "TRY##"
     ]
   }
 }

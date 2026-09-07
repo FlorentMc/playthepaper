@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Baby's bed"
+          "clue": "Once around the track"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Unwell"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Dinner dish"
+          "clue": "Fern or ivy"
         },
         {
           "number": 8,
           "row": 3,
           "col": 2,
           "length": 3,
-          "clue": "Atom that has lost or gained an electron"
+          "clue": "Sock's end"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Head bob"
+          "clue": "Age or epoch"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Baseball hat"
+          "clue": "Edge of the mouth"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Slippery liquid"
+          "clue": "The whole lot"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Railway transport"
+          "clue": "Dinner dish"
         },
         {
           "number": 6,
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Excessively"
+          "clue": "Neither's partner"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Finish"
+          "clue": "Hot drink with a bag"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "COT##",
-      "AIR##",
-      "PLATE",
-      "##ION",
-      "##NOD"
+      "LAP##",
+      "ILL##",
+      "PLANT",
+      "##TOE",
+      "##ERA"
     ]
   }
 }

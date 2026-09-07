@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Consume food"
+          "clue": "Afternoon cuppa"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Day of the month"
+          "clue": "Friendly talk"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Four-wheeled cart"
+          "clue": "Brief stop"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Single article"
+          "clue": "Soldiers as a group"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Road surface material"
+          "clue": "Spider's creation"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Keen"
+          "clue": "Digit for hitchhiking"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Tiny particle"
+          "clue": "Simple"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Had dinner"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Facts and figures"
+          "clue": "Look after"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Clever humour"
+          "clue": "Dog's foot"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##EAT",
-      "#DATE",
-      "WAGON",
-      "ITEM#",
-      "TAR##"
+      "##TEA",
+      "#CHAT",
+      "PAUSE",
+      "ARMY#",
+      "WEB##"
     ]
   }
 }

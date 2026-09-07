@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Sleeve filler"
+          "clue": "Pod's content"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Expected to arrive"
+          "col": 1,
+          "length": 4,
+          "clue": "Snare"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Mountain"
+          "clue": "The ones over there"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Hand greeting"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Wise bird"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Dog or cat, often"
+          "clue": "Single"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Person over eighteen"
+          "clue": "Demonstrate"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Jog quickly"
+          "length": 4,
+          "clue": "Comfort"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Past of meet"
+          "clue": "Mimic"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Taller ___ me"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Floor-cleaning tool"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Be in debt"
+          "clue": "Pair"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ARM",
-      "##DUE",
-      "MOUNT",
-      "OWL##",
-      "PET##"
+      "##PEA",
+      "#TRAP",
+      "THOSE",
+      "WAVE#",
+      "ONE##"
     ]
   }
 }

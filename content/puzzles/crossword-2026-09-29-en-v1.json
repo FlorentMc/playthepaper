@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Plant container"
+          "clue": "Forbid"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Fresh ___"
+          "clue": "Fib"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Answer"
+          "clue": "Separated"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "___ you ready?"
+          "clue": "Wall that holds back a river"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Black sticky substance"
+          "clue": "Change the colour of fabric"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Newspaper"
+          "clue": "Fault"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Slippery liquid"
+          "clue": "Fresh ___"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Attempt"
+          "clue": "Fishing mesh"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Rodent with a long tail"
+          "clue": "Total up"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Wages"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##POT",
-      "##AIR",
-      "REPLY",
-      "ARE##",
-      "TAR##"
+      "##BAN",
+      "##LIE",
+      "APART",
+      "DAM##",
+      "DYE##"
     ]
   }
 }

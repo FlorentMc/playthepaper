@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Afternoon cuppa"
+          "clue": "Put to work"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Casual conversation"
+          "clue": "Trunk and branches"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Hesitate"
+          "clue": "Tag"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Military land force"
+          "clue": "School test"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Spider's creation"
+          "clue": "Metal in a can"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Digit for hitchhiking"
+          "clue": "Of the city"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Not difficult"
+          "clue": "Appear to be"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Had dinner"
+          "clue": "Snake-like fish"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Concern"
+          "clue": "Hired car with a meter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Dog's foot"
+          "clue": "Allow"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TEA",
-      "#CHAT",
-      "PAUSE",
-      "ARMY#",
-      "WEB##"
+      "##USE",
+      "#TREE",
+      "LABEL",
+      "EXAM#",
+      "TIN##"
     ]
   }
 }

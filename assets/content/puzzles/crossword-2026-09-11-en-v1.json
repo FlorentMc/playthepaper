@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Night bird that hoots"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 4,
-          "clue": "Deserve"
+          "clue": "Leg's end"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Pointer sign"
+          "clue": "Sharpen an image"
         },
         {
           "number": 8,
           "row": 3,
           "col": 1,
           "length": 4,
-          "clue": "Measured amount of medicine"
+          "clue": "Narrow road"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Colour of a stop sign"
+          "clue": "Allow"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Not on"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 4,
-          "clue": "Difficult"
+          "clue": "Sheep's fleece"
         },
         {
           "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Mistake"
+          "clue": "Nearby"
         },
         {
           "number": 5,
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "Face's central feature"
+          "clue": "Adjust an instrument"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Marry"
+          "clue": "Put in place"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "SHE##",
-      "EARN#",
-      "ARROW",
-      "#DOSE",
-      "##RED"
+      "OWL##",
+      "FOOT#",
+      "FOCUS",
+      "#LANE",
+      "##LET"
     ]
   }
 }

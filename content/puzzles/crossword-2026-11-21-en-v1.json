@@ -22,28 +22,28 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Excessively"
+          "clue": "Bacon source"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Jog quickly"
+          "clue": "Pub pint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Informed"
+          "clue": "Person over eighteen"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Stack of paper for notes"
+          "clue": "Used to be"
         },
         {
           "number": 8,
@@ -59,45 +59,45 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Buying and selling"
+          "clue": "Brief stop"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "___ house"
+          "clue": "Unwell"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Receive"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Mimic"
+          "clue": "Feeling before a grand view"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Route"
+          "clue": "Twenty-four hours"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##TOO",
-      "##RUN",
-      "AWARE",
-      "PAD##",
+      "##PIG",
+      "##ALE",
+      "ADULT",
+      "WAS##",
       "EYE##"
     ]
   }

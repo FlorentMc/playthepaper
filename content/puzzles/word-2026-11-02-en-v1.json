@@ -8,10 +8,14 @@
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
     "length": 6,
-    "firstLetter": "D",
-    "maxGuesses": 6
+    "firstLetter": "V",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about islands on the equator."
   },
   "reveal": {
-    "answer": "DOUBLE"
-  }
+    "answer": "VOYAGE",
+    "storyId": "nature-1-galapagos",
+    "excerpt": "Darwin's voyage on HMS Beagle was part of an extensive British survey of the coasts of South America."
+  },
+  "storyId": "nature-1-galapagos"
 }

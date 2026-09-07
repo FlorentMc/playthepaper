@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Slice"
+          "clue": "Period of history"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Pine tree's seed case"
+          "clue": "Blueprint"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Simple"
+          "clue": "Regular practice"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Where the sun rises"
+          "clue": "Small screen symbol"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Fitting or suitable"
+          "clue": "Morning moisture on grass"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Shoreline"
+          "clue": "Arm joint"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Drops from clouds"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Picnic pest"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Applaud"
+          "clue": "Speed of walking"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Small green vegetable"
+          "clue": "Concealed"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CUT",
-      "#CONE",
-      "PLAIN",
-      "EAST#",
-      "APT##"
+      "##ERA",
+      "#PLAN",
+      "HABIT",
+      "ICON#",
+      "DEW##"
     ]
   }
 }

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Age or epoch"
+          "clue": "Number of wheels on a bike"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Stumble"
+          "clue": "Bank advance"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Cool spot out of the sun"
+          "clue": "Name of a book"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Comfort"
+          "clue": "Egg shape"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Had dinner"
+          "clue": "Snake-like fish"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Rub out"
+          "clue": "Sum"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Travel on horseback"
+          "clue": "Room divider"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Gorilla or chimp"
+          "clue": "Single"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "___ is the question"
+          "clue": "Reside"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Salt water expanse"
+          "clue": "Sock's end"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##ERA",
-      "#TRIP",
-      "SHADE",
-      "EASE#",
-      "ATE##"
+      "##TWO",
+      "#LOAN",
+      "TITLE",
+      "OVAL#",
+      "EEL##"
     ]
   }
 }

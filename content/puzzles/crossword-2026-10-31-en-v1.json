@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Trophy for a champion"
+          "clue": "Slide down a snowy slope"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shade of colour"
+          "clue": "Beard's home"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Coach for a race"
+          "clue": "Follow the trail of"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Compass point opposite west"
+          "clue": "Job"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Fitting or suitable"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -59,46 +59,46 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Shoreline"
+          "clue": "Divide up"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Boot a ball"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Ink holder"
+          "clue": "Printer cartridge contents"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Snare"
+          "clue": "Black bird with a caw"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Hot drink with a bag"
+          "clue": "Pair"
         }
       ]
     }
   },
   "reveal": {
     "solution": [
-      "##CUP",
-      "#TONE",
-      "TRAIN",
-      "EAST#",
-      "APT##"
+      "##SKI",
+      "#CHIN",
+      "TRACK",
+      "WORK#",
+      "OWE##"
     ]
   }
 }
