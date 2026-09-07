@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-11-21-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-11-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Excessively"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Jog quickly"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Informed"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Stack of paper for notes"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Needle's hole"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Buying and selling"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "___ house"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Lowest whole number above zero"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Mimic"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Route"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "##TOO",
+      "##RUN",
+      "AWARE",
+      "PAD##",
+      "EYE##"
+    ]
+  }
+}

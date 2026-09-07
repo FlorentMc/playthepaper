@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-11-02-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-11-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Pose a question"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Notice with the eyes"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Unpleasant"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Need to pay back"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Not dry"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Useful quality"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Put in place"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Door opener"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "At this moment"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Wonder and amazement"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "##ASK",
+      "##SEE",
+      "NASTY",
+      "OWE##",
+      "WET##"
+    ]
+  }
+}

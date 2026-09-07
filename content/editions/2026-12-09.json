@@ -1,0 +1,46 @@
+{
+  "date": "2026-12-09",
+  "kind": "evergreen",
+  "label": "Evergreen · Technology",
+  "version": 1,
+  "puzzles": [
+    "word-2026-12-09-en-v1",
+    "sudoku-2026-12-09-en-easy-v1",
+    "sudoku-2026-12-09-en-medium-v1",
+    "sudoku-2026-12-09-en-hard-v1",
+    "letters-2026-12-09-en-v1",
+    "crossword-2026-12-09-en-v1",
+    "correct-2026-12-09-en-v1",
+    "number-2026-12-09-en-v1",
+    "where-2026-12-09-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "technology-1-correct",
+      "game": "correct",
+      "headline": "Twelve seconds that began the age of flight",
+      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered, heavier-than-air aircraft, near Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 37 metres; the fourth and last of the day, flown by Wilbur, stayed up for 59 seconds and covered 260 metres.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-number",
+      "game": "number",
+      "headline": "The first microprocessor you could buy",
+      "summary": "The Intel 4004, released on 15 November 1971, was the first commercially available microprocessor sold as a component. It held 2,300 transistors and ran at up to 740 to 750 kHz. Its 16-bit successor of 1978, the 8086, used about 20,000 active transistors.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-where",
+      "game": "where",
+      "headline": "A staircase of water across an isthmus",
+      "summary": "The Panama Canal is an artificial 82-kilometre waterway that connects the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, and its locks lift ships up to Gatun Lake, 26 metres above sea level, and down again on the other side.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "publishedAt": "evergreen"
+    }
+  ]
+}

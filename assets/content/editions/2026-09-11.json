@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-11",
+  "kind": "evergreen",
+  "label": "Evergreen · Discovery",
+  "version": 1,
+  "puzzles": [
+    "word-2026-09-11-en-v1",
+    "sudoku-2026-09-11-en-easy-v1",
+    "sudoku-2026-09-11-en-medium-v1",
+    "sudoku-2026-09-11-en-hard-v1",
+    "letters-2026-09-11-en-v1",
+    "crossword-2026-09-11-en-v1",
+    "correct-2026-09-11-en-v1",
+    "number-2026-09-11-en-v1",
+    "where-2026-09-11-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "discovery-1-correct",
+      "game": "correct",
+      "headline": "A contaminated plate, a holiday, and the first antibiotic",
+      "summary": "On 3 September 1928, Alexander Fleming returned from a family holiday to his laboratory at St Mary's Hospital in London and noticed that a fungus had destroyed the staphylococci around it on a culture plate. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "discovery-1-number",
+      "game": "number",
+      "headline": "The deepest point in the ocean, measured to the metre",
+      "summary": "The Challenger Deep, at the southern end of the Mariana Trench in the western Pacific, is the deepest known point of the seabed at 10,935 metres, give or take about six metres. The first descent was made by the bathyscaphe Trieste in January 1960.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "discovery-1-where",
+      "game": "where",
+      "headline": "The valley where the pharaohs were laid to rest",
+      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern city of Luxor. Its tombs were cut for the rulers of Egypt's New Kingdom, and in November 1922 Howard Carter found the tomb of Tutankhamun there.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+      "publishedAt": "evergreen"
+    }
+  ]
+}

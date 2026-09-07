@@ -1,0 +1,32 @@
+{
+  "id": "number-2026-10-25-en-v1",
+  "game": "number",
+  "editionDate": "2026-10-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "question": "How tall was the Great Pyramid of Giza when it was built?",
+    "unit": "metres",
+    "min": 50,
+    "max": 300,
+    "step": 0.1,
+    "comparison": "Each side of its square base measures about 230.3 metres."
+  },
+  "reveal": {
+    "answer": 146.6,
+    "context": "Initially standing at 146.6 metres, the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Built around 2600 BC as the tomb of the pharaoh Khufu, it lost most of its smooth white limestone casing over time, which lowered it to the current 138.5 metres.",
+    "scoring": {
+      "perfectPct": 3,
+      "zeroPct": 40
+    }
+  },
+  "storyId": "history-1-number",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "excerpt": "Initially standing at 146.6 metres (481 feet), the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft). Each side of the base was measured to be about 230.3 metres (755.6 ft) in length. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu; it was built c. 2600 BC over a period of about 26 years."
+    }
+  ]
+}

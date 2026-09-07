@@ -1,0 +1,29 @@
+{
+  "id": "where-2026-11-17-en-v1",
+  "game": "where",
+  "editionDate": "2026-11-17",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "The world's largest particle accelerator runs through a 27 km circular tunnel about 100 metres underground, on the border between two countries.",
+      "The laboratory was established in 1954 in a western suburb of a city on the France–Switzerland border, and the World Wide Web was invented there in 1989."
+    ]
+  },
+  "reveal": {
+    "lat": 46.233,
+    "lon": 6.056,
+    "placeName": "CERN, Meyrin, near Geneva",
+    "acceptRadiusKm": 250,
+    "explanation": "CERN is based in Meyrin, a western suburb of Geneva, on the France–Switzerland border. Established in 1954, it runs the Large Hadron Collider in a 27 km tunnel about 100 metres underground; the World Wide Web was invented there by Tim Berners-Lee in 1989."
+  },
+  "storyId": "science-1-where",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CERN",
+      "excerpt": "CERN, established in 1954, is based in Meyrin, a western suburb of Geneva, on the France–Switzerland border (46.2330°N 6.0556°E). The LHC uses the 27 km circumference circular tunnel, located 100 metres underground. In 1989, the World Wide Web was invented at CERN by Tim Berners-Lee."
+    }
+  ]
+}

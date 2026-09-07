@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-10-24-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-10-24",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Colour of ripe tomatoes"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Rowboat propeller"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Float along"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Neither's partner"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Piano part"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Fishing pole"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Corn unit"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Swallow liquid"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Enemy"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Have a go"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "RED##",
+      "OAR##",
+      "DRIFT",
+      "##NOR",
+      "##KEY"
+    ]
+  }
+}

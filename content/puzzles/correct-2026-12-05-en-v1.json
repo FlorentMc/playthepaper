@@ -1,0 +1,49 @@
+{
+  "id": "correct-2026-12-05-en-v1",
+  "game": "correct",
+  "editionDate": "2026-12-05",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "dispatch": "The black core of a pencil is graphite, not lead, and has never contained the element lead. A large deposit of graphite was discovered at Borrowdale in Cumbria, England, in 1765. In 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+    "details": [
+      "Cumbria",
+      "1765",
+      "1795",
+      "30 March 1858"
+    ],
+    "options": [
+      "1565",
+      "1765",
+      "1665",
+      "1865"
+    ],
+    "evidence": [
+      {
+        "title": "Borrowdale",
+        "text": "In 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England.",
+        "source": "Wikipedia: Pencil"
+      },
+      {
+        "title": "Clay, kilns and erasers",
+        "text": "In 1795, Nicolas-Jacques Conté discovered a method of mixing powdered graphite with clay and forming the mixture into rods that were then fired in a kiln. On 30 March 1858, Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+        "source": "Wikipedia: Pencil"
+      }
+    ],
+    "maxAttempts": 3
+  },
+  "reveal": {
+    "alteredDetail": 1,
+    "correctOption": 0,
+    "explanation": "The Borrowdale graphite was found in 1565, two centuries before the dispatch's date. Conté's clay process of 1795 and Lipman's eraser patent of 30 March 1858 are correct."
+  },
+  "storyId": "everyday-1-correct",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pencil",
+      "excerpt": "The black core of pencils is still referred to as lead, even though it never contained the element lead. In 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England. In 1795, Nicolas-Jacques Conté discovered a method of mixing powdered graphite with clay and forming the mixture into rods that were then fired in a kiln. On 30 March 1858, Hymen Lipman received the first patent for attaching an eraser to the end of a pencil."
+    }
+  ]
+}

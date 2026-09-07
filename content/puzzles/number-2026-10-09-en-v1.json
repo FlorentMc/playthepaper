@@ -1,0 +1,37 @@
+{
+  "id": "number-2026-10-09-en-v1",
+  "game": "number",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "question": "How deep is the Challenger Deep, the deepest known point of the ocean?",
+    "unit": "metres",
+    "min": 2000,
+    "max": 20000,
+    "step": 5,
+    "comparison": "Mount Everest rises 8,848.86 metres above sea level."
+  },
+  "reveal": {
+    "answer": 10935,
+    "context": "A 2021 study put the Challenger Deep at 10,935 metres below sea level, give or take about six metres. It lies in the western Pacific at the southern end of the Mariana Trench. If Everest were set on the seabed there, its summit would still be more than two kilometres under water.",
+    "scoring": {
+      "perfectPct": 3,
+      "zeroPct": 40
+    }
+  },
+  "storyId": "discovery-1-number",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
+      "excerpt": "The Challenger Deep is the deepest known point of the seabed of Earth, located in the western Pacific Ocean at the southern end of the Mariana Trench, with a depth of 10,935 ± 6 m (35,876 ± 20 ft) below sea level according to a 2021 study. The first descent by any vehicle was conducted by the United States Navy using the bathyscaphe Trieste in January 1960."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "Its height was most recently measured in 2020 through a joint survey by Nepalese and Chinese authorities as 8,848.86 m (29,031 ft 8+1/2 in)."
+    }
+  ]
+}

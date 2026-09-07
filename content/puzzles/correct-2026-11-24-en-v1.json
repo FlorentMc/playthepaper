@@ -1,0 +1,59 @@
+{
+  "id": "correct-2026-11-24-en-v1",
+  "game": "correct",
+  "editionDate": "2026-11-24",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "dispatch": "Light travels through a vacuum at exactly 299,792,458 metres per second, a figure fixed by definition since 1983, when the metre was redefined in terms of it. At that speed, light from the Moon reaches Earth in about 13 seconds, and light from the Sun takes about 8.3 minutes to arrive.",
+    "details": [
+      "299,792,458 metres per second",
+      "1983",
+      "13 seconds",
+      "8.3 minutes"
+    ],
+    "options": [
+      "1.3 seconds",
+      "13 seconds",
+      "0.13 seconds",
+      "3 minutes"
+    ],
+    "evidence": [
+      {
+        "title": "Two distances",
+        "text": "The Moon's average distance from Earth is 384,399 km. The Sun lies one astronomical unit away: 149,597,870.7 km.",
+        "source": "Wikipedia: Lunar distance; Astronomical unit"
+      },
+      {
+        "title": "Fixed by definition",
+        "text": "In 1983 the metre was defined as the length of the path travelled by light in vacuum during a time interval of 1/299,792,458 of a second.",
+        "source": "Wikipedia: Speed of light"
+      }
+    ],
+    "maxAttempts": 3
+  },
+  "reveal": {
+    "alteredDetail": 2,
+    "correctOption": 0,
+    "explanation": "Divide the Moon's distance by the speed of light: 384,399 km at 299,792 km per second is about 1.3 seconds, not 13. The same sum for the Sun gives roughly 499 seconds, or 8.3 minutes."
+  },
+  "storyId": "science-1-correct",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_light",
+      "excerpt": "The speed of light is exactly equal to 299,792,458 metres per second. Light takes about 1.3 s from the Moon to Earth and about 8.3 min from the Sun to Earth. In 1983 the metre was defined as the length of the path travelled by light in vacuum during a time interval of 1/299,792,458 of a second."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lunar_distance",
+      "excerpt": "A lunar distance, 384,399 km (238,854 mi), is the Moon's average distance to Earth. The average lunar distance is approximately 385,000 km, or 1.3 light-seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astronomical_unit",
+      "excerpt": "1 astronomical unit = 149,597,870.700 kilometres (exactly), roughly the average Earth–Sun distance."
+    }
+  ]
+}

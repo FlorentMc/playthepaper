@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local verification artefacts
+.playwright-mcp/
+*.png
+!web/**/*.png
+!android/**/*.png
+!ios/**/*.png
+!assets/**/*.png

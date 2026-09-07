@@ -1,6 +1,7 @@
 import 'package:daypencil/content/models.dart';
 import 'package:daypencil/core/game_kind.dart';
 import 'package:daypencil/engines/correct/correct_engine.dart';
+import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
 import 'package:daypencil/engines/letters/letters.dart';
 import 'package:daypencil/engines/number/number_engine.dart';
 import 'package:daypencil/engines/sudoku/sudoku.dart';
@@ -29,6 +30,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.word: (r) => WordPuzzle.parse(r.payload, r.reveal),
   GameKind.sudoku: (r) => SudokuPuzzle.parse(r.payload, r.reveal),
   GameKind.letters: (r) => LettersPuzzle.parse(r.payload, r.reveal),
+  GameKind.crossword: (r) => CrosswordPuzzle.parse(r.payload, r.reveal),
   GameKind.correct: (r) => CorrectReveal.parse(r.reveal, CorrectPuzzle.parse(r.payload)),
   GameKind.number: (r) => NumberReveal.parse(r.reveal, NumberPuzzle.parse(r.payload)),
   GameKind.where: (r) {

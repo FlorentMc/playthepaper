@@ -1,0 +1,50 @@
+{
+  "id": "correct-2026-11-18-en-v1",
+  "game": "correct",
+  "editionDate": "2026-11-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "dispatch": "On 17 December 1903, near Kitty Hawk, North Carolina, the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft. The first of the day's four flights lasted 12 seconds and covered 370 metres; the fourth and last, with Wilbur at the controls, stayed up for 59 seconds and covered 260 metres.",
+    "details": [
+      "17 December 1903",
+      "12 seconds",
+      "370 metres",
+      "59 seconds",
+      "260 metres"
+    ],
+    "options": [
+      "37 metres",
+      "370 metres",
+      "3.7 metres",
+      "137 metres"
+    ],
+    "evidence": [
+      {
+        "title": "The first flight",
+        "text": "Orville took his turn at the controls. His flight, captured in a famous photograph, lasted 12 seconds for a total distance of 120 feet (37 m).",
+        "source": "Wikipedia: Wright Flyer"
+      },
+      {
+        "title": "The longest of the day",
+        "text": "The Wright brothers flew the machine four times on December 17, 1903. The fourth and last flight, by Wilbur, took 59 seconds to cover 852 feet (260 m) over the ground.",
+        "source": "Wikipedia: Wright Flyer"
+      }
+    ],
+    "maxAttempts": 3
+  },
+  "reveal": {
+    "alteredDetail": 2,
+    "correctOption": 0,
+    "explanation": "The first flight covered 120 feet, about 37 metres, not 370. A 370-metre hop in 12 seconds would also have outrun the fourth and longest flight of the day, which covered 260 metres in 59 seconds."
+  },
+  "storyId": "technology-1-correct",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "excerpt": "The Wright Flyer made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. The Wright brothers flew it four times in a location now part of the town of Kill Devil Hills, about 4 miles (6 kilometers) south of Kitty Hawk, North Carolina. His flight, captured in a famous photograph, lasted 12 seconds for a total distance of 120 feet (37 m). The fourth and last flight, by Wilbur, took 59 seconds to cover 852 feet (260 m) over the ground."
+    }
+  ]
+}

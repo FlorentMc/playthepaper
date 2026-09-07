@@ -1,0 +1,37 @@
+{
+  "id": "number-2026-11-09-en-v1",
+  "game": "number",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "question": "How tall is Angel Falls in Venezuela, the world's tallest uninterrupted waterfall?",
+    "unit": "metres",
+    "min": 100,
+    "max": 2000,
+    "step": 1,
+    "comparison": "Horseshoe Falls, the largest of the falls at Niagara, stands about 57 metres high."
+  },
+  "reveal": {
+    "answer": 979,
+    "context": "Angel Falls drops 979 metres over the edge of the Auyán-tepui mountain in Canaima National Park, Venezuela, with an uninterrupted plunge of 807 metres. That is roughly seventeen times the height of Horseshoe Falls at Niagara.",
+    "scoring": {
+      "perfectPct": 3,
+      "zeroPct": 50
+    }
+  },
+  "storyId": "nature-1-number",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
+      "excerpt": "Angel Falls is a waterfall in Venezuela with a height of 979 metres (3,212 ft) and a plunge of 807 m (2,648 ft). It is the world's tallest uninterrupted waterfall. The waterfall drops over the edge of the Auyán-tepui mountain in the Canaima National Park."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
+      "excerpt": "Horseshoe Falls stands about 57 m (187 ft) high."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-31",
+  "kind": "evergreen",
+  "label": "Evergreen · Everyday",
+  "version": 1,
+  "puzzles": [
+    "word-2026-10-31-en-v1",
+    "sudoku-2026-10-31-en-easy-v1",
+    "sudoku-2026-10-31-en-medium-v1",
+    "sudoku-2026-10-31-en-hard-v1",
+    "letters-2026-10-31-en-v1",
+    "crossword-2026-10-31-en-v1",
+    "correct-2026-10-31-en-v1",
+    "number-2026-10-31-en-v1",
+    "where-2026-10-31-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "everyday-1-correct",
+      "game": "correct",
+      "headline": "Why there has never been any lead in a pencil",
+      "summary": "The black core of a pencil is graphite and has never contained the element lead. A large deposit of graphite was discovered at Borrowdale in Cumbria in 1565; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire it, and in 1858 Hymen Lipman patented the pencil with an eraser on the end.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pencil",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "everyday-1-number",
+      "game": "number",
+      "headline": "Every tile in the box: the arithmetic of a domino set",
+      "summary": "The traditional European domino set has 28 tiles, showing every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles, a double-twelve set 91.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dominoes",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "everyday-1-where",
+      "game": "where",
+      "headline": "The hill where the world's clocks are set",
+      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the Thames. Commissioned by Charles II in 1675, it gave its name to Greenwich Mean Time after the 1884 International Meridian Conference in Washington chose the meridian through it as the world's prime meridian.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+      "publishedAt": "evergreen"
+    }
+  ]
+}

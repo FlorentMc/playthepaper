@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-15",
+  "kind": "evergreen",
+  "label": "Evergreen · Science",
+  "version": 1,
+  "puzzles": [
+    "word-2026-09-15-en-v1",
+    "sudoku-2026-09-15-en-easy-v1",
+    "sudoku-2026-09-15-en-medium-v1",
+    "sudoku-2026-09-15-en-hard-v1",
+    "letters-2026-09-15-en-v1",
+    "crossword-2026-09-15-en-v1",
+    "correct-2026-09-15-en-v1",
+    "number-2026-09-15-en-v1",
+    "where-2026-09-15-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "science-1-correct",
+      "game": "correct",
+      "headline": "Fast, but never instant: what the speed of light really means",
+      "summary": "Light in a vacuum moves at exactly 299,792,458 metres per second, a value fixed by definition when the metre was redefined in 1983. Even at that speed, moonlight is about 1.3 seconds old when it reaches us, and sunlight about 8.3 minutes old.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_light",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "science-1-number",
+      "game": "number",
+      "headline": "Counting the bones of the adult skeleton",
+      "summary": "A newborn has around 270 bones. Many fuse together during growth, so an adult is left with around 206: 80 in the axial skeleton of skull, spine and ribcage, and 126 in the limbs and girdles.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_skeleton",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "science-1-where",
+      "game": "where",
+      "headline": "The laboratory beneath the Franco-Swiss border",
+      "summary": "CERN, established in 1954 in Meyrin, a western suburb of Geneva, runs the Large Hadron Collider in a 27 km tunnel about 100 metres underground. The World Wide Web was invented there by Tim Berners-Lee in 1989.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CERN",
+      "publishedAt": "evergreen"
+    }
+  ]
+}

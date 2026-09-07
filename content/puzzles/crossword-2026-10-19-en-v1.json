@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-10-19-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-10-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Not on"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "What we breathe"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Court case"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Age or epoch"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Drops on a lawn at dawn"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Grain in muesli"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Christmas tree, often"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Like an egg in a pan"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "___ you ready?"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Rule passed by parliament"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "OFF##",
+      "AIR##",
+      "TRIAL",
+      "##ERA",
+      "##DEW"
+    ]
+  }
+}

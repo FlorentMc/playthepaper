@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-09-26-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-09-26",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Unruly crowd"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Wonder and amazement"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Passing away"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Notice with the eyes"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Sunbather's goal"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Crazy"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Be in debt"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Wild animal"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Afternoon cuppa"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Female chicken"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "MOB##",
+      "AWE##",
+      "DEATH",
+      "##SEE",
+      "##TAN"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "where-2026-12-02-en-v1",
+  "game": "where",
+  "editionDate": "2026-12-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "An artificial waterway 82 km long, formally opened in 1914, carries ships between the Caribbean Sea and the Pacific Ocean.",
+      "Its locks raise vessels 26 metres up to an artificial lake in the middle of an isthmus, then lower them again on the far side."
+    ]
+  },
+  "reveal": {
+    "lat": 9.117,
+    "lon": -79.75,
+    "placeName": "Panama Canal, Panama",
+    "acceptRadiusKm": 400,
+    "explanation": "The Panama Canal is an artificial 82-kilometre waterway in Panama connecting the Caribbean Sea with the Pacific Ocean. Formally opened on 15 August 1914, it lifts ships through locks to Gatun Lake, 26 metres above sea level, and lowers them on the opposite side."
+  },
+  "storyId": "technology-1-where",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "excerpt": "The Panama Canal (9°07′N 79°45′W) is an artificial 82-kilometer (51-mile) waterway in Panama that connects the Caribbean Sea with the Pacific Ocean. The canal was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level."
+    }
+  ]
+}

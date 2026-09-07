@@ -1,0 +1,104 @@
+{
+  "id": "crossword-2026-10-28-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-10-28",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Place for experiments"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Years lived"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "___ bear"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Need to pay back"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Marry"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Once around the track"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "In the past"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Opposite of above"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Feeling before a grand view"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Colour of ripe tomatoes"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "solution": [
+      "LAB##",
+      "AGE##",
+      "POLAR",
+      "##OWE",
+      "##WED"
+    ]
+  }
+}

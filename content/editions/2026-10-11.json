@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-11",
+  "kind": "evergreen",
+  "label": "Evergreen · History",
+  "version": 1,
+  "puzzles": [
+    "word-2026-10-11-en-v1",
+    "sudoku-2026-10-11-en-easy-v1",
+    "sudoku-2026-10-11-en-medium-v1",
+    "sudoku-2026-10-11-en-hard-v1",
+    "letters-2026-10-11-en-v1",
+    "crossword-2026-10-11-en-v1",
+    "correct-2026-10-11-en-v1",
+    "number-2026-10-11-en-v1",
+    "where-2026-10-11-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "history-1-correct",
+      "game": "correct",
+      "headline": "Forty-two lines to a page: the book that started the press",
+      "summary": "The Gutenberg Bible, printed by Johannes Gutenberg in Mainz in the 1450s, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible. A complete copy has 1,288 pages, and as of 2009, 49 copies were known to survive, 25 of them complete.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "history-1-number",
+      "game": "number",
+      "headline": "The tallest thing on Earth for 3,700 years",
+      "summary": "The Great Pyramid of Giza, built around 2600 BC as the tomb of the pharaoh Khufu, originally stood 146.6 metres tall and remained the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "history-1-where",
+      "game": "where",
+      "headline": "A citadel on a ridge above the Urubamba",
+      "summary": "Machu Picchu is a 15th-century Inca citadel set on a mountain ridge at 2,430 metres, about 80 km north-west of Cusco, with the Urubamba River curving round it below. It is estimated to have been built around 1450 and is believed to have served as an estate for the Inca emperor Pachacuti.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "publishedAt": "evergreen"
+    }
+  ]
+}

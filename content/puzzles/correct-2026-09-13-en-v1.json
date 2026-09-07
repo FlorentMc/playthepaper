@@ -1,0 +1,50 @@
+{
+  "id": "correct-2026-09-13-en-v1",
+  "game": "correct",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "dispatch": "Johannes Gutenberg printed his Latin Bible in Mainz in the 1450s, the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 32 lines of text, which gives the edition its other name. A complete copy runs to 1,288 pages, usually bound in two volumes, and as of 2009, 49 copies were known to survive, of which 25 are complete.",
+    "details": [
+      "1450s",
+      "32 lines",
+      "1,288 pages",
+      "49 copies",
+      "25 are complete"
+    ],
+    "options": [
+      "42 lines",
+      "32 lines",
+      "52 lines",
+      "22 lines"
+    ],
+    "evidence": [
+      {
+        "title": "Lines per page",
+        "text": "Some time later, after more sheets had been printed, the number of lines per page was increased from 40 to 42, presumably to save paper. The edition is also known as the 42-line Bible, or B42.",
+        "source": "Wikipedia: Gutenberg Bible"
+      },
+      {
+        "title": "Pages and survivors",
+        "text": "A single complete copy of the Gutenberg Bible has 1,288 pages, usually bound in two volumes. As of 2009, 49 Gutenberg Bibles are known to exist, but of these only 25 are complete.",
+        "source": "Wikipedia: Gutenberg Bible"
+      }
+    ],
+    "maxAttempts": 3
+  },
+  "reveal": {
+    "alteredDetail": 1,
+    "correctOption": 0,
+    "explanation": "It is the 42-line Bible: after the first sheets were printed with 40 lines, Gutenberg increased the count to 42 a page. The 1,288 pages and the 49 surviving copies, 25 of them complete, are correct."
+  },
+  "storyId": "history-1-correct",
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "excerpt": "The Gutenberg Bible, also known as the 42-line Bible, the Mazarin Bible or the B42, is an edition of the Latin Vulgate printed in the 1450s by Johannes Gutenberg in Mainz; it was the earliest major book printed in Europe using mass-produced metal movable type. Some time later, after more sheets had been printed, the number of lines per page was increased from 40 to 42, presumably to save paper. A single complete copy of the Gutenberg Bible has 1,288 pages (usually bound in two volumes). As of 2009, 49 Gutenberg Bibles are known to exist, but of these only 25 are complete."
+    }
+  ]
+}
