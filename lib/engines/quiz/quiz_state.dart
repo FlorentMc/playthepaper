@@ -8,11 +8,11 @@ class QuizState extends Equatable {
   const QuizState._({required this.puzzle, required this.answers, required this.staked});
 
   QuizState.initial(QuizPuzzle puzzle)
-      : this._(
-          puzzle: puzzle,
-          answers: List<int?>.unmodifiable(List<int?>.filled(puzzle.questions.length, null)),
-          staked: false,
-        );
+    : this._(
+        puzzle: puzzle,
+        answers: List<int?>.unmodifiable(List<int?>.filled(puzzle.questions.length, null)),
+        staked: false,
+      );
 
   final QuizPuzzle puzzle;
 
@@ -83,11 +83,13 @@ class QuizState extends Equatable {
     final buffer = StringBuffer();
     for (var i = 0; i < answers.length; i++) {
       if (staked && isWager(i)) buffer.write('⭐');
-      buffer.write(!isAnswered(i)
-          ? '⬜'
-          : isCorrect(i)
-              ? '🟩'
-              : '🟥');
+      buffer.write(
+        !isAnswered(i)
+            ? '⬜'
+            : isCorrect(i)
+            ? '🟩'
+            : '🟥',
+      );
     }
     return buffer.toString();
   }
@@ -128,4 +130,46 @@ class QuizState extends Equatable {
 
   @override
   List<Object?> get props => [puzzle, answers, staked];
+}
+
+/// Right or wrong per question and the stake flag: what a [QuizState.shareLine]
+/// carries. Lets a finished quiz be shown after its progress is gone.
+class QuizMarks extends Equatable {
+  const QuizMarks({required this.marks, required this.staked});
+
+  QuizMarks.of(QuizState state)
+    : this(
+        marks: List.unmodifiable([
+          for (var i = 0; i < state.answers.length; i++) state.isAnswered(i) ? state.isCorrect(i) : null,
+        ]),
+        staked: state.staked,
+      );
+
+  /// Reads a share line back. Unknown characters are ignored.
+  static QuizMarks parse(String shareLine) {
+    final marks = <bool?>[];
+    var staked = false;
+    for (final rune in shareLine.runes) {
+      switch (String.fromCharCode(rune)) {
+        case '🟩':
+          marks.add(true);
+        case '🟥':
+          marks.add(false);
+        case '⬜':
+          marks.add(null);
+        case '⭐':
+          staked = true;
+      }
+    }
+    return QuizMarks(marks: List.unmodifiable(marks), staked: staked);
+  }
+
+  /// True when right, false when wrong, null when unanswered.
+  final List<bool?> marks;
+  final bool staked;
+
+  bool? operator [](int i) => i < marks.length ? marks[i] : null;
+
+  @override
+  List<Object?> get props => [marks, staked];
 }

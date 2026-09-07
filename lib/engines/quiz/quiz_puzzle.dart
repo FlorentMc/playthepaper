@@ -117,9 +117,9 @@ class QuizPuzzle extends Equatable {
   }
 
   Map<String, dynamic> toPayload() => {
-        'questions': questions.map((q) => q.toJson()).toList(),
-        'wagerQuestion': wagerQuestion,
-      };
+    'questions': questions.map((q) => q.toJson()).toList(),
+    'wagerQuestion': wagerQuestion,
+  };
 
   Map<String, dynamic> toReveal() => {'answers': answers, 'explanations': explanations};
 
