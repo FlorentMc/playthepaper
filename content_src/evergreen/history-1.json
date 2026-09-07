@@ -1,0 +1,111 @@
+{
+  "slug": "history-1",
+  "label": "Evergreen · History",
+  "stories": [
+    {
+      "id": "history-1-correct",
+      "game": "correct",
+      "headline": "Forty-two lines to a page: the book that started the press",
+      "summary": "The Gutenberg Bible, printed by Johannes Gutenberg in Mainz in the 1450s, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible. A complete copy has 1,288 pages, and as of 2009, 49 copies were known to survive, 25 of them complete.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "history-1-number",
+      "game": "number",
+      "headline": "The tallest thing on Earth for 3,700 years",
+      "summary": "The Great Pyramid of Giza, built around 2600 BC as the tomb of the pharaoh Khufu, originally stood 146.6 metres tall and remained the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "history-1-where",
+      "game": "where",
+      "headline": "A citadel on a ridge above the Urubamba",
+      "summary": "Machu Picchu is a 15th-century Inca citadel set on a mountain ridge at 2,430 metres, about 80 km north-west of Cusco, with the Urubamba River curving round it below. It is estimated to have been built around 1450 and is believed to have served as an estate for the Inca emperor Pachacuti.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "publishedAt": "evergreen"
+    }
+  ],
+  "puzzles": {
+    "correct": {
+      "payload": {
+        "dispatch": "Johannes Gutenberg printed his Latin Bible in Mainz in the 1450s, the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 32 lines of text, which gives the edition its other name. A complete copy runs to 1,288 pages, usually bound in two volumes, and as of 2009, 49 copies were known to survive, of which 25 are complete.",
+        "details": ["1450s", "32 lines", "1,288 pages", "49 copies", "25 are complete"],
+        "options": ["42 lines", "32 lines", "52 lines", "22 lines"],
+        "evidence": [
+          {
+            "title": "Lines per page",
+            "text": "Some time later, after more sheets had been printed, the number of lines per page was increased from 40 to 42, presumably to save paper. The edition is also known as the 42-line Bible, or B42.",
+            "source": "Wikipedia: Gutenberg Bible"
+          },
+          {
+            "title": "Pages and survivors",
+            "text": "A single complete copy of the Gutenberg Bible has 1,288 pages, usually bound in two volumes. As of 2009, 49 Gutenberg Bibles are known to exist, but of these only 25 are complete.",
+            "source": "Wikipedia: Gutenberg Bible"
+          }
+        ],
+        "maxAttempts": 3
+      },
+      "reveal": {
+        "alteredDetail": 1,
+        "correctOption": 0,
+        "explanation": "It is the 42-line Bible: after the first sheets were printed with 40 lines, Gutenberg increased the count to 42 a page. The 1,288 pages and the 49 surviving copies, 25 of them complete, are correct."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+          "excerpt": "The Gutenberg Bible, also known as the 42-line Bible, the Mazarin Bible or the B42, is an edition of the Latin Vulgate printed in the 1450s by Johannes Gutenberg in Mainz; it was the earliest major book printed in Europe using mass-produced metal movable type. Some time later, after more sheets had been printed, the number of lines per page was increased from 40 to 42, presumably to save paper. A single complete copy of the Gutenberg Bible has 1,288 pages (usually bound in two volumes). As of 2009, 49 Gutenberg Bibles are known to exist, but of these only 25 are complete."
+        }
+      ]
+    },
+    "number": {
+      "payload": {
+        "question": "How tall was the Great Pyramid of Giza when it was built?",
+        "unit": "metres",
+        "min": 50,
+        "max": 300,
+        "step": 0.1,
+        "comparison": "Each side of its square base measures about 230.3 metres."
+      },
+      "reveal": {
+        "answer": 146.6,
+        "context": "Initially standing at 146.6 metres, the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Built around 2600 BC as the tomb of the pharaoh Khufu, it lost most of its smooth white limestone casing over time, which lowered it to the current 138.5 metres.",
+        "scoring": {"perfectPct": 3, "zeroPct": 40}
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+          "excerpt": "Initially standing at 146.6 metres (481 feet), the Great Pyramid was the world's tallest human-made structure for more than 3,700 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft). Each side of the base was measured to be about 230.3 metres (755.6 ft) in length. The Great Pyramid served as the tomb of Egyptian Pharaoh Khufu; it was built c. 2600 BC over a period of about 26 years."
+        }
+      ]
+    },
+    "where": {
+      "payload": {
+        "clues": [
+          "A 15th-century citadel of a mountain empire, set on a ridge 2,430 metres above sea level, with a river looping round the cliffs below it.",
+          "It lies high in the Andes, about 80 km north-west of the empire's former capital."
+        ]
+      },
+      "reveal": {
+        "lat": -13.163,
+        "lon": -72.546,
+        "placeName": "Machu Picchu, Peru",
+        "acceptRadiusKm": 400,
+        "explanation": "Machu Picchu is a 15th-century Inca citadel on a mountain ridge at 2,430 metres, about 80 km north-west of Cusco, the former Inca capital, with the Urubamba River below. It is estimated to have been built around 1450 and is believed to have served as an estate for the Inca emperor Pachacuti."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+          "excerpt": "Machu Picchu (13°09′48″S 72°32′44″W) is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at 2,430 meters (7,970 ft). It is located about 80 kilometers (50 miles) northwest of Cusco, above the Urubamba River. Estimated to be built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti."
+        }
+      ]
+    }
+  }
+}

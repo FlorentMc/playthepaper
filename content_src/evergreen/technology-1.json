@@ -1,0 +1,116 @@
+{
+  "slug": "technology-1",
+  "label": "Evergreen · Technology",
+  "stories": [
+    {
+      "id": "technology-1-correct",
+      "game": "correct",
+      "headline": "Twelve seconds that began the age of flight",
+      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered, heavier-than-air aircraft, near Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 37 metres; the fourth and last of the day, flown by Wilbur, stayed up for 59 seconds and covered 260 metres.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-number",
+      "game": "number",
+      "headline": "The first microprocessor you could buy",
+      "summary": "The Intel 4004, released on 15 November 1971, was the first commercially available microprocessor sold as a component. It held 2,300 transistors and ran at up to 740 to 750 kHz. Its 16-bit successor of 1978, the 8086, used about 20,000 active transistors.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-where",
+      "game": "where",
+      "headline": "A staircase of water across an isthmus",
+      "summary": "The Panama Canal is an artificial 82-kilometre waterway that connects the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, and its locks lift ships up to Gatun Lake, 26 metres above sea level, and down again on the other side.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "publishedAt": "evergreen"
+    }
+  ],
+  "puzzles": {
+    "correct": {
+      "payload": {
+        "dispatch": "On 17 December 1903, near Kitty Hawk, North Carolina, the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft. The first of the day's four flights lasted 12 seconds and covered 370 metres; the fourth and last, with Wilbur at the controls, stayed up for 59 seconds and covered 260 metres.",
+        "details": ["17 December 1903", "12 seconds", "370 metres", "59 seconds", "260 metres"],
+        "options": ["37 metres", "370 metres", "3.7 metres", "137 metres"],
+        "evidence": [
+          {
+            "title": "The first flight",
+            "text": "Orville took his turn at the controls. His flight, captured in a famous photograph, lasted 12 seconds for a total distance of 120 feet (37 m).",
+            "source": "Wikipedia: Wright Flyer"
+          },
+          {
+            "title": "The longest of the day",
+            "text": "The Wright brothers flew the machine four times on December 17, 1903. The fourth and last flight, by Wilbur, took 59 seconds to cover 852 feet (260 m) over the ground.",
+            "source": "Wikipedia: Wright Flyer"
+          }
+        ],
+        "maxAttempts": 3
+      },
+      "reveal": {
+        "alteredDetail": 2,
+        "correctOption": 0,
+        "explanation": "The first flight covered 120 feet, about 37 metres, not 370. A 370-metre hop in 12 seconds would also have outrun the fourth and longest flight of the day, which covered 260 metres in 59 seconds."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+          "excerpt": "The Wright Flyer made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. The Wright brothers flew it four times in a location now part of the town of Kill Devil Hills, about 4 miles (6 kilometers) south of Kitty Hawk, North Carolina. His flight, captured in a famous photograph, lasted 12 seconds for a total distance of 120 feet (37 m). The fourth and last flight, by Wilbur, took 59 seconds to cover 852 feet (260 m) over the ground."
+        }
+      ]
+    },
+    "number": {
+      "payload": {
+        "question": "How many transistors were on the Intel 4004 of 1971, the first commercially available microprocessor?",
+        "unit": "transistors",
+        "min": 500,
+        "max": 20000,
+        "step": 100,
+        "comparison": "The Intel 8086 of 1978, a 16-bit chip, used approximately 20,000 active transistors."
+      },
+      "reveal": {
+        "answer": 2300,
+        "context": "The Intel 4004, released on 15 November 1971, contained 2,300 transistors and ran at a maximum clock rate of 740 to 750 kHz. It was the first microprocessor sold as a component. Seven years later the 8086 used approximately 20,000 active transistors.",
+        "scoring": {"perfectPct": 5, "zeroPct": 60}
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_4004",
+          "excerpt": "The Intel 4004 was released by the Intel Corporation on November 15, 1971. It contained 2,300 transistors and had a maximum clock rate of 740 kHz to 750 kHz. The first commercially available (sold as a component) microprocessor was the 4004 from Intel."
+        },
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_8086",
+          "excerpt": "The 8086 is a 16-bit microprocessor chip released by Intel on June 8, 1978. The 8086 was implemented using depletion-load nMOS circuitry with approximately 20,000 active transistors (29,000 counting all ROM and PLA sites)."
+        }
+      ]
+    },
+    "where": {
+      "payload": {
+        "clues": [
+          "An artificial waterway 82 km long, formally opened in 1914, carries ships between the Caribbean Sea and the Pacific Ocean.",
+          "Its locks raise vessels 26 metres up to an artificial lake in the middle of an isthmus, then lower them again on the far side."
+        ]
+      },
+      "reveal": {
+        "lat": 9.117,
+        "lon": -79.75,
+        "placeName": "Panama Canal, Panama",
+        "acceptRadiusKm": 400,
+        "explanation": "The Panama Canal is an artificial 82-kilometre waterway in Panama connecting the Caribbean Sea with the Pacific Ocean. Formally opened on 15 August 1914, it lifts ships through locks to Gatun Lake, 26 metres above sea level, and lowers them on the opposite side."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+          "excerpt": "The Panama Canal (9°07′N 79°45′W) is an artificial 82-kilometer (51-mile) waterway in Panama that connects the Caribbean Sea with the Pacific Ocean. The canal was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level."
+        }
+      ]
+    }
+  }
+}

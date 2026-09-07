@@ -45,24 +45,27 @@ class _NewsEditionScreenState extends State<NewsEditionScreen> {
     final id = m.puzzleFor(game)!;
     final idx = GameKind.newsOrder.indexOf(game);
     final following = idx + 1 < GameKind.newsOrder.length ? GameKind.newsOrder[idx + 1] : null;
-    Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => PlayScreen(
-          puzzleIdText: id.toString(),
-          nextLabel: following == null ? 'Read the Front Page' : 'Next: ${following.title}',
-          onNext: () {
-            // Pop the result screen and the game, then open what follows.
-            Navigator.of(context).popUntil((r) => r.isFirst || r.settings.name == 'news-flow');
-            if (following == null) {
-              context.push('/front/${m.dateString}');
-            } else {
-              _openRound(m, following);
-            }
-          },
-        ),
-        settings: const RouteSettings(name: 'news-round'),
+    final navigator = Navigator.of(context);
+    late final MaterialPageRoute<void> route;
+    route = MaterialPageRoute<void>(
+      builder: (_) => PlayScreen(
+        puzzleIdText: id.toString(),
+        nextLabel: following == null ? 'Read the Front Page' : 'Next: ${following.title}',
+        onNext: () {
+          // Pop the result screen and the game, then open what follows.
+          navigator.popUntil((r) => r == route);
+          navigator.pop();
+          if (!mounted) return;
+          if (following == null) {
+            context.push('/front/${m.dateString}');
+          } else {
+            _openRound(m, following);
+          }
+        },
       ),
+      settings: const RouteSettings(name: 'news-round'),
     );
+    navigator.push(route);
   }
 
   @override

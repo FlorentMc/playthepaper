@@ -1,6 +1,10 @@
 import 'package:daypencil/content/models.dart';
 import 'package:daypencil/core/game_kind.dart';
+import 'package:daypencil/engines/correct/correct_engine.dart';
+import 'package:daypencil/engines/letters/letters.dart';
+import 'package:daypencil/engines/number/number_engine.dart';
 import 'package:daypencil/engines/sudoku/sudoku.dart';
+import 'package:daypencil/engines/where/where_engine.dart';
 import 'package:daypencil/engines/word/word_engine.dart';
 
 /// Runs a puzzle through its engine's parser. Returns null when valid,
@@ -24,6 +28,13 @@ typedef EngineCheck = void Function(PuzzleRecord record);
 final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.word: (r) => WordPuzzle.parse(r.payload, r.reveal),
   GameKind.sudoku: (r) => SudokuPuzzle.parse(r.payload, r.reveal),
+  GameKind.letters: (r) => LettersPuzzle.parse(r.payload, r.reveal),
+  GameKind.correct: (r) => CorrectReveal.parse(r.reveal, CorrectPuzzle.parse(r.payload)),
+  GameKind.number: (r) => NumberReveal.parse(r.reveal, NumberPuzzle.parse(r.payload)),
+  GameKind.where: (r) {
+    WherePuzzle.parse(r.payload);
+    WhereReveal.parse(r.reveal);
+  },
 };
 
 /// Answers of one news game must not appear in another's wording.

@@ -1,0 +1,116 @@
+{
+  "slug": "discovery-1",
+  "label": "Evergreen · Discovery",
+  "stories": [
+    {
+      "id": "discovery-1-correct",
+      "game": "correct",
+      "headline": "A contaminated plate, a holiday, and the first antibiotic",
+      "summary": "On 3 September 1928, Alexander Fleming returned from a family holiday to his laboratory at St Mary's Hospital in London and noticed that a fungus had destroyed the staphylococci around it on a culture plate. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "discovery-1-number",
+      "game": "number",
+      "headline": "The deepest point in the ocean, measured to the metre",
+      "summary": "The Challenger Deep, at the southern end of the Mariana Trench in the western Pacific, is the deepest known point of the seabed at 10,935 metres, give or take about six metres. The first descent was made by the bathyscaphe Trieste in January 1960.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "discovery-1-where",
+      "game": "where",
+      "headline": "The valley where the pharaohs were laid to rest",
+      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern city of Luxor. Its tombs were cut for the rulers of Egypt's New Kingdom, and in November 1922 Howard Carter found the tomb of Tutankhamun there.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+      "publishedAt": "evergreen"
+    }
+  ],
+  "puzzles": {
+    "correct": {
+      "payload": {
+        "dispatch": "Returning from a family holiday on 3 September 1928, Alexander Fleming noticed that one of his culture plates was contaminated with a fungus, and that the colonies of staphylococci immediately around it had been destroyed. The laboratory where he made the discovery is preserved at St Mary's Hospital in London. Born in Ayrshire, Scotland, in 1881, Fleming shared the 1955 Nobel Prize in Physiology or Medicine for the discovery of penicillin with Howard Florey and Ernst Chain.",
+        "details": ["3 September 1928", "St Mary's Hospital", "1881", "1955"],
+        "options": ["1945", "1955", "1935", "1949"],
+        "evidence": [
+          {
+            "title": "The prize",
+            "text": "Fleming shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain 'for the discovery of penicillin and its curative effect in various infectious diseases'.",
+            "source": "Wikipedia: Alexander Fleming"
+          },
+          {
+            "title": "The plate",
+            "text": "On 3 September 1928, Fleming returned to his laboratory having spent a holiday with his family at Suffolk. The laboratory in which he discovered and tested penicillin is preserved as a museum in St Mary's Hospital, Paddington. He was born on 6 August 1881 near Darvel, in Ayrshire, Scotland.",
+            "source": "Wikipedia: Alexander Fleming"
+          }
+        ],
+        "maxAttempts": 3
+      },
+      "reveal": {
+        "alteredDetail": 3,
+        "correctOption": 0,
+        "explanation": "The Nobel Prize came in 1945, ten years earlier than the dispatch said. The date of the discovery, the hospital and Fleming's birth year in 1881 are all correct."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+          "excerpt": "On 3 September 1928, Fleming returned to his laboratory having spent a holiday with his family at Suffolk. On his return, Fleming noticed that one culture was contaminated with a fungus, and that the colonies of staphylococci immediately surrounding the fungus had been destroyed. The laboratory in which Fleming discovered and tested penicillin is preserved as the Alexander Fleming Laboratory Museum in St Mary's Hospital, Paddington. Born on 6 August 1881 at Lochfield farm near Darvel, in Ayrshire, Scotland. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain."
+        }
+      ]
+    },
+    "number": {
+      "payload": {
+        "question": "How deep is the Challenger Deep, the deepest known point of the ocean?",
+        "unit": "metres",
+        "min": 2000,
+        "max": 20000,
+        "step": 5,
+        "comparison": "Mount Everest rises 8,848.86 metres above sea level."
+      },
+      "reveal": {
+        "answer": 10935,
+        "context": "A 2021 study put the Challenger Deep at 10,935 metres below sea level, give or take about six metres. It lies in the western Pacific at the southern end of the Mariana Trench. If Everest were set on the seabed there, its summit would still be more than two kilometres under water.",
+        "scoring": {"perfectPct": 3, "zeroPct": 40}
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
+          "excerpt": "The Challenger Deep is the deepest known point of the seabed of Earth, located in the western Pacific Ocean at the southern end of the Mariana Trench, with a depth of 10,935 ± 6 m (35,876 ± 20 ft) below sea level according to a 2021 study. The first descent by any vehicle was conducted by the United States Navy using the bathyscaphe Trieste in January 1960."
+        },
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+          "excerpt": "Its height was most recently measured in 2020 through a joint survey by Nepalese and Chinese authorities as 8,848.86 m (29,031 ft 8+1/2 in)."
+        }
+      ]
+    },
+    "where": {
+      "payload": {
+        "clues": [
+          "A dry valley on the west bank of a great river, opposite the ancient city of Thebes, where the rulers of a kingdom were buried in rock-cut tombs.",
+          "In November 1922 an archaeologist opened the tomb of a young pharaoh here, one of the most famous finds in archaeology."
+        ]
+      },
+      "reveal": {
+        "lat": 25.741,
+        "lon": 32.602,
+        "placeName": "Valley of the Kings, Luxor, Egypt",
+        "acceptRadiusKm": 300,
+        "explanation": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. Its tombs were cut for the pharaohs of Egypt's New Kingdom; Howard Carter discovered the tomb of Tutankhamun (KV62) there in November 1922."
+      },
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+          "excerpt": "The Valley of the Kings (25.74083°N 32.60222°E) is a wadi sitting on the west bank of the Nile, opposite Thebes (modern-day Luxor). Howard Carter discovered the actual tomb of Tutankhamun (KV62) in November 1922."
+        }
+      ]
+    }
+  }
+}
