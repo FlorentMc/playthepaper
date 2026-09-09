@@ -53,8 +53,15 @@ class QuizQuestionView extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text('Question ${index + 1} of ${puzzle.questions.length}', style: theme.textTheme.labelSmall),
-        const SizedBox(height: 6),
+        Text(
+          'Question ${index + 1} of ${puzzle.questions.length} · ${question.level.label}',
+          style: theme.textTheme.labelSmall,
+        ),
+        if (question.lead != null) ...[
+          const SizedBox(height: 8),
+          Text(question.lead!, style: theme.textTheme.bodyMedium),
+        ],
+        const SizedBox(height: 8),
         Text(
           question.prompt,
           style: DaypencilTheme.display(size: 22, color: theme.colorScheme.onSurface, height: 1.25),

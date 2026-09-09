@@ -1,17 +1,49 @@
 import 'package:equatable/equatable.dart';
 
-/// One quiz question: a prompt, four options and the story it came from.
-class QuizQuestion extends Equatable {
-  const QuizQuestion({required this.prompt, required this.options, required this.storyId});
+/// How much a reader is expected to know. Easy questions come from the
+/// biggest headlines; hard ones test a detail the lead sets up.
+enum QuizLevel {
+  easy('easy', 'Easy'),
+  medium('medium', 'Medium'),
+  hard('hard', 'Hard');
 
+  const QuizLevel(this.slug, this.label);
+  final String slug;
+  final String label;
+
+  static QuizLevel fromSlug(String s) =>
+      values.firstWhere((l) => l.slug == s, orElse: () => throw FormatException('Unknown quiz level: $s'));
+}
+
+/// One quiz question: a lead that gives the context, a prompt, four options,
+/// a level, and the story it came from.
+class QuizQuestion extends Equatable {
+  const QuizQuestion({
+    required this.prompt,
+    required this.options,
+    required this.storyId,
+    this.lead,
+    this.level = QuizLevel.medium,
+  });
+
+  /// One or two sentences of context shown above the prompt. Never contains
+  /// the answer.
+  final String? lead;
   final String prompt;
   final List<String> options;
   final String storyId;
+  final QuizLevel level;
 
-  Map<String, dynamic> toJson() => {'prompt': prompt, 'options': options, 'storyId': storyId};
+  Map<String, dynamic> toJson() => {
+        if (lead != null) 'lead': lead,
+        'prompt': prompt,
+        'options': options,
+        'storyId': storyId,
+        'level': level.slug,
+      };
 
   @override
-  List<Object?> get props => [prompt, options, storyId];
+  List<Object?> get props => [lead, prompt, options, storyId, level];
 }
 
 /// The Quiz: five questions from the day's stories and one wager. Parsed from
@@ -113,7 +145,21 @@ class QuizPuzzle extends Equatable {
     if (storyId is! String || storyId.trim().isEmpty) {
       throw FormatException('Quiz question $number needs a non-empty "storyId"');
     }
-    return QuizQuestion(prompt: prompt, options: List.unmodifiable(options), storyId: storyId);
+    final rawLead = raw['lead'];
+    if (rawLead != null && (rawLead is! String || rawLead.trim().isEmpty)) {
+      throw FormatException('Quiz question $number "lead" must be a non-empty string when present');
+    }
+    final rawLevel = raw['level'];
+    if (rawLevel != null && rawLevel is! String) {
+      throw FormatException('Quiz question $number "level" must be a string');
+    }
+    return QuizQuestion(
+      lead: rawLead as String?,
+      prompt: prompt,
+      options: List.unmodifiable(options),
+      storyId: storyId,
+      level: rawLevel == null ? QuizLevel.medium : QuizLevel.fromSlug(rawLevel as String),
+    );
   }
 
   Map<String, dynamic> toPayload() => {

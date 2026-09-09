@@ -136,14 +136,14 @@ void main() {
       await pumpUntil(tester, () => savedAnswers()[q] != null, reason: 'answer ${q + 1} saved');
       await tapText(tester, 'Next question');
     }
-    expect(find.text('Question 5 of 5'), findsOneWidget);
+    expect(find.text('Question 5 of 5 · Medium'), findsOneWidget);
   }
 
   testWidgets('answering a question marks the options, explains, and saves progress', (tester) async {
     await tester.runAsync(() async {
       final semantics = tester.ensureSemantics();
       await pumpScreen(tester);
-      expect(find.text('Question 1 of 5'), findsOneWidget);
+      expect(find.text('Question 1 of 5 · Medium'), findsOneWidget);
       expect(find.text(prompts[0]), findsOneWidget);
       expect(find.bySemanticsLabel('Question 1, current'), findsOneWidget);
       expect(find.bySemanticsLabel('Question 2, to come'), findsOneWidget);
@@ -170,7 +170,7 @@ void main() {
       expect(savedAnswers(), [2, null, null, null, null], reason: 'an answered question does not change');
 
       await tapText(tester, 'Next question');
-      expect(find.text('Question 2 of 5'), findsOneWidget);
+      expect(find.text('Question 2 of 5 · Medium'), findsOneWidget);
       expect(find.text(prompts[1]), findsOneWidget);
       expect(find.text('Next question'), findsNothing);
       semantics.dispose();
@@ -265,7 +265,7 @@ void main() {
       });
       final semantics = tester.ensureSemantics();
       await pumpScreen(tester);
-      expect(find.text('Question 3 of 5'), findsOneWidget);
+      expect(find.text('Question 3 of 5 · Medium'), findsOneWidget);
       expect(find.bySemanticsLabel('Question 1, right'), findsOneWidget);
       expect(find.bySemanticsLabel('Question 2, wrong'), findsOneWidget);
       expect(find.bySemanticsLabel('Question 3, current'), findsOneWidget);
@@ -276,7 +276,7 @@ void main() {
         'staked': true,
       });
       await pumpScreen(tester);
-      expect(find.text('Question 5 of 5'), findsOneWidget);
+      expect(find.text('Question 5 of 5 · Medium'), findsOneWidget);
       expect(find.text('Not quite'), findsOneWidget);
       expect(find.text('See your score'), findsOneWidget);
       await tapText(tester, 'See your score');

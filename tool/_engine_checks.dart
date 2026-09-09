@@ -107,6 +107,10 @@ List<String> seedChecks(EditionManifest m, PuzzleRecord? Function(GameKind) reco
       }
       feed(question.storyId, 'quiz:${i + 1}');
       final correct = question.options[q.answerOf(i)];
+      final lead = question.lead;
+      if (lead != null && lead.toLowerCase().contains(correct.toLowerCase())) {
+        errors.add('quiz ${quiz.id}: question ${i + 1} lead contains the answer "$correct"');
+      }
       for (final n in numberPattern.allMatches(correct).map((x) => x.group(0)!)) {
         final bare = n.replaceAll(RegExp(r'[,.]$'), '');
         if (!sourceText.contains(bare) && !sourceText.contains(bare.replaceAll(',', ''))) {

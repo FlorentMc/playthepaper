@@ -114,14 +114,20 @@ payload must equal the derived numbering. Result: `seconds`, `hints` (checks and
 
 **quiz** (five questions from the day's stories, one wager)
 ```json
-payload: {"questions": [{"prompt": "How much does a blue whale's heart weigh?",
-                         "options": ["18 kg", "180 kg", "1,800 kg", "18,000 kg"], "storyId": "nature-1-whale"}],
+payload: {"questions": [{"lead": "The blue whale is the largest animal known to have existed, and one stranded in the North Atlantic gave scientists a rare chance to weigh its heart.",
+                         "prompt": "How much did it weigh?",
+                         "options": ["18 kg", "180 kg", "1,800 kg", "18,000 kg"],
+                         "level": "easy", "storyId": "nature-1-whale"}],
           "wagerQuestion": 4}
 reveal:  {"answers": [1, 0, 2, 3, 1],
           "explanations": ["180 kg, the largest heart known in any animal. When the whale dives it can slow to two beats a minute."]}
 ```
 Exactly five questions, four distinct options each, `answers[i]` is the index of the correct option, one
-explanation per question (two plain sentences, warm not wry), every question names its story. One point per
+explanation per question (two plain sentences, warm not wry), every question names its story. Every
+question carries a `lead`: one or two sentences that give a reader who has not seen the story the context
+they need, never the answer (the validator rejects a lead containing the correct option). `level` is
+`easy`, `medium` or `hard` (default medium). The mix is three easy questions on the biggest headlines
+of the day, one medium and one hard; questions run easy to hard and the wager is the last. One point per
 correct answer. Before the wager question (index `wagerQuestion`, default 4) a player with at least one
 point may stake one: correct scores 2 for that question, wrong loses the stake. `maxPoints` is 6.
 Result: `points`, `maxPoints: 6`, `solved: true` (a finished quiz is always a result), one `shareLines`

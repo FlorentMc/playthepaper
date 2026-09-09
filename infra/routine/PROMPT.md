@@ -172,8 +172,8 @@ examples of the voice and the option style):
   "quiz": {
     "payload": {
       "questions": [
-        {"prompt": "…?", "options": ["…", "…", "…", "…"], "storyId": "DATE-1"},
-        … five in total …
+        {"lead": "One or two sentences of context.", "prompt": "…?", "options": ["…", "…", "…", "…"], "level": "easy", "storyId": "DATE-1"},
+        … five in total, three easy then medium then hard …
       ],
       "wagerQuestion": 4
     },
@@ -199,8 +199,19 @@ examples of the voice and the option style):
 
 Rules for the quiz:
 
-* Five questions: two from one story, two from another, one from the third.
-  Question five (`wagerQuestion: 4`) is the hardest.
+* Three to four stories. Five questions, at least one per story and at most
+  two per story. Levels: three `easy`, one `medium`, one `hard`, in that
+  order; question five (`wagerQuestion: 4`) is the hard one.
+* Easy questions come from the biggest headlines of the day: results and
+  events a reader plausibly heard about (a race won, a prize awarded, a
+  record set, a launch, a major discovery). Start from the Wikipedia Current
+  Events portal for D−1 and D−2 (see SOURCES) to find them, then fetch a
+  reachable page to quote. Medium and hard questions test a detail that the
+  lead sets up; include at least one science or nature story every day.
+* Every question has a `lead`: one or two plain sentences giving the context
+  a reader who missed the story needs (who, what, where), written so the
+  question makes sense on its own. The lead never states or hints the answer;
+  the validator rejects a lead containing the correct option's text.
 * Four options, all distinct, all on the same scale and category, so a reader
   can reason towards the answer: numbers spread by plausible steps or orders
   of magnitude, names from the same field, places from the same region.
@@ -341,12 +352,22 @@ Each row: what to fetch, which domain the article links must be on, and which
 environment variable holds the credential (if any). Record what each source
 permits (retrieve, retain, display attributed excerpts) in `infra/README.md`.
 
-| Source          | Fetch                 | Article domain    | Credential           |
-|-----------------|-----------------------|-------------------|----------------------|
-| SOURCE_1_NAME   | SOURCE_1_FEED_URL     | SOURCE_1_DOMAIN   | SOURCE_1_API_KEY     |
-| SOURCE_2_NAME   | SOURCE_2_FEED_URL     | SOURCE_2_DOMAIN   | (none)               |
-| SOURCE_3_NAME   | SOURCE_3_FEED_URL     | SOURCE_3_DOMAIN   | (none)               |
-| Wikipedia       | REST summary endpoint | en.wikipedia.org  | (none)               |
+| Source                     | Fetch                                                                 | Article domain          | Credential           |
+|----------------------------|-----------------------------------------------------------------------|-------------------------|----------------------|
+| Wikipedia Current Events   | `https://en.wikipedia.org/wiki/Portal:Current_events/<YYYY>_<Month>_<D>` for D−1 and D−2 | en.wikipedia.org | (none) |
+| NASA (space, science)      | `https://science.nasa.gov/feed/` and `https://apod.nasa.gov/apod/astropix.html` | science.nasa.gov, apod.nasa.gov | (none) |
+| Smithsonian Magazine       | `https://www.smithsonianmag.com/rss/smart-news/`                       | www.smithsonianmag.com  | (none)               |
+| ScienceDaily               | `https://www.sciencedaily.com/rss/top/science.xml`                     | www.sciencedaily.com    | (none)               |
+| Quanta Magazine            | `https://api.quantamagazine.org/feed/`                                | www.quantamagazine.org  | (none)               |
+| SOURCE_1_NAME              | SOURCE_1_FEED_URL                                                     | SOURCE_1_DOMAIN         | SOURCE_1_API_KEY     |
+| Wikipedia articles         | REST summary endpoint, for verification                               | en.wikipedia.org        | (none)               |
+
+The Current Events portal is the index of the day's biggest headlines (it
+cites its own sources); use it to choose the easy questions, then quote a
+reachable page for the excerpt. Wikipedia race, award and event articles are
+acceptable excerpt sources for results (e.g. a Grand Prix page). Sites that
+refuse automated fetching (the BBC, the Guardian without an API key, Reuters,
+AP) are not sources until a key or licence is arranged; never scrape them.
 
 Illustrative shape of a keyed API row (verify against the provider's current
 documentation before use): a Guardian Open Platform search is

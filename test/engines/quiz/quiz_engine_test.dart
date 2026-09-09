@@ -30,8 +30,28 @@ void main() {
       expect(puzzle.maxPoints, 6);
       expect(puzzle.answerOf(1), 1);
       expect(puzzle.explanationOf(4), 'Because 5. And so on.');
-      expect(puzzle.toPayload(), payload(wager: 4));
-      expect(puzzle.toReveal(), reveal());
+      final roundTrip = QuizPuzzle.parse(puzzle.toPayload(), puzzle.toReveal());
+      expect(roundTrip, puzzle);
+      expect(puzzle.questions[2].level, QuizLevel.medium, reason: 'level defaults to medium');
+      expect(puzzle.questions[2].lead, isNull);
+    });
+
+    test('reads lead and level and rejects bad ones', () {
+      final p = payload(wager: 4);
+      final q0 = Map<String, dynamic>.from((p['questions'] as List)[0] as Map);
+      q0['lead'] = 'Some context.';
+      q0['level'] = 'easy';
+      (p['questions'] as List)[0] = q0;
+      final parsed = QuizPuzzle.parse(p, reveal());
+      expect(parsed.questions[0].lead, 'Some context.');
+      expect(parsed.questions[0].level, QuizLevel.easy);
+      expect(parsed.toPayload()['questions'][0]['level'], 'easy');
+
+      q0['level'] = 'brutal';
+      expect(() => QuizPuzzle.parse(p, reveal()), throwsFormatException);
+      q0['level'] = 'hard';
+      q0['lead'] = '';
+      expect(() => QuizPuzzle.parse(p, reveal()), throwsFormatException);
     });
 
     test('reads an explicit wager question', () {

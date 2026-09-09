@@ -4,14 +4,22 @@
   "stories": [
     {
       "id": "2026-09-09-1",
-      "headline": "A ten-sided cloud around Saturn's south pole",
-      "summary": "Hubble Space Telescope observations have revealed a ten-sided cloud pattern, a decagon, around Saturn's south pole. The north pole has had a known six-sided hexagon since 1987, when it was spotted in data from NASA's Voyager spacecraft. That hexagon has stayed stable for over 40 years; how long the decagon lasts is now a question for researchers.",
-      "publisher": "NASA",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
-      "publishedAt": "2026-09-08"
+      "headline": "An Italian wins at Monza for the first time in 60 years",
+      "summary": "Kimi Antonelli won the Italian Grand Prix at Monza on Sunday for Mercedes, starting from nineteenth on the grid. He is the first Italian driver to win the race since Ludovico Scarfiotti in 1966. George Russell finished second, 3.857 seconds behind, with Max Verstappen third.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+      "publishedAt": "2026-09-06"
     },
     {
       "id": "2026-09-09-2",
+      "headline": "OpenAI says its AI agents have settled a million-dollar maths problem",
+      "summary": "Mathematicians at OpenAI announced on Tuesday that a group of about 10,000 autonomous AI agents had found a singularity in the three-dimensional Navier-Stokes equations, which describe how fluids behave, resolving one of the six remaining Millennium Prize problems. The result has been formally checked in the Lean proof language. Two mathematicians who had been working on the problem have questioned whether the OpenAI team benefited from their unpublished work.",
+      "publisher": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "2026-09-09-3",
       "headline": "A garden in Denmark gives up the country's largest Viking silver hoard",
       "summary": "A homeowner in Rebild, Denmark, digging to lay a new terrace, uncovered the largest hoard of Viking silver ever found in the country after half an hour of work. It holds roughly 700 artefacts and weighs more than 40 pounds, including bracelets, 47 coins and coin fragments, silver bars and a small Thor's hammer. Experts think it was buried in the tenth century, and North Jutland Museums hopes to exhibit it at the Fyrkat Viking Museum.",
       "publisher": "Smithsonian Magazine",
@@ -19,11 +27,11 @@
       "publishedAt": "2026-09-08"
     },
     {
-      "id": "2026-09-09-3",
-      "headline": "A 20-metre dinosaur under a Brazilian construction site",
-      "summary": "Scientists have named a new giant dinosaur, Dasosaurus tocantinensis, from fossils found at a road-rail terminal under construction in Davinópolis, in Brazil's Maranhão state. It measured about 20 metres long and lived roughly 120 million years ago, and its closest known relative lived in what is now Spain. It is the largest dinosaur known from Maranhão; the previous record-holder, Amazonsaurus maranhensis, was about 10 metres long.",
-      "publisher": "ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
+      "id": "2026-09-09-4",
+      "headline": "A ten-sided cloud around Saturn's south pole",
+      "summary": "Hubble Space Telescope observations have revealed a ten-sided cloud pattern, a decagon, around Saturn's south pole. The north pole has had a known six-sided hexagon since 1987, when it was spotted in data from NASA's Voyager spacecraft. That hexagon has stayed stable for over 40 years; how long the decagon lasts is now a question for researchers.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
       "publishedAt": "2026-09-08"
     }
   ],
@@ -31,71 +39,86 @@
     "payload": {
       "questions": [
         {
-          "prompt": "How many sides does the newly observed cloud pattern around Saturn's south pole have?",
-          "options": ["6", "8", "10", "12"],
+          "lead": "Kimi Antonelli won Sunday's Italian Grand Prix at Monza, the first Italian driver to win his home race since 1966. He started from nineteenth on the grid.",
+          "prompt": "Which team was he driving for?",
+          "options": ["Ferrari", "Mercedes", "Red Bull", "McLaren"],
+          "level": "easy",
           "storyId": "2026-09-09-1"
         },
         {
-          "prompt": "In which year was the hexagon around Saturn's north pole discovered, in Voyager data?",
-          "options": ["1977", "1987", "1997", "2007"],
-          "storyId": "2026-09-09-1"
-        },
-        {
-          "prompt": "Roughly how many artefacts make up the Viking hoard found at Rebild?",
-          "options": ["70", "170", "700", "7,000"],
+          "lead": "On Tuesday, mathematicians at OpenAI announced that thousands of autonomous AI agents had resolved one of the six remaining Millennium Prize problems, a question about the equations of fluid flow. The result was formally checked in the Lean proof language.",
+          "prompt": "Which problem did they claim to have settled?",
+          "options": ["The Riemann hypothesis", "P versus NP", "Navier-Stokes existence and smoothness", "The Hodge conjecture"],
+          "level": "easy",
           "storyId": "2026-09-09-2"
         },
         {
-          "prompt": "In which century do experts think the Rebild treasure was buried?",
-          "options": ["Eighth", "Ninth", "Tenth", "Eleventh"],
-          "storyId": "2026-09-09-2"
+          "lead": "A homeowner in Rebild, Denmark, digging to lay a terrace, uncovered the largest hoard of Viking silver ever found in the country: bracelets, coins, silver bars and a small Thor's hammer, roughly 700 pieces in all.",
+          "prompt": "How much does the hoard weigh?",
+          "options": ["More than 4 pounds", "More than 40 pounds", "More than 400 pounds", "More than 4,000 pounds"],
+          "level": "easy",
+          "storyId": "2026-09-09-3"
         },
         {
-          "prompt": "About how long was Dasosaurus tocantinensis, the new dinosaur from Brazil?",
-          "options": ["2 metres", "10 metres", "20 metres", "40 metres"],
+          "lead": "Saturn's north pole has been ringed by a six-sided cloud, a hexagon, since Voyager data revealed it in 1987. This week NASA's Astronomy Picture of the Day showed Hubble's view of a matching geometric pattern at the south pole.",
+          "prompt": "How many sides does the southern pattern have?",
+          "options": ["4", "8", "10", "12"],
+          "level": "medium",
+          "storyId": "2026-09-09-4"
+        },
+        {
+          "lead": "Most of the Rebild hoard's roughly 700 pieces were scattered through the soil, but one group of objects was found together inside a single pottery vessel.",
+          "prompt": "About how many objects were in the vessel?",
+          "options": ["32", "120", "320", "640"],
+          "level": "hard",
           "storyId": "2026-09-09-3"
         }
       ],
       "wagerQuestion": 4
     },
     "reveal": {
-      "answers": [2, 1, 2, 2, 2],
+      "answers": [1, 2, 1, 2, 2],
       "explanations": [
-        "Hubble observations show a ten-sided pattern, a decagon, around Saturn's south pole. The north pole has a six-sided hexagon, known since 1987.",
-        "The hexagon was found in 1987 in data from NASA's Voyager spacecraft, which flew past Saturn in the early 1980s. It has proven stable for over 40 years.",
-        "The hoard holds roughly 700 artefacts and weighs more than 40 pounds. About 320 of the objects were found inside a pottery vessel, with the rest scattered nearby.",
-        "Experts think the items were buried in the tenth century. They include bracelets, 47 coins and coin fragments, silver bars and a small Thor's hammer.",
-        "The animal measured about 20 metres long and lived roughly 120 million years ago. The largest dinosaur previously known from Maranhão, Amazonsaurus maranhensis, was about 10 metres long."
+        "Antonelli was driving for Mercedes, and his team-mate George Russell finished second, 3.857 seconds behind. Max Verstappen completed the podium for Red Bull.",
+        "The claim concerns the Navier-Stokes equations, which use Newton's second law of motion to describe how fluids, from ocean currents to air flows, behave. Each of the six remaining Millennium Prize problems carries a $1 million prize from the Clay Mathematics Institute.",
+        "The hoard weighs more than 40 pounds and holds roughly 700 artefacts. Denmark's second-largest collection of Viking silver, Terslevskat, weighs 14.5 pounds.",
+        "Hubble observations show a ten-sided pattern, a decagon, around Saturn's south pole. The northern hexagon has proven stable for over 40 years, and how long the decagon lasts is now a question for researchers.",
+        "About 320 objects were found inside a pottery vessel, with the others scattered nearby. Experts think the treasure was buried in the tenth century."
       ]
     },
     "sources": [
       {
-        "publisher": "NASA",
-        "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
-        "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s. Now, recent observations of Saturn by the Hubble Space Telescope reveal a slightly different geometric cloud pattern around the South Pole: a decagon (10 sides). The northern hexagon has proven stable for over 40 years."
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+        "excerpt": "The 2026 Italian Grand Prix was held on 6 September 2026 at the Monza Circuit in Monza, Italy. Kimi Antonelli (Mercedes) won from nineteenth position on the grid. Antonelli became the first Italian driver since Ludovico Scarfiotti in 1966 to win the Italian Grand Prix. Russell finished 3.857 seconds behind the winner."
+      },
+      {
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+        "excerpt": "mathematicians at OpenAI announced that a group of 10,000 autonomous AI agents under their direction, running on an advanced model not available to the public, had found a 'singularity' in the Navier-Stokes equations in three dimensions. Their result has been formally checked in the programming language Lean, giving mathematicians confidence that it is indeed correct. one of the six remaining Millennium Prize Problems posed in 2000 by the Clay Mathematics Institute, each of which carries a $1 million prize"
       },
       {
         "publisher": "Smithsonian Magazine",
         "url": "https://www.smithsonianmag.com/smart-news/routine-yard-work-reveals-a-trove-of-viking-silver-the-largest-treasure-of-its-kind-ever-discovered-in-denmark-180989456/",
-        "excerpt": "The treasure includes roughly 700 artifacts and weighs more than 40 pounds. About 320 objects were found inside a pottery vessel, while the others were scattered nearby. The trove includes bracelets, 47 coins and coin fragments, silver bars, and a small object in the shape of Thor's hammer. Experts think these items were buried in the tenth century."
+        "excerpt": "The treasure includes roughly 700 artifacts and weighs more than 40 pounds. About 320 objects were found inside a pottery vessel, while the others were scattered nearby. Experts think these items were buried in the tenth century. The Rebild hoard easily surpasses Denmark's second-largest collection of Viking silver, a 14.5-pound assortment called Terslevskat."
       },
       {
-        "publisher": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
-        "excerpt": "The animal measured about 20 meters long and lived roughly 120 million years ago. It's the largest known dinosaur for Maranhão; the diplodocid Amazonsaurus maranhensis was about 10 meters long."
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+        "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s. Now, recent observations of Saturn by the Hubble Space Telescope reveal a slightly different geometric cloud pattern around the South Pole: a decagon (10 sides). The northern hexagon has proven stable for over 40 years."
       }
     ]
   },
   "seeds": {
     "word": {
       "answer": "SILVER",
-      "storyId": "2026-09-09-2",
+      "storyId": "2026-09-09-3",
       "teaser": "Today's word comes from a story about something found under a garden in Denmark.",
       "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
     },
     "letters": {
       "pangram": "TELESCOPE",
-      "storyId": "2026-09-09-1",
+      "storyId": "2026-09-09-4",
       "teaser": "Today's letters come from a story about the poles of Saturn.",
       "excerpt": "Now, recent observations of Saturn by the Hubble Space Telescope reveal a slightly different geometric cloud pattern around the South Pole: a decagon (10 sides)."
     },
@@ -103,25 +126,25 @@
       {
         "answer": "HOARD",
         "clue": "Buried treasure, like the Viking silver found at Rebild",
-        "storyId": "2026-09-09-2",
+        "storyId": "2026-09-09-3",
         "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
       },
       {
-        "answer": "FEMUR",
-        "clue": "Thigh bone; the new Brazilian dinosaur's is 1.5 metres long",
-        "storyId": "2026-09-09-3",
-        "excerpt": "Because it includes tail vertebrae, a 1.5-meter femur, ribs, foot bones, and arm and leg bones, this is considered a relatively complete specimen."
+        "answer": "GRID",
+        "clue": "Antonelli won at Monza from nineteenth place on this",
+        "storyId": "2026-09-09-1",
+        "excerpt": "Kimi Antonelli (Mercedes) won from nineteenth position on the grid."
       },
       {
         "answer": "POLE",
         "clue": "Saturn has a geometric cloud pattern at each of these",
-        "storyId": "2026-09-09-1",
+        "storyId": "2026-09-09-4",
         "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s."
       },
       {
         "answer": "CLOUD",
         "clue": "What forms the ten-sided shape at Saturn's south pole",
-        "storyId": "2026-09-09-1",
+        "storyId": "2026-09-09-4",
         "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s."
       }
     ]
