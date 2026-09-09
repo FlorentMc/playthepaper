@@ -281,7 +281,7 @@ from the seed; the unlimited mode uses `LocalStore.extra('merge')`. Result: `poi
 ### Editorial game payloads
 
 **uncover**. `payload: {"text": "original summary with the subject masked as ▇", "hints": ["...", "..."]}`,
-`reveal: {"subject": "Angel Falls", "aliases": ["angel falls", "kerepakupai meru"], "answerWords": ["angel", "falls"]}`.
+`reveal: {"text": "the unmasked summary", "subject": "Angel Falls", "aliases": ["angel falls", "kerepakupai meru"], "answerWords": ["angel", "falls"]}`.
 Guessed words reveal matching occurrences (normalised: lower-case, ASCII-folded, plural/possessive stripped);
 the subject is guessed by name. Result: `attempts`, `solved`.
 
