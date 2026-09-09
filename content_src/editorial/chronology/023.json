@@ -1,0 +1,62 @@
+{
+  "topic": "Landmark buildings",
+  "payload": {
+    "title": "Landmark buildings",
+    "events": [
+      {
+        "id": "a",
+        "text": "The Taj Mahal mausoleum is completed for Shah Jahan at Agra"
+      },
+      {
+        "id": "b",
+        "text": "The Sydney Opera House is formally opened on Bennelong Point"
+      },
+      {
+        "id": "c",
+        "text": "The Colosseum is completed in Rome under the emperor Titus"
+      },
+      {
+        "id": "d",
+        "text": "Hagia Sophia is completed as the cathedral of Constantinople"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "80",
+      "d": "537",
+      "a": "1648",
+      "b": "1973"
+    },
+    "explanation": "The Colosseum was finished in Rome in AD 80 and Hagia Sophia followed more than four centuries later in 537. Shah Jahan's mausoleum at Agra was completed in 1648, and the Sydney Opera House opened on Bennelong Point in 1973."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colosseum",
+      "excerpt": "Construction began under the Emperor Vespasian in 72 and was completed in AD 80 under his successor and heir, Titus."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+      "excerpt": "The last of three church buildings to be successively erected on the site by the Eastern Roman Empire, it was completed in AD 537, becoming the world's largest interior space and among the first to employ a fully pendentive dome."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "Construction of the mausoleum was completed in 1648, although work on other parts of the complex continued for another five years."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "excerpt": "The Sydney Opera House was formally opened by Queen Elizabeth II, on 20 October 1973."
+    }
+  ],
+  "editorNotes": "Colosseum: the lede states that construction began in 72 and the building was completed in AD 80 under Titus, but the history section says the inaugural games were held in 80 or 81 AD, which is hedged, so the completion and not the inauguration is the event used. Hagia Sophia: the lede gives completion in AD 537 and the history section gives the inauguration by Justinian and Patriarch Menas on 27 December 537, so the two agree on the year; the two earlier churches on the site and the collapse and rebuilding of the dome in the 550s and 560s were set aside. Taj Mahal: the page as it now stands gives 1648, not 1643, for the completion of the mausoleum, so the item was written to that year. The 1643 often quoted elsewhere is the date of the first ceremony held at the partly finished building, on 6 February 1643, and the complex as a whole is only believed to have been completed in 1653, which is hedged wording, so neither of those years is used. Sydney Opera House: formally opened by Queen Elizabeth II on 20 October 1973, with the page separately giving formal completion in 1973 at a cost of 102 million dollars; construction ran from 1957 and Utzon resigned in 1966, neither of which is the event. Chartres Cathedral and the Great Pyramid were both considered and dropped because their pages date them by ranges rather than by a single stated year."
+}

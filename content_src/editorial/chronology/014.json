@@ -1,0 +1,62 @@
+{
+  "topic": "Exploring the deep",
+  "payload": {
+    "title": "Exploring the deep",
+    "events": [
+      {
+        "id": "a",
+        "text": "USS Nautilus puts to sea for the first time under nuclear power"
+      },
+      {
+        "id": "b",
+        "text": "The bathyscaphe Trieste reaches the bottom of the Challenger Deep"
+      },
+      {
+        "id": "c",
+        "text": "HMS Challenger sails from Portsmouth to survey the world's oceans"
+      },
+      {
+        "id": "d",
+        "text": "Beebe and Barton descend half a mile into the sea in the Bathysphere"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "1872",
+      "d": "1934",
+      "a": "1955",
+      "b": "1960"
+    },
+    "explanation": "HMS Challenger set out in 1872 to sound and sample the oceans, and the Bathysphere carried Beebe and Barton half a mile down off Bermuda in 1934. Nautilus first ran on nuclear power in 1955, five years before Trieste settled on the floor of the Challenger Deep in 1960, the trench named after the old survey ship."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_expedition",
+      "excerpt": "The expedition, led by Captain George Nares, sailed from Portsmouth, England, on 21 December 1872."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bathysphere",
+      "excerpt": "On August 15, 1934, Barton and Beebe descended to 3,028 feet (923 m), fulfilling their promise to descend half a mile."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)",
+      "excerpt": "At 11:00 a.m. January 17, 1955, the crew dropped the mooring lines and Wilkinson, on the bridge with Rickover, gave the command to back."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trieste_(bathyscaphe)",
+      "excerpt": "On 23 January 1960, it reached the ocean floor in the Challenger Deep (the deepest southern part of the Mariana Trench), carrying Jacques Piccard and Don Walsh."
+    }
+  ],
+  "editorNotes": "The Aqua-Lung was dropped as suggested because the page hedges it: the device was invented \"during the winter of 1942–1943\" and Cousteau and Gagnan \"were issued a patent some weeks later in 1943\", while the name Aqua-Lung belongs to the later CG45 regulator patented in 1945 and sold from 1946. The Bathysphere replaces it, and its record dive is dated precisely to 15 August 1934, a fortnight after the 2,510 ft dive of 11 August 1934. Challenger: the expedition is headed 1872–1876 throughout the page, and the ship sailed from Portsmouth on 21 December 1872, so the departure year is used rather than the span. Nautilus: launched 21 January 1954 and commissioned 30 September 1954, both rival dates, so the event is specifically the first run under nuclear power on 17 January 1955; the page also says the boat \"was delivered to the Navy in 1955\". Trieste: the date of 23 January 1960 is stated twice and is not hedged, though the depth is, with the onboard reading of 11,521 m later revised to 10,916 m. Alvin's 1977 discovery of hydrothermal vents was considered and held back to keep the spread, and the 1985 finding of the Titanic wreck was rejected as a disaster subject."
+}

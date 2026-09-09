@@ -1,0 +1,62 @@
+{
+  "topic": "The written word",
+  "payload": {
+    "title": "The written word",
+    "events": [
+      {
+        "id": "a",
+        "text": "Allen Lane's Penguin Books publishes its first sixpenny paperbacks"
+      },
+      {
+        "id": "b",
+        "text": "The Oxford English Dictionary is completed with its final fascicle"
+      },
+      {
+        "id": "c",
+        "text": "Shakespeare's fellow actors gather his plays into the First Folio"
+      },
+      {
+        "id": "d",
+        "text": "Champollion announces that he has deciphered Egyptian hieroglyphs"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "c": "1623",
+      "d": "1822",
+      "b": "1928",
+      "a": "1935"
+    },
+    "explanation": "The First Folio gathered Shakespeare's plays in 1623, and Champollion unlocked the hieroglyphs of the Rosetta Stone in 1822. The two twentieth-century entries sit close together, with the Oxford English Dictionary finished in 1928 and the first Penguin paperbacks on sale in 1935."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Folio",
+      "excerpt": "Mr. William Shakespeare's Comedies, Histories, & Tragedies is a collection of plays by William Shakespeare, commonly referred to by modern scholars as the First Folio, published in 1623, about seven years after Shakespeare's death."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion",
+      "excerpt": "In 1822, Champollion published his first breakthrough in the decipherment of the Rosetta hieroglyphs, showing that the Egyptian writing system was a combination of phonetic and ideographic signs – the first such script discovered."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oxford_English_Dictionary",
+      "excerpt": "The 125th and last fascicle covered words from Wise to the end of W and was published on 19 April 1928, and the full dictionary in bound volumes followed immediately."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Penguin_Books",
+      "excerpt": "The first Penguin paperbacks were published in 1935, at first as an imprint of The Bodley Head (of Vigo Street, London) with the books originally distributed from the crypt of Holy Trinity Church Marylebone."
+    }
+  ],
+  "editorNotes": "The Gutenberg Bible was dropped because its page hedges the year: preparation \"probably began soon after 1450, and the first finished copies were available in 1454 or 1455\", with only the March 1455 sighting of pages at Frankfurt by the future Pope Pius II firmly dated. The First Folio of 1623 replaces it and is dated without qualification. Champollion: he made the crucial realisation on 14 September 1822 and read the Lettre à M. Dacier a week later on 27 September 1822, so both the discovery and the announcement fall in the same year; the Philae obelisk transcriptions that confirmed Ptolemy and Cleopatra also reached him in 1822. Oxford English Dictionary: the last fascicle appeared on 19 April 1928 and the bound volumes immediately after, and the page adds that in 1928 the full dictionary was republished in ten bound volumes; the rival date of 1933, when the fascicles were re-issued in twelve volumes with a supplement under the title The Oxford English Dictionary, marks the reissue rather than the completion. Penguin: the first paperbacks appeared on 30 July 1935 as an imprint of The Bodley Head, with Penguin established as a separate business only in 1936, so the launch year is used. Johnson's Dictionary of 1755 was considered and set aside to avoid a second dictionary in the same set."
+}

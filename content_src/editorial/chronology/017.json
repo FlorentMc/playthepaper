@@ -1,0 +1,62 @@
+{
+  "topic": "Famous premieres",
+  "payload": {
+    "title": "Famous premieres",
+    "events": [
+      {
+        "id": "a",
+        "text": "Stravinsky's The Rite of Spring is first danced in Paris"
+      },
+      {
+        "id": "b",
+        "text": "Handel's Messiah is first performed in Dublin"
+      },
+      {
+        "id": "c",
+        "text": "West Side Story opens on Broadway"
+      },
+      {
+        "id": "d",
+        "text": "Beethoven's Ninth Symphony is first performed in Vienna"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "dates": {
+      "b": "1742",
+      "d": "1824",
+      "a": "1913",
+      "c": "1957"
+    },
+    "explanation": "Handel's Messiah was first heard in Dublin in 1742, and Beethoven's Ninth Symphony reached a Vienna audience in 1824. The Rite of Spring startled Paris in 1913, and West Side Story opened on Broadway forty-four years later in 1957."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Messiah_(Handel)",
+      "excerpt": "It was first performed in Dublin on 13 April 1742 and received its London premiere a year later."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+      "excerpt": "It was first performed in Vienna on 7 May 1824."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rite_of_Spring",
+      "excerpt": "When first performed at the Théâtre des Champs-Élysées on 29 May 1913, the avant-garde nature of the music and choreography caused a sensation."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/West_Side_Story",
+      "excerpt": "After tryouts at the National Theatre in Washington, D.C. and at the Erlanger Theatre in Philadelphia beginning in August 1957, the original Broadway production opened at the Winter Garden Theatre on September 26, to positive reviews."
+    }
+  ],
+  "editorNotes": "Messiah: the Dublin premiere of 13 April 1742 is given plainly in the lede; the page notes the concert had first been announced for 12 April and was deferred by a day, and that the London premiere came the following year, so 1742 is not in doubt. Beethoven's Ninth: the page dates composition to 1822 to 1824 and gives the premiere as 7 May 1824 at the Theater am Kärntnertor, with no rival premiere date; the composition years are the only other figures nearby. The Rite of Spring: written for the 1913 Paris season of the Ballets Russes and first performed on 29 May 1913, the delay from a planned 1912 premiere being explained on the page, so the performed date is unambiguous. West Side Story: the show had tryouts in Washington and Philadelphia from August 1957 before opening at the Winter Garden Theatre on 26 September 1957, the 1958 British production that began at the Manchester Opera House before transferring to London was set aside as the later, lesser event. Puccini's Madama Butterfly was considered but its 1904 premiere was a failure that was revised and reopened within months, which muddles the date."
+}

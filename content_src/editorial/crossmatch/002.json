@@ -1,0 +1,161 @@
+{
+  "topic": "Rivers, deserts and mountain ranges",
+  "payload": {
+    "title": "Rivers, deserts and mountain ranges",
+    "rows": [
+      "River",
+      "Desert",
+      "Mountain range"
+    ],
+    "cols": [
+      "In Africa",
+      "In Asia",
+      "In North America"
+    ],
+    "tiles": [
+      "Gobi",
+      "Rocky Mountains",
+      "Nile",
+      "Himalayas",
+      "Mojave Desert",
+      "Atlas Mountains",
+      "Mekong",
+      "Sahara",
+      "Mississippi"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Nile",
+        "Mekong",
+        "Mississippi"
+      ],
+      [
+        "Sahara",
+        "Gobi",
+        "Mojave Desert"
+      ],
+      [
+        "Atlas Mountains",
+        "Himalayas",
+        "Rocky Mountains"
+      ]
+    ],
+    "explanations": {
+      "Nile": "A great north-flowing river of north-east Africa.",
+      "Mekong": "A river running from Tibet through mainland South East Asia.",
+      "Mississippi": "The chief river of the United States, and the largest in North America.",
+      "Sahara": "The largest hot desert in the world, spanning North Africa.",
+      "Gobi": "A cold desert across southern Mongolia and northern China, in Asia.",
+      "Mojave Desert": "A desert of the south-western United States, in North America.",
+      "Atlas Mountains": "A range running through Morocco, Algeria and Tunisia in North Africa.",
+      "Himalayas": "The range in Asia that separates the Indian subcontinent from the Tibetan Plateau.",
+      "Rocky Mountains": "The largest mountain system in North America."
+    },
+    "fits": {
+      "Nile": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Mekong": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Mississippi": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Sahara": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Gobi": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Mojave Desert": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Atlas Mountains": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Himalayas": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Rocky Mountains": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "excerpt": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mekong",
+      "excerpt": "The Mekong or Mekong River is a transboundary river in East Asia and Southeast Asia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mississippi_River",
+      "excerpt": "The Mississippi ranks as the world's tenth-largest river by discharge flow, and the largest in North America."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sahara",
+      "excerpt": "The Sahara is a desert spanning North Africa."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gobi_Desert",
+      "excerpt": "The Gobi Desert is a large, cold desert and grassland region in southern Mongolia and North China."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mojave_Desert",
+      "excerpt": "The Mojave Desert, together with the Sonoran, Chihuahuan, and Great Basin deserts, form a larger North American desert."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atlas_Mountains",
+      "excerpt": "The Atlas Mountains are a mountain range in the Maghreb in North Africa."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Himalayas",
+      "excerpt": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rocky_Mountains",
+      "excerpt": "The Rocky Mountains, also known as the Rockies, are a major mountain range and the largest mountain system in North America."
+    }
+  ],
+  "editorNotes": "Each tile was tested against all three continents and all three landform rows. The Nile, the Sahara and the Atlas Mountains lie wholly in Africa; the Mekong, the Gobi and the Himalayas lie wholly in Asia; the Mississippi, the Mojave Desert and the Rocky Mountains lie wholly in North America, so no tile crosses a column. Nor does any tile cross a row: the Sahara and the Gobi are lowland desert regions rather than ranges, and the Atlas Mountains and the Rockies are ranges beside deserts rather than deserts. The Mississippi is the river, not the American state of the same name, and the Gobi is the desert of Mongolia and China. With every tile satisfying exactly one cell, the placement is forced. This item has no honest overlap: I looked for a desert or range spanning Africa and Asia (the Arabian Desert is the closest, but Wikipedia places it in West Asia) and did not find one I could source, so I left the grid tight rather than claim an overlap I could not defend."
+}

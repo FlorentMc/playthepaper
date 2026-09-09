@@ -1,0 +1,62 @@
+{
+  "topic": "Reaching for space",
+  "payload": {
+    "title": "Reaching for space",
+    "events": [
+      {
+        "id": "a",
+        "text": "NASA launches the Voyager 1 probe towards the outer planets"
+      },
+      {
+        "id": "b",
+        "text": "Apollo 11 lands Neil Armstrong and Buzz Aldrin on the Moon"
+      },
+      {
+        "id": "c",
+        "text": "Yuri Gagarin becomes the first person to orbit the Earth aboard Vostok 1"
+      },
+      {
+        "id": "d",
+        "text": "The Soviet Union launches Sputnik 1, the first artificial satellite"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "d": "1957",
+      "c": "1961",
+      "b": "1969",
+      "a": "1977"
+    },
+    "explanation": "The space age moved at a remarkable pace: only twelve years separate the first beeping satellite from the first footprints on the Moon. Voyager 1, launched in 1977 for a grand tour of the outer planets, is still travelling and is now the most distant object humans have ever built."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sputnik_1",
+      "excerpt": "It was launched into an elliptical low Earth orbit by the Soviet Union on 4 October 1957 as part of the Soviet space program."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+      "excerpt": "Travelling on Vostok 1, Gagarin completed one orbit of Earth on 12 April 1961."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "excerpt": "Apollo 11 (July 16–24, 1969) was the American spaceflight that first landed humans on the Moon, and the fifth crewed mission of NASA's Apollo program."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voyager_1",
+      "excerpt": "Voyager 1 is a space probe launched by NASA on September 5, 1977, as part of the Voyager program, to study the outer Solar System and the interstellar space beyond the Sun's heliosphere."
+    }
+  ],
+  "editorNotes": "Alternatives checked: Sputnik 1 launched on 4 October 1957 UTC (5 October at the launch site), the same year either way; Gagarin's flight and Apollo 11 are single-day and single-week events with no competing dates; Voyager 2 launched sixteen days before Voyager 1 in the same year, so the puzzle names Voyager 1 specifically."
+}

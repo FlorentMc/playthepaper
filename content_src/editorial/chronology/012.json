@@ -1,0 +1,62 @@
+{
+  "topic": "Well-known paintings",
+  "payload": {
+    "title": "Well-known paintings",
+    "events": [
+      {
+        "id": "a",
+        "text": "Salvador Dalí paints The Persistence of Memory, with its melting watches"
+      },
+      {
+        "id": "b",
+        "text": "Edward Hopper paints Nighthawks, his late-night diner scene"
+      },
+      {
+        "id": "c",
+        "text": "Van Gogh paints The Starry Night from his asylum window at Saint-Rémy"
+      },
+      {
+        "id": "d",
+        "text": "Rembrandt completes The Night Watch in Amsterdam"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "d": "1642",
+      "c": "1889",
+      "a": "1931",
+      "b": "1942"
+    },
+    "explanation": "Rembrandt's great militia portrait belongs to the Dutch Golden Age, nearly two and a half centuries before Van Gogh painted his swirling night sky in 1889. Dalí's melting watches and Hopper's lonely diner are closer together than they may feel, with the surrealist dreamscape of 1931 arriving eleven years before the American realist's best-known picture."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Night_Watch",
+      "excerpt": "The Night Watch was completed in 1642 at the peak of the Dutch Golden Age."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "excerpt": "Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+      "excerpt": "The Persistence of Memory (Catalan: La persistència de la memòria, Spanish: La persistencia de la memoria) is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)",
+      "excerpt": "Nighthawks is a 1942 oil on canvas painting by the American artist Edward Hopper that portrays four people in a downtown diner late at night, as viewed through the diner's large glass window."
+    }
+  ],
+  "editorNotes": "Alternatives checked: Picasso's Guernica (1937) was dropped because its subject is the bombing of a town, and Constable's The Hay Wain (1821) was swapped out so that the set could include a close twentieth-century pair; Dalí and Hopper replace them. The Night Watch is dated 1642 both in the lede and in the Rijksmuseum's own title. The Starry Night was painted in June 1889 and Nighthawks was completed on 21 January 1942 and sold that May, all within the stated years. Munch's The Scream was considered but exists in versions dated 1893, 1895 and 1910."
+}

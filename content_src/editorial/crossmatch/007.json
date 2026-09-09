@@ -1,0 +1,165 @@
+{
+  "topic": "Nobel laureates by prize and era",
+  "payload": {
+    "title": "Nobel laureates by prize and era",
+    "rows": [
+      "Physics",
+      "Chemistry",
+      "Medicine"
+    ],
+    "cols": [
+      "Awarded before 1950",
+      "Awarded 1950 to 1999",
+      "Awarded since 2000"
+    ],
+    "tiles": [
+      "Dorothy Hodgkin",
+      "Alexander Fleming",
+      "Marie Curie",
+      "Donna Strickland",
+      "Katalin Kariko",
+      "Albert Einstein",
+      "Barbara McClintock",
+      "Frances Arnold",
+      "Richard Feynman"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Albert Einstein",
+        "Richard Feynman",
+        "Donna Strickland"
+      ],
+      [
+        "Marie Curie",
+        "Dorothy Hodgkin",
+        "Frances Arnold"
+      ],
+      [
+        "Alexander Fleming",
+        "Barbara McClintock",
+        "Katalin Kariko"
+      ]
+    ],
+    "explanations": {
+      "Albert Einstein": "He won the 1921 Nobel Prize in Physics for his explanation of the photoelectric effect.",
+      "Richard Feynman": "He shared the 1965 Nobel Prize in Physics for his work on quantum electrodynamics.",
+      "Donna Strickland": "She shared the 2018 Nobel Prize in Physics for a method of amplifying laser pulses.",
+      "Marie Curie": "She won the 1911 Nobel Prize in Chemistry for isolating radium, having won the physics prize in 1903.",
+      "Dorothy Hodgkin": "She won the 1964 Nobel Prize in Chemistry for working out the structures of biological molecules.",
+      "Frances Arnold": "She shared the 2018 Nobel Prize in Chemistry for the directed evolution of enzymes.",
+      "Alexander Fleming": "He shared the 1945 Nobel Prize in Physiology or Medicine for the discovery of penicillin.",
+      "Barbara McClintock": "She won the 1983 Nobel Prize in Physiology or Medicine for her work on the chromosomes of maize.",
+      "Katalin Kariko": "She shared the 2023 Nobel Prize in Physiology or Medicine for the mRNA work behind modern vaccines."
+    },
+    "fits": {
+      "Albert Einstein": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Richard Feynman": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Donna Strickland": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Marie Curie": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "Dorothy Hodgkin": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Frances Arnold": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Alexander Fleming": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Barbara McClintock": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Katalin Kariko": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Photon",
+      "excerpt": "As shown by Albert Einstein, some form of energy quantization must be assumed to account for the thermal equilibrium observed between matter and electromagnetic radiation; for this explanation of the photoelectric effect, Einstein received the 1921 Nobel Prize in physics."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Julian_Schwinger",
+      "excerpt": "Schwinger was jointly awarded the Nobel Prize in Physics in 1965 for his work on quantum electrodynamics (QED), along with Richard Feynman and Shin'ichirō Tomonaga."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chirped_pulse_amplification",
+      "excerpt": "CPA for lasers was introduced by Donna Strickland and Gérard Mourou at the University of Rochester in 1985, work for which they received the Nobel Prize in Physics in 2018."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Chemistry",
+      "excerpt": "As of 2022, eight women had won the prize: Marie Curie (1911), her daughter Irène Joliot-Curie (1935), Dorothy Hodgkin (1964), Ada Yonath (2009), Frances Arnold (2018), Emmanuelle Charpentier and Jennifer Doudna (2020), and Carolyn R. Bertozzi (2022)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "excerpt": "She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Directed_evolution",
+      "excerpt": "The development of directed evolution methods was honored in 2018 with the awarding of the Nobel Prize in Chemistry to Frances Arnold for evolution of enzymes, and George Smith and Gregory Winter for phage display."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ernst_Boris_Chain",
+      "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Alexander Fleming and Howard Florey \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Barbara_McClintock",
+      "excerpt": "Barbara McClintock (June 16, 1902 – September 2, 1992) was an American scientist and cytogeneticist who was awarded the 1983 Nobel Prize in Physiology or Medicine."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+      "excerpt": "The Nobel Assembly at the Karolinska Institute announced on 2 October 2023, that the 2023 Nobel Prize in Physiology and Medicine was awarded to Katalin Karikó and Drew Weissman for the development of mRNA technology."
+    }
+  ],
+  "editorNotes": "The medicine row is the prize in Physiology or Medicine, shortened for the grid. Marie Curie is the one tile that honestly fits two cells: her physics prize of 1903 and her chemistry prize of 1911 both fall before 1950, so she satisfies the physics cell and the chemistry cell of the first column. Albert Einstein (physics, 1921) fits only the physics cell of that column and Alexander Fleming (medicine, 1945) only the medicine cell, so Curie is forced into the chemistry cell and the matching is unique. No other laureate here won in more than one field, and each of the other eight won in a single year that falls in one column only: Feynman 1965 and Strickland 2018 in physics; Hodgkin 1964 and Arnold 2018 in chemistry; McClintock 1983 and Kariko 2023 in medicine. Strickland and Arnold both won in 2018, but in different fields, so they cannot be swapped. Fleming's prize is dated 1945, safely before the 1950 boundary; Hodgkin's 1964 and McClintock's 1983 sit inside the middle column rather than at either edge."
+}

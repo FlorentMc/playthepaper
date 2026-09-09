@@ -1,0 +1,62 @@
+{
+  "topic": "Turning points in medicine",
+  "payload": {
+    "title": "Turning points in medicine",
+    "events": [
+      {
+        "id": "a",
+        "text": "Alexander Fleming discovers penicillin in a mould growing in his laboratory"
+      },
+      {
+        "id": "b",
+        "text": "Watson and Crick publish the double helix structure of DNA in Nature"
+      },
+      {
+        "id": "c",
+        "text": "Edward Jenner inoculates James Phipps with cowpox to protect him from smallpox"
+      },
+      {
+        "id": "d",
+        "text": "Ether is publicly demonstrated as a surgical anaesthetic at Massachusetts General Hospital"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "1796",
+      "d": "1846",
+      "a": "1928",
+      "b": "1953"
+    },
+    "explanation": "Jenner's cowpox experiment on a gardener's son came half a century before surgeons could promise a painless operation. The twentieth-century pair are closer together than they feel: the mould in Fleming's dish and the double helix are only twenty-five years apart."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_Jenner",
+      "excerpt": "On 14 May 1796, he tested his hypothesis by inoculating James Phipps, the eight-year-old son of Jenner's gardener."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_T._G._Morton",
+      "excerpt": "Upon reading a favorable newspaper account of this event, Boston surgeon Henry Jacob Bigelow arranged for a now-famous demonstration of ether on October 16, 1846, at the operating theatre of the Massachusetts General Hospital, or MGH."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "excerpt": "His discovery in 1928 of what was later named benzylpenicillin (or penicillin G) from the mould Penicillium rubens has been described as the \"single greatest victory ever achieved over disease\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Watson",
+      "excerpt": "In 1953, James Watson and Francis Crick co-authored an academic paper on DNA entitled, \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid\". Published in the scientific journal Nature, the paper proposed the existence of the double helix structure of the DNA molecule, having built on research by Rosalind Franklin and Raymond Gosling."
+    }
+  ],
+  "editorNotes": "Alternatives checked: Jenner published his findings in 1798, but the article dates the Phipps inoculation to 14 May 1796; Morton used ether for a tooth extraction on 30 September 1846, and the famous public demonstration followed on 16 October 1846, the same year; penicillin was purified and mass-produced in the 1940s, and the article dates Fleming's discovery to 1928; the double helix was worked out in February and March 1953 and published in Nature on 25 April 1953, the same year."
+}

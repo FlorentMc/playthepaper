@@ -1,0 +1,62 @@
+{
+  "topic": "Games and puzzles",
+  "payload": {
+    "title": "Games and puzzles",
+    "events": [
+      {
+        "id": "a",
+        "text": "Chris Haney and Scott Abbott devise Trivial Pursuit in Montreal"
+      },
+      {
+        "id": "b",
+        "text": "Ernő Rubik invents his twisting cube puzzle in Budapest"
+      },
+      {
+        "id": "c",
+        "text": "Arthur Wynne's word-cross, the first crossword puzzle, runs in a New York paper"
+      },
+      {
+        "id": "d",
+        "text": "Parker Brothers begins publishing Monopoly"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "c": "1913",
+      "d": "1935",
+      "b": "1974",
+      "a": "1979"
+    },
+    "explanation": "The word-cross puzzle that grew into the crossword appeared in a newspaper in 1913, and Parker Brothers took Monopoly to market in 1935. Ernő Rubik's cube arrived in 1974 and was still a craze when two Canadian journalists devised Trivial Pursuit in 1979."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crossword",
+      "excerpt": "On December 21, 1913, Arthur Wynne, a journalist born in Liverpool, England, published a \"word-cross\" puzzle in the New York World that embodied most of the features of the modern genre."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "excerpt": "Parker Brothers first published Monopoly in 1935."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+      "excerpt": "The Rubik's Cube is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trivial_Pursuit",
+      "excerpt": "The game was created on December 15, 1979, in Montreal, Quebec, by Canadians Chris Haney, a photo editor for Montreal's The Gazette, and Scott Abbott, a sports editor for The Canadian Press."
+    }
+  ],
+  "editorNotes": "Tetris was dropped after checking its page, which says sources vary on the exact timing between June 1984 and spring 1985 and records Pajitnov himself recalling 1985; that is a hedged date, so Trivial Pursuit takes its place and also gives the set a close pair with the Rubik's Cube. Monopoly: the page gives 1935 in three ways, 'Parker Brothers first published Monopoly in 1935', marketing beginning on 5 November 1935 and Darrow's design patent issuing on 31 December 1935, so the year is not in doubt; the game's ancestor, Elizabeth Magie's The Landlord's Game of 1904, is a different game and is not used. Rubik's Cube: the page dates the invention to 1974 without qualification, while the Hungarian patent application (30 January 1975), the first test batches (1977) and the worldwide release (1980) come later, so the text says invents rather than launches. Crossword: word puzzles and word squares are much older and the page discusses them, but Wynne's word-cross of 21 December 1913 is given as the first of the modern genre. Trivial Pursuit: created on 15 December 1979 and released in Canada in 1981 after test marketing, so the text says devise rather than release."
+}

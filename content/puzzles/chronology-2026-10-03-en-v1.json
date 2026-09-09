@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-03-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Household machines",
+    "events": [
+      {
+        "id": "a",
+        "text": "Dyson's first bagless vacuum cleaner under its own name goes on sale in Britain"
+      },
+      {
+        "id": "b",
+        "text": "iRobot launches the Roomba, a robot vacuum cleaner"
+      },
+      {
+        "id": "c",
+        "text": "Josephine Cochrane is granted a patent for her dishwasher"
+      },
+      {
+        "id": "d",
+        "text": "The Hoover Company is founded to make Spangler's upright vacuum cleaner"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "1886",
+      "d": "1908",
+      "a": "1993",
+      "b": "2002"
+    },
+    "explanation": "Josephine Cochrane's dishwasher was patented in 1886 and Hoover's first upright cleaner followed in 1908. Dyson's bagless cleaner reached British shops in 1993 and the Roomba began cleaning floors by itself in 2002, less than a decade later."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Josephine_Cochrane",
+      "excerpt": "Once her patent issued on December 28, 1886, she founded Garis-Cochrane Manufacturing Company to manufacture her machines."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Hoover_Company",
+      "excerpt": "The Hoover Company is a home appliance company founded in Ohio, United States, in 1908. The first upright vacuum cleaner was invented in June 1908 in North Canton, Ohio, by department store janitor and occasional inventor James Murray Spangler."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dyson_(company)",
+      "excerpt": "The first dual-cyclone vacuum built under the Dyson name, the DA 001, was produced by American company Phillips Plastics in a facility in Wrexham, Wales, beginning in January 1993 and sold for about £200."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roomba",
+      "excerpt": "A Roomba is an autonomous robotic vacuum cleaner made by the company iRobot, and was first introduced in September 2002."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topic": "New materials",
+  "payload": {
+    "title": "New materials",
+    "events": [
+      {
+        "id": "a",
+        "text": "George de Mestral is granted his patent for the hook and loop fastener"
+      },
+      {
+        "id": "b",
+        "text": "Wallace Carothers first synthesises nylon at DuPont"
+      },
+      {
+        "id": "c",
+        "text": "Harry Brearley discovers stainless steel in a Sheffield laboratory"
+      },
+      {
+        "id": "d",
+        "text": "Leo Baekeland develops Bakelite, the first fully synthetic plastic"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "d": "1907",
+      "c": "1913",
+      "b": "1935",
+      "a": "1955"
+    },
+    "explanation": "Bakelite appeared in 1907 and Sheffield's first stainless steel followed only six years later. Nylon was synthesised in 1935, and de Mestral's hook and loop fastener waited until his Swiss patent was granted in 1955."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bakelite",
+      "excerpt": "It was developed by chemist Leo Baekeland in Yonkers, New York, in 1907, and patented on December 7, 1909."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stainless_steel",
+      "excerpt": "While seeking a corrosion-resistant alloy for gun barrels in 1913, Harry Brearley of the Brown-Firth research laboratory in Sheffield, England, discovered and subsequently industrialized a martensitic stainless steel alloy, later known as AISI type 420."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nylon",
+      "excerpt": "The first nylon, nylon 66, was synthesized on February 28, 1935, by Wallace Hume Carothers at DuPont's research facility at the DuPont Experimental Station."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Velcro",
+      "excerpt": "De Mestral submitted his idea for a patent in Switzerland in 1951, which was granted in 1955."
+    }
+  ],
+  "editorNotes": "Bakelite: the page says it was developed in Yonkers in 1907 and that the patent was filed on 13 July 1907 and granted on 7 December 1909, so the development year is used and the grant year is recorded here rather than used. Stainless steel: the Harry Brearley page hedges the day, saying it is reported that the first true stainless steel was produced on 13 August 1913 while the American Society for Metals gives 20 August 1913 for casting number 1008. Both accounts fall in the same year and the Stainless steel page states 1913 plainly with no hedge, so that page is cited instead of Brearley's own. Brearley applied for a United States patent in 1915 only to find Elwood Haynes had registered one, and neither of those is the event. Nylon: the page gives 28 February 1935 for the first synthesis of nylon 66 and separately gives the commercial announcement on 27 October 1938, a nylon-bristled toothbrush in 1938 and the first commercial sale in 1940. All four are stated plainly, and the 1935 synthesis was chosen because it is the making of the material itself rather than its marketing; the 1938 announcement is the obvious alternative. Hook and loop fastener: that title redirects to Velcro, which is the page cited; de Mestral submitted his Swiss application in 1951 and it was granted in 1955, so the grant year is used and 1951 is recorded here. Alternatives considered: polytetrafluoroethylene, discovered on 6 April 1938, was dropped because the set already has a close pair in 1907 and 1913 and Velcro carries the spread into the 1950s, and vulcanised rubber was dropped because the page gives competing accounts of Goodyear's discovery."
+}

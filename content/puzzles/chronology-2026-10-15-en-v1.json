@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-15-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "The written word",
+    "events": [
+      {
+        "id": "a",
+        "text": "Allen Lane's Penguin Books publishes its first sixpenny paperbacks"
+      },
+      {
+        "id": "b",
+        "text": "The Oxford English Dictionary is completed with its final fascicle"
+      },
+      {
+        "id": "c",
+        "text": "Shakespeare's fellow actors gather his plays into the First Folio"
+      },
+      {
+        "id": "d",
+        "text": "Champollion announces that he has deciphered Egyptian hieroglyphs"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "c": "1623",
+      "d": "1822",
+      "b": "1928",
+      "a": "1935"
+    },
+    "explanation": "The First Folio gathered Shakespeare's plays in 1623, and Champollion unlocked the hieroglyphs of the Rosetta Stone in 1822. The two twentieth-century entries sit close together, with the Oxford English Dictionary finished in 1928 and the first Penguin paperbacks on sale in 1935."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Folio",
+      "excerpt": "Mr. William Shakespeare's Comedies, Histories, & Tragedies is a collection of plays by William Shakespeare, commonly referred to by modern scholars as the First Folio, published in 1623, about seven years after Shakespeare's death."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion",
+      "excerpt": "In 1822, Champollion published his first breakthrough in the decipherment of the Rosetta hieroglyphs, showing that the Egyptian writing system was a combination of phonetic and ideographic signs – the first such script discovered."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oxford_English_Dictionary",
+      "excerpt": "The 125th and last fascicle covered words from Wise to the end of W and was published on 19 April 1928, and the full dictionary in bound volumes followed immediately."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Penguin_Books",
+      "excerpt": "The first Penguin paperbacks were published in 1935, at first as an imprint of The Bodley Head (of Vigo Street, London) with the books originally distributed from the crypt of Holy Trinity Church Marylebone."
+    }
+  ]
+}

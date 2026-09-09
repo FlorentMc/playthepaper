@@ -1,0 +1,166 @@
+{
+  "topic": "Dishes, drinks and sauces",
+  "payload": {
+    "title": "Dishes, drinks and sauces",
+    "rows": [
+      "A dish",
+      "A drink",
+      "A sauce or seasoning"
+    ],
+    "cols": [
+      "From France",
+      "From Italy",
+      "From Japan"
+    ],
+    "tiles": [
+      "Espresso",
+      "Miso",
+      "Champagne",
+      "Pesto",
+      "Ramen",
+      "Bouillabaisse",
+      "Sake",
+      "Bechamel",
+      "Risotto"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Bouillabaisse",
+        "Risotto",
+        "Ramen"
+      ],
+      [
+        "Champagne",
+        "Espresso",
+        "Sake"
+      ],
+      [
+        "Bechamel",
+        "Pesto",
+        "Miso"
+      ]
+    ],
+    "explanations": {
+      "Bouillabaisse": "The fish soup of Marseille, on the southern coast of France.",
+      "Risotto": "An Italian rice dish cooked in broth until it turns creamy.",
+      "Ramen": "A noodle dish now counted as a national dish of Japan.",
+      "Champagne": "The sparkling wine of the Champagne region of France.",
+      "Espresso": "The concentrated coffee that originated in Italy.",
+      "Sake": "The brewed rice drink that is the national beverage of Japan.",
+      "Bechamel": "One of the mother sauces of French cooking, made from a roux and milk.",
+      "Pesto": "The basil paste of Genoa that Italians use to dress pasta.",
+      "Miso": "A traditional Japanese seasoning made by fermenting soybeans."
+    },
+    "fits": {
+      "Bouillabaisse": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Risotto": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Ramen": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Champagne": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Espresso": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Sake": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Bechamel": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Pesto": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Miso": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bouillabaisse",
+      "excerpt": "Bouillabaisse was originally a dish made by Marseille fishermen, using bony rockfish, which they were unable to sell to restaurants or markets."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marseille",
+      "excerpt": "Marseille is the second-most populous city proper in France, after Paris, with 886,040 inhabitants in 2023 over a municipal territory of 241 km2 (93 sq mi)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Risotto",
+      "excerpt": "Risotto is an Italian rice dish cooked with broth until it reaches a creamy consistency."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ramen",
+      "excerpt": "Today, ramen is considered a national dish of Japan, with many regional varieties and a wide range of toppings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Champagne",
+      "excerpt": "In France, the first sparkling champagne was created accidentally; the pressure in the bottle led it to be called \"the devil's wine\" (le vin du diable), as bottles exploded or corks popped."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Espresso",
+      "excerpt": "Originating in Italy, espresso has become one of the most popular coffee-brewing methods worldwide."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sake",
+      "excerpt": "In Japan, where it is the national beverage, sake is often served with special ceremony, where it is gently warmed in a small earthenware or porcelain bottle and sipped from a small porcelain cup called a sakazuki."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce",
+      "excerpt": "Béchamel is one of the mother sauces of French cuisine."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pesto",
+      "excerpt": "Pesto (Italian: [ˈpesto]), also known as pesto genovese, is an Italian paste traditionally made with leaves of Genovese basil, extra virgin olive oil, Parmesan (alternatively Grana Padano), pecorino sardo, pine nuts, and garlic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miso",
+      "excerpt": "Miso (みそ or 味噌) is a traditional Japanese seasoning."
+    }
+  ],
+  "editorNotes": "Soy sauce was the first choice for the Japanese seasoning and was dropped: Wikipedia calls it \"a liquid condiment of Chinese origin\", created during the Western Han dynasty, so it fails the column. Miso replaces it, and Wikipedia's opening line calls miso a traditional Japanese seasoning. Bechamel was checked against the Italy column because Italians know it as besciamella and use it in lasagne, but the Wikipedia article says archival research has undermined the Tuscan origin story and calls it one of the mother sauces of French cuisine, so it fits only the France cell. Ramen grew out of Chinese noodle cooking in Yokohama, but the article calls it a national dish of Japan today, and it is a dish, never a drink or a seasoning. Miso lends its name to miso soup, but the tile names the fermented paste, a seasoning, not the soup. Champagne, espresso and sake are drinks and nothing else on this grid; bouillabaisse and risotto are dishes and nothing else. Each of the nine tiles therefore satisfies exactly one cell, and no tile can be exchanged with another, so the placement is the only one that works."
+}

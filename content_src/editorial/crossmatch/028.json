@@ -1,0 +1,161 @@
+{
+  "topic": "Palaces, temples and bridges",
+  "payload": {
+    "title": "Palaces, temples and bridges",
+    "rows": [
+      "A castle or palace",
+      "A place of worship",
+      "A bridge or tower"
+    ],
+    "cols": [
+      "In Britain",
+      "In India",
+      "In China"
+    ],
+    "tiles": [
+      "Golden Temple",
+      "Tower Bridge",
+      "Windsor Castle",
+      "Canton Tower",
+      "Howrah Bridge",
+      "Forbidden City",
+      "Canterbury Cathedral",
+      "Temple of Heaven",
+      "Mysore Palace"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Windsor Castle",
+        "Mysore Palace",
+        "Forbidden City"
+      ],
+      [
+        "Canterbury Cathedral",
+        "Golden Temple",
+        "Temple of Heaven"
+      ],
+      [
+        "Tower Bridge",
+        "Howrah Bridge",
+        "Canton Tower"
+      ]
+    ],
+    "explanations": {
+      "Windsor Castle": "The royal residence at Windsor in Berkshire, the longest-occupied palace in Europe.",
+      "Mysore Palace": "The palace and royal residence of the Wadiyar dynasty in southern India.",
+      "Forbidden City": "The imperial palace complex at the centre of Beijing.",
+      "Canterbury Cathedral": "The cathedral of the archbishop of Canterbury, in Kent.",
+      "Golden Temple": "The Sikh gurdwara at Amritsar, in the Punjab.",
+      "Temple of Heaven": "A complex of imperial religious buildings in southern Beijing.",
+      "Tower Bridge": "The bascule bridge over the Thames in London.",
+      "Howrah Bridge": "The steel bridge over the Hooghly river at Kolkata.",
+      "Canton Tower": "The 600-metre observation tower at Guangzhou, in southern China."
+    },
+    "fits": {
+      "Windsor Castle": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Mysore Palace": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Forbidden City": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Canterbury Cathedral": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Golden Temple": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Temple of Heaven": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Tower Bridge": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Howrah Bridge": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Canton Tower": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Windsor_Castle",
+      "excerpt": "Windsor Castle is a royal residence at Windsor in the English county of Berkshire, about 25 miles (40 km) west of central London."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mysore_Palace",
+      "excerpt": "Mysore Palace, also known as Amba Vilas Palace, is a historic palace and royal residence located in Mysore, Karnataka, India."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+      "excerpt": "The Forbidden City (Chinese: 紫禁城; pinyin: Zǐjìnchéng) is the imperial palace complex in the center of the Imperial City in Beijing, China."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canterbury_Cathedral",
+      "excerpt": "Canterbury Cathedral is the cathedral of the archbishop of Canterbury, the spiritual leader of the Church of England and symbolic leader of the worldwide Anglican Communion."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Golden_Temple",
+      "excerpt": "The Golden Temple is a gurdwara located in Amritsar, Punjab, India."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Heaven",
+      "excerpt": "The Temple of Heaven (simplified Chinese: 天坛; traditional Chinese: 天壇; pinyin: Tiāntán) is a complex of imperial religious Confucian buildings situated in the southeastern part of central Beijing."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+      "excerpt": "Tower Bridge is a Grade I listed combined bascule, suspension, and, until 1960, cantilever bridge in London, built between 1886 and 1894, designed by Horace Jones and engineered by John Wolfe Barry with the help of Henry Marc Brunel."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Howrah_Bridge",
+      "excerpt": "The Howrah Bridge (Bengali: [ɦaoɽa]) is a balanced steel bridge over the Hooghly River in West Bengal, India."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canton_Tower",
+      "excerpt": "The Canton Tower (Chinese: 广州塔), formally Guangzhou TV Astronomical and Sightseeing Tower (Chinese: 广州电视台天文及观光塔), is a 600-metre-tall (2,000 ft) multipurpose observation tower in the Haizhu District of Guangzhou (alternatively romanized as Canton), China."
+    }
+  ],
+  "editorNotes": "Amber Fort was the first candidate for the Indian palace and was swapped out: Wikipedia describes it as a fort, which is not plainly a castle or a palace, whereas Mysore Palace is introduced as \"a historic palace and royal residence\". The Tower of London was considered for the British bridge or tower, but it is officially a royal palace and fortress and so would also satisfy the castle cell; Tower Bridge, which Wikipedia introduces simply as a bridge in London, keeps that column clean. Windsor Castle holds St George's Chapel inside its walls, but the tile names the castle, not the chapel, so it does not answer the place of worship cell. The Forbidden City was the ceremonial centre of the empire, yet Wikipedia calls it a palace complex and a residence, not a place of worship. The Temple of Heaven is an altar complex of religious buildings with no defensive or residential role, so it cannot move up a row, and Canton Tower, Howrah Bridge and Tower Bridge are only ever bridges or towers. Every tile therefore satisfies exactly one cell of the grid and the matching is forced."
+}

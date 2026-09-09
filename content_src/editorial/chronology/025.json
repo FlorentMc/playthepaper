@@ -1,0 +1,62 @@
+{
+  "topic": "Programming languages",
+  "payload": {
+    "title": "Programming languages",
+    "events": [
+      {
+        "id": "a",
+        "text": "Dennis Ritchie creates the C programming language at Bell Labs"
+      },
+      {
+        "id": "b",
+        "text": "Apple unveils its Swift programming language at its developer conference"
+      },
+      {
+        "id": "c",
+        "text": "IBM delivers the first Fortran compiler"
+      },
+      {
+        "id": "d",
+        "text": "Guido van Rossum releases the first version of Python"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "dates": {
+      "c": "1957",
+      "a": "1972",
+      "d": "1991",
+      "b": "2014"
+    },
+    "explanation": "Fortran let scientists write formulas instead of machine code, and each later language here made programming easier for a new generation. C came out of Bell Labs in 1972, Python arrived in 1991, and Swift was Apple's own language for its devices in 2014."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fortran",
+      "excerpt": "The first manual for FORTRAN appeared in October 1956, with the first FORTRAN compiler delivered in April 1957."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "excerpt": "C is a general-purpose programming language created in 1972 by Dennis Ritchie."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "excerpt": "Van Rossum first released it in 1991 as Python 0.9.0."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+      "excerpt": "Swift was first released in June 2014 and the Swift toolchain has shipped in Xcode since Xcode version 6, released in September 2014."
+    }
+  ],
+  "editorNotes": "Fortran: the article gives a draft specification in 1954 and a manual in October 1956, but the first compiler was delivered in April 1957, so the event is worded as the compiler delivery. C: the lead states created in 1972 although work on its predecessor B began in 1971 and development ran to 1973. Python: dated by the 0.9.0 release in 1991, not the late-1980s conception or the December 1989 start of implementation. Swift: dated by the June 2014 unveiling and beta at WWDC; version 1.0 followed that September and the open-source release in 2015."
+}

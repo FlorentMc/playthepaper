@@ -1,0 +1,180 @@
+{
+  "topic": "Composers, painters and architects",
+  "payload": {
+    "title": "Composers, painters and architects",
+    "rows": [
+      "A composer",
+      "A painter",
+      "An architect"
+    ],
+    "cols": [
+      "Italian",
+      "Spanish",
+      "German"
+    ],
+    "tiles": [
+      "Gaudi",
+      "Durer",
+      "Vivaldi",
+      "Walter Gropius",
+      "Palladio",
+      "Goya",
+      "Bach",
+      "Raphael",
+      "Manuel de Falla"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Vivaldi",
+        "Manuel de Falla",
+        "Bach"
+      ],
+      [
+        "Raphael",
+        "Goya",
+        "Durer"
+      ],
+      [
+        "Palladio",
+        "Gaudi",
+        "Walter Gropius"
+      ]
+    ],
+    "explanations": {
+      "Vivaldi": "An Italian composer of the Baroque period.",
+      "Manuel de Falla": "A Spanish composer and pianist.",
+      "Bach": "A German composer of the late Baroque period.",
+      "Raphael": "An Italian painter of the High Renaissance, who worked as an architect as well.",
+      "Goya": "A Spanish painter and printmaker.",
+      "Durer": "A German painter and printmaker of the Renaissance.",
+      "Palladio": "An Italian Renaissance architect, active around Venice.",
+      "Gaudi": "An architect from Catalonia in Spain, whose Sagrada Família stands in Barcelona.",
+      "Walter Gropius": "A German architect, who founded the Bauhaus school."
+    },
+    "fits": {
+      "Vivaldi": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Manuel de Falla": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Bach": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Raphael": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "Goya": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Durer": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Palladio": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Gaudi": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Walter Gropius": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Vivaldi",
+      "excerpt": "Antonio Lucio Vivaldi was an Italian composer, virtuoso violinist and impresario of Baroque music."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Manuel_de_Falla",
+      "excerpt": "Manuel de Falla y Matheu was a Spanish composer and pianist."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
+      "excerpt": "Johann Sebastian Bach was a German composer and musician of the late Baroque period."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raphael",
+      "excerpt": "Raffaello Sanzio da Urbino, now generally known in English as Raphael, was an Italian painter and architect of the High Renaissance."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Goya",
+      "excerpt": "Francisco José de Goya y Lucientes was a Spanish romantic painter and printmaker."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+      "excerpt": "Albrecht Dürer, sometimes spelled in English as Durer or Duerer, was a German painter, printmaker, and theorist of the German Renaissance."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andrea_Palladio",
+      "excerpt": "Andrea Palladio was an Italian Renaissance architect active in the Venetian Republic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD",
+      "excerpt": "Antoni Gaudí i Cornet was a Catalan architect and designer, widely known as the greatest exponent of Catalan Modernisme."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "excerpt": "Basílica i Temple Expiatori de la Sagrada Família, or simply Sagrada Família, is a Catholic church under construction in the Eixample district of Barcelona, Catalonia, Spain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "excerpt": "Designed by the Catalan architect Antoni Gaudí, it is the tallest church in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bauhaus",
+      "excerpt": "The Bauhaus was founded by architect Walter Gropius in Weimar."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Walter_Gropius",
+      "excerpt": "Walter Adolph Georg Gropius was a German-American architect and founder of the Bauhaus School, who is widely regarded as one of the pioneering masters of modernist architecture."
+    }
+  ],
+  "editorNotes": "Raphael is the overlap: Wikipedia calls him an Italian painter and architect, so he satisfies both the Italian painter cell and the Italian architect cell. Palladio fits the Italian architect cell and nothing else, so he claims it and Raphael has to take the painter cell; that is what forces the whole grid. Caravaggio was the first thought for the Italian painter, but Raphael earns his place by carrying the second trade. The other eight tiles each fit one cell only. Vivaldi was a violinist and a priest but not a painter or a builder; Bach and Falla likewise composed and nothing more. Dürer wrote a treatise touching on fortification, yet he is named as a painter, printmaker and theorist, never as an architect, so he stays in the German painter cell. Goya painted and made prints only. Gropius designed buildings but wrote no music and painted no pictures. Two honest caveats. Wikipedia calls Gaudí a Catalan architect rather than a Spanish one; Catalonia is part of Spain, he was a Spanish subject, and his Sagrada Família stands in Barcelona, which is why the Spanish column holds him, and the second and third sources say so. Gropius is called German-American: he was born in Berlin, founded the Bauhaus in Weimar and only left Germany in 1934, so the German column is fair."
+}

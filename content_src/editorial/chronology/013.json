@@ -1,0 +1,62 @@
+{
+  "topic": "Voyages of exploration",
+  "payload": {
+    "title": "Voyages of exploration",
+    "events": [
+      {
+        "id": "a",
+        "text": "Roald Amundsen's party becomes the first to reach the South Pole"
+      },
+      {
+        "id": "b",
+        "text": "Edmund Hillary and Tenzing Norgay reach the summit of Everest"
+      },
+      {
+        "id": "c",
+        "text": "Elcano brings the Victoria home to Spain, completing the first circumnavigation"
+      },
+      {
+        "id": "d",
+        "text": "Cook's Endeavour reaches the east coast of Australia and anchors at Botany Bay"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "1522",
+      "d": "1770",
+      "a": "1911",
+      "b": "1953"
+    },
+    "explanation": "The Victoria's return to Spain in 1522 closed the first voyage right around the world, and Cook reached the east coast of Australia nearly 250 years later in 1770. The last two are the closest pair, with Amundsen standing at the South Pole in 1911 and Hillary and Tenzing on the summit of Everest in 1953."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Magellan_expedition",
+      "excerpt": "On 6 September 1522, Elcano and the remaining crew of Magellan's voyage arrived in Sanlúcar de Barrameda in Spain aboard Victoria, almost exactly three years after they departed."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_voyage_of_James_Cook",
+      "excerpt": "In April 1770 they became the first known Europeans to reach the east coast of Australia, making landfall near present-day Point Hicks, and then proceeding north to Botany Bay."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roald_Amundsen",
+      "excerpt": "The party of five, led by Amundsen, became the first to reach the South Pole on 14 December 1911."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition",
+      "excerpt": "The 1953 British Mount Everest expedition was the ninth mountaineering expedition to attempt the first ascent of Mount Everest, and the first confirmed to have succeeded when Tenzing Norgay and Edmund Hillary reached the summit on 29 May 1953 at 11:30 a.m."
+    }
+  ],
+  "editorNotes": "Magellan died in the Philippines in 1521, so the circumnavigation is credited to Elcano and the eighteen survivors who reached Sanlúcar de Barrameda on 6 September 1522; the crew's own log was a day behind, recording 9 July 1522 at Cape Verde when the local date was 10 July, but the arrival year is not in doubt. Cook: the page dates the sighting of land to 19 April 1770 and adds that this was a nautical date beginning twelve hours before the like-named civil date, so modern reckoning gives 20 April; the landing at Botany Bay followed on 29 April 1770, and the year is unaffected either way, so the lede sentence is used rather than a day-level one. Amundsen: a footnote records that some sources give 15 December 1911 because Fram had crossed the International Date Line, but the article itself and Amundsen's own account give 14 December, and the year is firm. Everest: the summit was reached on 29 May 1953, with news released on the morning of the coronation on 2 June; the 1924 Mallory and Irvine attempt was rejected because the page treats the ascent as unconfirmed and the men died. Columbus in 1492 and Vasco da Gama in 1498 were considered and dropped to keep a wider spread of centuries. 029 uses Junko Tabei's 1975 ascent of Everest, which is a different event from the 1953 first ascent."
+}

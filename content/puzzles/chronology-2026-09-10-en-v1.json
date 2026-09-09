@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-10-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-10",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Once the world's tallest",
+    "events": [
+      {
+        "id": "a",
+        "text": "The Burj Khalifa opens in Dubai"
+      },
+      {
+        "id": "b",
+        "text": "The Eiffel Tower is completed as the centrepiece of a world's fair in Paris"
+      },
+      {
+        "id": "c",
+        "text": "The Chrysler Building opens in New York as the tallest building in the world"
+      },
+      {
+        "id": "d",
+        "text": "The Empire State Building opens in New York"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "b",
+      "c",
+      "d",
+      "a"
+    ],
+    "dates": {
+      "b": "1889",
+      "c": "1930",
+      "d": "1931",
+      "a": "2010"
+    },
+    "explanation": "The Eiffel Tower stood as the tallest structure on Earth for forty years until the Chrysler Building's spire overtook it in 1930, and the Chrysler held the title for just eleven months before the Empire State Building opened a few streets away. Nothing since has matched that leapfrogging pace, though the Burj Khalifa of 2010 rises to more than twice the Empire State's height."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "excerpt": "The Eiffel Tower was the world's tallest structure when completed in 1889, a distinction it retained until 1929 when the Chrysler Building in New York City was topped out."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chrysler_Building",
+      "excerpt": "It was both the world's first supertall skyscraper and the world's tallest building for 11 months after its completion in 1930."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Empire_State_Building",
+      "excerpt": "The Empire State Building officially opened on May 1, 1931, forty-five days ahead of its projected opening date, and eighteen months from the start of construction."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+      "excerpt": "The building was opened in 2010 as part of a new development called Downtown Dubai."
+    }
+  ]
+}

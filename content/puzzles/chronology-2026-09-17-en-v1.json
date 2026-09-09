@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-17-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-17",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Canals and tunnels",
+    "events": [
+      {
+        "id": "a",
+        "text": "The Suez Canal opens between the Mediterranean and the Red Sea"
+      },
+      {
+        "id": "b",
+        "text": "The Channel Tunnel opens beneath the sea between England and France"
+      },
+      {
+        "id": "c",
+        "text": "The Erie Canal is completed across New York State to Lake Erie"
+      },
+      {
+        "id": "d",
+        "text": "The Panama Canal opens to shipping between the Atlantic and the Pacific"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "dates": {
+      "c": "1825",
+      "a": "1869",
+      "d": "1914",
+      "b": "1994"
+    },
+    "explanation": "The Erie Canal was finished in 1825, forty-four years before the Suez Canal opened in 1869. The Panama Canal followed in 1914, and the Channel Tunnel came eighty years after that in 1994."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Erie_Canal",
+      "excerpt": "The entire canal was officially completed on October 26, 1825."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+      "excerpt": "Construction of the canal lasted from 1859 to 1869 and it officially opened on 17 November 1869."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "excerpt": "The canal was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+      "excerpt": "Opened in 1994, it remains the only fixed link between Great Britain and the European mainland."
+    }
+  ]
+}

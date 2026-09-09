@@ -1,0 +1,62 @@
+{
+  "topic": "Canals and tunnels",
+  "payload": {
+    "title": "Canals and tunnels",
+    "events": [
+      {
+        "id": "a",
+        "text": "The Suez Canal opens between the Mediterranean and the Red Sea"
+      },
+      {
+        "id": "b",
+        "text": "The Channel Tunnel opens beneath the sea between England and France"
+      },
+      {
+        "id": "c",
+        "text": "The Erie Canal is completed across New York State to Lake Erie"
+      },
+      {
+        "id": "d",
+        "text": "The Panama Canal opens to shipping between the Atlantic and the Pacific"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "dates": {
+      "c": "1825",
+      "a": "1869",
+      "d": "1914",
+      "b": "1994"
+    },
+    "explanation": "The Erie Canal was finished in 1825, forty-four years before the Suez Canal opened in 1869. The Panama Canal followed in 1914, and the Channel Tunnel came eighty years after that in 1994."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Erie_Canal",
+      "excerpt": "The entire canal was officially completed on October 26, 1825."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+      "excerpt": "Construction of the canal lasted from 1859 to 1869 and it officially opened on 17 November 1869."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "excerpt": "The canal was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+      "excerpt": "Opened in 1994, it remains the only fixed link between Great Britain and the European mainland."
+    }
+  ],
+  "editorNotes": "Erie Canal: the legislature authorised the work in 1817 and construction began at Rome, New York on 4 July 1817, so the start year is the obvious rival date; the completion date of 26 October 1825 is stated plainly and is the one used, and the page carries no hedge on it. Suez: construction ran from 1859 to 1869 and the official opening was 17 November 1869, with no competing date offered. Panama: the French began work in 1881 and the United States took over in 1904, and the page says both that the canal was completed in 1914 and that it was formally opened on 15 August 1914, so the two agree; the event text says opens to shipping to match the passage of SS Ancon. Channel Tunnel: tunnelling commenced in 1988 and the service tunnel broke through on 30 October 1990, but the tunnel itself was officially opened on 6 May 1994, which the lede also gives as the opening year. The Grand Canal of China and the Corinth Canal were considered and set aside, the first because its earliest sections are given only approximate dates, the second because it makes a thin fourth beside the three best-known canals."
+}

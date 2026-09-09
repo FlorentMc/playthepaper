@@ -1,0 +1,62 @@
+{
+  "topic": "Balloons, boats and bikes",
+  "payload": {
+    "title": "Balloons, boats and bikes",
+    "events": [
+      {
+        "id": "a",
+        "text": "Robert Fulton's North River Steamboat carries passengers up the Hudson"
+      },
+      {
+        "id": "b",
+        "text": "Daimler and Maybach build the Reitwagen, the first petrol-engined motorcycle"
+      },
+      {
+        "id": "c",
+        "text": "Count Zeppelin's first airship, the LZ 1, flies over Lake Constance"
+      },
+      {
+        "id": "d",
+        "text": "A Montgolfier balloon makes the first free flight carrying people"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "a",
+      "b",
+      "c"
+    ],
+    "dates": {
+      "d": "1783",
+      "a": "1807",
+      "b": "1885",
+      "c": "1900"
+    },
+    "explanation": "People first left the ground beneath a Montgolfier balloon in 1783, a generation before Fulton's steamboat showed in 1807 that steam could pay its way on the Hudson. The petrol engine then changed everything, and Daimler's Reitwagen of 1885 and Zeppelin's first airship of 1900 came only fifteen years apart."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+      "excerpt": "On 21 November 1783, the first free flight by humans was made by Pilâtre de Rozier, together with an army officer, the marquis d'Arlandes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/North_River_Steamboat",
+      "excerpt": "Built in 1807, the North River Steamboat operated on the Hudson River – at that time often known as the North River – between New York City and Albany, New York."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daimler_Reitwagen",
+      "excerpt": "The Daimler Reitwagen (\"riding car\") or Einspur (\"single track\") was a motor vehicle made by Gottlieb Daimler and Wilhelm Maybach in 1885."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zeppelin_LZ_1",
+      "excerpt": "It was first flown from a floating hangar on Lake Constance, near Friedrichshafen in southern Germany, on 2 July 1900."
+    }
+  ],
+  "editorNotes": "Montgolfier: the unmanned Annonay demonstration was in June 1783, the animal flight in September, a tethered test 'most likely' in October and the first free flight with people on 21 November 1783, so the year holds whichever milestone is meant. North River Steamboat: built and first run in 1807, with the inaugural voyage on 17 August and scheduled service from 4 September. Reitwagen: engine patented April 1885, design patented August 1885, first ridden November 1885; the article says its status as the first motorcycle depends on whether steam two-wheelers count, so the text says petrol-engined. LZ 1: construction began in 1898 and the first flight was on 2 July 1900."
+}

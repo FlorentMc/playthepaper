@@ -1,0 +1,205 @@
+{
+  "id": "crossmatch-2026-10-07-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-07",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Poets, novelists and playwrights",
+    "rows": [
+      "A poet",
+      "A novelist",
+      "A playwright"
+    ],
+    "cols": [
+      "Wrote in English",
+      "Wrote in French",
+      "Wrote in German"
+    ],
+    "tiles": [
+      "Thomas Mann",
+      "Moliere",
+      "Wordsworth",
+      "Bertolt Brecht",
+      "Dickens",
+      "Rilke",
+      "Victor Hugo",
+      "Tom Stoppard",
+      "Baudelaire"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Wordsworth",
+        "Baudelaire",
+        "Rilke"
+      ],
+      [
+        "Dickens",
+        "Victor Hugo",
+        "Thomas Mann"
+      ],
+      [
+        "Tom Stoppard",
+        "Moliere",
+        "Bertolt Brecht"
+      ]
+    ],
+    "explanations": {
+      "Wordsworth": "An English Romantic poet, who wrote Lyrical Ballads with Coleridge.",
+      "Baudelaire": "A French poet, who also worked as an essayist and critic.",
+      "Rilke": "A poet writing in German, and the leftover poem cell is his.",
+      "Dickens": "An English novelist of the Victorian age.",
+      "Victor Hugo": "The French author of Les Misérables, which puts him in the novel cell.",
+      "Thomas Mann": "A German novelist, writing in German.",
+      "Tom Stoppard": "A British playwright, writing in English.",
+      "Moliere": "A French playwright, whose comedies are in verse.",
+      "Bertolt Brecht": "A German playwright, and a poet besides."
+    },
+    "fits": {
+      "Wordsworth": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Baudelaire": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Rilke": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "Dickens": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Victor Hugo": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "Thomas Mann": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Tom Stoppard": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Moliere": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "Bertolt Brecht": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Wordsworth",
+      "excerpt": "William Wordsworth was an English Romantic poet who, with Samuel Taylor Coleridge, helped to launch the Romantic Age in English literature with their joint publication Lyrical Ballads (1798)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "excerpt": "Charles John Huffam Dickens was an English writer and journalist."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "excerpt": "He created some of literature's best-known fictional characters, and is regarded by many as the greatest novelist of the Victorian era."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Stoppard",
+      "excerpt": "Sir Tom Stoppard was a British playwright and screenwriter."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Baudelaire",
+      "excerpt": "Charles-Pierre Baudelaire was a French poet, essayist, translator and art critic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Victor_Hugo",
+      "excerpt": "Victor-Marie Hugo, vicomte Hugo was a French Romantic author, poet, essayist, playwright, journalist, human rights activist and politician."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "excerpt": "Les Misérables is a French epic historical novel by Victor Hugo, first published on 31 March 1862, that is considered one of the greatest novels of the 19th century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
+      "excerpt": "Jean-Baptiste Poquelin, known by his stage name Molière, was a French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
+      "excerpt": "René Karl Wilhelm Johann Josef Maria Rilke, known as Rainer Maria Rilke, was an Austrian poet."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
+      "excerpt": "Acclaimed as an idiosyncratic and expressive poet, he is widely recognized as a significant writer in the German language."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke",
+      "excerpt": "His writings include one novel, several collections of poetry, several volumes of correspondence and a few early novellas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Mann",
+      "excerpt": "Paul Thomas Mann was a German novelist, short story writer, social critic, philanthropist, essayist, and the 1929 Nobel Prize in Literature laureate."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bertolt_Brecht",
+      "excerpt": "Eugen Berthold Friedrich Brecht, known as Bertolt Brecht and Bert Brecht, was a German theatre practitioner, playwright, and poet."
+    }
+  ]
+}

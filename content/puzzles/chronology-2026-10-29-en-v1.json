@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-29-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Life online",
+    "events": [
+      {
+        "id": "a",
+        "text": "Wikipedia goes online as a single English-language edition"
+      },
+      {
+        "id": "b",
+        "text": "Jeff Bezos founds Amazon as an online bookshop"
+      },
+      {
+        "id": "c",
+        "text": "Three former PayPal employees found YouTube"
+      },
+      {
+        "id": "d",
+        "text": "Larry Page and Sergey Brin found Google"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "b",
+      "d",
+      "a",
+      "c"
+    ],
+    "dates": {
+      "b": "1994",
+      "d": "1998",
+      "a": "2001",
+      "c": "2005"
+    },
+    "explanation": "Amazon started as an online bookshop in 1994 and Google followed four years later as a search engine set up by two computer scientists. Wikipedia went online in January 2001 and YouTube in 2005, by which time much of everyday life had moved onto the web."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+      "excerpt": "On July 5, 1994, Amazon was founded as \"Cadabra\" by Jeff Bezos, after he relocated from New York City to Bellevue, Washington, to operate an online bookstore."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Google",
+      "excerpt": "Google was founded in 1998 by American computer scientists Larry Page and Sergey Brin."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia",
+      "excerpt": "Wikipedia was launched on January 15, 2001 (sometimes referred to as \"Wikipedia Day\"), as a single English language edition with the domain name www.wikipedia.com, and was announced by Sanger on the Nupedia mailing list."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/YouTube",
+      "excerpt": "YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal."
+    }
+  ]
+}

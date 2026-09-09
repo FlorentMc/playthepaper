@@ -1,0 +1,62 @@
+{
+  "topic": "Famous bridges",
+  "payload": {
+    "title": "Famous bridges",
+    "events": [
+      {
+        "id": "a",
+        "text": "Tower Bridge is opened in London by the Prince and Princess of Wales"
+      },
+      {
+        "id": "b",
+        "text": "The Golden Gate Bridge opens to the public in San Francisco"
+      },
+      {
+        "id": "c",
+        "text": "The Millau Viaduct, then the tallest bridge in the world, opens in southern France"
+      },
+      {
+        "id": "d",
+        "text": "The Brooklyn Bridge opens across the East River in New York"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "a",
+      "b",
+      "c"
+    ],
+    "dates": {
+      "d": "1883",
+      "a": "1894",
+      "b": "1937",
+      "c": "2004"
+    },
+    "explanation": "The Brooklyn Bridge and Tower Bridge opened within eleven years of each other, one a pioneering steel-wire suspension bridge and the other a Victorian bascule bridge dressed in Gothic stone. The Golden Gate followed in 1937 as the longest suspension span of its day, and the Millau Viaduct in 2004 carried the idea skyward with the tallest bridge piers ever built."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+      "excerpt": "Opened on May 24, 1883, the Brooklyn Bridge was the first fixed crossing of the East River."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+      "excerpt": "Tower Bridge was officially opened on 30 June 1894 by the Prince and Princess of Wales."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+      "excerpt": "The bridge opened to the public on May 27, 1937, and has undergone various retrofits and other improvement projects in the decades since."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Millau_Viaduct",
+      "excerpt": "It was built over three years, formally inaugurated on 14 December 2004, and opened to traffic two days later on 16 December."
+    }
+  ],
+  "editorNotes": "Alternatives checked: opening dates are used throughout rather than construction starts (Brooklyn Bridge 1870, Tower Bridge 1886, Golden Gate 1933, Millau 2001). Tower Bridge's article also gives the foundation stone in 1886 and completion in 1894, the same year as the royal opening. The Millau Viaduct was inaugurated on 14 December 2004 and opened to traffic on 16 December, both in the same year; the article notes it held the tallest-bridge title until late 2025, hence 'then the tallest' in the event text."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-16-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Exploring the deep",
+    "events": [
+      {
+        "id": "a",
+        "text": "USS Nautilus puts to sea for the first time under nuclear power"
+      },
+      {
+        "id": "b",
+        "text": "The bathyscaphe Trieste reaches the bottom of the Challenger Deep"
+      },
+      {
+        "id": "c",
+        "text": "HMS Challenger sails from Portsmouth to survey the world's oceans"
+      },
+      {
+        "id": "d",
+        "text": "Beebe and Barton descend half a mile into the sea in the Bathysphere"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "a",
+      "b"
+    ],
+    "dates": {
+      "c": "1872",
+      "d": "1934",
+      "a": "1955",
+      "b": "1960"
+    },
+    "explanation": "HMS Challenger set out in 1872 to sound and sample the oceans, and the Bathysphere carried Beebe and Barton half a mile down off Bermuda in 1934. Nautilus first ran on nuclear power in 1955, five years before Trieste settled on the floor of the Challenger Deep in 1960, the trench named after the old survey ship."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Challenger_expedition",
+      "excerpt": "The expedition, led by Captain George Nares, sailed from Portsmouth, England, on 21 December 1872."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bathysphere",
+      "excerpt": "On August 15, 1934, Barton and Beebe descended to 3,028 feet (923 m), fulfilling their promise to descend half a mile."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)",
+      "excerpt": "At 11:00 a.m. January 17, 1955, the crew dropped the mooring lines and Wilkinson, on the bridge with Rickover, gave the command to back."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trieste_(bathyscaphe)",
+      "excerpt": "On 23 January 1960, it reached the ocean floor in the Challenger Deep (the deepest southern part of the Mariana Trench), carrying Jacques Piccard and Don Walsh."
+    }
+  ]
+}

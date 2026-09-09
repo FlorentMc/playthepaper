@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-19-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "At the table",
+    "events": [
+      {
+        "id": "a",
+        "text": "Momofuku Ando puts the first instant noodles on sale in Japan"
+      },
+      {
+        "id": "b",
+        "text": "The first machine-sliced loaves go on sale from a bakery in Missouri"
+      },
+      {
+        "id": "c",
+        "text": "Coca-Cola goes on sale as a soda fountain drink in Atlanta"
+      },
+      {
+        "id": "d",
+        "text": "Peter Durand is granted a British patent for preserving food in sealed tins"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "d": "1810",
+      "c": "1886",
+      "b": "1928",
+      "a": "1958"
+    },
+    "explanation": "Durand's patent for food sealed in tins was granted in 1810, three-quarters of a century before Coca-Cola was first poured in Atlanta in 1886. Sliced bread reached the shops in 1928, and instant noodles followed thirty years later in 1958."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peter_Durand",
+      "excerpt": "The patent (No 3372) was granted on August 25, 1810 by George III."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coca-Cola",
+      "excerpt": "The first sales were at Jacob's Pharmacy in Atlanta, Georgia, on May 8, 1886, where it initially sold for five cents a glass."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sliced_bread",
+      "excerpt": "The first commercial use of the machine was by the Chillicothe Baking Company of Chillicothe, Missouri, who sold their first slices on July 7, 1928."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Instant_noodles",
+      "excerpt": "They were first marketed on 25 August 1958 by Ando's company, Nissin, under the brand name Chikin Ramen."
+    }
+  ]
+}

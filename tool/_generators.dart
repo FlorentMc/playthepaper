@@ -2,7 +2,9 @@ import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
 import 'package:playthepaper/engines/binary/binary.dart';
 import 'package:playthepaper/engines/bridges/bridges.dart';
+import 'package:playthepaper/engines/chronology/chronology.dart';
 import 'package:playthepaper/engines/compass/compass_generator.dart';
+import 'package:playthepaper/engines/crossmatch/crossmatch.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/loop/loop.dart';
 import 'package:playthepaper/engines/merge/merge.dart';
@@ -37,6 +39,14 @@ final Map<GameKind, DailyGenerator> generatedGames = {
 
 /// Editorial games with an evergreen reserve under `content_src/editorial/[slug]/`.
 final Map<GameKind, EditorialGenerator> editorialGames = {
+  GameKind.chronology: EditorialGenerator(
+    generate: ChronologyGenerator().generate,
+    fromTemplate: ChronologyGenerator().fromTemplate,
+  ),
+  GameKind.crossmatch: EditorialGenerator(
+    generate: CrossmatchGenerator().generate,
+    fromTemplate: CrossmatchGenerator().fromTemplate,
+  ),
   GameKind.uncover: EditorialGenerator(
     generate: UncoverGenerator().generate,
     fromTemplate: UncoverGenerator().fromTemplate,

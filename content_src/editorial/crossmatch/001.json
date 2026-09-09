@@ -1,0 +1,165 @@
+{
+  "topic": "Capitals, islands and volcanoes",
+  "payload": {
+    "title": "Capitals, islands and volcanoes",
+    "rows": [
+      "Capital city",
+      "Island",
+      "Volcano"
+    ],
+    "cols": [
+      "In Africa",
+      "In Asia",
+      "In South America"
+    ],
+    "tiles": [
+      "Mount Fuji",
+      "Zanzibar",
+      "Cotopaxi",
+      "Bogota",
+      "Galapagos Islands",
+      "Nairobi",
+      "Borneo",
+      "Kilimanjaro",
+      "Seoul"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Nairobi",
+        "Seoul",
+        "Bogota"
+      ],
+      [
+        "Zanzibar",
+        "Borneo",
+        "Galapagos Islands"
+      ],
+      [
+        "Kilimanjaro",
+        "Mount Fuji",
+        "Cotopaxi"
+      ]
+    ],
+    "explanations": {
+      "Nairobi": "The capital of Kenya, in east Africa.",
+      "Seoul": "The capital of South Korea, in east Asia.",
+      "Bogota": "The capital of Colombia, in South America.",
+      "Zanzibar": "An island region of Tanzania, lying off the east coast of Africa.",
+      "Borneo": "The third-largest island in the world, at the centre of maritime South East Asia.",
+      "Galapagos Islands": "A volcanic archipelago belonging to Ecuador, in the Pacific west of South America.",
+      "Kilimanjaro": "A dormant volcano in Tanzania and the highest mountain in Africa.",
+      "Mount Fuji": "An active volcano on the Japanese island of Honshu, in Asia.",
+      "Cotopaxi": "An active volcano in the Ecuadorian Andes, in South America."
+    },
+    "fits": {
+      "Nairobi": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Seoul": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Bogota": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Zanzibar": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Borneo": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Galapagos Islands": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "Kilimanjaro": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Mount Fuji": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Cotopaxi": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nairobi",
+      "excerpt": "Nairobi is the capital and largest city of Kenya, located in the south-central part of the country."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seoul",
+      "excerpt": "Seoul, officially Seoul Special Metropolitan City, is the capital and largest city of South Korea, and the largest city in the whole of Korea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bogotá",
+      "excerpt": "Bogotá is the capital and largest city of Colombia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zanzibar",
+      "excerpt": "Zanzibar is a Tanzanian semi-autonomous region off the coast of East Africa. It is located in the Indian Ocean, and consists of many small islands and two large ones: Unguja Island and Pemba Island."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Borneo",
+      "excerpt": "Borneo is the third-largest island in the world, with an area of 748,168 km2 (288,869 sq mi), and population of 23,053,723. Situated at the geographic centre of Maritime Southeast Asia, it is one of the Greater Sunda Islands, located north of Java, west of Sulawesi, and east of Sumatra."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galápagos_Islands",
+      "excerpt": "The Galápagos Islands are an archipelago of volcanic islands in the Eastern Pacific, located around the equator, 485 nautical miles west of the mainland of South America."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+      "excerpt": "Mount Kilimanjaro is a large dormant volcano in Tanzania. It is the highest mountain in Africa and the highest free-standing mountain above sea level in the world, at 5,895 m (19,341 ft) above sea level and 4,900 m (16,100 ft) above its plateau base."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Fuji",
+      "excerpt": "Mount Fuji is an active stratovolcano located on the Japanese island of Honshu, with a summit elevation of 3,776.24 m. It is the highest mountain in Japan, the second-highest volcano on any Asian island, and the seventh-highest peak of an island on Earth."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cotopaxi",
+      "excerpt": "Cotopaxi is an active stratovolcano in the Andes Mountains, located in Cotopaxi National Park in Cotopaxi Province, about 50 km (31.1 mi) south of Quito, and 31 km (19 mi) northeast of the city of Latacunga, Ecuador."
+    }
+  ],
+  "editorNotes": "The one deliberate overlap is Galapagos Islands, which is both an island group and a chain of volcanoes, so it satisfies the island cell and the volcano cell in the South American column. Cotopaxi is a single volcano on the Ecuadorian mainland and is not an island, so it can only take the volcano cell, which pushes Galapagos Islands into the island cell and settles the column. Zanzibar and Borneo are islands only: neither is volcanic in the way Galapagos is, and neither is a capital. Kilimanjaro and Mount Fuji are volcanoes and not islands (Fuji stands on Honshu but is not itself an island). The three capitals are each in one continent only, and none of them is an island or a volcano, so the top row is fixed. Every other tile satisfies exactly one cell, which leaves a single valid placement."
+}

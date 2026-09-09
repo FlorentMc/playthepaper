@@ -1,0 +1,62 @@
+{
+  "topic": "Landmarks in mathematics",
+  "payload": {
+    "title": "Landmarks in mathematics",
+    "events": [
+      {
+        "id": "a",
+        "text": "John Napier publishes his first description of logarithms"
+      },
+      {
+        "id": "b",
+        "text": "Fibonacci's Liber Abaci brings Hindu-Arabic numerals to European readers"
+      },
+      {
+        "id": "c",
+        "text": "Andrew Wiles announces his proof of Fermat's Last Theorem at Cambridge"
+      },
+      {
+        "id": "d",
+        "text": "Newton's Principia sets out his laws of motion and universal gravitation"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "b",
+      "a",
+      "d",
+      "c"
+    ],
+    "dates": {
+      "b": "1202",
+      "a": "1614",
+      "d": "1687",
+      "c": "1993"
+    },
+    "explanation": "Fibonacci carried Hindu-Arabic numerals into Europe in 1202, and Napier set out his logarithms four centuries later in 1614. Newton's Principia followed in 1687, while Wiles waited until 1993 to tell a Cambridge lecture room that Fermat's Last Theorem had been proved."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liber_Abaci",
+      "excerpt": "The Liber Abaci or Liber Abbaci (Latin for \"The Book of Calculation\") was a 1202 Latin work on arithmetic by Leonardo of Pisa, posthumously known as Fibonacci."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Logarithm",
+      "excerpt": "The method of logarithms was publicly propounded by John Napier in 1614, in a book titled Mirifici Logarithmorum Canonis Descriptio (Description of the Wonderful Canon of Logarithms)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "excerpt": "The Principia is written in Latin and comprises three volumes, and was authorized (imprimatur) by Samuel Pepys, then-president of the Royal Society on 5 July 1686 and first published in 1687."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem",
+      "excerpt": "During 21–23 June 1993, Wiles announced and presented his proof of the Taniyama–Shimura conjecture for semistable elliptic curves, and hence of Fermat's Last Theorem, over the course of three lectures delivered at the Isaac Newton Institute for Mathematical Sciences in Cambridge, England."
+    }
+  ],
+  "editorNotes": "Wiles: the page gives three unhedged dates, the announcement on 23 June 1993, the moment on 19 September 1994 when he found the revelation that repaired the gap, and publication in the Annals of Mathematics in 1995. The 1993 announcement is used because it is the event the page states most plainly and describes at length, and because the 1994 repair and the 1995 papers are later stages of the same proof rather than separate landmarks; both rival years are recorded here so an editor can swap them in if the item is ever reworded. Liber Abaci: the lede and the short description both give 1202, and the page notes that a revised version dedicated to Michael Scot appeared in 1228, so the first version's year is the one used. Napier: the article on the book itself gives only a bare parenthetical year rather than a sentence, so the quoted sentence is taken from the Logarithm page, which states 1614 plainly; Napier's Rabdologiae of 1617 and Briggs's tables of common logarithms of 1617 and 1624 are later and were not used. Principia: the imprimatur is dated 5 July 1686 and the book appeared in July 1687, so the publication year is not in doubt; the second and third editions of 1713 and 1726 were set aside. Alternatives considered and dropped: Euclid's Elements, whose date the page gives as circa 300 BC, and the Rhind Mathematical Papyrus, which is dated only by reference to a reign."
+}

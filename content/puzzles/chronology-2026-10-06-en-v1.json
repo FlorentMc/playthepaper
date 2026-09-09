@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-06-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Recorded sound",
+    "events": [
+      {
+        "id": "a",
+        "text": "Columbia Records introduces the long-playing vinyl LP"
+      },
+      {
+        "id": "b",
+        "text": "The first compact discs and CD players go on sale in Japan"
+      },
+      {
+        "id": "c",
+        "text": "Thomas Edison announces the phonograph, the first machine to record and replay sound"
+      },
+      {
+        "id": "d",
+        "text": "Philips introduces the compact cassette at the Berlin Radio Show"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "dates": {
+      "c": "1877",
+      "a": "1948",
+      "d": "1963",
+      "b": "1982"
+    },
+    "explanation": "Edison's tinfoil phonograph of 1877 showed that sound could be captured and played back, but the formats most of us grew up with arrived in a rush after the Second World War. The LP gave the album a home, the cassette made music portable and recordable, and in 1982 the compact disc brought digital sound into the living room."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phonograph",
+      "excerpt": "The phonograph was invented in 1877 by Thomas Edison; Alexander Graham Bell's Volta Laboratory made several improvements in the 1880s and introduced the graphophone, including the use of wax-coated cardboard cylinders and a cutting stylus that moved from side to side in a helical groove around the record."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LP_record",
+      "excerpt": "Introduced by Columbia Records in 1948, it was soon adopted as a new standard by the entire US record industry and, apart from a few relatively minor refinements and the important later addition of stereophonic sound in 1957, it remained the standard format for record albums during a period in popular music known as the \"album era\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cassette_tape",
+      "excerpt": "Invented by Lou Ottens and his team at the Dutch company Philips, the Compact Cassette was introduced in August 1963, and Philips freely licensed the patented format to other manufacturers from 1966."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compact_disc",
+      "excerpt": "First released in Japan in October 1982, the CD was the second optical disc format to reach the market, following the larger LaserDisc (LD)."
+    }
+  ]
+}

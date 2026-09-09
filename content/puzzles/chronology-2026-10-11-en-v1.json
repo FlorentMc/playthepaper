@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-11-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-11",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Computing firsts",
+    "events": [
+      {
+        "id": "a",
+        "text": "The World Wide Web is released to the whole Internet from CERN"
+      },
+      {
+        "id": "b",
+        "text": "ENIAC, the first general-purpose electronic computer, is unveiled to the public"
+      },
+      {
+        "id": "c",
+        "text": "Bardeen, Brattain and Shockley build the first working transistor at Bell Labs"
+      },
+      {
+        "id": "d",
+        "text": "Intel releases the 4004, the first commercially available microprocessor chip"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "b",
+      "c",
+      "d",
+      "a"
+    ],
+    "dates": {
+      "b": "1946",
+      "c": "1947",
+      "d": "1971",
+      "a": "1991"
+    },
+    "explanation": "The room-sized ENIAC was shown to the press in February 1946, and within two years the transistor that would eventually replace its valves had been demonstrated a few hundred miles away. A quarter of a century later that transistor had shrunk onto a single chip, and twenty years after that the Web arrived to connect the machines."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ENIAC",
+      "excerpt": "A press conference was held on February 1, 1946, and the completed machine was announced to the public the evening of February 14, 1946, featuring demonstrations of its capabilities."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transistor",
+      "excerpt": "The first working device was a point-contact transistor invented in 1947 by physicists John Bardeen, Walter Brattain, and William Shockley at Bell Labs who shared the 1956 Nobel Prize in Physics for their achievement."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004",
+      "excerpt": "The Intel 4004, released by the Intel Corporation on November 15, 1971, was the first in a long line of Intel central processing units (CPUs)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+      "excerpt": "The technology was released outside CERN to other research institutions starting in January 1991, and then to the whole Internet on 23 August 1991."
+    }
+  ]
+}

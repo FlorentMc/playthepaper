@@ -1,0 +1,189 @@
+{
+  "topic": "Trees, flowers and fruits",
+  "payload": {
+    "title": "Trees, flowers and fruits",
+    "rows": [
+      "A tree",
+      "A flower",
+      "A fruit"
+    ],
+    "cols": [
+      "Native to Britain",
+      "Native to Japan",
+      "Native to South America"
+    ],
+    "tiles": [
+      "Pineapple",
+      "Bluebell",
+      "Japanese wineberry",
+      "English oak",
+      "Brazil nut",
+      "Hydrangea",
+      "Passion flower",
+      "Elderberry",
+      "Japanese cherry"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "English oak",
+        "Japanese cherry",
+        "Brazil nut"
+      ],
+      [
+        "Bluebell",
+        "Hydrangea",
+        "Passion flower"
+      ],
+      [
+        "Elderberry",
+        "Japanese wineberry",
+        "Pineapple"
+      ]
+    ],
+    "explanations": {
+      "English oak": "The large oak of British parkland and hedgerow, native across Europe.",
+      "Japanese cherry": "A cherry tree that grows wild in Japan, grown everywhere for its blossom.",
+      "Brazil nut": "One of the tallest trees of the Amazon, in South America.",
+      "Bluebell": "The woodland flower that carpets British and Irish woods in spring.",
+      "Hydrangea": "The bigleaf hydrangea of gardens, native and endemic to Japan.",
+      "Passion flower": "The blue passion flower, a climber native to South America.",
+      "Elderberry": "The dark berry of the elder, a shrub native throughout the British Isles.",
+      "Japanese wineberry": "A relative of the raspberry native to Japan, China and Korea.",
+      "Pineapple": "A tropical fruit native to South America and long cultivated there."
+    },
+    "fits": {
+      "English oak": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Japanese cherry": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Brazil nut": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "Bluebell": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Hydrangea": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Passion flower": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Elderberry": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "Japanese wineberry": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Pineapple": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quercus_robur",
+      "excerpt": "Quercus robur, pedunculate oak, European oak, or English oak, is a species of flowering plant in the beech and oak family, Fagaceae."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quercus_robur",
+      "excerpt": "It is a large tree, native to Europe and western Asia, and is widely cultivated in other temperate regions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prunus_serrulata",
+      "excerpt": "Prunus serrulata or Japanese cherry is a species of cherry tree that grows wild in Japan, China, Korea and Vietnam."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brazil_nut",
+      "excerpt": "Brazil nut (Bertholletia excelsa) refers to a South American tree of the monotypic genus Bertholletia in the family Lecythidaceae as well as the tree's commercially-harvested edible seeds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hyacinthoides_non-scripta",
+      "excerpt": "H. non-scripta is found throughout Britain and Ireland, with the exception of the northern Outer Hebrides (Lewis and Harris), Orkney and Shetland, and it is estimated that 25%–50% of all common bluebells may be found in Britain and Ireland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hydrangea_macrophylla",
+      "excerpt": "Hydrangea macrophylla is a species of flowering plant in the family Hydrangeaceae, native and endemic to Japan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Passiflora_caerulea",
+      "excerpt": "Passiflora caerulea, the blue passionflower, bluecrown passionflower or common passion flower, is a species of flowering plant in the family Passifloraceae."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Passiflora_caerulea",
+      "excerpt": "It is native to South America and has been introduced elsewhere."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sambucus_nigra",
+      "excerpt": "Common names include elder, elderberry, black elder, European elder, European elderberry, and European black elderberry."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sambucus_nigra",
+      "excerpt": "It is native in, and common throughout, the British Isles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubus_phoenicolasius",
+      "excerpt": "Rubus phoenicolasius (Japanese wineberry, wine raspberry, wineberry or dewberry) is an Asian species of raspberry (Rubus subgenus Idaeobatus) in the rose family."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubus_phoenicolasius",
+      "excerpt": "The species is native to eastern Asia (China, Japan, and Korea) and was introduced to Europe and North America as an ornamental plant and for its potential in breeding hybrid raspberries."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pineapple",
+      "excerpt": "The pineapple is native to South America, where it has been cultivated for many centuries."
+    }
+  ],
+  "editorNotes": "Two tiles honestly reach into a second cell, and they are what makes the grid work. Brazil nut is, in Wikipedia's words, the name of a South American tree and of the tree's edible seeds, so it could be read as the South American fruit; pineapple fits nowhere but that cell, takes it, and the Brazil nut is forced into the tree row. Elderberry is listed by Wikipedia among the common names of Sambucus nigra, a tree or shrub native throughout the British Isles, so it could be read as the British tree; English oak fits nowhere but that cell, takes it, and elderberry is forced into the fruit row. Those two forcings settle the grid, and every other tile satisfies a single cell. Three suggested tiles were dropped on the facts. Persimmon went because Wikipedia dates Diospyros kaki cultivation to China, and the satsuma was rejected for the same reason, its article giving two competing origin theories rather than a plain Japanese one; chrysanthemum went because the genus is described as native to East Asia with its centre of diversity in China, not Japan; blackberry went because its article never states a British native range, while the elder's does. Japanese cherry names a tree grown for its blossom, and its small wild cherries are not what it is picked for, so it does not sit in the fruit row; the tile also names a tree rather than a flower, which keeps it out of the middle row. Hydrangea is placed on Hydrangea macrophylla, the bigleaf hydrangea of gardens, which Wikipedia calls native and endemic to Japan; a few of the genus grow wild in South America, but that is not the plant the tile names. Passion flower names the flower and not the passion fruit, so it stays in the flower row."
+}

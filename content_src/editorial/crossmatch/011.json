@@ -1,0 +1,185 @@
+{
+  "topic": "Bones, muscles and organs of the body",
+  "payload": {
+    "title": "Bones, muscles and organs of the body",
+    "rows": [
+      "Bone",
+      "Muscle",
+      "Organ"
+    ],
+    "cols": [
+      "In the head or neck",
+      "In the chest",
+      "In the abdomen"
+    ],
+    "tiles": [
+      "Heart",
+      "Mandible",
+      "Rectus abdominis",
+      "Brain",
+      "Sternum",
+      "Liver",
+      "Diaphragm",
+      "Lumbar vertebra",
+      "Masseter"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Mandible",
+        "Sternum",
+        "Lumbar vertebra"
+      ],
+      [
+        "Masseter",
+        "Diaphragm",
+        "Rectus abdominis"
+      ],
+      [
+        "Brain",
+        "Heart",
+        "Liver"
+      ]
+    ],
+    "explanations": {
+      "Mandible": "The jawbone, the movable bone of the lower jaw in the head.",
+      "Sternum": "The breastbone, a flat bone in the centre of the chest.",
+      "Lumbar vertebra": "One of the five bones of the lower spine, lying between the rib cage and the pelvis.",
+      "Masseter": "The chewing muscle of the jaw, which raises the lower jaw.",
+      "Diaphragm": "The sheet of muscle at the base of the chest that draws air into the lungs.",
+      "Rectus abdominis": "The long paired muscle down the front of the abdomen.",
+      "Brain": "The central organ of the nervous system, protected by the skull.",
+      "Heart": "The organ that pumps blood, sitting between the lungs in the middle of the chest.",
+      "Liver": "The large metabolic organ in the upper right of the abdomen."
+    },
+    "fits": {
+      "Mandible": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Sternum": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Lumbar vertebra": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Masseter": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Diaphragm": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "Rectus abdominis": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Brain": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Heart": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Liver": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mandible",
+      "excerpt": "In jawed vertebrates, the mandible (from the Latin mandibula, 'for chewing'), lower jaw, or jawbone is a bone that makes up the lower – and typically more mobile – component of the mouth (the upper jaw being known as the maxilla)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sternum",
+      "excerpt": "The sternum (pl.: sternums or sterna) or breastbone is a long flat bone located in the central part of the chest."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lumbar_vertebrae",
+      "excerpt": "In human anatomy, the five lumbar vertebrae are between the rib cage and the pelvis."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Masseter_muscle",
+      "excerpt": "In anatomy, the masseter is one of the muscles of mastication."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Masseter_muscle",
+      "excerpt": "The action of the muscle during bilateral contraction of the entire muscle is to elevate the mandible, raising the lower jaw."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thoracic_diaphragm",
+      "excerpt": "The diaphragm is the most important muscle of respiration, and separates the thoracic cavity, containing the heart and lungs, from the abdominal cavity: as the diaphragm contracts, the volume of the thoracic cavity increases, creating a negative pressure there, which draws air into the lungs."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rectus_abdominis_muscle",
+      "excerpt": "The rectus abdominis, (Latin: straight abdominal) also known as the \"abdominal muscle\" or simply better known as the \"abs\", and sometimes informally referred to as the \"six-pack\", is a pair of segmented skeletal muscle on the ventral aspect of a person's abdomen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_brain",
+      "excerpt": "The human brain is the central organ of the nervous system, and with the spinal cord, comprises the central nervous system."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_brain",
+      "excerpt": "The brain is protected by the skull, suspended in cerebrospinal fluid, and isolated from the bloodstream by the blood–brain barrier."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heart",
+      "excerpt": "The heart is a muscular organ found in humans and other animals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heart",
+      "excerpt": "In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abdomen",
+      "excerpt": "Other vital organs inside the abdomen include the liver, the kidneys, the pancreas and the spleen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abdomen",
+      "excerpt": "In humans, the abdomen stretches from the thorax at the thoracic diaphragm to the pelvis at the pelvic brim."
+    }
+  ],
+  "editorNotes": "The diaphragm is the one tile that honestly fits two cells. It is the sheet of muscle that separates the chest from the abdomen, and Wikipedia puts the top of the abdomen at the diaphragm itself, so it can be read as a muscle of the chest or as a muscle at the roof of the abdomen; both are listed. The rectus abdominis, the only other candidate for the abdominal muscle cell, lies on the front of the abdomen and nowhere else, so it takes that cell and the diaphragm is forced back into the chest. The masseter, the third muscle, works the lower jaw and so belongs to the head. The pelvis was considered for the abdominal bone cell and rejected, because Wikipedia places the pelvis below the abdomen, between the abdomen and the thighs; a lumbar vertebra sits between the rib cage and the pelvis, which is the abdomen's own level, so it is the honest answer. The heart was also weighed for the chest muscle cell, since it is a muscular organ, but anatomy counts it as an organ rather than a muscle and the puzzle keeps it in the organ row. The liver lies in the abdomen below the diaphragm rather than in the chest, and the brain is enclosed by the skull, so neither has a second cell. With the diaphragm settled, the placement is unique."
+}

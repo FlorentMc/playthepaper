@@ -2,7 +2,9 @@ import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
 import 'package:playthepaper/engines/binary/binary.dart';
 import 'package:playthepaper/engines/bridges/bridges.dart';
+import 'package:playthepaper/engines/chronology/chronology.dart';
 import 'package:playthepaper/engines/compass/compass_engine.dart';
+import 'package:playthepaper/engines/crossmatch/crossmatch.dart';
 import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
@@ -50,6 +52,8 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.binary: (r) => BinaryPuzzle.parse(r.payload, r.reveal),
   GameKind.target: (r) => TargetPuzzle.parse(r.payload, r.reveal),
   GameKind.uncover: (r) => UncoverPuzzle.parse(r.payload, r.reveal),
+  GameKind.chronology: (r) => ChronologyPuzzle.parse(r.payload, r.reveal),
+  GameKind.crossmatch: (r) => CrossmatchPuzzle.parse(r.payload, r.reveal),
 };
 
 

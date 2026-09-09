@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-02-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Telephones and telegraphs",
+    "events": [
+      {
+        "id": "a",
+        "text": "Alexander Graham Bell is granted the first US patent for the telephone"
+      },
+      {
+        "id": "b",
+        "text": "The first commercial telephone service across the Atlantic Ocean opens"
+      },
+      {
+        "id": "c",
+        "text": "Martin Cooper makes the first public call from a handheld mobile phone in Manhattan"
+      },
+      {
+        "id": "d",
+        "text": "Samuel Morse opens his Washington to Baltimore telegraph line with 'What hath God wrought'"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "a",
+      "b",
+      "c"
+    ],
+    "dates": {
+      "d": "1844",
+      "a": "1876",
+      "b": "1927",
+      "c": "1973"
+    },
+    "explanation": "Morse's dots and dashes ran between Washington and Baltimore a generation before Bell's patent put a human voice on the wire. Half a century after that, voices were crossing the Atlantic by radio, and by 1973 a phone could be carried in the hand."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Morse",
+      "excerpt": "On May 24, 1844, the line was officially opened as Morse sent the now-famous words, \"What hath God wrought,\" from the Supreme Court chamber in the basement of the U.S. Capitol building in Washington, D.C., to the B&O's Mount Clare Station in Baltimore."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+      "excerpt": "On March 7, 1876, the U.S. Patent Office issued Bell patent 174,465."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_telephone",
+      "excerpt": "On January 7, 1927, W. S. Gifford, president of the American Telephone & Telegraph Company, called Evelyn P. Murray to test the first commercial telephone line across the Atlantic Ocean."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)",
+      "excerpt": "On April 3, 1973, Cooper placed the first public call from a handheld portable cell phone while working at Motorola, from a Manhattan sidewalk to his counterpart at competitor Bell Labs."
+    }
+  ]
+}

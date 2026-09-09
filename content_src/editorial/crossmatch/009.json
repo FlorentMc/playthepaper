@@ -1,0 +1,184 @@
+{
+  "topic": "Animals of the Arctic, the rainforest and the ocean",
+  "payload": {
+    "title": "Animals of the Arctic, the rainforest and the ocean",
+    "rows": [
+      "Bird",
+      "Mammal",
+      "Fish"
+    ],
+    "cols": [
+      "Lives in the Arctic",
+      "Lives in a rainforest",
+      "Lives in the ocean"
+    ],
+    "tiles": [
+      "Blue whale",
+      "Arctic char",
+      "Jaguar",
+      "Albatross",
+      "Great white shark",
+      "Snowy owl",
+      "Piranha",
+      "Polar bear",
+      "Scarlet macaw"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Snowy owl",
+        "Scarlet macaw",
+        "Albatross"
+      ],
+      [
+        "Polar bear",
+        "Jaguar",
+        "Blue whale"
+      ],
+      [
+        "Arctic char",
+        "Piranha",
+        "Great white shark"
+      ]
+    ],
+    "explanations": {
+      "Snowy owl": "A large white owl native to the Arctic tundra of North America and Eurasia.",
+      "Scarlet macaw": "A big Neotropical parrot that lives in the humid lowland rain forests of the Americas.",
+      "Albatross": "A large seabird that spends most of its life over the open ocean.",
+      "Polar bear": "A bear native to the Arctic, at home on the sea ice.",
+      "Jaguar": "A big cat that prefers the dense rainforests of Central and South America.",
+      "Blue whale": "The largest marine mammal, found in oceans worldwide.",
+      "Arctic char": "A cold-water fish of Arctic lakes and coastal waters, the most northerly freshwater fish.",
+      "Piranha": "A freshwater fish of the Amazon basin, in rivers that run through the rainforest.",
+      "Great white shark": "A large shark that lives in tropical and temperate ocean waters around the world."
+    },
+    "fits": {
+      "Snowy owl": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Scarlet macaw": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Albatross": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Polar bear": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "Jaguar": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Blue whale": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Arctic char": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "Piranha": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Great white shark": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snowy_owl",
+      "excerpt": "Snowy owls are native to the Arctic regions of both North America and the Palearctic, breeding mostly on the tundra."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scarlet_macaw",
+      "excerpt": "The scarlet macaw inhabits primarily humid, lowland subtropical rain forests, open woodlands, river edges, and savannas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albatross",
+      "excerpt": "Albatrosses, of the biological family Diomedeidae, are large seabirds related to the procellariids, storm petrels, and diving petrels in the order Procellariiformes (the tubenoses)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Polar_bear",
+      "excerpt": "The polar bear (Ursus maritimus) is a large bear native to the Arctic and nearby areas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Polar_bear",
+      "excerpt": "Polar bears are both terrestrial and pagophilic (ice-living) and are considered marine mammals because of their dependence on marine ecosystems."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jaguar",
+      "excerpt": "The jaguar prefers dense forest and typically inhabits dry deciduous forests, tropical and subtropical moist broadleaf forests, rainforests and cloud forests in Central and South America; open, seasonally flooded wetlands, dry grassland and historically also oak forests in the United States."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue_whale",
+      "excerpt": "The blue whale (Balaenoptera musculus) is a species of baleen whale and the largest marine mammal in the rorqual family Balaenopteridae."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue_whale",
+      "excerpt": "They have a worldwide distribution, but are mostly absent from the Arctic Ocean and the Mediterranean, Okhotsk, and Bering Sea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arctic_char",
+      "excerpt": "The Arctic char or Arctic charr (Salvelinus alpinus) is a cold-water fish in the family Salmonidae, native to alpine lakes, as well as Arctic and subarctic coastal waters in the Holarctic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piranha",
+      "excerpt": "Piranhas are indigenous to the Amazon basin, in the Orinoco, in rivers of the Guianas, in the Paraguay–Paraná, and the São Francisco River systems, but there are major differences in the species richness."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_white_shark",
+      "excerpt": "The great white shark (Carcharodon carcharias), also known as the white shark, white pointer, or great white, is a large shark."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_white_shark",
+      "excerpt": "White sharks inhabit tropical and temperate ocean waters around the world and can be found both near coasts and in the open ocean."
+    }
+  ],
+  "editorNotes": "Two tiles honestly fit two cells. The polar bear is counted for both the Arctic mammal cell and the ocean mammal cell: Wikipedia records that polar bears are ice-living and are considered marine mammals because of their dependence on marine ecosystems, so it would be dishonest to deny it the ocean cell. The blue whale, however, has a worldwide distribution but is mostly absent from the Arctic Ocean, so it fits the ocean cell only; that forces the polar bear back to the Arctic. The Arctic char is the same shape of problem: it is native to Arctic and subarctic coastal waters as well as to lakes, and some populations are anadromous, so it fits both the Arctic fish cell and the ocean fish cell, while the great white shark lives in tropical and temperate ocean waters and never in the Arctic, so the char is forced to the Arctic and the shark to the ocean. The remaining five tiles fit one cell each. The albatross ranges over the Southern Ocean and the North Pacific rather than the Arctic; the snowy owl is a tundra bird that does not feed at sea; the scarlet macaw and the jaguar are confined to the American tropics; and the piranha is a freshwater fish of the Amazon basin, so it cannot take the ocean cell. With the two forced pairs settled, the placement is unique."
+}
