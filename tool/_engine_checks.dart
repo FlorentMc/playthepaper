@@ -6,6 +6,7 @@ import 'package:playthepaper/engines/compass/compass_engine.dart';
 import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
+import 'package:playthepaper/engines/merge/merge.dart';
 import 'package:playthepaper/engines/nonogram/nonogram.dart';
 import 'package:playthepaper/engines/quiz/quiz_engine.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
@@ -40,6 +41,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.compass: (r) => CompassPuzzle.parse(r.payload, r.reveal),
   GameKind.bridges: (r) => BridgesPuzzle.parse(r.payload, r.reveal),
   GameKind.kakuro: (r) => KakuroPuzzle.parse(r.payload, r.reveal),
+  GameKind.merge: (r) => MergePuzzle.parse(r.payload, r.reveal),
   GameKind.nonogram: (r) => NonogramPuzzle.parse(r.payload, r.reveal),
   GameKind.regions: (r) => RegionsPuzzle.parse(r.payload, r.reveal),
   GameKind.binary: (r) => BinaryPuzzle.parse(r.payload, r.reveal),

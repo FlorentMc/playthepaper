@@ -89,7 +89,9 @@ class ResultScreen extends StatelessWidget {
             Text(ShareService.titleFor(id).toUpperCase(), style: theme.textTheme.labelSmall),
             const SizedBox(height: 4),
             Text(
-              result.solved || result.game == GameKind.quiz ? _headline(result.game, result) : 'Not this time',
+              result.solved || result.game == GameKind.quiz || result.game == GameKind.merge
+                  ? _headline(result.game, result)
+                  : 'Not this time',
               style: PaperTheme.display(size: 30, color: theme.colorScheme.onSurface),
             ),
             const SizedBox(height: 6),
