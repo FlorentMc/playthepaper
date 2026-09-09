@@ -1,0 +1,99 @@
+{
+  "topic": "Chess, crows and cricket",
+  "payload": {
+    "tiles": [
+      "Queen",
+      "Gully",
+      "Bishop",
+      "Jackdaw",
+      "Raven",
+      "Point",
+      "King",
+      "Slip",
+      "Rook",
+      "Jay",
+      "Magpie",
+      "Cover"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Chess pieces",
+        "members": [
+          "King",
+          "Queen",
+          "Bishop",
+          "Rook"
+        ],
+        "explanation": "Each of these stands on the back rank at the start of a game of chess."
+      },
+      {
+        "title": "Birds of the crow family",
+        "members": [
+          "Raven",
+          "Jackdaw",
+          "Magpie",
+          "Jay"
+        ],
+        "explanation": "All four are corvids, the clever black-and-grey birds of the crow family.",
+        "alsoFits": [
+          "Rook"
+        ]
+      },
+      {
+        "title": "Cricket fielding positions",
+        "members": [
+          "Slip",
+          "Gully",
+          "Point",
+          "Cover"
+        ],
+        "explanation": "A captain sets these fielders on the off side, close to the bat."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chess_piece",
+      "excerpt": "Additional pieces, usually an extra queen per color, may be provided for use in promotion or handicap games."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chess_piece",
+      "excerpt": "It can be either white or black, and it can be one of six types: king, queen, rook, bishop, knight, or pawn."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corvidae",
+      "excerpt": "The raven is the largest passerine bird."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corvidae",
+      "excerpt": "Corvidae is a cosmopolitan family of oscine passerine birds that contains the crows, ravens, rooks, magpies, jackdaws, jays, treepies, choughs, and nutcrackers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fielding_%28cricket%29",
+      "excerpt": "Most top slip fielders tend to be top-order batters, as these are both skills that require excellent hand–eye coordination."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fielding_%28cricket%29",
+      "excerpt": "This is usually employed in a position such as silly point or silly mid-wicket, where proximity to the batter gives little time to avoid a shot directly at their head."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fielding_%28cricket%29",
+      "excerpt": "Players noted for their agility, acceleration, ground diving and throwing accuracy will often field in the infield positions such as point, cover and mid-wicket."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fielding_%28cricket%29",
+      "excerpt": "As fields get progressively more defensive, fielders will move out of the slip and gully area to cover more of the field, leading to 6–3 and 5–4 fields."
+    }
+  ],
+  "editorNotes": "Rook is the tile with two lives: it is a chess piece and a bird of the crow family. The crow group is complete without it once raven, jackdaw, magpie and jay are together, so rook stays with the chess pieces. King, queen and bishop have other meanings too, but no group here wants royalty or the church, and point and cover read as cricket only."
+}

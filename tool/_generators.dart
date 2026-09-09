@@ -5,6 +5,7 @@ import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/chronology/chronology_generator.dart';
 import 'package:playthepaper/engines/compass/compass_generator.dart';
 import 'package:playthepaper/engines/crossmatch/crossmatch_generator.dart';
+import 'package:playthepaper/engines/groups/groups_generator.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/loop/loop.dart';
 import 'package:playthepaper/engines/merge/merge.dart';
@@ -46,6 +47,10 @@ final Map<GameKind, EditorialGenerator> editorialGames = {
   GameKind.crossmatch: EditorialGenerator(
     generate: CrossmatchGenerator().generate,
     fromTemplate: CrossmatchGenerator().fromTemplate,
+  ),
+  GameKind.groups: EditorialGenerator(
+    generate: GroupsGenerator().generate,
+    fromTemplate: GroupsGenerator().fromTemplate,
   ),
   GameKind.uncover: EditorialGenerator(
     generate: UncoverGenerator().generate,

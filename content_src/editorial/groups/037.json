@@ -1,0 +1,81 @@
+{
+  "topic": "Famous foursomes",
+  "payload": {
+    "tiles": [
+      "Wood",
+      "Groucho",
+      "Richards",
+      "Harpo",
+      "Chico",
+      "Jagger",
+      "Lennon",
+      "Starr",
+      "McCartney",
+      "Watts",
+      "Harrison",
+      "Zeppo"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "The Beatles",
+        "members": [
+          "Lennon",
+          "McCartney",
+          "Harrison",
+          "Starr"
+        ],
+        "explanation": "These four made up the band that left Liverpool for the world."
+      },
+      {
+        "title": "The Marx Brothers",
+        "members": [
+          "Groucho",
+          "Harpo",
+          "Chico",
+          "Zeppo"
+        ],
+        "explanation": "Each brother took a stage name and a character to go with it."
+      },
+      {
+        "title": "The Rolling Stones",
+        "members": [
+          "Jagger",
+          "Richards",
+          "Watts",
+          "Wood"
+        ],
+        "explanation": "All four played in the Rolling Stones for decades."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Beatles",
+      "excerpt": "Lennon, McCartney and Harrison, together since 1958, went through a succession of drummers before Starr joined in 1962."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marx_Brothers",
+      "excerpt": "The five brothers were Chico Marx, Harpo Marx, Groucho Marx, Gummo Marx, and Zeppo Marx, though Gummo and Zeppo both left the group over time, leaving Chico, Harpo, and Groucho as a trio."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+      "excerpt": "The Jagger–Richards partnership soon became the band's primary songwriting and creative force."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+      "excerpt": "Taylor left the band at the end of 1974 and was replaced by Faces guitarist Ronnie Wood."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rolling_Stones",
+      "excerpt": "Following Wyman's departure in 1993, the band continued as a four-piece core, with Darryl Jones becoming their regular bassist, and then as a three-piece core following Watts' death in 2021, with Steve Jordan becoming their regular drummer."
+    }
+  ],
+  "editorNotes": "No tile fits two groups here: Harrison and Richards are surnames that could belong to anyone, but each is claimed by one band only, and Wood joined the Stones rather than the Beatles. Groucho, Harpo, Chico and Zeppo are stage names and belong together."
+}

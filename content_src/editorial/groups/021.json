@@ -1,0 +1,106 @@
+{
+  "topic": "Italy in three parts",
+  "payload": {
+    "tiles": [
+      "Raphael",
+      "Sicily",
+      "Botticelli",
+      "Manon Lescaut",
+      "Sardinia",
+      "Elba",
+      "Titian",
+      "Giotto",
+      "Tosca",
+      "La Bohème",
+      "Turandot",
+      "Capri"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Renaissance painters",
+        "members": [
+          "Titian",
+          "Raphael",
+          "Botticelli",
+          "Giotto"
+        ],
+        "explanation": "Each painted in Italy in the centuries that made the Renaissance."
+      },
+      {
+        "title": "Operas by Puccini",
+        "members": [
+          "Tosca",
+          "Turandot",
+          "La Bohème",
+          "Manon Lescaut"
+        ],
+        "explanation": "Puccini wrote all four for the opera house."
+      },
+      {
+        "title": "Italian islands",
+        "members": [
+          "Sicily",
+          "Sardinia",
+          "Capri",
+          "Elba"
+        ],
+        "explanation": "These islands all belong to Italy."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting",
+      "excerpt": "The Proto-Renaissance begins with the professional life of the painter Giotto and includes Taddeo Gaddi, Orcagna, and Altichiero."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting",
+      "excerpt": "The High Renaissance period was that of Leonardo da Vinci, Michelangelo, Raphael, Andrea del Sarto, Correggio, Giorgione, the latter works of Giovanni Bellini, and Titian."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Italian_Renaissance_painting",
+      "excerpt": "The Early Renaissance style was started by Masaccio and then further developed by Fra Angelico, Paolo Uccello, Piero della Francesca, Sandro Botticelli, Verrocchio, Domenico Ghirlandaio, and Giovanni Bellini."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+      "excerpt": "Two of Puccini's operas, Tosca and Il Tabarro, are universally considered to be verismo operas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+      "excerpt": "On commencing his next opera, Manon Lescaut, Puccini announced that he would write his own libretto so that \"no fool of a librettist\" could spoil it."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+      "excerpt": "Turandot, Puccini's final opera, was left unfinished at the composer's death in November 1924, and the last two scenes were completed by Franco Alfano based on the composer's sketches."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+      "excerpt": "Puccini's composition of La bohème was the subject of a public dispute between Puccini and Ruggiero Leoncavallo."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Italy",
+      "excerpt": "It consists of a peninsula, which extends into the Mediterranean Sea, with the Alps on its northern land border, as well as nearly 800 islands, notably Sicily and Sardinia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Capri",
+      "excerpt": "Capri is an island located in the Tyrrhenian Sea off the Sorrento Peninsula, on the south side of the Gulf of Naples in the Campania region of Italy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elba",
+      "excerpt": "Elba (Italian: isola d'Elba, pronounced [ˈiːzola ˈdelba]; Latin: Ilva) is a Mediterranean island in the region of Tuscany in Italy, 10 km (6.2 mi) from the coastal town of Piombino on the Italian mainland, and the largest island of the Tuscan Archipelago."
+    }
+  ],
+  "editorNotes": "No tile fits two groups here: Raphael and Titian are painters and not operas, and Capri and Elba are islands and not painters. Tosca is a woman's name in the opera, but no group asks for names, and Sicily has an opera house rather than an opera."
+}

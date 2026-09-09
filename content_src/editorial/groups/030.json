@@ -1,0 +1,109 @@
+{
+  "topic": "Verse, counties and marks",
+  "payload": {
+    "tiles": [
+      "Haiku",
+      "Galway",
+      "Ellipsis",
+      "Comma",
+      "Cork",
+      "Ode",
+      "Sonnet",
+      "Colon",
+      "Dash",
+      "Limerick",
+      "Sligo",
+      "Kerry"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Verse forms",
+        "members": [
+          "Sonnet",
+          "Ode",
+          "Haiku",
+          "Limerick"
+        ],
+        "explanation": "Each is a shape a poem can take, from fourteen lines to seventeen syllables."
+      },
+      {
+        "title": "Counties of Ireland",
+        "members": [
+          "Cork",
+          "Galway",
+          "Kerry",
+          "Sligo"
+        ],
+        "explanation": "All four are counties on the western and southern coasts of Ireland.",
+        "alsoFits": [
+          "Limerick"
+        ]
+      },
+      {
+        "title": "Punctuation marks",
+        "members": [
+          "Comma",
+          "Colon",
+          "Dash",
+          "Ellipsis"
+        ],
+        "explanation": "Each of these marks tells a reader where to pause or what is missing."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sonnet",
+      "excerpt": "A sonnet is a fixed poetic form with a structure traditionally consisting of fourteen lines adhering to a set rhyming scheme."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ode",
+      "excerpt": "There are three typical forms of odes: the Pindaric, Horatian, and irregular."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Haiku",
+      "excerpt": "These haiku, written as opening stanzas, were known as hokku and over time they began to be written as stand-alone poems."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Limerick_%28poetry%29",
+      "excerpt": "In combination with a refrain, it  forms a limerick song, a traditional humorous drinking song often with obscene verses."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/County_Cork",
+      "excerpt": "Cork borders four other counties: Kerry to the west, Limerick to the north, Tipperary to the north-east and Waterford to the east."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/County_Galway",
+      "excerpt": "The traditional county includes the city of Galway, but the city and county are separate local government areas, administered by the local authorities of Galway City Council in the urban area and Galway County Council in the rest of the county."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/County_Sligo",
+      "excerpt": "Sligo County Council is the local authority for the county."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comma",
+      "excerpt": "The comma , is a punctuation mark that appears in several variants in different languages."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colon_%28punctuation%29",
+      "excerpt": "Like a dash or quotation mark, a segmental colon introduces speech."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ellipsis",
+      "excerpt": "An ellipsis can be used in many ways, such as for intentional omission of text or numbers, to imply a concept without using words, or to mark a pause in speech."
+    }
+  ],
+  "editorNotes": "Limerick is the tile that fits twice, a five-line comic verse and an Irish county; the county group is complete with Cork, Galway, Kerry and Sligo, so limerick is counted as a verse form. Cork is a bottle stopper as well as a county, but no group here asks for materials, and ode and sonnet are verse only."
+}

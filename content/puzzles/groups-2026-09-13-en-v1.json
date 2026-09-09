@@ -1,0 +1,123 @@
+{
+  "id": "groups-2026-09-13-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Alpha",
+      "Rhodes",
+      "Omega",
+      "Delta",
+      "Naxos",
+      "Atoll",
+      "Beta",
+      "Crete",
+      "Sigma",
+      "Isthmus",
+      "Corfu",
+      "Fjord"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Greek letters",
+        "members": [
+          "Alpha",
+          "Beta",
+          "Sigma",
+          "Omega"
+        ],
+        "explanation": "Each is a letter of the Greek alphabet, and omega is the last of them.",
+        "alsoFits": [
+          "Delta"
+        ]
+      },
+      {
+        "title": "Landforms",
+        "members": [
+          "Delta",
+          "Fjord",
+          "Isthmus",
+          "Atoll"
+        ],
+        "explanation": "All four are shapes the land or the coast can take."
+      },
+      {
+        "title": "Greek islands",
+        "members": [
+          "Crete",
+          "Rhodes",
+          "Corfu",
+          "Naxos"
+        ],
+        "explanation": "These four islands belong to Greece."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greek_alphabet",
+      "excerpt": "Other Greek letters, such as alpha for IPA ⟨ɑ⟩ and eta for IPA ⟨ŋ⟩, were once common in print and are sometimes seen in modern digital works."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greek_alphabet",
+      "excerpt": "Of these, the letters beta, theta and chi are commonly encoded as Greek characters in digitized IPA texts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greek_alphabet",
+      "excerpt": "The letter omega has at least three stylistic variants of its capital form."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greek_alphabet",
+      "excerpt": "The letter sigma, in standard orthography, has two variants: ς, used only at the ends of words, and σ, used elsewhere."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_delta",
+      "excerpt": "A river delta is a landform, typically triangular, created by the deposition of the sediments that are carried by the waters of a river, where the river merges with a body of slow-moving water or with a body of stagnant water."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fjord",
+      "excerpt": "Fjords exist on the coasts of Antarctica, the Arctic, and surrounding landmasses of the northern and southern hemispheres."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Isthmus",
+      "excerpt": "A tombolo is an isthmus that consists of a spit or bar, and a strait is the sea counterpart of an isthmus, a narrow stretch of sea between two landmasses that connects two larger bodies of water."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atoll",
+      "excerpt": "At this point, the island has become an atoll."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece",
+      "excerpt": "Crete with its surrounding islets and Euboea are traditionally excluded from this grouping."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece",
+      "excerpt": "After the third and fourth largest Greek islands, Lesbos and Rhodes, the rest of the islands are two-thirds of the area of Rhodes, or smaller."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Corfu",
+      "excerpt": "In November 1815 Corfu came under British rule following the Napoleonic Wars, and in 1864 was ceded to modern Greece by the British government along with the remaining islands of the United States of the Ionian Islands under the Treaty of London."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Naxos",
+      "excerpt": "Naxos (; Greek: Νάξος, pronounced [ˈnaksos]) is a Greek island belonging to the Cyclades island group."
+    }
+  ]
+}

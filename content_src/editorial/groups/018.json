@@ -1,0 +1,111 @@
+{
+  "topic": "Rivers of three countries",
+  "payload": {
+    "tiles": [
+      "Conwy",
+      "Liffey",
+      "Boyne",
+      "Trent",
+      "Ouse",
+      "Teifi",
+      "Tyne",
+      "Usk",
+      "Barrow",
+      "Taff",
+      "Shannon",
+      "Mersey"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Rivers of England",
+        "members": [
+          "Trent",
+          "Mersey",
+          "Tyne",
+          "Ouse"
+        ],
+        "explanation": "Each of these rivers runs its whole course in England."
+      },
+      {
+        "title": "Rivers of Ireland",
+        "members": [
+          "Shannon",
+          "Liffey",
+          "Boyne",
+          "Barrow"
+        ],
+        "explanation": "These four rivers drain the midlands and east of Ireland."
+      },
+      {
+        "title": "Rivers of Wales",
+        "members": [
+          "Taff",
+          "Usk",
+          "Conwy",
+          "Teifi"
+        ],
+        "explanation": "All four rise and reach the sea in Wales."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_England",
+      "excerpt": "A prime example is the River Tyne (MS), the confluence of the South Tyne (Rs) and the North Tyne (Ls) near Hexham."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Trent",
+      "excerpt": "The river passes through Stoke-on-Trent, Stone, Staffordshire, Rugeley, Burton-upon-Trent, Nottingham, Newark-on-Trent and Gainsborough before joining the Yorkshire Ouse at Trent Falls to form the Humber Estuary, which empties into the North Sea between Kingston upon Hull in Yorkshire and Immingham in Lincolnshire."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Mersey",
+      "excerpt": "The Mersey is currently regarded as starting at the confluence of the River Tame and River Goyt in the centre of Stockport."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Shannon",
+      "excerpt": "The Shannon is tidal east of Limerick as far as the base of the Ardnacrusha dam."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Liffey",
+      "excerpt": "The River Liffey (Irish: An Life, historically An Ruirthe(a)ch) is a river in eastern Ireland that ultimately flows through the centre of Dublin to its mouth within Dublin Bay."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Boyne",
+      "excerpt": "The River Boyne is famously known for being the location of the Battle of the Boyne."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Barrow",
+      "excerpt": "The catchment area of the Barrow is 3,067 km2 before the River Nore joins it a little over 20 km before its mouth."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Wales",
+      "excerpt": "A prime example is the formation of the River Taff from the Taf Fawr and the Taf Fechan at Cefn-coed-y-cymmer."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Usk",
+      "excerpt": "The Usk valley has been an important route for settlement and trade since prehistoric times, while the river's navigable tidal reaches connected inland south-east Wales with the Severn Estuary and the Bristol Channel."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Conwy",
+      "excerpt": "It rises on the Migneint moor where a number of small streams flow into Llyn Conwy, then flows in a generally northern direction, being joined by the tributaries of the rivers Machno and Afon Lledr before reaching Betws-y-coed, where it is also joined by Llugwy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Teifi",
+      "excerpt": "Its estuary is northwest of Cardigan, whose Welsh name is Aberteifi, meaning 'mouth of the Teifi'."
+    }
+  ],
+  "editorNotes": "No tile here fits two groups: the Severn, the Wye and the Dee were all left out because they cross the border between England and Wales, and Ouse was chosen over Avon because there are Avons in both countries. Barrow is a Cumbrian town as well as an Irish river, but no group here asks for towns."
+}

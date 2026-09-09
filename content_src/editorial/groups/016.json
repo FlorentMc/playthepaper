@@ -1,0 +1,114 @@
+{
+  "topic": "Wine, red and cheese",
+  "payload": {
+    "tiles": [
+      "Bordeaux",
+      "Vermilion",
+      "Beaujolais",
+      "Burgundy",
+      "Scarlet",
+      "Camembert",
+      "Roquefort",
+      "Alsace",
+      "Brie",
+      "Champagne",
+      "Comté",
+      "Crimson"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "French wine regions",
+        "members": [
+          "Bordeaux",
+          "Champagne",
+          "Alsace",
+          "Beaujolais"
+        ],
+        "explanation": "Each region gives its name to the wine made within it.",
+        "alsoFits": [
+          "Burgundy"
+        ]
+      },
+      {
+        "title": "Shades of red",
+        "members": [
+          "Crimson",
+          "Scarlet",
+          "Vermilion",
+          "Burgundy"
+        ],
+        "explanation": "All four are reds, from bright scarlet to the deepest burgundy."
+      },
+      {
+        "title": "French cheeses",
+        "members": [
+          "Brie",
+          "Roquefort",
+          "Camembert",
+          "Comté"
+        ],
+        "explanation": "These cheeses are made in France and named after the places that make them."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/French_wine",
+      "excerpt": "Although some producers have benefited in recent years from rising prices and increased demand for prestige wines from Burgundy and Bordeaux, competition from New World wines has contributed to a decline in the domestic and international consumption of French wine to 40 liters per capita."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Champagne",
+      "excerpt": "Champagne became associated with royalty and luxury in the 17th, 18th, and 19th centuries."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alsace_wine",
+      "excerpt": "Alsace is known for being the only French wine-growing region with a long practice in varietal labeling, which was a German tradition long before varietally labelled New World wines scored considerable export success."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beaujolais",
+      "excerpt": "In some vintages, Beaujolais produces more wine than the Burgundy wine regions of Chablis, Côte d'Or, Côte Chalonnaise, and Mâconnais put together."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shades_of_red",
+      "excerpt": "According to surveys in Europe and the United States, scarlet and other bright shades of red are the colors most associated with courage, force, passion, heat, and joy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shades_of_red",
+      "excerpt": "The color is described as dark red, deep crimson, deeper burgundy, deep red chocolate, as dark hazelnut and velvety maroon."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shades_of_red",
+      "excerpt": "It is a dark red-orange, dark vermilion, rufous color."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brie",
+      "excerpt": "\"Brie\" is a style of cheese, and is not in itself a protected name, although some regional bries are protected."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brie",
+      "excerpt": "It is similar to Camembert, which is native to a different region of France."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roquefort",
+      "excerpt": "Roquefort is white, tangy, creamy and slightly moist, with veins of blue mold."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Comt%C3%A9_cheese",
+      "excerpt": "Comté (French pronunciation: [kɔ̃te] ), also known as Gruyère de Comté, is a hard cheese made from unpasteurised cow's milk in eastern France."
+    }
+  ],
+  "editorNotes": "Burgundy is the tile with two lives, a wine region and a dark red, and the wine group is complete with Bordeaux, Champagne, Alsace and Beaujolais, so burgundy is placed with the colours. Champagne is also a pale colour name, but nobody would call it a shade of red. Brie and Camembert are places as well as cheeses, though no group here asks for places."
+}

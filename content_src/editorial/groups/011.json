@@ -1,0 +1,89 @@
+{
+  "topic": "Suits, tools and card games",
+  "payload": {
+    "tiles": [
+      "Rake",
+      "Spade",
+      "Trowel",
+      "Diamond",
+      "Hoe",
+      "Fork",
+      "Canasta",
+      "Whist",
+      "Club",
+      "Cribbage",
+      "Heart",
+      "Rummy"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Suits in a pack of cards",
+        "members": [
+          "Heart",
+          "Spade",
+          "Club",
+          "Diamond"
+        ],
+        "explanation": "A standard pack is divided into these four suits."
+      },
+      {
+        "title": "Garden tools",
+        "members": [
+          "Trowel",
+          "Rake",
+          "Hoe",
+          "Fork"
+        ],
+        "explanation": "Each of these is a tool for turning, weeding or tidying a garden.",
+        "alsoFits": [
+          "Spade"
+        ]
+      },
+      {
+        "title": "Card games",
+        "members": [
+          "Whist",
+          "Rummy",
+          "Canasta",
+          "Cribbage"
+        ],
+        "explanation": "All four are card games for a table of two to six players."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Playing_card_suit",
+      "excerpt": "While English-speaking countries traditionally use cards with the French suits of clubs, spades, hearts and diamonds, many other countries have their own traditional suits."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Garden_tool",
+      "excerpt": "Examples include the hatchet, axe, sickle, scythe, pitchfork, spade, shovel, trowel, hoe, fork, and rake."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Whist",
+      "excerpt": "Whist is a classic English trick-taking card game that was widely played in the 18th and 19th centuries."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rummy",
+      "excerpt": "Rummy is a group of  games related by the feature of matching cards of the same rank or sequence and same suit."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canasta",
+      "excerpt": "Canasta (; Spanish for \"basket\") is a card game of the rummy family of games believed to be a variant of 500 rum."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cribbage",
+      "excerpt": "Cribbage, or crib, is a card game, traditionally for two players, that involves playing and grouping cards in combinations which gain points."
+    }
+  ],
+  "editorNotes": "Spade is the tile with two uses, a suit and a digging tool, and the tool group is full once trowel, rake, hoe and fork are together, so spade counts as a suit. Club and diamond have other meanings, but neither is a garden tool, and whist and cribbage are played with cards rather than in a border."
+}

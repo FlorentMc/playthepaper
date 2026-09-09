@@ -1,0 +1,108 @@
+{
+  "id": "groups-2026-09-10-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-10",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Bolt",
+      "Prop",
+      "Hooker",
+      "Mallet",
+      "Awl",
+      "Hinge",
+      "Plane",
+      "Handle",
+      "Latch",
+      "Flanker",
+      "Lock",
+      "Chisel"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Rugby positions",
+        "members": [
+          "Prop",
+          "Hooker",
+          "Lock",
+          "Flanker"
+        ],
+        "explanation": "These four pack down in the forwards of a rugby union scrum."
+      },
+      {
+        "title": "Parts of a door",
+        "members": [
+          "Hinge",
+          "Handle",
+          "Latch",
+          "Bolt"
+        ],
+        "explanation": "Each is fitted to a door to hang it, open it or hold it shut.",
+        "alsoFits": [
+          "Lock"
+        ]
+      },
+      {
+        "title": "Woodworking tools",
+        "members": [
+          "Chisel",
+          "Plane",
+          "Awl",
+          "Mallet"
+        ],
+        "explanation": "All four sit on a carpenter's bench."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rugby_union_positions",
+      "excerpt": "Props push in the scrums, while the hooker tries to secure the ball for their team by \"hooking\" it back with their foot."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rugby_union_positions",
+      "excerpt": "The flankers and number eight are expected to be the first players to arrive at a breakdown and play an important role in securing possession of the ball for their team."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rugby_union_positions",
+      "excerpt": "The hooker is also usually responsible for throwing the ball in at line-outs, where it is mostly competed for by the locks, who are generally the tallest players on the team."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Door",
+      "excerpt": "This includes items such as hinges, handles, door stops, etc."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Door",
+      "excerpt": "The hinge of the operating door is next to the adjacent fixed door and the latch is located at the wall opening jamb rather than between the two doors or with the use of an espagnolette bolt."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chisel",
+      "excerpt": "A gouge is a type of chisel that serves to carve small pieces from the material; particularly in woodworking, woodturning and sculpture."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chisel",
+      "excerpt": "The driving force may be applied by pushing by hand, or by using a mallet or hammer."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plane_%28tool%29",
+      "excerpt": "When used for flattening, bench planes with longer soles are preferred."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bradawl",
+      "excerpt": "An awl is any kind of small pointed tool."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "groups-2026-09-20-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Velvet",
+      "Blazer",
+      "Tweed",
+      "Duffel",
+      "Leuven",
+      "Linen",
+      "Bruges",
+      "Ghent",
+      "Denim",
+      "Anorak",
+      "Mechelen",
+      "Parka"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Fabrics",
+        "members": [
+          "Denim",
+          "Velvet",
+          "Linen",
+          "Tweed"
+        ],
+        "explanation": "Each of these is a cloth, woven from cotton, flax, wool or silk."
+      },
+      {
+        "title": "Coats",
+        "members": [
+          "Anorak",
+          "Parka",
+          "Blazer",
+          "Duffel"
+        ],
+        "explanation": "All four are coats or jackets you might hang by a door."
+      },
+      {
+        "title": "Towns of Belgium",
+        "members": [
+          "Bruges",
+          "Ghent",
+          "Leuven",
+          "Mechelen"
+        ],
+        "explanation": "Each of these towns lies in the Flemish north of Belgium.",
+        "alsoFits": [
+          "Duffel"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Denim is a sturdy, cotton, warp-faced textile in which the weft passes under two or more warp threads."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Velvet",
+      "excerpt": "Modern velvet can be made from silk, linen, cotton, wool, synthetic fibers, silk-cotton blends, or synthetic-natural fiber blends."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tweed",
+      "excerpt": "Tweed is a rough, woollen fabric, of a soft, open, flexible texture, resembling cheviot or homespun, but more closely woven."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Duffel_coat",
+      "excerpt": "Duffel bags were originally made from the same material."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parka",
+      "excerpt": "Anoraks are usually shorter than parkas, often hip-length, and are traditionally a pull-over jacket."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blazer",
+      "excerpt": "… A blazer is the red flannel boating jacket worn by the Lady Margaret, St."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "Bruges has significant economic importance, thanks to its port, and was once one of the world's chief commercial cities."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghent",
+      "excerpt": "Ghent is a city and a municipality in the East Flanders province of the Flemish Region of Belgium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leuven",
+      "excerpt": "Leuven has been a university city since 1425."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mechelen",
+      "excerpt": "Inhabitants find employment at Mechelen's southern industrial and northern office estates, as well as at offices or industry near the capital and Brussels Airport, or at industrial plants near Antwerp's seaport."
+    }
+  ]
+}

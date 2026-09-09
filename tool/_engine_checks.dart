@@ -6,6 +6,7 @@ import 'package:playthepaper/engines/chronology/chronology.dart';
 import 'package:playthepaper/engines/compass/compass_engine.dart';
 import 'package:playthepaper/engines/crossmatch/crossmatch.dart';
 import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/engines/groups/groups.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
 import 'package:playthepaper/engines/loop/loop.dart';
@@ -54,6 +55,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.uncover: (r) => UncoverPuzzle.parse(r.payload, r.reveal),
   GameKind.chronology: (r) => ChronologyPuzzle.parse(r.payload, r.reveal),
   GameKind.crossmatch: (r) => CrossmatchPuzzle.parse(r.payload, r.reveal),
+  GameKind.groups: (r) => GroupsPuzzle.parse(r.payload, r.reveal),
 };
 
 

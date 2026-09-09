@@ -1,0 +1,118 @@
+{
+  "id": "groups-2026-09-23-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-23",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Toggle",
+      "Zip",
+      "Furlong",
+      "Chain",
+      "Handlebar",
+      "Spoke",
+      "Pedal",
+      "Buckle",
+      "Saddle",
+      "League",
+      "Fathom",
+      "Button"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Old units of length",
+        "members": [
+          "Furlong",
+          "Fathom",
+          "League",
+          "Chain"
+        ],
+        "explanation": "Each measured distance before the metre reached Britain."
+      },
+      {
+        "title": "Parts of a bicycle",
+        "members": [
+          "Handlebar",
+          "Pedal",
+          "Spoke",
+          "Saddle"
+        ],
+        "explanation": "All four are parts you would point to on any bicycle.",
+        "alsoFits": [
+          "Chain"
+        ]
+      },
+      {
+        "title": "Fastenings",
+        "members": [
+          "Zip",
+          "Button",
+          "Buckle",
+          "Toggle"
+        ],
+        "explanation": "Each of these holds two edges of cloth or leather together."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chain_%28unit%29",
+      "excerpt": "There are 10 chains in a furlong, and 80 chains in one statute mile."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fathom",
+      "excerpt": "A fathom is a unit of length in the imperial and U.S."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/League_%28unit%29",
+      "excerpt": "Derived from an ancient Celtic unit and adopted by the Romans as the leuga, the league became a common unit of measurement throughout western Europe."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "Other words for bicycle include \"bike\", \"pushbike\", \"pedal cycle\", or \"cycle\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "The handlebars connect to the stem that connects to the fork housing the front wheel."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "Saddles also vary with rider preference, from the cushioned ones favored by short-distance riders to narrower saddles which allow more room for leg swings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "There were a variety of new inventions, such as spoke tighteners, and specialized lights, socks and shoes, and even cameras, such as the Eastman Company's Poco."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zipper",
+      "excerpt": "The galoshes could be fastened with a single zip of the hand, and soon the hookless fasteners came to be called \"Zippers\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Button",
+      "excerpt": "In modern clothing and fashion design, buttons are commonly made of plastic but also may be made of metal, wood, or seashell."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Buckle",
+      "excerpt": "A buckle or clasp is a device used for fastening two loose ends, with one end attached to it and the other held by a catch in a secure but adjustable manner."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toggle",
+      "excerpt": "Cordlock toggle, for stopping a cord or drawstring."
+    }
+  ]
+}

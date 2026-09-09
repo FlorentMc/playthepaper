@@ -1,0 +1,114 @@
+{
+  "topic": "Under, over and through London",
+  "payload": {
+    "tiles": [
+      "Chelsea",
+      "Marylebone",
+      "Westbourne",
+      "Tyburn",
+      "Albert",
+      "Paddington",
+      "Euston",
+      "Southwark",
+      "Effra",
+      "Waterloo",
+      "Tower",
+      "Fleet"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Lost rivers of London",
+        "members": [
+          "Fleet",
+          "Tyburn",
+          "Westbourne",
+          "Effra"
+        ],
+        "explanation": "All four run under London in pipes and culverts, out of sight."
+      },
+      {
+        "title": "London railway termini",
+        "members": [
+          "Euston",
+          "Paddington",
+          "Waterloo",
+          "Marylebone"
+        ],
+        "explanation": "Each is a mainline terminus where trains from the country come to a stop."
+      },
+      {
+        "title": "Bridges over the Thames",
+        "members": [
+          "Tower",
+          "Southwark",
+          "Chelsea",
+          "Albert"
+        ],
+        "explanation": "These four bridges carry traffic and walkers across the Thames in central London.",
+        "alsoFits": [
+          "Waterloo"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Subterranean_rivers_of_London",
+      "excerpt": "River Fleet, (following Farringdon Street, New Bridge Street and other roads)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Effra",
+      "excerpt": "The River Effra is a former stream or small river in south London, England, now culverted for most of its course."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Tyburn",
+      "excerpt": "The River Tyburn was a stream (bourn) in London, England."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Tyburn",
+      "excerpt": "Its much smaller cousin, the Tyburn Brook, was a tributary of the Westbourne and the next Thames tributary (west, on the north bank)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/London_station_group",
+      "excerpt": "The area around Waterloo had already become notorious for prostitution by the time the station was built, which was eventually cleared away in 1867 when the London and South Western Railway made a compulsory purchase order for the properties and demolished them, to accommodate an expanded station."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/London_station_group",
+      "excerpt": "This includes major national terminals such as Waterloo, Paddington, Euston and King's Cross, and local commuter terminals such as Cannon Street and Moorgate."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/London_station_group",
+      "excerpt": "It was feared that Marylebone and St Pancras would follow, but both have been revitalised; the former became an alternative terminal for services to Oxford and Birmingham while the latter is now the main entry point for Eurostar services via the Channel Tunnel."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tower_Bridge",
+      "excerpt": "It crosses the River Thames close to the Tower of London and is one of five London bridges owned and maintained by the City Bridge Foundation, a charitable trust founded in 1282."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Southwark_Bridge",
+      "excerpt": "Southwark Bridge (  SUDH-ərk) is an arch bridge in London, for traffic linking the district of Southwark and the City across the River Thames."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chelsea_Bridge",
+      "excerpt": "Chelsea Bridge is a bridge over the River Thames in west London, connecting Chelsea on the north bank to Battersea on the south bank, and split between the City of Westminster, the London Borough of Wandsworth and the Royal Borough of Kensington and Chelsea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chelsea_Bridge",
+      "excerpt": "The bridge was less of a commercial success than had been anticipated, partly because of competition from the newly built Albert Bridge nearby."
+    }
+  ],
+  "editorNotes": "Waterloo is the tile that fits twice, a terminus and a bridge, and the bridge group is already complete with Tower, Southwark, Chelsea and Albert, so Waterloo is counted as a station. Blackfriars and Vauxhall are both bridges and stations, so both were kept out. Fleet is a street as well as a river, but no group here asks for streets."
+}

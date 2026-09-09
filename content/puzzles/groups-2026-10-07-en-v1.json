@@ -1,0 +1,103 @@
+{
+  "id": "groups-2026-10-07-en-v1",
+  "game": "groups",
+  "editionDate": "2026-10-07",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Rigel",
+      "Jupiter",
+      "Mercury",
+      "Vega",
+      "Sirius",
+      "Copper",
+      "Saturn",
+      "Venus",
+      "Mars",
+      "Betelgeuse",
+      "Lead",
+      "Tin"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Planets",
+        "members": [
+          "Venus",
+          "Mars",
+          "Jupiter",
+          "Saturn"
+        ],
+        "explanation": "These four planets are all bright enough to find with the naked eye.",
+        "alsoFits": [
+          "Mercury"
+        ]
+      },
+      {
+        "title": "Metals known to the ancients",
+        "members": [
+          "Mercury",
+          "Lead",
+          "Tin",
+          "Copper"
+        ],
+        "explanation": "Ancient smiths worked all of these metals long before chemistry had a name for them."
+      },
+      {
+        "title": "Bright stars",
+        "members": [
+          "Sirius",
+          "Vega",
+          "Rigel",
+          "Betelgeuse"
+        ],
+        "explanation": "Each is among the brightest stars in the night sky."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_System",
+      "excerpt": "Jupiter and Saturn possess nearly 90% of the non-stellar mass of the Solar System."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_System",
+      "excerpt": "Earth and Mars are the only planets that orbit within the Sun's habitable zone, in which sunlight can keep surface water liquid under atmospheric pressure."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_System",
+      "excerpt": "Closest to the Sun in order of increasing distance are the terrestrial planets – Mercury, Venus, Earth and Mars."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metals_of_antiquity",
+      "excerpt": "The metals of antiquity are the seven metals which humans had identified and found use for in prehistoric times in Africa, Europe and throughout Asia: gold, silver, copper, tin, lead, iron, and mercury."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_brightest_stars",
+      "excerpt": "The second brightest is Sirius at −1.46 mag."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_brightest_stars",
+      "excerpt": "Some stars, like Betelgeuse and Antares, are variable stars, changing their magnitude over days, months or years."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rigel",
+      "excerpt": "Rigel is the brightest and most massive component – and the eponym – of a star system of at least four stars that appear as a single blue-white point of light to the naked eye."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vega",
+      "excerpt": "Vega has functioned as the baseline for calibrating the photometric brightness scale and was one of the stars used to define the zero point for the UBV photometric system."
+    }
+  ]
+}

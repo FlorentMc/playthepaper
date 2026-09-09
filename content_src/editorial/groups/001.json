@@ -1,0 +1,104 @@
+{
+  "topic": "Dales, cheeses and sea areas",
+  "payload": {
+    "tiles": [
+      "Cheddar",
+      "Wensleydale",
+      "Cheshire",
+      "Fisher",
+      "Cromarty",
+      "Rockall",
+      "Dogger",
+      "Nidderdale",
+      "Swaledale",
+      "Wharfedale",
+      "Caerphilly",
+      "Stilton"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Dales of Yorkshire",
+        "members": [
+          "Swaledale",
+          "Wharfedale",
+          "Nidderdale",
+          "Wensleydale"
+        ],
+        "explanation": "Each is a valley in the Yorkshire Dales, named after the river running through it."
+      },
+      {
+        "title": "British cheeses",
+        "members": [
+          "Cheddar",
+          "Stilton",
+          "Caerphilly",
+          "Cheshire"
+        ],
+        "explanation": "All four are traditional British cheeses that carry the name of a place.",
+        "alsoFits": [
+          "Wensleydale"
+        ]
+      },
+      {
+        "title": "Shipping forecast sea areas",
+        "members": [
+          "Dogger",
+          "Fisher",
+          "Rockall",
+          "Cromarty"
+        ],
+        "explanation": "These are sea areas read out in the shipping forecast on BBC Radio 4."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "excerpt": "The more northerly dales – Wensleydale and Swaledale – run generally from west to east."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "excerpt": "Nidderdale is not within the national park, and has instead been designated a national landscape."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yorkshire_Dales",
+      "excerpt": "Most of the larger southern dales – Ribblesdale, Malhamdale and Airedale, Wharfedale and Nidderdale – run roughly parallel from north to south."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cheddar_cheese",
+      "excerpt": "Cheddar cheese is the most popular cheese in the UK, accounting for 51% of the country's £1.9 billion annual cheese market."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stilton_cheese",
+      "excerpt": "The cheese takes its name from the village of Stilton, now in Cambridgeshire, where the cheese was originally sold but not made, and cannot be made because it is not in one of the three permitted counties."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caerphilly_cheese",
+      "excerpt": "Caerphilly cheese was one of nine Welsh products considered by the British Government in July 2015 as candidates for name protection under the Geographical indications and traditional specialities in the European Union rules."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cheshire_cheese",
+      "excerpt": "Cheshire cheese is a dense and crumbly cheese."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shipping_Forecast",
+      "excerpt": "Whilst the listener is safely tucked-up in their bed, they can imagine small fishing-boats bobbing about at Plymouth or 170ft waves crashing against Rockall."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shipping_Forecast",
+      "excerpt": "Names mentioned (in scene sequence) are: Fisher, German Bight and Cromarty, Dogger and Heligoland (also known as German Bight)."
+    }
+  ],
+  "editorNotes": "Wensleydale is the one tile that could sit in either half of the puzzle, since it is both a dale and a cheese; the cheese group is already full with Cheddar, Stilton, Caerphilly and Cheshire, so it belongs with the dales. Cheddar and Stilton are villages as well as cheeses, but no group here asks for villages. Dogger and Fisher are shipping areas rather than anything Yorkshire or dairy."
+}

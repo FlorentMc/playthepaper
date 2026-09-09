@@ -1,0 +1,123 @@
+{
+  "id": "groups-2026-10-21-en-v1",
+  "game": "groups",
+  "editionDate": "2026-10-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Kalahari",
+      "Magenta",
+      "Coral",
+      "Aegean",
+      "Fuchsia",
+      "Salmon",
+      "Atacama",
+      "Rose",
+      "Caspian",
+      "Baltic",
+      "Gobi",
+      "Sahara"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Deserts",
+        "members": [
+          "Sahara",
+          "Gobi",
+          "Kalahari",
+          "Atacama"
+        ],
+        "explanation": "These are among the great deserts of Africa, Asia and South America."
+      },
+      {
+        "title": "Seas",
+        "members": [
+          "Baltic",
+          "Aegean",
+          "Caspian",
+          "Coral"
+        ],
+        "explanation": "Each names a sea, though the Caspian is really the largest lake on earth."
+      },
+      {
+        "title": "Shades of pink",
+        "members": [
+          "Salmon",
+          "Fuchsia",
+          "Rose",
+          "Magenta"
+        ],
+        "explanation": "All four are pinks, from the palest salmon to the brightest magenta.",
+        "alsoFits": [
+          "Coral"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Desert",
+      "excerpt": "Most deserts on Earth such as the Sahara Desert, Grand Australian Desert and the Great Basin Desert, occur in low altitudes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Desert",
+      "excerpt": "One of the driest places on Earth is the Atacama Desert."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Desert",
+      "excerpt": "Many, such as the Bushmen in the Kalahari, the Aborigines in Australia and various tribes of North American Indians, were originally hunter-gatherers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gobi_Desert",
+      "excerpt": "The Gobi Desert is a large, cold desert and grassland region in southern Mongolia and North China."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sea",
+      "excerpt": "The Caspian Sea is the largest one of these."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sea",
+      "excerpt": "Such events have created dead zones in the Baltic Sea and the Gulf of Mexico."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sea",
+      "excerpt": "Corals often contain photosynthetic symbionts and live in shallow waters where light penetrates."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aegean_Sea",
+      "excerpt": "The Aegean dispute has had a large effect on Greece–Turkey relations since the 1970s."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shades_of_pink",
+      "excerpt": "Misty rose is a pale shade of pink."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shades_of_pink",
+      "excerpt": "\"Steel pink\" is a deep tone of magenta."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pink",
+      "excerpt": "A few variations of pink, such as salmon color, lean toward orange."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fuchsia_%28color%29",
+      "excerpt": "The first recorded use of fuchsia as a color name in English was in 1892."
+    }
+  ]
+}

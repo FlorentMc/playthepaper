@@ -1,0 +1,96 @@
+{
+  "topic": "Shapes",
+  "payload": {
+    "tiles": [
+      "Cone",
+      "Square",
+      "Prism",
+      "Equilateral",
+      "Cube",
+      "Kite",
+      "Isosceles",
+      "Acute",
+      "Sphere",
+      "Rhombus",
+      "Trapezium",
+      "Scalene"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Triangles",
+        "members": [
+          "Scalene",
+          "Isosceles",
+          "Equilateral",
+          "Acute"
+        ],
+        "explanation": "Each word describes a triangle by its sides or its angles."
+      },
+      {
+        "title": "Four-sided shapes",
+        "members": [
+          "Rhombus",
+          "Trapezium",
+          "Kite",
+          "Square"
+        ],
+        "explanation": "All four are quadrilaterals, closed shapes with four straight sides."
+      },
+      {
+        "title": "Solid shapes",
+        "members": [
+          "Cube",
+          "Prism",
+          "Sphere",
+          "Cone"
+        ],
+        "explanation": "Each of these takes up space rather than sitting flat on the page."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Triangle",
+      "excerpt": "In man-made construction, the isosceles triangles may be found in the shape of gables and pediments, and the equilateral triangle can be found in the yield sign."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Triangle",
+      "excerpt": "In a scalene triangle, the trigonometric functions can be used to find the unknown measure of either a side or an internal angle; methods for doing so use the law of sines and the law of cosines."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Triangle",
+      "excerpt": "A triangle in which all of its angles are less than 90° is an acute triangle."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rhombus",
+      "excerpt": "A rhombus with right angles is a square."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rhombus",
+      "excerpt": "A rhombus is a special case of a parallelogram and a kite."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trapezoid",
+      "excerpt": "In geometry, a trapezoid () in North American English, or trapezium () in British English, is a quadrilateral that has at least one pair of parallel sides."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solid_geometry",
+      "excerpt": "A solid figure is the region of 3D space bounded by a two-dimensional closed surface; for example, a solid ball consists of a sphere and its interior."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solid_geometry",
+      "excerpt": "Solid geometry deals with the measurements of volumes of various solids, including pyramids, prisms, cubes (and other polyhedrons), cylinders, cones (including truncated) and other solids of revolution."
+    }
+  ],
+  "editorNotes": "No tile fits two groups here: a square is a face of a cube but is itself flat, and a kite is a bird and a toy as well as a quadrilateral, though no group asks for either. Acute describes an angle as well as a triangle, and prism belongs with the solids rather than with light."
+}

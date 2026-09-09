@@ -1,0 +1,71 @@
+{
+  "topic": "The orchestra",
+  "payload": {
+    "tiles": [
+      "Cello",
+      "Double bass",
+      "Clarinet",
+      "Flute",
+      "Trumpet",
+      "Tuba",
+      "Bassoon",
+      "Viola",
+      "Oboe",
+      "Violin",
+      "Trombone",
+      "Horn"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Woodwind instruments",
+        "members": [
+          "Flute",
+          "Oboe",
+          "Clarinet",
+          "Bassoon"
+        ],
+        "explanation": "These four make up the woodwind section of an orchestra."
+      },
+      {
+        "title": "Brass instruments",
+        "members": [
+          "Trumpet",
+          "Trombone",
+          "Tuba",
+          "Horn"
+        ],
+        "explanation": "Each is played by buzzing the lips into a metal mouthpiece."
+      },
+      {
+        "title": "Bowed strings",
+        "members": [
+          "Violin",
+          "Viola",
+          "Cello",
+          "Double bass"
+        ],
+        "explanation": "All four are bowed and sit at the front of the orchestra."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Woodwind_instrument",
+      "excerpt": "Common examples include flute, clarinet, oboe, bassoon, and saxophone."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brass_instrument",
+      "excerpt": "Trumpets, trombones, and tubas are characteristically fitted with a cupped mouthpiece, while horns are fitted with a conical mouthpiece."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/String_section",
+      "excerpt": "It normally consists of first and second violins, violas, cellos, and double basses."
+    }
+  ],
+  "editorNotes": "No tile fits two groups here: the horn is brass despite once being called a French horn and often playing with the woodwind, and the saxophone was left out because it is brass in build but woodwind in family. Viola and cello are strings only."
+}

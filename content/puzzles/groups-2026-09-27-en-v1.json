@@ -1,0 +1,118 @@
+{
+  "id": "groups-2026-09-27-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-27",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Halifax",
+      "Alberta",
+      "Regina",
+      "Manitoba",
+      "Winnipeg",
+      "Alsatian",
+      "Dalmatian",
+      "Saskatchewan",
+      "Labrador",
+      "Ontario",
+      "Calgary",
+      "Pomeranian"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Dog breeds named after places",
+        "members": [
+          "Dalmatian",
+          "Pomeranian",
+          "Labrador",
+          "Alsatian"
+        ],
+        "explanation": "Each breed carries the name of the region it is said to come from."
+      },
+      {
+        "title": "Canadian provinces",
+        "members": [
+          "Alberta",
+          "Manitoba",
+          "Ontario",
+          "Saskatchewan"
+        ],
+        "explanation": "All four are provinces of Canada.",
+        "alsoFits": [
+          "Labrador"
+        ]
+      },
+      {
+        "title": "Canadian cities",
+        "members": [
+          "Halifax",
+          "Winnipeg",
+          "Calgary",
+          "Regina"
+        ],
+        "explanation": "Each is a Canadian city, and three of them are provincial capitals."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dalmatian_dog",
+      "excerpt": "The Dalmatian is a breed of dog with a white coat marked with dark-coloured spots."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pomeranian_dog",
+      "excerpt": "Queen Victoria owned a particularly small Pomeranian, and consequently, the smaller variety became universally popular."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Labrador_Retriever",
+      "excerpt": "The Labrador Retriever, also known simply as the Labrador or Lab, is a British breed of retriever gun dog."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/German_Shepherd",
+      "excerpt": "The German Shepherd, also known in Britain as an Alsatian, is a German breed of working dog of medium to large size."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada",
+      "excerpt": "In 1912, the boundaries of Quebec, Ontario, and Manitoba were expanded northward: Manitoba's to the 60° parallel, Ontario's to Hudson Bay and Quebec's to encompass the District of Ungava."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada",
+      "excerpt": "However, some provinces such as Saskatchewan, Prince Edward Island and Newfoundland and Labrador have experienced long periods of stagnation or population decline."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada",
+      "excerpt": "In September 1905, a portion of the North-West Territories south of the 60th parallel north became the provinces of Alberta and Saskatchewan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halifax%2C_Nova_Scotia",
+      "excerpt": "Halifax is an economic centre of Atlantic Canada, home to a concentration of government offices and private companies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Winnipeg",
+      "excerpt": "As of 2021, Winnipeg had a city population of 749,607 and a metropolitan population of 834,678, making it Canada's sixth-largest city and eighth-largest metropolitan area."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Calgary",
+      "excerpt": "Calgary is the largest city in the Canadian province of Alberta."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Calgary",
+      "excerpt": "Calgary became the first city in the North-West Territories, receiving its charter a decade before Edmonton and Regina."
+    }
+  ]
+}

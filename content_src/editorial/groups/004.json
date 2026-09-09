@@ -1,0 +1,99 @@
+{
+  "topic": "Hats, isthmuses and dances",
+  "payload": {
+    "tiles": [
+      "Bowler",
+      "Homburg",
+      "Waltz",
+      "Foxtrot",
+      "Nicaragua",
+      "Belize",
+      "Trilby",
+      "Honduras",
+      "Panama",
+      "Tango",
+      "Fedora",
+      "Quickstep"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Countries of Central America",
+        "members": [
+          "Panama",
+          "Belize",
+          "Honduras",
+          "Nicaragua"
+        ],
+        "explanation": "All four are Central American countries between Mexico and Colombia."
+      },
+      {
+        "title": "Hats",
+        "members": [
+          "Trilby",
+          "Fedora",
+          "Homburg",
+          "Bowler"
+        ],
+        "explanation": "Each is a man's felt hat with a brim and a creased or curled crown.",
+        "alsoFits": [
+          "Panama"
+        ]
+      },
+      {
+        "title": "Ballroom dances",
+        "members": [
+          "Tango",
+          "Waltz",
+          "Foxtrot",
+          "Quickstep"
+        ],
+        "explanation": "These are standard ballroom dances, each with its own step and time signature."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Central_America",
+      "excerpt": "In 1838, Costa Rica, Guatemala, Honduras, and Nicaragua became the first of Central America's states to become independent countries, followed by El Salvador in 1841, Panama in 1903, and Belize in 1981."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bowler_hat",
+      "excerpt": "Laurel and Hardy are known for wearing bowler hats."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fedora",
+      "excerpt": "Fedora hats are not to be confused with small brimmed hats called trilbies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fedora",
+      "excerpt": "Its popularity soared, and eventually it eclipsed the similar-looking homburg."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trilby",
+      "excerpt": "A trilby is a narrow-brimmed type of hat."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ballroom_dance",
+      "excerpt": "Ballroom tango, however, is a dance with a far more open frame, often utilising strong and staccato movements."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ballroom_dance",
+      "excerpt": "Viennese waltz originated in Provence area in France in 1559 and is recognized as the oldest of all ballroom dances."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ballroom_dance",
+      "excerpt": "The quickstep is an English dance and was invented in the 1920s as a combination of faster tempo of foxtrot and the Charleston."
+    }
+  ],
+  "editorNotes": "Panama is the tile that fits twice, a country and a straw hat, and the hat group is complete with trilby, fedora, homburg and bowler, so Panama joins the countries. Belize and Honduras have no second life here, and tango and foxtrot are dances rather than anything worn."
+}

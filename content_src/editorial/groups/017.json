@@ -1,0 +1,114 @@
+{
+  "topic": "Clouds, winds and salmon",
+  "payload": {
+    "tiles": [
+      "Harmattan",
+      "Sirocco",
+      "Coho",
+      "Chum",
+      "Stratus",
+      "Cumulus",
+      "Chinook",
+      "Mistral",
+      "Sockeye",
+      "Nimbus",
+      "Monsoon",
+      "Cirrus"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Types of cloud",
+        "members": [
+          "Cirrus",
+          "Cumulus",
+          "Stratus",
+          "Nimbus"
+        ],
+        "explanation": "Meteorologists build every cloud name from these four Latin words."
+      },
+      {
+        "title": "Winds",
+        "members": [
+          "Mistral",
+          "Sirocco",
+          "Monsoon",
+          "Harmattan"
+        ],
+        "explanation": "Each is a named wind that blows over one part of the world each year.",
+        "alsoFits": [
+          "Chinook"
+        ]
+      },
+      {
+        "title": "Pacific salmon",
+        "members": [
+          "Sockeye",
+          "Coho",
+          "Chum",
+          "Chinook"
+        ],
+        "explanation": "All four are salmon that spawn in the rivers of the north Pacific."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cloud",
+      "excerpt": "Clouds resembling cirrus, cirrostratus, and cirrocumulus can be found above the troposphere but are classified separately using common names."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cloud",
+      "excerpt": "Species cumulus humilis – These are small detached fair-weather cumuliform clouds that have nearly horizontal bases and flattened tops, and do not produce rain showers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cloud",
+      "excerpt": "Low stratus clouds usually produce only light precipitation, but this always occurs as the feature praecipitatio because this cloud genus lies too close to the ground to allow the formation of virga."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nimbostratus_cloud",
+      "excerpt": "The prefix nimbo- comes from the Latin word nimbus, which means \"rain bearing cloud\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wind",
+      "excerpt": "Within the tropics and subtropics, thermal low circulations over terrain and high plateaus can drive monsoon circulations."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mistral_%28wind%29",
+      "excerpt": "The mistral usually blows in winter or spring, though it occurs in all seasons."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sirocco",
+      "excerpt": "Sirocco ( sih-RO-koh) or scirocco is a Mediterranean wind that comes from the Sahara and can reach hurricane speeds in North Africa and Southern Europe, especially during the summer season."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harmattan",
+      "excerpt": "The Harmattan blows during the dry season, which occurs during the months with the lowest sun."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinook_salmon",
+      "excerpt": "Chinook and Coho salmon thrived on the alewives and spawned in the lakes' tributaries."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinook_salmon",
+      "excerpt": "Although spots are seen on the tail in pink salmon and silver on the tail in coho and chum salmon, Chinook are unique among the Pacific salmon in combining black spots and silver on the tail."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sockeye_salmon",
+      "excerpt": "Sockeye salmon are semelparous, dying after they spawn."
+    }
+  ],
+  "editorNotes": "Chinook is the tile that fits twice, a warm wind off the Rockies and the largest Pacific salmon; the wind group is full with mistral, sirocco, monsoon and harmattan, so chinook stays with the fish. Nimbus and cirrus belong to cloud naming alone, and sockeye, coho and chum are fish only."
+}

@@ -1,0 +1,101 @@
+{
+  "topic": "Mars and the telescopes",
+  "payload": {
+    "tiles": [
+      "Tharsis",
+      "Chandra",
+      "Elysium",
+      "Sojourner",
+      "Curiosity",
+      "Spirit",
+      "Hubble",
+      "Opportunity",
+      "Olympus Mons",
+      "Hellas",
+      "Kepler",
+      "Spitzer"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Mars rovers",
+        "members": [
+          "Sojourner",
+          "Spirit",
+          "Opportunity",
+          "Curiosity"
+        ],
+        "explanation": "Each of these rovers has driven across the surface of Mars."
+      },
+      {
+        "title": "Features on Mars",
+        "members": [
+          "Olympus Mons",
+          "Tharsis",
+          "Hellas",
+          "Elysium"
+        ],
+        "explanation": "These are places on Mars, and Olympus Mons is the tallest volcano known."
+      },
+      {
+        "title": "Space telescopes",
+        "members": [
+          "Hubble",
+          "Kepler",
+          "Spitzer",
+          "Chandra"
+        ],
+        "explanation": "All four observe from orbit, above the blur of the atmosphere."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mars_rover",
+      "excerpt": "As of August 11, 2026, Curiosity is still active, while Spirit, Opportunity, and Sojourner completed their missions before losing contact."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mars",
+      "excerpt": "Geologically, the planet is fairly active with marsquakes trembling underneath the ground, but also hosts many enormous volcanoes that are extinct (the tallest is Olympus Mons, 21.9 km or 13.6 mi tall), as well as one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "excerpt": "It is associated with the volcanic region of Tharsis Montes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hellas_Planitia",
+      "excerpt": "Hellas Planitia  is a plain located within the huge, roughly circular impact basin Hellas located in the southern hemisphere of the planet Mars."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elysium_Planitia",
+      "excerpt": "Elysium contains the major volcanoes Elysium Mons, Albor Tholus and Hecates Tholus."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Space_telescope",
+      "excerpt": "Suggested by Lyman Spitzer in 1946, the first operational telescopes were the American Orbiting Astronomical Observatory 2 launched in 1968, and the Soviet Orion 1 ultraviolet telescope aboard space station Salyut 1 in 1971."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+      "excerpt": "The Hubble Space Telescope is named after astronomer Edwin Hubble and is one of NASA's Great Observatories."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+      "excerpt": "Hubble is the visible light telescope in NASA's Great Observatories program; other parts of the spectrum are covered by the Compton Gamma Ray Observatory, the Chandra X-ray Observatory, and the Spitzer Space Telescope (which covers the infrared bands)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kepler_space_telescope",
+      "excerpt": "The Kepler space telescope was a space telescope launched by NASA in 2009 to discover Earth-sized planets orbiting other stars."
+    }
+  ],
+  "editorNotes": "No tile fits two groups here: Spirit and Opportunity are rover names that sound like qualities, but no group asks for qualities, and Hellas and Elysium are Martian basins rather than Greek places in this puzzle. Kepler and Hubble were astronomers before they were telescopes, though the telescopes are what the group asks for."
+}
