@@ -180,7 +180,7 @@ class LocalStore extends ChangeNotifier {
 
   /// Everything a player owns, as a single JSON document.
   String exportJson() => jsonEncode({
-        'format': 'daypencil-export',
+        'format': 'playthepaper-export',
         'version': 1,
         'exportedAt': DateTime.now().toUtc().toIso8601String(),
         'progress': {for (final k in _progress.keys) k: jsonDecode(_progress.get(k)!)},
@@ -193,8 +193,8 @@ class LocalStore extends ChangeNotifier {
   /// ones for the same puzzle so a replay never overwrites a real completion.
   Future<int> importJson(String raw) async {
     final json = jsonDecode(raw);
-    if (json is! Map || json['format'] != 'daypencil-export') {
-      throw const FormatException('Not a Daypencil export');
+    if (json is! Map || json['format'] != 'playthepaper-export') {
+      throw const FormatException('Not a Play the Paper export');
     }
     var imported = 0;
     final results = json['results'];

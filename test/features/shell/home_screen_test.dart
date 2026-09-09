@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/app.dart';
-import 'package:daypencil/content/content_repository.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/app.dart';
+import 'package:playthepaper/content/content_repository.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
@@ -54,7 +54,7 @@ void main() {
   late LocalStore store;
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_home');
+    dir = await Directory.systemTemp.createTemp('playthepaper_home');
     store = await LocalStore.open(subDir: dir.path);
   });
 
@@ -77,10 +77,10 @@ void main() {
     tester.view.physicalSize = const Size(800, 2000);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.reset);
-    await tester.pumpWidget(DaypencilApp(store: store, repository: repo));
+    await tester.pumpWidget(PaperApp(store: store, repository: repo));
     await tester.pumpAndSettle();
 
-    expect(find.text('Daypencil'), findsOneWidget);
+    expect(find.text('Play the Paper'), findsOneWidget);
     expect(find.text('Today'), findsOneWidget);
     expect(find.text('EVERGREEN EDITION'), findsOneWidget);
     expect(find.text('Mini Crossword'), findsOneWidget);
@@ -95,7 +95,7 @@ void main() {
       bundle: FakeBundle({}),
       client: MockClient((_) async => http.Response('down', 503)),
     )..networkEnabled = false;
-    await tester.pumpWidget(DaypencilApp(store: store, repository: repo));
+    await tester.pumpWidget(PaperApp(store: store, repository: repo));
     await tester.pumpAndSettle();
     expect(find.text('No edition could be loaded.'), findsOneWidget);
     expect(find.text('Retry'), findsOneWidget);

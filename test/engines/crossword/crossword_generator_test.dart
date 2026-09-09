@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/engines/crossword/crossword_generator.dart';
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/engines/crossword/crossword_generator.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 CrosswordSeed seed(String answer, {String story = 'story-1', String? excerpt}) => CrosswordSeed(

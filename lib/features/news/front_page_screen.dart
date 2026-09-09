@@ -64,7 +64,7 @@ class _FrontPageScreenState extends State<FrontPageScreen> {
               padding: const EdgeInsets.fromLTRB(20, 12, 20, 40),
               children: [
                 Text('The Front Page',
-                    style: DaypencilTheme.display(size: 30, color: theme.colorScheme.onSurface), textAlign: TextAlign.center),
+                    style: PaperTheme.display(size: 30, color: theme.colorScheme.onSurface), textAlign: TextAlign.center),
                 const SizedBox(height: 4),
                 Text(DateFormat('EEEE d MMMM yyyy').format(m.date.toUtc()).toUpperCase(),
                     style: theme.textTheme.labelSmall, textAlign: TextAlign.center),
@@ -108,7 +108,7 @@ class _FrontPageScreenState extends State<FrontPageScreen> {
                     icon: const Icon(Icons.ios_share),
                     label: const Text('Share the edition'),
                     onPressed: () async {
-                      final ok = await ShareService.share(_editionText(m, store), subject: 'Daypencil');
+                      final ok = await ShareService.share(_editionText(m, store), subject: 'Play the Paper');
                       if (!context.mounted) return;
                       ScaffoldMessenger.of(context)
                           .showSnackBar(SnackBar(content: Text(ok ? 'Edition shared' : 'Could not share')));
@@ -126,7 +126,7 @@ class _FrontPageScreenState extends State<FrontPageScreen> {
   }
 
   String _editionText(EditionManifest m, LocalStore store) {
-    final lines = <String>['Daypencil · ${ShareService.dateLabel(m.puzzles.first)}'];
+    final lines = <String>['Play the Paper · ${ShareService.dateLabel(m.puzzles.first)}'];
     for (final g in [GameKind.quiz, GameKind.word, GameKind.letters, GameKind.crossword]) {
       final id = m.puzzleFor(g);
       final r = id == null ? null : store.result(id);
@@ -189,7 +189,7 @@ class _StoryCard extends StatelessWidget {
           children: [
             Text('STORY $index', style: theme.textTheme.labelSmall),
             const SizedBox(height: 4),
-            Text(story.headline, style: DaypencilTheme.display(size: 21, color: theme.colorScheme.onSurface)),
+            Text(story.headline, style: PaperTheme.display(size: 21, color: theme.colorScheme.onSurface)),
             const SizedBox(height: 8),
             Text(story.summary, style: theme.textTheme.bodyMedium),
             const SizedBox(height: 10),

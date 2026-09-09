@@ -1,5 +1,5 @@
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/puzzle_id.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

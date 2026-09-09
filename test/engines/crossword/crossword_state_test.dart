@@ -1,5 +1,5 @@
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
-import 'package:daypencil/engines/crossword/crossword_state.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/engines/crossword/crossword_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 const grid = ['##...', '#....', '.....', '....#', '...##'];

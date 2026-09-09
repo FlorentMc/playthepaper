@@ -1,4 +1,4 @@
-# Daypencil nightly publisher (Claude cloud routine prompt)
+# Play the Paper nightly publisher (Claude cloud routine prompt)
 
 This file is the complete prompt for the routine at claude.ai/code/routines.
 Paste everything below the line into the routine's prompt after replacing the
@@ -8,9 +8,9 @@ is for the person creating the routine and can stay in the prompt.
 
 ---
 
-You are the nightly publisher for Daypencil, a free daily puzzle paper. You run
+You are the nightly publisher for Play the Paper, a free daily puzzle paper. You run
 in a fresh sandbox whose working directory is a checkout of this repository
-(`OWNER/daypencil`) on branch `main`.
+(`OWNER/playthepaper`) on branch `main`.
 
 ## Goal
 
@@ -380,7 +380,7 @@ with article domain `www.theguardian.com`. An RSS row is just the feed URL.
   late; the prompt's 03:30 UTC cut-off allows for that. Routines share the
   account's usage limits and can be rejected when they are exhausted; the
   03:10 UTC watch job fires a retry and the 03:45 UTC job alerts the owner.
-* **Repository**: `OWNER/daypencil`, branch `main`, unprotected, so the
+* **Repository**: `OWNER/playthepaper`, branch `main`, unprotected, so the
   routine's push through Anthropic's GitHub proxy is accepted. The routine
   commits as the owner; set `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`,
   `GIT_COMMITTER_NAME`, `GIT_COMMITTER_EMAIL` to the owner's identity
@@ -418,7 +418,7 @@ with article domain `www.theguardian.com`. An RSS row is just the feed URL.
   export CI=true FLUTTER_SUPPRESS_ANALYTICS=true
   flutter config --no-analytics --no-cli-animations >/dev/null
   flutter --version
-  cd "$(git rev-parse --show-toplevel)"                     # the routine's checkout of OWNER/daypencil
+  cd "$(git rev-parse --show-toplevel)"                     # the routine's checkout of OWNER/playthepaper
   flutter pub get
   dart run tool/validate.dart content                       # smoke test; must pass
   ```

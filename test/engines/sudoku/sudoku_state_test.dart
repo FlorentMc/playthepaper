@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:daypencil/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'fixtures.dart';

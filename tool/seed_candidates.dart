@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:daypencil/engines/letters/letters.dart';
-import 'package:daypencil/engines/word/word_engine.dart';
+import 'package:playthepaper/engines/letters/letters.dart';
+import 'package:playthepaper/engines/word/word_engine.dart';
 
 import '_common.dart';
 

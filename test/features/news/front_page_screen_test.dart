@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/content_repository.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/core/theme.dart';
-import 'package:daypencil/features/news/front_page_screen.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/content_repository.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/theme.dart';
+import 'package:playthepaper/features/news/front_page_screen.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -66,7 +66,7 @@ void main() {
   late LocalStore store;
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_front');
+    dir = await Directory.systemTemp.createTemp('playthepaper_front');
     store = await LocalStore.open(subDir: dir.path);
   });
 
@@ -94,7 +94,7 @@ void main() {
           ChangeNotifierProvider<EditionController>.value(value: editions),
         ],
         child: MaterialApp.router(
-          theme: DaypencilTheme.light(),
+          theme: PaperTheme.light(),
           routerConfig: GoRouter(
             initialLocation: '/front/$date',
             routes: [

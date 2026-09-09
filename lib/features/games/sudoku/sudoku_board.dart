@@ -144,7 +144,7 @@ class _Cell extends StatelessWidget {
       content = Center(
         child: Text(
           '$value',
-          style: DaypencilTheme.body(size: size * 0.52, weight: isGiven ? 700 : 450, color: ink),
+          style: PaperTheme.body(size: size * 0.52, weight: isGiven ? 700 : 450, color: ink),
         ),
       );
     } else if (notes.isNotEmpty) {
@@ -161,7 +161,7 @@ class _Cell extends StatelessWidget {
                         child: Center(
                           child: Text(
                             notes.contains(r * 3 + c + 1) ? '${r * 3 + c + 1}' : '',
-                            style: DaypencilTheme.body(size: size * 0.24, weight: 500, color: colors.subtle),
+                            style: PaperTheme.body(size: size * 0.24, weight: 500, color: colors.subtle),
                           ),
                         ),
                       ),

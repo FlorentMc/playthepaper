@@ -12,7 +12,7 @@ import 'models.dart';
 
 /// Where published content lives on the web. The same paths exist inside the
 /// app bundle under `assets/content/`.
-const String kContentBaseUrl = 'https://daypencil.com/content';
+const String kContentBaseUrl = 'https://playthepaper.com/content';
 
 class ContentNotFound implements Exception {
   const ContentNotFound(this.what);

@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:daypencil/core/puzzle_id.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
 
 /// Writes one static HTML page per puzzle under `<content>/share/<id>.html`.
 ///
 /// Each page is the web shell with puzzle-specific title and Open Graph tags,
-/// so a shared link previews as "Daypencil Mini Crossword · 8 September 2026"
+/// so a shared link previews as "Play the Paper Mini Crossword · 8 September 2026"
 /// while still booting the app at `/p/<id>` for a human who taps it. Nginx
 /// serves these for `/p/<id>` when present and falls back to the app shell.
 int writeSharePages(String content, String indexHtmlPath) {
@@ -20,7 +20,7 @@ int writeSharePages(String content, String indexHtmlPath) {
     if (id == null) continue;
     final out = '$content/share/$id.html';
     if (existing.contains('$id.html')) continue;
-    final title = 'Daypencil ${_title(id)} · ${_longDate(id.date)}';
+    final title = 'Play the Paper ${_title(id)} · ${_longDate(id.date)}';
     final description = 'Play the same puzzle and compare results. Free, no account needed.';
     final html = template
         .replaceFirst(RegExp(r'<title>[^<]*</title>'), '<title>${_esc(title)}</title>')
@@ -31,7 +31,7 @@ int writeSharePages(String content, String indexHtmlPath) {
         .replaceFirst(RegExp(r'<meta name="description" content="[^"]*">'),
             '<meta name="description" content="${_esc(description)}">')
         .replaceFirst('<link rel="manifest" href="manifest.json">',
-            '<meta property="og:url" content="https://daypencil.com/p/$id">\n  <link rel="manifest" href="manifest.json">');
+            '<meta property="og:url" content="https://playthepaper.com/p/$id">\n  <link rel="manifest" href="manifest.json">');
     File(out).writeAsStringSync(html);
     written++;
   }

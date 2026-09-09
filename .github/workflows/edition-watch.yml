@@ -1,4 +1,4 @@
-# Daypencil: watch the published edition and the content reserve.
+# Play the Paper: watch the published edition and the content reserve.
 #
 # Edition boundary: edition dates roll at 04:00 UTC. The edition for date D
 # opens at 04:00 UTC on D. The nightly routine runs at 02:15 UTC on D and
@@ -38,7 +38,7 @@ on:
         default: verify
 
 env:
-  CONTENT_URL: https://daypencil.com/content
+  CONTENT_URL: https://playthepaper.com/content
 
 jobs:
   retry:
@@ -98,7 +98,7 @@ jobs:
             exit 1
           fi
           if [ "$code" != "200" ]; then
-            echo "::error::${url} returned HTTP ${code}. Site or droplet problem: check nginx and daypencil-pull on 142.93.63.8 (infra/README.md, 'When edition-watch fails')."
+            echo "::error::${url} returned HTTP ${code}. Site or droplet problem: check nginx and playthepaper-pull on 142.93.63.8 (infra/README.md, 'When edition-watch fails')."
             exit 1
           fi
           if [ "$kind" != "news" ]; then

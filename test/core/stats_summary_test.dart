@@ -1,7 +1,7 @@
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/features/stats/stats_summary.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/features/stats/stats_summary.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 GameResult word(String date, {bool solved = true, int attempts = 3, bool archive = false}) => GameResult(

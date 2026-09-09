@@ -230,7 +230,7 @@ class _WordScreenState extends State<WordScreen> with SingleTickerProviderStateM
               child: Column(
                 children: [
                   Text('THE WORD', style: theme.textTheme.labelSmall),
-                  Text(_puzzle.answer, style: DaypencilTheme.display(size: 26, color: theme.colorScheme.onSurface)),
+                  Text(_puzzle.answer, style: PaperTheme.display(size: 26, color: theme.colorScheme.onSurface)),
                   if (excerpt != null)
                     Padding(
                       padding: const EdgeInsets.only(top: 8),
@@ -278,7 +278,7 @@ class _AnswerReveal extends StatelessWidget {
       children: [
         Text(
           answer,
-          style: DaypencilTheme.display(size: 40, color: theme.colorScheme.onSurface).copyWith(letterSpacing: 4),
+          style: PaperTheme.display(size: 40, color: theme.colorScheme.onSurface).copyWith(letterSpacing: 4),
         ),
         if (excerpt != null) ...[
           const SizedBox(height: 12),

@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/core/theme.dart';
-import 'package:daypencil/features/games/word/word_dictionary.dart';
-import 'package:daypencil/features/games/word/word_screen.dart';
-import 'package:daypencil/features/play/play_context.dart';
-import 'package:daypencil/shared/widgets/letter_keyboard.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/theme.dart';
+import 'package:playthepaper/features/games/word/word_dictionary.dart';
+import 'package:playthepaper/features/games/word/word_screen.dart';
+import 'package:playthepaper/features/play/play_context.dart';
+import 'package:playthepaper/shared/widgets/letter_keyboard.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
@@ -51,7 +51,7 @@ void main() {
   );
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_word');
+    dir = await Directory.systemTemp.createTemp('playthepaper_word');
     store = await LocalStore.open(subDir: dir.path);
     WordDictionary.debugOverride = {'STREAM', 'STRAND', 'STRIDE', 'TRAINS'};
   });
@@ -72,7 +72,7 @@ void main() {
           ChangeNotifierProvider<Settings>.value(value: store.settings),
         ],
         child: MaterialApp(
-          theme: DaypencilTheme.light(),
+          theme: PaperTheme.light(),
           builder: (context, child) =>
               MediaQuery(data: MediaQuery.of(context).copyWith(disableAnimations: true), child: child!),
           home: WordScreen(play: play),
@@ -243,7 +243,7 @@ void main() {
   testWidgets('the help example renders three marked tiles', (tester) async {
     await tester.pumpWidget(
       MaterialApp(
-        theme: DaypencilTheme.light(),
+        theme: PaperTheme.light(),
         home: Scaffold(body: Builder(builder: WordScreen.help.example!)),
       ),
     );

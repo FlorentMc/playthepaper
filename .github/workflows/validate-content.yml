@@ -1,4 +1,4 @@
-# Daypencil: validate the content tree and promote `main` to `live`.
+# Play the Paper: validate the content tree and promote `main` to `live`.
 #
 # `dart run tool/validate.dart content` is the trust boundary: it exits
 # non-zero on any problem and prints one line per error. The droplet serves
@@ -8,7 +8,7 @@
 #
 # Timing: the nightly routine pushes the news upgrade for edition date D to
 # `main` between about 02:30 and 03:30 UTC on D; this run takes ~3-5 minutes
-# (cached SDK), then daypencil-pull.timer picks `live` up within 5 minutes.
+# (cached SDK), then playthepaper-pull.timer picks `live` up within 5 minutes.
 # The edition opens at 04:00 UTC. edition-watch.yml checks the served file at
 # 03:10 and 03:45 UTC.
 #

@@ -1,5 +1,5 @@
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'fixtures.dart';

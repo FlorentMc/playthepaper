@@ -96,7 +96,7 @@ class _HexCell extends StatelessWidget {
             child: InkWell(
               onTap: onTap,
               child: Center(
-                child: Text(letter, style: DaypencilTheme.display(size: 28, color: ink)),
+                child: Text(letter, style: PaperTheme.display(size: 28, color: ink)),
               ),
             ),
           ),

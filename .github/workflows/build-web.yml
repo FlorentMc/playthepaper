@@ -1,7 +1,7 @@
-# Daypencil: build the Flutter web app from `main` and publish it to branch `build`.
+# Play the Paper: build the Flutter web app from `main` and publish it to branch `build`.
 #
-# The droplet (infra/systemd/daypencil-pull.service) checks `build` out at
-# /var/www/daypencil/app every 5 minutes and nginx serves it as static files.
+# The droplet (infra/systemd/playthepaper-pull.service) checks `build` out at
+# /var/www/playthepaper/app every 5 minutes and nginx serves it as static files.
 # Nothing is built on the droplet.
 #
 # Content pushes (content/**) do not rebuild the app: they go through

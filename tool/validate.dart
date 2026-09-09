@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/puzzle_id.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
 
 import '_common.dart';
 import '_engine_checks.dart';

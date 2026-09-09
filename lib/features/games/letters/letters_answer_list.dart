@@ -78,7 +78,7 @@ class _AnswerWord extends StatelessWidget {
       child: ExcludeSemantics(
         child: Text(
           '$marks$word',
-          style: DaypencilTheme.body(
+          style: PaperTheme.body(
             size: 15,
             weight: pangram || found ? 600 : 400,
             color: found ? inkFound : inkMissed,

@@ -17,17 +17,17 @@ import 'features/settings/settings_screen.dart';
 import 'features/stats/stats_screen.dart';
 import 'storage/local_store.dart';
 
-class DaypencilApp extends StatefulWidget {
-  const DaypencilApp({super.key, required this.store, required this.repository});
+class PaperApp extends StatefulWidget {
+  const PaperApp({super.key, required this.store, required this.repository});
 
   final LocalStore store;
   final ContentRepository repository;
 
   @override
-  State<DaypencilApp> createState() => _DaypencilAppState();
+  State<PaperApp> createState() => _PaperAppState();
 }
 
-class _DaypencilAppState extends State<DaypencilApp> {
+class _PaperAppState extends State<PaperApp> {
   late final EditionController _editions;
   late final GoRouter _router;
 
@@ -55,10 +55,10 @@ class _DaypencilAppState extends State<DaypencilApp> {
       ],
       child: Consumer<Settings>(
         builder: (context, settings, _) => MaterialApp.router(
-          title: 'Daypencil',
+          title: 'Play the Paper',
           debugShowCheckedModeBanner: false,
-          theme: DaypencilTheme.light(),
-          darkTheme: DaypencilTheme.dark(),
+          theme: PaperTheme.light(),
+          darkTheme: PaperTheme.dark(),
           themeMode: settings.themeMode,
           routerConfig: _router,
           builder: (context, child) {

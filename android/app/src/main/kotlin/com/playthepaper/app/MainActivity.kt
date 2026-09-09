@@ -1,4 +1,4 @@
-package com.daypencil.daypencil
+package com.playthepaper.app
 
 import io.flutter.embedding.android.FlutterActivity
 

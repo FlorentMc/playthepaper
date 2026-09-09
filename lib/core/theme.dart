@@ -122,7 +122,7 @@ extension GameColorsContext on BuildContext {
 }
 
 /// A small, well-set newspaper: cream paper, black ink, one restrained accent.
-class DaypencilTheme {
+class PaperTheme {
   static const displayFamily = 'Playfair Display';
   static const bodyFamily = 'Source Sans 3';
 

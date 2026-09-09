@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/engines/word/word_engine.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/engines/word/word_engine.dart';
 
 /// Generates Daily Word puzzle files for a date range.
 ///

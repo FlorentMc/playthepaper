@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/core/theme.dart';
-import 'package:daypencil/engines/sudoku/sudoku.dart';
-import 'package:daypencil/features/games/sudoku/sudoku_screen.dart';
-import 'package:daypencil/features/play/play_context.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/theme.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/features/games/sudoku/sudoku_screen.dart';
+import 'package:playthepaper/features/play/play_context.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -39,7 +39,7 @@ void main() {
   final wrong = answer == 9 ? 1 : answer + 1;
 
   setUpAll(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_sudoku');
+    dir = await Directory.systemTemp.createTemp('playthepaper_sudoku');
     store = await LocalStore.open(subDir: dir.path);
   });
 
@@ -66,7 +66,7 @@ void main() {
           ChangeNotifierProvider<Settings>.value(value: store.settings),
         ],
         child: MaterialApp(
-          theme: DaypencilTheme.light(),
+          theme: PaperTheme.light(),
           home: SudokuScreen(play: PlayContext(store: store, record: record, isArchivePlay: isArchivePlay)),
         ),
       ),

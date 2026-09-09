@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../core/theme.dart';
 import '../../shared/widgets/game_shell.dart';
 
-const String kSupportEmail = 'hello@daypencil.com';
+const String kSupportEmail = 'hello@playthepaper.com';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
@@ -18,7 +18,7 @@ class AboutScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(24, 16, 24, 40),
           children: [
-            Text('Daypencil', style: DaypencilTheme.display(size: 30, color: theme.colorScheme.onSurface)),
+            Text('Play the Paper', style: PaperTheme.display(size: 30, color: theme.colorScheme.onSurface)),
             const SizedBox(height: 6),
             Text('A free daily puzzle paper.', style: theme.textTheme.titleMedium),
             const SizedBox(height: 16),
@@ -72,7 +72,7 @@ class AboutScreen extends StatelessWidget {
 
 /// Opens a prepared email with the puzzle id and version filled in.
 Future<void> reportProblem(BuildContext context, {String? puzzleId}) async {
-  final subject = puzzleId == null ? 'Daypencil problem' : 'Daypencil problem: $puzzleId';
+  final subject = puzzleId == null ? 'Play the Paper problem' : 'Play the Paper problem: $puzzleId';
   final body = puzzleId == null ? 'What went wrong:\n' : 'Puzzle: $puzzleId\nWhat went wrong:\n';
   final uri = Uri(
     scheme: 'mailto',

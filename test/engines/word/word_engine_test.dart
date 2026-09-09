@@ -1,4 +1,4 @@
-import 'package:daypencil/engines/word/word_engine.dart';
+import 'package:playthepaper/engines/word/word_engine.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -79,7 +79,7 @@ class _Dot extends StatelessWidget {
         ),
         child: mark == null
             ? Text('$number', style: theme.textTheme.labelMedium)
-            : Text(mark! ? '✓' : '✗', style: DaypencilTheme.body(size: 16, weight: 700, color: colors.onFeedback)),
+            : Text(mark! ? '✓' : '✗', style: PaperTheme.body(size: 16, weight: 700, color: colors.onFeedback)),
       ),
     );
   }

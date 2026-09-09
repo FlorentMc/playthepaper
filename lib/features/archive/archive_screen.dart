@@ -55,7 +55,7 @@ class _ArchiveScreenState extends State<ArchiveScreen> {
                 return ListTile(
                   title: Text(
                     DateFormat('EEEE d MMMM yyyy').format(d.toUtc()),
-                    style: DaypencilTheme.display(size: 18, color: theme.colorScheme.onSurface),
+                    style: PaperTheme.display(size: 18, color: theme.colorScheme.onSurface),
                   ),
                   subtitle: Text(isToday ? 'Today' : 'Archive', style: theme.textTheme.bodySmall),
                   trailing: const Icon(Icons.chevron_right),

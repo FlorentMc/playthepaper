@@ -1,4 +1,4 @@
-import 'package:daypencil/core/edition_clock.dart';
+import 'package:playthepaper/core/edition_clock.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

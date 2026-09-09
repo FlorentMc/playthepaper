@@ -19,7 +19,7 @@ class StoryTeaser extends StatelessWidget {
         children: [
           TextSpan(
             text: "From today's stories · ",
-            style: DaypencilTheme.body(size: 14, weight: 600, color: theme.colorScheme.onSurface),
+            style: PaperTheme.body(size: 14, weight: 600, color: theme.colorScheme.onSurface),
           ),
           TextSpan(text: teaser),
         ],
@@ -46,7 +46,7 @@ class StoryExcerpt extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text.rich(TextSpan(style: theme.textTheme.bodyMedium, children: _spans(DaypencilTheme.body(weight: 700)))),
+        Text.rich(TextSpan(style: theme.textTheme.bodyMedium, children: _spans(PaperTheme.body(weight: 700)))),
         if (story != null) ...[
           const SizedBox(height: 2),
           Text('— ${story.publisher}', style: theme.textTheme.bodySmall),

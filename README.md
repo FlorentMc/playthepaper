@@ -1,9 +1,9 @@
-# Daypencil
+# Play the Paper
 
 A free daily puzzle paper for phones and the web: Mini Crossword, Letters, Daily Word,
 Sudoku, and a short playable news edition (Correct, The Number, Where, Front Page).
 
-* Product brief: `docs/daypencil-concept-and-implementation.md`
+* Product brief: `docs/playthepaper-concept-and-implementation.md`
 * Architecture and module contract: `docs/ARCHITECTURE.md`
 * Publishing and hosting runbook: `infra/README.md`
 

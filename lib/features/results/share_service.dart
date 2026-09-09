@@ -7,7 +7,7 @@ import '../../core/game_kind.dart';
 import '../../core/game_result.dart';
 import '../../core/puzzle_id.dart';
 
-const String kSiteBaseUrl = 'https://daypencil.com';
+const String kSiteBaseUrl = 'https://playthepaper.com';
 
 /// Builds share text and challenge links and hands them to the platform
 /// share sheet, with clipboard fallbacks where sharing is unavailable.
@@ -29,7 +29,7 @@ class ShareService {
   static String resultText(GameResult result) {
     final id = result.puzzleId;
     final lines = <String>[
-      'Daypencil ${titleFor(id)} · ${dateLabel(id)}',
+      'Play the Paper ${titleFor(id)} · ${dateLabel(id)}',
       result.summary(),
       ...result.shareLines,
       puzzleUrl(id),
@@ -48,7 +48,7 @@ class ShareService {
           ? 'Can you solve it?'
           : 'Beat my time of ${GameResult.formatSeconds(result.seconds!)}',
     };
-    return 'Daypencil ${titleFor(id)} · ${dateLabel(id)}\n$verb\n${puzzleUrl(id, toBeat: result)}';
+    return 'Play the Paper ${titleFor(id)} · ${dateLabel(id)}\n$verb\n${puzzleUrl(id, toBeat: result)}';
   }
 
   /// Returns true when a share sheet or clipboard copy succeeded.

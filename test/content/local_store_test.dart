@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -14,7 +14,7 @@ void main() {
   final id = PuzzleId.parse('word-2026-09-08-en-v1');
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_store');
+    dir = await Directory.systemTemp.createTemp('playthepaper_store');
     store = await LocalStore.open(subDir: dir.path);
   });
 

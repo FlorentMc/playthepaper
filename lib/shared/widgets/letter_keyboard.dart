@@ -190,7 +190,7 @@ class _Key extends StatelessWidget {
                 child: Center(
                   child: Text(
                     label,
-                    style: DaypencilTheme.body(size: label.length > 1 ? 12 : 17, weight: 600, color: foreground),
+                    style: PaperTheme.body(size: label.length > 1 ? 12 : 17, weight: 600, color: foreground),
                   ),
                 ),
               ),

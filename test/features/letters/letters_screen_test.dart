@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/core/theme.dart';
-import 'package:daypencil/features/games/letters/letters_screen.dart';
-import 'package:daypencil/features/play/play_context.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/theme.dart';
+import 'package:playthepaper/features/games/letters/letters_screen.dart';
+import 'package:playthepaper/features/play/play_context.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -59,7 +59,7 @@ void main() {
   );
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_letters');
+    dir = await Directory.systemTemp.createTemp('playthepaper_letters');
     store = await LocalStore.open(subDir: dir.path);
   });
 
@@ -80,7 +80,7 @@ void main() {
           ChangeNotifierProvider<Settings>.value(value: store.settings),
         ],
         child: MaterialApp(
-          theme: DaypencilTheme.light(),
+          theme: PaperTheme.light(),
           builder: (context, child) =>
               MediaQuery(data: MediaQuery.of(context).copyWith(disableAnimations: true), child: child!),
           home: LettersScreen(

@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/engines/crossword/crossword_generator.dart';
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/engines/crossword/crossword_generator.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

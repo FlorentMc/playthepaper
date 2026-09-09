@@ -1,4 +1,4 @@
-import 'package:daypencil/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
 
 /// The Wikipedia example: solvable with singles alone.
 const singlesOnlyGivens = '530070000600195000098000060800060003400803001700020006060000280000419005000080079';

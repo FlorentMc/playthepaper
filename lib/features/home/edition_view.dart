@@ -39,7 +39,7 @@ class EditionView extends StatelessWidget {
         const SizedBox(height: 4),
         Text(
           isToday ? 'Today' : 'From the archive',
-          style: DaypencilTheme.display(size: 16, weight: 400, color: theme.colorScheme.onSurface),
+          style: PaperTheme.display(size: 16, weight: 400, color: theme.colorScheme.onSurface),
           textAlign: TextAlign.center,
         ),
         if (manifest.correctionNote != null) ...[
@@ -112,7 +112,7 @@ class _NewsCard extends StatelessWidget {
               const SizedBox(height: 6),
               Text(
                 manifest.kind == EditionKind.evergreen ? manifest.label : 'The Quiz',
-                style: DaypencilTheme.display(size: 22, color: theme.colorScheme.onSurface),
+                style: PaperTheme.display(size: 22, color: theme.colorScheme.onSurface),
               ),
               const SizedBox(height: 8),
               Text(
@@ -221,7 +221,7 @@ class _CardHeader extends StatelessWidget {
     final theme = Theme.of(context);
     return Row(
       children: [
-        Expanded(child: Text(game.title, style: DaypencilTheme.display(size: 20, color: theme.colorScheme.onSurface))),
+        Expanded(child: Text(game.title, style: PaperTheme.display(size: 20, color: theme.colorScheme.onSurface))),
         IconButton(
           icon: Icon(pinned ? Icons.push_pin : Icons.push_pin_outlined),
           tooltip: pinned ? 'Unpin' : 'Pin to top',

@@ -6,9 +6,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/engines/letters/letters.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/engines/letters/letters.dart';
 
 /// A generator over the word lists in [dataDir] (`enable1.txt`, `en_50k.txt`).
 LettersGenerator loadGenerator(Directory dataDir) {

@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_result.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/core/theme.dart';
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
-import 'package:daypencil/features/games/crossword/crossword_screen.dart';
-import 'package:daypencil/features/play/play_context.dart';
-import 'package:daypencil/shared/widgets/letter_keyboard.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_result.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/theme.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/features/games/crossword/crossword_screen.dart';
+import 'package:playthepaper/features/play/play_context.dart';
+import 'package:playthepaper/shared/widgets/letter_keyboard.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
@@ -78,7 +78,7 @@ void main() {
   ];
 
   setUpAll(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_crossword');
+    dir = await Directory.systemTemp.createTemp('playthepaper_crossword');
     store = await LocalStore.open(subDir: dir.path);
   });
 
@@ -107,7 +107,7 @@ void main() {
           ChangeNotifierProvider<Settings>.value(value: store.settings),
         ],
         child: MaterialApp(
-          theme: DaypencilTheme.light(),
+          theme: PaperTheme.light(),
           home: CrosswordScreen(
             play: seeded
                 ? PlayContext(store: store, record: seededRecord, stories: stories)

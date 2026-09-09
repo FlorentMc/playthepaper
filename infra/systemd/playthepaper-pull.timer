@@ -1,4 +1,4 @@
-# Daypencil: run daypencil-pull.service every 5 minutes.
+# Play the Paper: run playthepaper-pull.service every 5 minutes.
 #
 # OnBootSec=2min      first pull shortly after boot
 # OnUnitActiveSec=5min then every 5 minutes after the previous run started
@@ -9,14 +9,14 @@
 # is America/New_York and must not be changed; systemd timers do not care.
 
 [Unit]
-Description=Daypencil: pull content and web app from GitHub every 5 minutes
+Description=Play the Paper: pull content and web app from GitHub every 5 minutes
 
 [Timer]
 OnBootSec=2min
 OnUnitActiveSec=5min
 Persistent=true
 AccuracySec=30s
-Unit=daypencil-pull.service
+Unit=playthepaper-pull.service
 
 [Install]
 WantedBy=timers.target

@@ -64,7 +64,7 @@ class QuizQuestionView extends StatelessWidget {
         const SizedBox(height: 8),
         Text(
           question.prompt,
-          style: DaypencilTheme.display(size: 22, color: theme.colorScheme.onSurface, height: 1.25),
+          style: PaperTheme.display(size: 22, color: theme.colorScheme.onSurface, height: 1.25),
         ),
         const SizedBox(height: 16),
         if (wagerPoints != null && !answered) ...[
@@ -158,16 +158,16 @@ class QuizOptionButton extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
               child: Row(
                 children: [
-                  Text(letter, style: DaypencilTheme.body(size: 16, weight: 700, color: foreground)),
+                  Text(letter, style: PaperTheme.body(size: 16, weight: 700, color: foreground)),
                   const SizedBox(width: 14),
                   Expanded(
-                    child: Text(text, style: DaypencilTheme.body(size: 17, color: foreground, height: 1.3)),
+                    child: Text(text, style: PaperTheme.body(size: 17, color: foreground, height: 1.3)),
                   ),
                   if (symbol != null) ...[
                     const SizedBox(width: 10),
                     Text(
                       symbol,
-                      style: DaypencilTheme.body(
+                      style: PaperTheme.body(
                         size: 20,
                         weight: 700,
                         color: mark == QuizOptionMark.wrong ? colors.error : foreground,
@@ -259,12 +259,12 @@ class _ExplanationCard extends StatelessWidget {
               children: [
                 Text(
                   correct ? '✓' : '✗',
-                  style: DaypencilTheme.body(size: 20, weight: 700, color: correct ? colors.correct : colors.error),
+                  style: PaperTheme.body(size: 20, weight: 700, color: correct ? colors.correct : colors.error),
                 ),
                 const SizedBox(width: 8),
                 Text(
                   correct ? 'Right' : 'Not quite',
-                  style: DaypencilTheme.display(size: 20, color: theme.colorScheme.onSurface),
+                  style: PaperTheme.display(size: 20, color: theme.colorScheme.onSurface),
                 ),
               ],
             ),

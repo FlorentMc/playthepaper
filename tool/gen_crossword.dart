@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/engines/crossword/crossword_generator.dart';
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/engines/crossword/crossword_generator.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 
 /// Generates one Mini Crossword per date from the hand-written clue bank.
 ///

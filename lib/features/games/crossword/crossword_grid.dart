@@ -133,7 +133,7 @@ class _Cell extends StatelessWidget {
                       top: side * 0.02,
                       child: Text(
                         '$number',
-                        style: DaypencilTheme.body(size: side * 0.22, weight: 600, color: theme.colorScheme.onSurface),
+                        style: PaperTheme.body(size: side * 0.22, weight: 600, color: theme.colorScheme.onSurface),
                       ),
                     ),
                   if (letter != null)
@@ -142,7 +142,7 @@ class _Cell extends StatelessWidget {
                         padding: EdgeInsets.only(top: side * 0.12),
                         child: Text(
                           letter,
-                          style: DaypencilTheme.body(size: side * 0.52, weight: 600, color: letterColor),
+                          style: PaperTheme.body(size: side * 0.52, weight: 600, color: letterColor),
                         ),
                       ),
                     ),

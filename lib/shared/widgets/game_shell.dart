@@ -117,7 +117,7 @@ Future<void> showHelpSheet(BuildContext context, GameHelp help) {
           controller: controller,
           padding: const EdgeInsets.fromLTRB(24, 8, 24, 32),
           children: [
-            Text(help.title, style: DaypencilTheme.display(size: 24, color: theme.colorScheme.onSurface)),
+            Text(help.title, style: PaperTheme.display(size: 24, color: theme.colorScheme.onSurface)),
             const SizedBox(height: 12),
             for (final p in help.paragraphs) ...[
               Text(p, style: theme.textTheme.bodyLarge),

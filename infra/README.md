@@ -1,4 +1,4 @@
-# Daypencil publishing infrastructure: runbook
+# Play the Paper publishing infrastructure: runbook
 
 Static hosting on the existing DigitalOcean droplet, deploy by git pull,
 content published by a Claude cloud routine, watched by GitHub Actions.
@@ -10,8 +10,8 @@ Every ALL_CAPS placeholder used anywhere under `infra/` and `.github/`:
 
 | Placeholder | Where | Meaning |
 |---|---|---|
-| `OWNER` | workflows, PROMPT.md, setup script default | GitHub owner of the `daypencil` repository |
-| `REPO_URL` | `infra/deploy/setup-droplet.sh` (env var) | Clone URL used by the droplet: `https://github.com/OWNER/daypencil.git` (public) or `git@github.com:OWNER/daypencil.git` (private, deploy key) |
+| `OWNER` | workflows, PROMPT.md, setup script default | GitHub owner of the `playthepaper` repository |
+| `REPO_URL` | `infra/deploy/setup-droplet.sh` (env var) | Clone URL used by the droplet: `https://github.com/OWNER/playthepaper.git` (public) or `git@github.com:OWNER/playthepaper.git` (private, deploy key) |
 | `ROUTINE_ID` | GitHub secret | Id of the Claude routine (from its page at claude.ai/code/routines) |
 | `ROUTINE_TOKEN` | GitHub secret | Bearer token for the routine's fire endpoint |
 | `OWNER_GIT_NAME`, `OWNER_GIT_EMAIL` | routine environment | Commit identity the routine uses (must be the owner's) |
@@ -23,13 +23,13 @@ the routine fills in at run time, not configuration.
 
 Fixed values (not placeholders): droplet `142.93.63.8`; branches `main`
 (source + `content/`), `live` (validated `main`, served), `build` (web app);
-paths `/var/www/daypencil/{src,app}`; Linux user `daypencil`; certificate
-`/etc/letsencrypt/live/daypencil.com/`.
+paths `/var/www/playthepaper/{src,app}`; Linux user `playthepaper`; certificate
+`/etc/letsencrypt/live/playthepaper.com/`.
 
 ## Architecture
 
 ```
-                    GitHub: OWNER/daypencil
+                    GitHub: OWNER/playthepaper
                     ┌──────────────────────────────────────────────────────┐
   owner (laptop) ──►│ main  = source + content/ + docs/ + infra/           │
                     │   │ push (non-content)      │ push (content/**)      │
@@ -40,16 +40,16 @@ paths `/var/www/daypencil/{src,app}`; Linux user `daypencil`; certificate
                     │   ▼                         ▼                        │
                     │ build (orphan)           live                        │
                     └──────▲──────────────────────▲────────────────────────┘
-                           │ git fetch/reset       │ git fetch/reset (every 5 min, daypencil-pull.timer)
+                           │ git fetch/reset       │ git fetch/reset (every 5 min, playthepaper-pull.timer)
                            │                       │
   Claude routine ──push──► main (content/ only)    │
   02:15 UTC daily                                  │
                     ┌──────┴───────────────────────┴───────────────────────┐
                     │ droplet 142.93.63.8  (nginx 1.24, certbot)           │
-                    │  /var/www/daypencil/app         <- build             │
-                    │  /var/www/daypencil/src/content <- live              │
-                    │  https://daypencil.com/          -> app/ (SPA)       │
-                    │  https://daypencil.com/content/  -> src/content/     │
+                    │  /var/www/playthepaper/app         <- build             │
+                    │  /var/www/playthepaper/src/content <- live              │
+                    │  https://playthepaper.com/          -> app/ (SPA)       │
+                    │  https://playthepaper.com/content/  -> src/content/     │
                     └──────────────────────────────────────────────────────┘
                            ▲
   GitHub Actions ──curl────┘  edition-watch.yml: 03:10 retry, 03:45 verify, 05:00 reserve (UTC)
@@ -67,9 +67,9 @@ Files:
 
 | File | Purpose |
 |---|---|
-| `infra/nginx/daypencil-http.conf` | port 80: ACME-friendly redirect to https |
-| `infra/nginx/daypencil.conf` | port 443: app + content, cache and security headers |
-| `infra/systemd/daypencil-pull.{service,timer}` | fetch + hard-reset both checkouts every 5 minutes |
+| `infra/nginx/playthepaper-http.conf` | port 80: ACME-friendly redirect to https |
+| `infra/nginx/playthepaper.conf` | port 443: app + content, cache and security headers |
+| `infra/systemd/playthepaper-pull.{service,timer}` | fetch + hard-reset both checkouts every 5 minutes |
 | `infra/deploy/setup-droplet.sh` | idempotent droplet setup, `--dry-run` supported |
 | `infra/routine/PROMPT.md` | the routine's prompt, SOURCES and ENVIRONMENT |
 | `.github/workflows/build-web.yml` | Flutter web build → branch `build` |
@@ -80,17 +80,17 @@ Why `live` and not `main` on the droplet: the validator is the trust
 boundary and must pass in CI before anything is served. The droplet therefore
 tracks `live`, which `validate-content.yml` fast-forwards to `main` only after
 a green run. To serve `main` directly instead, change `live` to `main` in
-`infra/systemd/daypencil-pull.service` and in `setup-droplet.sh`.
+`infra/systemd/playthepaper-pull.service` and in `setup-droplet.sh`.
 
 ## One-time setup
 
 Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
 
-1. **Registrar DNS.** `A daypencil.com → 142.93.63.8` and
-   `A www.daypencil.com → 142.93.63.8`. No AAAA record (the nginx config has
-   no IPv6 listener). Check: `dig +short daypencil.com`.
+1. **Registrar DNS.** `A playthepaper.com → 142.93.63.8` and
+   `A www.playthepaper.com → 142.93.63.8`. No AAAA record (the nginx config has
+   no IPv6 listener). Check: `dig +short playthepaper.com`.
 
-2. **GitHub repository `OWNER/daypencil`.**
+2. **GitHub repository `OWNER/playthepaper`.**
    * `main` unprotected (the routine pushes to it and pushes must carry only
      the owner's commits, so do not add other collaborators' commits to it).
    * Settings → Actions → General → Workflow permissions: *Read and write*
@@ -110,23 +110,23 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
 
    ```
    apt-get install -y git certbot python3-certbot-nginx     # if missing; nginx is already there
-   scp -r infra root@142.93.63.8:/root/daypencil-infra      # from your laptop
-   REPO_URL=https://github.com/OWNER/daypencil.git bash /root/daypencil-infra/deploy/setup-droplet.sh --dry-run
-   REPO_URL=https://github.com/OWNER/daypencil.git bash /root/daypencil-infra/deploy/setup-droplet.sh
+   scp -r infra root@142.93.63.8:/root/playthepaper-infra      # from your laptop
+   REPO_URL=https://github.com/OWNER/playthepaper.git bash /root/playthepaper-infra/deploy/setup-droplet.sh --dry-run
+   REPO_URL=https://github.com/OWNER/playthepaper.git bash /root/playthepaper-infra/deploy/setup-droplet.sh
    ```
 
-   For a private repo use `REPO_URL=git@github.com:OWNER/daypencil.git`; the
+   For a private repo use `REPO_URL=git@github.com:OWNER/playthepaper.git`; the
    script prints a public key to add under Settings → Deploy keys (read-only).
-   The script creates user `daypencil`, the two checkouts, the timer, and the
+   The script creates user `playthepaper`, the two checkouts, the timer, and the
    port-80 site. It does not touch commuteglance, `nginx.conf` or the
    timezone (America/New_York; all schedules here are UTC).
 
 4. **Certificate.** After DNS resolves:
 
    ```
-   certbot certonly --nginx -d daypencil.com -d www.daypencil.com --deploy-hook 'systemctl reload nginx'
-   bash /root/daypencil-infra/deploy/setup-droplet.sh     # re-run: enables the HTTPS site
-   curl -sI https://daypencil.com/ | head -3
+   certbot certonly --nginx -d playthepaper.com -d www.playthepaper.com --deploy-hook 'systemctl reload nginx'
+   bash /root/playthepaper-infra/deploy/setup-droplet.sh     # re-run: enables the HTTPS site
+   curl -sI https://playthepaper.com/ | head -3
    ```
 
    Add `--email CERTBOT_EMAIL --agree-tos` only if certbot has never been
@@ -135,7 +135,7 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
    --dry-run` to check).
 
 5. **Routine.** At claude.ai/code/routines create a routine:
-   * repository `OWNER/daypencil`, branch `main`;
+   * repository `OWNER/playthepaper`, branch `main`;
    * schedule cron `15 2 * * *`, timezone UTC;
    * prompt: `infra/routine/PROMPT.md` below the `---` line, placeholders
      filled in;
@@ -155,8 +155,8 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
    minutes, and check:
 
    ```
-   curl -s https://daypencil.com/content/index.json | jq .latest
-   curl -s https://daypencil.com/content/editions/$(date -u +%F).json | jq .kind
+   curl -s https://playthepaper.com/content/index.json | jq .latest
+   curl -s https://playthepaper.com/content/editions/$(date -u +%F).json | jq .kind
    ```
 
 7. **Smoke test the watch.** Actions → edition-watch → Run workflow → `verify`
@@ -168,7 +168,7 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
 | Time | What | Where to look |
 |---|---|---|
 | 02:15 | routine starts (may be a few minutes late), fetches sources, writes `content_src/news/D.json` (three stories, five quiz questions, seed words), runs `build_content --date D --news` and the validator, pushes `content: news edition D` | claude.ai/code/routines run log, final status line |
-| ~02:30–03:30 | `validate-content` re-validates, fast-forwards `live`; droplet pulls within 5 min | Actions tab; `journalctl -u daypencil-pull` |
+| ~02:30–03:30 | `validate-content` re-validates, fast-forwards `live`; droplet pulls within 5 min | Actions tab; `journalctl -u playthepaper-pull` |
 | 03:10 | `retry`: if the served manifest is still evergreen, fires the routine again (job succeeds) | Actions → edition-watch |
 | 03:45 | `verify`: still evergreen → job fails → email. 404 → `FALLBACK MISSING` | email; Actions → edition-watch |
 | 04:00 | edition D opens (news if upgraded, evergreen otherwise) | `curl …/editions/D.json \| jq .kind` |
@@ -194,18 +194,18 @@ go to Actions → build-web → the last good run → *Re-run all jobs*, which
 rebuilds that commit and force-pushes it to `build` without touching `main`.
 
 **Emergency, on the droplet** (bypasses CI; use only when GitHub or CI is
-down). Run git as the `daypencil` user or git refuses with "dubious
+down). Run git as the `playthepaper` user or git refuses with "dubious
 ownership":
 
 ```
-systemctl stop daypencil-pull.timer
-runuser -u daypencil -- git -C /var/www/daypencil/src fetch --depth 50 origin <sha>
-runuser -u daypencil -- git -C /var/www/daypencil/src reset --hard <sha>
+systemctl stop playthepaper-pull.timer
+runuser -u playthepaper -- git -C /var/www/playthepaper/src fetch --depth 50 origin <sha>
+runuser -u playthepaper -- git -C /var/www/playthepaper/src reset --hard <sha>
 # ... fix main / CI ...
-systemctl start daypencil-pull.timer         # next pull re-syncs to live
+systemctl start playthepaper-pull.timer         # next pull re-syncs to live
 ```
 
-Same pattern with `/var/www/daypencil/app` and a `build` commit sha.
+Same pattern with `/var/www/playthepaper/app` and a `build` commit sha.
 
 ## Correcting a puzzle
 
@@ -250,7 +250,7 @@ and only changes with an app build; keep it to a few recent dates.
 
 | Failure | Meaning | Check, in order |
 |---|---|---|
-| `verify`: still evergreen | the routine did not publish, CI rejected it, or the droplet did not pull | 1. routine run log: last status line (`ABANDONED …` gives the reason; no run at all → usage limits or schedule) 2. Actions → validate-content: red run → validator errors on `main`; `live` was not advanced, site still serves last good content; fix or `git revert` 3. `journalctl -u daypencil-pull -n 30` on the droplet; `systemctl list-timers` 4. `content/reports/<date>.md` on `main` |
+| `verify`: still evergreen | the routine did not publish, CI rejected it, or the droplet did not pull | 1. routine run log: last status line (`ABANDONED …` gives the reason; no run at all → usage limits or schedule) 2. Actions → validate-content: red run → validator errors on `main`; `live` was not advanced, site still serves last good content; fix or `git revert` 3. `journalctl -u playthepaper-pull -n 30` on the droplet; `systemctl list-timers` 4. `content/reports/<date>.md` on `main` |
 | `verify`: `FALLBACK MISSING` | no manifest for today at all; the app shows the latest older edition | replenish the reserve now; check `index.json`; check the droplet actually has `live` checked out |
 | `verify`: other HTTP code | site down | `systemctl status nginx`, `nginx -t`, `certbot certificates`, DNS, droplet reachable? |
 | `retry` failed | fire call rejected | secrets `ROUTINE_ID`/`ROUTINE_TOKEN` missing or rotated; API error body in the log (usage limits) |
@@ -266,8 +266,8 @@ commit to `main` or a command on the droplet.
 Monthly:
 * Droplet: `apt-get update && apt-get upgrade`, reboot if the kernel changed
   (the timer's `Persistent=true` catches up). `certbot renew --dry-run`.
-  `df -h`, `du -sh /var/www/daypencil` (git objects grow with every build;
-  `runuser -u daypencil -- git -C /var/www/daypencil/app gc --prune=now` if
+  `df -h`, `du -sh /var/www/playthepaper` (git objects grow with every build;
+  `runuser -u playthepaper -- git -C /var/www/playthepaper/app gc --prune=now` if
   large).
 * Read the last few `content/reports/*.md`: source failures, rejected
   candidates, validator retries. A source that fails three days running
@@ -290,14 +290,14 @@ Quarterly:
 * **Platform compatibility.** After a Flutter upgrade: `flutter build web`
   locally, load the site in iOS Safari and Android Chrome, check
   `flutter_bootstrap.js` / `index.html` are still the entry points assumed
-  by `infra/nginx/daypencil.conf`, check nothing in the build output is
+  by `infra/nginx/playthepaper.conf`, check nothing in the build output is
   content-hashed (if Flutter starts hashing assets, the app cache policy can
   become `immutable` for those files).
 
 Yearly:
-* **Domain renewal.** `daypencil.com` at the registrar; enable auto-renew.
+* **Domain renewal.** `playthepaper.com` at the registrar; enable auto-renew.
   Registrar account email must be one you read.
 * Rotate `ROUTINE_TOKEN` and any `SOURCE_n_API_KEY`; update GitHub secrets and
   the routine environment.
-* Re-read `docs/daypencil-concept-and-implementation.md` "Release
+* Re-read `docs/playthepaper-concept-and-implementation.md` "Release
   requirements" against the live site.

@@ -1,4 +1,4 @@
-import 'package:daypencil/engines/letters/letters.dart';
+import 'package:playthepaper/engines/letters/letters.dart';
 import 'package:test/test.dart';
 
 Map<String, dynamic> payload({String center = 'T', String outer = 'ABCEHR', int minLength = 4}) => {

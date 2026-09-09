@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/content_repository.dart';
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/storage/local_store.dart';
+import 'package:playthepaper/content/content_repository.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/storage/local_store.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
@@ -48,7 +48,7 @@ void main() {
   late LocalStore store;
 
   setUp(() async {
-    dir = await Directory.systemTemp.createTemp('daypencil_test');
+    dir = await Directory.systemTemp.createTemp('playthepaper_test');
     store = await LocalStore.open(subDir: dir.path);
   });
 

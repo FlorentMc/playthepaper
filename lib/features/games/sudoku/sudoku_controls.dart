@@ -166,8 +166,8 @@ class _DigitKey extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('$digit', style: DaypencilTheme.body(size: 22, weight: 600, color: ink)),
-                Text('$remaining', style: DaypencilTheme.body(size: 11, weight: 500, color: colors.subtle)),
+                Text('$digit', style: PaperTheme.body(size: 22, weight: 600, color: ink)),
+                Text('$remaining', style: PaperTheme.body(size: 11, weight: 500, color: colors.subtle)),
               ],
             ),
           ),
@@ -215,7 +215,7 @@ class _Action extends StatelessWidget {
             children: [
               Icon(icon, size: 22),
               const SizedBox(height: 2),
-              Text(label, style: DaypencilTheme.body(size: 12, weight: 600), maxLines: 1, overflow: TextOverflow.ellipsis),
+              Text(label, style: PaperTheme.body(size: 12, weight: 600), maxLines: 1, overflow: TextOverflow.ellipsis),
             ],
           ),
         ),

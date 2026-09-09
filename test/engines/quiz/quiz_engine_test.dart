@@ -1,4 +1,4 @@
-import 'package:daypencil/engines/quiz/quiz_engine.dart';
+import 'package:playthepaper/engines/quiz/quiz_engine.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -72,7 +72,7 @@ class SettingsScreen extends StatelessWidget {
             const Divider(),
             ListTile(
               leading: const Icon(Icons.info_outline),
-              title: const Text('About Daypencil'),
+              title: const Text('About Play the Paper'),
               onTap: () => context.push('/about'),
             ),
           ],

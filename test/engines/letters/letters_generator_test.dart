@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/engines/letters/letters.dart';
+import 'package:playthepaper/engines/letters/letters.dart';
 import 'package:test/test.dart';
 
 void main() {

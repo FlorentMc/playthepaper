@@ -105,7 +105,7 @@ class _GameStats extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(summary.game.title, style: DaypencilTheme.display(size: 18, color: theme.colorScheme.onSurface)),
+            Text(summary.game.title, style: PaperTheme.display(size: 18, color: theme.colorScheme.onSurface)),
             const SizedBox(height: 10),
             Row(
               children: [
@@ -137,7 +137,7 @@ class _Cell extends StatelessWidget {
     return Expanded(
       child: Column(
         children: [
-          Text(value, style: DaypencilTheme.display(size: 22, color: theme.colorScheme.onSurface)),
+          Text(value, style: PaperTheme.display(size: 22, color: theme.colorScheme.onSurface)),
           Text(label, style: theme.textTheme.labelSmall),
         ],
       ),

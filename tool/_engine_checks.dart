@@ -1,10 +1,10 @@
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/engines/crossword/crossword_puzzle.dart';
-import 'package:daypencil/engines/letters/letters.dart';
-import 'package:daypencil/engines/quiz/quiz_engine.dart';
-import 'package:daypencil/engines/sudoku/sudoku.dart';
-import 'package:daypencil/engines/word/word_engine.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
+import 'package:playthepaper/engines/letters/letters.dart';
+import 'package:playthepaper/engines/quiz/quiz_engine.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/engines/word/word_engine.dart';
 
 /// Runs a puzzle through its engine's parser. Returns null when valid,
 /// otherwise a one-line description of the problem.

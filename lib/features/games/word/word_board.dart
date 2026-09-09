@@ -79,7 +79,7 @@ class WordTile extends StatelessWidget {
             Center(
               child: Text(
                 letter ?? '',
-                style: DaypencilTheme.display(size: size * 0.52, color: foreground),
+                style: PaperTheme.display(size: size * 0.52, color: foreground),
               ),
             ),
             if (symbol != null)
@@ -88,7 +88,7 @@ class WordTile extends StatelessWidget {
                 bottom: size * 0.02,
                 child: Text(
                   symbol,
-                  style: DaypencilTheme.body(size: size * 0.26, weight: 600, color: foreground),
+                  style: PaperTheme.body(size: size * 0.26, weight: 600, color: foreground),
                 ),
               ),
           ],

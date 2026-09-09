@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
+import 'package:playthepaper/content/models.dart';
 
 import '_common.dart';
 

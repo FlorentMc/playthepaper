@@ -61,7 +61,7 @@ class ResultScreen extends StatelessWidget {
   }
 
   Future<void> _share(BuildContext context, String text, String toast) async {
-    final ok = await ShareService.share(text, subject: 'Daypencil');
+    final ok = await ShareService.share(text, subject: 'Play the Paper');
     if (!context.mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(ok ? toast : 'Could not share')));
   }
@@ -90,7 +90,7 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               result.solved || result.game == GameKind.quiz ? _headline(result.game, result) : 'Not this time',
-              style: DaypencilTheme.display(size: 30, color: theme.colorScheme.onSurface),
+              style: PaperTheme.display(size: 30, color: theme.colorScheme.onSurface),
             ),
             const SizedBox(height: 6),
             Text(result.summary(), style: theme.textTheme.titleLarge),
@@ -108,7 +108,7 @@ class ResultScreen extends StatelessWidget {
               Container(height: 2, color: theme.colorScheme.onSurface),
               const SizedBox(height: 12),
               if (revealTitle != null)
-                Text(revealTitle!, style: DaypencilTheme.display(size: 20, color: theme.colorScheme.onSurface)),
+                Text(revealTitle!, style: PaperTheme.display(size: 20, color: theme.colorScheme.onSurface)),
               const SizedBox(height: 8),
               reveal!,
             ],
@@ -188,7 +188,7 @@ class _Stat extends StatelessWidget {
     return Expanded(
       child: Column(
         children: [
-          Text(value, style: DaypencilTheme.display(size: 24, color: theme.colorScheme.onSurface)),
+          Text(value, style: PaperTheme.display(size: 24, color: theme.colorScheme.onSurface)),
           Text(label, style: theme.textTheme.labelSmall),
         ],
       ),

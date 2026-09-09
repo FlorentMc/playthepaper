@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/edition_clock.dart';
-import 'package:daypencil/core/game_kind.dart';
-import 'package:daypencil/core/puzzle_id.dart';
-import 'package:daypencil/engines/sudoku/sudoku.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/edition_clock.dart';
+import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/engines/sudoku/sudoku.dart';
 
 /// Generates the three daily sudoku files for a date range.
 ///

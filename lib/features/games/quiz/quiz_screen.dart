@@ -192,7 +192,7 @@ class _QuizScreenState extends State<QuizScreen> {
             padding: const EdgeInsets.fromLTRB(20, 8, 20, 16),
             children: [
               Text('YOUR SCORE', style: theme.textTheme.labelSmall),
-              Text(result.summary(), style: DaypencilTheme.display(size: 26, color: theme.colorScheme.onSurface)),
+              Text(result.summary(), style: PaperTheme.display(size: 26, color: theme.colorScheme.onSurface)),
               const SizedBox(height: 16),
               for (var i = 0; i < _puzzle.questions.length; i++) ...[
                 const Rule(),

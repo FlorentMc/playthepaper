@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daypencil', style: DaypencilTheme.display(size: 26, color: theme.colorScheme.onSurface)),
+        title: Text('Play the Paper', style: PaperTheme.display(size: 26, color: theme.colorScheme.onSurface)),
         actions: [
           IconButton(icon: const Icon(Icons.calendar_month_outlined), tooltip: 'Archive', onPressed: () => context.push('/archive')),
           IconButton(icon: const Icon(Icons.bar_chart), tooltip: 'Statistics', onPressed: () => context.push('/stats')),

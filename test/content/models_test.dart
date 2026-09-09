@@ -1,5 +1,5 @@
-import 'package:daypencil/content/models.dart';
-import 'package:daypencil/core/game_kind.dart';
+import 'package:playthepaper/content/models.dart';
+import 'package:playthepaper/core/game_kind.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 Map<String, dynamic> editionJson({List<String>? puzzles, List<Map<String, dynamic>>? stories}) => {

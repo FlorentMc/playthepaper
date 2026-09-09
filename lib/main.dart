@@ -10,5 +10,5 @@ Future<void> main() async {
   usePathUrlStrategy();
   final store = await LocalStore.open();
   final repository = ContentRepository(store: store);
-  runApp(DaypencilApp(store: store, repository: repository));
+  runApp(PaperApp(store: store, repository: repository));
 }

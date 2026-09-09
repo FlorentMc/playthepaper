@@ -1,7 +1,7 @@
-# Daypencil architecture and module contract
+# Play the Paper architecture and module contract
 
-Daypencil is a Flutter app (iOS, Android, web/PWA) with no server-side code.
-All play is local. Content is static JSON served from `https://daypencil.com/content/`
+Play the Paper is a Flutter app (iOS, Android, web/PWA) with no server-side code.
+All play is local. Content is static JSON served from `https://playthepaper.com/content/`
 and mirrored in the app bundle under `assets/content/`.
 
 Read this before writing any game module. Everything in `lib/core`, `lib/content`,
@@ -193,7 +193,7 @@ Rules every screen follows:
    Honour `MediaQuery.disableAnimationsOf(context)`. Add `Semantics` labels to board cells.
 7. Physical keyboard works on web and desktop where letters are typed (`LetterKeyboard` handles this).
 8. Use theme colours from `context.gameColors` and text styles from `Theme.of(context).textTheme` /
-   `DaypencilTheme.display()`. No hard-coded colours.
+   `PaperTheme.display()`. No hard-coded colours.
 9. No new dependencies. No edits outside your module, your engine, your tool script, your tests
    and `content_src/<game>/`.
 

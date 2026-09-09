@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-# Daypencil: one-time droplet setup. Idempotent; safe to re-run. Run as root.
+# Play the Paper: one-time droplet setup. Idempotent; safe to re-run. Run as root.
 #
-#   scp -r infra root@142.93.63.8:/root/daypencil-infra
-#   ssh root@142.93.63.8 'bash /root/daypencil-infra/deploy/setup-droplet.sh --dry-run'
-#   ssh root@142.93.63.8 'bash /root/daypencil-infra/deploy/setup-droplet.sh'
+#   scp -r infra root@142.93.63.8:/root/playthepaper-infra
+#   ssh root@142.93.63.8 'bash /root/playthepaper-infra/deploy/setup-droplet.sh --dry-run'
+#   ssh root@142.93.63.8 'bash /root/playthepaper-infra/deploy/setup-droplet.sh'
 #
 # What it does (and nothing else):
-#   1. creates system user `daypencil` (nologin, home /var/www/daypencil)
-#   2. creates /var/www/daypencil/{src,app} as empty git repos pointing at REPO_URL
+#   1. creates system user `playthepaper` (nologin, home /var/www/playthepaper)
+#   2. creates /var/www/playthepaper/{src,app} as empty git repos pointing at REPO_URL
 #      (src tracks branch `live`, app tracks branch `build`; the pull unit fills them)
 #   3. optional: generates a read-only SSH deploy key when REPO_URL is an ssh URL
-#   4. installs daypencil-pull.service/.timer and starts the timer
+#   4. installs playthepaper-pull.service/.timer and starts the timer
 #   5. installs the nginx site: the port-80 file always, the HTTPS file only
-#      once /etc/letsencrypt/live/daypencil.com/ exists (re-run after certbot)
+#      once /etc/letsencrypt/live/playthepaper.com/ exists (re-run after certbot)
 #   6. prints the DNS reminder and the certbot command
 #
 # It never touches the commuteglance site, /etc/nginx/nginx.conf, or the
@@ -20,8 +20,8 @@
 # edition dates roll at 04:00 UTC).
 #
 # Environment overrides:
-#   REPO_URL   default https://github.com/OWNER/daypencil.git   (public repo, HTTPS, no credentials)
-#              or      git@github.com:OWNER/daypencil.git       (private repo, deploy key generated here)
+#   REPO_URL   default https://github.com/OWNER/playthepaper.git   (public repo, HTTPS, no credentials)
+#              or      git@github.com:OWNER/playthepaper.git       (private repo, deploy key generated here)
 #   INFRA_DIR  default: the infra/ directory containing this script
 #
 # Flags:
@@ -29,16 +29,16 @@
 
 set -euo pipefail
 
-REPO_URL="${REPO_URL:-https://github.com/OWNER/daypencil.git}"
+REPO_URL="${REPO_URL:-https://github.com/OWNER/playthepaper.git}"
 INFRA_DIR="${INFRA_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 
-DP_USER=daypencil
-BASE=/var/www/daypencil
+DP_USER=playthepaper
+BASE=/var/www/playthepaper
 SRC="$BASE/src"
 APP="$BASE/app"
 CONTENT_BRANCH=live
 APP_BRANCH=build
-CERT_DIR=/etc/letsencrypt/live/daypencil.com
+CERT_DIR=/etc/letsencrypt/live/playthepaper.com
 NGINX_AVAIL=/etc/nginx/sites-available
 NGINX_ENABLED=/etc/nginx/sites-enabled
 DROPLET_IP=142.93.63.8
@@ -65,7 +65,7 @@ run() {
   fi
 }
 
-# as_dp <cmd...>: run as the daypencil user (works with a nologin shell).
+# as_dp <cmd...>: run as the playthepaper user (works with a nologin shell).
 # HOME is set explicitly so git reads ~/.gitconfig and ~/.ssh under $BASE.
 as_dp() {
   run runuser -u "$DP_USER" -- env HOME="$BASE" "$@"
@@ -78,7 +78,7 @@ command -v git    >/dev/null || die "git is not installed (apt-get install -y gi
 command -v nginx  >/dev/null || die "nginx is not installed"
 command -v runuser >/dev/null || die "runuser (util-linux) missing"
 [ -d "$NGINX_AVAIL" ] && [ -d "$NGINX_ENABLED" ] || die "expected Debian/Ubuntu nginx layout ($NGINX_AVAIL, $NGINX_ENABLED)"
-for f in nginx/daypencil-http.conf nginx/daypencil.conf systemd/daypencil-pull.service systemd/daypencil-pull.timer; do
+for f in nginx/playthepaper-http.conf nginx/playthepaper.conf systemd/playthepaper-pull.service systemd/playthepaper-pull.timer; do
   [ -f "$INFRA_DIR/$f" ] || die "missing $INFRA_DIR/$f (set INFRA_DIR to the repo's infra/ directory)"
 done
 command -v certbot >/dev/null || warn "certbot not found; install it before requesting the certificate (apt-get install -y certbot python3-certbot-nginx)"
@@ -107,7 +107,7 @@ case "$REPO_URL" in
     if [ -f "$KEY" ]; then
       echo "key exists: $KEY"
     else
-      as_dp ssh-keygen -q -t ed25519 -N '' -C "daypencil-pull@$DROPLET_IP" -f "$KEY"
+      as_dp ssh-keygen -q -t ed25519 -N '' -C "playthepaper-pull@$DROPLET_IP" -f "$KEY"
     fi
     if ! grep -qs '^github.com ' "$SSH_DIR/known_hosts"; then
       # TOFU. Compare against https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints
@@ -154,31 +154,31 @@ init_checkout "$APP" "$APP_BRANCH"
 # --- 4. systemd ---------------------------------------------------------------
 
 log "systemd units"
-run install -m 644 "$INFRA_DIR/systemd/daypencil-pull.service" /etc/systemd/system/daypencil-pull.service
-run install -m 644 "$INFRA_DIR/systemd/daypencil-pull.timer"   /etc/systemd/system/daypencil-pull.timer
+run install -m 644 "$INFRA_DIR/systemd/playthepaper-pull.service" /etc/systemd/system/playthepaper-pull.service
+run install -m 644 "$INFRA_DIR/systemd/playthepaper-pull.timer"   /etc/systemd/system/playthepaper-pull.timer
 run systemctl daemon-reload
-run systemctl enable --now daypencil-pull.timer
+run systemctl enable --now playthepaper-pull.timer
 if [ "$DRY_RUN" = 1 ]; then
-  run systemctl start daypencil-pull.service
-elif ! systemctl start daypencil-pull.service; then
-  warn "first pull failed (branches '$CONTENT_BRANCH'/'$APP_BRANCH' not published yet, or no network). The timer retries every 5 minutes: journalctl -u daypencil-pull -n 30"
+  run systemctl start playthepaper-pull.service
+elif ! systemctl start playthepaper-pull.service; then
+  warn "first pull failed (branches '$CONTENT_BRANCH'/'$APP_BRANCH' not published yet, or no network). The timer retries every 5 minutes: journalctl -u playthepaper-pull -n 30"
 fi
 
 # --- 5. nginx -----------------------------------------------------------------
 
 log "nginx: port-80 site (always enabled)"
-run install -m 644 "$INFRA_DIR/nginx/daypencil-http.conf" "$NGINX_AVAIL/daypencil-http.conf"
-run ln -sfn "$NGINX_AVAIL/daypencil-http.conf" "$NGINX_ENABLED/daypencil-http.conf"
+run install -m 644 "$INFRA_DIR/nginx/playthepaper-http.conf" "$NGINX_AVAIL/playthepaper-http.conf"
+run ln -sfn "$NGINX_AVAIL/playthepaper-http.conf" "$NGINX_ENABLED/playthepaper-http.conf"
 
 log "nginx: HTTPS site"
-run install -m 644 "$INFRA_DIR/nginx/daypencil.conf" "$NGINX_AVAIL/daypencil.conf"
+run install -m 644 "$INFRA_DIR/nginx/playthepaper.conf" "$NGINX_AVAIL/playthepaper.conf"
 HTTPS_ENABLED=0
 if [ -f "$CERT_DIR/fullchain.pem" ] && [ -f "$CERT_DIR/privkey.pem" ]; then
-  run ln -sfn "$NGINX_AVAIL/daypencil.conf" "$NGINX_ENABLED/daypencil.conf"
+  run ln -sfn "$NGINX_AVAIL/playthepaper.conf" "$NGINX_ENABLED/playthepaper.conf"
   HTTPS_ENABLED=1
 else
   echo "certificate not found in $CERT_DIR: HTTPS site installed but NOT enabled (see next steps)"
-  run rm -f "$NGINX_ENABLED/daypencil.conf"
+  run rm -f "$NGINX_ENABLED/playthepaper.conf"
 fi
 
 log "nginx: test and reload"
@@ -189,14 +189,14 @@ run systemctl reload nginx
 
 log "next steps"
 cat <<EOF
-1. DNS (registrar): A record  daypencil.com      -> $DROPLET_IP
-                    A record  www.daypencil.com  -> $DROPLET_IP
-   Wait until: dig +short daypencil.com  prints $DROPLET_IP
+1. DNS (registrar): A record  playthepaper.com      -> $DROPLET_IP
+                    A record  www.playthepaper.com  -> $DROPLET_IP
+   Wait until: dig +short playthepaper.com  prints $DROPLET_IP
 EOF
 if [ "$HTTPS_ENABLED" = 0 ]; then
   cat <<EOF
 2. Certificate (after DNS resolves):
-     certbot certonly --nginx -d daypencil.com -d www.daypencil.com \\
+     certbot certonly --nginx -d playthepaper.com -d www.playthepaper.com \\
          --deploy-hook 'systemctl reload nginx'
 3. Re-run this script to enable the HTTPS site:
      bash ${BASH_SOURCE[0]}
@@ -207,8 +207,8 @@ else
 EOF
 fi
 cat <<EOF
-4. Check:  curl -sI https://daypencil.com/content/index.json | head -5
-           journalctl -u daypencil-pull -n 20
-           systemctl list-timers daypencil-pull.timer
+4. Check:  curl -sI https://playthepaper.com/content/index.json | head -5
+           journalctl -u playthepaper-pull -n 20
+           systemctl list-timers playthepaper-pull.timer
 Timezone untouched: $(timedatectl show -p Timezone --value 2>/dev/null || echo unknown) (schedules are UTC; edition boundary 04:00 UTC)
 EOF

@@ -359,7 +359,7 @@ class _WordDisplay extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colors = context.gameColors;
-    final base = DaypencilTheme.display(size: 30, color: theme.colorScheme.onSurface);
+    final base = PaperTheme.display(size: 30, color: theme.colorScheme.onSurface);
     return Semantics(
       label: word.isEmpty ? 'No letters typed' : 'Current word ${word.split('').join(' ')}',
       child: ExcludeSemantics(
@@ -371,7 +371,7 @@ class _WordDisplay extends StatelessWidget {
               child: word.isEmpty
                   ? Text(
                       'Tap letters or type',
-                      style: DaypencilTheme.display(size: 20, weight: 400, color: colors.subtle),
+                      style: PaperTheme.display(size: 20, weight: 400, color: colors.subtle),
                     )
                   : Text.rich(
                       TextSpan(
@@ -423,7 +423,7 @@ class _FeedbackLine extends StatelessWidget {
                   child: Text(
                     text!,
                     key: ValueKey(text),
-                    style: DaypencilTheme.body(size: 16, weight: 600, color: accepted ? colors.correct : colors.error),
+                    style: PaperTheme.body(size: 16, weight: 600, color: accepted ? colors.correct : colors.error),
                   ),
                 ),
         ),
@@ -447,7 +447,7 @@ class _FoundChip extends StatelessWidget {
         child: Chip(
           label: Text(
             pangram ? '★ $word' : word,
-            style: DaypencilTheme.body(size: 14, weight: pangram ? 700 : 400, color: ink),
+            style: PaperTheme.body(size: 14, weight: pangram ? 700 : 400, color: ink),
           ),
         ),
       ),
