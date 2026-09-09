@@ -4,6 +4,7 @@ import 'package:playthepaper/engines/binary/binary.dart';
 import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/compass/compass_generator.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
+import 'package:playthepaper/engines/loop/loop.dart';
 import 'package:playthepaper/engines/merge/merge.dart';
 import 'package:playthepaper/engines/nonogram/nonogram.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
@@ -27,6 +28,7 @@ final Map<GameKind, DailyGenerator> generatedGames = {
   GameKind.target: TargetGenerator().generate,
   GameKind.compass: CompassGenerator().generate,
   GameKind.kakuro: KakuroGenerator().generate,
+  GameKind.loop: LoopGenerator().generate,
   GameKind.merge: MergeGenerator().generate,
   GameKind.nonogram: NonogramGenerator().generate,
   GameKind.regions: RegionsGenerator().generate,
