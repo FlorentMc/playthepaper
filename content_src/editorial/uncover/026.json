@@ -1,0 +1,45 @@
+{
+  "topic": "A city cut into sandstone",
+  "payload": {
+    "text": "▇▇▇ is an ancient city in southern Jordan, carved out of rock. Its own people called it ▇▇▇; visitors call it the ▇▇▇ ▇▇▇, for the colour of the sandstone the builders cut into. The area held settlements as early as 7000 BC, and in the fourth century BC the Nabataeans, a nomadic Arab people, made it their own; by the second century BC ▇▇▇ was their capital. Sitting on the incense routes made the place rich, and careful collection of rainwater made desert farming possible. In the first century AD, when perhaps twenty thousand people lived there, masons cut the front of Al-Khazneh into a cliff. The western world knew nothing of it until a Swiss traveller arrived in 1812.",
+    "hints": [
+      "A place in western Asia.",
+      "It begins with P.",
+      "Its temple fronts were cut straight into pink sandstone cliffs in Jordan."
+    ]
+  },
+  "reveal": {
+    "text": "Petra is an ancient city in southern Jordan, carved out of rock. Its own people called it Raqmu; visitors call it the rose city, for the colour of the sandstone the builders cut into. The area held settlements as early as 7000 BC, and in the fourth century BC the Nabataeans, a nomadic Arab people, made it their own; by the second century BC Petra was their capital. Sitting on the incense routes made the place rich, and careful collection of rainwater made desert farming possible. In the first century AD, when perhaps twenty thousand people lived there, masons cut the front of Al-Khazneh into a cliff. The western world knew nothing of it until a Swiss traveller arrived in 1812.",
+    "subject": "Petra",
+    "aliases": [
+      "Raqmu",
+      "Rose City"
+    ],
+    "answerWords": [
+      "petra"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petra",
+      "excerpt": "Petra (Arabic: ٱلْبَتْراء, romanized: Al-Batrāʾ; Ancient Greek: Πέτρα, lit. 'Rock'), originally known to its inhabitants as Raqmu (Nabataean Aramaic: 𐢛𐢚𐢒‎ or 𐢛𐢚𐢓𐢈‎, *Raqēmō), is an ancient city and archaeological site in southern Jordan. Famous for its rock-cut architecture and water conduit systems, Petra is also called the \"Rose City\" because of the colour of the sandstone from which it is carved."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petra",
+      "excerpt": "The area around Petra has been inhabited from as early as 7000 BC, and was settled by the Nabataeans, a nomadic Arab people, in the 4th century BC. Petra would later become the capital city of the Nabataean Kingdom in the second century BC. The Nabataeans invested in Petra's proximity to the incense trade routes by establishing it as a major regional trading hub, which gained them considerable revenue. The Nabataeans were able to survive the desert due to efficient rainwater collecting and desert farming."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petra",
+      "excerpt": "Petra flourished in the 1st century AD, when its Al-Khazneh structure, possibly the mausoleum of Nabataean king Aretas IV, was constructed, and its population peaked at an estimated 20,000 inhabitants."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petra",
+      "excerpt": "It remained unknown to the western world until 1812, when Swiss traveller Johann Ludwig Burckhardt rediscovered it."
+    }
+  ],
+  "editorNotes": "Alternatives checked: Palmyra is another caravan city of the same era but is built free-standing in Syria, not cut into cliffs; Hegra in Saudi Arabia is a Nabataean site with similar tombs yet was never the capital; Ephesus and Jerash are Roman cities with standing colonnades. Raqmu and the nickname rose city are accepted. The Greek name simply means rock, which the summary echoes without translating."
+}

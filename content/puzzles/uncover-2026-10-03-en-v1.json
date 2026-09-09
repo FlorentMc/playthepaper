@@ -1,0 +1,44 @@
+{
+  "id": "uncover-2026-10-03-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "A ▇▇▇ ▇▇▇ is a machine that ▇▇▇ inked type against paper or cloth. Before it, a sheet had to be rubbed by hand against the inked surface, one page at a time. The German goldsmith Johannes Gutenberg built the first around 1440, and the idea travelled quickly. Text became cheap, more people learned to read, and books began to appear in everyday languages instead of Latin, which helped to settle how those languages were written. The wooden design held for three centuries. By 1800 Lord Stanhope had an iron machine that took a whole sheet at one pull; in 1814 The Times fitted steam-driven cylinders from Friedrich Koenig, and a rotary ▇▇▇ ▇▇▇ of 1843 lifted output again.",
+    "hints": [
+      "A machine.",
+      "The first word begins with P.",
+      "A German goldsmith built the first one around 1440, and cheap books followed."
+    ]
+  },
+  "reveal": {
+    "text": "A printing press is a machine that presses inked type against paper or cloth. Before it, a sheet had to be rubbed by hand against the inked surface, one page at a time. The German goldsmith Johannes Gutenberg built the first around 1440, and the idea travelled quickly. Text became cheap, more people learned to read, and books began to appear in everyday languages instead of Latin, which helped to settle how those languages were written. The wooden design held for three centuries. By 1800 Lord Stanhope had an iron machine that took a whole sheet at one pull; in 1814 The Times fitted steam-driven cylinders from Friedrich Koenig, and a rotary printing press of 1843 lifted output again.",
+    "subject": "Printing Press",
+    "aliases": [
+      "press"
+    ],
+    "answerWords": [
+      "printing",
+      "press"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "excerpt": "A printing press is a machine that applies pressure to transfer ink onto a surface made of paper, cloth, or a similar material. It marked a significant improvement on earlier methods, in which the paper was rubbed by hand to transfer applied ink to the printing surface. The printing press was invented by the German goldsmith Johannes Gutenberg around 1440, and its subsequent global spread revolutionized literary production and communication during the early modern period."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "excerpt": "The cost of printed texts declined and their availability increased, facilitating higher adult literacy rates across Europe. Books increasingly appeared in vernacular languages rather than Latin, and national languages were standardized."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "excerpt": "The basic design of the wooden handpress was largely consistent for over three centuries, until the Industrial Revolution. By 1800 Lord Stanhope had built a new iron printing press printing a sheet at one pull. In 1814, The Times adopted Friedrich Koenig's new presses, which incorporated steam power and rotary motion. Richard M. Hoe's rotary printing press, introduced in 1843, enabled much higher output; later rotary presses could produce millions of page impressions in a day."
+    }
+  ]
+}

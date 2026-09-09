@@ -1,0 +1,47 @@
+{
+  "topic": "An orange traveller",
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is a milkweed ▇▇▇ and one of the best-known insects in North America. Its wings carry a pattern of black, orange and white and span nine to ten centimetres. The viceroy copies that pattern closely but is smaller and has an extra black stripe across each hindwing. What sets the ▇▇▇ ▇▇▇ apart is the journey: the eastern population leaves the northern and central United States and southern Canada in late summer and flies thousands of miles to Florida and Mexico, and the return north in spring is completed not by one insect but by several generations in turn. West of the Rocky Mountains, the other population usually winters in southern California.",
+    "hints": [
+      "An insect.",
+      "The first word begins with M.",
+      "It is orange and black, and the eastern population flies to Mexico for the winter."
+    ]
+  },
+  "reveal": {
+    "text": "The monarch butterfly is a milkweed butterfly and one of the best-known insects in North America. Its wings carry a pattern of black, orange and white and span nine to ten centimetres. The viceroy copies that pattern closely but is smaller and has an extra black stripe across each hindwing. What sets the monarch butterfly apart is the journey: the eastern population leaves the northern and central United States and southern Canada in late summer and flies thousands of miles to Florida and Mexico, and the return north in spring is completed not by one insect but by several generations in turn. West of the Rocky Mountains, the other population usually winters in southern California.",
+    "subject": "Monarch Butterfly",
+    "aliases": [
+      "monarch",
+      "Danaus plexippus",
+      "wanderer"
+    ],
+    "answerWords": [
+      "monarch",
+      "butterfly"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "excerpt": "The monarch butterfly or simply monarch (Danaus plexippus) is a milkweed butterfly (subfamily Danainae) in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "excerpt": "It is among the most familiar of North American butterflies and an iconic pollinator, although it is not an especially effective pollinator of milkweeds. Its wings feature an easily recognizable black, orange, and white pattern, with a wingspan of 8.9–10.2 cm (3.5–4.0 in)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "excerpt": "A Müllerian mimic, the viceroy butterfly, is similar in color and pattern, but is markedly smaller and has an extra black stripe across each hindwing."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "excerpt": "The eastern North American monarch population is notable for its annual southward late-summer/autumn instinctive migration from the northern and central United States and southern Canada to Florida and Mexico. During the fall migration, monarchs cover thousands of miles, with a corresponding multigenerational return north in spring. The western North American population of monarchs west of the Rocky Mountains often migrates to sites in southern California, but have been found in overwintering Mexican sites, as well."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the viceroy is the look-alike named in the summary and is a different species; the painted lady also migrates long distances but is smaller and pinker; the queen butterfly is another milkweed feeder, darker and without the same journey. Monarch on its own, the scientific name and the regional name wanderer are accepted."
+}

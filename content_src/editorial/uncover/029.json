@@ -1,0 +1,53 @@
+{
+  "topic": "The highest point on Earth",
+  "payload": {
+    "text": "▇▇▇ ▇▇▇ is the highest mountain on Earth measured from sea level. It rises in the Mahalangur Himal, a sub-range of the Himalayas, and its summit carries part of the border between China and Nepal. A joint Nepalese and Chinese survey settled the height in 2020 at 8,848.86 metres. Two routes carry most climbers: one from the south-east in Nepal, the usual choice, and one from the north in China; parties normally set out from camps already above 5,000 metres. Tenzing Norgay and Edmund Hillary made the first recorded ascent in 1953 by the south-east ridge. The nearest sea to the top of ▇▇▇ ▇▇▇ is the Bay of Bengal, almost 700 kilometres away.",
+    "hints": [
+      "A place in Asia.",
+      "The second word begins with E.",
+      "Two climbers first stood on its summit in 1953, and it is the highest ground on the planet."
+    ]
+  },
+  "reveal": {
+    "text": "Mount Everest is the highest mountain on Earth measured from sea level. It rises in the Mahalangur Himal, a sub-range of the Himalayas, and its summit carries part of the border between China and Nepal. A joint Nepalese and Chinese survey settled the height in 2020 at 8,848.86 metres. Two routes carry most climbers: one from the south-east in Nepal, the usual choice, and one from the north in China; parties normally set out from camps already above 5,000 metres. Tenzing Norgay and Edmund Hillary made the first recorded ascent in 1953 by the south-east ridge. The nearest sea to the top of Mount Everest is the Bay of Bengal, almost 700 kilometres away.",
+    "subject": "Mount Everest",
+    "aliases": [
+      "Everest",
+      "Sagarmatha",
+      "Chomolungma",
+      "Jomolangma"
+    ],
+    "answerWords": [
+      "mount",
+      "everest"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "Mount Everest (known in Nepali as Sagarmāthā, in Sherpa as Chamolangma, and in Tibetan as Jomolangma/Čhomolangma is the highest mountain on Earth above sea level. It lies in the Mahalangur Himal sub-range of the Himalayas and marks part of the China–Nepal border at its summit. Its height was most recently measured in 2020 through a joint survey by Nepalese and Chinese authorities as 8,848.86 m (29,031 ft 8+1⁄2 in)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "There are two main climbing routes, one approaching the summit from the southeast in Nepal (known as the standard route) and the other from the north in China."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "Climbers usually begin their ascent from base camps above 5,000 m (16,404 ft)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "Tenzing Norgay and Edmund Hillary made the first documented ascent of Everest in 1953, using the Southeast Ridge route."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "The closest sea to Mount Everest's summit is the Bay of Bengal, almost 700 km (430 mi) away."
+    }
+  ],
+  "editorNotes": "Alternatives checked: K2 is the second highest and a harder climb, but it stands on the Pakistan–China border; Kangchenjunga is third and lies on the Nepal–India border; Mauna Kea is taller measured from its base on the sea floor and Chimborazo is furthest from the centre of the Earth, which is why the summary specifies measurement from sea level. The Nepali, Sherpa and Tibetan names are accepted, and so is the surname alone."
+}

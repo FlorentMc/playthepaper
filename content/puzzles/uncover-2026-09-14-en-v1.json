@@ -1,0 +1,56 @@
+{
+  "id": "uncover-2026-09-14-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-09-14",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ is a natural light display in the upper atmosphere, made when charged particles from the Sun strike atoms high above the ground. The collisions excite oxygen and nitrogen, which give off green, red and purple light, and the glow moves across the sky in curtains, rays, spirals and sudden flickers. Behind it lie disturbances in the magnetosphere driven by the solar wind streaming from coronal holes and from coronal mass ejections. In the Arctic the display is called the ▇▇▇ ▇▇▇, or ▇▇▇ ▇▇▇; in the Antarctic it is the southern lights, or ▇▇▇ australis. Other planets, comets and even brown dwarfs have their own. The name entered English in 1828, from the Roman goddess of the dawn.",
+    "hints": [
+      "Something you look up at.",
+      "The first word begins with A.",
+      "It is the coloured glow over polar skies when particles from the Sun meet the upper atmosphere."
+    ]
+  },
+  "reveal": {
+    "text": "The aurora is a natural light display in the upper atmosphere, made when charged particles from the Sun strike atoms high above the ground. The collisions excite oxygen and nitrogen, which give off green, red and purple light, and the glow moves across the sky in curtains, rays, spirals and sudden flickers. Behind it lie disturbances in the magnetosphere driven by the solar wind streaming from coronal holes and from coronal mass ejections. In the Arctic the display is called the northern lights, or aurora borealis; in the Antarctic it is the southern lights, or aurora australis. Other planets, comets and even brown dwarfs have their own. The name entered English in 1828, from the Roman goddess of the dawn.",
+    "subject": "Aurora Borealis",
+    "aliases": [
+      "northern lights",
+      "aurora",
+      "polar lights"
+    ],
+    "answerWords": [
+      "aurora",
+      "boreali"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "excerpt": "An aurora (pl. aurorae or auroras) is a natural light display in Earth's upper atmosphere caused by charged particles from the Sun colliding with atoms in the atmosphere. These collisions excite oxygen and nitrogen, which then emit light of different colours such as green, red, and purple."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "excerpt": "In the Arctic they are called the northern lights or aurora borealis; in the Antarctic, the term southern lights or aurora australis is used. Auroras display dynamic patterns of radiant light that appear as curtains, rays, spirals or dynamic flickers covering the entire sky."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "excerpt": "Auroras are the result of disturbances in the Earth's magnetosphere caused by enhanced speeds of solar wind from coronal holes and coronal mass ejections."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "excerpt": "Other planets in the Solar System, brown dwarfs, comets, and some natural satellites also host auroras."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "excerpt": "The term entered the English language in 1828. The word aurora is derived from the name of the Roman goddess of the dawn, Aurora, who travelled from east to west announcing the coming of the Sun."
+    }
+  ]
+}

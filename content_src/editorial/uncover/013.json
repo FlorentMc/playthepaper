@@ -1,0 +1,43 @@
+{
+  "topic": "A painted sky over a village",
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is an oil painting on canvas by Vincent van Gogh, made in June 1889. It shows the view from the east-facing window of his room at Saint-Rémy-de-Provence in the hour before sunrise, with a village of his own invention added below the hills. Venus stands in the sky, along with a moon drawn as no astronomer would draw it, and the cypress trees in the foreground are far taller than they were in life. Van Gogh worked steadily during that year in Provence, finishing Irises and a self-portrait as well. Since 1941 The ▇▇▇ ▇▇▇ has hung in the Museum of Modern Art in New York, where it is called a touchstone of modern art.",
+    "hints": [
+      "A painting.",
+      "The first word after the article begins with S.",
+      "Van Gogh painted this swirling sky over an invented village in 1889."
+    ]
+  },
+  "reveal": {
+    "text": "The Starry Night is an oil painting on canvas by Vincent van Gogh, made in June 1889. It shows the view from the east-facing window of his room at Saint-Rémy-de-Provence in the hour before sunrise, with a village of his own invention added below the hills. Venus stands in the sky, along with a moon drawn as no astronomer would draw it, and the cypress trees in the foreground are far taller than they were in life. Van Gogh worked steadily during that year in Provence, finishing Irises and a self-portrait as well. Since 1941 The Starry Night has hung in the Museum of Modern Art in New York, where it is called a touchstone of modern art.",
+    "subject": "The Starry Night",
+    "aliases": [],
+    "answerWords": [
+      "starry",
+      "night"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "excerpt": "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "excerpt": "It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Described as a \"touchstone of modern art\", The Starry Night has been regarded as one of the most recognizable paintings in the Western canon."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "excerpt": "The painting's celestial elements include Venus, which was visible in the sky at the time, and the Moon, although the Moon's depiction is not astronomically accurate. The cypress trees in the foreground were exaggerated in scale compared to other works."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "excerpt": "During his year-long stay, he remained highly productive, creating many paintings including Irises, a self-portrait, and The Starry Night."
+    }
+  ],
+  "editorNotes": "Alternatives checked: Van Gogh's Starry Night Over the Rhone is an earlier night scene painted at Arles, not Saint-Rémy, and hangs in Paris; Cafe Terrace at Night is another starlit Arles picture; Wheatfield with Cypresses shares the trees and the Provence setting but has no night sky. The article's word asylum is left out because the summary is about the picture, not the artist's health."
+}

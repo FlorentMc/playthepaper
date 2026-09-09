@@ -1,0 +1,51 @@
+{
+  "id": "uncover-2026-10-13-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-10-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "A ▇▇▇ is a single-track vehicle driven by pedals, with two wheels fixed to a frame one behind the other, and it is powered by the person sitting on it. Europe produced the first in the nineteenth century; by the early twenty-first there were more than a thousand million of them, and in many parts of the world the ▇▇▇ is the ordinary way to get about. The upright safety pattern has altered surprisingly little since the first chain-driven model of about 1885, though materials and design tools have improved every part of it. Several things first made for the ▇▇▇ mattered later to the motor car: ball bearings, pneumatic tyres, chain and sprocket, and wheels held true by tensioned spokes.",
+    "hints": [
+      "A machine you might own.",
+      "It begins with B.",
+      "Two wheels, a frame and a chain, and your legs do the work."
+    ]
+  },
+  "reveal": {
+    "text": "A bicycle is a single-track vehicle driven by pedals, with two wheels fixed to a frame one behind the other, and it is powered by the person sitting on it. Europe produced the first in the nineteenth century; by the early twenty-first there were more than a thousand million of them, and in many parts of the world the bicycle is the ordinary way to get about. The upright safety pattern has altered surprisingly little since the first chain-driven model of about 1885, though materials and design tools have improved every part of it. Several things first made for the bicycle mattered later to the motor car: ball bearings, pneumatic tyres, chain and sprocket, and wheels held true by tensioned spokes.",
+    "subject": "Bicycle",
+    "aliases": [
+      "bike",
+      "push-bike",
+      "pedal cycle",
+      "cycle"
+    ],
+    "answerWords": [
+      "bicycle"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "A bicycle, also called a pedal cycle, bike, push-bike or cycle, is a human-powered or motor-assisted, pedal-driven, single-track vehicle, with two wheels attached to a frame, one behind the other."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "The bicycle was invented in Europe in the 19th century. By the early 21st century, there were more than 1 billion bicycles. Bicycles are the principal means of transport in many regions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "The basic shape and configuration of a typical upright or \"safety\" bicycle, has changed little since the first chain-driven model was developed around 1885. However, many details have been improved, especially since the advent of modern materials and computer-aided design."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "Several components that played a key role in the development of the car were initially invented for use in the bicycle, including ball bearings, pneumatic tires, chain-driven sprockets, and tension-spoked wheels."
+    }
+  ]
+}

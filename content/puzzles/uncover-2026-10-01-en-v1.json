@@ -1,0 +1,49 @@
+{
+  "id": "uncover-2026-10-01-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-10-01",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "▇▇▇ ▇▇▇ was the American flight that first put people on the Moon, between the sixteenth and the twenty-fourth of July 1969, and the fifth crewed mission of its programme. Neil Armstrong commanded, Michael Collins flew the command module and Buzz Aldrin the lunar module. A Saturn V rocket lifted them from the Kennedy Space Center in Florida. After three days in transit, Armstrong and Aldrin took the lander Eagle down to the Sea of Tranquility while Collins stayed in orbit aboard Columbia. About six hours after touchdown Armstrong stepped onto the surface, and Aldrin followed nineteen minutes later; the two of them spent roughly two and a half hours outside before flying back up to join Collins.",
+    "hints": [
+      "A journey.",
+      "The first word begins with A.",
+      "Two people walked on the Moon in July 1969; this is the flight that carried them."
+    ]
+  },
+  "reveal": {
+    "text": "Apollo 11 was the American flight that first put people on the Moon, between the sixteenth and the twenty-fourth of July 1969, and the fifth crewed mission of its programme. Neil Armstrong commanded, Michael Collins flew the command module and Buzz Aldrin the lunar module. A Saturn V rocket lifted them from the Kennedy Space Center in Florida. After three days in transit, Armstrong and Aldrin took the lander Eagle down to the Sea of Tranquility while Collins stayed in orbit aboard Columbia. About six hours after touchdown Armstrong stepped onto the surface, and Aldrin followed nineteen minutes later; the two of them spent roughly two and a half hours outside before flying back up to join Collins.",
+    "subject": "Apollo 11",
+    "aliases": [
+      "Apollo Eleven"
+    ],
+    "answerWords": [
+      "apollo",
+      "11"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "excerpt": "Apollo 11 (July 16–24, 1969) was the American spaceflight that first landed humans on the Moon, and the fifth crewed mission of NASA's Apollo program. The mission was crewed by Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin \"Buzz\" Aldrin, all of whom were on their second and final spaceflight."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "excerpt": "Launched atop a Saturn V rocket from Kennedy Space Center in Florida on July 16 at 13:32 UTC, the Apollo spacecraft consisted of three parts: the command module (CM), which housed the three astronauts and was the only part to return to Earth; the service module (SM), which provided propulsion, electrical power, oxygen, and water to the command module; and the Lunar Module (LM), which had two stages—a descent stage with a large engine and fuel tanks for landing on the Moon, and a lighter ascent stage containing a cabin for two astronauts and a small engine to return them to lunar orbit."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "excerpt": "After a three-day transit, Armstrong and Aldrin descended to the surface aboard the LM Eagle, landing in the Sea of Tranquility (Mare Tranquillitatis) on July 20 at 20:17 UTC while Collins remained in lunar orbit aboard the CM Columbia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11",
+      "excerpt": "Armstrong became the first human to walk on the Moon approximately six hours after landing, followed by Aldrin nineteen minutes later. Together they spent around two and a half hours walking on the surface, planting an American flag, speaking with President Richard Nixon who was in the White House, deploying scientific instruments, and collecting 21.5 kg (47.5 lb) of lunar material."
+    }
+  ]
+}

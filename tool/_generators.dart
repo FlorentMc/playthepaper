@@ -9,6 +9,7 @@ import 'package:playthepaper/engines/merge/merge.dart';
 import 'package:playthepaper/engines/nonogram/nonogram.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
 import 'package:playthepaper/engines/target/target.dart';
+import 'package:playthepaper/engines/uncover/uncover.dart';
 
 /// One daily puzzle from a seed.
 typedef DailyGenerator = PuzzleRecord Function(DateTime date);
@@ -35,4 +36,9 @@ final Map<GameKind, DailyGenerator> generatedGames = {
 };
 
 /// Editorial games with an evergreen reserve under `content_src/editorial/[slug]/`.
-final Map<GameKind, EditorialGenerator> editorialGames = {};
+final Map<GameKind, EditorialGenerator> editorialGames = {
+  GameKind.uncover: EditorialGenerator(
+    generate: UncoverGenerator().generate,
+    fromTemplate: UncoverGenerator().fromTemplate,
+  ),
+};

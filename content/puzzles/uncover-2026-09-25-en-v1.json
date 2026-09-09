@@ -1,0 +1,47 @@
+{
+  "id": "uncover-2026-09-25-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-09-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is a slab of granodiorite carved with three versions of a decree issued in 196 BC on behalf of King Ptolemy V. The top and middle texts are Egyptian, in hieroglyphs and in the everyday Demotic hand; the bottom one is Ancient Greek. Because the three say almost the same thing, the ▇▇▇ ▇▇▇ became the key that let scholars read hieroglyphs again, after they had gone unread since late Roman times. It was cut during the Hellenistic period, probably stood in a temple, and was later built into a fort near the town of Rashid in the Nile Delta, where it came to light in July 1799. A full translation of the Greek appeared in 1803, and Jean-François Champollion announced his reading of the Egyptian in 1822.",
+    "hints": [
+      "An object in a museum.",
+      "The first word begins with R.",
+      "Its three scripts let scholars read Egyptian hieroglyphs again."
+    ]
+  },
+  "reveal": {
+    "text": "The Rosetta Stone is a slab of granodiorite carved with three versions of a decree issued in 196 BC on behalf of King Ptolemy V. The top and middle texts are Egyptian, in hieroglyphs and in the everyday Demotic hand; the bottom one is Ancient Greek. Because the three say almost the same thing, the Rosetta Stone became the key that let scholars read hieroglyphs again, after they had gone unread since late Roman times. It was cut during the Hellenistic period, probably stood in a temple, and was later built into a fort near the town of Rashid in the Nile Delta, where it came to light in July 1799. A full translation of the Greek appeared in 1803, and Jean-François Champollion announced his reading of the Egyptian in 1822.",
+    "subject": "Rosetta Stone",
+    "aliases": [],
+    "answerWords": [
+      "rosetta",
+      "stone"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "excerpt": "The Rosetta Stone is a stele of granodiorite inscribed with three versions of a decree issued in 196 BC during the Ptolemaic dynasty of Egypt, on behalf of King Ptolemy V Epiphanes. The top and middle texts are in Ancient Egyptian using hieroglyphic and Demotic scripts, respectively, while the bottom is in Ancient Greek. The decree has only minor differences across the three versions, making the Rosetta Stone key to deciphering the Egyptian scripts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "excerpt": "The stone was carved during the Hellenistic period and is believed to have originally been displayed within a temple, possibly at Sais. It was probably moved in late antiquity or during the Mamluk period, and was eventually used as building material in the construction of Fort Julien near the town of Rashid (Rosetta) in the Nile Delta. It was found there in July 1799 by French army officer Pierre-François Bouchard during France's invasion of Egypt."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "excerpt": "Study of the decree was already underway when the first complete translation of the Greek text was published in 1803. Jean-François Champollion announced the transliteration of the Egyptian scripts in Paris in 1822; it took longer still before scholars were able to read Ancient Egyptian inscriptions and literature confidently."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "excerpt": "Prior to the discovery of the Rosetta Stone and its eventual decipherment, the ancient Egyptian language and script had not been understood since shortly before the fall of the Roman Empire."
+    }
+  ]
+}

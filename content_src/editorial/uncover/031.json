@@ -1,0 +1,45 @@
+{
+  "topic": "A very deep lake in Siberia",
+  "payload": {
+    "text": "▇▇▇ ▇▇▇ lies in a rift valley in southern Siberia, where the crust is slowly pulling apart, and it is the deepest ▇▇▇ on Earth: 1,642 metres to the bottom. Its surface covers 31,722 square kilometres, a little more than Belgium, which puts it seventh in the world for area. Depth is what counts, though. Holding 23,615 cubic kilometres of water, close to a quarter of all the fresh water on the planet's surface and more than every one of the North American Great ▇▇▇ together, ▇▇▇ ▇▇▇ is the largest body of fresh water by volume. It is also the oldest, at twenty-five to thirty million years, and among the clearest, with thousands of species found nowhere else.",
+    "hints": [
+      "A place in Asia.",
+      "The second word begins with B.",
+      "It is the deepest body of fresh water in the world, in Siberia."
+    ]
+  },
+  "reveal": {
+    "text": "Lake Baikal lies in a rift valley in southern Siberia, where the crust is slowly pulling apart, and it is the deepest lake on Earth: 1,642 metres to the bottom. Its surface covers 31,722 square kilometres, a little more than Belgium, which puts it seventh in the world for area. Depth is what counts, though. Holding 23,615 cubic kilometres of water, close to a quarter of all the fresh water on the planet's surface and more than every one of the North American Great Lakes together, Lake Baikal is the largest body of fresh water by volume. It is also the oldest, at twenty-five to thirty million years, and among the clearest, with thousands of species found nowhere else.",
+    "subject": "Lake Baikal",
+    "aliases": [
+      "Baikal"
+    ],
+    "answerWords": [
+      "lake",
+      "baikal"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal",
+      "excerpt": "Lake Baikal is a rift lake and the deepest lake in the world. It is situated in southern Siberia, Russia, between the federal subjects of Irkutsk Oblast to the northwest and the Republic of Buryatia to the southeast."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal",
+      "excerpt": "At 31,722 km2 (12,248 sq mi)—slightly larger than Belgium—Lake Baikal is the world's seventh-largest lake by surface area, as well as the second-largest lake in Eurasia after the Caspian Sea. However, because it is also the deepest lake, with a maximum depth of 1,642 metres (5,387 feet), Lake Baikal is the world's largest freshwater lake by volume, containing 23,615.39 km3 (5,670 cu mi) of water or 22–23% of the world's fresh surface water, more than all of the North American Great Lakes combined. It is also the world's oldest lake at 25–30 million years, and among the clearest."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal",
+      "excerpt": "Lake Baikal is home to thousands of species of plants and animals, many of them endemic to the region."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lake_Baikal",
+      "excerpt": "Lake Baikal is in a rift valley, created by the Baikal Rift Zone, where the Earth's crust is slowly pulling apart."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the Caspian Sea is larger in area but salt and shallower; Lake Tanganyika is the second deepest and holds less water; Lake Superior beats it for surface area yet is far shallower; Crater Lake is deep for its size but tiny. The quarter of the planet's fresh surface water follows the article's 22 to 23 per cent. The name alone is accepted as well as the full form."
+}

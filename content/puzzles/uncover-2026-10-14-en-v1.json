@@ -1,0 +1,46 @@
+{
+  "id": "uncover-2026-10-14-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-10-14",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is the insect that beekeepers everywhere keep in hives, and the western species is the commonest of the seven to twelve kinds in the world. Its Latin name means, roughly, ▇▇▇-carrying. A colony is eusocial: one fertile female, the queen, tens of thousands of workers who do not normally breed, and a small number of males called drones. The whole household is coordinated by scent and by a dance that tells other foragers where to fly. Domesticated early, the ▇▇▇ ▇▇▇ now lives on every continent but Antarctica, carried there by people, and is valued as much for pollinating crops as for what it stores in the comb. Pests such as the varroa mite trouble it.",
+    "hints": [
+      "An insect.",
+      "The first word begins with H.",
+      "It lives in a hive with a queen, and it dances to tell the others where the flowers are."
+    ]
+  },
+  "reveal": {
+    "text": "The honey bee is the insect that beekeepers everywhere keep in hives, and the western species is the commonest of the seven to twelve kinds in the world. Its Latin name means, roughly, honey-carrying. A colony is eusocial: one fertile female, the queen, tens of thousands of workers who do not normally breed, and a small number of males called drones. The whole household is coordinated by scent and by a dance that tells other foragers where to fly. Domesticated early, the honey bee now lives on every continent but Antarctica, carried there by people, and is valued as much for pollinating crops as for what it stores in the comb. Pests such as the varroa mite trouble it.",
+    "subject": "Honey Bee",
+    "aliases": [
+      "honeybee",
+      "western honey bee",
+      "Apis mellifera"
+    ],
+    "answerWords": [
+      "honey",
+      "bee"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "excerpt": "The western honey bee (Apis mellifera) is the most common of the 7–12 species of honey bees worldwide. The genus name Apis is Latin for 'bee', and mellifera is the Latin for 'honey-bearing' or 'honey-carrying', referring to the species' production of honey."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "excerpt": "Like all honey bee species, the western honey bee is eusocial, creating colonies with a single fertile female (or \"queen\"), many normally non-reproductive females or \"workers\", and a small proportion of fertile males or \"drones\". Individual colonies can house tens of thousands of bees. Colony activities are organized by complex communication between individuals, through both pheromones and the waggle dance."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "excerpt": "The western honey bee was one of the first domesticated insects, and it is the primary species maintained by beekeepers to this day for both its honey production and pollination activities. With human assistance, the western honey bee now occupies every continent except Antarctica. Western honey bees are threatened by pests and diseases, especially the Varroa mite and colony collapse disorder."
+    }
+  ]
+}

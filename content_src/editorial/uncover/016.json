@@ -1,0 +1,50 @@
+{
+  "topic": "A mammal that lays eggs",
+  "payload": {
+    "text": "The ▇▇▇ is a semiaquatic mammal of eastern Australia and Tasmania, and it lays eggs. It is the only living member of its family and genus, and together with the four kinds of echidna it makes up the five monotremes, the mammals that hatch their young rather than bear them live. Hunting underwater with eyes, ears and nostrils shut, it finds prey by sensing the faint electric fields their muscles give off. The male carries a spur on each hind foot that delivers a venom powerful enough to cause real pain in a person. When a preserved specimen reached British scientists in 1799 they took it for a hoax, a duck's bill sewn to the body of another animal.",
+    "hints": [
+      "An animal.",
+      "It begins with P.",
+      "It is an egg-laying Australian mammal with a bill like a duck's."
+    ]
+  },
+  "reveal": {
+    "text": "The platypus is a semiaquatic mammal of eastern Australia and Tasmania, and it lays eggs. It is the only living member of its family and genus, and together with the four kinds of echidna it makes up the five monotremes, the mammals that hatch their young rather than bear them live. Hunting underwater with eyes, ears and nostrils shut, it finds prey by sensing the faint electric fields their muscles give off. The male carries a spur on each hind foot that delivers a venom powerful enough to cause real pain in a person. When a preserved specimen reached British scientists in 1799 they took it for a hoax, a duck's bill sewn to the body of another animal.",
+    "subject": "Platypus",
+    "aliases": [
+      "duck-billed platypus",
+      "Ornithorhynchus anatinus"
+    ],
+    "answerWords": [
+      "platypu"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Platypus",
+      "excerpt": "The platypus (Ornithorhynchus anatinus), sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Platypus",
+      "excerpt": "The platypus is the sole living representative of its family Ornithorhynchidae and genus Ornithorhynchus, though a number of related species appear in the fossil record. Together with the four species of echidna, it is one of the five extant species of monotremes, mammals that lay eggs instead of giving birth to live young."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Platypus",
+      "excerpt": "Like other monotremes, the platypus has a sense of electrolocation, which it uses to detect prey in water while its eyes, ears and nostrils are closed. It is one of the few species of venomous mammals, as the male platypus has a spur on each hind foot that delivers an extremely painful venom."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Platypus",
+      "excerpt": "In 1799, the first scientists to examine a preserved platypus body judged it a fake made of several animals sewn together."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Platypus",
+      "excerpt": "The spurs of the male inject venom, which is powerful enough to inflict pain in humans."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the echidna is the other monotreme, but it is spiny, land-dwelling and has no bill; the otter and the beaver are placental swimmers with no eggs and no spur; the duck is a bird. The venom is described as painful rather than deadly, which is what the article supports."
+}

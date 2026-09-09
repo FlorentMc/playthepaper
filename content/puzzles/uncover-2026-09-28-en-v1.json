@@ -1,0 +1,47 @@
+{
+  "id": "uncover-2026-09-28-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-09-28",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is an ivory-white marble mausoleum on the right bank of the river Yamuna at Agra, in Uttar Pradesh. The Mughal emperor Shah Jahan ordered it in 1631 for his wife Mumtaz ▇▇▇, and it later held his own tomb as well. The building is the centrepiece of a complex of seventeen hectares that takes in a mosque, a guest house and formal gardens, walled on three sides. Masons finished the mausoleum in 1648 and the rest of the grounds five years later. White marble inlaid with semi-precious stones was used for the tomb and red sandstone elsewhere, and more than twenty thousand workers laboured under a board of architects. The name means crown of the palace.",
+    "hints": [
+      "A building in Asia.",
+      "The first word begins with T.",
+      "A Mughal emperor built it in white marble at Agra, beside a river."
+    ]
+  },
+  "reveal": {
+    "text": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna at Agra, in Uttar Pradesh. The Mughal emperor Shah Jahan ordered it in 1631 for his wife Mumtaz Mahal, and it later held his own tomb as well. The building is the centrepiece of a complex of seventeen hectares that takes in a mosque, a guest house and formal gardens, walled on three sides. Masons finished the mausoleum in 1648 and the rest of the grounds five years later. White marble inlaid with semi-precious stones was used for the tomb and red sandstone elsewhere, and more than twenty thousand workers laboured under a board of architects. The name means crown of the palace.",
+    "subject": "Taj Mahal",
+    "aliases": [],
+    "answerWords": [
+      "taj",
+      "mahal"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "Construction of the mausoleum was completed in 1648, although work on other parts of the complex continued for another five years."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "excerpt": "While the mausoleum is constructed of white marble inlaid with semi-precious stones, red sandstone was used for other buildings in the complex similar to contemporary Mughal-era buildings. The construction project employed more than 20,000 workers and artisans under the guidance of a board of architects led by Ustad Ahmad Lahori, the emperor's court architect."
+    }
+  ]
+}
