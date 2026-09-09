@@ -26,12 +26,7 @@ class EditionView extends StatelessWidget {
     final theme = Theme.of(context);
     final dateLabel = DateFormat('EEEE d MMMM yyyy').format(manifest.date.toUtc());
 
-    final classics = GameKind.classics.toList()
-      ..sort((a, b) {
-        final fa = store.favourites.contains(a) ? 0 : 1;
-        final fb = store.favourites.contains(b) ? 0 : 1;
-        return fa != fb ? fa.compareTo(fb) : GameKind.values.indexOf(a).compareTo(GameKind.values.indexOf(b));
-      });
+    final classics = GameKind.classics;
 
     return ListView(
       padding: const EdgeInsets.fromLTRB(20, 8, 20, 40),
@@ -287,18 +282,16 @@ class _ClassicCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final store = context.watch<LocalStore>();
     final theme = Theme.of(context);
-    final pinned = store.favourites.contains(game);
 
     if (game == GameKind.sudoku) {
       return Card(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(18, 14, 8, 14),
+          padding: const EdgeInsets.fromLTRB(18, 16, 18, 14),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _CardHeader(game: game, pinned: pinned, onPin: () => store.toggleFavourite(game)),
+              _CardHeader(game: game),
               const SizedBox(height: 10),
               Wrap(
                 spacing: 8,
@@ -320,11 +313,11 @@ class _ClassicCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         onTap: id == null ? null : () => context.push('/p/$id'),
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(18, 14, 8, 14),
+          padding: const EdgeInsets.fromLTRB(18, 16, 18, 14),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _CardHeader(game: game, pinned: pinned, onPin: () => store.toggleFavourite(game)),
+              _CardHeader(game: game),
               const SizedBox(height: 4),
               Text(GameRegistry.blurbs[game]!, style: theme.textTheme.bodyMedium),
               const SizedBox(height: 8),
@@ -338,24 +331,13 @@ class _ClassicCard extends StatelessWidget {
 }
 
 class _CardHeader extends StatelessWidget {
-  const _CardHeader({required this.game, required this.pinned, required this.onPin});
+  const _CardHeader({required this.game});
   final GameKind game;
-  final bool pinned;
-  final VoidCallback onPin;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Row(
-      children: [
-        Expanded(child: Text(game.title, style: PaperTheme.display(size: 20, color: theme.colorScheme.onSurface))),
-        IconButton(
-          icon: Icon(pinned ? Icons.push_pin : Icons.push_pin_outlined),
-          tooltip: pinned ? 'Unpin' : 'Pin to top',
-          onPressed: onPin,
-        ),
-      ],
-    );
+    return Text(game.title, style: PaperTheme.display(size: 20, color: theme.colorScheme.onSurface));
   }
 }
 
