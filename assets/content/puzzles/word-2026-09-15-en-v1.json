@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-15-en-v1",
+  "game": "word",
+  "editionDate": "2026-09-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "V",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about the fastest thing there is."
+  },
+  "reveal": {
+    "answer": "VACUUM",
+    "storyId": "science-1-light",
+    "excerpt": "This fixed value is used to define the metre as exactly the distance that light travels in vacuum in 1⁄299792458 of a second."
+  },
+  "storyId": "science-1-light"
+}

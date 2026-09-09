@@ -1,7 +1,7 @@
 {
-  "id": "crossword-2026-09-09-en-v1",
+  "id": "crossword-2026-09-16-en-v1",
   "game": "crossword",
-  "editionDate": "2026-09-09",
+  "editionDate": "2026-09-16",
   "locale": "en-GB",
   "contentVersion": 1,
   "scoringVersion": 1,
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Not on"
+          "clue": "Switched ___"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 4,
-          "clue": "Keep in the hands"
+          "clue": "Assist"
         },
         {
           "number": 6,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "City's elected leader"
+          "clue": "Head of a town"
         },
         {
           "number": 8,
           "row": 3,
           "col": 1,
           "length": 4,
-          "clue": "Short reminder"
+          "clue": "Depend"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Colour of a stop sign"
+          "clue": "Fish eggs"
         }
       ],
       "down": [
@@ -59,14 +59,14 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Resistance measure"
+          "clue": "Unit of electrical resistance"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 4,
-          "clue": "Bubbly froth"
+          "clue": "Terror"
         },
         {
           "number": 3,
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "St Paul's has a famous one"
+          "clue": "Shirt with a collar and buttons"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Fishing pole"
+          "clue": "Bread grain"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "OFF##",
-      "HOLD#",
+      "HELP#",
       "MAYOR",
-      "#MEMO",
-      "##RED"
+      "#RELY",
+      "##ROE"
     ],
     "seeded": [
       {

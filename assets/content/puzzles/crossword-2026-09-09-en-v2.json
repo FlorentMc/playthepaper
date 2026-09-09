@@ -1,9 +1,9 @@
 {
-  "id": "crossword-2026-09-04-en-v1",
+  "id": "crossword-2026-09-09-en-v2",
   "game": "crossword",
-  "editionDate": "2026-09-04",
+  "editionDate": "2026-09-09",
   "locale": "en-GB",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Argument in favour"
+          "clue": "Sewn edge"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rooster's boast"
+          "clue": "Saturn has a geometric cloud pattern at each of these",
+          "storyId": "2026-09-09-1"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Playground chute"
+          "clue": "Raise a glass to"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Smoky air"
+          "clue": "Had on"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Needle's hole"
+          "clue": "Aged"
         }
       ],
       "down": [
@@ -59,56 +60,61 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Nobel honour Fleming shared in 1945",
-          "storyId": "discovery-1-penicillin"
+          "clue": "Buried treasure, like the Viking silver found at Rebild",
+          "storyId": "2026-09-09-2"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Travelled on horseback"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Came together"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sculptor's earth"
+          "clue": "Billiards' cousin"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Number of wheels on a bike"
         }
       ]
     },
-    "teaser": "One of today's clues comes from the news."
+    "teaser": "Two of today's clues come from the news."
   },
   "reveal": {
     "solution": [
-      "##PRO",
-      "#CROW",
-      "SLIDE",
-      "HAZE#",
-      "EYE##"
+      "##HEM",
+      "#POLE",
+      "TOAST",
+      "WORE#",
+      "OLD##"
     ],
     "seeded": [
       {
         "label": "1 Down",
-        "storyId": "discovery-1-penicillin",
-        "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
+        "storyId": "2026-09-09-2",
+        "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
+      },
+      {
+        "label": "4 Across",
+        "storyId": "2026-09-09-1",
+        "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s."
       }
     ]
   },
-  "storyId": "discovery-1-penicillin"
+  "storyId": "2026-09-09-2"
 }

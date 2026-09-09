@@ -1,57 +1,59 @@
 {
   "date": "2026-09-09",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-09-09-en-v1",
+    "word-2026-09-09-en-v2",
     "sudoku-2026-09-09-en-easy-v1",
     "sudoku-2026-09-09-en-medium-v1",
     "sudoku-2026-09-09-en-hard-v1",
-    "letters-2026-09-09-en-v1",
-    "crossword-2026-09-09-en-v1",
-    "quiz-2026-09-09-en-v1"
+    "letters-2026-09-09-en-v2",
+    "crossword-2026-09-09-en-v2",
+    "quiz-2026-09-09-en-v2"
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "id": "2026-09-09-1",
+      "headline": "A ten-sided cloud around Saturn's south pole",
+      "summary": "Hubble Space Telescope observations have revealed a ten-sided cloud pattern, a decagon, around Saturn's south pole. The north pole has had a known six-sided hexagon since 1987, when it was spotted in data from NASA's Voyager spacecraft. That hexagon has stayed stable for over 40 years; how long the decagon lasts is now a question for researchers.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+      "publishedAt": "2026-09-08"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "id": "2026-09-09-2",
+      "headline": "A garden in Denmark gives up the country's largest Viking silver hoard",
+      "summary": "A homeowner in Rebild, Denmark, digging to lay a new terrace, uncovered the largest hoard of Viking silver ever found in the country after half an hour of work. It holds roughly 700 artefacts and weighs more than 40 pounds, including bracelets, 47 coins and coin fragments, silver bars and a small Thor's hammer. Experts think it was buried in the tenth century, and North Jutland Museums hopes to exhibit it at the Fyrkat Viking Museum.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/routine-yard-work-reveals-a-trove-of-viking-silver-the-largest-treasure-of-its-kind-ever-discovered-in-denmark-180989456/",
+      "publishedAt": "2026-09-08"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "id": "2026-09-09-3",
+      "headline": "A 20-metre dinosaur under a Brazilian construction site",
+      "summary": "Scientists have named a new giant dinosaur, Dasosaurus tocantinensis, from fossils found at a road-rail terminal under construction in Davinópolis, in Brazil's Maranhão state. It measured about 20 metres long and lived roughly 120 million years ago, and its closest known relative lived in what is now Spain. It is the largest dinosaur known from Maranhão; the previous record-holder, Amazonsaurus maranhensis, was about 10 metres long.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
+      "publishedAt": "2026-09-08"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-09-09-1": [
       "quiz:1",
       "quiz:2",
-      "word",
-      "crossword:3 Down"
+      "letters",
+      "crossword:4 Across"
     ],
-    "technology-1-chip": [
+    "2026-09-09-2": [
       "quiz:3",
       "quiz:4",
-      "letters"
+      "word",
+      "crossword:1 Down"
     ],
-    "technology-1-canal": [
+    "2026-09-09-3": [
       "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-09-09T15:18:01.944856Z"
 }

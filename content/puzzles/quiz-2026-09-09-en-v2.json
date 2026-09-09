@@ -1,0 +1,96 @@
+{
+  "id": "quiz-2026-09-09-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "prompt": "How many sides does the newly observed cloud pattern around Saturn's south pole have?",
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "storyId": "2026-09-09-1"
+      },
+      {
+        "prompt": "In which year was the hexagon around Saturn's north pole discovered, in Voyager data?",
+        "options": [
+          "1977",
+          "1987",
+          "1997",
+          "2007"
+        ],
+        "storyId": "2026-09-09-1"
+      },
+      {
+        "prompt": "Roughly how many artefacts make up the Viking hoard found at Rebild?",
+        "options": [
+          "70",
+          "170",
+          "700",
+          "7,000"
+        ],
+        "storyId": "2026-09-09-2"
+      },
+      {
+        "prompt": "In which century do experts think the Rebild treasure was buried?",
+        "options": [
+          "Eighth",
+          "Ninth",
+          "Tenth",
+          "Eleventh"
+        ],
+        "storyId": "2026-09-09-2"
+      },
+      {
+        "prompt": "About how long was Dasosaurus tocantinensis, the new dinosaur from Brazil?",
+        "options": [
+          "2 metres",
+          "10 metres",
+          "20 metres",
+          "40 metres"
+        ],
+        "storyId": "2026-09-09-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      1,
+      2,
+      2,
+      2
+    ],
+    "explanations": [
+      "Hubble observations show a ten-sided pattern, a decagon, around Saturn's south pole. The north pole has a six-sided hexagon, known since 1987.",
+      "The hexagon was found in 1987 in data from NASA's Voyager spacecraft, which flew past Saturn in the early 1980s. It has proven stable for over 40 years.",
+      "The hoard holds roughly 700 artefacts and weighs more than 40 pounds. About 320 of the objects were found inside a pottery vessel, with the rest scattered nearby.",
+      "Experts think the items were buried in the tenth century. They include bracelets, 47 coins and coin fragments, silver bars and a small Thor's hammer.",
+      "The animal measured about 20 metres long and lived roughly 120 million years ago. The largest dinosaur previously known from Maranhão, Amazonsaurus maranhensis, was about 10 metres long."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+      "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s. Now, recent observations of Saturn by the Hubble Space Telescope reveal a slightly different geometric cloud pattern around the South Pole: a decagon (10 sides). The northern hexagon has proven stable for over 40 years."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/routine-yard-work-reveals-a-trove-of-viking-silver-the-largest-treasure-of-its-kind-ever-discovered-in-denmark-180989456/",
+      "excerpt": "The treasure includes roughly 700 artifacts and weighs more than 40 pounds. About 320 objects were found inside a pottery vessel, while the others were scattered nearby. The trove includes bracelets, 47 coins and coin fragments, silver bars, and a small object in the shape of Thor's hammer. Experts think these items were buried in the tenth century."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
+      "excerpt": "The animal measured about 20 meters long and lived roughly 120 million years ago. It's the largest known dinosaur for Maranhão; the diplodocid Amazonsaurus maranhensis was about 10 meters long."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "id": "crossword-2026-09-05-en-v1",
+  "id": "crossword-2026-09-09-en-v2",
   "game": "crossword",
-  "editionDate": "2026-09-05",
+  "editionDate": "2026-09-09",
   "locale": "en-GB",
-  "contentVersion": 1,
+  "contentVersion": 2,
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
@@ -22,35 +22,36 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Layer of wood or tissue"
+          "clue": "Sewn edge"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Set loose"
+          "clue": "Saturn has a geometric cloud pattern at each of these",
+          "storyId": "2026-09-09-1"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "False name"
+          "clue": "Raise a glass to"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Sloping way"
+          "clue": "Had on"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Female sheep"
+          "clue": "Aged"
         }
       ],
       "down": [
@@ -59,56 +60,61 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "___ Meridian, the line that runs through Greenwich",
-          "storyId": "everyday-1-greenwich"
+          "clue": "Buried treasure, like the Viking silver found at Rebild",
+          "storyId": "2026-09-09-2"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Bound"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Came together"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Imperfection"
+          "clue": "Billiards' cousin"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Exist, in the present tense"
+          "clue": "Number of wheels on a bike"
         }
       ]
     },
-    "teaser": "One of today's clues comes from the news."
+    "teaser": "Two of today's clues come from the news."
   },
   "reveal": {
     "solution": [
-      "##PLY",
-      "#FREE",
-      "ALIAS",
-      "RAMP#",
-      "EWE##"
+      "##HEM",
+      "#POLE",
+      "TOAST",
+      "WORE#",
+      "OLD##"
     ],
     "seeded": [
       {
         "label": "1 Down",
-        "storyId": "everyday-1-greenwich",
-        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+        "storyId": "2026-09-09-2",
+        "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
+      },
+      {
+        "label": "4 Across",
+        "storyId": "2026-09-09-1",
+        "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s."
       }
     ]
   },
-  "storyId": "everyday-1-greenwich"
+  "storyId": "2026-09-09-2"
 }
