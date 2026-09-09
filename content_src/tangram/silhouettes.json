@@ -1,0 +1,398 @@
+[
+  {"name": "Sailboat", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 2, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 5, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 4, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Yacht", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 4, "y": 7, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 5, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 4, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Leaf", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 4, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 3, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 4, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Tower", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 7, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 5, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 4, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Kite", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 4, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 5, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Hourglass", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 6, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 5, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 4, "y": 4, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Fox", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 2, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 3, "y": 1, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 1, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 4, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 3, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Swan", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 1, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 6, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 3, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Cat", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 6, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 4, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Lamp", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 6, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 7, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 4, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 4, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Torch", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 7, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 6, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 6, "rotation": 180, "flipped": true}
+  ]},
+  {"name": "Lantern", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 5, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 2, "rotation": 180, "flipped": true}
+  ]},
+  {"name": "Signpost", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 5, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 4, "rotation": 270, "flipped": false}
+  ]},
+  {"name": "Anchor", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 1, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 3, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 1, "rotation": 270, "flipped": true}
+  ]},
+  {"name": "Comet", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 1, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 4, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 4, "rotation": 180, "flipped": false}
+  ]},
+  {"name": "Basket", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 5, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 4, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Spinning top", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 1, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 3, "y": 2, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 5, "rotation": 180, "flipped": false}
+  ]},
+  {"name": "Bench", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 1, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 1, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 4, "rotation": 270, "flipped": true}
+  ]},
+  {"name": "Bow tie", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 6, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 6, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 2, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 6, "rotation": 270, "flipped": false}
+  ]},
+  {"name": "Pine tree", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 3, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 2, "rotation": 270, "flipped": true}
+  ]},
+  {"name": "Mushroom", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 5, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 3, "rotation": 270, "flipped": true}
+  ]},
+  {"name": "Bridge", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 1, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 4, "rotation": 270, "flipped": false}
+  ]},
+  {"name": "Balloon", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 6, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 6, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 4, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 4, "y": 7, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Crown", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 2, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 2, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 2, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Ox", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 2, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 1, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 4, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 7, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 5, "rotation": 0, "flipped": true}
+  ]},
+  {"name": "Key", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 4, "y": 7, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 3, "rotation": 270, "flipped": false}
+  ]},
+  {"name": "Barge", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 6, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 1, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 2, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 5, "rotation": 180, "flipped": false}
+  ]},
+  {"name": "Acorn", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 3, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 6, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 3, "rotation": 180, "flipped": true}
+  ]},
+  {"name": "Seal", "placements": [
+    {"piece": "largeTriangleA", "x": 6, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 2, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 4, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 4, "y": 7, "rotation": 0, "flipped": false}
+  ]},
+  {"name": "Chimney", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 3, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 5, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Arrowhead", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 2, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 3, "y": 2, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 2, "rotation": 180, "flipped": true}
+  ]},
+  {"name": "Whale", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 1, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 5, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 6, "y": 3, "rotation": 0, "flipped": false}
+  ]},
+  {"name": "Bell", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 6, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 4, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 3, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 6, "rotation": 180, "flipped": true}
+  ]},
+  {"name": "Postbox", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 3, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 6, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 3, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 3, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Duck", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 2, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 1, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 7, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 7, "y": 5, "rotation": 270, "flipped": false}
+  ]},
+  {"name": "Boot", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 6, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 3, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleB", "x": 2, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 5, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 6, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Hammer", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 6, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 4, "y": 7, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 6, "rotation": 90, "flipped": true}
+  ]},
+  {"name": "Rocket", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 1, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 4, "y": 1, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 5, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "square", "x": 2, "y": 1, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 2, "rotation": 0, "flipped": false}
+  ]},
+  {"name": "Bird", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 6, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "square", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 3, "rotation": 180, "flipped": false}
+  ]},
+  {"name": "Castle", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 2, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 4, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 4, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "parallelogram", "x": 4, "y": 3, "rotation": 180, "flipped": false}
+  ]},
+  {"name": "Lighthouse", "placements": [
+    {"piece": "largeTriangleA", "x": 4, "y": 4, "rotation": 0, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 6, "rotation": 180, "flipped": false},
+    {"piece": "mediumTriangle", "x": 4, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 4, "rotation": 180, "flipped": false},
+    {"piece": "square", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 3, "y": 2, "rotation": 270, "flipped": true}
+  ]},
+  {"name": "Rabbit", "placements": [
+    {"piece": "largeTriangleA", "x": 5, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "largeTriangleB", "x": 3, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 5, "rotation": 270, "flipped": false},
+    {"piece": "smallTriangleA", "x": 5, "y": 2, "rotation": 90, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 5, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 6, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 5, "y": 7, "rotation": 0, "flipped": true}
+  ]},
+  {"name": "Hat", "placements": [
+    {"piece": "largeTriangleA", "x": 6, "y": 3, "rotation": 270, "flipped": false},
+    {"piece": "largeTriangleB", "x": 5, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "mediumTriangle", "x": 3, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 6, "y": 5, "rotation": 0, "flipped": false},
+    {"piece": "smallTriangleB", "x": 3, "y": 4, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 5, "y": 2, "rotation": 0, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 3, "rotation": 90, "flipped": false}
+  ]},
+  {"name": "Aeroplane", "placements": [
+    {"piece": "largeTriangleA", "x": 3, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "largeTriangleB", "x": 4, "y": 3, "rotation": 0, "flipped": false},
+    {"piece": "mediumTriangle", "x": 5, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleA", "x": 2, "y": 3, "rotation": 180, "flipped": false},
+    {"piece": "smallTriangleB", "x": 6, "y": 3, "rotation": 90, "flipped": false},
+    {"piece": "square", "x": 5, "y": 5, "rotation": 180, "flipped": false},
+    {"piece": "parallelogram", "x": 2, "y": 3, "rotation": 0, "flipped": false}
+  ]}
+]

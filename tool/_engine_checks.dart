@@ -16,6 +16,7 @@ import 'package:playthepaper/engines/merge/merge.dart';
 import 'package:playthepaper/engines/nonogram/nonogram.dart';
 import 'package:playthepaper/engines/quiz/quiz_engine.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
+import 'package:playthepaper/engines/tangram/tangram.dart';
 import 'package:playthepaper/engines/target/target.dart';
 import 'package:playthepaper/engines/uncover/uncover.dart';
 import 'package:playthepaper/engines/sudoku/sudoku.dart';
@@ -54,6 +55,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.regions: (r) => RegionsPuzzle.parse(r.payload, r.reveal),
   GameKind.binary: (r) => BinaryPuzzle.parse(r.payload, r.reveal),
   GameKind.target: (r) => TargetPuzzle.parse(r.payload, r.reveal),
+  GameKind.tangram: (r) => TangramPuzzle.parse(r.payload, r.reveal),
   GameKind.uncover: (r) => UncoverPuzzle.parse(r.payload, r.reveal),
   GameKind.chronology: (r) => ChronologyPuzzle.parse(r.payload, r.reveal),
   GameKind.crossmatch: (r) => CrossmatchPuzzle.parse(r.payload, r.reveal),

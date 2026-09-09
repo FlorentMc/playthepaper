@@ -13,6 +13,7 @@ import 'package:playthepaper/engines/loop/loop.dart';
 import 'package:playthepaper/engines/merge/merge.dart';
 import 'package:playthepaper/engines/nonogram/nonogram.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
+import 'package:playthepaper/engines/tangram/tangram.dart';
 import 'package:playthepaper/engines/target/target.dart';
 import 'package:playthepaper/engines/uncover/uncover.dart';
 
@@ -32,6 +33,7 @@ final Map<GameKind, DailyGenerator> generatedGames = {
   GameKind.bridges: BridgesGenerator().generate,
   GameKind.binary: BinaryGenerator().generate,
   GameKind.target: TargetGenerator().generate,
+  GameKind.tangram: TangramGenerator().generate,
   GameKind.compass: CompassGenerator().generate,
   GameKind.kakuro: KakuroGenerator().generate,
   GameKind.loop: LoopGenerator().generate,
