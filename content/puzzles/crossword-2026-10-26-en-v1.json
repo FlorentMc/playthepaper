@@ -22,28 +22,28 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "___ is it?"
+          "clue": "Exclamation of amazement"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Joint near the waist"
+          "clue": "Shade of colour"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Freewheel downhill"
+          "clue": "Into pieces"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Wise bird"
+          "clue": "Zero, in a football score"
         },
         {
           "number": 8,
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Belonging to that man"
+          "clue": "Belonging to us"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Decide to"
+          "clue": "Soaked"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Baby's bed"
+          "clue": "Picnic pest"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Need to pay back"
+          "clue": "Pastry-topped dish"
         }
       ]
     },
@@ -96,10 +96,10 @@
   },
   "reveal": {
     "solution": [
-      "##WHO",
-      "##HIP",
-      "COAST",
-      "OWL##",
+      "##WOW",
+      "##HUE",
+      "APART",
+      "NIL##",
       "TEE##"
     ],
     "seeded": [

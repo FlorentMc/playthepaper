@@ -31,6 +31,7 @@
     "payload": {
       "questions": [
         {
+          "lead": "Light in a vacuum travels at a fixed speed, so precisely known that since 1983 the metre itself has been defined by how far light goes in a fraction of a second. Fast as it is, light is never instant, and that includes the light of the Sun.",
           "prompt": "Roughly how long does light from the Sun take to reach the Earth?",
           "options": [
             "About 8 seconds",
@@ -38,9 +39,11 @@
             "About 8 hours",
             "About 8 days"
           ],
+          "level": "easy",
           "storyId": "science-1-light"
         },
         {
+          "lead": "Since 1983 the metre has been defined as the distance light travels in a vacuum in a set fraction of a second, which makes the speed of light an exact figure rather than a measured one. It works out at roughly a billion kilometres an hour.",
           "prompt": "What is the speed of light in a vacuum?",
           "options": [
             "29,979,245.8 metres per second",
@@ -48,9 +51,11 @@
             "2,997,924,580 metres per second",
             "29,979,245,800 metres per second"
           ],
+          "level": "easy",
           "storyId": "science-1-light"
         },
         {
+          "lead": "The human skeleton has two parts: the axial skeleton of skull, spine and rib cage, and the appendicular skeleton of the limbs and the girdles that attach them to the body. Many bones fuse together during growth, so an adult ends up with fewer than a newborn.",
           "prompt": "Roughly how many bones does an adult human skeleton have?",
           "options": [
             "Around 106",
@@ -58,9 +63,11 @@
             "Around 306",
             "Around 406"
           ],
+          "level": "easy",
           "storyId": "science-1-bones"
         },
         {
+          "lead": "An adult human skeleton has around 206 bones, 80 in the skull, spine and rib cage and 126 in the limbs and their girdles. A newborn has more, because many bones fuse together as a child grows.",
           "prompt": "And how many bones does a newborn have, before some of them fuse?",
           "options": [
             "Around 170",
@@ -68,9 +75,11 @@
             "Around 270",
             "Around 370"
           ],
+          "level": "medium",
           "storyId": "science-1-bones"
         },
         {
+          "lead": "CERN, established in 1954, is based in Meyrin, a western suburb of Geneva on the France–Switzerland border, where its Large Hadron Collider runs through a 27 km tunnel 100 metres underground. It was also the birthplace of the World Wide Web, invented there by Tim Berners-Lee.",
           "prompt": "In which year was the World Wide Web invented at CERN?",
           "options": [
             "1979",
@@ -78,6 +87,7 @@
             "1989",
             "1994"
           ],
+          "level": "hard",
           "storyId": "science-1-cern"
         }
       ],

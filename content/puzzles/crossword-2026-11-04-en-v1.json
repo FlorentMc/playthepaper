@@ -22,21 +22,21 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Boy"
+          "clue": "Parking area"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Keats wrote one to a nightingale"
+          "clue": "Rowboat propeller"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Breakfast rasher"
+          "clue": "Full of stones"
         },
         {
           "number": 7,
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Much ___ About Nothing"
+          "clue": "Wood for sturdy furniture"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Cosy room"
+          "clue": "Have a go"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Curved stretch of coast"
+          "clue": "Beam of light"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Exist, in the present tense"
+          "clue": "Miner's find"
         }
       ]
     },
@@ -96,9 +96,9 @@
   },
   "reveal": {
     "solution": [
-      "##LAD",
-      "##ODE",
-      "BACON",
+      "##LOT",
+      "##OAR",
+      "ROCKY",
       "ARK##",
       "YES##"
     ],

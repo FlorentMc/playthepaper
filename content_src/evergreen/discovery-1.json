@@ -31,6 +31,7 @@
     "payload": {
       "questions": [
         {
+          "lead": "Alexander Fleming discovered penicillin, the first antibiotic, on returning to his laboratory from a holiday with his family in Suffolk: a fungus had grown on a culture plate he had left on a bench, and the staphylococci around it had been destroyed. The discovery later brought him a share of the 1945 Nobel Prize.",
           "prompt": "In which year did Fleming notice the fungus that led to penicillin?",
           "options": [
             "1908",
@@ -38,9 +39,11 @@
             "1928",
             "1938"
           ],
+          "level": "easy",
           "storyId": "discovery-1-penicillin"
         },
         {
+          "lead": "On 3 September 1928 Alexander Fleming noticed that a fungus on a contaminated culture plate had destroyed the bacteria around it, the observation that led to penicillin, the first antibiotic. The discovery was recognised with the 1945 Nobel Prize in Physiology or Medicine, which he shared with two other scientists.",
           "prompt": "With whom did Fleming share the 1945 Nobel Prize in Physiology or Medicine?",
           "options": [
             "Howard Florey and Ernst Chain",
@@ -48,9 +51,11 @@
             "Francis Crick and James Watson",
             "Louis Pasteur and Robert Koch"
           ],
+          "level": "easy",
           "storyId": "discovery-1-penicillin"
         },
         {
+          "lead": "The Challenger Deep is the deepest known point of the seabed, lying at the southern end of the Mariana Trench in the western Pacific. A 2021 study measured its depth to within about six metres.",
           "prompt": "How deep is the Challenger Deep?",
           "options": [
             "1,935 metres",
@@ -58,9 +63,11 @@
             "10,935 metres",
             "20,935 metres"
           ],
+          "level": "easy",
           "storyId": "discovery-1-deep"
         },
         {
+          "lead": "The Challenger Deep takes its name from the Royal Navy survey ship HMS Challenger, whose expedition of 1872 to 1876 first located it; HMS Challenger II established its record depth on an expedition of 1950 to 1952. Not long afterwards the United States Navy's bathyscaphe Trieste made the first descent by any vehicle.",
           "prompt": "In which year did the bathyscaphe Trieste make the first descent to the Challenger Deep?",
           "options": [
             "1940",
@@ -68,9 +75,11 @@
             "1980",
             "2000"
           ],
+          "level": "medium",
           "storyId": "discovery-1-deep"
         },
         {
+          "lead": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were dug there for the pharaohs and powerful nobles of Egypt's New Kingdom, and Howard Carter found Tutankhamun's among them in November 1922.",
           "prompt": "How many tombs and chambers is the Valley of the Kings known to contain?",
           "options": [
             "15",
@@ -78,6 +87,7 @@
             "165",
             "650"
           ],
+          "level": "hard",
           "storyId": "discovery-1-valley"
         }
       ],

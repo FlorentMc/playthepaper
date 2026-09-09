@@ -29,28 +29,28 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Subtle suggestion"
+          "clue": "Half a quart"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Honourable"
+          "clue": "Television via a wire"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Friendly nation"
+          "clue": "Unpleasant to look at"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Goodbye"
+          "clue": "Start of a golf hole"
         }
       ],
       "down": [
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Blessed"
+          "clue": "Sheet in a newspaper"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Arrest"
+          "clue": "Trim, as hair"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "##BOA",
-      "#HINT",
-      "NOBLE",
-      "ALLY#",
-      "BYE##"
+      "#PINT",
+      "CABLE",
+      "UGLY#",
+      "TEE##"
     ],
     "seeded": [
       {

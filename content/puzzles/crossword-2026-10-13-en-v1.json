@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Automated program online"
+          "clue": "Where you sleep"
         },
         {
           "number": 4,
@@ -67,14 +67,14 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Above"
+          "clue": "Always"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 4,
-          "clue": "Canvas home"
+          "clue": "Damage from a knock"
         },
         {
           "number": 4,
@@ -96,7 +96,7 @@
   },
   "reveal": {
     "solution": [
-      "##BOT",
+      "##BED",
       "STOVE",
       "LINEN",
       "ALERT",

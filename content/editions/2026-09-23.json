@@ -43,15 +43,15 @@
       "quiz:1",
       "quiz:2",
       "word",
-      "crossword:1 Down"
-    ],
-    "technology-1-chip": [
-      "quiz:3",
-      "quiz:4",
-      "letters"
+      "crossword:3 Down"
     ],
     "technology-1-canal": [
-      "quiz:5"
+      "quiz:3"
+    ],
+    "technology-1-chip": [
+      "quiz:4",
+      "quiz:5",
+      "letters"
     ]
   }
 }

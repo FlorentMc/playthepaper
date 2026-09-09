@@ -9,53 +9,67 @@
   "payload": {
     "size": 5,
     "grid": [
-      "##...",
-      "#....",
+      "...##",
+      "...##",
       ".....",
-      "....#",
-      "...##"
+      "##...",
+      "##..."
     ],
     "clues": {
       "across": [
         {
           "number": 1,
           "row": 0,
-          "col": 2,
+          "col": 0,
           "length": 3,
-          "clue": "Expert"
+          "clue": "Little devil"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Opera solo"
+          "col": 0,
+          "length": 3,
+          "clue": "Rocky hilltop"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Turn"
+          "clue": "Fast-flying bird"
         },
         {
-          "number": 6,
+          "number": 8,
           "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Light mist"
+          "col": 2,
+          "length": 3,
+          "clue": "Place to see lions and tigers"
         },
         {
-          "number": 7,
+          "number": 9,
           "row": 4,
-          "col": 0,
+          "col": 2,
           "length": 3,
-          "clue": "Needle's hole"
+          "clue": "The self"
         }
       ],
       "down": [
         {
           "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "The dog wagged ___ tail"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Cut the grass"
+        },
+        {
+          "number": 3,
           "row": 0,
           "col": 2,
           "length": 5,
@@ -63,32 +77,18 @@
           "storyId": "discovery-1-penicillin"
         },
         {
-          "number": 2,
-          "row": 0,
+          "number": 6,
+          "row": 2,
           "col": 3,
-          "length": 4,
-          "clue": "Get out of bed"
+          "length": 3,
+          "clue": "Thick mist"
         },
         {
-          "number": 3,
-          "row": 0,
+          "number": 7,
+          "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Porridge grain"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Far off"
-        },
-        {
-          "number": 5,
-          "row": 2,
-          "col": 0,
-          "length": 3,
-          "clue": "Most common English word"
+          "clue": "As well"
         }
       ]
     },
@@ -96,15 +96,15 @@
   },
   "reveal": {
     "solution": [
-      "##PRO",
-      "#ARIA",
-      "TWIST",
-      "HAZE#",
-      "EYE##"
+      "IMP##",
+      "TOR##",
+      "SWIFT",
+      "##ZOO",
+      "##EGO"
     ],
     "seeded": [
       {
-        "label": "1 Down",
+        "label": "3 Down",
         "storyId": "discovery-1-penicillin",
         "excerpt": "He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain \"for the discovery of penicillin and its curative effect in various infectious diseases\"."
       }

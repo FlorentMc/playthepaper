@@ -36,7 +36,7 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Drinking vessel"
+          "clue": "Lesson"
         },
         {
           "number": 6,
@@ -88,7 +88,7 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Slime"
+          "clue": "Dove's call"
         }
       ]
     },
@@ -98,7 +98,7 @@
     "solution": [
       "##WRY",
       "#SHOE",
-      "GLASS",
+      "CLASS",
       "OILY#",
       "ODE##"
     ],

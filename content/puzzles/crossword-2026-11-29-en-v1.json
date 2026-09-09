@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Shopping carrier"
+          "clue": "Young male"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "What a clock shows"
+          "clue": "Plunge headfirst"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Circle in space"
+          "clue": "Not rural"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Fuse"
+          "clue": "Offer for sale"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sheltered side"
+          "clue": "Female sheep"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Surrounded by"
+          "clue": "Stretched circle"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Receive"
+          "clue": "Strong desire"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Trunk and branches"
+          "clue": "Pulled"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Wise bird"
+          "clue": "Put to work"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BAG",
-      "#TIME",
-      "ORBIT",
-      "WELD#",
-      "LEE##"
+      "##BOY",
+      "#DIVE",
+      "URBAN",
+      "SELL#",
+      "EWE##"
     ],
     "seeded": [
       {

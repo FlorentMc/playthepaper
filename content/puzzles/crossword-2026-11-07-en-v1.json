@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Be nosy"
+          "clue": "Miles ___ hour"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Song for one voice"
+          "clue": "Flat carrier for dishes"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Dense"
+          "clue": "Din"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Where you live"
+          "clue": "Military land force"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "Honey maker"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Grain served with curry"
+          "clue": "Not difficult"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Long-haired ox of the high mountains"
+          "clue": "Whisky grain"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Sailor's greeting"
+          "clue": "Ripped"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Definite article"
+          "clue": "Arrest"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PRY",
-      "#ARIA",
-      "THICK",
-      "HOME#",
-      "EYE##"
+      "##PER",
+      "#TRAY",
+      "NOISE",
+      "ARMY#",
+      "BEE##"
     ],
     "seeded": [
       {

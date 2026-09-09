@@ -22,28 +22,28 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "A handful"
+          "clue": "To and ___"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Sheltered side"
+          "clue": "Not high"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Fashion"
+          "clue": "Perhaps"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Female sheep"
+          "clue": "Years lived"
         },
         {
           "number": 8,
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Snake-like fish"
+          "clue": "Steal from"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Small, north of the border"
+          "clue": "Need to pay back"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Put in place"
+          "clue": "Floor covering at a door"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Pair"
+          "clue": "In the past"
         }
       ]
     },
@@ -96,10 +96,10 @@
   },
   "reveal": {
     "solution": [
-      "##FEW",
-      "##LEE",
-      "STYLE",
-      "EWE##",
+      "##FRO",
+      "##LOW",
+      "MAYBE",
+      "AGE##",
       "TOR##"
     ],
     "seeded": [

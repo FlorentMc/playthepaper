@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Fruit seed"
+          "clue": "Pod's content"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Small deer"
+          "col": 1,
+          "length": 4,
+          "clue": "Fibre-rich cereal part"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bee's attack"
+          "clue": "Watch's place"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Where you live"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Limb with an elbow"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -66,29 +66,29 @@
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Atom that has lost or gained an electron"
+          "length": 4,
+          "clue": "Make less painful"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Tent fastener"
+          "clue": "Insect that lives in a colony"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Forehead"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Feeling blue"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Have a go"
+          "clue": "___ is it?"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PIP",
-      "##ROE",
-      "STING",
-      "ARM##",
-      "DYE##"
+      "##PEA",
+      "#BRAN",
+      "WRIST",
+      "HOME#",
+      "OWE##"
     ],
     "seeded": [
       {

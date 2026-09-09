@@ -22,14 +22,14 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Undergarment with cups"
+          "clue": "Baseball club"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Opinion"
+          "clue": "Long distance unit"
         },
         {
           "number": 5,
@@ -43,14 +43,14 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Friendly nation"
+          "clue": "Slippery"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Golf ball's perch"
+          "clue": "Poem of praise"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Depend"
+          "clue": "Partner in war"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Wonder and amazement"
+          "clue": "Golf ball's perch"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Dale"
+          "clue": "Cleaner in a hotel"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Tasteless rubbish"
+          "clue": "As well"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BRA",
-      "#VIEW",
+      "##BAT",
+      "#MILE",
       "TABLE",
-      "ALLY#",
-      "TEE##"
+      "OILY#",
+      "ODE##"
     ],
     "seeded": [
       {

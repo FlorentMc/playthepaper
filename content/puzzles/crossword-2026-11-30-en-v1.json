@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Question of reason"
+          "clue": "Tiny, in Scotland"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "It has laces or a buckle"
+          "clue": "Taller ___ me"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Explosion"
+          "clue": "Plank"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Function"
+          "clue": "Turn over and over"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Feeling before a grand view"
+          "clue": "Beer's cousin"
         }
       ],
       "down": [
@@ -67,21 +67,21 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Firefighter's tube"
+          "clue": "___ Grey tea"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Still"
+          "clue": "Conclusion"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Not fast"
+          "clue": "Hammer or wrench"
         },
         {
           "number": 5,
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WHY",
-      "#SHOE",
-      "BLAST",
-      "ROLE#",
-      "AWE##"
+      "##WEE",
+      "#THAN",
+      "BOARD",
+      "ROLL#",
+      "ALE##"
     ],
     "seeded": [
       {

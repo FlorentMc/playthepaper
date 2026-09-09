@@ -22,14 +22,14 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Throw in a high arc"
+          "clue": "Sphere"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Much ___ About Nothing"
+          "clue": "Pair of musicians"
         },
         {
           "number": 5,
@@ -59,14 +59,14 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Boy"
+          "clue": "Not even"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Poem of praise"
+          "clue": "Regret"
         },
         {
           "number": 3,
@@ -96,8 +96,8 @@
   },
   "reveal": {
     "solution": [
-      "LOB##",
-      "ADO##",
+      "ORB##",
+      "DUO##",
       "DENSE",
       "##EAR",
       "##SPA"

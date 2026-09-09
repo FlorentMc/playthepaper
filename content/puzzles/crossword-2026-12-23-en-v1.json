@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Place for a massage"
         },
         {
           "number": 4,
@@ -37,21 +37,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Middle of the body"
+          "clue": "Select few"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Shrek, for one"
+          "clue": "Inter"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Tie the knot"
+          "clue": "Stake money on a horse"
         }
       ],
       "down": [
@@ -60,35 +60,35 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "After second"
+          "clue": "Top with sleeves"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Full of wisdom"
+          "clue": "Compassion"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Choose"
+          "clue": "Gorilla or chimp"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Barred enclosure"
+          "clue": "What you are reading now"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Exclamation of amazement"
+          "clue": "Decline"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##TWO",
+      "##SPA",
       "#CHIP",
-      "WAIST",
-      "OGRE#",
-      "WED##"
+      "ELITE",
+      "BURY#",
+      "BET##"
     ],
     "seeded": [
       {

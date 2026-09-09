@@ -29,7 +29,7 @@
           "row": 1,
           "col": 0,
           "length": 4,
-          "clue": "Assist"
+          "clue": "Ship's steering wheel"
         },
         {
           "number": 6,
@@ -43,14 +43,14 @@
           "row": 3,
           "col": 1,
           "length": 4,
-          "clue": "Depend"
+          "clue": "Do again"
         },
         {
           "number": 9,
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Fish eggs"
+          "clue": "Colour of a stop sign"
         }
       ],
       "down": [
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "Shirt with a collar and buttons"
+          "clue": "Most common value"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Bread grain"
+          "clue": "Fishing pole"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "OFF##",
-      "HELP#",
+      "HELM#",
       "MAYOR",
-      "#RELY",
-      "##ROE"
+      "#REDO",
+      "##RED"
     ],
     "seeded": [
       {

@@ -22,7 +22,7 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Cubes in a drink"
+          "clue": "Unreturnable tennis serve"
         },
         {
           "number": 4,
@@ -36,7 +36,7 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Something seen"
+          "clue": "Octopus's arm count"
         },
         {
           "number": 8,
@@ -50,7 +50,7 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "Conclusion"
+          "clue": "Australian bird that cannot fly"
         }
       ],
       "down": [
@@ -59,7 +59,7 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Belonging to that thing"
+          "clue": "Had dinner"
         },
         {
           "number": 2,
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 3,
           "length": 4,
-          "clue": "At that time"
+          "clue": "Those people"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "A little bit"
+          "clue": "Letter after sigma"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "ICE##",
+      "ACE##",
       "THAT#",
-      "SIGHT",
+      "EIGHT",
       "#PLEA",
-      "##END"
+      "##EMU"
     ],
     "seeded": [
       {

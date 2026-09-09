@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Item of lingerie"
+          "clue": "Attempt"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Very funny person"
+          "clue": "Team in a match"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Of high birth"
+          "clue": "Arm joint"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Having the skill"
+          "clue": "Grand dance"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Buzzing pollinator"
+          "clue": "Goodbye"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Function"
+          "clue": "Pop star, to fans"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Finished a meal"
+          "clue": "Drops on a lawn at dawn"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Dressing gown"
+          "clue": "Kill, as a dragon"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Catch, as a thief"
+          "clue": "Flow back, as the tide"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BRA",
-      "#RIOT",
-      "NOBLE",
-      "ABLE#",
-      "BEE##"
+      "##BID",
+      "#SIDE",
+      "ELBOW",
+      "BALL#",
+      "BYE##"
     ],
     "seeded": [
       {

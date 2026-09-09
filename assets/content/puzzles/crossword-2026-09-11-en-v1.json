@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Gentle tap"
+          "clue": "Stack of paper for notes"
         },
         {
           "number": 4,
@@ -74,7 +74,7 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Lion's home"
         },
         {
           "number": 5,
@@ -96,7 +96,7 @@
   },
   "reveal": {
     "solution": [
-      "##PAT",
+      "##PAD",
       "##RYE",
       "ALIEN",
       "FEZ##",

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Animal kept at home"
+          "clue": "___ on a hat"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Roof or floor square"
+          "clue": "Evergreen with cones"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Rub out"
+          "clue": "Killed"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Queue"
+          "clue": "Search for game"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Toilet, in Britain"
+          "clue": "Sense of self-importance"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Or ___"
+          "clue": "Single item"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Start of a golf hole"
+          "clue": "Decade's count"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Group of three"
+          "clue": "Socket filler"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Old measure of cloth"
+          "clue": "Woman's pronoun"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PET",
-      "#TILE",
-      "ERASE",
-      "LINE#",
-      "LOO##"
+      "##PUT",
+      "#PINE",
+      "SLAIN",
+      "HUNT#",
+      "EGO##"
     ],
     "seeded": [
       {

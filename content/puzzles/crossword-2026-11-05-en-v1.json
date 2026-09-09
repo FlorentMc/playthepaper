@@ -29,28 +29,28 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Slant"
+          "clue": "Slope"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Conflict"
+          "clue": "Rub out"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Parent's sister"
+          "clue": "Queue"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Argument in favour"
+          "clue": "The lavatory"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Where the sun rises"
+          "clue": "Or ___"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Fireplace residue"
+          "clue": "Had dinner"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Make unclear"
+          "clue": "Group of three"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Baseball hat"
+          "clue": "Old measure of cloth"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "##PEA",
-      "#BIAS",
-      "CLASH",
-      "AUNT#",
-      "PRO##"
+      "#TILT",
+      "ERASE",
+      "LINE#",
+      "LOO##"
     ],
     "seeded": [
       {

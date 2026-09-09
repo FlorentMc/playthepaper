@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,36 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Place for a massage"
+          "clue": "Cut, as a branch"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "The 4004 squeezed a whole CPU onto a single one",
-          "storyId": "technology-1-chip"
+          "col": 2,
+          "length": 3,
+          "clue": "Rowboat propeller"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Score unit"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Hockey surface"
+          "clue": "Fortunate"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Request"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Lowest whole number above zero"
+          "clue": "Word of agreement"
         }
       ],
       "down": [
@@ -60,35 +59,36 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Gleam"
+          "clue": "They lift ships 26 metres up to Gatun Lake",
+          "storyId": "technology-1-canal"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Colour of flamingos"
+          "length": 3,
+          "clue": "Acorn tree"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Fitting or suitable"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Penny or dime"
+          "clue": "Snoop"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Argument in favour"
+          "clue": "Produce an egg"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Put to work"
         }
       ]
     },
@@ -96,19 +96,19 @@
   },
   "reveal": {
     "solution": [
-      "##SPA",
-      "#CHIP",
-      "POINT",
-      "RINK#",
-      "ONE##"
+      "##LOP",
+      "##OAR",
+      "LUCKY",
+      "ASK##",
+      "YES##"
     ],
     "seeded": [
       {
-        "label": "4 Across",
-        "storyId": "technology-1-chip",
-        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+        "label": "1 Down",
+        "storyId": "technology-1-canal",
+        "excerpt": "Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal."
       }
     ]
   },
-  "storyId": "technology-1-chip"
+  "storyId": "technology-1-canal"
 }

@@ -29,28 +29,28 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cash register"
+          "clue": "Prejudice"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Delete"
+          "clue": "Cymbal sound"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Queue"
+          "clue": "Parent's sister"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sound from a dairy herd"
+          "clue": "Argument in favour"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Compass point opposite west"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Fireplace residue"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Group of three"
+          "clue": "Make unclear"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Tree often lining a street"
+          "clue": "Bottle top"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "##PEA",
-      "#TILL",
-      "ERASE",
-      "LINE#",
-      "MOO##"
+      "#BIAS",
+      "CLASH",
+      "AUNT#",
+      "PRO##"
     ],
     "seeded": [
       {

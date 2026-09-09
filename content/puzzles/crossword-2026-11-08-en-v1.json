@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Public transport vehicle"
+          "clue": "Forbid"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Far above the ground"
+          "clue": "What a clock shows"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Thick wire"
+          "clue": "Path around a planet"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Friendly nation"
+          "clue": "Fuse"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Misery"
+          "clue": "Sheltered side"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Unpleasant to look at"
+          "clue": "Surrounded by"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "That girl"
+          "clue": "Goal's back"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Ring over an angel's head"
+          "clue": "Oak or elm"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Rook's call"
+          "clue": "Wise bird"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BUS",
-      "#HIGH",
-      "CABLE",
-      "ALLY#",
-      "WOE##"
+      "##BAN",
+      "#TIME",
+      "ORBIT",
+      "WELD#",
+      "LEE##"
     ],
     "seeded": [
       {

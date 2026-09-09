@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Pod's content"
+          "clue": "Letter before omega"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Top up"
+          "clue": "Phone's turning ring"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Delete"
+          "clue": "Track left behind"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Shade of colour"
+          "clue": "Clock pointer"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "The self"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Stated"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Pub pint"
+          "clue": "Sick"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Croaking amphibian"
+          "clue": "Pull along the ground"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Letter after zeta"
+          "clue": "Definite article"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PEA",
-      "#FILL",
-      "ERASE",
-      "TONE#",
-      "AGO##"
+      "##PSI",
+      "#DIAL",
+      "TRAIL",
+      "HAND#",
+      "EGO##"
     ],
     "seeded": [
       {

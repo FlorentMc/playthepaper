@@ -44,14 +44,14 @@
       "quiz:2",
       "word"
     ],
-    "technology-1-chip": [
-      "quiz:3",
-      "quiz:4",
-      "letters"
-    ],
     "technology-1-canal": [
+      "quiz:3"
+    ],
+    "technology-1-chip": [
+      "quiz:4",
       "quiz:5",
-      "crossword:1 Down"
+      "letters",
+      "crossword:4 Across"
     ]
   }
 }

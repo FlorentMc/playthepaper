@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,36 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Used to be"
+          "clue": "Boy"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "The 4004 squeezed a whole CPU onto a single one",
-          "storyId": "technology-1-chip"
+          "col": 2,
+          "length": 3,
+          "clue": "Poem of praise"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Temperamental"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "___ of Wight"
+          "clue": "Cured pork"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Boat built for two of every animal"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Change the colour of fabric"
+          "clue": "Word of agreement"
         }
       ],
       "down": [
@@ -60,35 +59,36 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Entire"
+          "clue": "They lift ships 26 metres up to Gatun Lake",
+          "storyId": "technology-1-canal"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Assistant"
+          "length": 3,
+          "clue": "Fuss"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Secret agent"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Warm and comfortable"
+          "clue": "Lion's home"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "___-air"
+          "clue": "Horse's reddish-brown colour"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Exist, in the present tense"
         }
       ]
     },
@@ -96,19 +96,19 @@
   },
   "reveal": {
     "solution": [
-      "##WAS",
-      "#CHIP",
-      "MOODY",
-      "ISLE#",
-      "DYE##"
+      "##LAD",
+      "##ODE",
+      "BACON",
+      "ARK##",
+      "YES##"
     ],
     "seeded": [
       {
-        "label": "4 Across",
-        "storyId": "technology-1-chip",
-        "excerpt": "The 4-bit 4004 CPU was the first significant commercial example of large-scale integration, using the abilities of the MOS silicon gate technology (SGT) to integrate the CPU into a single chip."
+        "label": "1 Down",
+        "storyId": "technology-1-canal",
+        "excerpt": "Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal."
       }
     ]
   },
-  "storyId": "technology-1-chip"
+  "storyId": "technology-1-canal"
 }

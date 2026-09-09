@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "#....",
+      "##...",
       ".....",
-      "....#",
+      "...##",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Argument in favour"
+          "clue": "Letter after upsilon"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Let fall"
+          "col": 2,
+          "length": 3,
+          "clue": "Jog quickly"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Joint below the hand"
-        },
-        {
-          "number": 6,
-          "row": 3,
-          "col": 0,
-          "length": 4,
-          "clue": "Misty"
+          "clue": "Being from another planet"
         },
         {
           "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Tasselled hat"
+        },
+        {
+          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Golf ball's perch"
         }
       ],
       "down": [
@@ -66,29 +66,29 @@
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 4,
-          "clue": "Optimistic"
+          "length": 3,
+          "clue": "Tint"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Decide to"
-        },
-        {
-          "number": 4,
-          "row": 1,
-          "col": 1,
-          "length": 4,
-          "clue": "Sketch"
+          "clue": "Roadside lodging"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Which person"
+          "clue": "Towards the stern"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Sheltered side"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PRO",
-      "#DROP",
-      "WRIST",
-      "HAZY#",
-      "OWE##"
+      "##PHI",
+      "##RUN",
+      "ALIEN",
+      "FEZ##",
+      "TEE##"
     ],
     "seeded": [
       {

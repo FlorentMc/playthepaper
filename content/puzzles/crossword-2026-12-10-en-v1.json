@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Seal's baby"
+          "clue": "Seat in a chapel"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Evergreen with cones"
+          "clue": "Folder for documents"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Struck down"
+          "clue": "Delete"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Search for game"
+          "clue": "Quality of a sound"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "The self"
+          "clue": "Long ___"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Measurement standard"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Writing tool"
+          "clue": "Tiny, in Scotland"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Bath stopper"
+          "clue": "Pond hopper"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Greek letter"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PUP",
-      "#PINE",
-      "SLAIN",
-      "HUNT#",
-      "EGO##"
+      "##PEW",
+      "#FILE",
+      "ERASE",
+      "TONE#",
+      "AGO##"
     ],
     "seeded": [
       {

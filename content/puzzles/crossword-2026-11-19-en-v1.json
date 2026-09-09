@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Letter after upsilon"
+          "clue": "Below ___: not up to scratch"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Charged particle"
+          "clue": "Slippery in winter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Past participle of draw"
+          "clue": "Flat fish"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Yang's counterpart"
+          "clue": "Ink holder"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sense of self-importance"
+          "clue": "In the past"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "___ are you?"
+          "clue": "Perform on stage"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Small hotel"
+          "clue": "Bread grain"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Resort with hot springs"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Oil platform"
+          "clue": "Beer barrel"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PHI",
-      "##ION",
-      "DRAWN",
-      "YIN##",
-      "EGO##"
+      "##PAR",
+      "##ICY",
+      "SKATE",
+      "PEN##",
+      "AGO##"
     ],
     "seeded": [
       {

@@ -41,17 +41,17 @@
   "seeds": {
     "nature-1-whale": [
       "quiz:1",
-      "quiz:2",
+      "quiz:5",
       "crossword:1 Down",
       "crossword:5 Across"
     ],
     "nature-1-falls": [
-      "quiz:3",
+      "quiz:2",
       "quiz:4",
       "letters"
     ],
     "nature-1-galapagos": [
-      "quiz:5",
+      "quiz:3",
       "word"
     ]
   }

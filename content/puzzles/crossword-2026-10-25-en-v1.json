@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Recycling ___"
+          "clue": "Item of lingerie"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Helper"
+          "clue": "Jetty"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bend in the arm"
+          "clue": "Honourable"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Row of shops under one roof"
+          "clue": "No more than"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Put to work"
+          "clue": "Change the colour of fabric"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Object of worship"
+          "clue": "Depend"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Just made"
+          "clue": "___ you ready?"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Cry of woe"
+          "clue": "Shetland animal"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Australian bird that cannot fly"
+          "clue": "Head bob"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BIN",
-      "#AIDE",
-      "ELBOW",
-      "MALL#",
-      "USE##"
+      "##BRA",
+      "#PIER",
+      "NOBLE",
+      "ONLY#",
+      "DYE##"
     ],
     "seeded": [
       {

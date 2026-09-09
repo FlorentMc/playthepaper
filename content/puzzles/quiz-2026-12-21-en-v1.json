@@ -8,6 +8,7 @@
   "payload": {
     "questions": [
       {
+        "lead": "The blue whale is the largest animal known ever to have existed; the longest one scientifically measured was 29.9 metres from snout to tail. One stranded in the North Atlantic gave scientists a rare chance to weigh its heart.",
         "prompt": "How much did the heart of a stranded North Atlantic blue whale weigh?",
         "options": [
           "18 kg",
@@ -15,19 +16,11 @@
           "1,800 kg",
           "18,000 kg"
         ],
+        "level": "easy",
         "storyId": "nature-1-whale"
       },
       {
-        "prompt": "In which year did the International Whaling Commission ban all blue whale hunting?",
-        "options": [
-          "1946",
-          "1966",
-          "1986",
-          "2006"
-        ],
-        "storyId": "nature-1-whale"
-      },
-      {
+        "lead": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site in the Gran Sabana region.",
         "prompt": "How tall is Angel Falls?",
         "options": [
           "79 metres",
@@ -35,19 +28,11 @@
           "979 metres",
           "1,979 metres"
         ],
+        "level": "easy",
         "storyId": "nature-1-falls"
       },
       {
-        "prompt": "How long is the single uninterrupted plunge of Angel Falls?",
-        "options": [
-          "307 metres",
-          "507 metres",
-          "807 metres",
-          "979 metres"
-        ],
-        "storyId": "nature-1-falls"
-      },
-      {
+        "lead": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, straddling the equator about 900 km west of the South American mainland. HMS Beagle called there on its second voyage, a British survey of the coasts of South America, with the young naturalist Charles Darwin aboard.",
         "prompt": "In which year did HMS Beagle reach the Galápagos Islands?",
         "options": [
           "1815",
@@ -55,7 +40,32 @@
           "1835",
           "1845"
         ],
+        "level": "easy",
         "storyId": "nature-1-galapagos"
+      },
+      {
+        "lead": "Angel Falls in Venezuela is 979 metres high, the world's tallest uninterrupted waterfall. Most of that height is a single plunge over the edge of the Auyán-tepui mountain; the rest is made up of sloped cascade and rapids below the drop and a smaller plunge further downstream.",
+        "prompt": "How long is the single uninterrupted plunge of Angel Falls?",
+        "options": [
+          "307 metres",
+          "507 metres",
+          "807 metres",
+          "979 metres"
+        ],
+        "level": "medium",
+        "storyId": "nature-1-falls"
+      },
+      {
+        "lead": "The blue whale, the largest animal known ever to have existed, was hunted almost to extinction by whalers. The hunting only stopped when the International Whaling Commission banned it altogether.",
+        "prompt": "In which year did the International Whaling Commission ban all blue whale hunting?",
+        "options": [
+          "1946",
+          "1966",
+          "1986",
+          "2006"
+        ],
+        "level": "hard",
+        "storyId": "nature-1-whale"
       }
     ],
     "wagerQuestion": 4
@@ -63,17 +73,17 @@
   "reveal": {
     "answers": [
       1,
-      1,
       2,
       2,
-      2
+      2,
+      1
     ],
     "explanations": [
       "The heart of a stranded North Atlantic blue whale weighed 180 kg, the largest known in any animal. Its beat can slow to two a minute when the whale dives deep.",
-      "The International Whaling Commission banned all blue whale hunting in 1966, after whalers had hunted the species almost to extinction. Blue whales remain the largest animals known ever to have existed.",
       "Angel Falls is 979 metres high, which makes it the world's tallest uninterrupted waterfall. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park.",
+      "HMS Beagle reached the Galápagos on 15 September 1835. The young naturalist Charles Darwin was aboard, and the volcanic landscape struck him so much that he later called the archipelago \"that land of craters\".",
       "The single uninterrupted plunge is 807 metres. The rest of the 979-metre height is made up of about 400 metres of sloped cascade and rapids and a 30-metre plunge further downstream.",
-      "HMS Beagle reached the Galápagos on 15 September 1835. The young naturalist Charles Darwin was aboard, and the volcanic landscape struck him so much that he later called the archipelago \"that land of craters\"."
+      "The International Whaling Commission banned all blue whale hunting in 1966, after whalers had hunted the species almost to extinction. Blue whales remain the largest animals known ever to have existed."
     ]
   },
   "sources": [

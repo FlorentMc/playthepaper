@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Friend"
+          "clue": "Place"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "What a clock shows"
+          "clue": "Parking ticket penalty"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Wait for"
+          "clue": "Killed"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Moving air"
+          "clue": "Breathe hard"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sense of self-importance"
+          "clue": "In the past"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "In the middle of"
+          "clue": "Single item"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Permit"
+          "clue": "Decade's count"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Thin shoot"
+          "clue": "National banner"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Feeling before a grand view"
+          "clue": "Place for a massage"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PAL",
-      "#TIME",
-      "AWAIT",
-      "WIND#",
-      "EGO##"
+      "##PUT",
+      "#FINE",
+      "SLAIN",
+      "PANT#",
+      "AGO##"
     ],
     "seeded": [
       {

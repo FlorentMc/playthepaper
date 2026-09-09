@@ -41,16 +41,16 @@
   "seeds": {
     "everyday-1-pencil": [
       "quiz:1",
-      "quiz:2",
+      "quiz:5",
       "word"
     ],
     "everyday-1-dominoes": [
+      "quiz:2",
       "quiz:3",
-      "quiz:4",
       "letters"
     ],
     "everyday-1-greenwich": [
-      "quiz:5",
+      "quiz:4",
       "crossword:3 Down"
     ]
   }

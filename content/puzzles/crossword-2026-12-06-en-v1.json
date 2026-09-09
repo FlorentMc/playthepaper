@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Official prohibition"
+          "clue": "Double-decker, for example"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Building plot"
+          "clue": "Sound of relief"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Bend in the arm"
+          "clue": "Television via a wire"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Soothing ointment"
+          "clue": "Sole"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Farewell"
+          "clue": "Poem of praise"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Smallest unit of an element"
+          "clue": "Unattractive"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Brand ___"
+          "clue": "That girl"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Kill, as a dragon"
+          "clue": "Beach grains"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Decline"
+          "clue": "Dove's call"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BAN",
-      "#SITE",
-      "ELBOW",
-      "BALM#",
-      "BYE##"
+      "##BUS",
+      "#SIGH",
+      "CABLE",
+      "ONLY#",
+      "ODE##"
     ],
     "seeded": [
       {

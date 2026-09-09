@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Friend"
+          "clue": "Stack of paper for notes"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Frozen water"
+          "clue": "Slippery in winter"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Flat dish for food"
+          "clue": "Declare"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Charged particle"
+          "clue": "Possess"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Sticky stuff"
+          "clue": "Court"
         }
       ],
       "down": [
@@ -74,21 +74,21 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Side away from the wind"
+          "clue": "Change the colour of fabric"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Farm animal that oinks"
+          "clue": "Plant seeds"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "The lavatory"
+          "clue": "Number of wheels on a bike"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PAL",
-      "##ICE",
-      "PLATE",
-      "ION##",
-      "GOO##"
+      "##PAD",
+      "##ICY",
+      "STATE",
+      "OWN##",
+      "WOO##"
     ],
     "seeded": [
       {

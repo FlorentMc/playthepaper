@@ -238,6 +238,8 @@ void main() {
       expect(store.isCompleted(id), isFalse);
 
       await finish(tester);
+      await pumpUntil(tester, () => find.text('Every word').evaluate().isNotEmpty, reason: 'result screen shown');
+      await settle(tester);
 
       final result = store.result(id)!;
       expect(result.points, 19);

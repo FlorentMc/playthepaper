@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "To and ___"
+          "clue": "Gave food to"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Not high"
+          "clue": "Hawaiian garland"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Perhaps"
+          "clue": "Fashion"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Grow older"
+          "clue": "Need to pay back"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Rocky hilltop"
+          "clue": "Neither's partner"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Steal from"
+          "clue": "Snake-like fish"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Cube with spots"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Yoga ___"
+          "clue": "Parent's boy"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Number of wheels on a bike"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##FRO",
-      "##LOW",
-      "MAYBE",
-      "AGE##",
-      "TOR##"
+      "##FED",
+      "##LEI",
+      "STYLE",
+      "OWE##",
+      "NOR##"
     ],
     "seeded": [
       {

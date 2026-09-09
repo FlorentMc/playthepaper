@@ -50,7 +50,7 @@
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Golf ball's perch"
+          "clue": "Neckwear for a suit"
         }
       ],
       "down": [
@@ -88,7 +88,7 @@
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Side away from the wind"
+          "clue": "Necklace of flowers"
         }
       ]
     },
@@ -100,7 +100,7 @@
       "##RED",
       "OLIVE",
       "FEZ##",
-      "TEE##"
+      "TIE##"
     ],
     "seeded": [
       {

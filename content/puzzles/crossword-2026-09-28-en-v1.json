@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Tie the knot"
+          "clue": "Sorrow"
         },
         {
           "number": 4,
@@ -36,21 +36,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Gaze"
+          "clue": "Flat fish"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Mate"
+          "clue": "Slippery swimmer"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Tool for chopping logs"
+          "clue": "Grow older"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Corn unit"
+          "clue": "Grain in muesli"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Seeing organ"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Resort with hot springs"
+          "clue": "Ocean"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Income ___"
+          "clue": "Small cask"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WED",
+      "##WOE",
       "##HAY",
-      "STARE",
-      "PAL##",
-      "AXE##"
+      "SKATE",
+      "EEL##",
+      "AGE##"
     ],
     "seeded": [
       {

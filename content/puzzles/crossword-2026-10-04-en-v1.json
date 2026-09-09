@@ -36,21 +36,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Try to influence politicians"
+          "clue": "Leisure activity"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Capable"
+          "clue": "Small island"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Tiny, in Scotland"
+          "clue": "Look at"
         }
       ],
       "down": [
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Part of the ear"
+          "clue": "Fail to win"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Rule of the land"
+          "clue": "Belonging to that man"
         }
       ]
     },
@@ -98,9 +98,9 @@
     "solution": [
       "##BRA",
       "#LION",
-      "LOBBY",
-      "ABLE#",
-      "WEE##"
+      "HOBBY",
+      "ISLE#",
+      "SEE##"
     ],
     "seeded": [
       {

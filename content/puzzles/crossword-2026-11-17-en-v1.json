@@ -22,14 +22,14 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Stake money on a horse"
+          "clue": "Get with money"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Pigeon's cousin"
+          "clue": "Portion of a drug"
         },
         {
           "number": 5,
@@ -43,7 +43,7 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Finished"
+          "clue": "At any time"
         },
         {
           "number": 7,
@@ -67,14 +67,14 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "At any time"
+          "clue": "One who operates a device"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Number of fingers"
+          "clue": "Japanese currency"
         },
         {
           "number": 4,
@@ -88,7 +88,7 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Piece of firewood"
+          "clue": "Limb with a knee"
         }
       ]
     },
@@ -96,10 +96,10 @@
   },
   "reveal": {
     "solution": [
-      "##BET",
-      "#DOVE",
+      "##BUY",
+      "#DOSE",
       "LINEN",
-      "OVER#",
+      "EVER#",
       "GAS##"
     ],
     "seeded": [

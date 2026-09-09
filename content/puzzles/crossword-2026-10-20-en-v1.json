@@ -29,28 +29,28 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Rise sharply"
+          "clue": "Complain"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Alarm"
+          "clue": "One cent"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Elderly"
+          "clue": "Look for"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Used to be"
+          "clue": "Belonging to that thing"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Surprise attack"
+          "clue": "Position in a hierarchy"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Part of a circle"
+          "clue": "___ time now"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Long story"
+          "clue": "Come together"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Dog's foot"
+          "clue": "Greek letter"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "##BRA",
-      "#SOAR",
-      "PANIC",
-      "AGED#",
-      "WAS##"
+      "#MOAN",
+      "PENNY",
+      "SEEK#",
+      "ITS##"
     ],
     "seeded": [
       {

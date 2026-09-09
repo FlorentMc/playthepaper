@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Fruit seed"
+          "clue": "Seat in a chapel"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Helper"
+          "clue": "Bathroom wall piece"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Top of the head"
+          "clue": "Delete"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Evergreen with cones"
+          "clue": "Queue"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Much ___ About Nothing"
+          "clue": "Sound from a dairy herd"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Lazy"
+          "clue": "Otherwise"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Liveliness"
+          "clue": "Small, north of the border"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Vinegar's sour component"
+          "clue": "Threesome"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Resort with hot springs"
+          "clue": "Tall shade tree"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PIP",
-      "#AIDE",
-      "SCALP",
-      "PINE#",
-      "ADO##"
+      "##PEW",
+      "#TILE",
+      "ERASE",
+      "LINE#",
+      "MOO##"
     ],
     "seeded": [
       {

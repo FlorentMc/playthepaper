@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Parking area"
+          "clue": "Not many"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Rowing blade"
+          "clue": "Sheltered side"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Fortunate"
+          "clue": "Fashion"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Request"
+          "clue": "Weeding tool"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Word of agreement"
+          "clue": "Be wrong"
         }
       ],
       "down": [
@@ -59,36 +59,36 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "They lift ships 26 metres up to Gatun Lake",
-          "storyId": "technology-1-canal"
+          "clue": "Wright ___, the aircraft of 17 December 1903",
+          "storyId": "technology-1-flyer"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Acorn tree"
+          "clue": "Snake-like fish"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Attempt"
+          "clue": "Tiny, in Scotland"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Put down"
+          "clue": "Woman's pronoun"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Employ"
+          "clue": "Rocky hilltop"
         }
       ]
     },
@@ -96,19 +96,19 @@
   },
   "reveal": {
     "solution": [
-      "##LOT",
-      "##OAR",
-      "LUCKY",
-      "ASK##",
-      "YES##"
+      "##FEW",
+      "##LEE",
+      "STYLE",
+      "HOE##",
+      "ERR##"
     ],
     "seeded": [
       {
         "label": "1 Down",
-        "storyId": "technology-1-canal",
-        "excerpt": "Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal."
+        "storyId": "technology-1-flyer",
+        "excerpt": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903."
       }
     ]
   },
-  "storyId": "technology-1-canal"
+  "storyId": "technology-1-flyer"
 }

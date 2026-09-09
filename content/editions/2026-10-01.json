@@ -41,12 +41,12 @@
   "seeds": {
     "culture-1-monalisa": [
       "quiz:1",
-      "quiz:2",
+      "quiz:4",
       "letters"
     ],
     "culture-1-piano": [
+      "quiz:2",
       "quiz:3",
-      "quiz:4",
       "crossword:1 Down"
     ],
     "culture-1-tajmahal": [

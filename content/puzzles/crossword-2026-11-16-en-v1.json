@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Court"
+          "clue": "Dryly humorous"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Bone below the knee"
+          "clue": "It has laces or a buckle"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "No longer fresh"
+          "clue": "Cook in the oven"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Blessed"
+          "clue": "Friendly nation"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Ram's mate"
+          "clue": "Sorrow"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Greasy"
+          "clue": "Pink"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Single"
+          "clue": "Up to now"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Store on a ship"
+          "clue": "Unaccompanied"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Woman's pronoun"
+          "clue": "Uncooked"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WOO",
-      "#SHIN",
-      "STALE",
-      "HOLY#",
-      "EWE##"
+      "##WRY",
+      "#SHOE",
+      "ROAST",
+      "ALLY#",
+      "WOE##"
     ],
     "seeded": [
       {

@@ -44,14 +44,14 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Tortoise's rival"
+          "clue": "___ the Herald Angels Sing"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Little devil"
+          "clue": "Pen filler"
         }
       ],
       "down": [
@@ -60,14 +60,14 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Keen-edged"
+          "clue": "Ocean predator with rows of teeth"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Evergreen with cones"
+          "clue": "Colour of flamingos"
         },
         {
           "number": 3,
@@ -81,7 +81,7 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Shellfish"
+          "clue": "Scottish family group"
         },
         {
           "number": 5,
@@ -99,8 +99,8 @@
       "##SPA",
       "#CHIP",
       "PLANT",
-      "HARE#",
-      "IMP##"
+      "HARK#",
+      "INK##"
     ],
     "seeded": [
       {

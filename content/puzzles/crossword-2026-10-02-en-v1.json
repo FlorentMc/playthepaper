@@ -22,21 +22,21 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "Mischievous sprite"
+          "clue": "Liveliness"
         },
         {
           "number": 4,
           "row": 1,
           "col": 0,
           "length": 3,
-          "clue": "Rocky hilltop"
+          "clue": "Rowing blade"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Fast"
+          "clue": "Float along"
         },
         {
           "number": 8,
@@ -50,7 +50,7 @@
           "row": 4,
           "col": 2,
           "length": 3,
-          "clue": "The self"
+          "clue": "Be wrong"
         }
       ],
       "down": [
@@ -59,14 +59,14 @@
           "row": 0,
           "col": 0,
           "length": 3,
-          "clue": "The dog wagged ___ tail"
+          "clue": "Whale group"
         },
         {
           "number": 2,
           "row": 0,
           "col": 1,
           "length": 3,
-          "clue": "Cut the grass"
+          "clue": "Hearing organ"
         },
         {
           "number": 3,
@@ -81,14 +81,14 @@
           "row": 2,
           "col": 3,
           "length": 3,
-          "clue": "Thick mist"
+          "clue": "In favour of"
         },
         {
           "number": 7,
           "row": 2,
           "col": 4,
           "length": 3,
-          "clue": "Excessively"
+          "clue": "Dartmoor landmark"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "IMP##",
-      "TOR##",
-      "SWIFT",
+      "PEP##",
+      "OAR##",
+      "DRIFT",
       "##ZOO",
-      "##EGO"
+      "##ERR"
     ],
     "seeded": [
       {

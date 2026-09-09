@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Argument in favour"
         },
         {
           "number": 4,
@@ -37,21 +37,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Sharp end"
+          "clue": "Long handle"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Desert surface"
+          "clue": "Compass point opposite west"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Kind"
+          "clue": "Gorilla or chimp"
         }
       ],
       "down": [
@@ -60,14 +60,14 @@
           "row": 0,
           "col": 2,
           "length": 5,
-          "clue": "Ponder"
+          "clue": "Moon's shape"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Moving air"
+          "clue": "Split"
         },
         {
           "number": 3,
@@ -81,14 +81,14 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Fire's black lumps"
+          "clue": "Bloke"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Letter before omega"
+          "clue": "Salt water expanse"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##TWO",
+      "##PRO",
       "#CHIP",
-      "POINT",
-      "SAND#",
-      "ILK##"
+      "SHAFT",
+      "EAST#",
+      "APE##"
     ],
     "seeded": [
       {

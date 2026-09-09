@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Impress greatly"
+          "clue": "Marry"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Shade of colour"
+          "clue": "Dried grass for horses"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Into pieces"
+          "clue": "Backup tyre"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Hair styler"
+          "clue": "Friend"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Miner's find"
+          "clue": "Feeling before a grand view"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "___ house"
+          "clue": "Corn unit"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Not dry"
+          "clue": "Hair colouring"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "In the past"
+          "clue": "Resort with hot springs"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "For each"
+          "clue": "Dog's foot"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WOW",
-      "##HUE",
-      "APART",
-      "GEL##",
-      "ORE##"
+      "##WED",
+      "##HAY",
+      "SPARE",
+      "PAL##",
+      "AWE##"
     ],
     "seeded": [
       {

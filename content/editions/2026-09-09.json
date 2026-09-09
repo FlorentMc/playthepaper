@@ -2,15 +2,15 @@
   "date": "2026-09-09",
   "kind": "news",
   "label": "Today",
-  "version": 3,
+  "version": 1,
   "puzzles": [
-    "word-2026-09-09-en-v3",
+    "word-2026-09-09-en-v1",
     "sudoku-2026-09-09-en-easy-v1",
     "sudoku-2026-09-09-en-medium-v1",
     "sudoku-2026-09-09-en-hard-v1",
-    "letters-2026-09-09-en-v3",
-    "crossword-2026-09-09-en-v3",
-    "quiz-2026-09-09-en-v3"
+    "letters-2026-09-09-en-v1",
+    "crossword-2026-09-09-en-v1",
+    "quiz-2026-09-09-en-v1"
   ],
   "stories": [
     {
@@ -65,5 +65,5 @@
       "letters"
     ]
   },
-  "publishedAt": "2026-09-09T15:28:25.364825Z"
+  "publishedAt": "2026-09-09T15:35:09.573854Z"
 }

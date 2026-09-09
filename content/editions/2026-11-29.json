@@ -41,13 +41,13 @@
   "seeds": {
     "history-1-gutenberg": [
       "quiz:1",
-      "quiz:2",
+      "quiz:4",
       "letters",
       "crossword:1 Down"
     ],
     "history-1-pyramid": [
+      "quiz:2",
       "quiz:3",
-      "quiz:4",
       "word"
     ],
     "history-1-machu": [

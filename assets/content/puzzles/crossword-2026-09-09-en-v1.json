@@ -1,9 +1,9 @@
 {
-  "id": "crossword-2026-09-09-en-v2",
+  "id": "crossword-2026-09-09-en-v1",
   "game": "crossword",
   "editionDate": "2026-09-09",
   "locale": "en-GB",
-  "contentVersion": 2,
+  "contentVersion": 1,
   "scoringVersion": 1,
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
@@ -22,36 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Sewn edge"
+          "clue": "___ are you?"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Saturn has a geometric cloud pattern at each of these",
-          "storyId": "2026-09-09-1"
+          "clue": "Used up"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Raise a glass to"
+          "clue": "Follow the outline of"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Had on"
+          "clue": "Thin metal strand"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Aged"
+          "clue": "Strange"
         }
       ],
       "down": [
@@ -61,28 +60,29 @@
           "col": 2,
           "length": 5,
           "clue": "Buried treasure, like the Viking silver found at Rebild",
-          "storyId": "2026-09-09-2"
+          "storyId": "2026-09-09-3"
         },
         {
           "number": 2,
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Otherwise"
+          "clue": "Formerly"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Came together"
+          "clue": "Tiny, in Scotland"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Billiards' cousin"
+          "clue": "Antonelli won at Monza from nineteenth place on this",
+          "storyId": "2026-09-09-1"
         },
         {
           "number": 5,
@@ -97,24 +97,24 @@
   },
   "reveal": {
     "solution": [
-      "##HEM",
-      "#POLE",
-      "TOAST",
-      "WORE#",
-      "OLD##"
+      "##HOW",
+      "#GONE",
+      "TRACE",
+      "WIRE#",
+      "ODD##"
     ],
     "seeded": [
       {
         "label": "1 Down",
-        "storyId": "2026-09-09-2",
+        "storyId": "2026-09-09-3",
         "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
       },
       {
-        "label": "4 Across",
+        "label": "4 Down",
         "storyId": "2026-09-09-1",
-        "excerpt": "Saturn's North Pole has been known to be surrounded by a hexagonal (6 sides) cloud since discovery in 1987 in data taken by NASA's Voyager spacecrafts, which quickly flew past the ringed world in the early 1980s."
+        "excerpt": "Kimi Antonelli (Mercedes) won from nineteenth position on the grid."
       }
     ]
   },
-  "storyId": "2026-09-09-2"
+  "storyId": "2026-09-09-3"
 }

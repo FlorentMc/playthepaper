@@ -43,14 +43,14 @@
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Years lived"
+          "clue": "Be in debt"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Neither's partner"
+          "clue": "For each"
         }
       ],
       "down": [
@@ -81,14 +81,14 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Grown-up boy"
+          "clue": "Wipe the floor"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Feeling before a grand view"
         }
       ]
     },
@@ -99,8 +99,8 @@
       "##FRO",
       "##LID",
       "MAYBE",
-      "AGE##",
-      "NOR##"
+      "OWE##",
+      "PER##"
     ],
     "seeded": [
       {

@@ -1,9 +1,9 @@
 {
-  "id": "quiz-2026-09-09-en-v3",
+  "id": "quiz-2026-09-09-en-v1",
   "game": "quiz",
   "editionDate": "2026-09-09",
   "locale": "en-GB",
-  "contentVersion": 3,
+  "contentVersion": 1,
   "scoringVersion": 1,
   "payload": {
     "questions": [

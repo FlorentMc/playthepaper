@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Place to order a drink"
+          "clue": "Scoffing exclamation"
         },
         {
           "number": 4,
@@ -36,21 +36,21 @@
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Ruled, as paper"
+          "clue": "Pit worker"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Divisible by two"
+          "clue": "Baking appliance"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Cooker fuel"
+          "clue": "Past of is"
         }
       ],
       "down": [
@@ -74,7 +74,7 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Colour of ripe tomatoes"
+          "clue": "___ and him"
         },
         {
           "number": 4,
@@ -88,7 +88,7 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Limb with a knee"
+          "clue": "Cut the grass"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BAR",
+      "##BAH",
       "#DOME",
-      "LINED",
-      "EVEN#",
-      "GAS##"
+      "MINER",
+      "OVEN#",
+      "WAS##"
     ],
     "seeded": [
       {

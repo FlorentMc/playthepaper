@@ -8,14 +8,14 @@
   "dictionaryVersion": "enable1-2026-09",
   "payload": {
     "length": 6,
-    "firstLetter": "F",
+    "firstLetter": "S",
     "maxGuesses": 6,
-    "teaser": "Today's word comes from a story about two brothers who got off the ground."
+    "teaser": "Today's word comes from a story about something found under a garden in Denmark."
   },
   "reveal": {
-    "answer": "FLIGHT",
-    "storyId": "technology-1-flyer",
-    "excerpt": "The cradle pulled wires to warp the wings, and simultaneously turn the rudder, for coordinated flight."
+    "answer": "SILVER",
+    "storyId": "2026-09-09-3",
+    "excerpt": "Located in the municipality of Rebild, the backyard revealed the largest hoard of Viking silver ever discovered in Denmark."
   },
-  "storyId": "technology-1-flyer"
+  "storyId": "2026-09-09-3"
 }

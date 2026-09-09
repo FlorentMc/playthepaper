@@ -43,14 +43,14 @@
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Atom that has lost or gained an electron"
+          "clue": "Shallow cooking vessel"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Number of wheels on a bike"
+          "clue": "Much ___ About Nothing"
         }
       ],
       "down": [
@@ -81,14 +81,14 @@
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Take a seat"
+          "clue": "Resort with hot springs"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "In what way"
+          "clue": "Owned"
         }
       ]
     },
@@ -99,8 +99,8 @@
       "##PEA",
       "##INN",
       "SHADY",
-      "ION##",
-      "TWO##"
+      "PAN##",
+      "ADO##"
     ],
     "seeded": [
       {

@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Past of win"
+          "clue": "Past of is"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Tint"
+          "clue": "Trendy"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Into pieces"
+          "clue": "Suspicious"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Unwell"
+          "clue": "Slippery swimmer"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Bread grain"
+          "clue": "Woodcutter's tool"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "___ house"
+          "clue": "First ___ kit"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Fishing mesh"
+          "clue": "Secret agent"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "What we breathe"
+          "clue": "Ocean"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Work at, as a trade"
+          "clue": "Evil spell"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##WON",
-      "##HUE",
-      "APART",
-      "ILL##",
-      "RYE##"
+      "##WAS",
+      "##HIP",
+      "SHADY",
+      "EEL##",
+      "AXE##"
     ],
     "seeded": [
       {

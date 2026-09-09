@@ -29,7 +29,7 @@
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Pull along the ground"
+          "clue": "Snare"
         },
         {
           "number": 5,
@@ -43,14 +43,14 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Look steadily"
+          "clue": "Small, medium or large"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Be in debt"
+          "clue": "Garden tool for weeds"
         }
       ],
       "down": [
@@ -74,21 +74,21 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Years lived"
+          "clue": "Gorilla or chimp"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Tie in a match"
+          "clue": "Threesome"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Long ___"
+          "clue": "Cigarette leftover"
         }
       ]
     },
@@ -97,10 +97,10 @@
   "reveal": {
     "solution": [
       "##PEA",
-      "#DRAG",
+      "#TRAP",
       "ARISE",
-      "GAZE#",
-      "OWE##"
+      "SIZE#",
+      "HOE##"
     ],
     "seeded": [
       {

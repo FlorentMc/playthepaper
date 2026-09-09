@@ -10,9 +10,9 @@
     "size": 5,
     "grid": [
       "##...",
-      "##...",
+      "#....",
       ".....",
-      "...##",
+      "....#",
       "...##"
     ],
     "clues": {
@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Fizzy drink"
+          "clue": "Be nosy"
         },
         {
           "number": 4,
           "row": 1,
-          "col": 2,
-          "length": 3,
-          "clue": "Regret"
+          "col": 1,
+          "length": 4,
+          "clue": "Costing nothing"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Play at romance"
+          "clue": "False name"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Slightly wet"
         },
         {
           "number": 7,
-          "row": 3,
-          "col": 0,
-          "length": 3,
-          "clue": "Point a bow or a camera"
-        },
-        {
-          "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Golf ball's perch"
+          "clue": "Be in debt"
         }
       ],
       "down": [
@@ -66,29 +66,29 @@
           "number": 2,
           "row": 0,
           "col": 3,
-          "length": 3,
-          "clue": "Belonging to us"
+          "length": 4,
+          "clue": "Harvest"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Animal kept at home"
+          "clue": "Word of agreement"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Defect"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Butter is mostly this"
-        },
-        {
-          "number": 6,
-          "row": 2,
-          "col": 1,
-          "length": 3,
-          "clue": "Untruth"
+          "clue": "Fuss"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##POP",
-      "##RUE",
-      "FLIRT",
-      "AIM##",
-      "TEE##"
+      "##PRY",
+      "#FREE",
+      "ALIAS",
+      "DAMP#",
+      "OWE##"
     ],
     "seeded": [
       {

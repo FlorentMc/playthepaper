@@ -22,28 +22,28 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Ink holder"
+          "clue": "Tent fastener"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Ocean's rise and fall"
+          "clue": "Left or right"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Wait for"
+          "clue": "Shelled crawler"
         },
         {
           "number": 6,
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Pub measure"
+          "clue": "Search for game"
         },
         {
           "number": 7,
@@ -74,21 +74,21 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Goal's back"
+          "clue": "Set into a jelly"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Thin shoot"
+          "clue": "Tight-fitting"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Gorilla or chimp"
+          "clue": "Woman's pronoun"
         }
       ]
     },
@@ -96,10 +96,10 @@
   },
   "reveal": {
     "solution": [
-      "##PEN",
-      "#TIDE",
-      "AWAIT",
-      "PINT#",
+      "##PEG",
+      "#SIDE",
+      "SNAIL",
+      "HUNT#",
       "EGO##"
     ],
     "seeded": [

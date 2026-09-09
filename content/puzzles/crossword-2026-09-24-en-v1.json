@@ -22,21 +22,21 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Cushion"
+          "clue": "Mate"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Slippery in winter"
+          "clue": "Frozen water"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Dinner dish"
+          "clue": "Roofing stone"
         },
         {
           "number": 7,
@@ -74,14 +74,14 @@
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Hair colouring"
+          "clue": "Sheltered side"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Cherry stone"
+          "clue": "Take a seat"
         },
         {
           "number": 6,
@@ -96,9 +96,9 @@
   },
   "reveal": {
     "solution": [
-      "##PAD",
-      "##ICY",
-      "PLATE",
+      "##PAL",
+      "##ICE",
+      "SLATE",
       "ION##",
       "TOO##"
     ],

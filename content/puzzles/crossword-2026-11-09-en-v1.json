@@ -22,7 +22,7 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Dryly humorous"
+          "clue": "Question of reason"
         },
         {
           "number": 4,
@@ -67,7 +67,7 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Got up"
+          "clue": "Firefighter's tube"
         },
         {
           "number": 3,
@@ -96,7 +96,7 @@
   },
   "reveal": {
     "solution": [
-      "##WRY",
+      "##WHY",
       "#SHOE",
       "BLAST",
       "RULE#",

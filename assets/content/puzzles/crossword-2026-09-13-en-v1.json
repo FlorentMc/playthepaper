@@ -22,14 +22,14 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Auction offer"
+          "clue": "Forbid"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Left or right"
+          "clue": "Location"
         },
         {
           "number": 5,
@@ -43,14 +43,14 @@
           "row": 3,
           "col": 0,
           "length": 4,
-          "clue": "Bridge fee"
+          "clue": "Soothing ointment"
         },
         {
           "number": 7,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Wonder and amazement"
+          "clue": "Farewell"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 4,
-          "clue": "Pop star, to fans"
+          "clue": "Tiny particle"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Morning moisture on grass"
+          "clue": "Just made"
         },
         {
           "number": 4,
           "row": 1,
           "col": 1,
           "length": 4,
-          "clue": "Taking a long time"
+          "clue": "Put to death"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Letter after zeta"
+          "clue": "Decline"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##BID",
-      "#SIDE",
+      "##BAN",
+      "#SITE",
       "ELBOW",
-      "TOLL#",
-      "AWE##"
+      "BALM#",
+      "BYE##"
     ],
     "seeded": [
       {

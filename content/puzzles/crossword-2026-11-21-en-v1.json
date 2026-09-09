@@ -22,35 +22,35 @@
           "row": 0,
           "col": 2,
           "length": 3,
-          "clue": "Letter before omega"
+          "clue": "Fruit seed"
         },
         {
           "number": 4,
           "row": 1,
           "col": 2,
           "length": 3,
-          "clue": "Past of run"
+          "clue": "Small deer"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 5,
-          "clue": "Building block of clay"
+          "clue": "Existence"
         },
         {
           "number": 7,
           "row": 3,
           "col": 0,
           "length": 3,
-          "clue": "Sweet potato's cousin"
+          "clue": "Limb with an elbow"
         },
         {
           "number": 8,
           "row": 4,
           "col": 0,
           "length": 3,
-          "clue": "Seeing organ"
+          "clue": "___ you ready?"
         }
       ],
       "down": [
@@ -67,28 +67,28 @@
           "row": 0,
           "col": 3,
           "length": 3,
-          "clue": "Pouch in the body"
+          "clue": "Charged particle"
         },
         {
           "number": 3,
           "row": 0,
           "col": 4,
           "length": 3,
-          "clue": "Printer cartridge contents"
+          "clue": "Tent fastener"
         },
         {
           "number": 5,
           "row": 2,
           "col": 0,
           "length": 3,
-          "clue": "Goodbye"
+          "clue": "Lamb's bleat"
         },
         {
           "number": 6,
           "row": 2,
           "col": 1,
           "length": 3,
-          "clue": "Flat fish with a whip tail"
+          "clue": "Be wrong"
         }
       ]
     },
@@ -96,11 +96,11 @@
   },
   "reveal": {
     "solution": [
-      "##PSI",
-      "##RAN",
-      "BRICK",
-      "YAM##",
-      "EYE##"
+      "##PIP",
+      "##ROE",
+      "BEING",
+      "ARM##",
+      "ARE##"
     ],
     "seeded": [
       {
