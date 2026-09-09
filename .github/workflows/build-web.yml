@@ -59,7 +59,7 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze
       - run: flutter test
-      - run: flutter build web --release --base-href /
+      - run: flutter build web --release --base-href / --pwa-strategy none   # web/sw.js is the service worker
 
       - name: Sanity-check the build output
         run: |

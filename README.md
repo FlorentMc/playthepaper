@@ -23,6 +23,7 @@ flutter pub get
 flutter analyze
 flutter test
 flutter run -d chrome
+flutter build web --release --pwa-strategy none   # web/sw.js provides offline reopening; Flutter's own worker is disabled
 ```
 
 ## Content
