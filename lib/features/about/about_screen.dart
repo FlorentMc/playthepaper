@@ -54,7 +54,18 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 6),
             Text(
               'Typefaces: Playfair Display and Source Sans 3, SIL Open Font License. '
-              'Coastlines: Natural Earth, public domain. Word list: ENABLE, public domain.',
+              'Word list: ENABLE, public domain. Word frequencies: FrequencyWords (OpenSubtitles), CC BY-SA 4.0. '
+              'Word Compass ranks are computed from GloVe word vectors by the Stanford NLP Group, public domain dedication. '
+              'Nonogram pictures, tangram silhouettes, clues and summaries were made for this app.',
+              style: theme.textTheme.bodyMedium,
+            ),
+            const SizedBox(height: 16),
+            Text('SOURCES', style: theme.textTheme.labelSmall),
+            const SizedBox(height: 6),
+            Text(
+              'Facts behind the quiz and the story games are checked against the pages linked in each reveal. '
+              'Short quotations from Wikipedia are shown with their source; Wikipedia text is available under the '
+              'Creative Commons Attribution-ShareAlike 4.0 licence.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 24),
