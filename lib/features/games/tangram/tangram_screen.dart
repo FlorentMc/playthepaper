@@ -143,7 +143,8 @@ class _TangramScreenState extends State<TangramScreen> with WidgetsBindingObserv
       seconds: seconds,
       hints: hints,
       isArchivePlay: _play.isArchivePlay,
-      note: '${_puzzle.name} in ${GameResult.formatSeconds(seconds)}',
+      // The figure's name stays in the on-device reveal; the summary and the
+      // share text carry only the time and hints.
       shareLines: [
         '🧩 ${GameResult.formatSeconds(seconds)}${hints == 0 ? '' : ' · $hints hint${hints == 1 ? '' : 's'}'}',
       ],
@@ -161,7 +162,7 @@ class _TangramScreenState extends State<TangramScreen> with WidgetsBindingObserv
 
   void _tapBoard(Offset units) {
     _focus.requestFocus();
-    final piece = TangramBoard.pieceAt(_state.placed, units);
+    final piece = TangramBoard.pieceAt(_state.placed, units, selected: _state.selected);
     if (piece != null) {
       _apply(_state.select(piece), persist: false);
       return;

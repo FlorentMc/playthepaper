@@ -8,6 +8,7 @@ import 'package:playthepaper/core/theme.dart';
 import 'package:playthepaper/engines/tangram/tangram.dart';
 import 'package:playthepaper/features/games/tangram/tangram_screen.dart';
 import 'package:playthepaper/features/play/play_context.dart';
+import 'package:playthepaper/features/results/share_service.dart';
 import 'package:playthepaper/storage/local_store.dart';
 import 'package:provider/provider.dart';
 
@@ -193,9 +194,11 @@ void main() {
       expect(result.seconds, 58);
       expect(result.hints, 0);
       expect(result.isArchivePlay, isTrue);
-      expect(result.note, '${puzzle.name} in 0:58');
+      expect(result.note, isNull, reason: 'the figure name must not reach the summary');
+      expect(result.summary(), 'Solved in 0:58');
       expect(result.shareLines, ['🧩 0:58']);
-      expect(result.shareLines.first, isNot(contains(puzzle.name)));
+      expect(ShareService.resultText(result), isNot(contains(puzzle.name)));
+      expect(ShareService.challengeText(result), isNot(contains(puzzle.name)));
       expect(find.text(puzzle.name), findsOneWidget);
       await tearDownScreen(tester);
     });
@@ -230,11 +233,10 @@ void main() {
         solved: true,
         seconds: 240,
         hints: 1,
-        note: '${puzzle.name} in 4:00',
       ));
       await pumpScreen(tester);
       expect(find.text('See result'), findsOneWidget);
-      expect(find.text('${puzzle.name} in 4:00'), findsOneWidget);
+      expect(find.text('Solved in 4:00 · 1 hint'), findsOneWidget);
       expect(trayPiece(TangramPiece.square), findsNothing);
       expect(find.byKey(const ValueKey('tangram-turn')), findsNothing);
 

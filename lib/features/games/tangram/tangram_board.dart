@@ -67,7 +67,7 @@ class TangramBoard extends StatelessWidget {
                 ? null
                 : (d) {
                     final units = toUnits(d.localPosition);
-                    final piece = pieceAt(shown, units);
+                    final piece = pieceAt(shown, units, selected: selected);
                     if (piece == null) return;
                     final placement = shown[piece]!;
                     onDragPiece!(piece, units - Offset(placement.x.toDouble(), placement.y.toDouble()));
@@ -126,13 +126,21 @@ class TangramBoard extends StatelessWidget {
     );
   }
 
-  /// The topmost placed piece under [units], or null.
-  static TangramPiece? pieceAt(Map<TangramPiece, TangramPlacement> placed, Offset units) {
-    TangramPiece? found;
-    for (final entry in placed.entries) {
-      if (TangramGeometry.contains(entry.value.polygon(), units.dx, units.dy)) found = entry.key;
+  /// The painting order: pieces in their fixed order, the selected one last
+  /// so it is drawn on top. Hit testing walks the same list from the top.
+  static List<TangramPiece> stackingOrder(Map<TangramPiece, TangramPlacement> placed, TangramPiece? selected) => [
+        for (final piece in TangramPiece.values)
+          if (placed.containsKey(piece) && piece != selected) piece,
+        if (selected != null && placed.containsKey(selected)) selected,
+      ];
+
+  /// The topmost visible placed piece under [units], or null. Uses the same
+  /// stacking as the painter, so the piece the player sees is the one picked.
+  static TangramPiece? pieceAt(Map<TangramPiece, TangramPlacement> placed, Offset units, {TangramPiece? selected}) {
+    for (final piece in stackingOrder(placed, selected).reversed) {
+      if (TangramGeometry.contains(placed[piece]!.polygon(), units.dx, units.dy)) return piece;
     }
-    return found;
+    return null;
   }
 }
 
@@ -170,12 +178,7 @@ class _BoardPainter extends CustomPainter {
     }
     canvas.drawPath(silhouette, Paint()..color = colors.given);
 
-    final order = [
-      for (final piece in TangramPiece.values)
-        if (placed.containsKey(piece) && piece != selected) piece,
-      if (selected != null && placed.containsKey(selected)) selected!,
-    ];
-    for (final piece in order) {
+    for (final piece in TangramBoard.stackingOrder(placed, selected)) {
       final placement = placed[piece]!;
       final offset = piece == dragging && dragAt != null
           ? dragAt! - Offset(placement.x.toDouble(), placement.y.toDouble())

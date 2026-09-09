@@ -75,6 +75,10 @@ class _PaperAppState extends State<PaperApp> {
 }
 
 GoRouter buildRouter({String initialLocation = '/'}) {
+  // Games are opened with push so Back returns to the page you came from;
+  // the browser address must still show the puzzle so a refresh or a copied
+  // address reopens it.
+  GoRouter.optionURLReflectsImperativeAPIs = true;
   Page<void> page(GoRouterState state, Widget child) =>
       MaterialPage<void>(key: state.pageKey, child: child);
 

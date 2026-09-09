@@ -162,7 +162,8 @@ class _DigitKey extends StatelessWidget {
           onTap: onTap,
           child: SizedBox(
             width: width,
-            height: SudokuControls._keyHeight,
+            // Scales with the text so enlarged type never clips the count.
+            height: SudokuControls._keyHeight * MediaQuery.textScalerOf(context).scale(1.0).clamp(1.0, 2.5),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

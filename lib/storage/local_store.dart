@@ -202,10 +202,22 @@ class LocalStore extends ChangeNotifier {
         'results': {for (final k in _results.keys) k: jsonDecode(_results.get(k)!)},
         'settings': settings.toJson(),
         'favourites': _favourites.map((g) => g.slug).toList(),
+        'extras': {
+          for (final k in _prefs.keys)
+            if ((k as String).startsWith('extra:')) k.substring(6): _prefs.get(k),
+        },
       });
 
-  /// Merges an export into this device. Existing results win over imported
-  /// ones for the same puzzle so a replay never overwrites a real completion.
+  /// Merges an export into this device.
+  ///
+  /// Policy: existing results and progress win over imported ones for the
+  /// same puzzle, so a replay never overwrites a real completion; favourites
+  /// are united; settings are taken from the export, since importing is an
+  /// explicit request to bring the other device's setup here; game extras
+  /// (`LocalStore.extra`) are added when absent and otherwise merged field by
+  /// field: local fields win, missing fields are added, numeric fields named
+  /// `best…` take the higher value, and map fields are united with local
+  /// entries winning. Returns the number of items added.
   Future<int> importJson(String raw) async {
     final json = jsonDecode(raw);
     if (json is! Map || json['format'] != 'playthepaper-export') {
@@ -239,8 +251,58 @@ class LocalStore extends ChangeNotifier {
       }
       await _prefs.put('favourites', jsonEncode(_favourites.map((g) => g.slug).toList()));
     }
+    final exportedSettings = json['settings'];
+    if (exportedSettings is Map) {
+      settings._apply(Settings.fromJson(Map<String, dynamic>.from(exportedSettings)));
+      await _prefs.put('settings', jsonEncode(settings.toJson()));
+      settings.notifyListeners();
+    }
+    final extras = json['extras'];
+    if (extras is Map) {
+      for (final entry in extras.entries) {
+        final key = entry.key;
+        final incoming = entry.value;
+        if (key is! String || key.isEmpty || incoming is! String) continue;
+        final current = _prefs.get('extra:$key');
+        if (current == null) {
+          await _prefs.put('extra:$key', incoming);
+          imported++;
+          continue;
+        }
+        final merged = _mergeExtra(current, incoming);
+        if (merged != current) await _prefs.put('extra:$key', merged);
+      }
+    }
     notifyListeners();
     return imported;
+  }
+
+  static String _mergeExtra(String current, String incoming) {
+    Object? a, b;
+    try {
+      a = jsonDecode(current);
+      b = jsonDecode(incoming);
+    } on FormatException {
+      return current;
+    }
+    if (a is! Map || b is! Map) return current;
+    return jsonEncode(_mergeMaps(Map<String, dynamic>.from(a), Map<String, dynamic>.from(b)));
+  }
+
+  static Map<String, dynamic> _mergeMaps(Map<String, dynamic> local, Map<String, dynamic> other) {
+    final out = Map<String, dynamic>.from(local);
+    for (final e in other.entries) {
+      final mine = out[e.key];
+      final theirs = e.value;
+      if (mine == null) {
+        out[e.key] = theirs;
+      } else if (mine is num && theirs is num && e.key.toLowerCase().startsWith('best')) {
+        out[e.key] = theirs > mine ? theirs : mine;
+      } else if (mine is Map && theirs is Map) {
+        out[e.key] = _mergeMaps(Map<String, dynamic>.from(mine), Map<String, dynamic>.from(theirs));
+      }
+    }
+    return out;
   }
 
   @visibleForTesting

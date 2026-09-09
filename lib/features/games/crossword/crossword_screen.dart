@@ -225,10 +225,9 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
         builder: (context, constraints) {
           final wide = constraints.maxWidth >= 720;
           final teaser = _puzzle.teaser;
-          final grid = Column(
-            children: [
-              if (teaser != null)
-                Padding(
+          final teaserRow = teaser == null
+              ? const SizedBox.shrink()
+              : Padding(
                   padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
                   child: Row(
                     children: [
@@ -237,7 +236,10 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
                       Expanded(child: Text('$_storiesTitle · $teaser', style: theme.textTheme.bodySmall)),
                     ],
                   ),
-                ),
+                );
+          final grid = Column(
+            children: [
+              teaserRow,
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
                 child: Center(
@@ -297,10 +299,37 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
             );
           }
 
+          // Height budget on a narrow screen: the keyboard, the clue bar and the
+          // info row are fixed; the board takes what is left, and the clue list
+          // appears only when at least a few lines of it would fit.
+          const keyboardHeight = 176.0;
+          const clueBarHeight = 60.0;
+          const infoHeight = 28.0;
+          final teaserHeight = teaser == null ? 0.0 : 44.0;
+          final spare = constraints.maxHeight - keyboardHeight - clueBarHeight - infoHeight - teaserHeight;
+          final fullSide = [constraints.maxWidth - 32, 420.0].reduce((a, b) => a < b ? a : b);
+          final showList = spare - fullSide >= 96;
+          final boardSide = showList ? fullSide : [fullSide, spare - 8].reduce((a, b) => a < b ? a : b);
+          final narrowGrid = Column(
+            children: [
+              teaserRow,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
+                child: Center(
+                  child: SizedBox(
+                    width: boardSide,
+                    height: boardSide,
+                    child: CrosswordGrid(state: _state, onTap: _tapCell, enabled: !done),
+                  ),
+                ),
+              ),
+            ],
+          );
+
           final board = Column(
             children: [
               info,
-              grid,
+              wide ? grid : narrowGrid,
               _ClueBar(
                 entry: entry,
                 onPrev: () => _apply(_state.prevClue(), persist: false),
@@ -324,7 +353,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> with WidgetsBindingOb
                     : Column(
                         children: [
                           board,
-                          Expanded(child: clues),
+                          if (showList) Expanded(child: clues) else const Spacer(),
                         ],
                       ),
               ),
@@ -410,7 +439,10 @@ class _ClueLists extends StatelessWidget {
     if (wide) {
       return Row(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [Expanded(child: across), Expanded(child: down)],
+        children: [
+          Expanded(child: SingleChildScrollView(child: across)),
+          Expanded(child: SingleChildScrollView(child: down)),
+        ],
       );
     }
     return ListView(

@@ -133,17 +133,22 @@ class WordBoard extends StatelessWidget {
       builder: (context, constraints) {
         final n = puzzle.length;
         final r = puzzle.maxGuesses;
-        final byWidth = (constraints.maxWidth - _gap * (n - 1)) / n;
-        final byHeight = (constraints.maxHeight - _gap * (r - 1)) / r;
-        final size = math.min(byWidth, byHeight).clamp(20.0, 64.0);
+        // Tiles shrink with the space available (a phone in landscape leaves
+        // little height above the keyboard) and never overflow it; the gap
+        // shrinks with them.
+        final tight = constraints.maxHeight.isFinite && (constraints.maxHeight - _gap * (r - 1)) / r < 24;
+        final gap = tight ? 2.0 : _gap;
+        final byWidth = (constraints.maxWidth - gap * (n - 1)) / n;
+        final byHeight = constraints.maxHeight.isFinite ? (constraints.maxHeight - gap * (r - 1)) / r : byWidth;
+        final size = math.min(byWidth, byHeight).clamp(10.0, 64.0);
         return Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
             for (var i = 0; i < rows.length; i++)
               Padding(
-                padding: EdgeInsets.only(bottom: i == rows.length - 1 ? 0 : _gap),
-                child: rows[i].active ? _shaken(_row(rows[i], i, size)) : _row(rows[i], i, size),
+                padding: EdgeInsets.only(bottom: i == rows.length - 1 ? 0 : gap),
+                child: rows[i].active ? _shaken(_row(rows[i], i, size, gap)) : _row(rows[i], i, size, gap),
               ),
           ],
         );
@@ -161,13 +166,13 @@ class WordBoard extends StatelessWidget {
     child: child,
   );
 
-  Widget _row(_RowSpec row, int index, double size) => Row(
+  Widget _row(_RowSpec row, int index, double size, double gap) => Row(
     mainAxisSize: MainAxisSize.min,
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
       for (var i = 0; i < puzzle.length; i++)
         Padding(
-          padding: EdgeInsets.only(right: i == puzzle.length - 1 ? 0 : _gap),
+          padding: EdgeInsets.only(right: i == puzzle.length - 1 ? 0 : gap),
           child: WordTile(
             size: size,
             letter: row.letters[i],

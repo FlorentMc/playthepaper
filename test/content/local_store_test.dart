@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:playthepaper/core/game_kind.dart';
@@ -8,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  _extrasAndSettings();
   TestWidgetsFlutterBinding.ensureInitialized();
   late Directory dir;
   late LocalStore store;
@@ -66,5 +68,56 @@ void main() {
 
   test('import rejects foreign documents', () async {
     expect(() => store.importJson('{"hello": 1}'), throwsFormatException);
+  });
+}
+
+void _extrasAndSettings() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+  late Directory dir;
+  late LocalStore store;
+
+  setUp(() async {
+    dir = await Directory.systemTemp.createTemp('playthepaper_store2');
+    store = await LocalStore.open(subDir: dir.path);
+  });
+
+  tearDown(() async {
+    await store.clearAll();
+    await dir.delete(recursive: true);
+  });
+
+  test('export carries extras and import restores them when absent', () async {
+    await store.setExtra('merge', '{"unlimited":{"score":10},"bestUnlimited":900}');
+    final export = store.exportJson();
+    await store.clearAll();
+    expect(store.extra('merge'), isNull);
+    final n = await store.importJson(export);
+    expect(n, 1);
+    expect(store.extra('merge'), '{"unlimited":{"score":10},"bestUnlimited":900}');
+  });
+
+  test('import merges extras: local wins, best scores take the higher value, maps unite', () async {
+    await store.setExtra('merge', '{"unlimited":{"score":10},"bestUnlimited":900,"finished":{"a":{"x":1}}}');
+    final export = store.exportJson();
+    await store.clearAll();
+    await store.setExtra('merge', '{"unlimited":{"score":3},"bestUnlimited":1200,"finished":{"b":{"y":2}}}');
+    await store.importJson(export);
+    final merged = jsonDecode(store.extra('merge')!) as Map<String, dynamic>;
+    expect(merged['unlimited'], {'score': 3}, reason: 'the local game in progress is kept');
+    expect(merged['bestUnlimited'], 1200);
+    expect((merged['finished'] as Map).keys.toSet(), {'a', 'b'});
+  });
+
+  test('import applies the exported settings', () async {
+    await store.updateSettings(themeMode: ThemeMode.dark, reducedMotion: true, showTimers: true);
+    final export = store.exportJson();
+    await store.updateSettings(themeMode: ThemeMode.light, reducedMotion: false, showTimers: false);
+    var notified = 0;
+    store.settings.addListener(() => notified++);
+    await store.importJson(export);
+    expect(store.settings.themeMode, ThemeMode.dark);
+    expect(store.settings.reducedMotion, isTrue);
+    expect(store.settings.showTimers, isTrue);
+    expect(notified, greaterThan(0));
   });
 }

@@ -130,8 +130,10 @@ class _NonogramBoardState extends State<NonogramBoard> {
     final maxRowRuns = max(1, puzzle.rows.fold(0, (m, c) => max(m, c.length)));
     final maxColRuns = max(1, puzzle.cols.fold(0, (m, c) => max(m, c.length)));
     final clueSize = w > 5 ? 13.0 : 15.0;
-    final rowClueWidth = showClues ? maxRowRuns * clueSize * 1.2 + 12 : 0.0;
-    final colClueHeight = showClues ? maxColRuns * clueSize * 1.25 + 12 : 0.0;
+    // Clue text follows the user's text scale, so the space reserved for it must too.
+    final textScale = MediaQuery.textScalerOf(context).scale(1.0).clamp(1.0, 3.0);
+    final rowClueWidth = showClues ? maxRowRuns * clueSize * 1.2 * textScale + 12 : 0.0;
+    final colClueHeight = showClues ? maxColRuns * clueSize * 1.25 * textScale + 12 : 0.0;
     final paints = widget.onStrokeStart != null;
 
     return LayoutBuilder(
