@@ -146,7 +146,15 @@ void main(List<String> args) {
     final optionalSeeds = <String, String>{};
     if (!date.isBefore(optionalFrom) && !date.isAfter(optionalTo)) {
       for (final entry in generatedGames.entries) {
-        final record = entry.value(date);
+        final PuzzleRecord record;
+        try {
+          record = entry.value(date);
+        } on StateError catch (e) {
+          // Precomputed data missing for this date (e.g. Word Compass ranks):
+          // the game is left out of the edition rather than blocking it.
+          lines.add('${entry.key.slug} SKIPPED: ${e.message}');
+          continue;
+        }
         optionalIds.add(_writeVersioned(content, record));
         lines.add('${entry.key.slug} generated');
       }
@@ -247,7 +255,7 @@ void main(List<String> args) {
 
 /// The first edition that carries the optional games. Earlier editions are
 /// open or archived and are never rewritten.
-final DateTime kOptionalGamesFrom = DateTime.utc(2026, 9, 10);
+final DateTime kOptionalGamesFrom = DateTime.utc(2026, 9, 9);
 
 /// The last date the optional games' reserves and precomputed data cover.
 /// Extend it when the reserves are replenished.

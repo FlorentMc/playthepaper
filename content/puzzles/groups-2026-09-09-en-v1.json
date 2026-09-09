@@ -1,0 +1,118 @@
+{
+  "id": "groups-2026-09-09-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Samosa",
+      "Darjeeling",
+      "Oolong",
+      "Assam",
+      "Punjab",
+      "Ceylon",
+      "Rajasthan",
+      "Biryani",
+      "Korma",
+      "Dosa",
+      "Kerala",
+      "Gujarat"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Teas",
+        "members": [
+          "Assam",
+          "Darjeeling",
+          "Oolong",
+          "Ceylon"
+        ],
+        "explanation": "Each names a tea by the place or the way it is made."
+      },
+      {
+        "title": "States of India",
+        "members": [
+          "Kerala",
+          "Punjab",
+          "Gujarat",
+          "Rajasthan"
+        ],
+        "explanation": "All four are states of the Indian union.",
+        "alsoFits": [
+          "Assam"
+        ]
+      },
+      {
+        "title": "Indian dishes",
+        "members": [
+          "Biryani",
+          "Dosa",
+          "Samosa",
+          "Korma"
+        ],
+        "explanation": "Each of these is served across India and far beyond it."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "During the 17th century, drinking tea became fashionable in Western Europe as part of the rise of Chinoiserie influence, especially among the British, who had such a high import demand of tea that they later started to cultivate tea on a large scale in colonial India and Ceylon, where tea had previously been used only as a herbal medicine."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_tea",
+      "excerpt": "Black tea (also literally translated as red tea from various East Asian languages) is a type of tea that is more oxidized than oolong, yellow, white, and green teas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assam_tea",
+      "excerpt": "Assam teas, or blends containing Assam tea, are often sold as \"breakfast\" teas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assam_tea",
+      "excerpt": "The tea plant is grown in the lowlands of Assam, unlike Darjeelings and Nilgiris, which are grown in the highlands."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kerala",
+      "excerpt": "Kerala has the highest media exposure in India, with newspapers published in nine languages, primarily Malayalam and English."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Punjab%2C_India",
+      "excerpt": "Forming part of the larger Punjab region of the Indian subcontinent, the state is bordered by the Indian states and union territories of Himachal Pradesh to the north and northeast, Haryana to the south and southeast, Rajasthan to the southwest, Jammu and Kashmir to the north."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gujarat",
+      "excerpt": "Along with Bihar, Mizoram and Nagaland, Gujarat is one of four Indian states to prohibit the sale of alcohol."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Biryani",
+      "excerpt": "Biryani is used across the Indian Subcontinent in celebrations."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dosa_%28food%29",
+      "excerpt": "Dosas are served hot, often with chutney and sambar."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Samosa",
+      "excerpt": "Samosas are popular snacks in South Asia and within the Indian diaspora across the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Korma",
+      "excerpt": "The flavours of kormas are less intense than those of meat-containing dishes, and the fragrances more aromatic."
+    }
+  ]
+}

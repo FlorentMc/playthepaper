@@ -191,6 +191,27 @@ def schedule(targets: list[str], until: dt.date) -> dict[dt.date, str]:
     return chosen
 
 
+def schedule_before(targets: list[str], forward: dict[dt.date, str], first: dt.date) -> dict[dt.date, str]:
+    """Targets for dates before EPOCH, walking backwards from EPOCH-1 to [first]
+    with the same hash-and-step rule, avoiding any word used within the repeat
+    window on either side. The forward schedule is never changed."""
+    chosen: dict[dt.date, str] = {}
+    day = EPOCH - dt.timedelta(days=1)
+    while day >= first:
+        taken = {w for d, w in forward.items() if 0 < (d - day).days < REPEAT_WINDOW_DAYS}
+        taken |= {w for d, w in chosen.items() if 0 < (d - day).days < REPEAT_WINDOW_DAYS}
+        index = fnv1a(f"compass-{day.isoformat()}") % len(targets)
+        for step in range(len(targets)):
+            word = targets[(index + step) % len(targets)]
+            if word not in taken:
+                break
+        else:
+            raise SystemExit(f"error: no unused target for {day}")
+        chosen[day] = word
+        day -= dt.timedelta(days=1)
+    return chosen
+
+
 def rank_file(target: str, words: list[str], matrix: np.ndarray, index: dict[str, int]) -> dict:
     t = index[target]
     sims = matrix @ matrix[t]
@@ -224,8 +245,6 @@ def main(argv: list[str]) -> int:
     start, end = parse_date(args.start), parse_date(args.end)
     if end < start:
         raise SystemExit("error: --to is before --from")
-    if start < EPOCH:
-        raise SystemExit(f"error: --from is before the schedule epoch {EPOCH}")
 
     wanted = candidate_vocabulary()
     print(f"candidate vocabulary: {len(wanted)} words (enable1 ∩ top {FREQUENCY_LIMIT} en_50k)")
@@ -236,7 +255,9 @@ def main(argv: list[str]) -> int:
         return 0
 
     targets = read_targets(TARGETS_PATH, set(words))
-    plan = schedule(targets, end)
+    plan = schedule(targets, max(end, EPOCH + dt.timedelta(days=REPEAT_WINDOW_DAYS)))
+    if start < EPOCH:
+        plan.update(schedule_before(targets, plan, start))
 
     os.makedirs(args.out, exist_ok=True)
     written = skipped = 0
