@@ -6,6 +6,7 @@ import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
 import 'package:playthepaper/engines/quiz/quiz_engine.dart';
+import 'package:playthepaper/engines/regions/regions.dart';
 import 'package:playthepaper/engines/sudoku/sudoku.dart';
 import 'package:playthepaper/engines/word/word_engine.dart';
 
@@ -36,6 +37,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.compass: (r) => CompassPuzzle.parse(r.payload, r.reveal),
   GameKind.bridges: (r) => BridgesPuzzle.parse(r.payload, r.reveal),
   GameKind.kakuro: (r) => KakuroPuzzle.parse(r.payload, r.reveal),
+  GameKind.regions: (r) => RegionsPuzzle.parse(r.payload, r.reveal),
 };
 
 

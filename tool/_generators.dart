@@ -3,6 +3,7 @@ import 'package:playthepaper/core/game_kind.dart';
 import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/compass/compass_generator.dart';
 import 'package:playthepaper/engines/kakuro/kakuro.dart';
+import 'package:playthepaper/engines/regions/regions.dart';
 
 /// One daily puzzle from a seed.
 typedef DailyGenerator = PuzzleRecord Function(DateTime date);
@@ -20,6 +21,7 @@ final Map<GameKind, DailyGenerator> generatedGames = {
   GameKind.bridges: BridgesGenerator().generate,
   GameKind.compass: CompassGenerator().generate,
   GameKind.kakuro: KakuroGenerator().generate,
+  GameKind.regions: RegionsGenerator().generate,
 };
 
 /// Editorial games with an evergreen reserve under `content_src/editorial/[slug]/`.

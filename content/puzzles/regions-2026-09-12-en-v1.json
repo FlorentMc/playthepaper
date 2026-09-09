@@ -1,0 +1,17 @@
+{
+  "id": "regions-2026-09-12-en-v1",
+  "game": "regions",
+  "editionDate": "2026-09-12",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 6,
+    "height": 6,
+    "regions": "ABBBCCAACCCDAEEDDDAFEEDGHFFEIGHHFIII",
+    "givens": ".......1..322.......2.........21..3."
+  },
+  "reveal": {
+    "solution": "423141315232243451512132343541212132"
+  }
+}
