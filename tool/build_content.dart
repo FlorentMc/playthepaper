@@ -41,6 +41,7 @@ void main(List<String> args) {
   final src = opts['src']!;
   final requireNews = opts.containsKey('news');
   final optionalFrom = opts.containsKey('optional-from') ? parseDate(opts['optional-from']!) : kOptionalGamesFrom;
+  final optionalTo = opts.containsKey('optional-to') ? parseDate(opts['optional-to']!) : kOptionalGamesTo;
 
   final evergreen = _loadTemplates('$src/evergreen');
   if (evergreen.isEmpty) fail('no evergreen templates in $src/evergreen');
@@ -143,7 +144,7 @@ void main(List<String> args) {
     // so editions that have already opened are never changed.
     final optionalIds = <PuzzleId>[];
     final optionalSeeds = <String, String>{};
-    if (!date.isBefore(optionalFrom)) {
+    if (!date.isBefore(optionalFrom) && !date.isAfter(optionalTo)) {
       for (final entry in generatedGames.entries) {
         final record = entry.value(date);
         optionalIds.add(_writeVersioned(content, record));
@@ -247,6 +248,10 @@ void main(List<String> args) {
 /// The first edition that carries the optional games. Earlier editions are
 /// open or archived and are never rewritten.
 final DateTime kOptionalGamesFrom = DateTime.utc(2026, 9, 10);
+
+/// The last date the optional games' reserves and precomputed data cover.
+/// Extend it when the reserves are replenished.
+final DateTime kOptionalGamesTo = DateTime.utc(2026, 10, 31);
 
 String _crosswordTeaser(int n) => switch (n) {
       1 => 'One of today\'s clues comes from the news.',
