@@ -1,0 +1,174 @@
+{
+  "id": "crossmatch-2026-09-13-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Languages, currencies and capitals",
+    "rows": [
+      "Official language",
+      "Currency",
+      "Capital city"
+    ],
+    "cols": [
+      "Of Canada",
+      "Of France",
+      "Of Brazil"
+    ],
+    "tiles": [
+      "Brasilia",
+      "Canadian dollar",
+      "French",
+      "Ottawa",
+      "Portuguese",
+      "Euro",
+      "Brazilian real",
+      "English",
+      "Paris"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "English",
+        "French",
+        "Portuguese"
+      ],
+      [
+        "Canadian dollar",
+        "Euro",
+        "Brazilian real"
+      ],
+      [
+        "Ottawa",
+        "Paris",
+        "Brasilia"
+      ]
+    ],
+    "explanations": {
+      "English": "One of the two official languages of Canada.",
+      "French": "The sole official language of France, and also official in Canada.",
+      "Portuguese": "The official language of Brazil.",
+      "Canadian dollar": "The official currency of Canada.",
+      "Euro": "The currency France shares with twenty other European Union states.",
+      "Brazilian real": "The official currency of Brazil.",
+      "Ottawa": "The capital city of Canada, on the Ottawa River in Ontario.",
+      "Paris": "The capital and largest city of France.",
+      "Brasilia": "The purpose-built capital city of Brazil."
+    },
+    "fits": {
+      "English": [
+        [
+          0,
+          0
+        ]
+      ],
+      "French": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "Portuguese": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Canadian dollar": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Euro": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Brazilian real": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Ottawa": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Paris": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Brasilia": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Canada",
+      "excerpt": "Under the Official Languages Act of 1969, both English and French have official status throughout Canada in respect of federal government services and most courts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_France",
+      "excerpt": "French is the sole official language in France according to the second article of the French Constitution."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brazil",
+      "excerpt": "Brazil has the largest Lusophone population in the world and is the only Portuguese-speaking country in the Americas, where it is the official language."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canadian_dollar",
+      "excerpt": "The Canadian dollar (symbol: $; code: CAD; French: dollar canadien) is the official currency of Canada."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euro",
+      "excerpt": "The euro (symbol: €; currency code: EUR) is the official currency of 21 of the 27 member states of the European Union."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eurozone",
+      "excerpt": "The largest economies in the eurozone are Germany, France, Italy, and Spain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brazilian_real",
+      "excerpt": "The Brazilian real (pl. reais; sign: R$; code: BRL) is the official currency of Brazil."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ottawa",
+      "excerpt": "Ottawa is the capital city of Canada."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paris",
+      "excerpt": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), as of January 2026, and a metropolitan population of 13.3 million (2023)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brasília",
+      "excerpt": "Brasília is the capital city of Brazil and the Federal District."
+    }
+  ]
+}

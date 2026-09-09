@@ -1,0 +1,123 @@
+{
+  "id": "groups-2026-09-11-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-11",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Tay",
+      "Battenberg",
+      "Inverness",
+      "Simnel",
+      "Perth",
+      "Bakewell",
+      "Aberdeen",
+      "Stirling",
+      "Spey",
+      "Clyde",
+      "Dundee",
+      "Forth"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "British cakes",
+        "members": [
+          "Bakewell",
+          "Battenberg",
+          "Simnel",
+          "Dundee"
+        ],
+        "explanation": "Each is a traditional British cake, baked for a season or a place."
+      },
+      {
+        "title": "Scottish cities",
+        "members": [
+          "Aberdeen",
+          "Perth",
+          "Stirling",
+          "Inverness"
+        ],
+        "explanation": "All four hold city status in Scotland.",
+        "alsoFits": [
+          "Dundee"
+        ]
+      },
+      {
+        "title": "Rivers of Scotland",
+        "members": [
+          "Tay",
+          "Clyde",
+          "Forth",
+          "Spey"
+        ],
+        "explanation": "These are among the longest rivers in Scotland."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dundee_cake",
+      "excerpt": "Dundee cake is a traditional Scottish fruit cake."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Simnel_cake",
+      "excerpt": "Simnel cake is a fruitcake associated with Lent and Easter and widely eaten in the United Kingdom, Ireland and countries with patterns of migration from them."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battenberg_cake",
+      "excerpt": "Battenberg or Battenburg cake is a light sponge cake with coloured sections held together with jam and covered in marzipan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bakewell_tart",
+      "excerpt": "The Bakewell tart is a traditional English cake originating in the town of Bakewell, in the Derbyshire Dales district of Derbyshire."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_towns_and_cities_in_Scotland_by_population",
+      "excerpt": "The city of Stirling has the smallest population amongst Scotland's cities, with an estimated population of just over 37,000 inhabitants."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perth%2C_Scotland",
+      "excerpt": "Today, Perth serves as a retail centre for the surrounding area, and in 2018 the city was named \"Scotland's Food Town of 2018\" by the Scottish Food Awards."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inverness",
+      "excerpt": "Inverness is a city in the Scottish Highlands in the north of Scotland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aberdeen",
+      "excerpt": "Aberdeen is a port city in North East Scotland, and is the third most populous Scottish city."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Tay",
+      "excerpt": "The River Tay ( ; Scottish Gaelic: Tatha, IPA: [ˈt̪ʰa.ə]; probably from the conjectured Brythonic Tausa, possibly meaning 'silent one' or 'strong one' or, simply, 'flowing') is the longest river in Scotland and the seventh-longest in Great Britain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Tay",
+      "excerpt": "Its catchment is approximately 2,000 square miles (5,200 square kilometres), the Tweed's is 1,500 sq mi (3,900 km2) and the Spey's is 1,097 sq mi (2,840 km2)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Clyde",
+      "excerpt": "The river rises in the Lowther Hills and flows north-west through South Lanarkshire and Glasgow before deepening into the Firth of Clyde past the Tail of the Bank off Greenock."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/River_Forth",
+      "excerpt": "The River Forth is a major river in central Scotland, 47 km (29 mi) long, which drains into the North Sea on the east coast of the country."
+    }
+  ]
+}
