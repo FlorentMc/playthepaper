@@ -163,18 +163,31 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  String _headline(GameKind game, GameResult result) => switch (game) {
-        GameKind.word => 'Word found',
-        GameKind.sudoku => 'Grid complete',
-        GameKind.letters => 'Well spelled',
-        GameKind.crossword => 'All filled in',
-        GameKind.quiz => switch (result.points ?? 0) {
-            6 => 'Full marks',
-            5 || 4 => 'Well read',
-            3 || 2 => 'Not bad',
-            _ => 'Tomorrow, then',
-          },
-      };
+  String _headline(GameKind game, GameResult result) {
+    switch (game) {
+      case GameKind.word:
+        return 'Word found';
+      case GameKind.sudoku:
+        return 'Grid complete';
+      case GameKind.letters:
+        return 'Well spelled';
+      case GameKind.crossword:
+        return 'All filled in';
+      case GameKind.quiz:
+        return switch (result.points ?? 0) {
+          6 => 'Full marks',
+          5 || 4 => 'Well read',
+          3 || 2 => 'Not bad',
+          _ => 'Tomorrow, then',
+        };
+      case GameKind.merge:
+        return result.solved ? 'Reached 2048' : 'Board full';
+      case GameKind.tangram:
+        return 'Shape made';
+      default:
+        return game.isEditorial ? 'Story found' : 'Solved';
+    }
+  }
 }
 
 class _Stat extends StatelessWidget {
@@ -233,20 +246,18 @@ class _ChallengeCompare extends StatelessWidget {
   /// Positive when mine is better.
   int? _compare() {
     if (mine.solved != theirs.solved) return mine.solved ? 1 : -1;
-    switch (mine.game) {
-      case GameKind.word:
-        if (mine.attempts == null || theirs.attempts == null) return null;
-        return theirs.attempts!.compareTo(mine.attempts!);
-      case GameKind.letters:
-      case GameKind.quiz:
-        if (mine.points == null || theirs.points == null) return null;
-        return mine.points!.compareTo(theirs.points!);
-      case GameKind.sudoku:
-      case GameKind.crossword:
-        final mh = mine.hints ?? 0, th = theirs.hints ?? 0;
-        if (mh != th) return th.compareTo(mh);
-        if (mine.seconds == null || theirs.seconds == null) return null;
-        return theirs.seconds!.compareTo(mine.seconds!);
+    if (mine.game == GameKind.word) {
+      if (mine.attempts == null || theirs.attempts == null) return null;
+      return theirs.attempts!.compareTo(mine.attempts!);
     }
+    if (mine.game.isTimed) {
+      final mh = mine.hints ?? 0, th = theirs.hints ?? 0;
+      if (mh != th) return th.compareTo(mh);
+      if (mine.seconds == null || theirs.seconds == null) return null;
+      return theirs.seconds!.compareTo(mine.seconds!);
+    }
+    if (mine.points != null && theirs.points != null) return mine.points!.compareTo(theirs.points!);
+    if (mine.attempts != null && theirs.attempts != null) return theirs.attempts!.compareTo(mine.attempts!);
+    return null;
   }
 }

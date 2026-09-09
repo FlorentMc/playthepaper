@@ -208,3 +208,100 @@ same date always yields the same puzzle, and validate their own output with the 
 
 `flutter analyze` must report no issues. `flutter test` must pass. Every rule stated above
 for a game has a test.
+
+## Optional games
+
+The core of every edition is the four classics, the quiz and the stories. Every other game is
+optional per edition: it exists for a date only when the manifest lists its puzzle id, and the
+home page shows it only then. Old editions without these games load, validate and play as before.
+
+Categories (`GameCategory` in `lib/core/game_kind.dart`): `classic`, `quiz`, `logic` (bridges,
+binary, nonogram, kakuro, regions, loop, target), `play` (tangram, merge), `editorial` (uncover,
+fiveclues, groups, linked, chronology, crossmatch, compass). The home page shows logic, play and
+editorial games as compact tiles under their category; long-press pins a tile.
+
+Rules that apply to every optional game, in addition to the game screen contract above:
+
+* Puzzle ids follow the same pattern: `<slug>-<date>-en-v1`. Ids are immutable; changed content is a new version.
+* `GameResult` fields are reused: `seconds` and `hints` for timed logic games (`GameKind.isTimed`), `points`
+  and `maxPoints` for scored games, `attempts` for guess games, and `note` for a game-specific one-line summary
+  that the result screen shows verbatim. `shareLines` are spoiler-free.
+* Logic and play games are generated: `lib/engines/<game>/<game>_generator.dart` exports a class
+  `<Game>Generator` with a no-argument constructor and `PuzzleRecord generate(DateTime date)`, deterministic
+  from a seed derived with FNV-1a from `"<slug>-<date>"`, validated by the engine's own solver before return.
+  `tool/build_content.dart` calls every registered generator for each date it builds.
+* Editorial games are written: an edition template (`content_src/evergreen/*.json`,
+  `content_src/news/<date>.json`) may carry `"editorial": {"<slug>": {"payload": {...}, "reveal": {...},
+  "sources": [...], "storyId": "..."}}` for any subset of editorial games. For a game a template does not
+  supply, the builder takes the next item from that game's evergreen reserve, `content_src/editorial/<slug>/`
+  (one JSON file per puzzle, at least 30), by date rotation, and marks the record with no `storyId`. A puzzle
+  with a `storyId` appears in the manifest's `seeds` map as `<slug>`.
+* Every engine exposes `parse(payload, reveal)` that throws `FormatException` on invalid content; the validator
+  runs it on every file.
+* Unlimited or free-play modes (2048) keep their state in `LocalStore.extra` under the game's slug, never in
+  puzzle progress, and never write a `GameResult`.
+
+### Logic game payloads
+
+**bridges** (Hashi). `payload: {"width": 7, "height": 7, "islands": [{"row": 0, "col": 0, "count": 3}]}`,
+`reveal: {"bridges": [{"from": 0, "to": 1, "count": 2}]}` (indices into islands). Rules: bridges horizontal or
+vertical, one or two per pair, no crossings, each island's count met, one connected network. Unique solution.
+
+**binary** (Takuzu). `payload: {"size": 6, "givens": "36 chars of 0, 1 or ."}`, `reveal: {"solution": "36 chars"}`.
+Rules: equal counts per row and column, no three consecutive equal, no duplicate rows or columns. Unique.
+
+**nonogram**. `payload: {"width": 10, "height": 10, "rows": [[2, 1], ...], "cols": [[...], ...], "title": "Teapot"}`,
+`reveal: {"cells": ["0110100110", ...]}`. Original pictures only, from `content_src/nonogram/pictures.json`
+(`{"title", "rows": ["0110100110", ...]}`); 5×5 and 10×10. Unique solution proven by a line solver plus search.
+
+**kakuro**. `payload: {"width": 6, "height": 6, "cells": ["#", {"down": 16, "across": null}, ".", ...] row-major}`,
+`reveal: {"solution": ["#", "#", "7", ...]}`. Digits 1–9, no repeat within a run, sums met. Unique.
+
+**regions** (Suguru). `payload: {"width": 6, "height": 6, "regions": "36 chars of region letters", "givens": "36 chars digit or ."}`,
+`reveal: {"solution": "36 digits"}`. Regions of 1–5 cells; region of N holds 1..N; equal digits never touch, diagonals included. Unique.
+
+**loop** (Slitherlink). `payload: {"width": 6, "height": 6, "clues": "36 chars of 0-3 or ."}`,
+`reveal: {"edges": {"h": "rows of (height+1) × width bits", "v": "rows of height × (width+1) bits"}}`.
+One closed loop, no branches or crossings, clue counts met. Unique.
+
+**target**. `payload: {"tiles": [25, 7, 4, 3, 2, 1], "target": 431}`, `reveal: {"expression": "25*7*(4-2)+... "}` (one
+known solution). Any valid expression reaching the target is accepted; positive integer intermediates, exact
+division, each tile at most once. Result: `solved`, `seconds`, `note` "Reached 431" or "Closest 429".
+
+### Play game payloads
+
+**tangram**. `payload: {"silhouette": [[x, y], ...] one or more polygons in a 0..1 unit square, "name": "Swan"}`,
+`reveal: {"placements": [{"piece": "largeTriangleA", "x": 0.5, "y": 0.5, "rotation": 45, "flipped": false}]}` (one
+solution). Completion: pieces cover the silhouette within tolerance and do not overlap. Result: `seconds`, `solved`.
+
+**merge** (2048 daily). `payload: {"seed": 123456, "size": 4}`, `reveal: {}`. Daily board and spawn sequence come
+from the seed; the unlimited mode uses `LocalStore.extra('merge')`. Result: `points` (score), `solved` (reached
+2048), `note` "Score 5,432 · best tile 1024".
+
+### Editorial game payloads
+
+**uncover**. `payload: {"text": "original summary with the subject masked as ▇", "hints": ["...", "..."]}`,
+`reveal: {"subject": "Angel Falls", "aliases": ["angel falls", "kerepakupai meru"], "answerWords": ["angel", "falls"]}`.
+Guessed words reveal matching occurrences (normalised: lower-case, ASCII-folded, plural/possessive stripped);
+the subject is guessed by name. Result: `attempts`, `solved`.
+
+**fiveclues**. `payload: {"clues": ["...", "...", "...", "...", "..."]}`, `reveal: {"answer": "Honey", "aliases": [...],
+"explanations": ["...", ...]}` (one per clue). Clues revealed one at a time; guessing earlier scores more.
+Result: `points` (5 if solved on clue 1 … 1 on clue 5, 0 unsolved), `maxPoints: 5`.
+
+**groups**. `payload: {"tiles": [12 strings, shuffled deterministically]}`, `reveal: {"groups": [{"title": "...",
+"members": [4 strings], "explanation": "..."}, ×3]}`. Four mistakes allowed. Result: `attempts` (mistakes), `solved`.
+
+**linked**. `payload: {"sets": [{"clues": ["...", "..."]}, ×3]}`, `reveal: {"answers": ["...", "...", "..."], "aliases": [[...], [...], [...]],
+"final": "...", "finalAliases": [...], "explanations": [...]}`. Progressive hints cost points. Result: `points`, `maxPoints`.
+
+**chronology**. `payload: {"events": [4 × {"text": "...", "id": "a"}] in shuffled order}`, `reveal: {"order": ["c", "a", "d", "b"],
+"dates": {"a": "1969", ...}, "explanation": "...", "sources": [...]}`. Result: `points` (events in the right position), `maxPoints: 4`.
+
+**crossmatch**. `payload: {"rows": ["...", "...", "..."], "cols": ["...", "...", "..."], "tiles": [9 strings, shuffled]}`,
+`reveal: {"grid": [["...", "...", "..."], ×3], "explanations": {"tile": "why it fits row × column"}}`. The intended
+placement is unique. Result: `points` (correct cells), `maxPoints: 9`.
+
+**compass** (Word Compass). `payload: {"vocabularySize": 5000}`, `reveal: {"target": "harbour", "ranks": {"port": 1, "dock": 2, ...}}`
+with the 5,000 nearest words precomputed at content time from licensed vectors (see `docs/content-and-rights.md`).
+Guesses outside the list are "far". Result: `attempts`, `solved`.

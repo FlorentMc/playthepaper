@@ -170,6 +170,21 @@ class LocalStore extends ChangeNotifier {
     notifyListeners();
   }
 
+  // ---------------------------------------------------------------- extras
+
+  /// Small game-specific local state that is not tied to a puzzle id, such
+  /// as the unlimited 2048 board or a best score. Namespaced by [key].
+  String? extra(String key) => _prefs.get('extra:$key');
+
+  Future<void> setExtra(String key, String? value) async {
+    if (value == null) {
+      await _prefs.delete('extra:$key');
+    } else {
+      await _prefs.put('extra:$key', value);
+    }
+    notifyListeners();
+  }
+
   // ----------------------------------------------------------- content cache
 
   String? cached(String key) => _cache.get(key);

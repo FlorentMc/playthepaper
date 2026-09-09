@@ -22,7 +22,7 @@ class PuzzleId extends Equatable {
   final int version;
 
   static final RegExp _pattern = RegExp(
-    r'^(word|sudoku|letters|crossword|quiz)'
+    '^(${GameKind.values.map((k) => k.slug).join('|')})'
     r'-(\d{4}-\d{2}-\d{2})'
     r'-([a-z]{2})'
     r'(?:-(easy|medium|hard))?'

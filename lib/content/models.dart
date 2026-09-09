@@ -166,8 +166,10 @@ class EditionManifest extends Equatable {
 
   Story? story(String id) => stories.where((s) => s.id == id).firstOrNull;
 
+  /// Complete means the core is present: the four classics, the quiz and at
+  /// least three stories. Every other game is optional per edition.
   bool get isComplete {
-    for (final g in GameKind.values) {
+    for (final g in GameKind.core) {
       if (g == GameKind.sudoku) {
         for (final d in Difficulty.values) {
           if (puzzleFor(g, difficulty: d) == null) return false;
@@ -178,6 +180,10 @@ class EditionManifest extends Equatable {
     }
     return stories.length >= 3;
   }
+
+  /// The games this edition offers, in home-page order.
+  List<GameKind> get games =>
+      GameKind.values.where((g) => puzzles.any((p) => p.game == g)).toList(growable: false);
 
   static EditionManifest fromJson(Map<String, dynamic> json) {
     const where = 'edition';

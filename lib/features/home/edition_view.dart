@@ -59,7 +59,129 @@ class EditionView extends StatelessWidget {
           _ClassicCard(manifest: manifest, game: game, isToday: isToday),
           const SizedBox(height: 12),
         ],
+        for (final category in [GameCategory.logic, GameCategory.play, GameCategory.editorial])
+          if (manifest.games.any((g) => g.category == category)) ...[
+            const SizedBox(height: 10),
+            Text(category.title.toUpperCase(), style: theme.textTheme.labelSmall),
+            const SizedBox(height: 4),
+            const Rule(),
+            const SizedBox(height: 12),
+            _TileGrid(
+              manifest: manifest,
+              games: manifest.games.where((g) => g.category == category).toList(),
+              favourites: store.favourites,
+            ),
+          ],
       ],
+    );
+  }
+}
+
+/// Two-column grid of compact tiles for the optional games, so the page
+/// stays scannable as the collection grows.
+class _TileGrid extends StatelessWidget {
+  const _TileGrid({required this.manifest, required this.games, required this.favourites});
+  final EditionManifest manifest;
+  final List<GameKind> games;
+  final Set<GameKind> favourites;
+
+  @override
+  Widget build(BuildContext context) {
+    final ordered = games.toList()
+      ..sort((a, b) {
+        final fa = favourites.contains(a) ? 0 : 1;
+        final fb = favourites.contains(b) ? 0 : 1;
+        return fa != fb ? fa.compareTo(fb) : GameKind.values.indexOf(a).compareTo(GameKind.values.indexOf(b));
+      });
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = constraints.maxWidth >= 640 ? 3 : 2;
+        const gap = 10.0;
+        final width = (constraints.maxWidth - gap * (columns - 1)) / columns;
+        return Wrap(
+          spacing: gap,
+          runSpacing: gap,
+          children: [
+            for (final g in ordered)
+              SizedBox(width: width, child: _CompactTile(manifest: manifest, game: g, pinned: favourites.contains(g))),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _CompactTile extends StatelessWidget {
+  const _CompactTile({required this.manifest, required this.game, required this.pinned});
+  final EditionManifest manifest;
+  final GameKind game;
+  final bool pinned;
+
+  @override
+  Widget build(BuildContext context) {
+    final store = context.watch<LocalStore>();
+    final theme = Theme.of(context);
+    final colors = context.gameColors;
+    final id = manifest.puzzleFor(game);
+    final result = id == null ? null : store.result(id);
+    final inProgress = id != null && store.hasProgress(id);
+    final IconData icon;
+    final Color iconColor;
+    final String status;
+    if (result != null) {
+      icon = Icons.check_circle;
+      iconColor = colors.correct;
+      status = result.summary();
+    } else if (inProgress) {
+      icon = Icons.pause_circle_outline;
+      iconColor = colors.misplaced;
+      status = 'In progress';
+    } else {
+      icon = Icons.circle_outlined;
+      iconColor = theme.colorScheme.outline;
+      status = GameRegistry.blurbs[game] ?? '';
+    }
+    return Card(
+      child: InkWell(
+        borderRadius: BorderRadius.circular(8),
+        onTap: id == null ? null : () => context.push('/p/$id'),
+        onLongPress: () => store.toggleFavourite(game),
+        child: Semantics(
+          button: true,
+          label: '${game.title}. $status. Long press to ${pinned ? 'unpin' : 'pin'}.',
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(14, 12, 12, 12),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        game.title,
+                        style: PaperTheme.display(size: 17, color: theme.colorScheme.onSurface),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    if (pinned) Icon(Icons.push_pin, size: 14, color: colors.subtle),
+                  ],
+                ),
+                const SizedBox(height: 6),
+                Row(
+                  children: [
+                    Icon(icon, size: 15, color: iconColor),
+                    const SizedBox(width: 6),
+                    Expanded(
+                      child: Text(status, style: theme.textTheme.labelSmall, maxLines: 2, overflow: TextOverflow.ellipsis),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

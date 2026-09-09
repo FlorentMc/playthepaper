@@ -68,23 +68,25 @@ class StatsSummary {
 
     String rateLabel;
     String rateValue;
-    switch (game) {
-      case GameKind.letters:
-        final pts = list.map((r) => r.points ?? 0).toList();
-        rateLabel = 'Avg points';
-        rateValue = pts.isEmpty ? '–' : (pts.reduce((a, b) => a + b) / pts.length).round().toString();
-      case GameKind.quiz:
-        final pts = list.map((r) => r.points ?? 0).toList();
-        rateLabel = 'Avg score';
-        rateValue = pts.isEmpty ? '–' : '${(pts.reduce((a, b) => a + b) / pts.length).toStringAsFixed(1)}/6';
-      case GameKind.sudoku:
-      case GameKind.crossword:
-        final t = list.where((r) => r.solved && r.seconds != null).map((r) => r.seconds!).toList();
-        rateLabel = 'Best time';
-        rateValue = t.isEmpty ? '–' : GameResult.formatSeconds(t.reduce((a, b) => a < b ? a : b));
-      case GameKind.word:
-        rateLabel = 'Win rate';
-        rateValue = played == 0 ? '–' : '${(solved * 100 / played).round()}%';
+    if (game == GameKind.letters || game == GameKind.merge || game == GameKind.compass) {
+      final pts = list.map((r) => r.points ?? 0).toList();
+      rateLabel = game == GameKind.merge ? 'Best score' : 'Avg points';
+      rateValue = pts.isEmpty
+          ? '–'
+          : game == GameKind.merge
+              ? pts.reduce((a, b) => a > b ? a : b).toString()
+              : (pts.reduce((a, b) => a + b) / pts.length).round().toString();
+    } else if (game == GameKind.quiz) {
+      final pts = list.map((r) => r.points ?? 0).toList();
+      rateLabel = 'Avg score';
+      rateValue = pts.isEmpty ? '–' : '${(pts.reduce((a, b) => a + b) / pts.length).toStringAsFixed(1)}/6';
+    } else if (game.isTimed) {
+      final t = list.where((r) => r.solved && r.seconds != null).map((r) => r.seconds!).toList();
+      rateLabel = 'Best time';
+      rateValue = t.isEmpty ? '–' : GameResult.formatSeconds(t.reduce((a, b) => a < b ? a : b));
+    } else {
+      rateLabel = 'Win rate';
+      rateValue = played == 0 ? '–' : '${(solved * 100 / played).round()}%';
     }
 
     return StatsSummary(

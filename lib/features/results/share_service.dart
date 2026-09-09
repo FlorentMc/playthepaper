@@ -40,14 +40,16 @@ class ShareService {
   /// Same puzzle, with a compact result to beat.
   static String challengeText(GameResult result) {
     final id = result.puzzleId;
-    final verb = switch (id.game) {
-      GameKind.word => 'Beat my ${result.summary().toLowerCase()}',
-      GameKind.quiz => 'Beat my ${result.summary()}',
-      GameKind.letters => 'Beat my ${result.points} points',
-      GameKind.sudoku || GameKind.crossword => result.seconds == null
-          ? 'Can you solve it?'
-          : 'Beat my time of ${GameResult.formatSeconds(result.seconds!)}',
-    };
+    final String verb;
+    if (id.game == GameKind.word || id.game == GameKind.quiz) {
+      verb = 'Beat my ${result.summary().toLowerCase()}';
+    } else if (id.game == GameKind.letters) {
+      verb = 'Beat my ${result.points} points';
+    } else if (id.game.isTimed) {
+      verb = result.seconds == null ? 'Can you solve it?' : 'Beat my time of ${GameResult.formatSeconds(result.seconds!)}';
+    } else {
+      verb = 'Beat my ${result.summary()}';
+    }
     return 'Play the Paper ${titleFor(id)} · ${dateLabel(id)}\n$verb\n${puzzleUrl(id, toBeat: result)}';
   }
 

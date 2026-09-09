@@ -22,6 +22,7 @@ class GameResult extends Equatable {
     this.errorPct,
     this.shareLines = const [],
     this.isArchivePlay = false,
+    this.note,
   });
 
   final PuzzleId puzzleId;
@@ -53,10 +54,15 @@ class GameResult extends Equatable {
   /// True when this puzzle was played from the archive after its own date.
   final bool isArchivePlay;
 
+  /// A game-specific one-line summary, e.g. `Score 5,432 · best tile 1024`.
+  /// When set it is shown instead of the category default.
+  final String? note;
+
   GameKind get game => puzzleId.game;
 
   /// One-line human summary, e.g. `Solved in 4/6` or `37 points`.
   String summary() {
+    if (note != null && note!.isNotEmpty) return note!;
     switch (game) {
       case GameKind.word:
         return solved ? 'Solved in $attempts/6' : 'Not solved';
@@ -65,11 +71,20 @@ class GameResult extends Equatable {
       case GameKind.letters:
         final max = maxPoints == null ? '' : ' of $maxPoints';
         return '$points points$max';
-      case GameKind.sudoku:
-      case GameKind.crossword:
-        final time = seconds == null ? '' : ' in ${formatSeconds(seconds!)}';
-        final h = (hints ?? 0) == 0 ? '' : ' · $hints hint${hints == 1 ? '' : 's'}';
-        return solved ? 'Solved$time$h' : 'Not solved';
+      case GameKind.merge:
+        return points == null ? (solved ? 'Reached 2048' : 'Played') : 'Score $points';
+      default:
+        if (game.isTimed) {
+          final time = seconds == null ? '' : ' in ${formatSeconds(seconds!)}';
+          final h = (hints ?? 0) == 0 ? '' : ' · $hints hint${hints == 1 ? '' : 's'}';
+          return solved ? 'Solved$time$h' : 'Not solved';
+        }
+        if (points != null) {
+          final max = maxPoints == null ? '' : '/$maxPoints';
+          return '$points$max';
+        }
+        if (attempts != null) return solved ? 'Solved in $attempts' : 'Not solved';
+        return solved ? 'Solved' : 'Not solved';
     }
   }
 
@@ -151,6 +166,7 @@ class GameResult extends Equatable {
         if (errorPct != null) 'errorPct': errorPct,
         if (shareLines.isNotEmpty) 'shareLines': shareLines,
         'isArchivePlay': isArchivePlay,
+        if (note != null) 'note': note,
       };
 
   static GameResult fromJson(Map<String, dynamic> json) => GameResult(
@@ -166,6 +182,7 @@ class GameResult extends Equatable {
         errorPct: (json['errorPct'] as num?)?.toDouble(),
         shareLines: (json['shareLines'] as List?)?.cast<String>() ?? const [],
         isArchivePlay: json['isArchivePlay'] as bool? ?? false,
+        note: json['note'] as String?,
       );
 
   String get editionDateLabel => EditionClock.formatDate(puzzleId.date);
@@ -184,5 +201,6 @@ class GameResult extends Equatable {
         errorPct,
         shareLines,
         isArchivePlay,
+        note,
       ];
 }
