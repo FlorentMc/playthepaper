@@ -1,5 +1,6 @@
 import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/compass/compass_generator.dart';
 
 /// One daily puzzle from a seed.
@@ -15,6 +16,7 @@ class EditorialGenerator {
 /// Generated games (logic and play). Each module registers its generator
 /// here as it lands; an unregistered game is simply absent from new editions.
 final Map<GameKind, DailyGenerator> generatedGames = {
+  GameKind.bridges: BridgesGenerator().generate,
   GameKind.compass: CompassGenerator().generate,
 };
 

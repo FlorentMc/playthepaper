@@ -1,5 +1,6 @@
 import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/compass/compass_engine.dart';
 import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
@@ -32,6 +33,7 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.crossword: (r) => CrosswordPuzzle.parse(r.payload, r.reveal),
   GameKind.quiz: (r) => QuizPuzzle.parse(r.payload, r.reveal),
   GameKind.compass: (r) => CompassPuzzle.parse(r.payload, r.reveal),
+  GameKind.bridges: (r) => BridgesPuzzle.parse(r.payload, r.reveal),
 };
 
 

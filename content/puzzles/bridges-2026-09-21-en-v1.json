@@ -1,0 +1,143 @@
+{
+  "id": "bridges-2026-09-21-en-v1",
+  "game": "bridges",
+  "editionDate": "2026-09-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 7,
+    "height": 7,
+    "islands": [
+      {
+        "row": 2,
+        "col": 3,
+        "count": 5
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "count": 4
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "count": 2
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "count": 4
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "count": 4
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "count": 2
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "count": 2
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "count": 1
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "count": 1
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "count": 1
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "count": 1
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "count": 2
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "count": 1
+      }
+    ]
+  },
+  "reveal": {
+    "bridges": [
+      {
+        "from": 0,
+        "to": 4,
+        "count": 1
+      },
+      {
+        "from": 0,
+        "to": 8,
+        "count": 1
+      },
+      {
+        "from": 1,
+        "to": 0,
+        "count": 2
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "count": 1
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "count": 1
+      },
+      {
+        "from": 3,
+        "to": 11,
+        "count": 1
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "count": 2
+      },
+      {
+        "from": 6,
+        "to": 3,
+        "count": 2
+      },
+      {
+        "from": 7,
+        "to": 4,
+        "count": 1
+      },
+      {
+        "from": 9,
+        "to": 0,
+        "count": 1
+      },
+      {
+        "from": 10,
+        "to": 1,
+        "count": 1
+      },
+      {
+        "from": 12,
+        "to": 11,
+        "count": 1
+      }
+    ]
+  }
+}
