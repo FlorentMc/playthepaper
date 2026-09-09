@@ -11,6 +11,7 @@ import 'package:playthepaper/engines/quiz/quiz_engine.dart';
 import 'package:playthepaper/engines/word/word_engine.dart';
 
 import '_common.dart';
+import '_generators.dart';
 import '_share_pages.dart';
 
 /// Assembles the content tree for a date range from edition templates.
@@ -39,6 +40,7 @@ void main(List<String> args) {
   final content = opts['content']!;
   final src = opts['src']!;
   final requireNews = opts.containsKey('news');
+  final optionalFrom = opts.containsKey('optional-from') ? parseDate(opts['optional-from']!) : kOptionalGamesFrom;
 
   final evergreen = _loadTemplates('$src/evergreen');
   if (evergreen.isEmpty) fail('no evergreen templates in $src/evergreen');
@@ -136,6 +138,34 @@ void main(List<String> args) {
     lines.add('crossword ${template.crosswordSeeds.isEmpty ? 'unseeded' : '${generation.seedsPlaced} of ${template.crosswordSeeds.length} seeds placed'}');
     final crosswordId = _writeVersioned(content, crossword);
 
+    // Optional games: generated logic and play puzzles, and editorial puzzles
+    // from the template or the evergreen reserve. Only from [optionalFrom],
+    // so editions that have already opened are never changed.
+    final optionalIds = <PuzzleId>[];
+    final optionalSeeds = <String, String>{};
+    if (!date.isBefore(optionalFrom)) {
+      for (final entry in generatedGames.entries) {
+        final record = entry.value(date);
+        optionalIds.add(_writeVersioned(content, record));
+        lines.add('${entry.key.slug} generated');
+      }
+      for (final entry in editorialGames.entries) {
+        final slug = entry.key.slug;
+        final item = template.editorial[slug];
+        final PuzzleRecord record;
+        if (item != null) {
+          final storyId = item['storyId'] as String?;
+          record = entry.value.fromTemplate(date, item, storyId: storyId);
+          if (storyId != null) optionalSeeds[slug] = storyId;
+          lines.add('$slug from template${storyId == null ? '' : ' ($storyId)'}');
+        } else {
+          record = entry.value.generate(date);
+          lines.add('$slug from reserve');
+        }
+        optionalIds.add(_writeVersioned(content, record));
+      }
+    }
+
     // The Quiz.
     final quizId = PuzzleId(game: GameKind.quiz, date: date);
     final quiz = PuzzleRecord(
@@ -162,6 +192,9 @@ void main(List<String> args) {
     for (final s in CrosswordPuzzle.parse(crossword.payload, crossword.reveal).seeded) {
       feed(s.storyId, 'crossword:${s.label}');
     }
+    for (final e in optionalSeeds.entries) {
+      feed(e.value, e.key);
+    }
     for (final storyId in seeds.keys) {
       if (!template.stories.any((s) => s['id'] == storyId)) fail('$ds: seed references unknown story $storyId');
     }
@@ -177,7 +210,7 @@ void main(List<String> args) {
       'kind': kind.slug,
       'label': template.label,
       'version': version,
-      'puzzles': [wordId, ...classics, lettersId, crosswordId, quizWrittenId].map((i) => i.toString()).toList(),
+      'puzzles': [wordId, ...classics, lettersId, crosswordId, quizWrittenId, ...optionalIds].map((i) => i.toString()).toList(),
       'stories': template.stories,
       'seeds': seeds,
       if (kind == EditionKind.news) 'publishedAt': DateTime.now().toUtc().toIso8601String(),
@@ -210,6 +243,10 @@ void main(List<String> args) {
   final sharePages = writeSharePages(content, opts['web']!);
   stdout.writeln('editions: $built written, $keptNews news kept, ${dates.length} in index (${dates.first} → ${dates.last}); share pages: $sharePages written');
 }
+
+/// The first edition that carries the optional games. Earlier editions are
+/// open or archived and are never rewritten.
+final DateTime kOptionalGamesFrom = DateTime.utc(2026, 9, 10);
 
 String _crosswordTeaser(int n) => switch (n) {
       1 => 'One of today\'s clues comes from the news.',
@@ -301,6 +338,7 @@ class _Template {
     required this.wordSeed,
     required this.lettersSeed,
     required this.crosswordSeeds,
+    this.editorial = const {},
   });
 
   final String slug;
@@ -312,6 +350,9 @@ class _Template {
   final WordSeed? wordSeed;
   final LettersSeed? lettersSeed;
   final List<CrosswordSeed> crosswordSeeds;
+
+  /// Editorial items supplied by the template, by game slug.
+  final Map<String, Map<String, dynamic>> editorial;
 
   static _Template fromJson(Map<String, dynamic> json, String path) {
     Never bad(String what) => fail('$path: $what');
@@ -365,6 +406,19 @@ class _Template {
     for (final id in [wordSeed?.storyId, lettersSeed?.storyId, ...crosswordSeeds.map((s) => s.storyId)]) {
       if (id != null && !storyIds.contains(id)) bad('seed references unknown story $id');
     }
+    final editorial = <String, Map<String, dynamic>>{};
+    final rawEditorial = json['editorial'];
+    if (rawEditorial is Map) {
+      for (final e in rawEditorial.entries) {
+        final game = GameKind.tryFromSlug(e.key as String);
+        if (game == null || !game.isEditorial) bad('editorial section names unknown game ${e.key}');
+        final item = e.value;
+        if (item is! Map) bad('editorial item ${e.key} must be an object');
+        final storyId = item['storyId'];
+        if (storyId != null && !storyIds.contains(storyId)) bad('editorial item ${e.key} references unknown story $storyId');
+        editorial[e.key as String] = Map<String, dynamic>.from(item);
+      }
+    }
     return _Template(
       slug: slug,
       label: label,
@@ -375,6 +429,7 @@ class _Template {
       wordSeed: wordSeed,
       lettersSeed: lettersSeed,
       crosswordSeeds: crosswordSeeds,
+      editorial: editorial,
     );
   }
 }
