@@ -1,0 +1,107 @@
+{
+  "topic": "Precious gemstones",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "A variety of the mineral beryl, coloured green by a trace element",
+          "Beryl rates 7.5 to 8 on the Mohs scale, and this stone turns up beside quartz"
+        ],
+        "hint": "Its green comes from a trace of chromium, sometimes vanadium"
+      },
+      {
+        "clues": [
+          "A pinkish-red to blood-red variety of the mineral corundum",
+          "The Black Prince's stone in the Imperial State Crown is really a spinel"
+        ],
+        "hint": "The birthstone for July, and chromium gives it its colour"
+      },
+      {
+        "clues": [
+          "Corundum in any colour but red, and most familiar in blue",
+          "Nine on the Mohs scale, the third hardest mineral of all"
+        ],
+        "hint": "It goes into watch crystals and the substrates of blue LEDs"
+      }
+    ],
+    "finalHint": "Mineral crystals cut and polished to be worn"
+  },
+  "reveal": {
+    "answers": [
+      "Emerald",
+      "Ruby",
+      "Sapphire"
+    ],
+    "aliases": [
+      [
+        "emeralds"
+      ],
+      [
+        "rubies"
+      ],
+      [
+        "sapphires"
+      ]
+    ],
+    "final": "Precious gemstones",
+    "finalAliases": [
+      "gemstones",
+      "precious stones",
+      "the cardinal gems"
+    ],
+    "explanations": [
+      "The emerald is a variety of beryl, coloured green by traces of chromium or vanadium, and rates 7.5 to 8 on the Mohs scale.",
+      "The ruby is corundum in pinkish-red to blood-red; some famous stones called rubies, such as the Black Prince's, are really spinels.",
+      "The sapphire is corundum in any colour but red, most familiar in blue, and at 9 on the Mohs scale is the third hardest mineral.",
+      "Emerald, ruby and sapphire are three of the traditional cardinal gems, mineral crystals cut and polished to be worn as jewellery."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emerald",
+      "excerpt": "Emerald is a gemstone and a variety of the mineral beryl (Be3Al2(SiO3)6) colored green by trace amounts of chromium or sometimes vanadium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emerald",
+      "excerpt": "Beryl has a hardness of 7.5–8 on the Mohs scale."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emerald",
+      "excerpt": "It occurs mainly in association with quartz, muscovite, albite, schorl, microcline, fluorite, smoky quartz and elbaite."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ruby",
+      "excerpt": "Ruby is a pinkish-red to blood-red-colored gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α-Al2O3)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ruby",
+      "excerpt": "Some gemstones that are popularly or historically called rubies, such as the Black Prince's Ruby in the British Imperial State Crown, are actually spinels."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sapphire",
+      "excerpt": "Sapphire is a precious gemstone, a variety of the mineral corundum, consisting of aluminium oxide (α-Al2O3) with trace amounts of elements such as iron, titanium, cobalt, lead, chromium, vanadium, magnesium, boron, and silicon."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sapphire",
+      "excerpt": "Red corundum stones also occur, but are called rubies rather than sapphires."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sapphire",
+      "excerpt": "Sapphire has a remarkable hardness, with a score of 9 on the Mohs scale, the third-hardest mineral after diamond at 10 and moissanite at 9.5."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gemstone",
+      "excerpt": "A gemstone (also called a fine gem, jewel, precious stone, semiprecious stone, or simply gem) is a piece of mineral crystal which, when cut or polished, is used to make jewelry or other adornments."
+    }
+  ],
+  "editorNotes": "Alternatives checked: diamond and amethyst are the other traditional cardinal gems and are not among the three; corundum is the mineral behind two of the answers rather than an answer itself; the plural of each stone is accepted."
+}

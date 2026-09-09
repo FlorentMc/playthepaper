@@ -1,0 +1,55 @@
+{
+  "topic": "Chocolate",
+  "payload": {
+    "clues": [
+      "Its tree was first used for food in what is now Ecuador, 5,300 years ago",
+      "Until the 19th century it was a drink for the wealthy few, then machines made it solid",
+      "Ivory Coast and Ghana together grow about 60 per cent of the world's cocoa",
+      "The nibs are ground into a liquor that can be split into butter and powder",
+      "Made from roasted, ground cocoa beans, and moulded into eggs at Easter"
+    ]
+  },
+  "reveal": {
+    "answer": "Chocolate",
+    "explanations": [
+      "The cacao tree was first used as a source of food in what is today Ecuador, at least 5,300 years ago.",
+      "Until the 19th century it was a drink consumed by the elite; technological advances turned it into a mass-consumed solid food.",
+      "Most of the cocoa for it is grown in West Africa, with Ivory Coast and Ghana supplying about 60% of the world's beans.",
+      "Nibs are ground to a liquor, which can be processed further into cocoa butter and cocoa powder.",
+      "It is a food made from roasted and ground cocoa beans, and is traditionally moulded into shapes such as eggs at Easter."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "The cacao tree was first used as a source for food in what is today Ecuador at least 5,300 years ago."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "Until the 19th century, chocolate was a drink consumed by societal elite. In the wake of technological advances chocolate became a mass-consumed solid food."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "Cocoa beans for most chocolate are grown in West African countries, particularly Ivory Coast and Ghana, which contribute about 60% of the world's cocoa supply."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "The shell is removed to reveal nibs, which are ground to chocolate liquor (unadulterated chocolate in rough form.) The liquor can be further processed into cocoa butter and cocoa powder, or shaped and sold as unsweetened baking chocolate."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "Chocolate is a food made from roasted and ground cocoa beans."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "Gifts of chocolate molded into different shapes (such as eggs, hearts, and coins) are traditional on certain holidays, including Christmas, Easter, Valentine's Day, Hanukkah and Eid al-Fitr."
+    }
+  ],
+  "editorNotes": "Alternatives checked: cocoa is the powder and the drink made from it, but the clues describe the food that the liquor is shaped into; cacao is the tree and its beans, named in the first clue as the source; coffee is also roasted and ground but is brewed rather than moulded."
+}

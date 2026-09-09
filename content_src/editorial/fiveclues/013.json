@@ -1,0 +1,55 @@
+{
+  "topic": "Glass",
+  "payload": {
+    "clues": [
+      "The soda–lime kind, about 70 per cent silica, is nine tenths of what is made today",
+      "Archaeology dates its making to at least 3600 BC in Mesopotamia, Egypt or Syria",
+      "Obsidian is a natural volcanic form, used for arrowheads since the Stone Age",
+      "Metal salts colour it, which is how a stained church window is made",
+      "An amorphous solid, often transparent, usually formed by cooling a melt quickly"
+    ]
+  },
+  "reveal": {
+    "answer": "Glass",
+    "explanations": [
+      "Soda–lime, containing around 70% silica, accounts for around 90% of modern manufactured glass.",
+      "Archaeological evidence puts its making back to at least 3600 BC, in Mesopotamia, Egypt or Syria; the earliest known objects were beads.",
+      "Some kinds occur naturally: obsidian is volcanic, and has been used for arrowheads and knives since the Stone Age.",
+      "It can be coloured by adding metal salts, or painted with vitreous enamels, which is how stained windows are made.",
+      "It is an amorphous, non-crystalline solid, often transparent and chemically inert, most often formed by rapidly cooling the molten form."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Soda–lime glass, containing around 70% silica, accounts for around 90% of modern manufactured glass."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Archaeological evidence suggests glassmaking dates back to at least 3600 BC in Mesopotamia, Egypt, or Syria."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Some glasses such as volcanic glass are naturally occurring, and obsidian has been used to make arrowheads and knives since the Stone Age."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Glass can be coloured by adding metal salts or painted and printed with vitreous enamels, leading to its use in stained glass windows and other glass art objects."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Glass is an amorphous (non-crystalline) solid."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "excerpt": "Glass is most often formed by rapid cooling (quenching) of the molten form."
+    }
+  ],
+  "editorNotes": "Alternatives checked: obsidian is one natural form and appears in clue three as an example, not as the answer; quartz and silica are ingredients rather than the material; a crystal is by definition ordered, which the first and last clues rule out."
+}

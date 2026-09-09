@@ -1,0 +1,55 @@
+{
+  "topic": "Denim",
+  "payload": {
+    "clues": [
+      "A warp-faced twill in which the weft passes under two or more warp threads",
+      "Its diagonal ribbing is what sets it apart from cotton duck",
+      "As we know it, the cloth was first made in Nîmes, in France",
+      "Only the lengthwise threads take the indigo, which is why the inside stays pale",
+      "The sturdy blue cotton that a pair of jeans is cut from"
+    ]
+  },
+  "reveal": {
+    "answer": "Denim",
+    "explanations": [
+      "It is a sturdy cotton, warp-faced textile in which the weft passes under two or more warp threads.",
+      "The twill weave produces a diagonal ribbing, which distinguishes it from cotton duck.",
+      "The cloth as it is recognised today was first produced in Nîmes, in France.",
+      "In the common indigo form only the warp threads are dyed and the weft is left white, so the inside of a pair of jeans is pale.",
+      "It is the sturdy cotton cloth used to make jeans and a wide variety of other garments and accessories."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Denim is a sturdy, cotton, warp-faced textile in which the weft passes under two or more warp threads."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "This twill weave produces a diagonal ribbing that distinguishes it from cotton duck."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Denim, as it is recognised today, was first produced in Nîmes, France."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Denim is available in a range of colors, but the most common type of denim is indigo denim in which the warp threads are dyed while the weft threads are left white."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Jeans made from this cloth are thus predominantly white on the inside."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denim",
+      "excerpt": "Denim is used to create a wide variety of garments, accessories, and furniture."
+    }
+  ],
+  "editorNotes": "Alternatives checked: cotton duck is named in the second clue as the cloth this is distinguished from; corduroy has ribs but they run lengthwise and are cut pile; indigo is the dye rather than the cloth, and jeans are the garment made from it."
+}

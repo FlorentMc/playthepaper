@@ -1,0 +1,54 @@
+{
+  "id": "fiveclues-2026-09-20-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "The earliest credible record of drinking it is a 3rd-century Chinese medical text",
+      "Portuguese priests and merchants brought the habit to Europe in the 16th century",
+      "Its lift comes mainly from caffeine",
+      "Made by infusing the leaves of Camellia sinensis, an evergreen shrub of East Asia",
+      "After plain water, the most widely drunk thing in the world"
+    ]
+  },
+  "reveal": {
+    "answer": "Tea",
+    "explanations": [
+      "The earliest credible record of drinking it dates to the 3rd century AD, in a medical text by the physician Hua Tuo.",
+      "Portuguese priests and merchants introduced the drink to Europe in the 16th century; it became fashionable there in the 17th.",
+      "It has a stimulant effect in humans, primarily because of its caffeine content.",
+      "It is made by infusing hot water with the leaves of Camellia sinensis, an evergreen shrub native to East Asia.",
+      "After plain drinking water it is the most widely consumed beverage in the world."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "Early credible record of tea drinking dates to the 3rd century AD, in a Chinese medical text written by Eastern Han dynasty physician Hua Tuo."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "Outside of the Far East, Portuguese priests and merchants introduced tea drinking to Europe during the 16th century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "Tea has a stimulant effect in humans primarily due to its caffeine content."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "Tea is an aromatic beverage prepared by infusion of hot or boiling fresh water with fresh or cured leaves of Camellia sinensis, an evergreen shrub native to East Asia that originated in the borderlands of southwestern China, northeast India and northern Myanmar."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "excerpt": "After plain drinking water, tea is the most widely consumed beverage in the world."
+    }
+  ]
+}

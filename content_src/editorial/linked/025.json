@@ -1,0 +1,90 @@
+{
+  "topic": "Igneous rocks",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Coarse-grained, mostly quartz and feldspar, cooled slowly underground",
+          "Massive and tough, it has been a building stone throughout human history"
+        ],
+        "hint": "Common in the continental crust, in intrusions from dikes to batholiths"
+      },
+      {
+        "clues": [
+          "More than nine tenths of all volcanic rock on Earth is this",
+          "The dark plains of the Moon are made of it, and it covers most of Venus"
+        ],
+        "hint": "Its low silica content lets the lava run fast and far"
+      },
+      {
+        "clues": [
+          "Made when superheated, highly pressurised rock is thrown out of a volcano",
+          "Cooling and depressurising at once freeze the bubbles in, as in an opened fizzy drink"
+        ],
+        "hint": "Rafts of it can float on the sea and trouble shipping"
+      }
+    ],
+    "finalHint": "One of the three main rock types; the others are sedimentary and metamorphic"
+  },
+  "reveal": {
+    "answers": [
+      "Granite",
+      "Basalt",
+      "Pumice"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "Igneous rocks",
+    "finalAliases": [
+      "igneous rock",
+      "magmatic rock"
+    ],
+    "explanations": [
+      "Granite is coarse-grained and intrusive, mostly quartz and feldspar, formed as silica-rich magma cools slowly underground.",
+      "Basalt is fine-grained and extrusive, formed from runny lava; more than 90 per cent of Earth's volcanic rock is basalt.",
+      "Pumice forms when superheated, pressurised rock is thrown from a volcano and cools and depressurises at once, freezing its bubbles in place.",
+      "Granite, basalt and pumice are all igneous rocks, formed by the cooling and solidification of magma or lava."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Granite",
+      "excerpt": "Granite (, GRAN-it or , GRAN-eye-t) is a coarse-grained (phaneritic) intrusive igneous rock composed mostly of quartz, alkali feldspar, mica and plagioclase. It forms from magma with a high content of silica and alkali metal oxides that slowly cools and solidifies underground."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Granite",
+      "excerpt": "Granite is nearly always massive (lacking any internal structures), and tough. These properties have made granite a widespread construction stone throughout human history."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Basalt",
+      "excerpt": "More than 90% of all volcanic rock on Earth is basalt."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Basalt",
+      "excerpt": "For example, the bulk of the plains of Venus, which cover ~80% of the surface, are basaltic; the lunar maria are plains of flood-basaltic lava flows; and basalt is a common rock on the surface of Mars."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pumice",
+      "excerpt": "Pumice is created when super-heated, highly pressurized rock is rapidly ejected from a volcano."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pumice",
+      "excerpt": "The depressurization creates bubbles by lowering the solubility of gases (including water and CO2) that are dissolved in the lava, causing the gases to rapidly exsolve (like the bubbles of CO2 that appear when a carbonated drink is opened)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Igneous_rock",
+      "excerpt": "Igneous rocks are formed through the cooling and solidification of magma or lava."
+    }
+  ],
+  "editorNotes": "Alternatives checked: sandstone and limestone are sedimentary, and marble and slate metamorphic, so none of them fits; obsidian is another volcanic glass but is dense and dark rather than full of bubbles; 'volcanic rock' covers only two of the three, since the first cools underground."
+}

@@ -1,0 +1,118 @@
+{
+  "topic": "String instruments",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Its strings run at an angle to the soundboard and are plucked with the fingers",
+          "Usually wooden and triangular, and a national emblem in Ireland"
+        ],
+        "hint": "Ancient ones were depicted in Mesopotamia, Persia and Egypt"
+      },
+      {
+        "clues": [
+          "The smallest and highest of its own family, with four strings tuned in fifths",
+          "First made in 16th-century Italy; Stradivari and Guarneri are its great names"
+        ],
+        "hint": "Drawn with a bow, or plucked, which is called pizzicato"
+      },
+      {
+        "clues": [
+          "Usually fretted, typically six strings, held flat against the player's body",
+          "The electric kind, patented in 1937, needs no hollow chamber at all"
+        ],
+        "hint": "Its ancestors include the gittern and the vihuela"
+      }
+    ],
+    "finalHint": "An orchestra keeps a whole section of them"
+  },
+  "reveal": {
+    "answers": [
+      "Harp",
+      "Violin",
+      "Guitar"
+    ],
+    "aliases": [
+      [
+        "harps"
+      ],
+      [
+        "fiddle",
+        "violins"
+      ],
+      [
+        "guitars"
+      ]
+    ],
+    "final": "String instruments",
+    "finalAliases": [
+      "stringed instruments",
+      "chordophones",
+      "the string family"
+    ],
+    "explanations": [
+      "The harp has individual strings running at an angle to its soundboard, plucked with the fingers; most are wooden and triangular.",
+      "The violin is the smallest and highest instrument of its family, with four strings tuned in fifths and usually played with a bow.",
+      "The guitar is fretted, typically six-stringed, and held against the body; the electric kind was first patented in 1937.",
+      "Harp, violin and guitar are all string instruments, or chordophones: they make their sound from vibrating strings."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harp",
+      "excerpt": "The harp is a stringed musical instrument that has individual strings running at an angle to its soundboard; the strings are plucked with the fingers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harp",
+      "excerpt": "Most commonly, harps are made of wood and are triangular in shape."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harp",
+      "excerpt": "Harps have symbolic political traditions and are often used in logos, including in Ireland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Violin",
+      "excerpt": "The violin, sometimes referred to as a fiddle, is a wooden chordophone, and is the smallest, and thus highest-pitched instrument (soprano) in regular use in the violin family."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Violin",
+      "excerpt": "Most violins have a hollow wooden body, and commonly have four strings (sometimes five), usually tuned in perfect fifths with notes G3, D4, A4, E5, and are most commonly played by drawing a bow across the strings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Violin",
+      "excerpt": "The violin was first created in 16th-century Italy, with some further modifications occurring in the 18th and 19th centuries to give the instrument a more powerful sound and projection."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Violin",
+      "excerpt": "Violinists and collectors particularly prize the fine historical instruments made by the Stradivari, Guarneri, Guadagnini and Amati families from the 16th to the 18th century in Brescia and Cremona (Italy) and by Jacob Stainer in Austria."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guitar",
+      "excerpt": "The guitar is a stringed musical instrument that is usually fretted (with some exceptions) and typically has six, seven, eight, nine or twelve strings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guitar",
+      "excerpt": "It is usually held flat against the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously pressing selected strings against frets with the fingers of the opposite hand."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guitar",
+      "excerpt": "Electric guitars, first patented in 1937, use a pickup and amplifier that made the instrument loud enough to be heard, but also enabled manufacturing guitars with a solid block of wood, without needing a resonant chamber."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/String_instrument",
+      "excerpt": "In musical instrument classification, string instruments, or chordophones, are musical instruments that produce sound from vibrating strings when a performer strums, plucks, strikes or sounds the strings in varying manners."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the piano has strings but they are struck by hammers from a keyboard, and it is classified separately in ordinary usage; 'the orchestra' has a string section, named in the final hint, but is not itself the class; fiddle is accepted for the second answer because the article gives it as another name."
+}

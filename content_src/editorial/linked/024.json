@@ -1,0 +1,90 @@
+{
+  "topic": "The first three elements",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The lightest and most abundant element in the universe, about three quarters of normal matter",
+          "Its name means water-former, from what Cavendish saw it make when burned"
+        ],
+        "hint": "Its commonest isotope is one proton and one electron, with no neutron"
+      },
+      {
+        "clues": [
+          "It was found first as an unknown yellow line in sunlight, during an eclipse in 1868",
+          "Named after the Sun, it is the second lightest and second most abundant"
+        ],
+        "hint": "Its boiling point is the lowest of all the elements"
+      },
+      {
+        "clues": [
+          "A soft, silvery-white alkali metal, the least dense of all metals",
+          "Batteries take more than three quarters of everything produced"
+        ],
+        "hint": "Its name comes from the Greek for stone"
+      }
+    ],
+    "finalHint": "Their atomic numbers are 1, 2 and 3"
+  },
+  "reveal": {
+    "answers": [
+      "Hydrogen",
+      "Helium",
+      "Lithium"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The first three elements",
+    "finalAliases": [
+      "the first three chemical elements",
+      "elements one, two and three"
+    ],
+    "explanations": [
+      "Hydrogen is the lightest and most abundant element in the universe, and its name means water-former, after what Cavendish saw it make when burned.",
+      "Helium was first spotted as a yellow line in sunlight during the eclipse of 1868 and named after the Sun; it is the second lightest element.",
+      "Lithium is a soft, silvery-white alkali metal, the least dense of all metals, and most of what is produced goes into batteries.",
+      "Hydrogen, helium and lithium are the first three chemical elements, with atomic numbers 1, 2 and 3."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen",
+      "excerpt": "It is the lightest and most abundant chemical element in the universe, constituting about 75% of all normal matter."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen",
+      "excerpt": "Henry Cavendish, in 1766–1781, identified hydrogen gas as a distinct substance and discovered its property of producing water when burned: this is the origin of hydrogen's name, which means 'water-former'"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helium",
+      "excerpt": "Helium was first detected as an unknown, yellow spectral line signature in sunlight during a solar eclipse in 1868 by Georges Rayet, Captain C. T. Haig, Norman R. Pogson, and Lieutenant John Herschel, and was subsequently confirmed by French astronomer Jules Janssen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helium",
+      "excerpt": "It is the second-lightest and second-most abundant element in the observable universe, after hydrogen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium",
+      "excerpt": "It is a soft, silvery-white alkali metal. Under standard conditions, it is the least dense metal and the least dense solid element."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium",
+      "excerpt": "Batteries alone consume more than three-quarters of lithium production."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helium",
+      "excerpt": "It is a colorless, odorless, non-toxic, inert, monatomic gas and the first in the noble gas group in the periodic table."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the three lightest gases would exclude the third answer, which is a metal; 'the periodic table' holds all of them but is not what the three make together; beryllium is number four and is not among them."
+}

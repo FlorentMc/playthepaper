@@ -1,0 +1,95 @@
+{
+  "id": "linked-2026-10-16-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The colour at the long-wavelength end of the spectrum, opposite violet",
+          "Ochre gave prehistoric art one of its very first pigments, in this colour"
+        ],
+        "hint": "Roughly 625 to 750 nanometres, and the complement of cyan"
+      },
+      {
+        "clues": [
+          "In painting it is mixed from yellow and cyan",
+          "The emerald owes its colour to a trace of chromium"
+        ],
+        "hint": "Around 495 to 570 nanometres, with some three hundred shades"
+      },
+      {
+        "clues": [
+          "Rayleigh scattering is why the clear daytime sky looks this way",
+          "Lapis lazuli was ground to make ultramarine, the costliest of all pigments"
+        ],
+        "hint": "It lies between violet and cyan on the spectrum"
+      }
+    ],
+    "finalHint": "Add these three in different amounts and a screen makes every other shade"
+  },
+  "reveal": {
+    "answers": [
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The primary colours of light",
+    "finalAliases": [
+      "the RGB colour model",
+      "RGB",
+      "the additive primaries"
+    ],
+    "explanations": [
+      "Red is the colour at the long-wavelength end of the visible spectrum, next to orange and opposite violet.",
+      "Green lies between cyan and yellow; in paint it is mixed from yellow and cyan, and the emerald is green from its chromium.",
+      "Blue lies between violet and cyan, and Rayleigh scattering is what makes the clear daytime sky look blue.",
+      "Red, green and blue are the additive primary colours of light: added in different amounts they reproduce a broad array of colours on any screen."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "excerpt": "Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "excerpt": "Red pigment made from ochre was one of the first colors used in prehistoric art."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green",
+      "excerpt": "In subtractive color systems, used in painting and color printing, it is created by a combination of yellow and cyan; in the RGB color model, used on television and computer screens, it is one of the additive primary colors, along with red and blue, which are mixed in different combinations to create all other colors."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green",
+      "excerpt": "Several minerals have a green color, including the emerald, which is colored green by its chromium content."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue",
+      "excerpt": "The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blue",
+      "excerpt": "The semi-precious stone lapis lazuli was used in ancient Egypt for jewellery and ornament and later, in the Renaissance, to make the pigment ultramarine, the most expensive of all pigments."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RGB_color_model",
+      "excerpt": "The RGB color model is an additive color model in which the red, green, and blue primary colors of light are added together in various ways to reproduce a broad array of colors."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "topic": "The printing inks",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The colour between blue and green on the visible spectrum",
+          "Take red away from white and this is what is left"
+        ],
+        "hint": "Between 490 and 520 nanometres, made on a screen from equal green and blue"
+      },
+      {
+        "clues": [
+          "A purplish pink, midway between blue and red on the colour wheel",
+          "It began as an aniline dye patented in 1859 and first called fuchsine"
+        ],
+        "hint": "The web colour of this name is sometimes called fuchsia"
+      },
+      {
+        "clues": [
+          "Carotenoids give it to autumn leaves, canaries and daffodils",
+          "On a screen it is made by combining red and green at equal intensity"
+        ],
+        "hint": "Roughly 575 to 585 nanometres, between green and orange"
+      }
+    ],
+    "finalHint": "A fourth, black, joins these three; the key plate gives it its letter"
+  },
+  "reveal": {
+    "answers": [
+      "Cyan",
+      "Magenta",
+      "Yellow"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The printing inks",
+    "finalAliases": [
+      "the CMYK colour model",
+      "CMYK",
+      "printer's inks",
+      "the four-colour printing process"
+    ],
+    "explanations": [
+      "Cyan is the colour between blue and green on the spectrum, and is what is left when red is taken out of white.",
+      "Magenta is a purplish pink, midway between blue and red, and started life in 1859 as the aniline dye fuchsine.",
+      "Yellow lies between green and orange; carotenoids give it to autumn leaves and daffodils, and a screen makes it from red and green.",
+      "Cyan, magenta and yellow are the subtractive inks of colour printing; a fourth, black, is added as the key plate, giving CMYK."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyan",
+      "excerpt": "Cyan () is the color between blue and green on the visible spectrum of light."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyan",
+      "excerpt": "Cyan is the complement of red; it can be made by the removal of red from white."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Magenta",
+      "excerpt": "Magenta is a purplish-pink color. On color wheels of the RGB and CMYK color models, it is located directly midway between blue and red."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Magenta",
+      "excerpt": "Magenta took its name from an aniline dye made and patented in 1859 by the French chemist François-Emmanuel Verguin [fr], who originally called it fuchsine."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yellow",
+      "excerpt": "Carotenoids give the characteristic yellow color to autumn leaves, corn, canaries, daffodils, and lemons, as well as egg yolks, buttercups, and bananas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yellow",
+      "excerpt": "In the RGB color model, used to create colors on television and computer screens, yellow is a secondary color made by combining red and green at equal intensity."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CMYK_color_model",
+      "excerpt": "The abbreviation CMYK refers to the four color components used in printing: cyan, magenta, yellow, and black (the key plate)."
+    }
+  ],
+  "editorNotes": "Alternatives checked: red, green and blue are the additive primaries of light and have their own puzzle; 'the colour wheel' holds all of these but is not what the three make together; black is the fourth ink and is named in the final hint, so it is not one of the answers."
+}

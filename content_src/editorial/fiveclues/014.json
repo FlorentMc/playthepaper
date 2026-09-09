@@ -1,0 +1,50 @@
+{
+  "topic": "Coffee",
+  "payload": {
+    "clues": [
+      "The earliest reports of drinking it come from Sufis in Yemen in the mid-15th century",
+      "Brazil grows about 31 per cent of the world's supply, ahead of Vietnam",
+      "The two kinds grown most are called arabica and robusta",
+      "Its beans are really seeds, taken from a fruit called a cherry",
+      "Dark and bitter, brewed from roasted ground beans, and full of caffeine"
+    ]
+  },
+  "reveal": {
+    "answer": "Coffee",
+    "explanations": [
+      "The earliest reports of drinking it concern the Sufis of Yemen in the middle of the 15th century.",
+      "In 2023 Brazil was the leading grower, producing 31% of the world total, followed by Vietnam.",
+      "The two most commonly grown types are C. arabica and C. robusta.",
+      "The beans are the seeds of the fruit, known as cherries, separated and dried to give green beans before roasting.",
+      "It is a dark, bitter beverage brewed from roasted, ground beans, with a stimulating effect due to caffeine."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "excerpt": "The earliest reports of coffee drinking pertain to the plant's use among the Sufis of Yemen in southern Arabia in the middle of the 15th century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "excerpt": "In 2023, Brazil was the leading grower of coffee beans, producing 31% of the world's total, followed by Vietnam."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "excerpt": "The two most commonly grown coffee bean types are C. arabica and C. robusta."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "excerpt": "Coffee production begins when the seeds from coffee cherries, the Coffea plant's fruits, are separated to produce unroasted green coffee beans."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "excerpt": "Coffee is a beverage brewed from roasted, ground coffee beans. Dark-colored and bitter, coffee has a stimulating effect on humans due to its caffeine content; however decaffeinated coffee is also commercially available."
+    }
+  ],
+  "editorNotes": "Alternatives checked: cocoa also comes from roasted beans grown near the equator, but its plant is not divided into arabica and robusta and it is not brewed and filtered; tea is caffeinated but made from leaves; Brazil and Vietnam are named in the article as the two leading growers of this crop in particular."
+}

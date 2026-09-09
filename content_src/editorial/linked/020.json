@@ -1,0 +1,94 @@
+{
+  "topic": "The longest rivers in the world",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "A north-flowing river of north-east Africa that empties into the Mediterranean",
+          "Its White and its Blue branches meet at Khartoum"
+        ],
+        "hint": "At 7,088 kilometres it is reckoned the longest of all"
+      },
+      {
+        "clues": [
+          "The largest river in the world by the volume of water it discharges",
+          "It carries a fifth of all the river water that reaches the oceans"
+        ],
+        "hint": "Its basin, some 7,000,000 square kilometres, is the largest of any river"
+      },
+      {
+        "clues": [
+          "The longest river in China and the third longest in the world",
+          "Its basin holds a fifth of China's land and nearly a third of its people"
+        ],
+        "hint": "It rises in the Tanggula Mountains and runs east to the East China Sea"
+      }
+    ],
+    "finalHint": "Put them in order and you have the top of one particular list"
+  },
+  "reveal": {
+    "answers": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "aliases": [
+      [],
+      [
+        "Amazon River"
+      ],
+      [
+        "Chang Jiang"
+      ]
+    ],
+    "final": "The longest rivers in the world",
+    "finalAliases": [
+      "the world's longest rivers",
+      "the longest rivers"
+    ],
+    "explanations": [
+      "The Nile runs north through north-east Africa to the Mediterranean and, at 7,088 kilometres, is reckoned the longest river in the world.",
+      "The Amazon is the largest river in the world by discharge, carrying a fifth of all the river water that reaches the oceans.",
+      "The Yangtze is the longest river in China and the third longest in the world, draining a fifth of the country.",
+      "Nile, Amazon and Yangtze are the top of the list of the world's longest rivers, though the first two places are disputed."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "excerpt": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "excerpt": "The White Nile is longer and is considered to be the headwaters, yet the Blue Nile contributes over twice the water volume of the White Nile."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "excerpt": "The two rivers meet at the Sudanese capital, Khartoum."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_River",
+      "excerpt": "The Amazon River in South America is the largest river in the world by discharge volume of water, and the second-longest or longest river system in the world, a title which is disputed with the Nile."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_River",
+      "excerpt": "The Amazon represents 20% of the global riverine discharge into oceans."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yangtze",
+      "excerpt": "The Yangtze River, Yangzi River or Chang Jiang is the longest river in China and the third-longest river in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yangtze",
+      "excerpt": "Its drainage basin comprises one-fifth of the land area of China, and is home to nearly one-third of the country's population."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the Mississippi and the Congo are long rivers but neither is in the first three by length; the Amazon is first by discharge and disputed for first by length, which the last explanation records; each answer is accepted with or without the definite article."
+}

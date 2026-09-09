@@ -1,0 +1,98 @@
+{
+  "id": "linked-2026-10-29-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The strongest of them, moving any number of squares in any direction",
+          "A pawn that reaches the far side is promoted to one in nearly every case"
+        ],
+        "hint": "Its ancestor, the ferz, could step only one square diagonally"
+      },
+      {
+        "clues": [
+          "Two squares one way and one the other, jumping whatever is between",
+          "Each player starts with two of them, on the b- and g-files"
+        ],
+        "hint": "The only one that can leap over anything in its way"
+      },
+      {
+        "clues": [
+          "It moves and captures along diagonals and cannot jump anything",
+          "Each player begins the game with two of them"
+        ],
+        "hint": "White's pair begin on c1 and f1"
+      }
+    ],
+    "finalHint": "Six types in all; king, rook and pawn are the other three"
+  },
+  "reveal": {
+    "answers": [
+      "Queen",
+      "Knight",
+      "Bishop"
+    ],
+    "aliases": [
+      [],
+      [
+        "knights"
+      ],
+      [
+        "bishops"
+      ]
+    ],
+    "final": "The chess pieces",
+    "finalAliases": [
+      "chessmen",
+      "the pieces in chess"
+    ],
+    "explanations": [
+      "The queen is the most powerful piece, moving any number of squares vertically, horizontally or diagonally, and is what a pawn usually becomes.",
+      "The knight moves two squares one way and one the other, jumping over anything between; each player starts with two, on the b- and g-files.",
+      "The bishop moves and captures along diagonals without jumping, and each player begins with two of them.",
+      "Queen, knight and bishop are three of the six types of chess piece; the others are the king, the rook and the pawn."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Queen_%28chess%29",
+      "excerpt": "The queen (♕, ♛) is the most powerful piece in the game of chess. It can move any number of squares vertically, horizontally, or diagonally, combining the powers of the rook and bishop."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Queen_%28chess%29",
+      "excerpt": "Because the queen is the strongest piece, a pawn is promoted to a queen in the vast majority of cases; if a pawn is promoted to a piece other than a queen, it is called underpromotion."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Knight_%28chess%29",
+      "excerpt": "It moves two squares vertically and one square horizontally, or two squares horizontally and one square vertically, jumping over other pieces."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Knight_%28chess%29",
+      "excerpt": "Each player starts the game with two knights on the b- and g-files, each located between a rook and a bishop."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bishop_%28chess%29",
+      "excerpt": "It moves and captures along diagonals without jumping over interfering pieces."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bishop_%28chess%29",
+      "excerpt": "Each player begins the game with two bishops."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chess_piece",
+      "excerpt": "A chess piece, or chessman, is a game piece that is placed on a chessboard to play the game of chess. It can be either white or black, and it can be one of six types: king, queen, rook, bishop, knight, or pawn."
+    }
+  ]
+}

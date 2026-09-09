@@ -1,0 +1,63 @@
+{
+  "id": "fiveclues-2026-10-06-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "A French name for one that serves in sun or rain means, roughly, in any case",
+      "In the early 1200s warm countries used them for shade, not for wet weather",
+      "Some have a black outer canopy and a silver inner coating against ultraviolet",
+      "The collapsible sort has a pole that retracts; on the rest only the top folds",
+      "A folding canopy on ribs and a pole, often with a crook handle"
+    ]
+  },
+  "reveal": {
+    "answer": "Umbrella",
+    "aliases": [
+      "parasol",
+      "umbrellas"
+    ],
+    "explanations": [
+      "A model made for both sun and rain is called an en-tout-cas, French for \"in any case\".",
+      "In the early 1200s they were used in warmer countries for shade from the sun, and only later for rain.",
+      "A modern one may have a black exterior canopy and a silver inner coating, for better protection from the sun and ultraviolet.",
+      "There are two main types: completely collapsible ones, whose pole retracts, and non-collapsible ones, where only the canopy folds.",
+      "It is a folding canopy supported by ribs and mounted on a pole, often with a bent crook handle like a cane."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "There are also combinations of parasol and parapluie that are called en-tout-cas (French for \"in any case\")."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "Initially, (in the early 1200s) they were used in warmer countries for shade from the sun, but in modern times they evolved to also be used for protection from rain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "A modern hand-held umbrella or parasol may have a black exterior canopy and a silver inner coating, for better protection from both the sun and ultraviolet rays, and may be water-resistant."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "There are two main types of umbrellas: completely collapsible umbrellas, which can be folded up into a small package because of the supporting metal pole's ability to retract, and non-collapsible umbrellas, where only the canopy can be folded up."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "An umbrella (parasol or rarely parapluie) is a folding canopy supported by wooden or metal ribs that is mounted on a wooden, metal, or plastic pole."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "excerpt": "Handheld umbrellas have a type of handle which can be made from wood or plastic in a bent \"crook\" handle (like the handle of a cane)."
+    }
+  ]
+}

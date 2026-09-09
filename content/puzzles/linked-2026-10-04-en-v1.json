@@ -1,0 +1,94 @@
+{
+  "id": "linked-2026-10-04-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-04",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The star at the centre of the Solar System, a sphere of hot plasma",
+          "It holds about 99.86 per cent of all the mass in its own system"
+        ],
+        "hint": "Eight light-minutes away, and 109 times the width of our own world"
+      },
+      {
+        "clues": [
+          "The only natural satellite of our planet, some 384,400 kilometres off",
+          "Tidal locking keeps the same near side turned towards us always"
+        ],
+        "hint": "Its dark plains of basalt are called maria, meaning seas"
+      },
+      {
+        "clues": [
+          "The third planet out from its star, and the only known home of life",
+          "Its ocean covers 70.8 per cent of its crust; the rest is land"
+        ],
+        "hint": "About 40,000 kilometres round, and the densest planet of them all"
+      }
+    ],
+    "finalHint": "Three bodies in a line, and only a small part of the world can watch"
+  },
+  "reveal": {
+    "answers": [
+      "Sun",
+      "Moon",
+      "Earth"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "A solar eclipse",
+    "finalAliases": [
+      "an eclipse of the Sun",
+      "total solar eclipse"
+    ],
+    "explanations": [
+      "The Sun is the star at the centre of the Solar System, a sphere of hot plasma holding 99.86 per cent of the system's mass.",
+      "The Moon is Earth's only natural satellite, about 384,400 kilometres away and tidally locked so that one side always faces us.",
+      "Earth is the third planet from the Sun, the only place known to harbour life, with an ocean over 70.8 per cent of its crust.",
+      "A solar eclipse happens when the Moon passes between Earth and the Sun, hiding the Sun from a small part of the world."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "excerpt": "The Sun is the star located at the centre of the Solar System. It is a massive sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy from its surface mainly as visible light and infrared radiation with 10% at ultraviolet energies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "excerpt": "The Sun's mass is around 330,000 times that of Earth, making up about 99.86% of the total mass of the Solar System."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moon",
+      "excerpt": "The Moon is the only natural satellite of Earth. It orbits Earth at an average distance of 384,399 kilometers (238,854 mi)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moon",
+      "excerpt": "The resulting tidal forces are the main driver of Earth's tides, and have pulled the Moon to always face Earth with the same near side."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth",
+      "excerpt": "Earth is the third planet from the Sun and the only astronomical object known to harbor life."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth",
+      "excerpt": "Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+      "excerpt": "A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby obscuring the view of the Sun from a small part of Earth, totally or partially."
+    }
+  ]
+}

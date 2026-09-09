@@ -1,0 +1,54 @@
+{
+  "id": "fiveclues-2026-09-28-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-09-28",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "Where it builds up from one year to the next, a glacier may form",
+      "Its flakes gather around particles in the air, freezing into six-sided crystals",
+      "In the Southern Hemisphere it keeps to the mountains, apart from Antarctica",
+      "A layer of it insulates the ground, so plants and animals can survive the winter",
+      "Solid precipitation of ice crystals that grow in cloud and settle on the ground"
+    ]
+  },
+  "reveal": {
+    "answer": "Snow",
+    "explanations": [
+      "Where the climate is cold enough for year-to-year accumulation, a glacier may form.",
+      "Flakes nucleate around particles in the atmosphere, attracting supercooled droplets that freeze in hexagonal crystals.",
+      "In the Southern Hemisphere it is confined primarily to mountainous areas, apart from Antarctica.",
+      "A layer of it acts as insulation in winter, under which plants and animals are able to survive the cold.",
+      "It is solid atmospheric precipitation of ice crystals that grow while suspended in the air, then fall and accumulate on the ground."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "excerpt": "Where the climate is cold enough for year-to-year accumulation, a glacier may form."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "excerpt": "Snowflakes nucleate around particles in the atmosphere by attracting supercooled water droplets, which freeze in hexagonal-shaped crystals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "excerpt": "In the Southern Hemisphere, snow is confined primarily to mountainous areas, apart from Antarctica."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "excerpt": "Snow affects ecosystems, as well, by providing an insulating layer during winter under which plants and animals are able to survive the cold."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "excerpt": "Snow is a form of solid atmospheric precipitation consisting of individual ice crystals that grow while suspended in the air—usually within clouds—and then fall, accumulating on the ground, where they undergo further changes."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "Owls",
+  "payload": {
+    "clues": [
+      "They fall into two families, Strigidae and the barn and bay family Tytonidae",
+      "Exceptions to the usual habits include a daytime hawk one and a sociable burrowing one",
+      "They live in every region on Earth apart from the polar ice caps and some remote islands",
+      "A group of them is called a parliament",
+      "Upright night birds of prey, broad-headed, with feathers made for silent flight"
+    ]
+  },
+  "reveal": {
+    "answer": "Owl",
+    "aliases": [
+      "owls"
+    ],
+    "explanations": [
+      "They are divided into two families: the typical family Strigidae, and Tytonidae, which holds the barn and bay kinds.",
+      "Most are solitary and nocturnal; the northern hawk one is diurnal and the burrowing one is gregarious.",
+      "They are found in all regions of the Earth except the polar ice caps and some remote islands.",
+      "In English venery a group of them is called a parliament.",
+      "They are birds of the order Strigiformes: mostly nocturnal birds of prey with an upright stance, a large broad head, sharp talons and feathers adapted for silent flight."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "excerpt": "Owls are divided into two families: the true (or typical) owl family, Strigidae, and the barn owl and bay owl family, Tytonidae."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "excerpt": "Exceptions include the diurnal northern hawk-owl and the gregarious burrowing owl."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "excerpt": "They are found in all regions of the Earth except the polar ice caps and some remote islands."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "excerpt": "A group of owls is called a \"parliament\" in English venery."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "excerpt": "Owls are birds from the order Strigiformes (), which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight."
+    }
+  ],
+  "editorNotes": "Alternatives checked: nightjars are also nocturnal but are not birds of prey and have no talons; a hawk or a falcon hunts by day and is noisy in flight; the barn kind is one family named in the first clue, not the whole answer."
+}

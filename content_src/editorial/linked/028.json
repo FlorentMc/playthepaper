@@ -1,0 +1,95 @@
+{
+  "topic": "The singing voices",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The highest vocal range of all the classical types",
+          "In four-part harmony it takes the top line, which usually carries the tune"
+        ],
+        "hint": "Coloratura, soubrette, lyric, spinto and dramatic are its kinds"
+      },
+      {
+        "clues": [
+          "The highest male chest-voice type there is",
+          "Choral parts run from the second B below middle C to the G above it"
+        ],
+        "hint": "Its subtypes include the leggero, the lyric and the spinto"
+      },
+      {
+        "clues": [
+          "It lies between the bass and the highest male chest voice",
+          "The most common male voice of all, and its name is Greek for low sounding"
+        ],
+        "hint": "Choral parts run from the second F below middle C to the F above it"
+      }
+    ],
+    "finalHint": "A singer is put into one of these by a process called classification"
+  },
+  "reveal": {
+    "answers": [
+      "Soprano",
+      "Tenor",
+      "Baritone"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The singing voices",
+    "finalAliases": [
+      "voice types",
+      "types of voice"
+    ],
+    "explanations": [
+      "The soprano has the highest vocal range of all the classical voice types and takes the top line in four-part harmony.",
+      "The tenor is the highest male chest voice, lying between the countertenor and the baritone in range.",
+      "The baritone lies between the bass and the tenor and is the most common male voice; its name is Greek for low sounding.",
+      "Soprano, tenor and baritone are three of the singing voice types into which a singer is placed by voice classification."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soprano",
+      "excerpt": "A soprano (Italian pronunciation: [soˈpraːno]) is a type of classical singing voice and has the highest vocal range of all voice types."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soprano",
+      "excerpt": "In four-part chorale style harmony, the soprano takes the highest part, which often encompasses the melody."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tenor",
+      "excerpt": "The tenor is a type of male singing voice whose vocal range lies between the countertenor and baritone voice types. It is the highest male chest-voice type."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tenor",
+      "excerpt": "Composers typically write music for the tenor in the range from the second B below middle C, to the G above middle C (i.e. B2 to G4) in choral music – and from the second B-flat below middle C, to the C above middle C (B♭2 to C5) in operatic music – but the range can extend at either end."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baritone",
+      "excerpt": "A baritone is a type of classical male singing voice whose vocal range lies between the bass and the tenor voice types."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baritone",
+      "excerpt": "It is the most common human male voice."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baritone",
+      "excerpt": "The term originates from the Greek βαρύτονος (barýtonos), meaning \"low sounding\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voice_type",
+      "excerpt": "A voice type is a classification of the human singing voice into perceivable categories or groups."
+    }
+  ],
+  "editorNotes": "Alternatives checked: alto, mezzo-soprano and bass are further voice types and are not among the three described; 'a choir' is made of these parts but is not the class; the German Fach system is one way of classifying rather than a voice itself."
+}

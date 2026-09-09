@@ -1,0 +1,55 @@
+{
+  "topic": "Amber",
+  "payload": {
+    "clues": [
+      "Found in New Zealand coal seams, it goes by the name ambrite",
+      "There are five classes of it, told apart by their chemistry",
+      "Because it began soft and sticky, insects and leaves are sometimes caught inside",
+      "Admired since Neolithic times, and cut as a gemstone since classical antiquity",
+      "Fossilised tree resin, orange to brown, set in beads and rings"
+    ]
+  },
+  "reveal": {
+    "answer": "Amber",
+    "explanations": [
+      "When it occurs in coal seams it is called resinite, and the New Zealand coal-seam kind is called ambrite.",
+      "There are five classes of it, defined on the basis of their chemical constituents.",
+      "Because it starts as a soft, sticky tree resin, it sometimes holds animal and plant material as inclusions.",
+      "It has been appreciated since Neolithic times and worked as a gemstone since classical antiquity.",
+      "It is fossilised tree resin, orange, brown and sometimes red, used in jewellery."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Amber occurring in coal seams is also called resinite, and the term ambrite is applied to that found specifically within New Zealand coal seams."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "There are five classes of amber, defined on the basis of their chemical constituents."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Because it originates as a soft, sticky tree resin, amber sometimes contains animal and plant material as inclusions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "It has been appreciated for its color (orange, brown and, sometimes, red) and natural beauty since the Neolithic times, and worked as a gemstone since classical antiquity."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Amber is fossilized tree resin."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Amber is used in jewelry and as a healing agent in folk medicine."
+    }
+  ],
+  "editorNotes": "Alternatives checked: resin is the fresh material rather than the fossilised stone; copal is younger resin and is not one of the five classes described; jet is also a fossil gemstone but comes from wood turned to coal, and is black."
+}

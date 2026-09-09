@@ -1,0 +1,100 @@
+{
+  "id": "linked-2026-10-07-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-07",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Tenzing Norgay and Edmund Hillary made the first documented ascent of it in 1953",
+          "It stands in the Mahalangur Himal and its summit marks part of the China–Nepal border"
+        ],
+        "hint": "Climbers start from base camps above 5,000 metres, north or south"
+      },
+      {
+        "clues": [
+          "The second highest on Earth, at 8,611 metres, in the Karakoram range",
+          "Nicknamed the King of Mountains and the Mountaineers' Mountain"
+        ],
+        "hint": "First climbed in 1954 by an Italian expedition led by Ardito Desio"
+      },
+      {
+        "clues": [
+          "The third highest in the world, on the border of Nepal and Sikkim",
+          "Until 1852 it was taken to be the highest of them all"
+        ],
+        "hint": "Its first climbers stopped just short of the top, keeping a promise"
+      }
+    ],
+    "finalHint": "In order, these are numbers one, two and three on one particular list"
+  },
+  "reveal": {
+    "answers": [
+      "Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "aliases": [
+      [
+        "Mount Everest",
+        "Sagarmatha",
+        "Chomolungma"
+      ],
+      [
+        "Mount Godwin-Austen"
+      ],
+      []
+    ],
+    "final": "The highest mountains in the world",
+    "finalAliases": [
+      "the world's highest mountains",
+      "the three highest mountains"
+    ],
+    "explanations": [
+      "Everest, in the Mahalangur Himal on the China–Nepal border, was first climbed to the summit by Tenzing Norgay and Edmund Hillary in 1953.",
+      "K2, in the Karakoram at 8,611 metres, is the second-highest mountain on Earth and was first climbed by an Italian party in 1954.",
+      "Kangchenjunga, on the Nepal–Sikkim border, is the third highest, and until 1852 was believed to be the highest of all.",
+      "Everest, K2 and Kangchenjunga are the three highest mountains in the world, in that order."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "Tenzing Norgay and Edmund Hillary made the first documented ascent of Everest in 1953, using the Southeast Ridge route."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "excerpt": "It lies in the Mahalangur Himal sub-range of the Himalayas and marks part of the China–Nepal border at its summit."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/K2",
+      "excerpt": "K2, also known as Mount Godwin-Austen, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/K2",
+      "excerpt": "K2 is nicknamed \"The King of Mountains\" and \"The Mountaineers' Mountain\", as well as \"The Mountain of Mountains\", a phrase popularised by Italian climber Reinhold Messner in his book on K2."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kangchenjunga",
+      "excerpt": "Kangchenjunga (Nepali: कञ्चनजङ्गा, romanized: Kañcanajaṅgā, Sherpa: གངས་ཆེན་མཛོད་ལྔ ; Wylie: Gangs Chen mdzod lnga ) is the third-highest mountain in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kangchenjunga",
+      "excerpt": "It lies in the border region between Koshi Province of Nepal and Sikkim state of India, with the West and Kangbachen peaks located in Nepal's Taplejung District and the Main, Central and South peaks directly on the border."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kangchenjunga",
+      "excerpt": "Until 1852, Kangchenjunga was assumed to be the highest mountain in the world."
+    }
+  ]
+}

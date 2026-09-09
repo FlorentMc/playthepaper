@@ -1,0 +1,50 @@
+{
+  "topic": "Silk",
+  "payload": {
+    "clues": [
+      "Webspinners and raspy crickets make it all their lives, not only as larvae",
+      "About three quarters of the fibre is fibroin, the rest a coating of sericin",
+      "Bees, wasps, ants and caddisflies make it, and so do spiders",
+      "The best-known kind is unwound from cocoons of Bombyx mori",
+      "A natural protein fibre that can be woven or knitted into cloth"
+    ]
+  },
+  "reveal": {
+    "answer": "Silk",
+    "explanations": [
+      "It is made mostly by larvae, but webspinners and raspy crickets produce it throughout their lives.",
+      "The fibre is composed mainly of fibroin, 75 to 80 per cent, with a smaller coating of sericin.",
+      "Bees, wasps, ants, caddisflies and many other insects make it, and so do arachnids such as spiders.",
+      "The best-known kind comes from the cocoons of the mulberry silkworm Bombyx mori, reared in captivity.",
+      "It is a natural protein fibre, some forms of which can be woven or knitted into textiles."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "excerpt": "Silk is produced primarily by the larvae of insects undergoing complete metamorphosis, but some insects, such as webspinners and raspy crickets, produce silk throughout their lives."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "excerpt": "The protein fiber of silk is composed mainly of fibroin (75-80%) and a smaller coating of sericin (20-25%)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "excerpt": "Silk production also occurs in hymenoptera (bees, wasps, and ants), silverfish, caddisflies, mayflies, thrips, leafhoppers, beetles, lacewings, fleas, flies, and midges. Other types of arthropods also produce silk, most notably various arachnids, such as spiders."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "excerpt": "The best-known silk is obtained from the cocoons of the larvae of the mulberry silkworm Bombyx mori, which are reared in captivity (sericulture)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "excerpt": "Silk is a natural protein fiber, some forms of which can be woven or knitted into textiles."
+    }
+  ],
+  "editorNotes": "Alternatives checked: wool and cotton are also spun into cloth but come from a fleece and a seed pod, not from an insect cocoon; a cobweb is made of this material rather than being it; sericulture is the practice of rearing the larvae."
+}

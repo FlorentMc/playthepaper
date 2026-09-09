@@ -1,0 +1,54 @@
+{
+  "topic": "The sundial",
+  "payload": {
+    "clues": [
+      "Its style must lie parallel to the Earth's axis, at an angle equal to the latitude",
+      "Cheap decorative ones often have the gnomon set wrong, and cannot be adjusted",
+      "The gnomon throws a broad shadow, but only the shadow of its edge tells the time",
+      "A stick in the sand, with markers at the shadow's edge, is the simplest form",
+      "A flat plate with hour-lines, read by where a shadow falls in direct sunlight"
+    ]
+  },
+  "reveal": {
+    "answer": "Sundial",
+    "aliases": [
+      "sun dial",
+      "sundials"
+    ],
+    "explanations": [
+      "The style must be parallel to the axis of the Earth's rotation, and its angle from horizontal equals the geographical latitude.",
+      "Inexpensive decorative ones often have badly aligned gnomons and hour-lines, and cannot be adjusted to tell the right time.",
+      "The gnomon casts a broad shadow; it is the shadow of the style, its time-telling edge, that shows the hour.",
+      "The passing of time can be watched by putting a stick in the sand and placing markers at the edge of its shadow.",
+      "It is a flat plate marked with hour-lines and a gnomon that casts a shadow on it, telling the time of day in direct sunlight."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sundial",
+      "excerpt": "The style must be parallel to the axis of the Earth's rotation for the sundial to be accurate throughout the year. The style's angle from horizontal is equal to the sundial's geographical latitude."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sundial",
+      "excerpt": "It is common for inexpensive, mass-produced decorative sundials to have incorrectly aligned gnomons, shadow lengths, and hour-lines, which cannot be adjusted to tell the correct time."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sundial",
+      "excerpt": "The gnomon casts a broad shadow; the shadow of the style shows the time."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sundial",
+      "excerpt": "The passing of time can be observed by placing a stick in the sand or a nail in a board and placing markers at the edge of a shadow or outlining a shadow at intervals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sundial",
+      "excerpt": "In the narrowest sense of the word, it consists of a flat plate (the dial) and a gnomon, which casts a shadow onto the dial. As the Sun appears to move through the sky, the shadow aligns with different hour-lines, which are marked on the dial to indicate the time of day."
+    }
+  ],
+  "editorNotes": "Alternatives checked: a gnomon is the part that casts the shadow and is named in three of the clues; an obelisk can act as one but is not marked with hour-lines; a water clock and an hourglass keep time without sunlight, which the last clue requires."
+}

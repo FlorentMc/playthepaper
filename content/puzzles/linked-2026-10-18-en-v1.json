@@ -1,0 +1,100 @@
+{
+  "id": "linked-2026-10-18-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "It takes its name from fossilised tree resin, worked as a gemstone since antiquity",
+          "The stuff it is named for began soft and sticky, and sometimes holds insects inside"
+        ],
+        "hint": "Think of the fossil resin that jewellers cut and polish"
+      },
+      {
+        "clues": [
+          "The colour of blood, long linked with danger and with courage",
+          "In China and India it stands for happiness and good fortune"
+        ],
+        "hint": "It sits next to orange and opposite violet on the spectrum"
+      },
+      {
+        "clues": [
+          "The traditional colour of safety and of permission",
+          "Creatures take on this hue to hide in their surroundings"
+        ],
+        "hint": "The colour most often associated with nature, life and hope"
+      }
+    ],
+    "finalHint": "Three signals at a junction, set out in one fixed order"
+  },
+  "reveal": {
+    "answers": [
+      "Amber",
+      "Red",
+      "Green"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "A traffic light",
+    "finalAliases": [
+      "traffic lights",
+      "a traffic signal",
+      "a stoplight"
+    ],
+    "explanations": [
+      "Amber is named after fossilised tree resin, a soft sticky sap that sometimes trapped insects and has been cut as a gemstone since antiquity.",
+      "Red is the colour of blood, long associated with danger and courage, and in much of Asia with happiness and good fortune.",
+      "Green is the traditional colour of safety and permission, and the hue many creatures take on as camouflage.",
+      "Red stops traffic, amber signals a change and green lets it go: the three usual colours of a traffic light, arranged in that order."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Amber is fossilized tree resin."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "It has been appreciated for its color (orange, brown and, sometimes, red) and natural beauty since the Neolithic times, and worked as a gemstone since classical antiquity."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amber",
+      "excerpt": "Because it originates as a soft, sticky tree resin, amber sometimes contains animal and plant material as inclusions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "excerpt": "Since red is the color of blood, it has historically been associated with sacrifice, danger, and courage."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "excerpt": "In China, India, and many other Asian countries it is the color symbolizing happiness and good fortune."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green",
+      "excerpt": "Green is also the traditional color of safety and permission; a green light means go ahead, a green card permits permanent residence in the United States."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green",
+      "excerpt": "Many creatures have adapted to their green environments by taking on a green hue themselves as camouflage."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Traffic_light",
+      "excerpt": "The usual traffic light colors are red to stop traffic, amber to signal a change, and green to allow traffic to proceed."
+    }
+  ]
+}

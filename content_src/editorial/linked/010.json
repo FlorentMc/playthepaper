@@ -1,0 +1,112 @@
+{
+  "topic": "The oceans",
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The largest and deepest of the five, covering about a third of the planet",
+          "The Challenger Deep, the deepest known point on Earth, is in its north-west"
+        ],
+        "hint": "Point Nemo, the most remote spot on Earth, lies in it"
+      },
+      {
+        "clues": [
+          "The second largest, in an elongated S-shaped basin",
+          "The Norse were the first people known to have crossed it"
+        ],
+        "hint": "It covers about 17 per cent of the surface of the Earth"
+      },
+      {
+        "clues": [
+          "The third largest, and the warmest of the five",
+          "Bounded by Asia, Africa and Australia, and ruled by the monsoon"
+        ],
+        "hint": "Geologically the youngest of them, with narrow continental shelves"
+      }
+    ],
+    "finalHint": "Five of these divide one body of salt water that covers seven tenths of the globe"
+  },
+  "reveal": {
+    "answers": [
+      "Pacific",
+      "Atlantic",
+      "Indian"
+    ],
+    "aliases": [
+      [
+        "the Pacific Ocean"
+      ],
+      [
+        "the Atlantic Ocean"
+      ],
+      [
+        "the Indian Ocean"
+      ]
+    ],
+    "final": "The oceans",
+    "finalAliases": [
+      "the world's oceans",
+      "the five oceans",
+      "ocean"
+    ],
+    "explanations": [
+      "The Pacific is the largest and deepest division, and holds the Challenger Deep, the deepest known point in the world.",
+      "The Atlantic is the second largest, an elongated S-shaped basin between the Americas and Europe and Africa, first crossed by the Norse.",
+      "The Indian is the third largest and the warmest, bounded by Asia, Africa and Australia, with a climate ruled by the monsoon.",
+      "Pacific, Atlantic and Indian are three of the five oceans into which one body of salt water, covering 70.8 per cent of Earth, is conventionally divided."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+      "excerpt": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pacific_Ocean",
+      "excerpt": "The Challenger Deep in the Mariana Trench, located in the northwestern Pacific, is the deepest known point in the world, reaching a depth of 10,928 m (35,853 ft)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_Ocean",
+      "excerpt": "The Atlantic Ocean is the second largest of the world's five oceans, with an area of about 85,133,000 square kilometers (32,870,000 sq mi)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_Ocean",
+      "excerpt": "The Atlantic Ocean occupies an elongated, S-shaped basin extending longitudinally between Europe and Africa to the east, and the Americas to the west."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_Ocean",
+      "excerpt": "While the Norse were the first known humans to cross the Atlantic, it was the expedition of Christopher Columbus in 1492 that proved to be the most consequential."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+      "excerpt": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+      "excerpt": "It is the warmest ocean, with a significant impact on global climate due to its interaction with the atmosphere."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+      "excerpt": "It is bounded by Asia to the north, Africa to the west and Australia to the east."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+      "excerpt": "The climate around the Indian Ocean is characterized by monsoons."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ocean",
+      "excerpt": "The ocean is conventionally divided into large bodies of water, which are also referred to as oceans (in descending order by area: the Pacific Ocean, the Atlantic Ocean, the Indian Ocean, the Antarctic/Southern Ocean, and the Arctic Ocean), and are themselves mostly divided into seas, gulfs and subsequent bodies of water."
+    }
+  ],
+  "editorNotes": "Alternatives checked: the Southern and Arctic are the other two divisions and are named in the cited passage, so the three given are not the whole set; 'the seven seas' is a historical phrase rather than the modern divisions; each answer is accepted with or without the word ocean."
+}

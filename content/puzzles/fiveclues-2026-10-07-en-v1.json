@@ -1,0 +1,58 @@
+{
+  "id": "fiveclues-2026-10-07-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-10-07",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "The bag need not be sealed at the bottom: the pressure inside matches the air outside",
+      "The opening nearest the flame is made of a fire-resistant material such as Nomex",
+      "The first free human flight rose over Paris on 21 November 1783",
+      "Burning propane warms the air inside until it is lighter than the air outside",
+      "A wicker basket hangs beneath a great fabric envelope of warmed air"
+    ]
+  },
+  "reveal": {
+    "answer": "Hot air balloon",
+    "aliases": [
+      "balloon",
+      "hot air balloons"
+    ],
+    "explanations": [
+      "The envelope does not have to be sealed at the bottom, because the air inside is at about the same pressure as the air around it.",
+      "In modern sport craft the envelope is nylon and the inlet, closest to the burner flame, is a fire-resistant material such as Nomex.",
+      "The first untethered manned flight was made over Paris on 21 November 1783 by Pilâtre de Rozier and d'Arlandes, in a craft built by the Montgolfier brothers.",
+      "An open flame, usually burning liquid propane, heats the air inside, and the warm air is buoyant because it is less dense than the cold air outside.",
+      "It is a lighter-than-air aircraft: an envelope of heated air with a gondola or wicker basket slung beneath it."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+      "excerpt": "The envelope does not have to be sealed at the bottom, since the air inside the envelope is at about the same pressure as the surrounding air."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+      "excerpt": "In modern sport balloons the envelope is generally made from nylon fabric, and the inlet of the balloon (closest to the burner flame) is made from a fire-resistant material such as Nomex."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+      "excerpt": "The first untethered manned hot air balloon flight in the world was performed in Paris, France, by Jean-François Pilâtre de Rozier and François Laurent d'Arlandes on November 21, 1783, in a balloon created by the Montgolfier brothers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+      "excerpt": "Suspended beneath is a gondola or wicker basket (in some long-distance or high-altitude balloons, a capsule), which carries passengers and a source of heat, in most cases an open flame caused by burning liquid propane. The heated air inside the envelope makes it buoyant, since it has a lower density than the colder air outside the envelope."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+      "excerpt": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air."
+    }
+  ]
+}

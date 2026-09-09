@@ -1,0 +1,57 @@
+{
+  "id": "fiveclues-2026-10-24-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-10-24",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "The longest observed lasted 8 hours 58 minutes over Taipei in November 2017",
+      "Seen from an aeroplane, with enough mist about, it can be a full circle",
+      "The double sort shows a fainter second arc, ten degrees out, its colours reversed",
+      "It always appears in the part of the sky directly opposite the sun",
+      "Light bent and bounced inside raindrops, arching across the sky in bands of colour"
+    ]
+  },
+  "reveal": {
+    "answer": "Rainbow",
+    "aliases": [
+      "rainbows"
+    ],
+    "explanations": [
+      "The longest one on record was observed for 8 hours 58 minutes in the Yangmingshan range of Taipei, in November 2017.",
+      "From the ground it looks like an arc, but from the air, with enough mist, it can be seen as a full circle.",
+      "In a double one a second arc appears about 10° outside the first, with the colours in reverse order.",
+      "One caused by sunlight always appears in the section of sky directly opposite the sun.",
+      "It is caused by refraction, internal reflection and dispersion of light in water droplets, and takes the form of a multicoloured arc."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "excerpt": "The Guinness World Records holder of the longest-lasting rainbow observed was 8 hours 58 minutes in the Yangmingshan range of Taipei, Taiwan in November 2017."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "excerpt": "Rainbows when viewed from the ground typically appear as an illuminated arc, but when flying, if there is enough mist they can be seen as full circles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "excerpt": "In a double rainbow, a second arc is seen about 10° outside the primary arc. Its colours are perceived to be in reverse order, with red on the lower side of the arc."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "excerpt": "Rainbows caused by sunlight always appear in the section of sky directly opposite the sun."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "excerpt": "A rainbow is an optical phenomenon caused by refraction, internal reflection and dispersion of light in water droplets resulting in a continuous spectrum of light appearing in the sky. The rainbow takes the form of a multicoloured circular arc."
+    }
+  ]
+}

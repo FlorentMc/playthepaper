@@ -1,0 +1,61 @@
+{
+  "id": "fiveclues-2026-10-16-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "Ball bearings, pneumatic tyres and tension-spoked wheels were first made for it",
+      "Its safety shape has changed little since the first chain-driven model of about 1885",
+      "Invented in Europe in the 19th century; by the early 2000s there were over a billion",
+      "In many regions it is the principal means of transport",
+      "Human-powered, single-track, two wheels on a frame, one behind the other"
+    ]
+  },
+  "reveal": {
+    "answer": "Bicycle",
+    "aliases": [
+      "bike",
+      "bikes",
+      "bicycles",
+      "push-bike",
+      "pedal cycle"
+    ],
+    "explanations": [
+      "Ball bearings, pneumatic tyres, chain-driven sprockets and tension-spoked wheels were first invented for it, then used in the car.",
+      "The upright safety shape has changed little since the first chain-driven model of around 1885.",
+      "It was invented in Europe in the 19th century, and by the early 21st century there were more than a billion of them.",
+      "In many regions it is the principal means of transport, as well as a machine for sport and recreation.",
+      "It is a human-powered, pedal-driven, single-track vehicle with two wheels attached to a frame, one behind the other."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "Several components that played a key role in the development of the car were initially invented for use in the bicycle, including ball bearings, pneumatic tires, chain-driven sprockets, and tension-spoked wheels."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "The basic shape and configuration of a typical upright or \"safety\" bicycle, has changed little since the first chain-driven model was developed around 1885."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "The bicycle was invented in Europe in the 19th century. By the early 21st century, there were more than 1 billion bicycles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "Bicycles are the principal means of transport in many regions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "excerpt": "A bicycle, also called a pedal cycle, bike, push-bike or cycle, is a human-powered or motor-assisted, pedal-driven, single-track vehicle, with two wheels attached to a frame, one behind the other."
+    }
+  ]
+}

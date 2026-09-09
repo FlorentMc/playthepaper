@@ -1,0 +1,101 @@
+{
+  "id": "linked-2026-09-11-en-v1",
+  "game": "linked",
+  "editionDate": "2026-09-11",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "A magnetised needle on a pivot, swinging until it aligns with magnetic north",
+          "First made in Han China for divination, and taken up at sea under the Song"
+        ],
+        "hint": "Zero degrees at north, ninety at east, two hundred and seventy at west"
+      },
+      {
+        "clues": [
+          "A doubly reflecting device that measures the angle between two visible objects",
+          "Its principle was first put to work around 1731 by Hadley and Godfrey"
+        ],
+        "hint": "Shoot the Sun at noon and you have your latitude"
+      },
+      {
+        "clues": [
+          "A metal disc of wires and cutouts, a star chart and a model of the sky",
+          "Used in classical antiquity, Byzantium, the Islamic Golden Age and the Middle Ages"
+        ],
+        "hint": "Its Greek name means star-taker"
+      }
+    ],
+    "finalHint": "Tools for working out where you are and which way you are going"
+  },
+  "reveal": {
+    "answers": [
+      "Compass",
+      "Sextant",
+      "Astrolabe"
+    ],
+    "aliases": [
+      [
+        "magnetic compass"
+      ],
+      [],
+      []
+    ],
+    "final": "Navigation instruments",
+    "finalAliases": [
+      "instruments of navigation",
+      "navigational instruments"
+    ],
+    "explanations": [
+      "A compass shows the cardinal directions with a magnetised needle that aligns itself with magnetic north; it began in Han China as a divining tool.",
+      "A sextant measures the angle between two visible objects by double reflection; its principle was first implemented around 1731.",
+      "An astrolabe is an ancient disc of wires and cutouts serving as star chart, model of the sky and calculator of astronomical positions.",
+      "Compass, sextant and astrolabe are all navigation instruments; the astrolabe is the forerunner of the sextant."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "excerpt": "A compass is a device that shows the cardinal directions used for navigation and geographic orientation. It typically consists of a magnetized needle or another element, such as a compass card or compass rose, that pivots to align itself with magnetic north."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "excerpt": "Among the Four Great Inventions, the magnetic compass was first invented as a device for divination as early as the Chinese Han dynasty (since c. 206 BC), and later adopted for navigation by the Song dynasty Chinese during the 11th century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sextant",
+      "excerpt": "A sextant is a doubly reflecting navigation instrument that measures the angular distance between two visible objects."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sextant",
+      "excerpt": "The principle of the instrument was first implemented around 1731 by John Hadley and Thomas Godfrey, but it was also later found in Isaac Newton's unpublished writings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astrolabe",
+      "excerpt": "It serves as a star chart and physical model of the visible half-dome of the sky."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astrolabe",
+      "excerpt": "In its simplest form it is a metal disc with a pattern of wires, cutouts, and perforations that allows a user to calculate astronomical positions precisely."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astrolabe",
+      "excerpt": "It was used in classical antiquity, the Byzantine Empire, the Islamic Golden Age, the European Middle Ages and the Age of Discovery for all these purposes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astrolabe",
+      "excerpt": "Although it is less reliable on the heaving deck of a ship in rough seas, the mariner's astrolabe was developed to solve that problem."
+    }
+  ]
+}

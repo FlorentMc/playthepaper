@@ -1,0 +1,99 @@
+{
+  "id": "linked-2026-10-15-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Chemical element 79, symbol Au, and one of the least reactive of them all",
+          "About half of the world's new supply goes into jewellery"
+        ],
+        "hint": "Element 79, and it dissolves only in aqua regia"
+      },
+      {
+        "clues": [
+          "A soft, lustrous metal that conducts heat and electricity better than any other",
+          "Its halides made photographic film and paper work"
+        ],
+        "hint": "One of the seven metals of antiquity, often alloyed with copper"
+      },
+      {
+        "clues": [
+          "An alloy of copper with about an eighth part tin",
+          "A whole archaeological age is named after it, the one before the Iron Age"
+        ],
+        "hint": "Copper and tin together, the hardest metal of its own age"
+      }
+    ],
+    "finalHint": "Three classes of these are handed out at one particular Games"
+  },
+  "reveal": {
+    "answers": [
+      "Gold",
+      "Silver",
+      "Bronze"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The Olympic medals",
+    "finalAliases": [
+      "Olympic medal",
+      "the medals at the Olympic Games"
+    ],
+    "explanations": [
+      "Gold is element 79, symbol Au, one of the least reactive elements, and about half the new supply each year becomes jewellery.",
+      "Silver is a soft, lustrous metal with the highest electrical and thermal conductivity of any metal, and its halides made photography possible.",
+      "Bronze is an alloy of copper with about 12 per cent tin, and gave its name to the age before the Iron Age.",
+      "Gold, silver and bronze are the three classes of Olympic medal, awarded for first, second and third place."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gold",
+      "excerpt": "Gold is a chemical element; its chemical symbol is Au (from Latin aurum) and atomic number 79."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gold",
+      "excerpt": "It is one of the least reactive chemical elements, being the second lowest in the reactivity series, with only platinum ranked as less reactive."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gold",
+      "excerpt": "The world's consumption of new gold produced is about 50% in jewelry, 40% in investments, and 10% in industry."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silver",
+      "excerpt": "A soft, white, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity and reflectivity of any metal."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silver",
+      "excerpt": "Silver halides are important in photographic film, photographic paper and photochromic glass, although demand for photographic silver has declined with the spread of digital imaging."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bronze",
+      "excerpt": "Bronze is an alloy consisting primarily of copper, commonly with about 12–12.5% tin and often with the addition of other metals (including aluminium, manganese, nickel, or zinc) and sometimes non-metals (such as phosphorus) or metalloids (such as arsenic or silicon)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bronze",
+      "excerpt": "The archaeological period during which bronze was the hardest metal in widespread use is known as the Bronze Age."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Olympic_medal",
+      "excerpt": "An Olympic medal is an honorary medal that is awarded to successful competitors at one of the Olympic Games. There are three classes of medal to be won: gold, silver, and bronze, awarded to first, second, and third place, respectively."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic": "Origami",
+  "payload": {
+    "clues": [
+      "Its principles have been borrowed for stents and for packaging",
+      "In Japan the ceremonial kind is called origata, to set it apart from the playful kind",
+      "Designs that use cuts are given a different name, kirigami",
+      "Its best-known model is a Japanese paper crane",
+      "The art of folding a flat square sheet into a finished sculpture"
+    ]
+  },
+  "reveal": {
+    "answer": "Origami",
+    "explanations": [
+      "Its principles are used in stents, in packaging and in other engineering applications.",
+      "In Japan the ceremonial form is generally called origata, to distinguish it from the recreational form.",
+      "Practitioners use the word kirigami for designs that use cuts, which are generally discouraged here.",
+      "The best-known model in this art is the Japanese paper crane.",
+      "It is the art and technique of folding paper: a flat square sheet becomes a finished sculpture, without cuts or glue."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "The principles of origami are also used in stents, packaging, and other engineering applications."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "In Japan, ceremonial origami is generally called \"origata\" (ja:折形) to distinguish it from recreational origami."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "Modern origami practitioners generally discourage the use of cuts, glue, or markings on the paper."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "Origami folders often use the Japanese word kirigami to refer to designs which use cuts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "The best-known origami model is the Japanese paper crane."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "Origami (折り紙) is the art and technique of folding paper."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "excerpt": "The goal is to transform a flat square sheet of paper into a finished sculpture through folding and sculpting techniques."
+    }
+  ],
+  "editorNotes": "Alternatives checked: kirigami appears in clue three as the name for the cutting variant, so it cannot be the answer; papercraft and quilling involve cutting and rolling rather than folding alone; the paper crane is one model, named in clue four."
+}

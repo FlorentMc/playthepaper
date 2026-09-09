@@ -1,0 +1,54 @@
+{
+  "topic": "Volcanoes",
+  "payload": {
+    "clues": [
+      "Most of them are underwater, because most plate boundaries are",
+      "Away from plate edges, a plume rising from 3,000 kilometres down can raise a chain of islands",
+      "Dormant means quiet since the start of the Holocene, about 12,000 years ago",
+      "Venus has a great many of them, and Mars has some significant ones",
+      "A vent in the crust that lets lava, ash and gas escape from a chamber below"
+    ]
+  },
+  "reveal": {
+    "answer": "Volcano",
+    "aliases": [
+      "volcanoes",
+      "volcanos"
+    ],
+    "explanations": [
+      "They are most often found where tectonic plates diverge or converge, and since most plate boundaries are underwater, so are most of them.",
+      "Away from plate boundaries, mantle plumes rising from the core–mantle boundary, 3,000 kilometres down, feed hotspots such as the Hawaiian one.",
+      "A dormant one has not erupted since about the start of the Holocene, some 12,000 years ago, but may erupt again.",
+      "Other planets have them too: they are very numerous on Venus, and Mars has significant ones.",
+      "It is a vent or fissure in the crust that lets hot lava, ash and gases escape from a magma chamber below the surface."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "excerpt": "On Earth, volcanoes are most often found where tectonic plates are diverging or converging, and because most of Earth's plate boundaries are underwater, most volcanoes are found underwater."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "excerpt": "Volcanism away from plate boundaries most likely arises from upwelling diapirs from the core–mantle boundary called mantle plumes, 3,000 kilometres (1,900 mi) deep within Earth."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "excerpt": "\"Dormant\" volcanoes have not erupted in a long time – generally accepted as since the start of the Holocene, about 12,000 years ago – but may erupt again."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "excerpt": "Other planets besides Earth have volcanoes. For example, volcanoes are very numerous on Venus. Mars has significant volcanoes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "excerpt": "A volcano is a vent or fissure in the crust of a planetary-mass object that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface."
+    }
+  ],
+  "editorNotes": "Alternatives checked: a geyser and a hot spring also vent heat from below but carry water rather than lava, and neither is described as dormant or extinct; a mid-ocean ridge is a place where these form, not the feature itself; a caldera is one shape among many."
+}
