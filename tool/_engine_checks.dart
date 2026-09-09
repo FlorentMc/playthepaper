@@ -1,5 +1,6 @@
 import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/binary/binary.dart';
 import 'package:playthepaper/engines/bridges/bridges.dart';
 import 'package:playthepaper/engines/compass/compass_engine.dart';
 import 'package:playthepaper/engines/crossword/crossword_puzzle.dart';
@@ -7,6 +8,7 @@ import 'package:playthepaper/engines/kakuro/kakuro.dart';
 import 'package:playthepaper/engines/letters/letters.dart';
 import 'package:playthepaper/engines/quiz/quiz_engine.dart';
 import 'package:playthepaper/engines/regions/regions.dart';
+import 'package:playthepaper/engines/target/target.dart';
 import 'package:playthepaper/engines/sudoku/sudoku.dart';
 import 'package:playthepaper/engines/word/word_engine.dart';
 
@@ -38,6 +40,8 @@ final Map<GameKind, EngineCheck> engineChecks = {
   GameKind.bridges: (r) => BridgesPuzzle.parse(r.payload, r.reveal),
   GameKind.kakuro: (r) => KakuroPuzzle.parse(r.payload, r.reveal),
   GameKind.regions: (r) => RegionsPuzzle.parse(r.payload, r.reveal),
+  GameKind.binary: (r) => BinaryPuzzle.parse(r.payload, r.reveal),
+  GameKind.target: (r) => TargetPuzzle.parse(r.payload, r.reveal),
 };
 
 

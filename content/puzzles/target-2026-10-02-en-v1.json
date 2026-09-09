@@ -1,0 +1,22 @@
+{
+  "id": "target-2026-10-02-en-v1",
+  "game": "target",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      75,
+      25,
+      5,
+      1,
+      4,
+      6
+    ],
+    "target": 235
+  },
+  "reveal": {
+    "expression": "5 * (75 - 25 + 1 - 4)"
+  }
+}
