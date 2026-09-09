@@ -270,13 +270,15 @@ division, each tile at most once. Result: `solved`, `seconds`, `note` "Reached 4
 
 ### Play game payloads
 
-**tangram**. `payload: {"silhouette": [[x, y], ...] one or more polygons in a 0..1 unit square, "name": "Swan"}`,
-`reveal: {"placements": [{"piece": "largeTriangleA", "x": 0.5, "y": 0.5, "rotation": 45, "flipped": false}]}` (one
-solution). Completion: pieces cover the silhouette within tolerance and do not overlap. Result: `seconds`, `solved`.
+**tangram**. `payload: {"name": "Swan", "board": 8, "silhouette": [loops of [x, y] in 0..1], "mask": [rows of 0/1 at
+a quarter-unit grid]}`, `reveal: {"placements": [{"piece": "largeA", "x": 3, "y": 2, "rotation": 2, "flipped": false}]}`
+(one solution; coordinates in whole board units, rotation in eighth turns). Completion is checked against the mask,
+so any non-overlapping arrangement that covers it counts. Result: `seconds`, `solved`, `note` "Swan in m:ss".
 
 **merge** (2048 daily). `payload: {"seed": 123456, "size": 4}`, `reveal: {}`. Daily board and spawn sequence come
-from the seed; the unlimited mode uses `LocalStore.extra('merge')`. Result: `points` (score), `solved` (reached
-2048), `note` "Score 5,432 · best tile 1024".
+from the seed through a xorshift32 generator whose state is saved with the progress; the unlimited mode and the
+last few finished daily boards live in `LocalStore.extra('merge')`. A finished daily is always a result. Result:
+`points` (score), `solved` (reached 2048), `note` "Score 5,432 · best tile 1024".
 
 ### Editorial game payloads
 

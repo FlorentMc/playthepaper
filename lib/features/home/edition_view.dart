@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
+import '../../content/content_repository.dart';
 import '../../content/models.dart';
 import '../../core/game_kind.dart';
 import '../../core/puzzle_id.dart';
@@ -38,7 +39,11 @@ class EditionView extends StatelessWidget {
         Text(dateLabel.toUpperCase(), style: theme.textTheme.labelSmall, textAlign: TextAlign.center),
         const SizedBox(height: 4),
         Text(
-          isToday ? 'Today' : 'From the archive',
+          isToday
+              ? 'Today'
+              : manifest.date.isAfter(context.read<EditionController>().todayDate)
+                  ? 'Coming up'
+                  : 'From the archive',
           style: PaperTheme.display(size: 16, weight: 400, color: theme.colorScheme.onSurface),
           textAlign: TextAlign.center,
         ),
