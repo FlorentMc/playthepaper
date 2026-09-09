@@ -1,5 +1,6 @@
 import 'package:playthepaper/content/models.dart';
 import 'package:playthepaper/core/game_kind.dart';
+import 'package:playthepaper/engines/compass/compass_generator.dart';
 
 /// One daily puzzle from a seed.
 typedef DailyGenerator = PuzzleRecord Function(DateTime date);
@@ -13,7 +14,9 @@ class EditorialGenerator {
 
 /// Generated games (logic and play). Each module registers its generator
 /// here as it lands; an unregistered game is simply absent from new editions.
-final Map<GameKind, DailyGenerator> generatedGames = {};
+final Map<GameKind, DailyGenerator> generatedGames = {
+  GameKind.compass: CompassGenerator().generate,
+};
 
 /// Editorial games with an evergreen reserve under `content_src/editorial/[slug]/`.
 final Map<GameKind, EditorialGenerator> editorialGames = {};

@@ -31,19 +31,21 @@ was checked and when):
 | Linked Clues | layered associations | none | pending |
 | Before & After | chronology | Wikitrivia | pending |
 | Crossmatch | criteria grid | Immaculate Grid | pending |
-| Word Compass | semantic guessing | Semantle, Contexto | pending |
+| Word Compass | semantic guessing | Semantle, Contexto | Generic name and copy; neither name appears in the app, help text or share line ("🧭 solved in N guesses"); 2026-09-09 |
 
 ## Datasets and assets
 
 | Resource | Source | Licence | Attribution | Used for |
 |---|---|---|---|---|
 | ENABLE word list | dolph/dictionary (enable1.txt) | public domain | none required; credited in About | Daily Word, Letters, crossword bank check, seed helper |
-| en_50k frequency list | hermitdave/FrequencyWords (OpenSubtitles 2018) | CC BY-SA 4.0 | credit required (About) | frequency filtering only; no list text is shipped |
+| en_50k frequency list | hermitdave/FrequencyWords (OpenSubtitles 2018) | CC BY-SA 4.0 | credit required (About) | frequency filtering only (Daily Word, Letters, Word Compass vocabulary); no list text is shipped |
 | Natural Earth coastlines | naturalearthdata.com | public domain | none required | no longer used (Where removed) |
 | Playfair Display | Google Fonts | SIL OFL 1.1 | licence file shipped in assets/fonts | typography |
 | Source Sans 3 | Google Fonts | SIL OFL 1.1 | licence file shipped in assets/fonts | typography |
 | Crossword clue bank | written for this app | ours | none | Mini Crossword |
 | Evergreen editions | written for this app; facts from Wikipedia pages cited per story | text ours; facts CC BY-SA 4.0 sources | story links and publisher shown in app; excerpts quoted with source | The Quiz, seeds |
+| GloVe word vectors, 6B tokens (Wikipedia 2014 + Gigaword 5), 300d, 400k vocabulary | Stanford NLP Group, https://nlp.stanford.edu/projects/glove/ ; file `glove-wiki-gigaword-300.gz` (394,362,229 bytes, SHA-256 `0a7aebbe…39e00`) from the gensim-data release https://github.com/piskvorky/gensim-data/releases/tag/glove-wiki-gigaword-300 | Open Data Commons Public Domain Dedication and License (PDDL) v1.0, stated on the Stanford page and the gensim-data release; verified 2026-09-09, see `docs/compass-feasibility.md` | none required; a courtesy line "Word vectors: GloVe (Stanford NLP Group)" is pending in About (outside the compass module), paper cited in `docs/compass-feasibility.md` | Word Compass: cosine-similarity ranks precomputed by `tool/compass_prepare.py` into `content_src/compass/ranks/<date>.json`; the vectors themselves are never shipped or kept in the repository |
+| Word Compass targets | written for this app (`content_src/compass/targets.txt`) | ours | none | Word Compass daily target words |
 
 Module authors add rows below for anything they introduce (pictures, silhouettes, word vectors,
 event sources).
