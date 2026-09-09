@@ -95,6 +95,11 @@ List<String> seedChecks(EditionManifest m, PuzzleRecord? Function(GameKind) reco
     }
   }
 
+  for (final g in GameKind.inCategory(GameCategory.editorial)) {
+    final r = recordOf(g);
+    if (r?.storyId != null) feed(r!.storyId!, g.slug);
+  }
+
   final quiz = recordOf(GameKind.quiz);
   if (quiz != null) {
     final q = QuizPuzzle.parse(quiz.payload, quiz.reveal);

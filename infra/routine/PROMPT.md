@@ -235,6 +235,17 @@ Rules for the seeds (checked mechanically):
 * No seeded word may equal any quiz option.
 * The seed helper (step 3) prints only qualifying words; take them from it.
 
+Optional editorial games (only when a story genuinely suits the mechanic;
+never force one): the file may carry an `"editorial"` object keyed by game
+slug, each item in exactly the shape of that game's evergreen reserve files
+under `content_src/editorial/<slug>/` (see `docs/ARCHITECTURE.md`, "Editorial
+game payloads"), plus `"storyId"`. Games: `uncover` (an original 90–140 word
+summary with the subject masked), `fiveclues`, `groups`, `linked`,
+`chronology` (four dated events, no ties), `crossmatch`, `compass` (target
+word only; the builder computes ranks). Any game you leave out is filled from
+its evergreen reserve automatically. Every fact in an item is subject to the
+same excerpt rule as the quiz.
+
 ### 6. Build
 
 ```
