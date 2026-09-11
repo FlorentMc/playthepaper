@@ -17,7 +17,8 @@ in a fresh sandbox whose working directory is a checkout of this repository
 ## Goal
 
 Upgrade **today's** edition from `kind: "evergreen"` to `kind: "news"`: three
-or four stories from the day's news, a five-question quiz about them, and the
+or four stories from the day's news (the biggest general headlines first,
+plus one science or nature story), a five-question quiz about them, and the
 same stories seeding the Daily Word, Letters and Mini Crossword. You write ONE
 hand-authored file, `content_src/news/DATE.json`, run the content builder and
 the validator, and push one commit. One commit, or nothing.
@@ -118,10 +119,12 @@ above; put it first in every block that runs `dart`.
 
 ### 1. Fetch candidate stories
 
-For each source in SOURCES, fetch its feed or API endpoint with
-`curl -sS --max-time 30`. Record HTTP status and item count for the report. A
-source that fails is skipped, not retried more than once. Parse RSS/Atom/JSON
-with a throwaway script under `/tmp` (python3 or jq), never inside the repo.
+Start with the Wikipedia Current Events portal for D−1 and D−2 (the raw
+wikitext, `?action=raw`, is easiest to parse): it is the day's index of
+general news. Then fetch the science feeds. Use `curl -sS --max-time 30`.
+Record HTTP status and item count for the report. A source that fails is
+skipped, not retried more than once. Parse wikitext/RSS/Atom/JSON with a
+throwaway script under `/tmp` (python3 or jq), never inside the repo.
 
 Keep items published on D−3 or later whose link is on that source's
 allowlisted domain. Fetch the article page for each candidate you seriously
@@ -137,15 +140,26 @@ same event as one of those stories, even from a different publisher.
 ### 3. Select the stories
 
 Pick three or four stories on different topics (four when the day offers
-them; three is fine).
+them; three is fine). The mix is fixed:
 
-* Topics welcome: science, culture, technology, nature, discoveries, sport
-  results, space, archaeology, everyday life, records, animals, food, art.
+* **General headlines first.** At least two stories (three when you take
+  four) are the biggest general news of the day as listed on the Current
+  Events portal: sport results, awards and prizes, culture and entertainment,
+  business and technology launches, records, notable public events, election
+  results and new office-holders stated as plain fact, space missions,
+  archaeology finds. Quote the Wikipedia article the portal links to (or the
+  cited page if it is on an allowlisted host).
+* **Exactly one science or nature story**, from the science feeds or the
+  portal's science section. Never two, unless the portal offers no usable
+  general headline at all, and say so in the report.
+* Topics welcome: everything above, plus nature, discoveries, everyday life,
+  animals, food, art, transport, weather records.
 * Excluded outright: war and armed conflict, violent crime, terrorism,
-  disasters and accidents with casualties, partisan politics and elections,
-  deaths and obituaries, court cases, health advice, anything centred on a
-  private individual or a minor, opinion pieces, live blogs, paywalled or
-  ambiguous items.
+  disasters and accidents with casualties, party campaigning and political
+  opinion (a result or an appointment is fine, an argument is not), deaths
+  and obituaries, court cases, health advice, anything centred on a private
+  individual or a minor, opinion pieces, live blogs, paywalled or ambiguous
+  items.
 * Each story must offer at least one askable fact with a definite answer
   stated in the source (a figure, a name, a place, a date, a first, a
   comparison). Two of the three must offer two.
@@ -221,12 +235,12 @@ Rules for the quiz:
 * Three to four stories. Five questions, at least one per story and at most
   two per story. Levels: three `easy`, one `medium`, one `hard`, in that
   order; question five (`wagerQuestion: 4`) is the hard one.
-* Easy questions come from the biggest headlines of the day: results and
-  events a reader plausibly heard about (a race won, a prize awarded, a
-  record set, a launch, a major discovery). Start from the Wikipedia Current
-  Events portal for D−1 and D−2 (see SOURCES) to find them, then fetch a
-  reachable page to quote. Medium and hard questions test a detail that the
-  lead sets up; include at least one science or nature story every day.
+* Easy questions come from the general headlines: results and events a
+  reader plausibly heard about (a race won, a prize awarded, a record set, a
+  launch, a result declared). Medium and hard questions test a detail that
+  the lead sets up; the science story usually supplies one of them. The
+  paper is a general one: a reader who follows no science at all must be
+  able to answer the three easy questions.
 * Every question has a `lead`: one or two plain sentences giving the context
   a reader who missed the story needs (who, what, where), written so the
   question makes sense on its own. The lead never states or hints the answer;
@@ -386,16 +400,17 @@ attributed excerpts) is recorded in `docs/content-and-rights.md`.
 
 | Source                     | Fetch                                                                 | Article domain          | Credential           |
 |----------------------------|-----------------------------------------------------------------------|-------------------------|----------------------|
-| Wikipedia Current Events   | `https://en.wikipedia.org/wiki/Portal:Current_events/<YYYY>_<Month>_<D>` for D−1 and D−2 | en.wikipedia.org | (none) |
-| NASA (space, science)      | `https://science.nasa.gov/feed/` and `https://apod.nasa.gov/apod/astropix.html` | science.nasa.gov, apod.nasa.gov | (none) |
-| Smithsonian Magazine       | `https://www.smithsonianmag.com/rss/smart-news/`                       | www.smithsonianmag.com  | (none)               |
-| ScienceDaily               | `https://www.sciencedaily.com/rss/top/science.xml`                     | www.sciencedaily.com    | (none)               |
-| Quanta Magazine            | `https://api.quantamagazine.org/feed/`                                | www.quantamagazine.org  | (none)               |
+| Wikipedia Current Events (general headlines, primary) | `https://en.wikipedia.org/wiki/Portal:Current_events/<YYYY>_<Month>_<D>` for D−1 and D−2 (`?action=raw` for wikitext) | en.wikipedia.org | (none) |
+| NASA (the science story)   | `https://science.nasa.gov/feed/` and `https://apod.nasa.gov/apod/astropix.html` | science.nasa.gov, apod.nasa.gov | (none) |
+| Smithsonian Magazine (science/culture story) | `https://www.smithsonianmag.com/rss/smart-news/`                       | www.smithsonianmag.com  | (none)               |
+| ScienceDaily (science story) | `https://www.sciencedaily.com/rss/top/science.xml`                     | www.sciencedaily.com    | (none)               |
+| Quanta Magazine (science story) | `https://api.quantamagazine.org/feed/`                                | www.quantamagazine.org  | (none)               |
 | Wikipedia articles         | REST summary endpoint, for verification                               | en.wikipedia.org        | (none)               |
 
 The Current Events portal is the index of the day's biggest headlines (it
-cites its own sources); use it to choose the easy questions, then quote a
-reachable page for the excerpt. Wikipedia race, award and event articles are
+cites its own sources); it is where the general stories come from. The four
+science feeds exist to supply the single science story. Quote a reachable
+page for every excerpt. Wikipedia race, award and event articles are
 acceptable excerpt sources for results (e.g. a Grand Prix page). Sites that
 refuse automated fetching (the BBC, the Guardian without an API key, Reuters,
 AP) are not sources until a key or licence is arranged; never scrape them.
