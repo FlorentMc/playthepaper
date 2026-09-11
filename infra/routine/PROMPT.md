@@ -428,9 +428,12 @@ API host and article host in the network allowlist, and a line in
   late; the prompt's 03:30 UTC cut-off allows for that. Routines share the
   account's usage limits and can be rejected when they are exhausted; the
   03:10 UTC watch job fires a retry and the 03:45 UTC job alerts the owner.
-* **Repository**: `FlorentMc/playthepaper`, branch `main`, unprotected, so
-  the routine's push through Anthropic's GitHub proxy is accepted. The commit
-  identity is set by `infra/routine/bootstrap.sh`; no variables needed.
+* **Repository**: `FlorentMc/playthepaper`, branch `main`, unprotected. The
+  push goes through Anthropic's GitHub proxy, which needs the Claude GitHub
+  App installed on this repository (github.com/apps/claude, "configure",
+  add the repository); without it pushes fail with 403 while reads work.
+  The commit identity (`Claude <noreply@anthropic.com>`, the one the sandbox
+  signs for) is set by `infra/routine/bootstrap.sh`; no variables needed.
 * **Tools**: Bash, Read, Write, Edit, Glob, Grep. Not WebFetch: excerpts must
   be verbatim, and `curl` gives the raw page.
 * **Network**: the sandbox reaches the web only over HTTP(S) through a proxy.

@@ -102,6 +102,9 @@ Order matters: 2 needs 1; 4 needs 2 and 3.
 2. **GitHub repository `FlorentMc/playthepaper`**, public.
    * `main` unprotected (the routine pushes to it and pushes must carry only
      the owner's commits, so do not add other collaborators' commits to it).
+   * The Claude GitHub App installed on the repository (github.com/apps/claude
+     → Configure → select `playthepaper`), otherwise the routine's push is
+     refused with 403. Its commits are authored `Claude <noreply@anthropic.com>`.
    * Settings → Actions → General → Workflow permissions: *Read and write*
      (the workflows also declare `permissions: contents: write`).
    * Settings → Secrets and variables → Actions: `ROUTINE_ID`,

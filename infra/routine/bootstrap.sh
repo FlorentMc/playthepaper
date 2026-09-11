@@ -5,7 +5,7 @@
 #
 # Makes `dart` available in the sandbox (the package depends on Flutter, so
 # the Flutter SDK is installed, which bundles Dart), fetches packages, sets
-# the commit identity, and smoke-runs the validator. Idempotent: a sandbox
+# the commit identity the sandbox can sign for, and smoke-runs the validator. Idempotent: a sandbox
 # that already has Flutter on PATH skips the download. Needs outbound HTTPS to
 # storage.googleapis.com (Flutter archive) and pub.dev (packages).
 #
@@ -15,8 +15,11 @@ set -euo pipefail
 
 FLUTTER_VERSION=3.41.1                     # keep equal to .github/workflows (3.41.x)
 ARCHIVE="https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz"
-GIT_NAME="Florent McIsaac"
-GIT_EMAIL="florent.mcisaac@gmail.com"
+# The cloud sandbox signs pushes only for this identity (its stop hook flags
+# anything else as "Unverified"), so the nightly commits are authored by
+# Claude and pushed through the owner's GitHub App installation.
+GIT_NAME="Claude"
+GIT_EMAIL="noreply@anthropic.com"
 
 root=$(git rev-parse --show-toplevel)
 cd "$root"
