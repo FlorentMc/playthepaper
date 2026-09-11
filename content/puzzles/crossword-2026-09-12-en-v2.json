@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-12-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Sock's end"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Ten-cent coin; an 1894 one has just sold for $1.25 million",
+          "storyId": "2026-09-12-4"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Desert animal with a hump"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "So be it"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "For each"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Egg ___"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Portent"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Snake-like fish"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Knight's female equivalent"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Bottle top"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##TOE",
+      "#DIME",
+      "CAMEL",
+      "AMEN#",
+      "PER##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "2026-09-12-4",
+        "excerpt": "Today, experts know of only nine examples of the 1894-S Barber dime, and most are typically held by private collectors for decades—meaning opportunities to purchase them are few and far between."
+      }
+    ]
+  },
+  "storyId": "2026-09-12-4"
+}

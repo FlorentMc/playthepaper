@@ -1,16 +1,16 @@
 {
   "date": "2026-09-12",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-12-en-v1",
+    "word-2026-09-12-en-v2",
     "sudoku-2026-09-12-en-easy-v1",
     "sudoku-2026-09-12-en-medium-v1",
     "sudoku-2026-09-12-en-hard-v1",
-    "letters-2026-09-12-en-v1",
-    "crossword-2026-09-12-en-v1",
-    "quiz-2026-09-12-en-v1",
+    "letters-2026-09-12-en-v2",
+    "crossword-2026-09-12-en-v2",
+    "quiz-2026-09-12-en-v2",
     "bridges-2026-09-12-en-v1",
     "binary-2026-09-12-en-v1",
     "target-2026-09-12-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-09-12-1",
+      "headline": "A Tyrannosaurus left four footprints in North Dakota",
+      "summary": "A trackway of four large theropod footprints has been described from the Maastrichtian rocks of the Hell Creek Formation in North Dakota. The prints were most likely made by an adult Tyrannosaurus rex. The study was published by Falkingham and colleagues.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_in_archosaur_paleontology",
+      "publishedAt": "2026-09-09"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "id": "2026-09-12-2",
+      "headline": "Rome opens its largest fresco and mosaic to visitors",
+      "summary": "For the first time in centuries, the public can see what is believed to be ancient Rome's largest fresco and mosaic complex. The Painted City fresco and the Great Mosaic were made in the first century C.E. and came to light three decades ago during excavations of the Baths of Trajan. The mosaic measures 33 feet high and 52 feet wide.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/ancient-romes-largest-fresco-and-mosaic-complex-featuring-depictions-of-a-mysterious-maritime-city-opens-to-the-public-after-2000-years-180989484/",
+      "publishedAt": "2026-09-11"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "id": "2026-09-12-3",
+      "headline": "A rare wallaby reappears after 50 years",
+      "summary": "Conservationists working with the Dambimangari Aboriginal Corporation have photographed the nabarlek, a small endangered rock-wallaby, at two sites in Western Australia where it had not been scientifically recorded before. The animal had not been documented anywhere in that remote region for 50 years. It is the only wallaby that keeps replacing its molar teeth throughout its life, rather as a shark does.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/australias-second-smallest-rock-wallaby-reappears-in-a-region-where-it-had-not-been-seen-for-50-years-180989469/",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "2026-09-12-4",
+      "headline": "An 1894 dime sells for $1.25 million",
+      "summary": "An 1894-S Barber dime has sold for $1.25 million at auction. Only 24 of the coins were minted in San Francisco in June 1894, and three of those were reserved for assay, leaving a net mintage of 21. Experts know of just nine examples today.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-legendary-132-year-old-dime-recently-sold-for-more-than-12-million-at-auction-what-makes-it-so-extraordinary-180989476/",
+      "publishedAt": "2026-09-09"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
+    "2026-09-12-4": [
       "quiz:1",
-      "quiz:5",
+      "letters",
+      "crossword:4 Across"
+    ],
+    "2026-09-12-2": [
+      "quiz:2",
       "word"
     ],
-    "everyday-1-dominoes": [
-      "quiz:2",
-      "quiz:3",
-      "letters"
+    "2026-09-12-1": [
+      "quiz:3"
     ],
-    "everyday-1-greenwich": [
+    "2026-09-12-3": [
       "quiz:4",
-      "crossword:1 Down"
+      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-09-11T17:34:48.881876Z"
 }

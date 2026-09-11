@@ -1,0 +1,111 @@
+{
+  "id": "quiz-2026-09-12-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "A rare American coin minted in San Francisco in 1894 came up for sale at auction. Only nine examples of it are known to exist.",
+        "prompt": "How much did the dime fetch?",
+        "options": [
+          "$12,500",
+          "$125,000",
+          "$1.25 million",
+          "$12.5 million"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-12-4"
+      },
+      {
+        "lead": "Rome has opened what is believed to be its largest ancient fresco and mosaic to visitors, three decades after the works were found underground.",
+        "prompt": "Beneath which Roman complex were they discovered?",
+        "options": [
+          "The Baths of Trajan",
+          "The Colosseum",
+          "The Pantheon",
+          "The Circus Maximus"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-12-2"
+      },
+      {
+        "lead": "Palaeontologists have described a trackway of four large theropod footprints preserved in the Hell Creek Formation of North Dakota.",
+        "prompt": "Which dinosaur most likely made them?",
+        "options": [
+          "Triceratops",
+          "Stegosaurus",
+          "Tyrannosaurus rex",
+          "Velociraptor"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-12-1"
+      },
+      {
+        "lead": "Conservationists have photographed the nabarlek, a small endangered rock-wallaby, at two sites in Western Australia where it had never been scientifically recorded.",
+        "prompt": "How long had the animal gone undocumented in that region?",
+        "options": [
+          "5 years",
+          "15 years",
+          "50 years",
+          "150 years"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-12-3"
+      },
+      {
+        "lead": "The nabarlek is hard to tell apart from the other small rock-wallabies that share its range, but one feature of its biology belongs to it alone.",
+        "prompt": "What can it do that no other wallaby can?",
+        "options": [
+          "Replace its molar teeth throughout its life",
+          "Go a year without drinking water",
+          "Change the colour of its coat with the seasons",
+          "Close its ears to keep out dust"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-12-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      0,
+      2,
+      2,
+      0
+    ],
+    "explanations": [
+      "The dime sold for $1.25 million at auction. Only 24 were minted in San Francisco in June 1894, and experts know of just nine examples today.",
+      "They came to light during excavations of the Baths of Trajan. The Painted City fresco and the Great Mosaic were made in the first century C.E., and the mosaic alone measures 33 feet high and 52 feet wide.",
+      "The prints were most likely left by an adult Tyrannosaurus rex. They are preserved in the Maastrichtian strata of the Hell Creek Formation in North Dakota.",
+      "The nabarlek had not been documented in that remote region for 50 years. It was captured on camera at two sites in Western Australia where it had not been scientifically recorded before.",
+      "The nabarlek is the only wallaby that can continually replace its molar teeth throughout its life, rather like a shark. Researchers think the trait may be linked to its diet of tough shrubs and grasses."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_in_archosaur_paleontology",
+      "excerpt": "A trackway including four large theropod tracks, likely produced by an adult Tyrannosaurus rex, is described from the Maastrichtian strata of the Hell Creek Formation (North Dakota, United States) by Falkingham et al. (2026)."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/ancient-romes-largest-fresco-and-mosaic-complex-featuring-depictions-of-a-mysterious-maritime-city-opens-to-the-public-after-2000-years-180989484/",
+      "excerpt": "For the first time in centuries, members of the public can admire what is believed to be ancient Rome's largest fresco and mosaic complex. The artworks were initially discovered three decades ago, during excavations of the sprawling Baths of Trajan."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/australias-second-smallest-rock-wallaby-reappears-in-a-region-where-it-had-not-been-seen-for-50-years-180989469/",
+      "excerpt": "Australian conservationists and the Dambimangari Aboriginal Corporation recently captured the species on camera at two sites in Western Australia where it had not been scientifically recorded before. Both lie in a remote region where the nabarlek had not been documented for 50 years."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-legendary-132-year-old-dime-recently-sold-for-more-than-12-million-at-auction-what-makes-it-so-extraordinary-180989476/",
+      "excerpt": "A 132-year-old coin has sold for $1.25 million at auction. Only 24 of the 1894-S Barber dimes were minted in San Francisco in June 1894, and three were reserved for assay—testing to ensure they met legal and manufacturing standards—leaving a net mintage of just 21 coins."
+    }
+  ]
+}

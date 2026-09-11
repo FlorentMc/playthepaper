@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-12-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about what Rome has just opened to visitors."
+  },
+  "reveal": {
+    "answer": "MOSAIC",
+    "storyId": "2026-09-12-2",
+    "excerpt": "This week, officials in the Italian capital unveiled the recently restored Painted City fresco and the Great Mosaic. The works were created sometime during the first century C.E. but remained hidden underground until the 1990s."
+  },
+  "storyId": "2026-09-12-2"
+}

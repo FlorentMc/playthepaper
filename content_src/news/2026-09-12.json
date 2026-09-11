@@ -1,0 +1,157 @@
+{
+  "slug": "2026-09-12",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-12-1",
+      "headline": "A Tyrannosaurus left four footprints in North Dakota",
+      "summary": "A trackway of four large theropod footprints has been described from the Maastrichtian rocks of the Hell Creek Formation in North Dakota. The prints were most likely made by an adult Tyrannosaurus rex. The study was published by Falkingham and colleagues.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_in_archosaur_paleontology",
+      "publishedAt": "2026-09-09"
+    },
+    {
+      "id": "2026-09-12-2",
+      "headline": "Rome opens its largest fresco and mosaic to visitors",
+      "summary": "For the first time in centuries, the public can see what is believed to be ancient Rome's largest fresco and mosaic complex. The Painted City fresco and the Great Mosaic were made in the first century C.E. and came to light three decades ago during excavations of the Baths of Trajan. The mosaic measures 33 feet high and 52 feet wide.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/ancient-romes-largest-fresco-and-mosaic-complex-featuring-depictions-of-a-mysterious-maritime-city-opens-to-the-public-after-2000-years-180989484/",
+      "publishedAt": "2026-09-11"
+    },
+    {
+      "id": "2026-09-12-3",
+      "headline": "A rare wallaby reappears after 50 years",
+      "summary": "Conservationists working with the Dambimangari Aboriginal Corporation have photographed the nabarlek, a small endangered rock-wallaby, at two sites in Western Australia where it had not been scientifically recorded before. The animal had not been documented anywhere in that remote region for 50 years. It is the only wallaby that keeps replacing its molar teeth throughout its life, rather as a shark does.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/australias-second-smallest-rock-wallaby-reappears-in-a-region-where-it-had-not-been-seen-for-50-years-180989469/",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "2026-09-12-4",
+      "headline": "An 1894 dime sells for $1.25 million",
+      "summary": "An 1894-S Barber dime has sold for $1.25 million at auction. Only 24 of the coins were minted in San Francisco in June 1894, and three of those were reserved for assay, leaving a net mintage of 21. Experts know of just nine examples today.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-legendary-132-year-old-dime-recently-sold-for-more-than-12-million-at-auction-what-makes-it-so-extraordinary-180989476/",
+      "publishedAt": "2026-09-09"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "A rare American coin minted in San Francisco in 1894 came up for sale at auction. Only nine examples of it are known to exist.",
+          "prompt": "How much did the dime fetch?",
+          "options": ["$12,500", "$125,000", "$1.25 million", "$12.5 million"],
+          "level": "easy",
+          "storyId": "2026-09-12-4"
+        },
+        {
+          "lead": "Rome has opened what is believed to be its largest ancient fresco and mosaic to visitors, three decades after the works were found underground.",
+          "prompt": "Beneath which Roman complex were they discovered?",
+          "options": ["The Baths of Trajan", "The Colosseum", "The Pantheon", "The Circus Maximus"],
+          "level": "easy",
+          "storyId": "2026-09-12-2"
+        },
+        {
+          "lead": "Palaeontologists have described a trackway of four large theropod footprints preserved in the Hell Creek Formation of North Dakota.",
+          "prompt": "Which dinosaur most likely made them?",
+          "options": ["Triceratops", "Stegosaurus", "Tyrannosaurus rex", "Velociraptor"],
+          "level": "easy",
+          "storyId": "2026-09-12-1"
+        },
+        {
+          "lead": "Conservationists have photographed the nabarlek, a small endangered rock-wallaby, at two sites in Western Australia where it had never been scientifically recorded.",
+          "prompt": "How long had the animal gone undocumented in that region?",
+          "options": ["5 years", "15 years", "50 years", "150 years"],
+          "level": "medium",
+          "storyId": "2026-09-12-3"
+        },
+        {
+          "lead": "The nabarlek is hard to tell apart from the other small rock-wallabies that share its range, but one feature of its biology belongs to it alone.",
+          "prompt": "What can it do that no other wallaby can?",
+          "options": [
+            "Replace its molar teeth throughout its life",
+            "Go a year without drinking water",
+            "Change the colour of its coat with the seasons",
+            "Close its ears to keep out dust"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-12-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [2, 0, 2, 2, 0],
+      "explanations": [
+        "The dime sold for $1.25 million at auction. Only 24 were minted in San Francisco in June 1894, and experts know of just nine examples today.",
+        "They came to light during excavations of the Baths of Trajan. The Painted City fresco and the Great Mosaic were made in the first century C.E., and the mosaic alone measures 33 feet high and 52 feet wide.",
+        "The prints were most likely left by an adult Tyrannosaurus rex. They are preserved in the Maastrichtian strata of the Hell Creek Formation in North Dakota.",
+        "The nabarlek had not been documented in that remote region for 50 years. It was captured on camera at two sites in Western Australia where it had not been scientifically recorded before.",
+        "The nabarlek is the only wallaby that can continually replace its molar teeth throughout its life, rather like a shark. Researchers think the trait may be linked to its diet of tough shrubs and grasses."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_in_archosaur_paleontology",
+        "excerpt": "A trackway including four large theropod tracks, likely produced by an adult Tyrannosaurus rex, is described from the Maastrichtian strata of the Hell Creek Formation (North Dakota, United States) by Falkingham et al. (2026)."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/ancient-romes-largest-fresco-and-mosaic-complex-featuring-depictions-of-a-mysterious-maritime-city-opens-to-the-public-after-2000-years-180989484/",
+        "excerpt": "For the first time in centuries, members of the public can admire what is believed to be ancient Rome's largest fresco and mosaic complex. The artworks were initially discovered three decades ago, during excavations of the sprawling Baths of Trajan."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/australias-second-smallest-rock-wallaby-reappears-in-a-region-where-it-had-not-been-seen-for-50-years-180989469/",
+        "excerpt": "Australian conservationists and the Dambimangari Aboriginal Corporation recently captured the species on camera at two sites in Western Australia where it had not been scientifically recorded before. Both lie in a remote region where the nabarlek had not been documented for 50 years."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-legendary-132-year-old-dime-recently-sold-for-more-than-12-million-at-auction-what-makes-it-so-extraordinary-180989476/",
+        "excerpt": "A 132-year-old coin has sold for $1.25 million at auction. Only 24 of the 1894-S Barber dimes were minted in San Francisco in June 1894, and three were reserved for assay—testing to ensure they met legal and manufacturing standards—leaving a net mintage of just 21 coins."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "MOSAIC",
+      "storyId": "2026-09-12-2",
+      "teaser": "Today's word comes from a story about what Rome has just opened to visitors.",
+      "excerpt": "This week, officials in the Italian capital unveiled the recently restored Painted City fresco and the Great Mosaic. The works were created sometime during the first century C.E. but remained hidden underground until the 1990s."
+    },
+    "letters": {
+      "pangram": "AUCTION",
+      "storyId": "2026-09-12-4",
+      "teaser": "Today's letters come from a story about a coin that sold for more than a million dollars.",
+      "excerpt": "A 132-year-old coin has sold for $1.25 million at auction."
+    },
+    "crossword": [
+      {
+        "answer": "DIME",
+        "clue": "Ten-cent coin; an 1894 one has just sold for $1.25 million",
+        "storyId": "2026-09-12-4",
+        "excerpt": "Today, experts know of only nine examples of the 1894-S Barber dime, and most are typically held by private collectors for decades—meaning opportunities to purchase them are few and far between."
+      },
+      {
+        "answer": "ADULT",
+        "clue": "Fully grown, like the Tyrannosaurus that left the North Dakota prints",
+        "storyId": "2026-09-12-1",
+        "excerpt": "A trackway including four large theropod tracks, likely produced by an adult Tyrannosaurus rex, is described from the Maastrichtian strata of the Hell Creek Formation (North Dakota, United States) by Falkingham et al. (2026)."
+      },
+      {
+        "answer": "FEET",
+        "clue": "The Great Mosaic is 33 of these high and 52 wide",
+        "storyId": "2026-09-12-2",
+        "excerpt": "The mosaic is massive, measuring 33 feet high and 52 feet wide—and counting."
+      },
+      {
+        "answer": "SHARK",
+        "clue": "Fish whose endless supply of new teeth the nabarlek shares",
+        "storyId": "2026-09-12-3",
+        "excerpt": "The nabarlek is the only wallaby that can continually replace its molar teeth throughout its life, rather like a shark. Potter tells Smithsonian magazine that this unique trait may be linked to its diet of tough shrubs and grasses."
+      }
+    ]
+  }
+}
