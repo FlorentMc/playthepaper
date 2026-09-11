@@ -12,10 +12,9 @@ Every ALL_CAPS placeholder used anywhere under `infra/` and `.github/`:
 
 | Placeholder | Where | Meaning |
 |---|---|---|
-| `ROUTINE_ID` | GitHub secret | Id of the Claude routine (from its page at claude.ai/code/routines) |
-| `ROUTINE_TOKEN` | GitHub secret | Bearer token for the routine's fire endpoint |
-| `OWNER_GIT_NAME`, `OWNER_GIT_EMAIL` | routine environment | Commit identity the routine uses (must be the owner's) |
-| `SOURCE_n_NAME`, `SOURCE_n_FEED_URL`, `SOURCE_n_DOMAIN`, `SOURCE_n_FEED_DOMAIN`, `SOURCE_n_API_KEY` | PROMPT.md SOURCES table, routine network allowlist and environment | One allowlisted news source: display name, feed/API URL, article host, API host (if different), credential variable |
+| `ROUTINE_ID` | GitHub secret (optional) | Id of the Claude routine (from its page at claude.ai/code/routines); enables the 03:10 retry |
+| `ROUTINE_TOKEN` | GitHub secret (optional) | Bearer token for the routine's fire endpoint |
+| `SOURCE_n_API_KEY` | PROMPT.md SOURCES (only if a keyed source is ever added) | Credential variable in the routine environment; none today |
 
 `DATE`, `N`, `PUBLISHER` inside the JSON templates of `PROMPT.md` are values
 the routine fills in at run time, not configuration.
@@ -106,7 +105,7 @@ Order matters: 2 needs 1; 4 needs 2 and 3.
    * Settings → Actions → General → Workflow permissions: *Read and write*
      (the workflows also declare `permissions: contents: write`).
    * Settings → Secrets and variables → Actions: `ROUTINE_ID`,
-     `ROUTINE_TOKEN` (from step 5; can be added afterwards).
+     `ROUTINE_TOKEN` (optional, from step 5).
    * Your notification settings: Actions → *Send notifications for failed
      workflows only*, by email. A failed scheduled run notifies the user who
      last committed the workflow file, so `edition-watch.yml` must have been
@@ -143,20 +142,23 @@ Order matters: 2 needs 1; 4 needs 2 and 3.
    Manager). A wrong `.htaccess` shows as HTTP 500 on every path: fix it on
    `main`, the next pull replaces it.
 
-5. **Routine.** At claude.ai/code/routines create a routine:
+5. **Routine.** Created from this machine with the routine API (or by hand
+   at claude.ai/code/routines) with:
    * repository `FlorentMc/playthepaper`, branch `main`;
-   * schedule cron `15 2 * * *`, timezone UTC;
-   * prompt: `infra/routine/PROMPT.md` below the `---` line, placeholders
-     filled in;
-   * network: *Custom*, with every domain listed in PROMPT.md's ENVIRONMENT;
-   * environment setup script and variables as in ENVIRONMENT (Flutter SDK
-     install; `SOURCE_n_API_KEY`; git identity `OWNER_GIT_NAME` /
-     `OWNER_GIT_EMAIL`);
-   * copy its id and API token into the GitHub secrets `ROUTINE_ID` and
-     `ROUTINE_TOKEN`.
-   Run it once manually and read the final status line
-   (`PUBLISHED` / `NOOP` / `ABANDONED`). A green run status alone means
-   nothing.
+   * schedule cron `15 2 * * *`, timezone UTC; model Opus;
+   * prompt: `infra/routine/PROMPT.md` below the `---` line, verbatim;
+   * tools Bash, Read, Write, Edit, Glob, Grep;
+   * the environment's network access set to *Full*, or *Custom* with the
+     hosts listed in PROMPT.md's ENVIRONMENT. No variables, no secrets, no
+     setup script: `infra/routine/bootstrap.sh` installs the toolchain in
+     the run.
+   Test it with a manual run whose payload is `Publish edition <tomorrow>`
+   and read the final status line (`PUBLISHED` / `NOOP` / `ABANDONED`). A
+   green run status alone means nothing.
+   Optional: on the routine's page create its API token and store it with
+   the routine id as the GitHub secrets `ROUTINE_TOKEN` / `ROUTINE_ID`; that
+   enables the 03:10 UTC retry. Without them the retry job only logs a
+   warning.
 
 6. **Reserve.** `content/` already holds classics to 2026-12-31 and the
    optional games to 2026-10-31 (see *Reserve replenishment* to extend).
@@ -258,7 +260,7 @@ and only changes with an app build; keep it to a few recent dates.
 | `verify`: still evergreen | the routine did not publish, CI rejected it, or the host did not pull | 1. routine run log: last status line (`ABANDONED …` gives the reason; no run at all → usage limits or schedule) 2. Actions → validate-content: red run → validator errors on `main`; `live` was not advanced, site still serves last good content; fix or `git revert` 3. `tail -50 ~/logs/playthepaper-pull.log` on the host; cPanel → Cron Jobs: is the line still there? 4. `content/reports/<date>.md` on `main` |
 | `verify`: `FALLBACK MISSING` | no manifest for today at all; the app shows the latest older edition | replenish the reserve now; check `index.json`; check the host actually has `live` checked out (`~/repos/playthepaper-live`) |
 | `verify`: other HTTP code | site down | HTTP 500 on every path → `.htaccess` broken (fix on `main`); certificate → cPanel SSL/TLS Status; otherwise hosting.com status page and support |
-| `retry` failed | fire call rejected | secrets `ROUTINE_ID`/`ROUTINE_TOKEN` missing or rotated; API error body in the log (usage limits) |
+| `retry` failed | fire call rejected | secrets `ROUTINE_ID`/`ROUTINE_TOKEN` rotated (missing ones only warn); API error body in the log (usage limits) |
 | `reserve`: reserve low | fewer than 30 days published ahead | replenish |
 | `reserve`: fallback missing for tomorrow | date gap in the reserve | replenish; run the validator (it should have caught a gap: ask why it did not) |
 | workflow did not run at all | schedules disabled after 60 days of inactivity, or the workflow file was last committed by someone else | Actions tab → enable; commit the file yourself |

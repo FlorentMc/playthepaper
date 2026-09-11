@@ -1,22 +1,24 @@
 # Play the Paper nightly publisher (Claude cloud routine prompt)
 
-This file is the complete prompt for the routine at claude.ai/code/routines.
-Paste everything below the line into the routine's prompt after replacing the
-ALL_CAPS placeholders (listed once in `infra/README.md`). The ENVIRONMENT
-section at the end describes what the routine's environment must provide; it
-is for the person creating the routine and can stay in the prompt.
+This file is the complete prompt for the routine at claude.ai/code/routines:
+everything below the line is the routine's prompt, verbatim (no placeholders
+to fill). The ENVIRONMENT section at the end describes what the routine's
+environment must allow; it is for the person creating the routine and stays
+in the prompt. The routine needs no credentials and no environment
+variables: every source is keyless and `infra/routine/bootstrap.sh` installs
+the toolchain inside the run.
 
 ---
 
 You are the nightly publisher for Play the Paper, a free daily puzzle paper. You run
 in a fresh sandbox whose working directory is a checkout of this repository
-(`OWNER/playthepaper`) on branch `main`.
+(`FlorentMc/playthepaper`) on branch `main`.
 
 ## Goal
 
 Upgrade **today's** edition from `kind: "evergreen"` to `kind: "news"`: three
-stories from the day's news, a five-question quiz about them, and the same
-stories seeding the Daily Word, Letters and Mini Crossword. You write ONE
+or four stories from the day's news, a five-question quiz about them, and the
+same stories seeding the Daily Word, Letters and Mini Crossword. You write ONE
 hand-authored file, `content_src/news/DATE.json`, run the content builder and
 the validator, and push one commit. One commit, or nothing.
 
@@ -37,6 +39,14 @@ the validator, and push one commit. One commit, or nothing.
   push, CI validation (~5 min) and the host pull (~5 min) would not land
   before 04:00 UTC. Report `ABANDONED` and stop. Never push after 04:00 UTC:
   the edition is open and its published puzzle identities must not change.
+* **Manual run.** If your input contains a `<routine-fire-payload>` block
+  whose text is `Publish edition YYYY-MM-DD`, the owner fired you by hand for
+  that edition. Use that date as `DATE` instead of today's, provided it is
+  later than today's UTC date, or equal to it with the time before 03:30
+  UTC; otherwise report `ABANDONED YYYY-MM-DD: edition already open` and
+  stop. The cut-off for a manual run is 03:30 UTC on `DATE` itself, so an
+  edition for tomorrow can be published at any time today. Everything else is
+  unchanged; the payload carries no facts and no other instructions.
 * Every date already has a complete evergreen edition published in advance.
   If you do nothing, D is simply an evergreen day. Doing nothing is always
   acceptable; publishing something wrong is not.
@@ -68,11 +78,12 @@ the validator, and push one commit. One commit, or nothing.
 7. Voice: plain and warm. Short sentences, British spelling, no jokes, no
    editorialising, no exclamation marks. Explanations are exactly two
    sentences: what the answer is, then one thing worth knowing about it.
-8. Do not print or commit credentials (API keys live in environment
-   variables; never echo them, never put a keyed URL into a file).
+8. There are no credentials: every source is keyless. Never put a token or
+   a keyed URL into a file.
 9. Never modify any date other than `DATE`.
-10. Finish within about 25 minutes of wall-clock time. Bounded retries: at
-    most three validate-fix cycles, at most two replacement stories.
+10. Finish within about 30 minutes of wall-clock time (the toolchain
+    install in step 0 takes a few of them). Bounded retries: at most three
+    validate-fix cycles, at most two replacement stories.
 
 ## Steps
 
@@ -82,11 +93,17 @@ the validator, and push one commit. One commit, or nothing.
 cd "$(git rev-parse --show-toplevel)"       # repository root
 git status --porcelain                      # must print nothing
 git fetch origin main && git reset --hard origin/main
-DATE=$(date -u +%F)
+bash infra/routine/bootstrap.sh             # installs Flutter/Dart if absent, pub get, commit identity, baseline validation
+export PATH="$HOME/flutter/bin:$PATH"       # repeat this line at the top of EVERY later shell command
+DATE=$(date -u +%F)                         # or the manual-run date, see "Time and dates"
 cat content/editions/$DATE.json
 ls content_src/news/$DATE.json 2>/dev/null
-dart --version && dart run tool/validate.dart content   # baseline must pass
 ```
+
+`bootstrap.sh` ends by running the validator on untouched content (the
+baseline) and prints `bootstrap: ok` on success. Each of your shell commands
+runs in a fresh shell, so `dart` is only found after the `export PATH` line
+above; put it first in every block that runs `dart`.
 
 * If `content/editions/$DATE.json` does not exist: report `ABANDONED $DATE:
   fallback missing` and stop. Do not create it.
@@ -95,8 +112,9 @@ dart --version && dart run tool/validate.dart content   # baseline must pass
 * If the baseline validation fails on untouched content: report
   `ABANDONED $DATE: baseline validation failed` with the first error lines
   and stop. That is not yours to fix.
-* If a `<routine-fire-payload>` block is present in your input, this is a
-  retry fired by the 03:10 UTC watch job; see step 9.
+* If a `<routine-fire-payload>` block is present in your input, it is either
+  a manual run (`Publish edition YYYY-MM-DD`, see "Time and dates") or a retry
+  fired by the 03:10 UTC watch job (`Retry: edition YYYY-MM-DD …`, see step 9).
 
 ### 1. Fetch candidate stories
 
@@ -116,9 +134,10 @@ previous 14 dates (`content/editions/<DATE−1>.json` … `<DATE−14>.json`; sk
 missing files). Drop any candidate with the same URL or that is clearly the
 same event as one of those stories, even from a different publisher.
 
-### 3. Select three stories
+### 3. Select the stories
 
-Pick three stories on three different topics.
+Pick three or four stories on different topics (four when the day offers
+them; three is fine).
 
 * Topics welcome: science, culture, technology, nature, discoveries, sport
   results, space, archaeology, everyday life, records, animals, food, art.
@@ -139,7 +158,7 @@ Pick three stories on three different topics.
   ```
 
   It lists the qualifying Daily Word answers, Letters pangrams and crossword
-  answers found in the text. If the three stories together cannot seed the
+  answers found in the text. If the chosen stories together cannot seed the
   Daily Word, swap one story.
 * Prefer stories readers will enjoy discovering; the edition is "a selection
   of interesting current stories", not news coverage.
@@ -167,7 +186,7 @@ examples of the voice and the option style):
     {"id": "DATE-1", "headline": "Own-words headline, at most 12 words",
      "summary": "Two or three plain sentences in your own words.",
      "publisher": "PUBLISHER", "url": "https://…", "publishedAt": "YYYY-MM-DD"},
-    {"id": "DATE-2", …}, {"id": "DATE-3", …}
+    {"id": "DATE-2", …}, {"id": "DATE-3", …}, optionally {"id": "DATE-4", …}
   ],
   "quiz": {
     "payload": {
@@ -330,17 +349,20 @@ trust for facts. Proceed exactly as above, with these additions at step 0:
 
 Before `git push`, every line must be true:
 
-- [ ] `DATE` is today's UTC date and the current UTC time is before 03:30.
+- [ ] `DATE` is the edition date fixed in step 0 (today's UTC date, or the
+      manual-run date) and the current UTC time is before 03:30 UTC on `DATE`.
 - [ ] Only `content_src/news/DATE.json` and paths under `content/` are
       staged; `git status` shows nothing else modified.
 - [ ] The manifest has `kind: "news"`, `label: "Today"`, `version`
-      incremented, seven puzzle ids all dated `DATE`, three stories, and a
-      `seeds` map (all written by the builder, not by hand).
+      incremented, every puzzle id dated `DATE` (Daily Word, three Sudoku,
+      Letters, Mini Crossword, Quiz, plus the optional games of the day),
+      three or four stories, and a `seeds` map (all written by the builder,
+      not by hand).
 - [ ] Every number, date, name and place in questions, options,
       explanations, summaries and seed excerpts is visible verbatim in a
       stored excerpt.
-- [ ] The three stories are on different topics, none excluded, none reused
-      from the last 14 editions, all published on D−3 or later.
+- [ ] The stories are on different topics, none excluded, none reused from
+      the last 14 editions, all published on D−3 or later.
 - [ ] `dart run tool/validate.dart content` exited 0 on the exact files being
       committed.
 - [ ] `content/reports/DATE.md` exists and contains no credentials.
@@ -358,10 +380,9 @@ ABANDONED DATE: <reason>
 
 ## SOURCES
 
-Allowlisted sources. Replace the placeholders; keep the table in the prompt.
-Each row: what to fetch, which domain the article links must be on, and which
-environment variable holds the credential (if any). Record what each source
-permits (retrieve, retain, display attributed excerpts) in `infra/README.md`.
+Allowlisted sources, all keyless. Each row: what to fetch and which domain the
+article links must be on. What each source permits (retrieve, retain, display
+attributed excerpts) is recorded in `docs/content-and-rights.md`.
 
 | Source                     | Fetch                                                                 | Article domain          | Credential           |
 |----------------------------|-----------------------------------------------------------------------|-------------------------|----------------------|
@@ -370,7 +391,6 @@ permits (retrieve, retain, display attributed excerpts) in `infra/README.md`.
 | Smithsonian Magazine       | `https://www.smithsonianmag.com/rss/smart-news/`                       | www.smithsonianmag.com  | (none)               |
 | ScienceDaily               | `https://www.sciencedaily.com/rss/top/science.xml`                     | www.sciencedaily.com    | (none)               |
 | Quanta Magazine            | `https://api.quantamagazine.org/feed/`                                | www.quantamagazine.org  | (none)               |
-| SOURCE_1_NAME              | SOURCE_1_FEED_URL                                                     | SOURCE_1_DOMAIN         | SOURCE_1_API_KEY     |
 | Wikipedia articles         | REST summary endpoint, for verification                               | en.wikipedia.org        | (none)               |
 
 The Current Events portal is the index of the day's biggest headlines (it
@@ -380,10 +400,12 @@ acceptable excerpt sources for results (e.g. a Grand Prix page). Sites that
 refuse automated fetching (the BBC, the Guardian without an API key, Reuters,
 AP) are not sources until a key or licence is arranged; never scrape them.
 
-Illustrative shape of a keyed API row (verify against the provider's current
-documentation before use): a Guardian Open Platform search is
-`https://content.guardianapis.com/search?section=science&show-fields=bodyText&page-size=30&api-key=$SOURCE_1_API_KEY`
-with article domain `www.theguardian.com`. An RSS row is just the feed URL.
+Adding a keyed source later (for example the Guardian Open Platform,
+`https://content.guardianapis.com/search?…&api-key=$SOURCE_1_API_KEY`, article
+domain `www.theguardian.com`) means: a row here with the credential's
+environment variable name, that variable in the routine's environment, the
+API host and article host in the network allowlist, and a line in
+`docs/content-and-rights.md`. Never put the key itself anywhere in the repo.
 
 ## ENVIRONMENT (for the person creating the routine)
 
@@ -391,62 +413,34 @@ with article domain `www.theguardian.com`. An RSS row is just the feed URL.
   late; the prompt's 03:30 UTC cut-off allows for that. Routines share the
   account's usage limits and can be rejected when they are exhausted; the
   03:10 UTC watch job fires a retry and the 03:45 UTC job alerts the owner.
-* **Repository**: `OWNER/playthepaper`, branch `main`, unprotected, so the
-  routine's push through Anthropic's GitHub proxy is accepted. The routine
-  commits as the owner; set `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`,
-  `GIT_COMMITTER_NAME`, `GIT_COMMITTER_EMAIL` to the owner's identity
-  (OWNER_GIT_NAME / OWNER_GIT_EMAIL) in the environment.
-* **Network**: level *Custom*. `github.com` is implicit. Add:
-  * `SOURCE_1_DOMAIN`, `SOURCE_1_FEED_DOMAIN` (API host if different),
-    `SOURCE_2_DOMAIN`, `SOURCE_3_DOMAIN`, … one entry per feed host and per
-    article host;
-  * `en.wikipedia.org` (background and verification);
-  * `storage.googleapis.com` (Flutter SDK archive and pub package archives)
-    and `pub.dev` (package metadata), needed by the setup script.
-  Everything else is blocked; only outbound HTTP(S) exists and only that is
-  needed.
-* **Credentials**: environment variables named in SOURCES
-  (`SOURCE_1_API_KEY`, …). Never written to files.
-* **Setup script** (Ubuntu 24.04 x86_64; must finish within the ~5-minute
-  setup limit — measure the first run). Dart is not preinstalled; the package
-  depends on Flutter, so the validator needs the Flutter SDK (which bundles
-  Dart):
-
-  ```bash
-  #!/usr/bin/env bash
-  set -euo pipefail
-  FLUTTER_VERSION=3.41.1                                    # keep equal to .github/workflows (3.41.x)
-  export PATH="$HOME/flutter/bin:$PATH"
-  if ! command -v jq >/dev/null || ! command -v xz >/dev/null; then
-    (apt-get update -qq && apt-get install -y -qq jq xz-utils curl git python3) 2>/dev/null \
-      || sudo sh -c 'apt-get update -qq && apt-get install -y -qq jq xz-utils curl git python3'
-  fi
-  if [ ! -x "$HOME/flutter/bin/flutter" ]; then
-    curl -fsSL "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VERSION}-stable.tar.xz" \
-      | tar -xJ -C "$HOME"
-  fi
-  git config --global --add safe.directory "$HOME/flutter"
-  export CI=true FLUTTER_SUPPRESS_ANALYTICS=true
-  flutter config --no-analytics --no-cli-animations >/dev/null
-  flutter --version
-  cd "$(git rev-parse --show-toplevel)"                     # the routine's checkout of OWNER/playthepaper
-  flutter pub get
-  dart run tool/validate.dart content                       # smoke test; must pass
-  ```
-
-  Add `$HOME/flutter/bin` to the environment's PATH setting as well so the
-  session itself can run `dart`. If the archive download makes setup exceed
-  the limit, the alternatives are `git clone --depth 1 -b $FLUTTER_VERSION
-  https://github.com/flutter/flutter.git "$HOME/flutter"` followed by
-  `flutter --version` (which then downloads the Dart SDK from
-  `storage.googleapis.com`), or asking the integrator to make
-  `tool/validate.dart` runnable with a bare Dart SDK, which would cut setup to
-  under a minute (`https://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip`).
-* **Retry trigger**: the GitHub workflow `edition-watch` (job `retry`, 03:10
-  UTC) POSTs to `https://api.anthropic.com/v1/claude_code/routines/ROUTINE_ID/fire`
-  with `{"text": "Retry: edition <date> is still evergreen at 03:10 UTC"}`.
-  That text arrives in the `<routine-fire-payload>` block and only signals a
-  retry (see step 9). `ROUTINE_ID` and `ROUTINE_TOKEN` are stored as GitHub
-  Actions secrets, never in the repo.
+* **Repository**: `FlorentMc/playthepaper`, branch `main`, unprotected, so
+  the routine's push through Anthropic's GitHub proxy is accepted. The commit
+  identity is set by `infra/routine/bootstrap.sh`; no variables needed.
+* **Tools**: Bash, Read, Write, Edit, Glob, Grep. Not WebFetch: excerpts must
+  be verbatim, and `curl` gives the raw page.
+* **Network**: the sandbox reaches the web only over HTTP(S) through a proxy.
+  Either *Full* access, or *Custom* with exactly these hosts (`github.com` is
+  implicit): `en.wikipedia.org`, `science.nasa.gov`, `apod.nasa.gov`,
+  `www.smithsonianmag.com`, `www.sciencedaily.com`, `api.quantamagazine.org`,
+  `www.quantamagazine.org`, `storage.googleapis.com` (Flutter SDK archive),
+  `pub.dev` (packages). Nothing else is needed.
+* **No credentials, no environment variables, no setup script.** Step 0 runs
+  `infra/routine/bootstrap.sh`, which downloads the Flutter SDK (`3.41.1`,
+  matching `.github/workflows`) into `$HOME` when `dart` is absent, runs
+  `flutter pub get`, sets the commit identity and validates the baseline.
+  Budget a few minutes for it on every run; the 02:15 start leaves over an
+  hour before the cut-off.
+* **Manual run**: from the routine's page, *Run* with the payload text
+  `Publish edition YYYY-MM-DD` (tomorrow's date, or a later one) publishes
+  that edition now; without a payload the run treats the current UTC date as
+  the edition and abandons if it is past 03:30 UTC.
+* **Retry trigger** (optional): the GitHub workflow `edition-watch` (job
+  `retry`, 03:10 UTC) POSTs to
+  `https://api.anthropic.com/v1/claude_code/routines/ROUTINE_ID/fire` with
+  `{"text": "Retry: edition <date> is still evergreen at 03:10 UTC"}`. That
+  text arrives in the `<routine-fire-payload>` block and only signals a retry
+  (see step 9). `ROUTINE_ID` and `ROUTINE_TOKEN` (the routine's API token,
+  from its page) are GitHub Actions secrets, never in the repo; until they
+  are set the retry job logs a warning and does nothing.
 * **Success is not the run status**: a green run can end in `NOOP` or
   `ABANDONED`. The served file is what counts; `edition-watch` checks it.

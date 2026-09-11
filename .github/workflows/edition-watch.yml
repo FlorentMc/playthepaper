@@ -65,8 +65,8 @@ jobs:
             echo "::warning::FALLBACK MISSING: ${url} returned 404 (verify at 03:45 UTC will fail)"
           fi
           if [ -z "${ROUTINE_ID}" ] || [ -z "${ROUTINE_TOKEN}" ]; then
-            echo "::error::secrets ROUTINE_ID / ROUTINE_TOKEN are not set"
-            exit 1
+            echo "::warning::secrets ROUTINE_ID / ROUTINE_TOKEN are not set; retry disabled (infra/README.md step 5). verify at 03:45 UTC still runs."
+            exit 0
           fi
           text="Retry: edition ${date} is still evergreen at 03:10 UTC"
           echo "firing routine ${ROUTINE_ID}: ${text}"
