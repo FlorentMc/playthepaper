@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-11-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a find at a dig in Turkey."
+  },
+  "reveal": {
+    "answer": "STATUE",
+    "storyId": "2026-09-11-4",
+    "excerpt": "“We have brought to light an 11,000-year-old statue with no known parallel,” Mehmet Nuri Ersoy, Turkey’s culture and tourism minister, says."
+  },
+  "storyId": "2026-09-11-4"
+}

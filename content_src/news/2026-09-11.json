@@ -1,0 +1,183 @@
+{
+  "slug": "2026-09-11",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-11-1",
+      "headline": "The European Central Bank raises its rates by a quarter point",
+      "summary": "The European Central Bank lifted all three of its key interest rates by 0.25 percentage points on Thursday, taking the deposit rate to 2.50%. It pointed to higher energy prices adding to inflation across the eurozone.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_10",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "2026-09-11-2",
+      "headline": "August ties for the hottest month ever recorded",
+      "summary": "The EU's Copernicus Climate Change Service says August 2026 tied with July 2023 as the hottest month in its records, which go back to 1940. The global surface air temperature averaged 62.53 degrees Fahrenheit, almost 3 degrees above pre-industrial levels.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/did-you-suffer-a-sweltering-august-you-werent-alone-it-tied-for-the-month-with-the-hottest-global-temperatures-on-record-180989482/",
+      "publishedAt": "2026-09-11"
+    },
+    {
+      "id": "2026-09-11-3",
+      "headline": "Kissing, cockroach milk and nose-blowing win Ig Nobel Prizes",
+      "summary": "The Ig Nobel Prizes, the parody awards for research that makes people laugh and then think, were announced on 3 September at the 36th annual ceremony. Winners in the ten categories included a precise scientific definition of kissing, a study of cockroach milk proteins and a 1977 paper on the aerodynamics of nose-blowing.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "2026-09-11-4",
+      "headline": "An 11,000-year-old statue of a person riding a leopard",
+      "summary": "Archaeologists at Karahan Tepe in Turkey have unearthed a Neolithic sculpture of a human riding on the back of a leopard. The 2.3-foot-tall statue, about 11,000 years old, stood on a platform in a round structure nearly ten feet across, and Turkey's culture minister says it has no known parallel.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/archaeologists-uncover-a-neolithic-sculpture-of-a-human-riding-a-leopard-thats-unlike-anything-we-have-encountered-before-180989477/",
+      "publishedAt": "2026-09-10"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The European Central Bank sets interest rates for the countries that use the euro. On Thursday it raised all three of its key rates, pointing to higher energy prices.",
+          "prompt": "By how much did it raise them?",
+          "options": [
+            "0.10 percentage points",
+            "0.25 percentage points",
+            "0.50 percentage points",
+            "1 percentage point"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-11-1"
+        },
+        {
+          "lead": "The EU's Copernicus Climate Change Service keeps a global temperature record that goes back to 1940. It says last month was as hot as any month it has ever measured.",
+          "prompt": "Which earlier month did August 2026 tie with as the hottest on record?",
+          "options": [
+            "July 2023",
+            "August 2016",
+            "July 2019",
+            "June 2024"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-11-2"
+        },
+        {
+          "lead": "The Ig Nobel Prizes are parody awards for research that makes people laugh, then think. This year's winners were announced on 3 September at the 36th annual ceremony.",
+          "prompt": "Which everyday act did the Biomechanics Prize winners define as oral-oral contact with no food transfer?",
+          "options": [
+            "Kissing",
+            "Yawning",
+            "Sneezing",
+            "Whistling"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-11-3"
+        },
+        {
+          "lead": "At Karahan Tepe in Turkey, archaeologists have unearthed a Neolithic sculpture of a human riding on the back of a leopard. The country's culture minister says nothing like it has been found before.",
+          "prompt": "How old is the sculpture?",
+          "options": [
+            "About 3,000 years",
+            "About 6,000 years",
+            "About 11,000 years",
+            "About 20,000 years"
+          ],
+          "level": "medium",
+          "storyId": "2026-09-11-4"
+        },
+        {
+          "lead": "The Ig Nobel Chemistry Prize went to a 2016 study of milk proteins from a species of cockroach that gives birth to live young, compared with the milk proteins of cows.",
+          "prompt": "How much energy do the cockroach milk proteins carry?",
+          "options": [
+            "Half as much as cow milk proteins",
+            "About the same as cow milk proteins",
+            "Three times as much as cow milk proteins",
+            "Ten times as much as cow milk proteins"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-11-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        1,
+        0,
+        0,
+        2,
+        2
+      ],
+      "explanations": [
+        "The rise was a quarter of a percentage point, which took the deposit rate to 2.50%. The bank said higher energy prices were adding to inflation across the eurozone.",
+        "August 2026 tied with July 2023 at the top of the Copernicus record. The global surface air temperature averaged 62.53 degrees Fahrenheit, almost 3 degrees above pre-industrial levels.",
+        "The winners defined kissing precisely for a study of when it evolved in primates. Matilda Brindle of the University of Oxford said her jaw hit the floor when the phone call about the award came.",
+        "The statue is about 11,000 years old and 2.3 feet tall. It stood on a platform along the wall of a round structure nearly ten feet in diameter.",
+        "The 2016 study found the proteins carry three times as much energy as milk proteins from cows. The cockroach species in question gives live birth rather than laying eggs."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_10",
+        "excerpt": "The European Central Bank raises its three key interest rates by 0.25 percentage points, lifting the deposit rate to 2.50%, as higher energy prices linked to the Iran war increase inflation pressures across the eurozone."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/did-you-suffer-a-sweltering-august-you-werent-alone-it-tied-for-the-month-with-the-hottest-global-temperatures-on-record-180989482/",
+        "excerpt": "According to the European Union’s Copernicus Climate Change Service, last month tied with July 2023 as the hottest month on its record, which dates back to 1940. The global surface air temperature averaged 62.53 degrees Fahrenheit in August. That’s almost 3 degrees above pre-industrial levels"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/",
+        "excerpt": "the Ig Nobel Prizes, which were announced on September 3. Winning work highlighted during the 36th annual award ceremony. Here are the projects that won the ten categories of the 2026 Ig Nobel Prizes. the winners of the Ig Nobel Biomechanics Prize came up with a precise definition: “a non-agonistic interaction involving directed, intraspecific, oral-oral contact with some movement of the lips/mouthparts and no food transfer.” Matilda Brindle, an evolutionary biologist at the University of Oxford. In a 2016 study, scientists found that milk proteins from a species of cockroach that gives live birth carry three times as much energy as milk proteins from cows. research on nose-blowing won the Ig Nobel Medicine Prize. A study published in 1977"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/archaeologists-uncover-a-neolithic-sculpture-of-a-human-riding-a-leopard-thats-unlike-anything-we-have-encountered-before-180989477/",
+        "excerpt": "About 11,000 years ago, a Neolithic artist living in modern-day Turkey carved a 2.3-foot-tall sculpture of a human riding on the back of a leopard. “We have brought to light an 11,000-year-old statue with no known parallel,” Mehmet Nuri Ersoy, Turkey’s culture and tourism minister, says. The sculpture was positioned on a platform running along a wall of a round structure. Measuring nearly ten feet in diameter"
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "STATUE",
+      "storyId": "2026-09-11-4",
+      "teaser": "Today's word comes from a story about a find at a dig in Turkey.",
+      "excerpt": "“We have brought to light an 11,000-year-old statue with no known parallel,” Mehmet Nuri Ersoy, Turkey’s culture and tourism minister, says."
+    },
+    "letters": {
+      "pangram": "CLIMATE",
+      "storyId": "2026-09-11-2",
+      "teaser": "Today's letters come from a story about the temperature last month.",
+      "excerpt": "According to the European Union’s Copernicus Climate Change Service, last month tied with July 2023 as the hottest month on its record, which dates back to 1940."
+    },
+    "crossword": [
+      {
+        "answer": "RATE",
+        "clue": "What the European Central Bank lifted to 2.50% on Thursday",
+        "storyId": "2026-09-11-1",
+        "excerpt": "The European Central Bank raises its three key interest rates by 0.25 percentage points, lifting the deposit rate to 2.50%"
+      },
+      {
+        "answer": "TIED",
+        "clue": "What August 2026 did with July 2023 in the temperature record",
+        "storyId": "2026-09-11-2",
+        "excerpt": "last month tied with July 2023 as the hottest month on its record, which dates back to 1940."
+      },
+      {
+        "answer": "MILK",
+        "clue": "Cockroach version of it won an Ig Nobel for chemistry",
+        "storyId": "2026-09-11-3",
+        "excerpt": "scientists found that milk proteins from a species of cockroach that gives live birth carry three times as much energy as milk proteins from cows."
+      },
+      {
+        "answer": "FEET",
+        "clue": "The round structure at Karahan Tepe measured nearly ten of these across",
+        "storyId": "2026-09-11-4",
+        "excerpt": "Measuring nearly ten feet in diameter, this structure featured a floor made from flat stones."
+      }
+    ]
+  }
+}

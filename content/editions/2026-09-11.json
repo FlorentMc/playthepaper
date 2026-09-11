@@ -1,16 +1,16 @@
 {
   "date": "2026-09-11",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-11-en-v1",
+    "word-2026-09-11-en-v2",
     "sudoku-2026-09-11-en-easy-v1",
     "sudoku-2026-09-11-en-medium-v1",
     "sudoku-2026-09-11-en-hard-v1",
-    "letters-2026-09-11-en-v1",
-    "crossword-2026-09-11-en-v1",
-    "quiz-2026-09-11-en-v1",
+    "letters-2026-09-11-en-v2",
+    "crossword-2026-09-11-en-v2",
+    "quiz-2026-09-11-en-v2",
     "bridges-2026-09-11-en-v1",
     "binary-2026-09-11-en-v1",
     "target-2026-09-11-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-09-11-1",
+      "headline": "The European Central Bank raises its rates by a quarter point",
+      "summary": "The European Central Bank lifted all three of its key interest rates by 0.25 percentage points on Thursday, taking the deposit rate to 2.50%. It pointed to higher energy prices adding to inflation across the eurozone.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_10",
+      "publishedAt": "2026-09-10"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "id": "2026-09-11-2",
+      "headline": "August ties for the hottest month ever recorded",
+      "summary": "The EU's Copernicus Climate Change Service says August 2026 tied with July 2023 as the hottest month in its records, which go back to 1940. The global surface air temperature averaged 62.53 degrees Fahrenheit, almost 3 degrees above pre-industrial levels.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/did-you-suffer-a-sweltering-august-you-werent-alone-it-tied-for-the-month-with-the-hottest-global-temperatures-on-record-180989482/",
+      "publishedAt": "2026-09-11"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "id": "2026-09-11-3",
+      "headline": "Kissing, cockroach milk and nose-blowing win Ig Nobel Prizes",
+      "summary": "The Ig Nobel Prizes, the parody awards for research that makes people laugh and then think, were announced on 3 September at the 36th annual ceremony. Winners in the ten categories included a precise scientific definition of kissing, a study of cockroach milk proteins and a 1977 paper on the aerodynamics of nose-blowing.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/stealing-candy-from-children-splash-proof-urinals-and-buried-panties-oh-my-here-are-the-winners-of-the-2026-ig-nobel-prizes-180989463/",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "2026-09-11-4",
+      "headline": "An 11,000-year-old statue of a person riding a leopard",
+      "summary": "Archaeologists at Karahan Tepe in Turkey have unearthed a Neolithic sculpture of a human riding on the back of a leopard. The 2.3-foot-tall statue, about 11,000 years old, stood on a platform in a round structure nearly ten feet across, and Turkey's culture minister says it has no known parallel.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/archaeologists-uncover-a-neolithic-sculpture-of-a-human-riding-a-leopard-thats-unlike-anything-we-have-encountered-before-180989477/",
+      "publishedAt": "2026-09-10"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-09-11-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
-      "crossword:1 Down"
+      "crossword:5 Down"
     ],
-    "discovery-1-deep": [
+    "2026-09-11-2": [
+      "quiz:2",
+      "letters"
+    ],
+    "2026-09-11-3": [
       "quiz:3",
+      "quiz:5"
+    ],
+    "2026-09-11-4": [
       "quiz:4",
       "word"
-    ],
-    "discovery-1-valley": [
-      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-09-11T17:22:09.153646Z"
 }
