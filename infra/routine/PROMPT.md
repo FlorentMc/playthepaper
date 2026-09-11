@@ -401,7 +401,7 @@ attributed excerpts) is recorded in `docs/content-and-rights.md`.
 | Source                     | Fetch                                                                 | Article domain          | Credential           |
 |----------------------------|-----------------------------------------------------------------------|-------------------------|----------------------|
 | Wikipedia Current Events (general headlines, primary) | `https://en.wikipedia.org/wiki/Portal:Current_events/<YYYY>_<Month>_<D>` for D−1 and D−2 (`?action=raw` for wikitext) | en.wikipedia.org | (none) |
-| NASA (the science story)   | `https://science.nasa.gov/feed/` and `https://apod.nasa.gov/apod/astropix.html` | science.nasa.gov, apod.nasa.gov | (none) |
+| NASA (the science story)   | `https://science.nasa.gov/feed/` and `https://apod.nasa.gov/apod/astropix.html` | science.nasa.gov, www.nasa.gov, apod.nasa.gov | (none) |
 | Smithsonian Magazine (science/culture story) | `https://www.smithsonianmag.com/rss/smart-news/`                       | www.smithsonianmag.com  | (none)               |
 | ScienceDaily (science story) | `https://www.sciencedaily.com/rss/top/science.xml`                     | www.sciencedaily.com    | (none)               |
 | Quanta Magazine (science story) | `https://api.quantamagazine.org/feed/`                                | www.quantamagazine.org  | (none)               |
@@ -435,8 +435,8 @@ API host and article host in the network allowlist, and a line in
   be verbatim, and `curl` gives the raw page.
 * **Network**: the sandbox reaches the web only over HTTP(S) through a proxy.
   Either *Full* access, or *Custom* with exactly these hosts (`github.com` is
-  implicit): `en.wikipedia.org`, `science.nasa.gov`, `apod.nasa.gov`,
-  `www.smithsonianmag.com`, `www.sciencedaily.com`, `api.quantamagazine.org`,
+  implicit): `en.wikipedia.org`, `science.nasa.gov`, `www.nasa.gov`,
+  `apod.nasa.gov`, `www.smithsonianmag.com`, `www.sciencedaily.com`, `api.quantamagazine.org`,
   `www.quantamagazine.org`, `storage.googleapis.com` (Flutter SDK archive),
   `pub.dev` (packages). Nothing else is needed.
 * **No credentials, no environment variables, no setup script.** Step 0 runs
