@@ -1,0 +1,58 @@
+{
+  "id": "nonogram-2026-10-15-en-v1",
+  "game": "nonogram",
+  "editionDate": "2026-10-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 5,
+    "height": 5,
+    "rows": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        5
+      ]
+    ],
+    "cols": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "title": "Sailing boat"
+  },
+  "reveal": {
+    "cells": [
+      "00100",
+      "01100",
+      "11100",
+      "00100",
+      "11111"
+    ]
+  }
+}

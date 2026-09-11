@@ -1,0 +1,63 @@
+{
+  "id": "fiveclues-2026-10-15-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-10-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "Aliquot stringing gave the grand sort a more powerful sound and a longer sustain",
+      "A cast iron frame let its strings be pulled far tighter in the 19th century",
+      "Most of its notes have three strings; in the bass there are only one or two",
+      "A pedal at the foot lifts the dampers so a note keeps ringing",
+      "Eighty-eight black and white keys, and felt hammers that strike strings"
+    ]
+  },
+  "reveal": {
+    "answer": "Piano",
+    "aliases": [
+      "pianoforte",
+      "pianos"
+    ],
+    "explanations": [
+      "Aliquot stringing gave grand instruments a more powerful sound, a longer sustain and a richer tone.",
+      "In the 19th century a cast iron frame was adopted, which allowed much greater string tensions.",
+      "Most notes have three strings, except in the bass, which graduates from one to two.",
+      "Pedals at the base lift the dampers off the strings, so notes go on sounding after the keys are released.",
+      "Modern instruments have 88 black and white keys, and pressing one swings a felt-coated wooden hammer at the strings."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "Aliquot stringing gave grand pianos a more powerful sound, a longer sustain, and a richer tone."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "In the 19th century, influenced by Romantic music trends, the fortepiano underwent changes such as the use of a cast iron frame, which allowed much greater string tensions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "Most notes have three strings, except for the bass, which graduates from one to two."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "Notes can be sustained when the keys are released by the use of pedals at the base of the instrument, which lift the dampers off the strings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "Modern pianos have a row of 88 black and white keys—with the exception of the Bosendörfer and Stuart & Sons pianos—and tuned to a chromatic scale in equal temperament."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "excerpt": "When a key is depressed, the strings inside are struck by felt-coated wooden hammers."
+    }
+  ]
+}

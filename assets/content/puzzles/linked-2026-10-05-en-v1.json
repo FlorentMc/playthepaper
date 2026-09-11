@@ -1,0 +1,94 @@
+{
+  "id": "linked-2026-10-05-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-05",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The G symbol most often seen, putting G above middle C on the second line",
+          "Even the low saxophones read in it"
+        ],
+        "hint": "The symbol used for the high parts"
+      },
+      {
+        "clues": [
+          "The F symbol, fixing the F below middle C on the fourth line",
+          "Good Boys Do Fine Always names its lines"
+        ],
+        "hint": "The symbol used for the low parts"
+      },
+      {
+        "clues": [
+          "The commonest form of the C symbol, putting middle C on the third line",
+          "The C symbol is the one used for the middle parts"
+        ],
+        "hint": "Put the same symbol a line higher and you get the tenor one instead"
+      }
+    ],
+    "finalHint": "Each one fixes a single named note to a single line of the staff"
+  },
+  "reveal": {
+    "answers": [
+      "Treble",
+      "Bass",
+      "Alto"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "Musical clefs",
+    "finalAliases": [
+      "clef",
+      "clefs"
+    ],
+    "explanations": [
+      "The treble clef is the G-clef in its usual position, placing G above middle C on the second line of the staff.",
+      "The bass clef is the F-clef, fixing the F below middle C on the fourth line; Good Boys Do Fine Always names its lines.",
+      "The alto clef is the C-clef in its commonest position, placing middle C on the third line, and is used for middle parts.",
+      "Treble, bass and alto are three clefs: symbols that fix one named note to one line, so the rest of the staff can be read."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "In modern music notation, the G-clef is most frequently seen as treble clef (placing G4 on the second line of the staff), and the F-clef as bass clef (placing F3 on the fourth line)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "For example, even the low saxophones read in treble clef."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "Placing these clefs on a line fixes a reference note to that line—an F-clef fixes the F below middle C, a C-clef fixes middle C, and a G-clef fixes the G above middle C."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "Good Boys Do Fine Always (lines)"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "The C-clef is mostly encountered as alto clef (placing middle C on the third line) or tenor clef (middle C on the fourth line)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "To this end, the G-clef is used for high parts, the C-clef for middle parts, and the F-clef for low parts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clef",
+      "excerpt": "A clef (from French: clef 'key') is a musical symbol used to indicate which notes are represented by the lines and spaces on a musical staff."
+    }
+  ]
+}

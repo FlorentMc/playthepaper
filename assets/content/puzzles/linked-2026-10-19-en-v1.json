@@ -1,0 +1,94 @@
+{
+  "id": "linked-2026-10-19-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The nutrient-bearing part, whose whole job is to feed the growing embryo",
+          "Rich in vitamins, minerals, lipids and proteins, and stored as food"
+        ],
+        "hint": "Stored food, laid down before laying, and not living tissue"
+      },
+      {
+        "clues": [
+          "About nine tenths water, a tenth protein, and almost no fat at all",
+          "Whisked, it becomes meringue or mousse"
+        ],
+        "hint": "It holds a little over half of all the protein there"
+      },
+      {
+        "clues": [
+          "A protective covering, flexible or rigid, around what reptiles and birds lay",
+          "Some hatchlings grow a temporary tooth for the sole purpose of breaking it"
+        ],
+        "hint": "The outer covering of the hard-cased sort"
+      }
+    ],
+    "finalHint": "Reptiles and birds lay it, and a hatchling breaks its way out"
+  },
+  "reveal": {
+    "answers": [
+      "Yolk",
+      "White",
+      "Shell"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "An egg",
+    "finalAliases": [
+      "eggs",
+      "a bird's egg"
+    ],
+    "explanations": [
+      "The yolk is the nutrient-bearing part, stored food rich in vitamins, minerals, lipids and proteins, there to feed the growing embryo.",
+      "The white, or albumen, is about 90 per cent water with 10 per cent protein and almost no fat, and whisks up into meringue and mousse.",
+      "The shell is the protective covering, flexible or rigid, around the eggs of reptiles, birds and monotremes.",
+      "Yolk, white and shell are the three parts of an egg, the vessel an animal grows to carry a fertilised egg cell."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yolk",
+      "excerpt": "Among animals which produce eggs, the yolk (; also known as the vitellus) is the nutrient-bearing portion of the egg, the primary function of which is to supply food for the development of the embryo."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yolk",
+      "excerpt": "As stored food, yolks are often rich in vitamins, minerals, lipids and proteins."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Egg_white",
+      "excerpt": "Egg white consists of about 90% water into which about 10% proteins (including albumins, mucoproteins, and globulins) are dissolved."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Egg_white",
+      "excerpt": "Egg white has many uses in food (e.g. meringue, mousse) as well as many other uses (e.g. in the preparation of vaccines such as those for influenza)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Egg",
+      "excerpt": "Reptile eggs, bird eggs, and monotreme eggs are laid out of water and are surrounded by a protective shell, either flexible or inflexible."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Egg",
+      "excerpt": "Some embryos have a temporary egg tooth they use to crack, pip, or break the eggshell or covering."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Egg",
+      "excerpt": "An egg is an organic vessel grown by an animal to carry a possibly fertilized egg cell – a zygote."
+    }
+  ]
+}

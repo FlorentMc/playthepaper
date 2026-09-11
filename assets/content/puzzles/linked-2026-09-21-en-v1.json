@@ -1,0 +1,102 @@
+{
+  "id": "linked-2026-09-21-en-v1",
+  "game": "linked",
+  "editionDate": "2026-09-21",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Named after a Swedish astronomer who proposed the first version in 1742",
+          "It was renamed in 1948 by the International Committee for Weights and Measures"
+        ],
+        "hint": "Zero for freezing water and a hundred for boiling"
+      },
+      {
+        "clues": [
+          "Water freezes at 32 on it and boils at 212",
+          "Its zero was the freezing point of a brine of water, ice and a salt"
+        ],
+        "hint": "Proposed in 1724, and still in use in the United States"
+      },
+      {
+        "clues": [
+          "It begins at absolute zero, the lowest temperature there can be",
+          "Add 273.15 to the everyday metric reading and you have it"
+        ],
+        "hint": "The SI base unit for temperature, named after a 19th-century Briton"
+      }
+    ],
+    "finalHint": "Three ways of putting a number on how hot something is"
+  },
+  "reveal": {
+    "answers": [
+      "Celsius",
+      "Fahrenheit",
+      "Kelvin"
+    ],
+    "aliases": [
+      [
+        "centigrade",
+        "degrees Celsius"
+      ],
+      [
+        "degrees Fahrenheit"
+      ],
+      [
+        "kelvins",
+        "the absolute scale"
+      ]
+    ],
+    "final": "The temperature scales",
+    "finalAliases": [
+      "scales of temperature",
+      "ways of measuring temperature"
+    ],
+    "explanations": [
+      "The Celsius scale, called centigrade until 1948, was first proposed in 1742 by the Swedish astronomer Anders Celsius.",
+      "On the Fahrenheit scale water freezes at 32 degrees and boils at 212; its zero came from a brine of water, ice and ammonium chloride.",
+      "The Kelvin scale starts at absolute zero, and any Celsius reading becomes a kelvin reading by adding 273.15.",
+      "Celsius, Fahrenheit and Kelvin are three scales of temperature; Celsius and Kelvin are the two used in the International System of Units."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celsius",
+      "excerpt": "It is named after the Swedish astronomer Anders Celsius (1701–1744), who proposed the first version of it in 1742."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celsius",
+      "excerpt": "In 1948, the International Committee for Weights and Measures renamed it to honor Celsius and also to remove confusion with the term for one hundredth of a gradian in some languages."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fahrenheit",
+      "excerpt": "For much of the 20th century, the Fahrenheit scale was defined by two fixed points with a 180 °F separation: the temperature at which pure water freezes was defined as 32 °F and the boiling point of water was defined to be 212 °F, both at sea level and under standard atmospheric pressure."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fahrenheit",
+      "excerpt": "Several accounts of how he originally defined his scale exist, but the original paper suggests the lower defining point, 0 °F, was established as the freezing temperature of a solution of brine made from a mixture of water, ice, and ammonium chloride (a salt)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kelvin",
+      "excerpt": "The Kelvin scale is an absolute temperature scale that starts at the lowest possible temperature (absolute zero), taken to be 0 K."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kelvin",
+      "excerpt": "By definition, the units of the Celsius scale (symbol °C) and the Kelvin scale have the same magnitude (that is, a rise in temperature of one kelvin and a rise of 1 °C are both equal to 1 K), and any temperature in degrees Celsius can be converted to the kelvin scale by adding 273.15."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celsius",
+      "excerpt": "The degree Celsius is the unit of temperature on the Celsius temperature scale (originally known as the centigrade scale in English), one of two temperature scales used in the International System of Units (SI), the other being the closely related Kelvin scale."
+    }
+  ]
+}

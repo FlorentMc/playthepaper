@@ -1,0 +1,103 @@
+{
+  "id": "groups-2026-10-08-en-v1",
+  "game": "groups",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Ostrich",
+      "Lyra",
+      "Titan",
+      "Cygnus",
+      "Rhea",
+      "Kiwi",
+      "Emu",
+      "Iapetus",
+      "Orion",
+      "Draco",
+      "Dione",
+      "Enceladus"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Flightless birds",
+        "members": [
+          "Emu",
+          "Kiwi",
+          "Ostrich",
+          "Rhea"
+        ],
+        "explanation": "None of these birds can fly, and the ostrich is the largest bird alive."
+      },
+      {
+        "title": "Moons of Saturn",
+        "members": [
+          "Titan",
+          "Dione",
+          "Iapetus",
+          "Enceladus"
+        ],
+        "explanation": "Each of these moons circles Saturn, and Titan is larger than Mercury.",
+        "alsoFits": [
+          "Rhea"
+        ]
+      },
+      {
+        "title": "Constellations",
+        "members": [
+          "Orion",
+          "Lyra",
+          "Draco",
+          "Cygnus"
+        ],
+        "explanation": "All four are constellations of the northern winter and summer skies."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flightless_bird",
+      "excerpt": "The largest (both heaviest and tallest) flightless bird, which is also the largest living bird in general, is the common ostrich (2.7 m, 156 kg)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flightless_bird",
+      "excerpt": "There are over 60 extant species, including the well-known ratites (ostriches (Struthio), emus (Dromaius), cassowaries (Casuarius), rheas, kiwis (Apteryx)), and penguins (Sphenisciformes)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moons_of_Saturn",
+      "excerpt": "Saturn's moons are diverse in size, ranging from tiny moonlets to Titan, which is larger than the planet Mercury and the second largest moon in the Solar System."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moons_of_Saturn",
+      "excerpt": "Four orbit inside of the diffuse G ring or between the major moons Mimas and Enceladus."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moons_of_Saturn",
+      "excerpt": "Twenty-five of the confirmed moons are regular satellites; they have prograde orbits not greatly inclined to Saturn's equatorial plane (except Iapetus, which has a prograde but significantly inclined orbit)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dione_%28moon%29",
+      "excerpt": "Later, the Cassini spacecraft made multiple flybys of Dione throughout the 2000s and 2010s as part of its campaign to explore the Saturn system."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orion_%28constellation%29",
+      "excerpt": "Orion is most prominent during winter evenings in the Northern Hemisphere, as are five other constellations that have stars in the Winter Hexagon asterism."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lyra",
+      "excerpt": "Beginning at the north, Lyra is bordered by Draco, Hercules, Vulpecula, and Cygnus."
+    }
+  ]
+}

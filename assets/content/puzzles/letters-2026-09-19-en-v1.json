@@ -1,0 +1,54 @@
+{
+  "id": "letters-2026-09-19-en-v1",
+  "game": "letters",
+  "editionDate": "2026-09-19",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "Y",
+    "outer": "AGILNP",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a box of spotted tiles."
+  },
+  "reveal": {
+    "answers": [
+      "ALLY",
+      "APPLY",
+      "APPLYING",
+      "GAILY",
+      "GILLY",
+      "GINNY",
+      "LAYING",
+      "LILY",
+      "LIPPY",
+      "LYING",
+      "NANNY",
+      "NAPPY",
+      "NINNY",
+      "NIPPY",
+      "PALLY",
+      "PAPAYA",
+      "PAPPY",
+      "PAYING",
+      "PIGGY",
+      "PLAINLY",
+      "PLAY",
+      "PLAYA",
+      "PLAYING",
+      "PLYING",
+      "YANG",
+      "YAPPING",
+      "YIPPING"
+    ],
+    "pangrams": [
+      "APPLYING",
+      "PLAYING"
+    ],
+    "maxScore": 148,
+    "storyId": "everyday-1-dominoes",
+    "excerpt": "A domino set is a generic gaming device, similar to playing cards or dice, in that a variety of games can be played with a set."
+  },
+  "storyId": "everyday-1-dominoes"
+}

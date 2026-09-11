@@ -1,0 +1,97 @@
+{
+  "id": "linked-2026-09-20-en-v1",
+  "game": "linked",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Usually below the soil, it anchors and draws in water and nutrients",
+          "Some are aerial or aerating, growing up above the ground or the water"
+        ],
+        "hint": "Anchorage below, and the way in for water and nutrients"
+      },
+      {
+        "clues": [
+          "It supports flowers and fruits and carries water and food both ways",
+          "Nodes and internodes divide it, and on a tree it is called the trunk"
+        ],
+        "hint": "Xylem and phloem run up and down inside it"
+      },
+      {
+        "clues": [
+          "A flat appendage borne above ground and specialised for photosynthesis",
+          "Chlorophyll is what makes most of them green"
+        ],
+        "hint": "Flat, usually green, and the main site of photosynthesis"
+      }
+    ],
+    "finalHint": "Add the flower and the fruit and you have the whole growing thing"
+  },
+  "reveal": {
+    "answers": [
+      "Root",
+      "Stem",
+      "Leaf"
+    ],
+    "aliases": [
+      [
+        "roots"
+      ],
+      [
+        "stems",
+        "stalk"
+      ],
+      [
+        "leaves",
+        "foliage"
+      ]
+    ],
+    "final": "A plant",
+    "finalAliases": [
+      "the parts of a plant",
+      "plants"
+    ],
+    "explanations": [
+      "The root anchors the plant and takes in water and nutrients; most are underground, but some are aerial or aerating.",
+      "The stem is the other main structural axis: it supports leaves, flowers and fruits and carries water and food in the xylem and phloem.",
+      "The leaf is the principal appendage of the stem, flat, usually green with chlorophyll, and specialised for photosynthesis.",
+      "Root, stem and leaf are the parts of a plant; with the flower and the fruit they make up the whole shoot and root system."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Root",
+      "excerpt": "In vascular plants, the roots are the organs of a plant that are modified to provide anchorage for the plant and take in water and nutrients into the plant body, which allows plants to grow taller and faster."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Root",
+      "excerpt": "They are most often below the surface of the soil, but roots can also be aerial or aerating, that is, growing up above the ground or especially above water."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plant_stem",
+      "excerpt": "A stem is one of two main structural axes of a vascular plant, the other being the root. It supports leaves, flowers and fruits, transports water and dissolved substances between the roots and the shoots in the xylem and phloem, engages in photosynthesis, stores nutrients, and produces new living tissue."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plant_stem",
+      "excerpt": "The woody stem of a tree is known as a trunk."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leaf",
+      "excerpt": "A leaf (pl.: leaves) is a principal appendage of the stem of a vascular plant, usually borne laterally above ground and specialized for photosynthesis."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leaf",
+      "excerpt": "Leaves are mostly green in color due to the presence of a compound called chlorophyll, which is essential for photosynthesis as it absorbs light energy from the Sun."
+    }
+  ]
+}

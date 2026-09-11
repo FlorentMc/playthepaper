@@ -1,0 +1,126 @@
+{
+  "id": "kakuro-2026-10-14-en-v1",
+  "game": "kakuro",
+  "editionDate": "2026-10-14",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 6,
+    "height": 6,
+    "cells": [
+      "#",
+      {
+        "down": 6,
+        "across": null
+      },
+      {
+        "down": 9,
+        "across": null
+      },
+      {
+        "down": 34,
+        "across": null
+      },
+      {
+        "down": 20,
+        "across": null
+      },
+      {
+        "down": 13,
+        "across": null
+      },
+      {
+        "down": null,
+        "across": 17
+      },
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      {
+        "down": null,
+        "across": 33
+      },
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "#",
+      {
+        "down": 13,
+        "across": null
+      },
+      {
+        "down": 3,
+        "across": 13
+      },
+      ".",
+      ".",
+      {
+        "down": 12,
+        "across": null
+      },
+      {
+        "down": null,
+        "across": 32
+      },
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      {
+        "down": null,
+        "across": 15
+      },
+      ".",
+      ".",
+      ".",
+      ".",
+      "."
+    ]
+  },
+  "reveal": {
+    "solution": [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "1",
+      "2",
+      "6",
+      "3",
+      "5",
+      "#",
+      "5",
+      "7",
+      "9",
+      "4",
+      "8",
+      "#",
+      "#",
+      "#",
+      "8",
+      "5",
+      "#",
+      "#",
+      "8",
+      "2",
+      "7",
+      "6",
+      "9",
+      "#",
+      "5",
+      "1",
+      "4",
+      "2",
+      "3"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "quiz-2026-09-30-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-09-30",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "On 17 December 1903, near Kitty Hawk in North Carolina, the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft. Orville Wright was at the controls for the first of four flights that day, covering 37 metres, shorter than the wingspan of a Boeing 747.",
+        "prompt": "How long did the first flight of the Wright Flyer last?",
+        "options": [
+          "1.2 seconds",
+          "12 seconds",
+          "2 minutes",
+          "12 minutes"
+        ],
+        "level": "easy",
+        "storyId": "technology-1-flyer"
+      },
+      {
+        "lead": "The Wright brothers flew their Flyer four times on 17 December 1903 near Kitty Hawk, North Carolina. Orville's first flight lasted 12 seconds and covered 37 metres; the fourth and last, with Wilbur at the controls, stayed up for 59 seconds.",
+        "prompt": "How far did the fourth and longest flight of 17 December 1903 travel?",
+        "options": [
+          "26 metres",
+          "260 metres",
+          "2,600 metres",
+          "26 kilometres"
+        ],
+        "level": "easy",
+        "storyId": "technology-1-flyer"
+      },
+      {
+        "lead": "The Panama Canal is an artificial waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean, with locks at each end that lift ships 26 metres up to Gatun Lake and lower them again on the other side. It was formally opened on 15 August 1914 with the passage of the cargo ship SS Ancon.",
+        "prompt": "How long is the Panama Canal?",
+        "options": [
+          "42 km",
+          "82 km",
+          "160 km",
+          "320 km"
+        ],
+        "level": "easy",
+        "storyId": "technology-1-canal"
+      },
+      {
+        "lead": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units and the first microprocessor anyone could buy. Its launch price is equivalent to about 477 US dollars in 2025 money.",
+        "prompt": "How much did the Intel 4004 cost when it was released in 1971?",
+        "options": [
+          "US$6",
+          "US$60",
+          "US$600",
+          "US$6,000"
+        ],
+        "level": "medium",
+        "storyId": "technology-1-chip"
+      },
+      {
+        "lead": "The Intel 4004, released on 15 November 1971 at a price of 60 US dollars, was the first in a long line of Intel central processing units. Its design doubled circuit density compared with earlier chips, and it ran at a maximum clock rate of 740 kHz.",
+        "prompt": "How many transistors did the Intel 4004 contain?",
+        "options": [
+          "230",
+          "2,300",
+          "23,000",
+          "230,000"
+        ],
+        "level": "hard",
+        "storyId": "technology-1-chip"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "explanations": [
+      "Orville's first flight lasted 12 seconds and covered 120 feet, about 37 metres, shorter than the wingspan of a Boeing 747. It was captured in a famous photograph.",
+      "The fourth and last flight of the day, with Wilbur at the controls, covered 852 feet, about 260 metres, in 59 seconds. The Flyer was damaged on landing and wrecked minutes later when gusts blew it over.",
+      "The Panama Canal is 82 kilometres long, cutting across the narrowest point of the Isthmus of Panama. It was formally opened on 15 August 1914 with the passage of the cargo ship SS Ancon.",
+      "The 4004 was priced at US$60 when it went on sale on 15 November 1971. It was the first in a long line of Intel central processing units.",
+      "The Intel 4004 packed 2,300 transistors onto a single chip. Its silicon gate technology doubled circuit density and let it run five times faster than earlier designs."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "excerpt": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. Because Wilbur already had the first chance, Orville took his turn at the controls. His flight, captured in a famous photograph, lasted 12 seconds for a total distance of 120 feet (37 m) – shorter than the wingspan of a Boeing 747. The fourth and last flight, by Wilbur, took 59 seconds to cover 852 feet (260 m) over the ground, moving through approximately a half mile (800 m) of flowing air. The airplane flew 852 ft (260 m) on its fourth and final flight, but was damaged on landing, and wrecked minutes later when powerful gusts blew it over. Unoccupied, the machine weighed 605 pounds (274 kg)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004",
+      "excerpt": "The Intel 4004, released by the Intel Corporation on November 15, 1971, was the first in a long line of Intel central processing units (CPUs). Priced at US$60 (equivalent to $477 in 2025), the chip marked both a technological and economic milestone in computing. Together, these innovations doubled the circuit density, and thus halved cost, allowing a single chip to contain 2,300 transistors and run five times faster than designs using the previous MOS technology with aluminum gates. Maximum clock rate is 740 kHz."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "excerpt": "The Panama Canal (Spanish: Canal de Panamá) is an artificial 82-kilometer (51-mile) waterway in Panama that connects the Caribbean Sea with the Pacific Ocean. It cuts across the narrowest point of the Isthmus of Panama, and is a conduit for maritime trade between the Atlantic Ocean and the Pacific Ocean. Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal. Locks then lower the ships at the other end. The canal was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon."
+    }
+  ]
+}

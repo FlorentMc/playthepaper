@@ -1,0 +1,187 @@
+{
+  "id": "crossmatch-2026-10-09-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "British, French and German scientists",
+    "rows": [
+      "Worked in physics",
+      "Worked in chemistry",
+      "Worked in biology"
+    ],
+    "cols": [
+      "British",
+      "French",
+      "German"
+    ],
+    "tiles": [
+      "Antoine Lavoisier",
+      "Robert Koch",
+      "Michael Faraday",
+      "Max Planck",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Humphry Davy",
+      "Robert Bunsen",
+      "Andre-Marie Ampere"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Michael Faraday",
+        "Andre-Marie Ampere",
+        "Max Planck"
+      ],
+      [
+        "Humphry Davy",
+        "Antoine Lavoisier",
+        "Robert Bunsen"
+      ],
+      [
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Robert Koch"
+      ]
+    ],
+    "explanations": {
+      "Michael Faraday": "An English chemist and physicist whose work on electromagnetism founded the study of the electromagnetic field.",
+      "Andre-Marie Ampere": "A French physicist and one of the founders of classical electromagnetism.",
+      "Max Planck": "A German physicist who introduced the quantum in 1900.",
+      "Humphry Davy": "A British chemist who isolated potassium, sodium and several other elements.",
+      "Antoine Lavoisier": "A French chemist known as the father of modern chemistry.",
+      "Robert Bunsen": "A German chemist who discovered caesium and rubidium by flame spectroscopy.",
+      "Charles Darwin": "A British naturalist who set out the theory of evolution by natural selection.",
+      "Louis Pasteur": "A French microbiologist whose work on germs gave us pasteurisation and vaccines.",
+      "Robert Koch": "A German bacteriologist who set out the criteria linking a microbe to a disease."
+    },
+    "fits": {
+      "Michael Faraday": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "Andre-Marie Ampere": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "Max Planck": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Humphry Davy": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Antoine Lavoisier": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Robert Bunsen": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Charles Darwin": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Louis Pasteur": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "Robert Koch": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Faraday",
+      "excerpt": "Michael Faraday (22 September 1791 – 25 August 1867) was an English chemist and physicist who contributed vastly to the study of electrochemistry and electromagnetism."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re",
+      "excerpt": "André-Marie Ampère (20 January 1775 – 10 June 1836) was a French physicist and mathematician who was one of the founders of the science of classical electromagnetism, which he referred to as electrodynamics."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re",
+      "excerpt": "He made also important contributions in chemistry and philosophy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planck%27s_law",
+      "excerpt": "In 1900, German physicist Max Planck heuristically derived a formula for the observed spectrum by assuming that a hypothetical electrically charged oscillator in a cavity that contained black-body radiation could only change its energy in a minimal increment, E, that was proportional to the frequency of its associated electromagnetic wave."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Humphry_Davy",
+      "excerpt": "Sir Humphry Davy, 1st Baronet (17 December 1778 – 29 May 1829) was a British chemist and inventor who invented the Davy lamp and an early form of arc lamp."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chemical_revolution",
+      "excerpt": "During the 19th and 20th century, this transformation was credited to the work of the French chemist Antoine Lavoisier (the \"father of modern chemistry\")."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caesium",
+      "excerpt": "The German chemist Robert Bunsen and physicist Gustav Kirchhoff discovered caesium in 1860 by the then newly developed method of flame spectroscopy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evolution",
+      "excerpt": "The scientific theory of evolution by natural selection was conceived independently by two British naturalists, Charles Darwin and Alfred Russel Wallace, in the mid-19th century as an explanation for why organisms are adapted to their physical and biological environments."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pasteurization",
+      "excerpt": "Pasteurization is named after French microbiologist Louis Pasteur, whose research in the 1860s demonstrated that thermal processing would deactivate unwanted microorganisms in wine."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pasteurization",
+      "excerpt": "A less aggressive method was developed by French chemist Louis Pasteur during an 1864 summer holiday in Arbois."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Germ_theory_of_disease",
+      "excerpt": "In 1884, German bacteriologist Robert Koch published four criteria for establishing causality between specific microorganisms and diseases, now known as Koch's postulates:"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-30",
+  "kind": "evergreen",
+  "label": "Evergreen · Technology",
+  "version": 2,
+  "puzzles": [
+    "word-2026-09-30-en-v1",
+    "sudoku-2026-09-30-en-easy-v1",
+    "sudoku-2026-09-30-en-medium-v1",
+    "sudoku-2026-09-30-en-hard-v1",
+    "letters-2026-09-30-en-v1",
+    "crossword-2026-09-30-en-v1",
+    "quiz-2026-09-30-en-v1",
+    "bridges-2026-09-30-en-v1",
+    "binary-2026-09-30-en-v1",
+    "target-2026-09-30-en-v1",
+    "tangram-2026-09-30-en-v1",
+    "compass-2026-09-30-en-v1",
+    "kakuro-2026-09-30-en-v1",
+    "loop-2026-09-30-en-v1",
+    "merge-2026-09-30-en-v1",
+    "nonogram-2026-09-30-en-v1",
+    "regions-2026-09-30-en-v1",
+    "chronology-2026-09-30-en-v1",
+    "crossmatch-2026-09-30-en-v1",
+    "fiveclues-2026-09-30-en-v1",
+    "linked-2026-09-30-en-v1",
+    "groups-2026-09-30-en-v1",
+    "uncover-2026-09-30-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "technology-1-flyer",
+      "headline": "Twelve seconds that began the age of flight",
+      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-chip",
+      "headline": "The first microprocessor you could buy",
+      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intel_4004",
+      "publishedAt": "evergreen"
+    },
+    {
+      "id": "technology-1-canal",
+      "headline": "A staircase of water across an isthmus",
+      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "publishedAt": "evergreen"
+    }
+  ],
+  "seeds": {
+    "technology-1-flyer": [
+      "quiz:1",
+      "quiz:2",
+      "word",
+      "crossword:1 Down"
+    ],
+    "technology-1-canal": [
+      "quiz:3"
+    ],
+    "technology-1-chip": [
+      "quiz:4",
+      "quiz:5",
+      "letters"
+    ]
+  }
+}

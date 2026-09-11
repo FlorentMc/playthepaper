@@ -1,0 +1,13 @@
+{
+  "id": "merge-2026-09-29-en-v1",
+  "game": "merge",
+  "editionDate": "2026-09-29",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "seed": 1309124427,
+    "size": 4
+  },
+  "reveal": {}
+}

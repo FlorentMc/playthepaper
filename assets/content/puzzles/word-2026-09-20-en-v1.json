@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-20-en-v1",
+  "game": "word",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about the tallest thing on Earth for thousands of years."
+  },
+  "reveal": {
+    "answer": "CASING",
+    "storyId": "history-1-pyramid",
+    "excerpt": "Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the current 138.5 metres (454.4 ft); what is seen today is the underlying core structure."
+  },
+  "storyId": "history-1-pyramid"
+}

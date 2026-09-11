@@ -1,0 +1,169 @@
+{
+  "id": "crossmatch-2026-10-26-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-26",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Cities, rivers and mountains of western Europe",
+    "rows": [
+      "City",
+      "River",
+      "Mountain"
+    ],
+    "cols": [
+      "In France",
+      "In Germany",
+      "In Spain"
+    ],
+    "tiles": [
+      "Ebro",
+      "Mont Blanc",
+      "Hamburg",
+      "Mulhacen",
+      "Loire",
+      "Seville",
+      "Zugspitze",
+      "Bordeaux",
+      "Rhine"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Bordeaux",
+        "Hamburg",
+        "Seville"
+      ],
+      [
+        "Loire",
+        "Rhine",
+        "Ebro"
+      ],
+      [
+        "Mont Blanc",
+        "Zugspitze",
+        "Mulhacen"
+      ]
+    ],
+    "explanations": {
+      "Bordeaux": "A port city on the Garonne in south-western France.",
+      "Hamburg": "Germany's second-largest city, a port on the Elbe.",
+      "Seville": "The capital of Andalusia, in southern Spain.",
+      "Loire": "The longest river in France.",
+      "Rhine": "A great European river that flows north through the German Rhineland.",
+      "Ebro": "The longest river lying entirely within Spain.",
+      "Mont Blanc": "The highest mountain of the Alps, rising above Chamonix in France.",
+      "Zugspitze": "The highest mountain in Germany, above Garmisch-Partenkirchen in Bavaria.",
+      "Mulhacen": "The highest mountain in mainland Spain, in the Sierra Nevada."
+    },
+    "fits": {
+      "Bordeaux": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Hamburg": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Seville": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Loire": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Rhine": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "Ebro": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Mont Blanc": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Zugspitze": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Mulhacen": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bordeaux",
+      "excerpt": "Bordeaux is a city on the river Garonne in the Gironde department, southwestern France."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamburg",
+      "excerpt": "Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and sixth-largest city in the European Union, with a population of over 1.9 million."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seville",
+      "excerpt": "Seville is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loire",
+      "excerpt": "The Loire is the longest river in France and the 171st-longest in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rhine",
+      "excerpt": "After that, the Rhine defines much of the Franco-German border. It then flows in a mostly northerly direction through the German Rhineland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ebro",
+      "excerpt": "The Ebro is a river of the north and northeast of the Iberian Peninsula, in Spain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mont_Blanc",
+      "excerpt": "The three towns and their communes which surround Mont Blanc are Courmayeur in Aosta Valley, Italy; and Saint-Gervais-les-Bains and Chamonix in Haute-Savoie, France."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zugspitze",
+      "excerpt": "The Zugspitze, at 2,962 m (9,718 ft) above sea level, is the highest peak of the Wetterstein Mountains and the highest mountain in Germany."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mulhacén",
+      "excerpt": "Mulhacén, with an elevation of 3,479 metres (11,414 ft), is the highest mountain in peninsular Spain and in all of the Iberian Peninsula."
+    }
+  ]
+}

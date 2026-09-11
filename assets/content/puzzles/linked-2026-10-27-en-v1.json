@@ -1,0 +1,104 @@
+{
+  "id": "linked-2026-10-27-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-27",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Its atoms sit in a cubic crystal, and nothing natural is harder",
+          "Most formed 150 to 250 kilometres down and rode up in eruptions"
+        ],
+        "hint": "A trace of boron turns it blue and a trace of nitrogen yellow"
+      },
+      {
+        "clues": [
+          "The most stable form of the element under ordinary conditions",
+          "Half of what is used goes into refractories and nearly a fifth into batteries"
+        ],
+        "hint": "Squeeze and heat it hard enough and it becomes something far harder"
+      },
+      {
+        "clues": [
+          "A sheet of interlocked hexagons, one atom thick, like the face of a honeycomb",
+          "Isolated in 2004 with a lump of mineral and some sticky tape"
+        ],
+        "hint": "The thinnest two-dimensional material there is, and the strongest measured"
+      }
+    ],
+    "finalHint": "Buckminsterfullerene, a hollow ball of atoms, is another of these"
+  },
+  "reveal": {
+    "answers": [
+      "Diamond",
+      "Graphite",
+      "Graphene"
+    ],
+    "aliases": [
+      [],
+      [],
+      []
+    ],
+    "final": "The forms of carbon",
+    "finalAliases": [
+      "allotropes of carbon",
+      "carbon allotropes"
+    ],
+    "explanations": [
+      "Diamond is carbon in a cubic crystal, the hardest natural material, formed deep in the mantle and carried up by volcanic eruptions.",
+      "Graphite is the most stable form of carbon under standard conditions, used above all in refractories and lithium-ion batteries.",
+      "Graphene is a single sheet of carbon hexagons one atom thick, isolated in 2004 in Manchester with graphite and adhesive tape.",
+      "Diamond, graphite and graphene are all allotropes of carbon: the same element, arranged three different ways."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diamond",
+      "excerpt": "Diamond is a mineral form of the element carbon with its atoms arranged in a crystal structure called diamond cubic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diamond",
+      "excerpt": "Diamond has the highest hardness and thermal conductivity of any natural material, properties that are used in major industrial applications such as cutting and polishing tools."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diamond",
+      "excerpt": "Most were formed at depths between 150 and 250 kilometres (93 and 155 mi) in the Earth's mantle, although a few have come from as deep as 800 kilometres (500 mi)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diamond",
+      "excerpt": "Much more recently (hundreds to tens of million years ago), they were carried to the surface in volcanic eruptions and deposited in igneous rocks known as kimberlites and lamproites."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graphite",
+      "excerpt": "Graphite occurs naturally and is the most stable form of carbon under standard conditions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graphite",
+      "excerpt": "Synthetic and natural graphite are consumed on a large scale (1.3 million metric tons per year in 2022) for uses in many critical industries including refractories (50%), lithium-ion batteries (18%), foundries (10%), and lubricants (5%), among others (17%)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graphene",
+      "excerpt": "In graphene, the carbon forms a sheet of interlocked atoms as hexagons one carbon atom thick. The result resembles the face of a honeycomb."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graphene",
+      "excerpt": "In 2004, the material was isolated and characterized by Andre Geim and Konstantin Novoselov at the University of Manchester using a piece of graphite and adhesive tape."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Allotropes_of_carbon",
+      "excerpt": "Carbon is capable of forming many allotropes (structurally different forms of the same element) due to its valency (tetravalent). Well-known forms of carbon include diamond and graphite."
+    }
+  ]
+}

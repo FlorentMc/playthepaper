@@ -1,0 +1,22 @@
+{
+  "id": "target-2026-10-23-en-v1",
+  "game": "target",
+  "editionDate": "2026-10-23",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      50,
+      100,
+      8,
+      3,
+      7,
+      5
+    ],
+    "target": 641
+  },
+  "reveal": {
+    "expression": "(100 - 8) * 7 - 3"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "groups-2026-09-22-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-22",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Iona",
+      "Katrine",
+      "Highland",
+      "Arran",
+      "Awe",
+      "Skye",
+      "Speyside",
+      "Mull",
+      "Lowland",
+      "Islay",
+      "Ness",
+      "Lomond"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Scotch whisky regions",
+        "members": [
+          "Highland",
+          "Lowland",
+          "Speyside",
+          "Islay"
+        ],
+        "explanation": "Scotch whisky is classified by these regions, each with a character of its own."
+      },
+      {
+        "title": "Scottish islands",
+        "members": [
+          "Skye",
+          "Mull",
+          "Arran",
+          "Iona"
+        ],
+        "explanation": "Each of these islands lies off the west coast of Scotland.",
+        "alsoFits": [
+          "Islay"
+        ]
+      },
+      {
+        "title": "Scottish lochs",
+        "members": [
+          "Ness",
+          "Lomond",
+          "Awe",
+          "Katrine"
+        ],
+        "explanation": "All four are freshwater lochs in the Scottish Highlands and Trossachs."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scotch_whisky",
+      "excerpt": "The whisky-producing islands other than Islay are not recognised as a distinct region by the SWA, which groups them into the Highlands region."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scotch_whisky",
+      "excerpt": "Another nuance is that Lowland Scotch malts use a triple distillation just like Irish whiskey, breaking away from the general rule that all Scotch is double distilled."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scotch_whisky",
+      "excerpt": "Due to the way that the regions are specified, Speyside is wholly within the Highland region and thus whiskies produced in Speyside may legally be described as coming from either region; for example Glenfarclas generally labels their whiskies as Highland Single Malts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_islands_of_Scotland",
+      "excerpt": "Some, such as Skye and Mull, are mountainous, while others like Tiree and Sanday are relatively low-lying."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Inner_Hebrides",
+      "excerpt": "\"All the islands of Britain\" were devastated in 794 with Iona being sacked in 802 and 806."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Isle_of_Arran",
+      "excerpt": "In the troubled Viking Age, Arran became the property of the Norwegian crown, until formally absorbed by the kingdom of Scotland in the 13th century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loch_Lomond",
+      "excerpt": "The loch forms part of Loch Lomond and The Trossachs National Park, which was established in 2002."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loch_Lomond",
+      "excerpt": "The total volume of Loch Lomond is 2.6 km3 (0.62 cu mi), making it the second largest lake in Great Britain, after Loch Ness, by water volume."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loch_Awe",
+      "excerpt": "It has also given its name to a village on its banks, variously known as Loch Awe or Lochawe."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loch_Katrine",
+      "excerpt": "Loch Katrine (; Scottish Gaelic: Loch Ceiteirein [l̪ˠɔx ˈkʲʰeʰtʲɪɾʲɛɲ] or Loch Ceathairne) is a freshwater loch in the Trossachs area of the Scottish Highlands, east of Loch Lomond within the Stirling council area."
+    }
+  ]
+}

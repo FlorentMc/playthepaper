@@ -1,0 +1,108 @@
+{
+  "id": "groups-2026-10-23-en-v1",
+  "game": "groups",
+  "editionDate": "2026-10-23",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Emperor",
+      "Viper",
+      "Cobra",
+      "Python",
+      "Lion",
+      "Tiger",
+      "Peacock",
+      "Adder",
+      "Leopard",
+      "Monarch",
+      "Jaguar",
+      "Admiral"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Big cats",
+        "members": [
+          "Lion",
+          "Tiger",
+          "Jaguar",
+          "Leopard"
+        ],
+        "explanation": "All four belong to the genus that can roar rather than purr."
+      },
+      {
+        "title": "Snakes",
+        "members": [
+          "Cobra",
+          "Python",
+          "Adder",
+          "Viper"
+        ],
+        "explanation": "Each of these is a snake, and only the adder is native to Britain."
+      },
+      {
+        "title": "Butterflies and moths",
+        "members": [
+          "Peacock",
+          "Monarch",
+          "Admiral",
+          "Emperor"
+        ],
+        "explanation": "Each name belongs to a butterfly or moth with markings worth the title.",
+        "alsoFits": [
+          "Tiger"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Big_cat",
+      "excerpt": "The ancestor of the lion, leopard, and jaguar split from other big cats from 4.3–3.8 Ma."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Big_cat",
+      "excerpt": "The tiger and snow leopard diverged from the ancestral big cats approximately 3.9 Ma."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snake",
+      "excerpt": "Despite being tetrapods from a cladistic prospective, snakes lack limbs completely, although pythons and boids retain a vestigial pelvic girdle."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adder",
+      "excerpt": "The common adder, like most other vipers, is ovoviviparous, giving birth to live young."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cobra",
+      "excerpt": "Cobra is the common name of various venomous snakes, most of which belong to the genus Naja."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aglais_io",
+      "excerpt": "The peacock butterfly is resident in much of its range, often wintering in buildings or trees."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "excerpt": "One Pacific Grove site had no monarch butterflies in 2020."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saturnia_pavonia",
+      "excerpt": "Saturnia pavonia, the small emperor moth, is a moth of the family Saturniidae."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vanessa_atalanta",
+      "excerpt": "Vanessa atalanta, the red admiral or, previously, the red admirable, is a well-characterized, medium-sized butterfly with black wings, red bands, and white spots."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-08-en-v1",
+  "game": "word",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a tomb beside a river."
+  },
+  "reveal": {
+    "answer": "MARBLE",
+    "storyId": "culture-1-tajmahal",
+    "excerpt": "The predominant feature of the mausoleum is the 23-metre (75 ft) high marble dome that surmounts the tomb."
+  },
+  "storyId": "culture-1-tajmahal"
+}

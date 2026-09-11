@@ -1,0 +1,107 @@
+{
+  "id": "linked-2026-10-01-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-01",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "The dried and fermented seed of a tree native to the Amazon rainforest",
+          "West Africa grows nearly 81 per cent of the world's crop of it"
+        ],
+        "hint": "Ground into a liquor, from which a butter and a powder are drawn"
+      },
+      {
+        "clues": [
+          "A class of sweet, soluble carbohydrates: glucose, fructose, galactose",
+          "The white kind is almost pure sucrose, pressed from cane or from beet"
+        ],
+        "hint": "The average person eats about 24 kilograms of it a year"
+      },
+      {
+        "clues": [
+          "A liquid food made by the mammary glands of lactating mammals",
+          "Digesting it as an adult depends on keeping the enzyme lactase"
+        ],
+        "hint": "The first of it, colostrum, carries antibodies to the newborn"
+      }
+    ],
+    "finalHint": "The dark kind has no dairy in it; this one does"
+  },
+  "reveal": {
+    "answers": [
+      "Cocoa",
+      "Sugar",
+      "Milk"
+    ],
+    "aliases": [
+      [
+        "cacao",
+        "cocoa beans",
+        "cocoa bean"
+      ],
+      [],
+      []
+    ],
+    "final": "Milk chocolate",
+    "finalAliases": [
+      "a bar of milk chocolate"
+    ],
+    "explanations": [
+      "Cocoa beans are the dried, fermented seeds of Theobroma cacao, a tree native to the Amazon; West Africa now grows most of the world's crop.",
+      "Sugar is a class of sweet soluble carbohydrates; the white kind is almost pure sucrose, taken from sugarcane or sugar beet.",
+      "Milk is the liquid produced by the mammary glands of lactating mammals, and digesting it as an adult depends on lactase persistence.",
+      "Sugar added to ground cocoa makes sweetened chocolate; add milk as well and it becomes milk chocolate."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cocoa_bean",
+      "excerpt": "The cocoa bean, also known as cocoa () or cacao (), is the dried and fully fermented seed of Theobroma cacao, the cacao tree."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cocoa_bean",
+      "excerpt": "Cacao trees are native to the Amazon rainforest."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cocoa_bean",
+      "excerpt": "The cacao tree grows in a limited geographical zone; today, West Africa produces nearly 81% of the world's crop."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sugar",
+      "excerpt": "Sugar is a class of sweet-tasting, soluble carbohydrates, many of which are used in food. Simple sugars, also called monosaccharides, include glucose, fructose and galactose."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sugar",
+      "excerpt": "White sugar is almost pure sucrose."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sugar",
+      "excerpt": "Sucrose is especially concentrated in sugarcane and sugar beet, making them efficient for commercial extraction to make refined sugar."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Milk",
+      "excerpt": "Milk is usually a white liquid food (but can be shades of yellow, cream, pink, or brown) produced by the mammary glands of lactating mammals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Milk",
+      "excerpt": "The ability for adult humans to digest milk relies on lactase persistence, so lactose intolerant individuals have trouble digesting lactose."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "excerpt": "By adding sugar, sweetened chocolates are produced, which can be sold simply as dark chocolate, or, with the addition of milk, can be made into milk chocolate."
+    }
+  ]
+}

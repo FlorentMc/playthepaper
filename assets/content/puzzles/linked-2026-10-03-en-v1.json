@@ -1,0 +1,106 @@
+{
+  "id": "linked-2026-10-03-en-v1",
+  "game": "linked",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "sets": [
+      {
+        "clues": [
+          "Built on 126 islands in a shallow lagoon and joined by 472 bridges",
+          "Capital of its own republic for almost a thousand years, from 810 to 1797"
+        ],
+        "hint": "La Serenissima, the Queen of the Adriatic"
+      },
+      {
+        "clues": [
+          "Founded at the mouth of a river that was dammed to hold back floods",
+          "Its stock exchange, founded in 1602, is reckoned the oldest modern one"
+        ],
+        "hint": "Capital of the Netherlands, though not the seat of its government"
+      },
+      {
+        "clues": [
+          "The capital of West Flanders and the sixth largest city in Belgium",
+          "Its oval old centre is a World Heritage Site, and seats the College of Europe"
+        ],
+        "hint": "Its port on the coast adds \"by the sea\" to the city's name"
+      }
+    ],
+    "finalHint": "In all three, water does much of the work of streets"
+  },
+  "reveal": {
+    "answers": [
+      "Venice",
+      "Amsterdam",
+      "Bruges"
+    ],
+    "aliases": [
+      [],
+      [],
+      [
+        "Brugge"
+      ]
+    ],
+    "final": "Cities built on canals",
+    "finalAliases": [
+      "canal cities",
+      "cities of canals"
+    ],
+    "explanations": [
+      "Venice stands on 126 islands in a shallow lagoon, its parts joined by 472 bridges, and was its own republic from 810 to 1797.",
+      "Amsterdam grew at the mouth of the dammed Amstel and holds the oldest modern stock exchange, founded in 1602.",
+      "Bruges is the capital of West Flanders; its oval historic centre is a World Heritage Site and the seat of the College of Europe.",
+      "All three are cities built on canals; Amsterdam and Bruges are both sometimes called the Venice of the North."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Venice",
+      "excerpt": "It is built on a group of 126 islands that are separated by expanses of open water and by canals; portions of the city are linked by 472 bridges."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Venice",
+      "excerpt": "The city was the capital of the Republic of Venice for almost a millennium, from 810 to 1797."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amsterdam",
+      "excerpt": "Amsterdam was founded at the mouth of the Amstel river, which was dammed to control flooding."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amsterdam",
+      "excerpt": "The Amsterdam Stock Exchange, founded in 1602, is considered the oldest \"modern\" securities market stock exchange in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "Bruges (  BROOZH, French: [bʁyʒ] ; Dutch: Brugge [ˈbrʏɣə] ; West Flemish: Brugge [ˈbrœɦə]) is the capital and largest city of the province of West Flanders, in the Flemish Region of Belgium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "It is located in the northwest of the country, and is the sixth most populous city in Belgium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "The historic city center is a prominent World Heritage Site of UNESCO. It is oval and about 430 hectares in size."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "It is a major tourist destination within Belgium and is well-known as the seat of the College of Europe, a university institute for European studies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "excerpt": "Along with a few other canal-based northern cities, such as Amsterdam and Saint Petersburg, it is sometimes referred to as the Venice of the North."
+    }
+  ]
+}

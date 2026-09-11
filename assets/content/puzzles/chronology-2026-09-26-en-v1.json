@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-26-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-26",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Programming languages",
+    "events": [
+      {
+        "id": "a",
+        "text": "Dennis Ritchie creates the C programming language at Bell Labs"
+      },
+      {
+        "id": "b",
+        "text": "Apple unveils its Swift programming language at its developer conference"
+      },
+      {
+        "id": "c",
+        "text": "IBM delivers the first Fortran compiler"
+      },
+      {
+        "id": "d",
+        "text": "Guido van Rossum releases the first version of Python"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "a",
+      "d",
+      "b"
+    ],
+    "dates": {
+      "c": "1957",
+      "a": "1972",
+      "d": "1991",
+      "b": "2014"
+    },
+    "explanation": "Fortran let scientists write formulas instead of machine code, and each later language here made programming easier for a new generation. C came out of Bell Labs in 1972, Python arrived in 1991, and Swift was Apple's own language for its devices in 2014."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fortran",
+      "excerpt": "The first manual for FORTRAN appeared in October 1956, with the first FORTRAN compiler delivered in April 1957."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "excerpt": "C is a general-purpose programming language created in 1972 by Dennis Ritchie."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "excerpt": "Van Rossum first released it in 1991 as Python 0.9.0."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+      "excerpt": "Swift was first released in June 2014 and the Swift toolchain has shipped in Xcode since Xcode version 6, released in September 2014."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "crossmatch-2026-10-29-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Cities that hosted the Games",
+    "rows": [
+      "Summer Olympic host city",
+      "Winter Olympic host city",
+      "Commonwealth Games host"
+    ],
+    "cols": [
+      "In Europe",
+      "In Asia",
+      "In the Americas"
+    ],
+    "tiles": [
+      "Sapporo",
+      "Vancouver",
+      "London",
+      "Hamilton",
+      "Glasgow",
+      "Tokyo",
+      "Delhi",
+      "Rio de Janeiro",
+      "Turin"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "London",
+        "Tokyo",
+        "Rio de Janeiro"
+      ],
+      [
+        "Turin",
+        "Sapporo",
+        "Vancouver"
+      ],
+      [
+        "Glasgow",
+        "Delhi",
+        "Hamilton"
+      ]
+    ],
+    "explanations": {
+      "London": "The English capital staged the Summer Olympics in 1908, 1948 and 2012.",
+      "Tokyo": "The Japanese capital staged the Summer Olympics in 1964 and again in 2021.",
+      "Rio de Janeiro": "The Brazilian city staged the Summer Olympics of 2016.",
+      "Turin": "The city in northern Italy staged the Winter Olympics of 2006.",
+      "Sapporo": "The city on the Japanese island of Hokkaido staged the Winter Olympics of 1972.",
+      "Vancouver": "The Canadian city on the Pacific coast staged the Winter Olympics of 2010.",
+      "Glasgow": "The Scottish city staged the Commonwealth Games of 2014.",
+      "Delhi": "The Indian capital staged the Commonwealth Games of 2010.",
+      "Hamilton": "The city in Ontario staged the first Games of the series, in 1930."
+    },
+    "fits": {
+      "London": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "Tokyo": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Rio de Janeiro": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Turin": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Sapporo": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Vancouver": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "Glasgow": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Delhi": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Hamilton": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2012_Summer_Olympics",
+      "excerpt": "The 2012 Summer Olympics, officially the Games of the XXX Olympiad and also known as London 2012, were an international multi-sport event held from 27 July to 12 August 2012 in London, England."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2020_Summer_Olympics",
+      "excerpt": "The 2020 Summer Olympics, officially the Games of the XXXII Olympiad and officially branded as Tokyo 2020, were an international multi-sport event held from July 23 to August 8, 2021, in Tokyo, Japan, with some of the preliminary sporting events beginning on July 21, 2021."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2016_Summer_Olympics",
+      "excerpt": "Rio de Janeiro was announced as the host city at the 121st IOC Session in Copenhagen, Denmark, on 2 October 2009."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2006_Winter_Olympics",
+      "excerpt": "The 2006 Winter Olympics (Italian: 2006 Olimpiadi invernali), officially the XX Olympic Winter Games (Italian: XX Giochi olimpici invernali) and also known as Torino 2006, were a winter multi-sport event held from 10 to 26 February in Turin, Italy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1972_Winter_Olympics",
+      "excerpt": "The 1972 Winter Olympics, officially the XI Olympic Winter Games and commonly known as Sapporo 1972, were a winter multi-sport event held from February 3 to 13, 1972, in Sapporo, Hokkaido Prefecture, Japan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2010_Winter_Olympics",
+      "excerpt": "Vancouver was selected to host the 2010 Winter Olympics on July 2, 2003, at the 115th IOC Session held in Prague, Czech Republic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2014_Commonwealth_Games",
+      "excerpt": "Glasgow was selected as the host city on 9 November 2007 during CGF General Assembly in Colombo, Sri Lanka, defeating Abuja, Nigeria."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2010_Commonwealth_Games",
+      "excerpt": "The 2010 Commonwealth Games, officially known as the XIX Commonwealth Games and commonly known as Delhi 2010, was an international multi-sport event for the members of the Commonwealth that was held in Delhi, India, from 3 to 14 October 2010."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1930_British_Empire_Games",
+      "excerpt": "The 1930 British Empire Games were the inaugural edition of what is now known as the Commonwealth Games, and was held in Hamilton, Ontario, from 16 to 23 August 1930."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1934_British_Empire_Games",
+      "excerpt": "The host city was London, with the main venues at Wembley Park and the White City Stadium, although the track cycling events were in Manchester."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1954_British_Empire_and_Commonwealth_Games",
+      "excerpt": "The 1954 British Empire and Commonwealth Games were held in Vancouver, British Columbia, from 30 July to 7 August 1954."
+    }
+  ]
+}

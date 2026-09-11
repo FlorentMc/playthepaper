@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-30-en-v1",
+  "game": "word",
+  "editionDate": "2026-10-30",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "T",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about the deepest place in the sea."
+  },
+  "reveal": {
+    "answer": "TRENCH",
+    "storyId": "discovery-1-deep",
+    "excerpt": "The Challenger Deep is the deepest known point of the seabed of Earth, located in the western Pacific Ocean at the southern end of the Mariana Trench, in the ocean territory of the Federated States of Micronesia."
+  },
+  "storyId": "discovery-1-deep"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "crossmatch-2026-10-06-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Novels, plays and poems",
+    "rows": [
+      "A novel",
+      "A play",
+      "A poem"
+    ],
+    "cols": [
+      "By an English writer",
+      "By a French writer",
+      "By a Russian writer"
+    ],
+    "tiles": [
+      "The Seagull",
+      "Ozymandias",
+      "Jane Eyre",
+      "The Bronze Horseman",
+      "Tartuffe",
+      "Anna Karenina",
+      "Le Bateau ivre",
+      "Hamlet",
+      "Madame Bovary"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Jane Eyre",
+        "Madame Bovary",
+        "Anna Karenina"
+      ],
+      [
+        "Hamlet",
+        "Tartuffe",
+        "The Seagull"
+      ],
+      [
+        "Ozymandias",
+        "Le Bateau ivre",
+        "The Bronze Horseman"
+      ]
+    ],
+    "explanations": {
+      "Jane Eyre": "A novel by Charlotte Brontë, an English writer.",
+      "Madame Bovary": "The first novel of the French writer Gustave Flaubert.",
+      "Anna Karenina": "A novel by the Russian writer Leo Tolstoy.",
+      "Hamlet": "A tragedy for the stage by William Shakespeare, an English playwright.",
+      "Tartuffe": "A stage comedy by Molière, a French playwright.",
+      "The Seagull": "A play by the Russian dramatist Anton Chekhov.",
+      "Ozymandias": "A sonnet by Percy Bysshe Shelley, an English poet.",
+      "Le Bateau ivre": "A poem by the French poet Arthur Rimbaud.",
+      "The Bronze Horseman": "A narrative poem by the Russian writer Alexander Pushkin."
+    },
+    "fits": {
+      "Jane Eyre": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Madame Bovary": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Anna Karenina": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Hamlet": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Tartuffe": [
+        [
+          1,
+          1
+        ]
+      ],
+      "The Seagull": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Ozymandias": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Le Bateau ivre": [
+        [
+          2,
+          1
+        ]
+      ],
+      "The Bronze Horseman": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jane_Eyre",
+      "excerpt": "Jane Eyre is a novel by the English writer Charlotte Brontë."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Madame_Bovary",
+      "excerpt": "Madame Bovary: Provincial Manners, commonly known as simply Madame Bovary, is the début novel of French writer Gustave Flaubert, originally published in 1856 and 1857."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anna_Karenina",
+      "excerpt": "Anna Karenina is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamlet",
+      "excerpt": "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+      "excerpt": "William Shakespeare was an English playwright, poet and actor."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tartuffe",
+      "excerpt": "Tartuffe, or The Impostor, or The Hypocrite, first performed in 1664, is a theatrical comedy by Molière."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
+      "excerpt": "Jean-Baptiste Poquelin, known by his stage name Molière, was a French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Seagull",
+      "excerpt": "The Seagull is a play by Russian dramatist Anton Chekhov, written in 1895 and first produced in 1896."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ozymandias",
+      "excerpt": "\"Ozymandias\" is a sonnet written by the English Romantic poet Percy Bysshe Shelley, first published in the 11 January 1818 issue of The Examiner of London."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Le_Bateau_ivre",
+      "excerpt": "Le Bateau ivre is a Symbolist poem written in the summer of 1871 by French poet Arthur Rimbaud, then aged sixteen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Bronze_Horseman_(poem)",
+      "excerpt": "Widely considered to be Pushkin's most successful narrative poem, The Bronze Horseman has had a lasting impact on Russian literature."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Pushkin",
+      "excerpt": "Alexander Sergeyevich Pushkin was a Russian poet, playwright, and novelist of the Romantic era."
+    }
+  ]
+}

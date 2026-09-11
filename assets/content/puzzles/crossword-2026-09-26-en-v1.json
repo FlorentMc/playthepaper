@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-26-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-09-26",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Jump on one foot"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "What we breathe"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Slippery goo"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Spoil"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Letter after zeta"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Owns"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Olive ___"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Yoga ___"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Age or epoch"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "HOP##",
+      "AIR##",
+      "SLIME",
+      "##MAR",
+      "##ETA"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
+    ]
+  },
+  "storyId": "everyday-1-greenwich"
+}

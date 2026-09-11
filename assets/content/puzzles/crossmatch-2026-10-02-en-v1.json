@@ -1,0 +1,180 @@
+{
+  "id": "crossmatch-2026-10-02-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Runners, swimmers and cyclists",
+    "rows": [
+      "An athletics champion",
+      "A swimmer",
+      "A cyclist"
+    ],
+    "cols": [
+      "British",
+      "American",
+      "From elsewhere"
+    ],
+    "tiles": [
+      "Michael Phelps",
+      "Eddy Merckx",
+      "Mo Farah",
+      "Greg LeMond",
+      "Ian Thorpe",
+      "Chris Hoy",
+      "Usain Bolt",
+      "Rebecca Adlington",
+      "Carl Lewis"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Mo Farah",
+        "Carl Lewis",
+        "Usain Bolt"
+      ],
+      [
+        "Rebecca Adlington",
+        "Michael Phelps",
+        "Ian Thorpe"
+      ],
+      [
+        "Chris Hoy",
+        "Greg LeMond",
+        "Eddy Merckx"
+      ]
+    ],
+    "explanations": {
+      "Mo Farah": "The British distance runner who won the Olympic 5,000m and 10,000m twice over.",
+      "Carl Lewis": "The American sprinter and long jumper who won the Olympic 100 metres in 1984.",
+      "Usain Bolt": "The Jamaican sprinter who won the Olympic 100 metres in a world record.",
+      "Rebecca Adlington": "The British swimmer who won two freestyle golds at the 2008 Games.",
+      "Michael Phelps": "The American swimmer who has won more Olympic golds than anyone.",
+      "Ian Thorpe": "The Australian swimmer who won the 400m freestyle at his home Games in Sydney.",
+      "Chris Hoy": "The track cyclist from Scotland who rode for Great Britain.",
+      "Greg LeMond": "The American cyclist who was the first from his country to win the Tour de France.",
+      "Eddy Merckx": "The Belgian rider counted as the most successful racer in cycling."
+    },
+    "fits": {
+      "Mo Farah": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Carl Lewis": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Usain Bolt": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Rebecca Adlington": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Michael Phelps": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Ian Thorpe": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Chris Hoy": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Greg LeMond": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Eddy Merckx": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Athletics_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_5000_metres",
+      "excerpt": "In a tactical, slow race, the gold medal was won by 0.32 seconds by reigning World champion Mo Farah of host Great Britain, completing a distance double having won the 10,000 metres a week earlier."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Athletics_at_the_1984_Summer_Olympics_%E2%80%93_Men%27s_100_metres",
+      "excerpt": "The event was won by Carl Lewis of the United States, that nation's first title after two Games of missing the podium (4th in 1976, boycotted in 1980)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Men%27s_100_metres",
+      "excerpt": "The final was won by Jamaican Usain Bolt in a world record time of 9.69 seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rebecca_Adlington",
+      "excerpt": "Rebecca Adlington (born 17 February 1989) is an English former competitive swimmer who raced in freestyle events."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swimming_at_the_2008_Summer_Olympics_%E2%80%93_Men%27s_400_metre_individual_medley",
+      "excerpt": "U.S. swimmer Michael Phelps blasted a new world record to defend his title in the event, and more importantly, claim his first Olympic gold, seventh career, and ninth overall."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swimming_at_the_2000_Summer_Olympics_%E2%80%93_Men%27s_400_metre_freestyle",
+      "excerpt": "At just 17 years old, Australia's top favorite Ian Thorpe—nicknamed the \"Thorpedo\"—made his Olympic debut by securing the host nation's first gold medal of the Games, winning by 2.81 seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ian_Thorpe_Aquatic_Centre",
+      "excerpt": "Named for swimming champion Ian Thorpe, it was one of the last buildings designed by architect Harry Seidler, and is noted for its curved roof design that suggests a breaking ocean wave."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_Hoy",
+      "excerpt": "The son of David and Carol Hoy, Chris Hoy was born on 23 March 1976 and grew up in Murrayfield, Edinburgh."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chris_Hoy",
+      "excerpt": "Sir Christopher Andrew Hoy (born 23 March 1976) is a former track cyclist and racing driver from Scotland who represented Great Britain at the Olympic and World Championships and Scotland at the Commonwealth Games."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1989_Tour_de_France",
+      "excerpt": "The race was won by Greg LeMond of the AD Renting–W-Cup–Bottecchia team."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greg_LeMond",
+      "excerpt": "Two years later, LeMond became the first American male cyclist to win the Road World Championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eddy_Merckx_Cycles",
+      "excerpt": "S.A. Cycles Eddy Merckx Rijwielen N.V., better known as Eddy Merckx, is a Belgian brand of high end road bikes, founded by former professional road cyclist Eddy Merckx in 1980."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "uncover-2026-10-06-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "▇▇▇ ▇▇▇ is a cone geyser in Yellowstone National Park, in Wyoming. A survey party gave it the name in 1870, the first geyser in the park to be named, because it went off again and again while they watched. It still does: an eruption comes roughly every 92 minutes, though the gap has run from 35 minutes to two hours. Each one throws fourteen to thirty-two thousand litres of boiling water between 32 and 56 metres into the air and lasts from one and a half to five minutes. More than a million eruptions have been logged. It is dependable because its plumbing is separate from the other springs of the basin, though taller geysers exist in the park.",
+    "hints": [
+      "A natural feature in North America.",
+      "The first word begins with O.",
+      "It sends boiling water into the air in Yellowstone, and you can nearly set a watch by it."
+    ]
+  },
+  "reveal": {
+    "text": "Old Faithful is a cone geyser in Yellowstone National Park, in Wyoming. A survey party gave it the name in 1870, the first geyser in the park to be named, because it went off again and again while they watched. It still does: an eruption comes roughly every 92 minutes, though the gap has run from 35 minutes to two hours. Each one throws fourteen to thirty-two thousand litres of boiling water between 32 and 56 metres into the air and lasts from one and a half to five minutes. More than a million eruptions have been logged. It is dependable because its plumbing is separate from the other springs of the basin, though taller geysers exist in the park.",
+    "subject": "Old Faithful",
+    "aliases": [],
+    "answerWords": [
+      "old",
+      "faithful"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "excerpt": "Old Faithful is a cone geyser in Yellowstone National Park in Wyoming, United States. It was named in 1870 during the Washburn–Langford–Doane Expedition and was the first geyser in the park to be named. It is a highly predictable geothermal feature, erupting on average every 92 minutes, with the period between eruptions ranging from as short as 35 minutes to as long as 120 minutes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "excerpt": "It spouted at regular intervals nine times during our stay, the columns of boiling water being thrown from ninety to one hundred and twenty-five feet at each discharge, which lasted from fifteen to twenty minutes. We gave it the name of \"Old Faithful.\""
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "excerpt": "More than 1,000,000 eruptions have been recorded. Harry Woodward first described a mathematical relationship between the duration and intervals of the eruptions in 1938. Old Faithful is not the tallest or largest geyser in the park; those titles belong to the less predictable Steamboat Geyser. The reliability of Old Faithful can be attributed to the fact that it is not connected to any other thermal features of the Upper Geyser Basin."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "excerpt": "Eruptions can shoot 3,700 to 8,400 US gallons (14,000 to 32,000 L) of boiling water to a height of 106 to 185 feet (32 to 56 m) lasting from 1½ to 5 minutes."
+    }
+  ]
+}

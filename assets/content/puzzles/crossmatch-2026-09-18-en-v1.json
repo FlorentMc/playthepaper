@@ -1,0 +1,180 @@
+{
+  "id": "crossmatch-2026-09-18-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Airports, stations and squares",
+    "rows": [
+      "An airport",
+      "A railway station",
+      "A street or square"
+    ],
+    "cols": [
+      "In London",
+      "In Paris",
+      "In New York"
+    ],
+    "tiles": [
+      "Champs Elysees",
+      "Penn Station",
+      "Heathrow",
+      "Times Square",
+      "Kings Cross",
+      "LaGuardia",
+      "Orly",
+      "Piccadilly Circus",
+      "Gare du Nord"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Heathrow",
+        "Orly",
+        "LaGuardia"
+      ],
+      [
+        "Kings Cross",
+        "Gare du Nord",
+        "Penn Station"
+      ],
+      [
+        "Piccadilly Circus",
+        "Champs Elysees",
+        "Times Square"
+      ]
+    ],
+    "explanations": {
+      "Heathrow": "The largest international airport serving London.",
+      "Orly": "The airport south of Paris, once the city's main one.",
+      "LaGuardia": "The airport at East Elmhurst in Queens, in New York City.",
+      "Kings Cross": "The railway terminus in Camden, on the edge of central London.",
+      "Gare du Nord": "The Paris terminus for Eurostar trains and the lines north.",
+      "Penn Station": "The main intercity railroad station in New York City.",
+      "Piccadilly Circus": "The road junction and public space in London's West End.",
+      "Champs Elysees": "The grand avenue of the 8th arrondissement of Paris.",
+      "Times Square": "The bowtie-shaped plaza around Broadway in Midtown Manhattan."
+    },
+    "fits": {
+      "Heathrow": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Orly": [
+        [
+          0,
+          1
+        ]
+      ],
+      "LaGuardia": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Kings Cross": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Gare du Nord": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Penn Station": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Piccadilly Circus": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Champs Elysees": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Times Square": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heathrow_Airport",
+      "excerpt": "London Heathrow Airport (IATA: LHR, ICAO: EGLL) – named London Airport until 1966 – is the primary and largest international airport serving London, the capital of England and the United Kingdom."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orly_Airport",
+      "excerpt": "Before the opening of CDG in 1974, Orly was the main airport of Paris."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orly_Airport",
+      "excerpt": "It is located partially in and named after Orly, 13 kilometres (8 mi; 7 nmi) south of Paris."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LaGuardia_Airport",
+      "excerpt": "LaGuardia Airport (IATA: LGA, ICAO: KLGA, FAA LID: LGA) is a civil airport in East Elmhurst, Queens, New York City, United States, situated on the northwestern shore of Long Island, bordering Flushing Bay."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/London_King%27s_Cross_railway_station",
+      "excerpt": "King's Cross railway station, also known as London King's Cross, is a passenger railway terminus in the London Borough of Camden, on the edge of Central London."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gare_du_Nord",
+      "excerpt": "Gare du Nord is the Paris terminal station of the Eurostar network and serves international destinations in Belgium, Germany, the Netherlands, and the United Kingdom as well as northern France and the northern outskirts of Paris."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pennsylvania_Station_(New_York_City)",
+      "excerpt": "Pennsylvania Station (also known as New York Penn Station or Penn Station) is the main intercity railroad station in New York City and the busiest transportation facility in the Western Hemisphere, serving more than 600,000 passengers per weekday as of 2019."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piccadilly_Circus",
+      "excerpt": "Piccadilly Circus is a road junction and public space of London's West End in the City of Westminster."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es",
+      "excerpt": "By the late 19th century, the Champs-Élysées had become a fashionable avenue; the trees on either side had grown enough to form rectangular groves (cabinets de verdure)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es",
+      "excerpt": "Paris Métro Line 1 runs under the Champs-Élysées."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Times_Square",
+      "excerpt": "Together with adjacent Duffy Square, Times Square is a bowtie-shaped plaza five blocks long between 42nd and 47th Streets."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Times_Square",
+      "excerpt": "It is formed by the junction of Broadway, Seventh Avenue, and 42nd Street in Midtown Manhattan, New York City."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "letters-2026-10-02-en-v1",
+  "game": "letters",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "H",
+    "outer": "ADILOY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about what a scientist found when he came back to work."
+  },
+  "reveal": {
+    "answers": [
+      "AHOLD",
+      "AHOY",
+      "ALOHA",
+      "DAHL",
+      "DAHLIA",
+      "HAHA",
+      "HAIL",
+      "HALL",
+      "HALLO",
+      "HALO",
+      "HILL",
+      "HILLY",
+      "HOLD",
+      "HOLIDAY",
+      "HOLLA",
+      "HOLLY",
+      "HOLY",
+      "HOOD",
+      "HOODOO",
+      "HYOID",
+      "YAHOO"
+    ],
+    "pangrams": [
+      "HOLIDAY"
+    ],
+    "maxScore": 76,
+    "storyId": "discovery-1-penicillin",
+    "excerpt": "Before leaving for his holiday, he inoculated staphylococci on culture plates and left them on a bench in a corner of his laboratory."
+  },
+  "storyId": "discovery-1-penicillin"
+}

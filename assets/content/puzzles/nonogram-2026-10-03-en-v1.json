@@ -1,0 +1,58 @@
+{
+  "id": "nonogram-2026-10-03-en-v1",
+  "game": "nonogram",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 5,
+    "height": 5,
+    "rows": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        5
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "cols": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3
+      ],
+      [
+        1
+      ]
+    ],
+    "title": "Arrow"
+  },
+  "reveal": {
+    "cells": [
+      "00100",
+      "00010",
+      "11111",
+      "00010",
+      "00100"
+    ]
+  }
+}

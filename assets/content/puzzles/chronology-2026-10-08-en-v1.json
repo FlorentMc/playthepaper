@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-08-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "The modern Olympics",
+    "events": [
+      {
+        "id": "a",
+        "text": "Sydney hosts the Summer Olympics, the second Games held in Australia"
+      },
+      {
+        "id": "b",
+        "text": "Tokyo becomes the first Asian city to host the Summer Olympics"
+      },
+      {
+        "id": "c",
+        "text": "London hosts the Olympic Games for the first time"
+      },
+      {
+        "id": "d",
+        "text": "The first modern Olympic Games open in Athens"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "d": "1896",
+      "c": "1908",
+      "b": "1964",
+      "a": "2000"
+    },
+    "explanation": "The modern Games began in Athens in 1896 with a handful of nations, and London stepped in as host only twelve years later after Rome withdrew. Tokyo's Games of 1964 were the first in Asia, and Sydney's in 2000 were the first of the new millennium and the second to be held in Australia."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+      "excerpt": "Organised by the International Olympic Committee (IOC), which had been created by French aristocrat Pierre de Coubertin, the event was held in Athens, Greece, from 6 to 15 April 1896."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1908_Summer_Olympics",
+      "excerpt": "The 1908 Summer Olympics (officially the Games of the IV Olympiad and also known as London 1908) were an international multi-sport event held in London, United Kingdom, from 27 April to 31 October 1908."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1964_Summer_Olympics",
+      "excerpt": "The 1964 Summer Olympics, officially the Games of the XVIII Olympiad and commonly known as Tokyo 1964, were an international multi-sport event held from 10 to 24 October 1964 in Tokyo, Japan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+      "excerpt": "The 2000 Summer Olympics, officially the Games of the XXVII Olympiad, officially branded as Sydney 2000, and also known as the Games of the New Millennium, were an international multi-sport event held from 15 September to 1 October 2000 in Sydney, New South Wales, Australia."
+    }
+  ]
+}

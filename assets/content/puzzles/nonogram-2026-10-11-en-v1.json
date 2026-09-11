@@ -1,0 +1,57 @@
+{
+  "id": "nonogram-2026-10-11-en-v1",
+  "game": "nonogram",
+  "editionDate": "2026-10-11",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 5,
+    "height": 5,
+    "rows": [
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        5
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "cols": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "title": "Umbrella"
+  },
+  "reveal": {
+    "cells": [
+      "00100",
+      "01110",
+      "11111",
+      "00100",
+      "00110"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "nonogram-2026-10-09-en-v1",
+  "game": "nonogram",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "width": 5,
+    "height": 5,
+    "rows": [
+      [
+        3
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3
+      ]
+    ],
+    "cols": [
+      [
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3
+      ]
+    ],
+    "title": "Smiley"
+  },
+  "reveal": {
+    "cells": [
+      "01110",
+      "10101",
+      "10001",
+      "10101",
+      "01110"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-10-25-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-10-25",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "New materials",
+    "events": [
+      {
+        "id": "a",
+        "text": "George de Mestral is granted his patent for the hook and loop fastener"
+      },
+      {
+        "id": "b",
+        "text": "Wallace Carothers first synthesises nylon at DuPont"
+      },
+      {
+        "id": "c",
+        "text": "Harry Brearley discovers stainless steel in a Sheffield laboratory"
+      },
+      {
+        "id": "d",
+        "text": "Leo Baekeland develops Bakelite, the first fully synthetic plastic"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "d",
+      "c",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "d": "1907",
+      "c": "1913",
+      "b": "1935",
+      "a": "1955"
+    },
+    "explanation": "Bakelite appeared in 1907 and Sheffield's first stainless steel followed only six years later. Nylon was synthesised in 1935, and de Mestral's hook and loop fastener waited until his Swiss patent was granted in 1955."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bakelite",
+      "excerpt": "It was developed by chemist Leo Baekeland in Yonkers, New York, in 1907, and patented on December 7, 1909."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stainless_steel",
+      "excerpt": "While seeking a corrosion-resistant alloy for gun barrels in 1913, Harry Brearley of the Brown-Firth research laboratory in Sheffield, England, discovered and subsequently industrialized a martensitic stainless steel alloy, later known as AISI type 420."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nylon",
+      "excerpt": "The first nylon, nylon 66, was synthesized on February 28, 1935, by Wallace Hume Carothers at DuPont's research facility at the DuPont Experimental Station."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Velcro",
+      "excerpt": "De Mestral submitted his idea for a patent in Switzerland in 1951, which was granted in 1955."
+    }
+  ]
+}

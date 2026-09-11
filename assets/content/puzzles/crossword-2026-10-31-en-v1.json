@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-31-en-v1",
+  "game": "crossword",
+  "editionDate": "2026-10-31",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Greek letter"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Ridge on a guitar neck"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "False name"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Sleep in a tent"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Ram's mate"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "___ Meridian, the line that runs through Greenwich",
+          "storyId": "everyday-1-greenwich"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Pile"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "The dog wagged ___ tail"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Imperfection"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Unreturnable tennis serve"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##PHI",
+      "#FRET",
+      "ALIAS",
+      "CAMP#",
+      "EWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "everyday-1-greenwich",
+        "excerpt": "It played a major role in the history of astronomy and navigation, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time, the precursor to today's Coordinated Universal Time (UTC)."
+      }
+    ]
+  },
+  "storyId": "everyday-1-greenwich"
+}

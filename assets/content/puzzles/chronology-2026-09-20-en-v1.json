@@ -1,0 +1,66 @@
+{
+  "id": "chronology-2026-09-20-en-v1",
+  "game": "chronology",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Games and puzzles",
+    "events": [
+      {
+        "id": "a",
+        "text": "Chris Haney and Scott Abbott devise Trivial Pursuit in Montreal"
+      },
+      {
+        "id": "b",
+        "text": "Ernő Rubik invents his twisting cube puzzle in Budapest"
+      },
+      {
+        "id": "c",
+        "text": "Arthur Wynne's word-cross, the first crossword puzzle, runs in a New York paper"
+      },
+      {
+        "id": "d",
+        "text": "Parker Brothers begins publishing Monopoly"
+      }
+    ]
+  },
+  "reveal": {
+    "order": [
+      "c",
+      "d",
+      "b",
+      "a"
+    ],
+    "dates": {
+      "c": "1913",
+      "d": "1935",
+      "b": "1974",
+      "a": "1979"
+    },
+    "explanation": "The word-cross puzzle that grew into the crossword appeared in a newspaper in 1913, and Parker Brothers took Monopoly to market in 1935. Ernő Rubik's cube arrived in 1974 and was still a craze when two Canadian journalists devised Trivial Pursuit in 1979."
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Crossword",
+      "excerpt": "On December 21, 1913, Arthur Wynne, a journalist born in Liverpool, England, published a \"word-cross\" puzzle in the New York World that embodied most of the features of the modern genre."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "excerpt": "Parker Brothers first published Monopoly in 1935."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube",
+      "excerpt": "The Rubik's Cube is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trivial_Pursuit",
+      "excerpt": "The game was created on December 15, 1979, in Montreal, Quebec, by Canadians Chris Haney, a photo editor for Montreal's The Gazette, and Scott Abbott, a sports editor for The Canadian Press."
+    }
+  ]
+}

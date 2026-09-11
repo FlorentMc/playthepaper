@@ -1,0 +1,106 @@
+{
+  "id": "quiz-2026-09-22-en-v1",
+  "game": "quiz",
+  "editionDate": "2026-09-22",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Light in a vacuum travels at a fixed speed, so precisely known that since 1983 the metre itself has been defined by how far light goes in a fraction of a second. Fast as it is, light is never instant, and that includes the light of the Sun.",
+        "prompt": "Roughly how long does light from the Sun take to reach the Earth?",
+        "options": [
+          "About 8 seconds",
+          "About 8 minutes",
+          "About 8 hours",
+          "About 8 days"
+        ],
+        "level": "easy",
+        "storyId": "science-1-light"
+      },
+      {
+        "lead": "Since 1983 the metre has been defined as the distance light travels in a vacuum in a set fraction of a second, which makes the speed of light an exact figure rather than a measured one. It works out at roughly a billion kilometres an hour.",
+        "prompt": "What is the speed of light in a vacuum?",
+        "options": [
+          "29,979,245.8 metres per second",
+          "299,792,458 metres per second",
+          "2,997,924,580 metres per second",
+          "29,979,245,800 metres per second"
+        ],
+        "level": "easy",
+        "storyId": "science-1-light"
+      },
+      {
+        "lead": "The human skeleton has two parts: the axial skeleton of skull, spine and rib cage, and the appendicular skeleton of the limbs and the girdles that attach them to the body. Many bones fuse together during growth, so an adult ends up with fewer than a newborn.",
+        "prompt": "Roughly how many bones does an adult human skeleton have?",
+        "options": [
+          "Around 106",
+          "Around 206",
+          "Around 306",
+          "Around 406"
+        ],
+        "level": "easy",
+        "storyId": "science-1-bones"
+      },
+      {
+        "lead": "An adult human skeleton has around 206 bones, 80 in the skull, spine and rib cage and 126 in the limbs and their girdles. A newborn has more, because many bones fuse together as a child grows.",
+        "prompt": "And how many bones does a newborn have, before some of them fuse?",
+        "options": [
+          "Around 170",
+          "Around 206",
+          "Around 270",
+          "Around 370"
+        ],
+        "level": "medium",
+        "storyId": "science-1-bones"
+      },
+      {
+        "lead": "CERN, established in 1954, is based in Meyrin, a western suburb of Geneva on the France–Switzerland border, where its Large Hadron Collider runs through a 27 km tunnel 100 metres underground. It was also the birthplace of the World Wide Web, invented there by Tim Berners-Lee.",
+        "prompt": "In which year was the World Wide Web invented at CERN?",
+        "options": [
+          "1979",
+          "1984",
+          "1989",
+          "1994"
+        ],
+        "level": "hard",
+        "storyId": "science-1-cern"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "explanations": [
+      "Sunlight takes 8 minutes 19 seconds to cross the distance to the Earth, so the light you see left the Sun a little while ago. Isaac Newton already put the figure at seven or eight minutes in 1704.",
+      "Light in a vacuum travels at exactly 299,792,458 metres per second, close to a billion kilometres an hour. The number is exact because since 1983 the metre itself has been defined by how far light travels in a fraction of a second.",
+      "An adult skeleton has around 206 bones. Eighty of them form the axial skeleton of skull, spine and rib cage, and 126 make up the limbs and their girdles.",
+      "A newborn starts out with around 270 bones. Many of them fuse together during childhood, which is how the count falls to around 206 in an adult.",
+      "Tim Berners-Lee invented the World Wide Web at CERN in 1989. The laboratory itself was established in 1954 in Meyrin, a western suburb of Geneva on the France–Switzerland border."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_light",
+      "excerpt": "The constant c is defined in the International System of Units (SI) as exactly 299792458 m/s. This fixed value is used to define the metre as exactly the distance that light travels in vacuum in 1⁄299792458 of a second. Prior to 1983, the meter was defined separately from the second and the speed of light was measured experimentally. The value 299,792,458 metres per second is approximately 1 billion kilometres per hour; 700 million miles per hour. In his 1704 book Opticks, Isaac Newton reported Rømer's calculations of the finite speed of light and gave a value of \"seven or eight minutes\" for the time taken for light to travel from the Sun to the Earth (the modern value is 8 minutes 19 seconds)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_skeleton",
+      "excerpt": "It is composed of around 270 bones at birth – this total decreases to around 206 bones by adulthood after some bones fuse together, not counting accessory bones. The axial skeleton is formed by the spinal column, the rib cage, the skull, and associated bones. The appendicular skeleton (126 bones) is formed by the pectoral girdles, the upper limbs, the pelvic girdle or pelvis, and the lower limbs."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CERN",
+      "excerpt": "Established in 1954, it is based in Meyrin, a western suburb of Geneva, on the France–Switzerland border. It uses the 27 km circumference circular tunnel previously occupied by the Large Electron–Positron Collider (LEP), which was shut down in November 2000. The LHC tunnel is located 100 metres underground, in the region between Geneva International Airport and the nearby Jura mountains. In 1989, the World Wide Web was invented at CERN by Tim Berners-Lee."
+    }
+  ]
+}
