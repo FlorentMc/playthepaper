@@ -34,7 +34,7 @@ the validator, and push one commit. One commit, or nothing.
 
   Do not use "tomorrow", local time, or the article dates for this. If the run
   started late and `date -u +%H%M` is already past `0330`, do not start: the
-  push, CI validation (~5 min) and the droplet pull (~5 min) would not land
+  push, CI validation (~5 min) and the host pull (~5 min) would not land
   before 04:00 UTC. Report `ABANDONED` and stop. Never push after 04:00 UTC:
   the edition is open and its published puzzle identities must not change.
 * Every date already has a complete evergreen edition published in advance.

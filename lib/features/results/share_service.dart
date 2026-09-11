@@ -6,8 +6,7 @@ import 'package:share_plus/share_plus.dart';
 import '../../core/game_kind.dart';
 import '../../core/game_result.dart';
 import '../../core/puzzle_id.dart';
-
-const String kSiteBaseUrl = 'https://playthepaper.com';
+import '../../core/site.dart';
 
 /// Builds share text and challenge links and hands them to the platform
 /// share sheet, with clipboard fallbacks where sharing is unavailable.

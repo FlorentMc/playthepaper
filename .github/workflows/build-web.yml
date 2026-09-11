@@ -1,8 +1,8 @@
 # Play the Paper: build the Flutter web app from `main` and publish it to branch `build`.
 #
-# The droplet (infra/systemd/playthepaper-pull.service) checks `build` out at
-# /var/www/playthepaper/app every 5 minutes and nginx serves it as static files.
-# Nothing is built on the droplet.
+# The cPanel host (infra/cpanel/pull.sh, run by cron every 5 minutes) checks
+# `build` out and copies it into the document root of play.commuteglance.com.
+# Nothing is built on the host.
 #
 # Content pushes (content/**) do not rebuild the app: they go through
 # validate-content.yml instead. Edition dates roll at 04:00 UTC; an app deploy

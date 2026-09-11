@@ -1,0 +1,73 @@
+# Play the Paper on cPanel / LiteSpeed: rewrite rules and headers for the
+# document root of play.commuteglance.com. Installed there as `.htaccess` by
+# infra/cpanel/pull.sh on every run; edit it here, never on the host.
+#
+# The document root holds two static trees and nothing else:
+#   /            the Flutter web build (branch `build`)
+#   /content/    the published content (branch `live`, minus reports/)
+# There is no build step and no application code on the host.
+#
+# Edition boundary: edition dates roll at 04:00 UTC. /content/editions/<date>.json
+# for edition date D opens at 04:00 UTC on D and is rewritten once (evergreen
+# -> news) shortly before that, hence the short max-age on /content/. Puzzle
+# files are immutable by id, hence the one-year immutable cache on
+# /content/puzzles/. Everything else is `no-cache`: Flutter's web output is
+# not content-hashed (main.dart.js, flutter_bootstrap.js, canvaskit/*,
+# assets/* keep stable names), so every app file revalidates with ETag /
+# Last-Modified and a new build is picked up on the next online load.
+# Offline reopening is the app's own service worker (web/sw.js).
+
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+AddDefaultCharset utf-8
+
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType application/wasm .wasm
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+RewriteEngine On
+
+# Dotfiles and dot-directories are never served (.well-known stays reachable
+# for AutoSSL domain validation).
+RewriteRule "(^|/)\.(?!well-known/)" - [F]
+
+# https only (AutoSSL). Until the certificate exists this simply fails, which
+# is the intended state: nothing is served over plain http.
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Share links /p/<puzzle id>: tool/build_content.dart writes one static page
+# per puzzle under content/share/<id>.html (the app shell with puzzle-specific
+# title and Open Graph tags, so messaging apps show a preview). A human who
+# taps the link still gets the app, booted at /p/<id>. Unknown ids fall back
+# to the plain shell and the app shows its own not-found state.
+RewriteCond %{DOCUMENT_ROOT}/content/share/$1.html -f
+RewriteRule ^p/([A-Za-z0-9-]+)$ /content/share/$1.html [L]
+RewriteRule ^p/[A-Za-z0-9-]+$ /index.html [L]
+
+# Any other client route (/e/<date>, /news/<date>, /play/<id>, ...) that is
+# not a real file or directory loads the app shell.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  # No Content-Security-Policy: Flutter web needs wasm/blob/inline allowances
+  # that change between releases. Add one only after testing a real build.
+
+  # Cache-Control by path. Share pages are app shells, so they stay no-cache
+  # like the rest of the app (the /p/<id> rewrite lands on /content/share/).
+  SetEnvIf Request_URI "^/content/"         PTP_CONTENT
+  SetEnvIf Request_URI "^/content/share/"   !PTP_CONTENT
+  SetEnvIf Request_URI "^/content/puzzles/" PTP_IMMUTABLE
+  Header always set Cache-Control "no-cache"
+  Header always set Cache-Control "public, max-age=60, must-revalidate" env=PTP_CONTENT
+  Header always set Cache-Control "public, max-age=31536000, immutable" env=PTP_IMMUTABLE
+</IfModule>

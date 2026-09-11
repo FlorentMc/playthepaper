@@ -7,12 +7,10 @@ import 'package:http/http.dart' as http;
 
 import '../core/edition_clock.dart';
 import '../core/puzzle_id.dart';
+import '../core/site.dart';
 import '../storage/local_store.dart';
 import 'models.dart';
 
-/// Where published content lives on the web. The same paths exist inside the
-/// app bundle under `assets/content/`.
-const String kContentBaseUrl = 'https://playthepaper.com/content';
 
 class ContentNotFound implements Exception {
   const ContentNotFound(this.what);

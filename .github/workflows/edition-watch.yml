@@ -38,7 +38,7 @@ on:
         default: verify
 
 env:
-  CONTENT_URL: https://playthepaper.com/content
+  CONTENT_URL: https://play.commuteglance.com/content
 
 jobs:
   retry:
@@ -98,7 +98,7 @@ jobs:
             exit 1
           fi
           if [ "$code" != "200" ]; then
-            echo "::error::${url} returned HTTP ${code}. Site or droplet problem: check nginx and playthepaper-pull on 142.93.63.8 (infra/README.md, 'When edition-watch fails')."
+            echo "::error::${url} returned HTTP ${code}. Site or host problem: check the cron log ~/logs/playthepaper-pull.log on the cPanel host (infra/README.md, 'When edition-watch fails')."
             exit 1
           fi
           if [ "$kind" != "news" ]; then

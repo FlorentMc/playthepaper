@@ -1,7 +1,7 @@
 # Play the Paper architecture and module contract
 
 Play the Paper is a Flutter app (iOS, Android, web/PWA) with no server-side code.
-All play is local. Content is static JSON served from `https://playthepaper.com/content/`
+All play is local. Content is static JSON served from `https://play.commuteglance.com/content/`
 and mirrored in the app bundle under `assets/content/`.
 
 Read this before writing any game module. Everything in `lib/core`, `lib/content`,

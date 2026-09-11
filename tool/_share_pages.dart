@@ -1,13 +1,15 @@
 import 'dart:io';
 
 import 'package:playthepaper/core/puzzle_id.dart';
+import 'package:playthepaper/core/site.dart';
 
 /// Writes one static HTML page per puzzle under `<content>/share/<id>.html`.
 ///
 /// Each page is the web shell with puzzle-specific title and Open Graph tags,
 /// so a shared link previews as "Play the Paper Mini Crossword · 8 September 2026"
-/// while still booting the app at `/p/<id>` for a human who taps it. Nginx
-/// serves these for `/p/<id>` when present and falls back to the app shell.
+/// while still booting the app at `/p/<id>` for a human who taps it. The host's
+/// rewrite rules (infra/cpanel/htaccess) serve these for `/p/<id>` when present
+/// and fall back to the app shell.
 int writeSharePages(String content, String indexHtmlPath) {
   final template = File(indexHtmlPath).readAsStringSync().replaceAll(r'$FLUTTER_BASE_HREF', '/');
   final dir = Directory('$content/share')..createSync(recursive: true);
@@ -31,7 +33,7 @@ int writeSharePages(String content, String indexHtmlPath) {
         .replaceFirst(RegExp(r'<meta name="description" content="[^"]*">'),
             '<meta name="description" content="${_esc(description)}">')
         .replaceFirst('<link rel="manifest" href="manifest.json">',
-            '<meta property="og:url" content="https://playthepaper.com/p/$id">\n  <link rel="manifest" href="manifest.json">');
+            '<meta property="og:url" content="$kSiteBaseUrl/p/$id">\n  <link rel="manifest" href="manifest.json">');
     File(out).writeAsStringSync(html);
     written++;
   }

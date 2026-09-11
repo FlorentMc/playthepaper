@@ -1,8 +1,10 @@
 # Play the Paper publishing infrastructure: runbook
 
-Static hosting on the existing DigitalOcean droplet, deploy by git pull,
-content published by a Claude cloud routine, watched by GitHub Actions.
-No server-side code, nothing built on the droplet, no push into the droplet.
+Static hosting on the existing commuteglance.com cPanel shared hosting
+(hosting.com, LiteSpeed) as the subdomain **play.commuteglance.com**, deploy by
+git pull from a cron job, content published by a Claude cloud routine, watched
+by GitHub Actions. No server-side code, nothing built on the host, no push
+into the host, nothing touching the commuteglance site or the API droplet.
 
 ## Placeholders
 
@@ -10,26 +12,25 @@ Every ALL_CAPS placeholder used anywhere under `infra/` and `.github/`:
 
 | Placeholder | Where | Meaning |
 |---|---|---|
-| `OWNER` | workflows, PROMPT.md, setup script default | GitHub owner of the `playthepaper` repository |
-| `REPO_URL` | `infra/deploy/setup-droplet.sh` (env var) | Clone URL used by the droplet: `https://github.com/OWNER/playthepaper.git` (public) or `git@github.com:OWNER/playthepaper.git` (private, deploy key) |
 | `ROUTINE_ID` | GitHub secret | Id of the Claude routine (from its page at claude.ai/code/routines) |
 | `ROUTINE_TOKEN` | GitHub secret | Bearer token for the routine's fire endpoint |
 | `OWNER_GIT_NAME`, `OWNER_GIT_EMAIL` | routine environment | Commit identity the routine uses (must be the owner's) |
 | `SOURCE_n_NAME`, `SOURCE_n_FEED_URL`, `SOURCE_n_DOMAIN`, `SOURCE_n_FEED_DOMAIN`, `SOURCE_n_API_KEY` | PROMPT.md SOURCES table, routine network allowlist and environment | One allowlisted news source: display name, feed/API URL, article host, API host (if different), credential variable |
-| `CERTBOT_EMAIL` | certbot, first registration only | Contact address for Let's Encrypt (omit if certbot is already registered on the box for commuteglance) |
 
 `DATE`, `N`, `PUBLISHER` inside the JSON templates of `PROMPT.md` are values
 the routine fills in at run time, not configuration.
 
-Fixed values (not placeholders): droplet `142.93.63.8`; branches `main`
-(source + `content/`), `live` (validated `main`, served), `build` (web app);
-paths `/var/www/playthepaper/{src,app}`; Linux user `playthepaper`; certificate
-`/etc/letsencrypt/live/playthepaper.com/`.
+Fixed values (not placeholders): GitHub repository `FlorentMc/playthepaper`
+(public; the host clones it anonymously); branches `main` (source +
+`content/`), `live` (validated `main`, served), `build` (web app); site
+`https://play.commuteglance.com` (`lib/core/site.dart`); cPanel account home
+`/home/faqgolf`, document root `/home/faqgolf/play.commuteglance.com`,
+checkouts under `/home/faqgolf/repos/`, log `/home/faqgolf/logs/playthepaper-pull.log`.
 
 ## Architecture
 
 ```
-                    GitHub: OWNER/playthepaper
+                    GitHub: FlorentMc/playthepaper
                     ┌──────────────────────────────────────────────────────┐
   owner (laptop) ──►│ main  = source + content/ + docs/ + infra/           │
                     │   │ push (non-content)      │ push (content/**)      │
@@ -40,16 +41,17 @@ paths `/var/www/playthepaper/{src,app}`; Linux user `playthepaper`; certificate
                     │   ▼                         ▼                        │
                     │ build (orphan)           live                        │
                     └──────▲──────────────────────▲────────────────────────┘
-                           │ git fetch/reset       │ git fetch/reset (every 5 min, playthepaper-pull.timer)
+                           │ git fetch/reset       │ git fetch/reset (every 5 min, cron -> infra/cpanel/pull.sh)
                            │                       │
   Claude routine ──push──► main (content/ only)    │
   02:15 UTC daily                                  │
                     ┌──────┴───────────────────────┴───────────────────────┐
-                    │ droplet 142.93.63.8  (nginx 1.24, certbot)           │
-                    │  /var/www/playthepaper/app         <- build             │
-                    │  /var/www/playthepaper/src/content <- live              │
-                    │  https://playthepaper.com/          -> app/ (SPA)       │
-                    │  https://playthepaper.com/content/  -> src/content/     │
+                    │ cPanel host (LiteSpeed, AutoSSL)                     │
+                    │  ~/repos/playthepaper-build  <- build                │
+                    │  ~/repos/playthepaper-live   <- live                 │
+                    │  ~/play.commuteglance.com/   <- rsync of both + .htaccess
+                    │  https://play.commuteglance.com/          app (SPA)  │
+                    │  https://play.commuteglance.com/content/  content    │
                     └──────────────────────────────────────────────────────┘
                            ▲
   GitHub Actions ──curl────┘  edition-watch.yml: 03:10 retry, 03:45 verify, 05:00 reserve (UTC)
@@ -67,30 +69,38 @@ Files:
 
 | File | Purpose |
 |---|---|
-| `infra/nginx/playthepaper-http.conf` | port 80: ACME-friendly redirect to https |
-| `infra/nginx/playthepaper.conf` | port 443: app + content, cache and security headers |
-| `infra/systemd/playthepaper-pull.{service,timer}` | fetch + hard-reset both checkouts every 5 minutes |
-| `infra/deploy/setup-droplet.sh` | idempotent droplet setup, `--dry-run` supported |
+| `infra/cpanel/pull.sh` | cron script: clone/fetch `live` and `build`, rsync into the document root, install `.htaccess` |
+| `infra/cpanel/htaccess` | LiteSpeed/Apache rules: https, share-page routing, app fallback, cache and security headers |
 | `infra/routine/PROMPT.md` | the routine's prompt, SOURCES and ENVIRONMENT |
 | `.github/workflows/build-web.yml` | Flutter web build → branch `build` |
 | `.github/workflows/validate-content.yml` | validator → promote `main` to `live` |
 | `.github/workflows/edition-watch.yml` | retry / verify / reserve checks, owner alert |
 
-Why `live` and not `main` on the droplet: the validator is the trust
-boundary and must pass in CI before anything is served. The droplet therefore
-tracks `live`, which `validate-content.yml` fast-forwards to `main` only after
-a green run. To serve `main` directly instead, change `live` to `main` in
-`infra/systemd/playthepaper-pull.service` and in `setup-droplet.sh`.
+Why `live` and not `main` on the host: the validator is the trust boundary
+and must pass in CI before anything is served. The host therefore tracks
+`live`, which `validate-content.yml` fast-forwards to `main` only after a
+green run. To serve `main` directly instead, change `live` to `main` in
+`infra/cpanel/pull.sh`.
+
+Why rsync into the document root rather than serving the checkouts: cPanel
+gives one document root per subdomain and no per-path aliases, and the
+checkouts contain `.git`. `pull.sh` copies the build output and `content/`
+(minus `reports/`) into the document root; `.htaccess` refuses dotfiles as a
+second line of defence.
 
 ## One-time setup
 
-Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
+Order matters: 2 needs 1; 4 needs 2 and 3.
 
-1. **Registrar DNS.** `A playthepaper.com → 142.93.63.8` and
-   `A www.playthepaper.com → 142.93.63.8`. No AAAA record (the nginx config has
-   no IPv6 listener). Check: `dig +short playthepaper.com`.
+1. **Subdomain.** cPanel → Domains → Create a New Domain →
+   `play.commuteglance.com`, *Share document root* unchecked, document root
+   `play.commuteglance.com`. This also creates the DNS record (the zone is
+   hosted at hosting.com). AutoSSL issues the certificate on its own within
+   the hour; cPanel → SSL/TLS Status → *Run AutoSSL* to hurry it. Check:
+   `dig +short play.commuteglance.com` and
+   `curl -sI https://play.commuteglance.com/ | head -1`.
 
-2. **GitHub repository `OWNER/playthepaper`.**
+2. **GitHub repository `FlorentMc/playthepaper`**, public.
    * `main` unprotected (the routine pushes to it and pushes must carry only
      the owner's commits, so do not add other collaborators' commits to it).
    * Settings → Actions → General → Workflow permissions: *Read and write*
@@ -103,39 +113,38 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
      last committed by you.
    * Push this repository. `build-web` runs and creates `build`. Run
      `validate-content` once from the Actions tab (workflow_dispatch) to create
-     `live`; it needs `content/` to be valid, so do this after the first
-     reserve is generated (step 6).
+     `live`.
 
-3. **Droplet.** As root on 142.93.63.8:
-
-   ```
-   apt-get install -y git certbot python3-certbot-nginx     # if missing; nginx is already there
-   scp -r infra root@142.93.63.8:/root/playthepaper-infra      # from your laptop
-   REPO_URL=https://github.com/OWNER/playthepaper.git bash /root/playthepaper-infra/deploy/setup-droplet.sh --dry-run
-   REPO_URL=https://github.com/OWNER/playthepaper.git bash /root/playthepaper-infra/deploy/setup-droplet.sh
-   ```
-
-   For a private repo use `REPO_URL=git@github.com:OWNER/playthepaper.git`; the
-   script prints a public key to add under Settings → Deploy keys (read-only).
-   The script creates user `playthepaper`, the two checkouts, the timer, and the
-   port-80 site. It does not touch commuteglance, `nginx.conf` or the
-   timezone (America/New_York; all schedules here are UTC).
-
-4. **Certificate.** After DNS resolves:
+3. **Cron job on the host.** cPanel → Cron Jobs → Add New Cron Job, every
+   5 minutes (`*/5 * * * *`), command:
 
    ```
-   certbot certonly --nginx -d playthepaper.com -d www.playthepaper.com --deploy-hook 'systemctl reload nginx'
-   bash /root/playthepaper-infra/deploy/setup-droplet.sh     # re-run: enables the HTTPS site
-   curl -sI https://playthepaper.com/ | head -3
+   /bin/bash -c 'd=$HOME/repos/playthepaper-live; mkdir -p $HOME/logs; [ -d "$d/.git" ] || git clone -q --depth 50 --single-branch --branch live https://github.com/FlorentMc/playthepaper.git "$d"; bash "$d/infra/cpanel/pull.sh"' >> $HOME/logs/playthepaper-pull.log 2>&1
    ```
 
-   Add `--email CERTBOT_EMAIL --agree-tos` only if certbot has never been
-   registered on this box. `certonly` keeps certbot from rewriting the
-   hand-written server blocks; renewal is automatic (`certbot renew
-   --dry-run` to check).
+   The command bootstraps itself: the first run clones `live`, then runs
+   `pull.sh` from it, which clones `build` and fills the document root.
+   Until `live` and `build` exist on GitHub the log shows a clone error every
+   5 minutes; that is harmless. Leave cPanel's email-on-output setting off
+   (the script prints only when something changed) or point it at yourself.
+   For a private repository set `PLAYTHEPAPER_REPO_URL` with a token on the
+   cron line (see the header of `pull.sh`).
+
+4. **First deploy check**, about 10 minutes after `live` and `build` exist:
+
+   ```
+   curl -sI https://play.commuteglance.com/ | grep -i 'HTTP/\|cache-control'
+   curl -s https://play.commuteglance.com/content/index.json | jq .latest
+   curl -s https://play.commuteglance.com/content/editions/$(date -u +%F).json | jq .kind
+   curl -sI https://play.commuteglance.com/p/$(curl -s https://play.commuteglance.com/content/editions/$(date -u +%F).json | jq -r '.puzzles.word') | head -1
+   ```
+
+   and `tail ~/logs/playthepaper-pull.log` in cPanel → Terminal (or File
+   Manager). A wrong `.htaccess` shows as HTTP 500 on every path: fix it on
+   `main`, the next pull replaces it.
 
 5. **Routine.** At claude.ai/code/routines create a routine:
-   * repository `OWNER/playthepaper`, branch `main`;
+   * repository `FlorentMc/playthepaper`, branch `main`;
    * schedule cron `15 2 * * *`, timezone UTC;
    * prompt: `infra/routine/PROMPT.md` below the `---` line, placeholders
      filled in;
@@ -149,15 +158,9 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
    (`PUBLISHED` / `NOOP` / `ABANDONED`). A green run status alone means
    nothing.
 
-6. **First reserve.** Generate at least 90 days of classics and evergreen
-   editions (see *Reserve replenishment*), validate, commit, push. Then run
-   `validate-content` from the Actions tab once so `live` exists, wait 5
-   minutes, and check:
-
-   ```
-   curl -s https://playthepaper.com/content/index.json | jq .latest
-   curl -s https://playthepaper.com/content/editions/$(date -u +%F).json | jq .kind
-   ```
+6. **Reserve.** `content/` already holds classics to 2026-12-31 and the
+   optional games to 2026-10-31 (see *Reserve replenishment* to extend).
+   After `validate-content` has run once, check step 4 again.
 
 7. **Smoke test the watch.** Actions → edition-watch → Run workflow → `verify`
    (fails until the first news edition; that is the alert path working) and
@@ -167,13 +170,13 @@ Order matters: 3 needs 1; 4 needs 3; 6 needs 5.
 
 | Time | What | Where to look |
 |---|---|---|
-| 02:15 | routine starts (may be a few minutes late), fetches sources, writes `content_src/news/D.json` (three stories, five quiz questions, seed words), runs `build_content --date D --news` and the validator, pushes `content: news edition D` | claude.ai/code/routines run log, final status line |
-| ~02:30–03:30 | `validate-content` re-validates, fast-forwards `live`; droplet pulls within 5 min | Actions tab; `journalctl -u playthepaper-pull` |
+| 02:15 | routine starts (may be a few minutes late), fetches sources, writes `content_src/news/D.json` (stories, five quiz questions, seed words), runs `build_content --date D --news` and the validator, pushes `content: news edition D` | claude.ai/code/routines run log, final status line |
+| ~02:30–03:30 | `validate-content` re-validates, fast-forwards `live`; the host pulls within 5 min | Actions tab; `~/logs/playthepaper-pull.log` |
 | 03:10 | `retry`: if the served manifest is still evergreen, fires the routine again (job succeeds) | Actions → edition-watch |
 | 03:45 | `verify`: still evergreen → job fails → email. 404 → `FALLBACK MISSING` | email; Actions → edition-watch |
 | 04:00 | edition D opens (news if upgraded, evergreen otherwise) | `curl …/editions/D.json \| jq .kind` |
 | 05:00 | `reserve`: fails if `index.json.latest` < D + 30 days or D+1's file is missing | email; Actions → edition-watch |
-| any time | app deploy: push to `main` outside `content/` → `build-web` → `build` → droplet | Actions → build-web |
+| any time | app deploy: push to `main` outside `content/` → `build-web` → `build` → host | Actions → build-web |
 
 Nothing needs attention on a normal day. An evergreen day is not an incident;
 two in a row is.
@@ -183,7 +186,7 @@ two in a row is.
 **Content (before 04:00 UTC, or anything not yet open):**
 
 ```
-git revert <sha> && git push origin main      # validate-content → live → droplet, ≤ ~10 min total
+git revert <sha> && git push origin main      # validate-content → live → host, ≤ ~10 min total
 ```
 
 **Content already open (after 04:00 UTC):** do not revert; published puzzle
@@ -193,19 +196,17 @@ identities are frozen. Use a correction (next section).
 go to Actions → build-web → the last good run → *Re-run all jobs*, which
 rebuilds that commit and force-pushes it to `build` without touching `main`.
 
-**Emergency, on the droplet** (bypasses CI; use only when GitHub or CI is
-down). Run git as the `playthepaper` user or git refuses with "dubious
-ownership":
+**Emergency, on the host** (bypasses CI; use only when GitHub or CI is
+down). In cPanel → Terminal:
 
 ```
-systemctl stop playthepaper-pull.timer
-runuser -u playthepaper -- git -C /var/www/playthepaper/src fetch --depth 50 origin <sha>
-runuser -u playthepaper -- git -C /var/www/playthepaper/src reset --hard <sha>
-# ... fix main / CI ...
-systemctl start playthepaper-pull.timer         # next pull re-syncs to live
+crontab -l                      # note the pull line, then remove it with crontab -e (or pause it in Cron Jobs)
+cd ~/repos/playthepaper-live && git fetch --depth 50 origin <sha> && git reset --hard <sha>
+PLAYTHEPAPER_FORCE=1 bash ~/repos/playthepaper-live/infra/cpanel/pull.sh   # copies that checkout into the document root
+# ... fix main / CI ...; restore the cron line: the next pull re-syncs to live
 ```
 
-Same pattern with `/var/www/playthepaper/app` and a `build` commit sha.
+Same pattern with `~/repos/playthepaper-build` and a `build` commit sha.
 
 ## Correcting a puzzle
 
@@ -243,6 +244,10 @@ writes a new version of each affected puzzle rather than overwriting. `content_s
 crossword clue bank need occasional additions so evergreen days and clues do
 not repeat; that is editorial work, reviewed before it enters the bank.
 
+The optional games (logic, play, editorial) have their own reserves and
+window; see `docs/content-and-rights.md` and `kOptionalGamesTo` in
+`tool/build_content.dart`.
+
 The bundled starter content in `assets/content/` is a subset of `content/`
 and only changes with an app build; keep it to a few recent dates.
 
@@ -250,25 +255,24 @@ and only changes with an app build; keep it to a few recent dates.
 
 | Failure | Meaning | Check, in order |
 |---|---|---|
-| `verify`: still evergreen | the routine did not publish, CI rejected it, or the droplet did not pull | 1. routine run log: last status line (`ABANDONED …` gives the reason; no run at all → usage limits or schedule) 2. Actions → validate-content: red run → validator errors on `main`; `live` was not advanced, site still serves last good content; fix or `git revert` 3. `journalctl -u playthepaper-pull -n 30` on the droplet; `systemctl list-timers` 4. `content/reports/<date>.md` on `main` |
-| `verify`: `FALLBACK MISSING` | no manifest for today at all; the app shows the latest older edition | replenish the reserve now; check `index.json`; check the droplet actually has `live` checked out |
-| `verify`: other HTTP code | site down | `systemctl status nginx`, `nginx -t`, `certbot certificates`, DNS, droplet reachable? |
+| `verify`: still evergreen | the routine did not publish, CI rejected it, or the host did not pull | 1. routine run log: last status line (`ABANDONED …` gives the reason; no run at all → usage limits or schedule) 2. Actions → validate-content: red run → validator errors on `main`; `live` was not advanced, site still serves last good content; fix or `git revert` 3. `tail -50 ~/logs/playthepaper-pull.log` on the host; cPanel → Cron Jobs: is the line still there? 4. `content/reports/<date>.md` on `main` |
+| `verify`: `FALLBACK MISSING` | no manifest for today at all; the app shows the latest older edition | replenish the reserve now; check `index.json`; check the host actually has `live` checked out (`~/repos/playthepaper-live`) |
+| `verify`: other HTTP code | site down | HTTP 500 on every path → `.htaccess` broken (fix on `main`); certificate → cPanel SSL/TLS Status; otherwise hosting.com status page and support |
 | `retry` failed | fire call rejected | secrets `ROUTINE_ID`/`ROUTINE_TOKEN` missing or rotated; API error body in the log (usage limits) |
 | `reserve`: reserve low | fewer than 30 days published ahead | replenish |
 | `reserve`: fallback missing for tomorrow | date gap in the reserve | replenish; run the validator (it should have caught a gap: ask why it did not) |
 | workflow did not run at all | schedules disabled after 60 days of inactivity, or the workflow file was last committed by someone else | Actions tab → enable; commit the file yourself |
 
-The routine cannot reach the droplet and never needs to; every fix is a
-commit to `main` or a command on the droplet.
+The routine cannot reach the host and never needs to; every fix is a
+commit to `main` or a command in cPanel's Terminal.
 
 ## Operator checklist
 
 Monthly:
-* Droplet: `apt-get update && apt-get upgrade`, reboot if the kernel changed
-  (the timer's `Persistent=true` catches up). `certbot renew --dry-run`.
-  `df -h`, `du -sh /var/www/playthepaper` (git objects grow with every build;
-  `runuser -u playthepaper -- git -C /var/www/playthepaper/app gc --prune=now` if
-  large).
+* Host: `tail ~/logs/playthepaper-pull.log`; `du -sh ~/repos ~/play.commuteglance.com`
+  (git objects grow with every build; `git -C ~/repos/playthepaper-build gc --prune=now`
+  if large, or delete the checkout: the next pull re-clones it). Truncate the
+  log when it passes a few MB.
 * Read the last few `content/reports/*.md`: source failures, rejected
   candidates, validator retries. A source that fails three days running
   needs attention (*source-access changes*).
@@ -278,7 +282,7 @@ Quarterly:
 * **Dependency updates.** `flutter pub outdated`; Flutter version pin
   (`3.41.x`) in both workflows and in PROMPT.md's setup script move
   together; `actions/checkout`, `subosito/flutter-action`,
-  `peaceiris/actions-gh-pages` majors; nginx/certbot via apt.
+  `peaceiris/actions-gh-pages` majors.
 * **Source-access changes.** API keys expiring, terms changing, feed URLs
   moving: update the SOURCES table in PROMPT.md, the routine's network
   allowlist and environment variables together. Keep the record of what each
@@ -290,13 +294,16 @@ Quarterly:
 * **Platform compatibility.** After a Flutter upgrade: `flutter build web`
   locally, load the site in iOS Safari and Android Chrome, check
   `flutter_bootstrap.js` / `index.html` are still the entry points assumed
-  by `infra/nginx/playthepaper.conf`, check nothing in the build output is
+  by `infra/cpanel/htaccess`, check nothing in the build output is
   content-hashed (if Flutter starts hashing assets, the app cache policy can
   become `immutable` for those files).
 
 Yearly:
-* **Domain renewal.** `playthepaper.com` at the registrar; enable auto-renew.
-  Registrar account email must be one you read.
+* **Domain and hosting renewal.** `commuteglance.com` and the cPanel plan at
+  hosting.com; enable auto-renew. If the site ever moves to its own domain:
+  `lib/core/site.dart`, the Android app-links host, `CONTENT_URL` in
+  `edition-watch.yml`, the cron command and `pull.sh` defaults, regenerate
+  `content/share/`, and keep a redirect on the old host for shared links.
 * Rotate `ROUTINE_TOKEN` and any `SOURCE_n_API_KEY`; update GitHub secrets and
   the routine environment.
 * Re-read `docs/playthepaper-concept-and-implementation.md` "Release
