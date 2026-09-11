@@ -1,0 +1,165 @@
+{
+  "id": "crossmatch-2026-09-11-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-09-11",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Animals of Australia, Africa and South America",
+    "rows": [
+      "Mammal",
+      "Bird",
+      "Reptile"
+    ],
+    "cols": [
+      "Native to Australia",
+      "Native to Africa",
+      "Native to South America"
+    ],
+    "tiles": [
+      "Nile crocodile",
+      "Koala",
+      "Andean condor",
+      "Ostrich",
+      "Llama",
+      "Thorny devil",
+      "Emu",
+      "Green anaconda",
+      "Giraffe"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Koala",
+        "Giraffe",
+        "Llama"
+      ],
+      [
+        "Emu",
+        "Ostrich",
+        "Andean condor"
+      ],
+      [
+        "Thorny devil",
+        "Nile crocodile",
+        "Green anaconda"
+      ]
+    ],
+    "explanations": {
+      "Koala": "A tree-dwelling marsupial, and so a mammal, native to eastern and southern Australia.",
+      "Giraffe": "A hoofed African mammal, the tallest land animal, ranging from Chad to South Africa.",
+      "Llama": "A domesticated South American camelid, a mammal of the Andes.",
+      "Emu": "A tall flightless bird found across the Australian mainland, and Australia's national bird.",
+      "Ostrich": "A large flightless bird found in the wild only in Africa.",
+      "Andean condor": "A vulture of the Andes, the largest bird of prey in South America.",
+      "Thorny devil": "A spiny lizard, and so a reptile, of the arid scrubland of central Australia.",
+      "Nile crocodile": "A large crocodilian, and so a reptile, native to fresh water across Africa.",
+      "Green anaconda": "A boa, and so a reptile, found in the rivers and wetlands of South America."
+    },
+    "fits": {
+      "Koala": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Giraffe": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Llama": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Emu": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Ostrich": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Andean condor": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Thorny devil": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Nile crocodile": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Green anaconda": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Koala",
+      "excerpt": "The koala (Phascolarctos cinereus), sometimes inaccurately called the koala bear, is an arboreal herbivorous marsupial native to Australia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giraffe",
+      "excerpt": "Giraffes (genus Giraffa) are large African hoofed mammals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lama_(genus)",
+      "excerpt": "Lama is a genus containing the South American camelids: the wild guanaco and vicuña and the domesticated llama, alpaca, and extinct chilihueque."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emu",
+      "excerpt": "The emu is popularly but unofficially considered as a faunal emblem – the national bird of Australia."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ostrich",
+      "excerpt": "Today, ostriches are only found naturally in the wild in Africa, where they occur in a range of open arid and semi-arid habitats such as savannas and the Sahel, both north and south of the equatorial forest zone."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andean_condor",
+      "excerpt": "The Andean condor (Vultur gryphus) is a South American New World vulture and is the only extant member of the genus Vultur."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thorny_devil",
+      "excerpt": "The thorny devil usually lives in the arid scrubland and desert that covers most of central Australia, sandplain and sandridge desert in the deep interior and the mallee belt."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nile_crocodile",
+      "excerpt": "The Nile crocodile (Crocodylus niloticus) is a large crocodilian native to freshwater habitats in Africa, where it is present in 26 countries."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green_anaconda",
+      "excerpt": "The green anaconda (Eunectes murinus), common anaconda, common water boa, akayima, or sucuri, is a boa species found in South America."
+    }
+  ]
+}

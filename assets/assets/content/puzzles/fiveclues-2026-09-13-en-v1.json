@@ -1,0 +1,62 @@
+{
+  "id": "fiveclues-2026-09-13-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "The same flow principles work in water, where paravanes and otter boards use them",
+      "The thing is named after a hovering bird of prey",
+      "The powered sort is steered on several lines to pull surfers and buggies",
+      "Lift comes from low pressure above the wing and high pressure below it",
+      "A tethered craft of wings, lines and an anchor, often with a bridle and a tail"
+    ]
+  },
+  "reveal": {
+    "answer": "Kite",
+    "aliases": [
+      "kites"
+    ],
+    "explanations": [
+      "The same principles of fluid flow apply in liquids, so they can be used in underwater currents, as paravanes and otter boards are.",
+      "The name comes from the bird of prey that hovers on the wind.",
+      "Power ones are multi-line steerable and generate large forces, used for surfing, landboarding, buggying and snow work.",
+      "Lift is generated as air moves around its surface, giving low pressure above and high pressure below the wings.",
+      "It is a tethered heavier-than-air craft of wings, tethers and anchors, often with a bridle and tail so the wind can lift it."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "The same principles of fluid flow apply in liquids, so kites can be used in underwater currents. Paravanes and otter boards operate underwater on an analogous principle."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "The name is derived from the kite, the hovering bird of prey."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "Power kites are multi-line steerable kites designed to generate large forces which can be used to power activities such as kite surfing, kite landboarding, kite buggying and snow kiting."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "The lift that sustains the kite in flight is generated when air moves around the kite's surface, producing low pressure above and high pressure below the wings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "A kite is a tethered heavier-than-air craft with wing surfaces that react against the air to create lift and drag forces. A kite consists of wings, tethers and anchors."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "excerpt": "Kites often have a bridle and tail to guide the face of the kite so the wind can lift it."
+    }
+  ]
+}

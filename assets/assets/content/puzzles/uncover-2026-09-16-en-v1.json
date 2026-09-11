@@ -1,0 +1,56 @@
+{
+  "id": "uncover-2026-09-16-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-09-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ ▇▇▇ ▇▇▇ is a woodblock print made by the Japanese artist Hokusai in late 1831, during the Edo period. Three boats labour through a rough sea while a huge crest curls over them in a spiral, and beyond it, small and calm, stands Mount Fuji. It is the first sheet of his series Thirty-six Views of Mount Fuji, and the fresh Prussian blue he used changed what Japanese printmaking looked like. The design joins the flat manner of the older prints to the perspective worked out in Europe, and it later caught the eye of Debussy, Van Gogh and Monet. Perhaps a hundred impressions of The ▇▇▇ ▇▇▇ ▇▇▇ ▇▇▇ are thought to survive.",
+    "hints": [
+      "A picture.",
+      "The first word after the article begins with G.",
+      "Hokusai printed it in 1831, with a small Mount Fuji behind the water."
+    ]
+  },
+  "reveal": {
+    "text": "The Great Wave off Kanagawa is a woodblock print made by the Japanese artist Hokusai in late 1831, during the Edo period. Three boats labour through a rough sea while a huge crest curls over them in a spiral, and beyond it, small and calm, stands Mount Fuji. It is the first sheet of his series Thirty-six Views of Mount Fuji, and the fresh Prussian blue he used changed what Japanese printmaking looked like. The design joins the flat manner of the older prints to the perspective worked out in Europe, and it later caught the eye of Debussy, Van Gogh and Monet. Perhaps a hundred impressions of The Great Wave off Kanagawa are thought to survive.",
+    "subject": "The Great Wave off Kanagawa",
+    "aliases": [
+      "The Great Wave",
+      "Kanagawa-oki Nami Ura"
+    ],
+    "answerWords": [
+      "great",
+      "wave",
+      "kanagawa"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "excerpt": "The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn: Kanagawa-oki Nami Ura; lit. 'Under the Wave off Kanagawa') is a woodblock print by the Japanese ukiyo-e artist Hokusai (1760–1849), created in late 1831 during the Edo period of Japanese history. The print depicts three boats moving through a storm-tossed sea, with a large, cresting wave forming a spiral in the centre over the boats and Mount Fuji in the background."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "excerpt": "The print is Hokusai's best-known work and the first in his series Thirty-six Views of Mount Fuji, in which the use of Prussian blue revolutionised Japanese prints. The composition of The Great Wave is a synthesis of traditional Japanese prints and use of graphical perspective developed in Europe, and earned him immediate success in Japan and later in Europe, where Hokusai's art inspired works by the Impressionists."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "excerpt": "Only about 100 prints, in varying conditions, are thought to have survived into the 21st century."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "excerpt": "This woodblock print has influenced several Western artists and musicians, including Claude Debussy, Vincent van Gogh and Claude Monet."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "excerpt": "As of 2022, 113 original impressions of the first edition are known to survive worldwide, with the greatest proportion (35) in American museums."
+    }
+  ]
+}

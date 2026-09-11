@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-09",
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
+  "puzzles": [
+    "word-2026-09-09-en-v1",
+    "sudoku-2026-09-09-en-easy-v1",
+    "sudoku-2026-09-09-en-medium-v1",
+    "sudoku-2026-09-09-en-hard-v1",
+    "letters-2026-09-09-en-v1",
+    "crossword-2026-09-09-en-v1",
+    "quiz-2026-09-09-en-v1",
+    "bridges-2026-09-09-en-v1",
+    "binary-2026-09-09-en-v1",
+    "target-2026-09-09-en-v1",
+    "tangram-2026-09-09-en-v1",
+    "compass-2026-09-09-en-v1",
+    "kakuro-2026-09-09-en-v1",
+    "loop-2026-09-09-en-v1",
+    "merge-2026-09-09-en-v1",
+    "nonogram-2026-09-09-en-v1",
+    "regions-2026-09-09-en-v1",
+    "chronology-2026-09-09-en-v1",
+    "crossmatch-2026-09-09-en-v1",
+    "fiveclues-2026-09-09-en-v1",
+    "linked-2026-09-09-en-v1",
+    "groups-2026-09-09-en-v1",
+    "uncover-2026-09-09-en-v1"
+  ],
+  "stories": [
+    {
+      "id": "2026-09-09-1",
+      "headline": "An Italian wins at Monza for the first time in 60 years",
+      "summary": "Kimi Antonelli won the Italian Grand Prix at Monza on Sunday for Mercedes, starting from nineteenth on the grid. He is the first Italian driver to win the race since Ludovico Scarfiotti in 1966. George Russell finished second, 3.857 seconds behind, with Max Verstappen third.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+      "publishedAt": "2026-09-06"
+    },
+    {
+      "id": "2026-09-09-2",
+      "headline": "OpenAI says its AI agents have settled a million-dollar maths problem",
+      "summary": "Mathematicians at OpenAI announced on Tuesday that a group of about 10,000 autonomous AI agents had found a singularity in the three-dimensional Navier-Stokes equations, which describe how fluids behave, resolving one of the six remaining Millennium Prize problems. The result has been formally checked in the Lean proof language. Two mathematicians who had been working on the problem have questioned whether the OpenAI team benefited from their unpublished work.",
+      "publisher": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "2026-09-09-3",
+      "headline": "A garden in Denmark gives up the country's largest Viking silver hoard",
+      "summary": "A homeowner in Rebild, Denmark, digging to lay a new terrace, uncovered the largest hoard of Viking silver ever found in the country after half an hour of work. It holds roughly 700 artefacts and weighs more than 40 pounds, including bracelets, 47 coins and coin fragments, silver bars and a small Thor's hammer. Experts think it was buried in the tenth century, and North Jutland Museums hopes to exhibit it at the Fyrkat Viking Museum.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/routine-yard-work-reveals-a-trove-of-viking-silver-the-largest-treasure-of-its-kind-ever-discovered-in-denmark-180989456/",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "2026-09-09-4",
+      "headline": "A ten-sided cloud around Saturn's south pole",
+      "summary": "Hubble Space Telescope observations have revealed a ten-sided cloud pattern, a decagon, around Saturn's south pole. The north pole has had a known six-sided hexagon since 1987, when it was spotted in data from NASA's Voyager spacecraft. That hexagon has stayed stable for over 40 years; how long the decagon lasts is now a question for researchers.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-8-hubble-decagon-around-saturns-south-pole/",
+      "publishedAt": "2026-09-08"
+    }
+  ],
+  "seeds": {
+    "2026-09-09-1": [
+      "quiz:1",
+      "crossword:4 Down"
+    ],
+    "2026-09-09-2": [
+      "quiz:2"
+    ],
+    "2026-09-09-3": [
+      "quiz:3",
+      "quiz:5",
+      "word",
+      "crossword:1 Down"
+    ],
+    "2026-09-09-4": [
+      "quiz:4",
+      "letters"
+    ]
+  },
+  "publishedAt": "2026-09-09T20:14:24.141892Z"
+}

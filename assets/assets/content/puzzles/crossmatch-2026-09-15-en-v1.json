@@ -1,0 +1,205 @@
+{
+  "id": "crossmatch-2026-09-15-en-v1",
+  "game": "crossmatch",
+  "editionDate": "2026-09-15",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "title": "Fictional characters and where they began",
+    "rows": [
+      "First seen in a novel",
+      "First seen in a film",
+      "First seen in a comic"
+    ],
+    "cols": [
+      "Created in Britain",
+      "Created in America",
+      "Created in France"
+    ],
+    "tiles": [
+      "Asterix",
+      "Captain Nemo",
+      "Superman",
+      "Sherlock Holmes",
+      "Amelie",
+      "Rupert Bear",
+      "Indiana Jones",
+      "Gromit",
+      "Tom Sawyer"
+    ]
+  },
+  "reveal": {
+    "grid": [
+      [
+        "Sherlock Holmes",
+        "Tom Sawyer",
+        "Captain Nemo"
+      ],
+      [
+        "Gromit",
+        "Indiana Jones",
+        "Amelie"
+      ],
+      [
+        "Rupert Bear",
+        "Superman",
+        "Asterix"
+      ]
+    ],
+    "explanations": {
+      "Sherlock Holmes": "The detective of Arthur Conan Doyle, first seen in the 1887 novel A Study in Scarlet.",
+      "Tom Sawyer": "The boy at the heart of the 1876 novel by the American writer Mark Twain.",
+      "Captain Nemo": "The submarine captain created by the French novelist Jules Verne.",
+      "Gromit": "The silent dog of Nick Park's British films, first seen in A Grand Day Out.",
+      "Indiana Jones": "The archaeologist first seen in the 1981 American film Raiders of the Lost Ark.",
+      "Amelie": "The shy Parisian waitress at the centre of the 2001 French film.",
+      "Rupert Bear": "An English comic strip character, first drawn for the Daily Express in 1920.",
+      "Superman": "The hero who first appeared in Action Comics, published in America in 1938.",
+      "Asterix": "The hero of the French comic series begun in 1959 by Goscinny and Uderzo."
+    },
+    "fits": {
+      "Sherlock Holmes": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Tom Sawyer": [
+        [
+          0,
+          1
+        ]
+      ],
+      "Captain Nemo": [
+        [
+          0,
+          2
+        ]
+      ],
+      "Gromit": [
+        [
+          1,
+          0
+        ]
+      ],
+      "Indiana Jones": [
+        [
+          1,
+          1
+        ]
+      ],
+      "Amelie": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Rupert Bear": [
+        [
+          2,
+          0
+        ]
+      ],
+      "Superman": [
+        [
+          2,
+          1
+        ]
+      ],
+      "Asterix": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sherlock_Holmes",
+      "excerpt": "Sherlock Holmes is a fictional detective created by British author Arthur Conan Doyle."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sherlock_Holmes",
+      "excerpt": "The character Sherlock Holmes first appeared in print in 1887's A Study in Scarlet."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
+      "excerpt": "A Study in Scarlet is a detective novel by British author Arthur Conan Doyle."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Sawyer",
+      "excerpt": "Thomas \"Tom\" Sawyer is the title character of the Mark Twain novel The Adventures of Tom Sawyer (1876)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mark_Twain",
+      "excerpt": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Captain_Nemo",
+      "excerpt": "Captain Nemo is a character created by the French novelist Jules Verne (1828–1905)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Captain_Nemo",
+      "excerpt": "Nemo appears in two of Verne's science-fiction books, Twenty Thousand Leagues Under the Seas (1870) and The Mysterious Island (1875)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wallace_%26_Gromit",
+      "excerpt": "Wallace & Gromit is a British claymation comedy franchise created by Nick Park and produced by Aardman Animations."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wallace_%26_Gromit",
+      "excerpt": "The first short film, A Grand Day Out, was finished and released in 1989."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indiana_Jones",
+      "excerpt": "Indiana Jones is an American media franchise owned by Lucasfilm consisting of five films and a prequel television series, along with games, comics, and tie-in novels."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indiana_Jones_(character)",
+      "excerpt": "Since his first appearance in Raiders of the Lost Ark, Indiana Jones has become one of cinema's most famous characters."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
+      "excerpt": "Amélie is a 2001 French-language romantic comedy film directed by Jean-Pierre Jeunet."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
+      "excerpt": "It tells the story of Amélie Poulain, played by Audrey Tautou, a shy and quirky waitress who decides to change the lives of those around her for the better while dealing with her own isolation."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rupert_Bear",
+      "excerpt": "Rupert Bear, also known as Rupert the Bear or simply Rupert, is an English children's comic strip character and franchise created by Herbert Tourtel and illustrated by his wife, the artist Mary Tourtel, first appearing in the Daily Express newspaper on 8 November 1920."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Superman",
+      "excerpt": "Superman is a superhero created by writer Jerry Siegel and artist Joe Shuster, first appearing in issue #1 of Action Comics, published in the United States on April 18, 1938."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Asterix_(character)",
+      "excerpt": "Asterix is a fictional character and the titular hero of the French comic book series Asterix."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Asterix_(character)",
+      "excerpt": "Asterix was created in 1959 by writer René Goscinny and illustrator Albert Uderzo."
+    }
+  ]
+}

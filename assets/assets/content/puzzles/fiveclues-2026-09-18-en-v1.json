@@ -1,0 +1,68 @@
+{
+  "id": "fiveclues-2026-09-18-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "Around 6000 BC people in what is now Romania boiled spring water to get it",
+      "Camel caravans carried it across the Sahara, and boats across the Mediterranean",
+      "Only a small part of the three hundred million tonnes made each year is eaten",
+      "It is dug from mines, or left behind when seawater evaporates in shallow pools",
+      "One of the basic tastes, and among the oldest of all seasonings"
+    ]
+  },
+  "reveal": {
+    "answer": "Salt",
+    "aliases": [
+      "table salt",
+      "sodium chloride"
+    ],
+    "explanations": [
+      "Around 6000 BC people living in present-day Romania boiled spring water to extract it, and a works in China dates from about the same time.",
+      "It became an important article of trade, carried by boat across the Mediterranean, along special roads, and across the Sahara by camel caravan.",
+      "Of about three hundred million tonnes produced a year, only a small share is eaten; the greatest use is as a chemical feedstock.",
+      "It is taken from mines, and from the evaporation of seawater and mineral-rich spring water in shallow pools.",
+      "Saltiness is one of the basic human tastes, and this is one of the oldest and most widespread seasonings."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Some of the earliest evidence of salt processing dates to around 6000 BC, when people living in the area of present-day Romania boiled spring water to extract salts; a salt works in China dates to approximately the same period."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Salt became an important article of trade and was transported by boat across the Mediterranean Sea, along specially built salt roads, and across the Sahara on camel caravans."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Of the annual global production of around three hundred million tonnes, only a small percentage is used for human consumption."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "The greatest single use for salt (sodium chloride) is as a feedstock for the production of chemicals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Salt is processed from salt mines, and by the evaporation of seawater (sea salt) and mineral-rich spring water in shallow pools."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Salt is essential for life in general (being the source of the essential dietary minerals sodium and chlorine), and saltiness is one of the basic human tastes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "excerpt": "Salt is one of the oldest and most ubiquitous food seasonings, and is known to uniformly improve the taste perception of food."
+    }
+  ]
+}

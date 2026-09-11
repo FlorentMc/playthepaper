@@ -1,0 +1,98 @@
+{
+  "id": "groups-2026-09-12-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-12",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Hera",
+      "Neptune",
+      "Apollo",
+      "Zeus",
+      "Isis",
+      "Minerva",
+      "Anubis",
+      "Athena",
+      "Juno",
+      "Osiris",
+      "Ra",
+      "Hermes"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Greek gods",
+        "members": [
+          "Zeus",
+          "Hera",
+          "Hermes",
+          "Athena"
+        ],
+        "explanation": "These four sat among the Olympians of Greek myth.",
+        "alsoFits": [
+          "Apollo"
+        ]
+      },
+      {
+        "title": "Roman gods",
+        "members": [
+          "Juno",
+          "Neptune",
+          "Minerva",
+          "Apollo"
+        ],
+        "explanation": "Rome worshipped all four, keeping Apollo's Greek name unchanged."
+      },
+      {
+        "title": "Egyptian gods",
+        "members": [
+          "Ra",
+          "Isis",
+          "Osiris",
+          "Anubis"
+        ],
+        "explanation": "Each belongs to the gods of ancient Egypt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twelve_Olympians",
+      "excerpt": "In ancient Greek religion and mythology, the twelve Olympians are the major deities of the Greek pantheon, commonly considered to be Zeus, Poseidon, Hera, Demeter, Aphrodite, Athena, Artemis, Apollo, Ares, Hephaestus, Hermes, and either Hestia or Dionysus."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roman_mythology",
+      "excerpt": "The Etruscan-influenced Capitoline Triad of Jupiter, Juno and Minerva later became central to official religion, replacing the Archaic Triad – an unusual example within Indo-European religion of a supreme triad formed of two female deities and only one male."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roman_mythology",
+      "excerpt": "Many astronomical objects are named after Roman deities, like the planets Mercury, Venus, Mars, Jupiter, Saturn, and Neptune."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Roman_deities",
+      "excerpt": "Apollo, god of poetry, music, and oracles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_deities",
+      "excerpt": "Ra, who is dynamic and light-producing, and Osiris, who is static and shrouded in darkness, merge into a single god each night."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_deities",
+      "excerpt": "Paired gods sometimes have similar roles, as do Isis and her sister Nephthys in their protection and support of Osiris."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_deities",
+      "excerpt": "For this reason, the funerary god Anubis is commonly shown in Egyptian art as a dog or jackal, a creature whose scavenging habits threaten the preservation of buried mummies, in an effort to counter this threat and employ it for protection."
+    }
+  ]
+}

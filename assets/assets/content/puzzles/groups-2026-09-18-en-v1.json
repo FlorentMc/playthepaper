@@ -1,0 +1,75 @@
+{
+  "id": "groups-2026-09-18-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Bassoon",
+      "Trombone",
+      "Clarinet",
+      "Viola",
+      "Cello",
+      "Tuba",
+      "Trumpet",
+      "Oboe",
+      "Horn",
+      "Violin",
+      "Double bass",
+      "Flute"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "Woodwind instruments",
+        "members": [
+          "Flute",
+          "Oboe",
+          "Clarinet",
+          "Bassoon"
+        ],
+        "explanation": "These four make up the woodwind section of an orchestra."
+      },
+      {
+        "title": "Brass instruments",
+        "members": [
+          "Trumpet",
+          "Trombone",
+          "Tuba",
+          "Horn"
+        ],
+        "explanation": "Each is played by buzzing the lips into a metal mouthpiece."
+      },
+      {
+        "title": "Bowed strings",
+        "members": [
+          "Violin",
+          "Viola",
+          "Cello",
+          "Double bass"
+        ],
+        "explanation": "All four are bowed and sit at the front of the orchestra."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Woodwind_instrument",
+      "excerpt": "Common examples include flute, clarinet, oboe, bassoon, and saxophone."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brass_instrument",
+      "excerpt": "Trumpets, trombones, and tubas are characteristically fitted with a cupped mouthpiece, while horns are fitted with a conical mouthpiece."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/String_section",
+      "excerpt": "It normally consists of first and second violins, violas, cellos, and double basses."
+    }
+  ]
+}

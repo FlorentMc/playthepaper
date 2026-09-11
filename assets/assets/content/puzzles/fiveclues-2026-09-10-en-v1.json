@@ -1,0 +1,68 @@
+{
+  "id": "fiveclues-2026-09-10-en-v1",
+  "game": "fiveclues",
+  "editionDate": "2026-09-10",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "clues": [
+      "A ringed lens by Augustin-Jean Fresnel was reinvented for these",
+      "One of the Seven Wonders of the Ancient World stood at Alexandria and did this job",
+      "Cheaper electronics have cut the number still working",
+      "It marks shoals, reefs and rocks, and the safe way into a harbour",
+      "A tower whose lamps and lenses guide ships at sea"
+    ]
+  },
+  "reveal": {
+    "answer": "Lighthouse",
+    "aliases": [
+      "light house",
+      "lighthouses"
+    ],
+    "explanations": [
+      "Augustin-Jean Fresnel reinvented the stepped lens for use in lighthouses, and it has been called the invention that saved a million ships.",
+      "The Lighthouse of Alexandria, or Pharos, was one of the Seven Wonders of the Ancient World and for centuries one of the tallest structures ever built.",
+      "The number in operation has fallen, because maintenance is expensive and electronic navigation is cheaper and more effective.",
+      "They mark dangerous coastlines, shoals, reefs and rocks, and show the safe entries to harbours.",
+      "It is a tower built to emit light from a system of lamps and lenses, as a beacon for pilots at sea or on inland waterways."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fresnel_lens",
+      "excerpt": "The simpler dioptric (purely refractive) form of the lens was first proposed by Georges-Louis Leclerc, Comte de Buffon, and independently reinvented by the French physicist Augustin-Jean Fresnel (1788–1827) for use in lighthouses."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fresnel_lens",
+      "excerpt": "Because of its use in lighthouses, it has been called \"the invention that saved a million ships\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+      "excerpt": "The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria, was a lighthouse built by the Ptolemaic Kingdom of Ancient Egypt, during the reign of Ptolemy II Philadelphus (280–247 BC)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+      "excerpt": "One of the Seven Wonders of the Ancient World, for many centuries it was one of the world's tallest man-made structures."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse",
+      "excerpt": "Once widely used, the number of operational lighthouses has declined due to the expense of maintenance and the advent of much cheaper, more sophisticated, and more effective electronic navigational systems."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse",
+      "excerpt": "Lighthouses mark dangerous coastlines, hazardous shoals, reefs, rocks, and safe entries to harbors; they also assist in aerial navigation."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse",
+      "excerpt": "A lighthouse is a tower, building, or other type of physical structure designed to emit light from a system of lamps and lenses and to serve as a beacon for navigational aid for maritime pilots at sea or on inland waterways."
+    }
+  ]
+}

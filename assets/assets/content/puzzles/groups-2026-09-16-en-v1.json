@@ -1,0 +1,98 @@
+{
+  "id": "groups-2026-09-16-en-v1",
+  "game": "groups",
+  "editionDate": "2026-09-16",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "tiles": [
+      "Pindus",
+      "Mark",
+      "Luke",
+      "Parnassus",
+      "d'Artagnan",
+      "Olympus",
+      "John",
+      "Aramis",
+      "Athos",
+      "Matthew",
+      "Porthos",
+      "Taygetus"
+    ]
+  },
+  "reveal": {
+    "groups": [
+      {
+        "title": "The Musketeers",
+        "members": [
+          "Athos",
+          "Porthos",
+          "Aramis",
+          "d'Artagnan"
+        ],
+        "explanation": "These are the four friends of Dumas's novel The Three Musketeers."
+      },
+      {
+        "title": "The four gospels",
+        "members": [
+          "Matthew",
+          "Mark",
+          "Luke",
+          "John"
+        ],
+        "explanation": "The New Testament opens with these four gospels."
+      },
+      {
+        "title": "Mountains of Greece",
+        "members": [
+          "Olympus",
+          "Parnassus",
+          "Pindus",
+          "Taygetus"
+        ],
+        "explanation": "Each is a mountain or range on the Greek mainland.",
+        "alsoFits": [
+          "Athos"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Three_Musketeers",
+      "excerpt": "Although d'Artagnan is not able to join this elite corps immediately, he is befriended by three of the most formidable musketeers of the age – Athos, Porthos, and Aramis: \"the three musketeers\" or \"the three inseparables\" – and becomes involved in affairs of state and at court."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gospel",
+      "excerpt": "Mark was the first to be written, followed by Matthew and Luke, which forms a two-volume work with the Acts of the Apostles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gospel",
+      "excerpt": "The author of John may have been aware of the synoptic gospels, and the gospel's historical context remains debated."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Olympus",
+      "excerpt": "Mount Olympus has 52 peaks and deep gorges."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mount_Parnassus",
+      "excerpt": "Parnassus has an abundance of trails for hiking in the three warm seasons."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pindus",
+      "excerpt": "The Pindus, Pindos or Pindhos is a mountain range located in Northern Greece and Southern Albania."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taygetus",
+      "excerpt": "The Taygetus, Taugetus, Taygetos or Taÿgetus (Greek: Ταΰγετος, romanized: Taygetos) is a mountain range on the Peloponnese peninsula in Southern Greece."
+    }
+  ]
+}

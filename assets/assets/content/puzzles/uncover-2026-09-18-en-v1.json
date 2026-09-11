@@ -1,0 +1,49 @@
+{
+  "id": "uncover-2026-09-18-en-v1",
+  "game": "uncover",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 1,
+  "scoringVersion": 1,
+  "payload": {
+    "text": "The ▇▇▇ ▇▇▇ is the tallest and heaviest ▇▇▇ alive, and it lives only in Antarctica. Adults reach about a metre in length and weigh between 22 and 45 kilograms; head and back are black, sharply cut off from a white belly, a pale yellow breast and bright yellow ear patches. Like every ▇▇▇ it cannot fly, and its wings are stiffened into flippers for swimming. It hunts fish, krill and squid, staying under for around twenty minutes and reaching depths of 535 metres. It is the only one of its family to breed through the Antarctic winter, walking 50 to 120 kilometres over the ice to colonies where the female lays a single egg and the male keeps it warm for two months.",
+    "hints": [
+      "An animal of the far south.",
+      "The first word begins with E.",
+      "It is the biggest of its family and the only bird that breeds through the Antarctic winter."
+    ]
+  },
+  "reveal": {
+    "text": "The emperor penguin is the tallest and heaviest penguin alive, and it lives only in Antarctica. Adults reach about a metre in length and weigh between 22 and 45 kilograms; head and back are black, sharply cut off from a white belly, a pale yellow breast and bright yellow ear patches. Like every penguin it cannot fly, and its wings are stiffened into flippers for swimming. It hunts fish, krill and squid, staying under for around twenty minutes and reaching depths of 535 metres. It is the only one of its family to breed through the Antarctic winter, walking 50 to 120 kilometres over the ice to colonies where the female lays a single egg and the male keeps it warm for two months.",
+    "subject": "Emperor Penguin",
+    "aliases": [
+      "Aptenodytes forsteri"
+    ],
+    "answerWords": [
+      "emperor",
+      "penguin"
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "excerpt": "The emperor penguin (Aptenodytes forsteri) is the tallest and heaviest of all living penguin species and lives exclusively in Antarctica. The male and female are similar in plumage and size, reaching 100 cm (39 in) in length and weighing from 22 to 45 kg (49 to 99 lb)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "excerpt": "Feathers of the head and back are black and sharply delineated from the white belly, pale-yellow breast and bright-yellow ear patches."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "excerpt": "Like all species of penguin, the emperor is flightless, with a streamlined body, and wings stiffened and flattened into flippers for a marine habitat. Its diet consists primarily of fish, but also includes crustaceans, such as krill, and cephalopods, such as squid. While hunting, the species can remain submerged around 20 minutes, diving to a depth of 535 m (1,755 ft)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "excerpt": "The only penguin species that breeds during the Antarctic winter, emperor penguins trek 50–120 km (31–75 mi) over the ice to breeding colonies which can contain up to several thousand individuals. The female lays a single egg, which is incubated for just over two months by the male while the female returns to the sea to feed; parents subsequently take turns foraging at sea and caring for their chick in the colony."
+    }
+  ]
+}
