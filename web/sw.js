@@ -8,6 +8,12 @@
 // the next online load; when the network fails the cached copy is served, and a
 // navigation to any route falls back to the cached shell so /p/<id> links and
 // the home page open with no connection.
+//
+// The network fetches use cache: 'no-cache' (revalidate with the server, a 304
+// when unchanged) because the shared host stamps its own long max-age on HTML
+// and scripts and Flutter's output is not content-hashed; without it a browser
+// could keep an old main.dart.js for a week after a deploy. Puzzle files are
+// immutable by id and keep normal HTTP caching.
 'use strict';
 
 const CACHE = 'ptp-shell-v1';
@@ -65,16 +71,19 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (request.mode === 'navigate') {
+    // A navigation request cannot be re-issued with new options, so it is
+    // refetched by URL.
     event.respondWith(
-      fetch(request)
+      fetch(request.url, { cache: 'no-cache', credentials: 'same-origin', redirect: 'follow' })
         .then((response) => remember(event, request, response))
         .catch(() => caches.match(request).then((hit) => hit || caches.match('/index.html'))),
     );
     return;
   }
 
+  const immutable = url.pathname.startsWith('/content/puzzles/');
   event.respondWith(
-    fetch(request)
+    (immutable ? fetch(request) : fetch(request, { cache: 'no-cache' }))
       .then((response) => remember(event, request, response))
       .catch(() => caches.match(request)),
   );
