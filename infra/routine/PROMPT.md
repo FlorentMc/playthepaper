@@ -147,8 +147,12 @@ them; three is fine). The mix is fixed:
   Events portal: sport results, awards and prizes, culture and entertainment,
   business and technology launches, records, notable public events, election
   results and new office-holders stated as plain fact, space missions,
-  archaeology finds. Quote the Wikipedia article the portal links to (or the
-  cited page if it is on an allowlisted host).
+  archaeology finds. Quote the Wikipedia article the portal links to, or the
+  cited page if it is on an allowlisted host. When neither carries the fact
+  yet, the portal entry itself is the excerpt: it is a Wikipedia page, so
+  quote its sentence verbatim with the portal URL as the source (publisher
+  "Wikipedia"). A headline is never dropped only because its citation is a
+  publisher you may not fetch.
 * **Exactly one science or nature story**, from the science feeds or the
   portal's science section. Never two, unless the portal offers no usable
   general headline at all, and say so in the report.
