@@ -21,6 +21,13 @@ Options -Indexes -MultiViews
 DirectoryIndex index.html
 AddDefaultCharset utf-8
 
+# The shared host applies its own ExpiresByType rules (an hour for HTML, a
+# week for scripts), which would let a stale app shell survive a deploy.
+# Switch them off here so the Cache-Control policy below is the only one.
+<IfModule mod_expires.c>
+  ExpiresActive Off
+</IfModule>
+
 <IfModule mod_mime.c>
   AddType application/json .json
   AddType application/wasm .wasm

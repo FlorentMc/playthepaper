@@ -24,6 +24,7 @@ on:
       - 'content/**'
       - 'content_src/**'
       - 'tool/**'
+      - 'infra/cpanel/**'   # served from `live` too: the host installs infra/cpanel/htaccess
       - 'lib/engines/**'
       - 'lib/content/**'
       - 'lib/core/**'
