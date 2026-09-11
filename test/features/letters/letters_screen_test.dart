@@ -116,7 +116,7 @@ void main() {
   }
 
   Future<void> finish(WidgetTester tester) async {
-    await tester.tap(find.widgetWithText(OutlinedButton, 'Finish'));
+    await tester.tap(find.widgetWithText(TextButton, 'Finish'));
     await tester.pumpAndSettle();
     await tester.tap(find.widgetWithText(FilledButton, 'Finish'));
     await pumpUntil(tester, () => store.result(id) != null, reason: 'result saved');
@@ -230,7 +230,7 @@ void main() {
         play: PlayContext(store: store, record: record, isArchivePlay: true),
       );
 
-      await tester.tap(find.widgetWithText(OutlinedButton, 'Finish'));
+      await tester.tap(find.widgetWithText(TextButton, 'Finish'));
       await tester.pumpAndSettle();
       expect(find.text('Finish the puzzle?'), findsOneWidget);
       await tester.tap(find.widgetWithText(TextButton, 'Keep playing'));

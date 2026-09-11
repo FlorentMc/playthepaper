@@ -59,7 +59,10 @@ class _GameShellState extends State<GameShell> {
 
   @override
   Widget build(BuildContext context) {
-    final dateLabel = DateFormat('EEEE d MMMM yyyy').format(widget.date.toUtc());
+    // A game that adds bar actions (Letters' Finish) leaves less room for the
+    // title, so the date drops to its short form there.
+    final dateLabel = DateFormat(widget.actions.isEmpty ? 'EEEE d MMMM yyyy' : 'EEE d MMM yyyy')
+        .format(widget.date.toUtc());
     final subtitle = [
       if (widget.difficulty != null) widget.difficulty!.label,
       dateLabel,

@@ -14,9 +14,12 @@ class LettersHoneycomb extends StatelessWidget {
   /// Null makes the board read-only.
   final void Function(String letter)? onLetter;
 
-  static const double gap = 6;
-  static const double _minRadius = 33;
-  static const double _maxRadius = 40;
+  static const double gap = 7;
+
+  /// The cells grow with the width on offer: 38 keeps six-letter words
+  /// readable on a 320 px phone, 54 fills a 390 px phone edge to edge.
+  static const double _minRadius = 38;
+  static const double _maxRadius = 54;
 
   /// Reading order: top row, middle row (either side of the centre), bottom row.
   static const List<double> _anglesDeg = [240, 300, 180, 0, 120, 60];
@@ -44,6 +47,7 @@ class LettersHoneycomb extends StatelessWidget {
               child: _HexCell(
                 letter: letter,
                 isCenter: isCenter,
+                fontSize: (r * 0.82).roundToDouble(),
                 onTap: onLetter == null ? null : () => onLetter!(letter),
               ),
             );
@@ -72,10 +76,11 @@ class LettersHoneycomb extends StatelessWidget {
 }
 
 class _HexCell extends StatelessWidget {
-  const _HexCell({required this.letter, required this.isCenter, required this.onTap});
+  const _HexCell({required this.letter, required this.isCenter, required this.fontSize, required this.onTap});
 
   final String letter;
   final bool isCenter;
+  final double fontSize;
   final VoidCallback? onTap;
 
   @override
@@ -96,7 +101,7 @@ class _HexCell extends StatelessWidget {
             child: InkWell(
               onTap: onTap,
               child: Center(
-                child: Text(letter, style: PaperTheme.display(size: 28, color: ink)),
+                child: Text(letter, style: PaperTheme.display(size: fontSize, color: ink)),
               ),
             ),
           ),

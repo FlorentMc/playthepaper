@@ -30,7 +30,7 @@ class LettersScreen extends StatefulWidget {
           'Amazing, then Genius at 70% of the maximum.',
       'Tap the letters or type on a keyboard. Enter submits, Backspace deletes, and Shuffle '
           'rearranges the outer letters.',
-      'Words are checked against today\'s fixed list. Tap Finish when you are done: it locks the '
+      'Words are checked against today\'s fixed list. Tap Finish in the top bar when you are done: it locks the '
           'puzzle and reveals every word.',
     ],
   );
@@ -236,6 +236,12 @@ class _LettersScreenState extends State<LettersScreen> {
       help: LettersScreen.help,
       isArchivePlay: play.isArchivePlay,
       puzzleId: play.record.id.toString(),
+      // Finish lives in the top bar, away from the play controls, so a thumb
+      // heading for Enter cannot land on it. It still asks for confirmation.
+      actions: [
+        if (existing == null && !_state.isFinished)
+          TextButton(onPressed: _canPlay ? _confirmFinish : null, child: const Text('Finish')),
+      ],
       child: Focus(
         focusNode: _focus,
         autofocus: true,
@@ -278,37 +284,22 @@ class _LettersScreenState extends State<LettersScreen> {
       _FeedbackLine(text: _feedback, accepted: _feedbackKind == _FeedbackKind.accepted),
       const SizedBox(height: 8),
       LettersHoneycomb(center: _puzzle.center, outer: _outer, onLetter: _canPlay ? _append : null),
-      const SizedBox(height: 16),
-      Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          OutlinedButton(onPressed: _canPlay ? _delete : null, child: const Text('Delete')),
-          const SizedBox(width: 12),
-          IconButton.outlined(
-            icon: const Icon(Icons.shuffle),
-            tooltip: 'Shuffle',
-            onPressed: _canPlay ? _shuffle : null,
-          ),
-          const SizedBox(width: 12),
-          FilledButton(onPressed: _canPlay ? _submit : null, child: const Text('Enter')),
-        ],
+      const SizedBox(height: 18),
+      _Controls(
+        enabled: _canPlay,
+        onDelete: _delete,
+        onShuffle: _shuffle,
+        onEnter: _submit,
       ),
       const SizedBox(height: 24),
       const Rule(),
       const SizedBox(height: 12),
-      Row(
-        children: [
-          Expanded(
-            child: Text(
-              found.isEmpty
-                  ? 'No words yet'
-                  : 'You have found ${found.length} word${found.length == 1 ? '' : 's'}'
-                        '${_state.pangramsFound > 0 ? ' · ${_state.pangramsFound} pangram${_state.pangramsFound == 1 ? '' : 's'}' : ''}',
-              style: theme.textTheme.titleSmall,
-            ),
-          ),
-          OutlinedButton(onPressed: _canPlay ? _confirmFinish : null, child: const Text('Finish')),
-        ],
+      Text(
+        found.isEmpty
+            ? 'No words yet'
+            : 'You have found ${found.length} word${found.length == 1 ? '' : 's'}'
+                  '${_state.pangramsFound > 0 ? ' · ${_state.pangramsFound} pangram${_state.pangramsFound == 1 ? '' : 's'}' : ''}',
+        style: theme.textTheme.titleSmall,
       ),
       const SizedBox(height: 10),
       Wrap(
@@ -451,6 +442,61 @@ class _FoundChip extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Delete, Shuffle and Enter: one row of equal-height targets right under the
+/// hive, sized for thumbs (52 px tall) with Enter as the only filled button.
+class _Controls extends StatelessWidget {
+  const _Controls({required this.enabled, required this.onDelete, required this.onShuffle, required this.onEnter});
+
+  final bool enabled;
+  final VoidCallback onDelete;
+  final VoidCallback onShuffle;
+  final VoidCallback onEnter;
+
+  static const double height = 52;
+
+  @override
+  Widget build(BuildContext context) {
+    final textStyle = PaperTheme.body(size: 17, weight: 600);
+    final shape = RoundedRectangleBorder(borderRadius: BorderRadius.circular(height / 2));
+    return Row(
+      children: [
+        Expanded(
+          child: SizedBox(
+            height: height,
+            child: OutlinedButton(
+              onPressed: enabled ? onDelete : null,
+              style: OutlinedButton.styleFrom(textStyle: textStyle, shape: shape),
+              child: const Text('Delete'),
+            ),
+          ),
+        ),
+        const SizedBox(width: 10),
+        SizedBox(
+          width: height,
+          height: height,
+          child: IconButton.outlined(
+            icon: const Icon(Icons.shuffle, size: 24),
+            tooltip: 'Shuffle',
+            onPressed: enabled ? onShuffle : null,
+            style: IconButton.styleFrom(shape: const CircleBorder(), minimumSize: const Size(height, height)),
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: SizedBox(
+            height: height,
+            child: FilledButton(
+              onPressed: enabled ? onEnter : null,
+              style: FilledButton.styleFrom(textStyle: textStyle, shape: shape),
+              child: const Text('Enter'),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
