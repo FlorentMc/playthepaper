@@ -1,0 +1,59 @@
+{
+  "id": "letters-2026-09-13-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "R",
+    "outer": "CNOTUY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a nation that has started printing its own banknotes."
+  },
+  "reveal": {
+    "answers": [
+      "CONCUR",
+      "CONTOUR",
+      "CORN",
+      "CORNY",
+      "CORY",
+      "COUNTRY",
+      "COURT",
+      "CROC",
+      "CROON",
+      "CURRY",
+      "CURT",
+      "OCCUR",
+      "OUTCRY",
+      "OUTRUN",
+      "ROOT",
+      "ROTOR",
+      "ROUT",
+      "RUNNY",
+      "RUNT",
+      "TORN",
+      "TORO",
+      "TORT",
+      "TORY",
+      "TOUR",
+      "TROT",
+      "TROUT",
+      "TROY",
+      "TRYOUT",
+      "TURN",
+      "TURNOUT",
+      "TUTOR",
+      "YOUR",
+      "YURT"
+    ],
+    "pangrams": [
+      "COUNTRY"
+    ],
+    "maxScore": 114,
+    "storyId": "2026-09-13-2",
+    "excerpt": "The Kyrgyz National Bank reports that Kyrgyzstan has started domestically printing banknotes of the Kyrgyz som, the country's currency, for the first time since independence."
+  },
+  "storyId": "2026-09-13-2"
+}

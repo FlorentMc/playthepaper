@@ -1,0 +1,116 @@
+{
+  "id": "quiz-2026-09-13-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Atlantic hurricane season opened on June 1, and by the middle of September not one hurricane had formed. Forecasters name El Niño in the Pacific Ocean as a big factor.",
+        "prompt": "How long has the satellite-era record run without an Atlantic hurricane lasted?",
+        "options": [
+          "43 days",
+          "73 days",
+          "103 days",
+          "133 days"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-13-1"
+      },
+      {
+        "lead": "The national bank of Kyrgyzstan says the country has started printing its own banknotes at home for the first time since independence.",
+        "prompt": "What is the currency of Kyrgyzstan called?",
+        "options": [
+          "The som",
+          "The tenge",
+          "The manat",
+          "The lari"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-13-2"
+      },
+      {
+        "lead": "No hurricane has formed in the Atlantic this season, a run that forecasters call a record for the satellite era. Seasons this quiet are very rare.",
+        "prompt": "Which year held the previous record for a season this quiet?",
+        "options": [
+          "1911",
+          "1941",
+          "1971",
+          "2001"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-13-1"
+      },
+      {
+        "lead": "Researchers at Binghamton University set a mathematical way of playing Wordle against the familiar tactic of opening with common letters.",
+        "prompt": "What share of Wordle puzzles did the mathematical method solve in simulations?",
+        "options": [
+          "70%",
+          "80%",
+          "90%",
+          "99%"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-13-3"
+      },
+      {
+        "lead": "The Binghamton strategy does not always chase the likeliest answer. It picks the guess expected to cut the field of remaining words down the most.",
+        "prompt": "Which measure of uncertainty does the strategy rely on?",
+        "options": [
+          "Shannon entropy",
+          "Bayes factor",
+          "Euclidean distance",
+          "Pearson correlation"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-13-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      0,
+      1,
+      3,
+      0
+    ],
+    "explanations": [
+      "The season has reached 103 days without a hurricane, a record for the satellite era. Forecasters point to El Niño in the Pacific Ocean as a big factor.",
+      "The currency is the som, and its banknotes are now being printed inside Kyrgyzstan. The Kyrgyz National Bank says it is the first time since independence.",
+      "The last Atlantic season to stay this quiet was 1941. This season started on June 1 and has now reached 103 days without a hurricane.",
+      "The information theory method solved 99% of Wordle puzzles in simulations. A strategy built on common letters solved 90%.",
+      "The strategy uses Shannon entropy, a mathematical way of measuring uncertainty. It shows how much useful information a particular choice is expected to reveal."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
+      "excerpt": "The Atlantic hurricane season reaches a 103-day record in the satellite era without a hurricane after the season started on June 1, the first since 1941, with the El Niño in the Pacific Ocean being a big factor."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_11",
+      "excerpt": "The Kyrgyz National Bank reports that Kyrgyzstan has started domestically printing banknotes of the Kyrgyz som, the country's currency, for the first time since independence."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911204910.htm",
+      "excerpt": "Researchers at Binghamton University have developed a mathematical strategy that can solve Wordle with a 99% success rate."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911204910.htm",
+      "excerpt": "In simulations, the information theory method successfully solved 99% of Wordle puzzles. The common letter strategy solved 90%."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911204910.htm",
+      "excerpt": "Shannon entropy is a mathematical way of measuring uncertainty. In simple terms, it can help determine how much useful information a particular choice is expected to reveal."
+    }
+  ]
+}

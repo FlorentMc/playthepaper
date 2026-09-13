@@ -1,16 +1,16 @@
 {
   "date": "2026-09-13",
-  "kind": "evergreen",
-  "label": "Evergreen · History",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-13-en-v1",
+    "word-2026-09-13-en-v2",
     "sudoku-2026-09-13-en-easy-v1",
     "sudoku-2026-09-13-en-medium-v1",
     "sudoku-2026-09-13-en-hard-v1",
-    "letters-2026-09-13-en-v1",
-    "crossword-2026-09-13-en-v1",
-    "quiz-2026-09-13-en-v1",
+    "letters-2026-09-13-en-v2",
+    "crossword-2026-09-13-en-v2",
+    "quiz-2026-09-13-en-v2",
     "bridges-2026-09-13-en-v1",
     "binary-2026-09-13-en-v1",
     "target-2026-09-13-en-v1",
@@ -30,44 +30,45 @@
   ],
   "stories": [
     {
-      "id": "history-1-gutenberg",
-      "headline": "Forty-two lines to a page: the book that started the press",
-      "summary": "The Gutenberg Bible, printed in the 1450s by Johannes Gutenberg in Mainz, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible, and a complete copy has 1,288 pages, usually bound in two volumes. Of the 158 or 180 copies originally printed, 49 survive in at least substantial portion.",
+      "id": "2026-09-13-1",
+      "headline": "A record Atlantic season passes with no hurricane at all",
+      "summary": "The Atlantic hurricane season started on June 1 and has now gone 103 days without a hurricane. That is a record for the satellite era. The last season to stay quiet this long was 1941, and forecasters point to El Niño in the Pacific Ocean as a big factor.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
+      "publishedAt": "2026-09-12"
     },
     {
-      "id": "history-1-pyramid",
-      "headline": "The tallest thing on Earth for 3,700 years",
-      "summary": "The Great Pyramid of Giza was built around 2600 BC, over about 26 years, as the tomb of the pharaoh Khufu. Initially standing at 146.6 metres, it was the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "id": "2026-09-13-2",
+      "headline": "Kyrgyzstan starts printing its own banknotes",
+      "summary": "The Kyrgyz National Bank reports that Kyrgyzstan has started printing banknotes of the Kyrgyz som at home. The som is the country's currency. It is the first time the notes have been printed domestically since independence.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_11",
+      "publishedAt": "2026-09-11"
     },
     {
-      "id": "history-1-machu",
-      "headline": "A citadel on a ridge above the Urubamba",
-      "summary": "Machu Picchu is a 15th-century Inca citadel on a mountain ridge at 2,430 metres in southern Peru, about 80 km north-west of Cusco, above the Urubamba River. Estimated to have been built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti, and it was abandoned roughly a century later.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
-      "publishedAt": "evergreen"
+      "id": "2026-09-13-3",
+      "headline": "A maths strategy solves Wordle 99% of the time",
+      "summary": "Researchers at Binghamton University have built a mathematical strategy for Wordle. It uses Shannon entropy, a way of measuring uncertainty, to pick the guess that reveals the most information rather than the likeliest answer. In simulations it solved 99% of puzzles, against 90% for a strategy built on common letters.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911204910.htm",
+      "publishedAt": "2026-09-12"
     }
   ],
   "seeds": {
-    "history-1-gutenberg": [
+    "2026-09-13-1": [
       "quiz:1",
-      "quiz:4",
-      "letters",
-      "crossword:1 Down"
-    ],
-    "history-1-pyramid": [
-      "quiz:2",
       "quiz:3",
-      "word"
+      "crossword:3 Down"
     ],
-    "history-1-machu": [
-      "quiz:5"
+    "2026-09-13-2": [
+      "quiz:2",
+      "letters"
+    ],
+    "2026-09-13-3": [
+      "quiz:4",
+      "quiz:5",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-13T02:22:04.480058Z"
 }

@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-13-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Pigeon's sound"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Curved line"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Molars and incisors"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Wonder and amazement"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Neither's partner"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Purring pet"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Rock with metal in it"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "The Pacific one, where the El Niño blamed for a quiet Atlantic sits",
+          "storyId": "2026-09-13-1"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Number of wheels on a bike"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "___ and him"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "COO##",
+      "ARC##",
+      "TEETH",
+      "##AWE",
+      "##NOR"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-09-13-1",
+        "excerpt": "The Atlantic hurricane season reaches a 103-day record in the satellite era without a hurricane after the season started on June 1, the first since 1941, with the El Niño in the Pacific Ocean being a big factor."
+      }
+    ]
+  },
+  "storyId": "2026-09-13-1"
+}

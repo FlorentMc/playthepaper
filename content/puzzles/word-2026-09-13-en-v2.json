@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-13-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a mathematical way of playing Wordle."
+  },
+  "reveal": {
+    "answer": "PUZZLE",
+    "storyId": "2026-09-13-3",
+    "excerpt": "Millions of people open Wordle each day hoping to solve its five-letter puzzle before their six guesses run out."
+  },
+  "storyId": "2026-09-13-3"
+}
