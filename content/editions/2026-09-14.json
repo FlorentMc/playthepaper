@@ -1,16 +1,16 @@
 {
   "date": "2026-09-14",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 4,
   "puzzles": [
-    "word-2026-09-14-en-v1",
+    "word-2026-09-14-en-v2",
     "sudoku-2026-09-14-en-easy-v1",
     "sudoku-2026-09-14-en-medium-v1",
     "sudoku-2026-09-14-en-hard-v1",
-    "letters-2026-09-14-en-v1",
-    "crossword-2026-09-14-en-v1",
-    "quiz-2026-09-14-en-v1",
+    "letters-2026-09-14-en-v2",
+    "crossword-2026-09-14-en-v3",
+    "quiz-2026-09-14-en-v2",
     "bridges-2026-09-14-en-v1",
     "binary-2026-09-14-en-v1",
     "target-2026-09-14-en-v1",
@@ -30,45 +30,55 @@
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-09-14-1",
+      "headline": "The United States take a 12th women's basketball world title",
+      "summary": "The United States beat France 97–79 in the final of the FIBA Women's Basketball World Cup in Berlin. It was their 12th title in the competition. The tournament was hosted in Berlin, Germany, from 4 to 13 September 2026.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_FIBA_Women%27s_Basketball_World_Cup",
+      "publishedAt": "2026-09-13"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-09-14-2",
+      "headline": "A Golden Lion at Venice for Woman Unknown",
+      "summary": "The 83rd Venice International Film Festival has closed at Venice Lido in Italy. Its top prize, the Golden Lion, went to Woman Unknown by May el-Toukhy. The festival ran from 2 to 12 September 2026.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/83rd_Venice_International_Film_Festival",
+      "publishedAt": "2026-09-12"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
+      "id": "2026-09-14-3",
+      "headline": "The Olympic flame reaches Senegal ahead of the Youth Games",
+      "summary": "The Olympic flame has arrived in Dakar, Senegal, ahead of the Summer Youth Olympic Games. The Games will be the first International Olympic Committee event held in Africa. They run for 14 days, from 31 October to 13 November 2026.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+      "publishedAt": "2026-09-12"
+    },
+    {
+      "id": "2026-09-14-4",
+      "headline": "The American cheetah turns out not to be a cheetah",
+      "summary": "Ancient DNA from four fossils found in Wyoming and the Yukon Territory in Canada has changed what scientists think about an extinct cat. The animal long called the American cheetah was more closely related to the modern puma, also called the mountain lion or cougar, than to today's cheetahs.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/for-decades-scientists-thought-an-american-cheetah-once-roamed-north-america-ancient-turns-out-the-extinct-cat-wasnt-a-cheetah-180989465/",
+      "publishedAt": "2026-09-11"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-09-14-1": [
       "quiz:1",
-      "quiz:5",
-      "crossword:1 Down",
-      "crossword:5 Across"
-    ],
-    "nature-1-falls": [
-      "quiz:2",
-      "quiz:4",
       "letters"
     ],
-    "nature-1-galapagos": [
+    "2026-09-14-2": [
+      "quiz:2"
+    ],
+    "2026-09-14-3": [
       "quiz:3",
+      "crossword:3 Down"
+    ],
+    "2026-09-14-4": [
+      "quiz:4",
+      "quiz:5",
       "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-14T02:26:27.269848Z"
 }

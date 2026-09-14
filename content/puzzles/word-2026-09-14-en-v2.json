@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-14-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "A",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about an extinct cat of North America."
+  },
+  "reveal": {
+    "answer": "ANIMAL",
+    "storyId": "2026-09-14-4",
+    "excerpt": "The researchers also wanted to know what an animal with such a wide range ate, so they analyzed forms of nitrogen and carbon in all four fossils."
+  },
+  "storyId": "2026-09-14-4"
+}

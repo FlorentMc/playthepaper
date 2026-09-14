@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-09-14-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The United States women's team won the FIBA Women's Basketball World Cup final 97–79 in Berlin. It was their 12th title in the competition.",
+        "prompt": "Which country did the United States beat in the final?",
+        "options": [
+          "Belgium",
+          "France",
+          "Italy",
+          "Spain"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-14-1"
+      },
+      {
+        "lead": "The Venice International Film Festival closed on 12 September. Its top prize went to Woman Unknown, directed by May el-Toukhy.",
+        "prompt": "What is the top prize at the Venice Film Festival called?",
+        "options": [
+          "The Golden Bear",
+          "The Golden Globe",
+          "The Golden Lion",
+          "The Golden Palm"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-14-2"
+      },
+      {
+        "lead": "The Olympic flame has arrived in Senegal ahead of the Summer Youth Olympic Games. They will be the first International Olympic Committee event held in Africa.",
+        "prompt": "Which city will host the Games?",
+        "options": [
+          "Abuja",
+          "Accra",
+          "Dakar",
+          "Nairobi"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-14-3"
+      },
+      {
+        "lead": "DNA from four fossils found in Wyoming and the Yukon Territory in Canada has changed what scientists think about an extinct cat known as the American cheetah.",
+        "prompt": "Which living cat is it now thought to be most closely related to?",
+        "options": [
+          "The puma",
+          "The cheetah",
+          "The jaguar",
+          "The lynx"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-14-4"
+      },
+      {
+        "lead": "Researchers measured forms of nitrogen and carbon in all four fossils to work out what the cats had eaten. The two populations turned out to have fed on very different things.",
+        "prompt": "What did the cats in the Yukon probably eat?",
+        "options": [
+          "Berries and roots",
+          "Fish such as salmon",
+          "Reindeer",
+          "Seabirds"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-14-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      2,
+      2,
+      0,
+      1
+    ],
+    "explanations": [
+      "The United States beat France 97–79 in the final in Berlin. It was their 12th win in the competition.",
+      "Venice awards the Golden Lion, and this year it went to Woman Unknown by May el-Toukhy. The 83rd festival ran at Venice Lido in Italy from 2 to 12 September 2026.",
+      "The Games will be held in Dakar, Senegal, from 31 October to 13 November 2026. They will be the first International Olympic Committee event held in Africa.",
+      "Ancient DNA places the American cheetah closer to the modern puma than to today's cheetahs. The puma is also called the mountain lion or cougar.",
+      "The Yukon cats likely ate fish such as salmon, while the animal from Wyoming fed on herbivores like pronghorn. The Yukon cats lived around 31,000 years ago and the Wyoming one around 23,000 years ago."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_13",
+      "excerpt": "In basketball, the United States women's team defeats France 97–79 in the final to win the FIBA Women's Basketball World Cup in Berlin, Germany, further extending their lead of 12 total wins."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_FIBA_Women%27s_Basketball_World_Cup",
+      "excerpt": "The tournament was hosted in Berlin, Germany, from 4 to 13 September 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/83rd_Venice_International_Film_Festival",
+      "excerpt": "The 83rd annual Venice International Film Festival took place from 2 to 12 September 2026, at Venice Lido in Italy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/83rd_Venice_International_Film_Festival",
+      "excerpt": "The Golden Lion was awarded to Woman Unknown by May el-Toukhy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
+      "excerpt": "The Olympic flame arrives in Dakar, Senegal, ahead of the upcoming Youth Olympic Games, which will be the first Olympic Games held in Africa."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+      "excerpt": "it is now scheduled to be held there for 14 days—from 31 October to 13 November 2026, becoming the first IOC event to be held in Africa and the first Youth Olympic Games under the IOC presidency of Kirsty Coventry."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/for-decades-scientists-thought-an-american-cheetah-once-roamed-north-america-ancient-turns-out-the-extinct-cat-wasnt-a-cheetah-180989465/",
+      "excerpt": "After analyzing four fossils uncovered in Wyoming and the Yukon Territory in Canada, a team of researchers suggests that the wild cat was more closely related to the modern puma, also called the mountain lion or cougar, than to today’s cheetahs."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/for-decades-scientists-thought-an-american-cheetah-once-roamed-north-america-ancient-turns-out-the-extinct-cat-wasnt-a-cheetah-180989465/",
+      "excerpt": "The researchers also wanted to know what an animal with such a wide range ate, so they analyzed forms of nitrogen and carbon in all four fossils."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/for-decades-scientists-thought-an-american-cheetah-once-roamed-north-america-ancient-turns-out-the-extinct-cat-wasnt-a-cheetah-180989465/",
+      "excerpt": "The work hinted that the creature from Wyoming, which lived around 23,000 years ago, probably feasted on herbivores like pronghorn. On the other hand, the Yukon cats, which lived around 31,000 years ago, likely munched on fish such as salmon."
+    }
+  ]
+}
