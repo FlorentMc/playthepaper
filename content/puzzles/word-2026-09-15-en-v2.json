@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-15-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-15",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "T",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a grand slam final in New York."
+  },
+  "reveal": {
+    "answer": "TENNIS",
+    "storyId": "2026-09-15-1",
+    "excerpt": "The 2026 US Open was the 146th edition of tennis' US Open, and the fourth and final Grand Slam event of the year. It was held on the outdoor hard courts at the USTA Billie Jean King National Tennis Center in New York City."
+  },
+  "storyId": "2026-09-15-1"
+}

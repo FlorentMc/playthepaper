@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-09-15-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-15",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Alexander Zverev has won the men's singles title at the US Open in New York City. It was his second major championship.",
+        "prompt": "Which player did he beat in the final?",
+        "options": [
+          "Carlos Alcaraz",
+          "Novak Djokovic",
+          "Ben Shelton",
+          "Jannik Sinner"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-15-1"
+      },
+      {
+        "lead": "Jean Smart won Outstanding Lead Actress in a Comedy Series at the 78th Primetime Emmy Awards in Los Angeles. She is the first female performer to win for every season of a show.",
+        "prompt": "Which series did she win for?",
+        "options": [
+          "Abbott Elementary",
+          "Hacks",
+          "Shrinking",
+          "The Bear"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-15-2"
+      },
+      {
+        "lead": "The Dangote Group has launched an initial public offering of 4.1 billion shares. It is set to become Africa's biggest share sale.",
+        "prompt": "In which country is the Dangote Group based?",
+        "options": [
+          "Egypt",
+          "Ghana",
+          "Kenya",
+          "Nigeria"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-15-3"
+      },
+      {
+        "lead": "Researchers sifted through more than 60,000 bone fragments from Bianfu Cave in China's Yunnan Province. Among them they identified skull fragments, teeth and part of a forearm bone from Denisovans.",
+        "prompt": "How many Denisovan individuals did those remains come from?",
+        "options": [
+          "At least four",
+          "At least fourteen",
+          "At least forty",
+          "At least four hundred"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-15-4"
+      },
+      {
+        "lead": "Two skull fragments, four teeth and part of a forearm bone were recovered from Bianfu Cave in southwestern China. They came from at least four Denisovan individuals.",
+        "prompt": "When did those individuals live?",
+        "options": [
+          "Between 34,000 and 67,000 years ago",
+          "Between 134,000 and 167,000 years ago",
+          "Between 334,000 and 367,000 years ago",
+          "Between 534,000 and 567,000 years ago"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-15-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      1,
+      3,
+      0,
+      1
+    ],
+    "explanations": [
+      "Zverev beat the US player Ben Shelton to take the title. It was the first time since 1989 that the US Open men's singles was won by a German.",
+      "Jean Smart won for her role in Hacks. The award made her the first female performer to win for every season of a show.",
+      "The Dangote Group is based in Nigeria, and the money will fund the expansion of the Dangote refinery in Lekki, Lagos State. The offering of 4.1 billion shares at ₦525 each seeks to raise about ₦2.15 trillion, or $1.6 billion.",
+      "The remains came from at least four Denisovan individuals. They were picked out of more than 60,000 bone fragments recovered from Bianfu Cave.",
+      "The four individuals lived between 134,000 and 167,000 years ago. Their fossils were found along with stone and bone tools and the remains of animals they used."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_US_Open_(tennis)",
+      "excerpt": "In men's singles play, Alexander Zverev defeated US player Ben Shelton 6–3, 7–6(7–2), 5–7, 6–2, which marked the first time since 1989 the US Open men's singles was won by a German. It was Zverev's second major championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_US_Open_(tennis)",
+      "excerpt": "The 2026 US Open was the 146th edition of tennis' US Open, and the fourth and final Grand Slam event of the year. It was held on the outdoor hard courts at the USTA Billie Jean King National Tennis Center in New York City."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+      "excerpt": "American actress Jean Smart wins an Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series for her role in Hacks, becoming the first female performer to win for every season of a show."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/78th_Primetime_Emmy_Awards",
+      "excerpt": "The awards ceremony will be held live on September 14, 2026, at the Peacock Theater in Downtown Los Angeles, California, and was preceded by the 78th Primetime Creative Arts Emmy Awards on September 5 and 6."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+      "excerpt": "Nigeria's Dangote Group launches an initial public offering (IPO) of 4.1 billion shares at ₦525 (US$0.40) each, seeking to raise about ₦2.15 trillion ($1.6 billion) to fund the expansion of the Dangote refinery in Lekki, Lagos State."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+      "excerpt": "The sale is set to become Africa's biggest IPO."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/scientists-find-a-trove-of-denisovan-fossils-and-tools-in-southwest-china-giving-an-unprecendented-glimpse-into-our-extinct-cousins-lives-180989483/",
+      "excerpt": "The researchers sifted through more than 60,000 bone fragments recovered from Bianfu Cave in China’s Yunnan Province."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/scientists-find-a-trove-of-denisovan-fossils-and-tools-in-southwest-china-giving-an-unprecendented-glimpse-into-our-extinct-cousins-lives-180989483/",
+      "excerpt": "The work yielded two skull fragments, four teeth and part of a forearm bone from at least four Denisovan individuals that lived between 134,000 and 167,000 years ago."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/scientists-find-a-trove-of-denisovan-fossils-and-tools-in-southwest-china-giving-an-unprecendented-glimpse-into-our-extinct-cousins-lives-180989483/",
+      "excerpt": "Researchers found a trove of Denisovan fossils, along with their stone and bone tools and remains of animals they used, in a cave in southwestern China."
+    }
+  ]
+}

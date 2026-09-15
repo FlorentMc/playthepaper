@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-15-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-15",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#....",
+      "#....",
+      ".....",
+      "....#",
+      "....#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Dangote's share offering is set to be Africa's biggest one of these",
+          "storyId": "2026-09-15-3"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Crab's pincer"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Self-respect"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "All-night dance party"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "clue": "The New York tournament that Zverev won",
+          "storyId": "2026-09-15-1"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Small piece"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Living"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Weighed down"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Female sheep"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Expert"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#SALE",
+      "#CLAW",
+      "PRIDE",
+      "RAVE#",
+      "OPEN#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Across",
+        "storyId": "2026-09-15-3",
+        "excerpt": "The sale is set to become Africa's biggest IPO."
+      },
+      {
+        "label": "8 Across",
+        "storyId": "2026-09-15-1",
+        "excerpt": "The 2026 US Open was the 146th edition of tennis' US Open, and the fourth and final Grand Slam event of the year. It was held on the outdoor hard courts at the USTA Billie Jean King National Tennis Center in New York City."
+      }
+    ]
+  },
+  "storyId": "2026-09-15-1"
+}
