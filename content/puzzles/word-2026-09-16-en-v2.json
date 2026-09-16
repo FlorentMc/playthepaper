@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-16-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about where thousands of athletes will sleep in Japan."
+  },
+  "reveal": {
+    "answer": "CRUISE",
+    "storyId": "2026-09-16-2",
+    "excerpt": "Around 4,000 to 5,000 athletes will be hosted in the Costa Serena cruise ship docked at Kinjo Pier."
+  },
+  "storyId": "2026-09-16-2"
+}

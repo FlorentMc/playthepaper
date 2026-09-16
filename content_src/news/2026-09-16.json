@@ -1,0 +1,213 @@
+{
+  "slug": "2026-09-16",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-16-1",
+      "headline": "Nairobi will hold the first world athletics championships in Africa",
+      "summary": "World Athletics has awarded the 2029 World Athletics Championships to Nairobi, Kenya. It will be the twenty-second edition, and the first time the event is held in Africa. Munich, Germany, takes the 2031 championships.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2029_World_Athletics_Championships",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "2026-09-16-2",
+      "headline": "Asian Games athletes will sleep on a cruise ship",
+      "summary": "The 2026 Asian Games are being held from 19 September to 4 October around Aichi Prefecture in Japan. Around 4,000 to 5,000 athletes will be housed on the Costa Serena, a cruise ship docked at Kinjo Pier. Nagoya is the third Japanese city to host the Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "2026-09-16-3",
+      "headline": "Chile is the first in South America to end dog-borne rabies",
+      "summary": "Chile has become the first country in South America to eliminate rabies transmitted by dogs. The World Health Organization has confirmed the milestone.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "id": "2026-09-16-4",
+      "headline": "A tooth in a Californian creek turns out to be a mastodon's",
+      "summary": "Brigid Lynch, a geomorphologist at Balance Hydrologics, spotted something in a creek in California's San Mateo County and thought it could be from an animal. It was an intact fossil molar from an adult Pacific mastodon, Mammut pacificus. The animals lived until about 11,700 years ago.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-geologist-in-california-found-something-strange-sticking-out-of-a-creek-reverse-image-search-told-her-it-was-an-ancient-mastodon-tooth-180989504/",
+      "publishedAt": "2026-09-15"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "World Athletics has chosen the host city of its 2029 World Championships. It will be the first time the championships are held in Africa.",
+          "prompt": "Which city will stage them?",
+          "options": [
+            "London",
+            "Munich",
+            "Nairobi",
+            "Rome"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-16-1"
+        },
+        {
+          "lead": "The 2026 Asian Games are being held from 19 September to 4 October around Aichi Prefecture in Japan. Around 4,000 to 5,000 of the athletes will not be staying in a conventional athletes village.",
+          "prompt": "Where will those athletes sleep instead?",
+          "options": [
+            "Aboard a cruise ship",
+            "In a converted office block",
+            "In university halls of residence",
+            "Under canvas in a park"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-16-2"
+        },
+        {
+          "lead": "The World Health Organization has confirmed that a South American country is the first on the continent to eliminate rabies transmitted by dogs.",
+          "prompt": "Which country is it?",
+          "options": [
+            "Argentina",
+            "Brazil",
+            "Chile",
+            "Peru"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-16-3"
+        },
+        {
+          "lead": "Nairobi was selected on 15 September 2026 to host the 2029 World Athletics Championships, the first to be held in Africa. World Athletics named the host of the 2031 championships on the same day.",
+          "prompt": "Which city was given the 2031 championships?",
+          "options": [
+            "London",
+            "Munich",
+            "Rome",
+            "Tokyo"
+          ],
+          "level": "medium",
+          "storyId": "2026-09-16-1"
+        },
+        {
+          "lead": "A geomorphologist spotted something odd in a creek in California's San Mateo County. It turned out to be the intact fossil molar of a Pacific mastodon, an animal of the Ice Age.",
+          "prompt": "How long ago did Pacific mastodons die out?",
+          "options": [
+            "About 11,700 years ago",
+            "About 117,000 years ago",
+            "About 1.2 million years ago",
+            "About 2.5 million years ago"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-16-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        0,
+        2,
+        1,
+        0
+      ],
+      "explanations": [
+        "Nairobi, in Kenya, will stage the 2029 World Athletics Championships. It will be the first time the event is held on the continent of Africa.",
+        "They will sleep aboard the Costa Serena, a cruise ship docked at Kinjo Pier. Nagoya is the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+        "Chile is the first country in South America to eliminate dog-transmitted rabies. The World Health Organization confirmed the milestone.",
+        "The 2031 World Athletics Championships were awarded to Munich, in Germany. Nairobi takes the 2029 edition, which will be the twenty-second.",
+        "Pacific mastodons died out about 11,700 years ago. They had lived from 2.5 million years ago, alongside other Ice Age megafauna that went extinct around the same time."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
+        "excerpt": "The World Athletics Championships in 2029 and 2031 are awarded to Nairobi, Kenya, and Munich, Germany, respectively. It will be the first event to be held on the continent of Africa."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2029_World_Athletics_Championships",
+        "excerpt": "The 2029 World Athletics Championships will be the twenty-second edition of the World Athletics Championships, and will be held in 2029 in Nairobi, Kenya. This will be the first time the event will be held in Africa."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2029_World_Athletics_Championships",
+        "excerpt": "On 15 September 2026, Nairobi was selected to host the 2029 World Athletics Championships."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+        "excerpt": "Around 4,000 to 5,000 athletes will be hosted in the Costa Serena cruise ship docked at Kinjo Pier."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+        "excerpt": "The 2026 Asian Games, officially the XX Asian Games and also known as Aichi–Nagoya 2026, are a multi-sport event which are being held from 19 September to 4 October 2026 around Aichi Prefecture in Japan."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+        "excerpt": "Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+        "excerpt": "Chile becomes the first country in South America to eliminate dog-transmitted rabies, with the World Health Organization confirming the milestone."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-geologist-in-california-found-something-strange-sticking-out-of-a-creek-reverse-image-search-told-her-it-was-an-ancient-mastodon-tooth-180989504/",
+        "excerpt": "Brigid Lynch, a geomorphologist at Balance Hydrologics, spotted it in a creek in California’s San Mateo County and thought it could be an animal."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-geologist-in-california-found-something-strange-sticking-out-of-a-creek-reverse-image-search-told-her-it-was-an-ancient-mastodon-tooth-180989504/",
+        "excerpt": "Lynch discovered the intact tooth in one of Midpen’s preserves in San Mateo County. The fossilized molar belonged to an adult Mammut pacificus, or a Pacific mastodon."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-geologist-in-california-found-something-strange-sticking-out-of-a-creek-reverse-image-search-told-her-it-was-an-ancient-mastodon-tooth-180989504/",
+        "excerpt": "They lived from 2.5 million years ago to approximately 11,700 years ago, joining a host of other Ice Age megafauna that went extinct around the time."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "CRUISE",
+      "storyId": "2026-09-16-2",
+      "teaser": "Today's word comes from a story about where thousands of athletes will sleep in Japan.",
+      "excerpt": "Around 4,000 to 5,000 athletes will be hosted in the Costa Serena cruise ship docked at Kinjo Pier."
+    },
+    "letters": {
+      "pangram": "MASTODON",
+      "storyId": "2026-09-16-4",
+      "teaser": "Today's letters come from a story about a fossil found in a Californian creek.",
+      "excerpt": "Lynch discovered the intact tooth in one of Midpen’s preserves in San Mateo County. The fossilized molar belonged to an adult Mammut pacificus, or a Pacific mastodon."
+    },
+    "crossword": [
+      {
+        "answer": "EVENT",
+        "clue": "What Nairobi will stage in 2029, a first for Africa",
+        "storyId": "2026-09-16-1",
+        "excerpt": "The World Athletics Championships in 2029 and 2031 are awarded to Nairobi, Kenya, and Munich, Germany, respectively. It will be the first event to be held on the continent of Africa."
+      },
+      {
+        "answer": "SHIP",
+        "clue": "What the Costa Serena is, docked at Kinjo Pier",
+        "storyId": "2026-09-16-2",
+        "excerpt": "Around 4,000 to 5,000 athletes will be hosted in the Costa Serena cruise ship docked at Kinjo Pier."
+      },
+      {
+        "answer": "DOG",
+        "clue": "The animal whose rabies Chile has now eliminated",
+        "storyId": "2026-09-16-3",
+        "excerpt": "Chile becomes the first country in South America to eliminate dog-transmitted rabies, with the World Health Organization confirming the milestone."
+      },
+      {
+        "answer": "ICE",
+        "clue": "The Age in which Pacific mastodons lived",
+        "storyId": "2026-09-16-4",
+        "excerpt": "They lived from 2.5 million years ago to approximately 11,700 years ago, joining a host of other Ice Age megafauna that went extinct around the time."
+      }
+    ]
+  }
+}

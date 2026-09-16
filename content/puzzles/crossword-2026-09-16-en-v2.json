@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-16-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "The animal whose rabies Chile has now eliminated",
+          "storyId": "2026-09-16-3"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Fuss"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "In need of sleep"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Top card in the deck"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Where you sleep"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Had the courage"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Poem of praise"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Object of worship"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Bill at a bar"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "The Age in which Pacific mastodons lived",
+          "storyId": "2026-09-16-4"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##DOG",
+      "##ADO",
+      "TIRED",
+      "ACE##",
+      "BED##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Across",
+        "storyId": "2026-09-16-3",
+        "excerpt": "Chile becomes the first country in South America to eliminate dog-transmitted rabies, with the World Health Organization confirming the milestone."
+      },
+      {
+        "label": "6 Down",
+        "storyId": "2026-09-16-4",
+        "excerpt": "They lived from 2.5 million years ago to approximately 11,700 years ago, joining a host of other Ice Age megafauna that went extinct around the time."
+      }
+    ]
+  },
+  "storyId": "2026-09-16-3"
+}

@@ -1,16 +1,16 @@
 {
   "date": "2026-09-16",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-16-en-v1",
+    "word-2026-09-16-en-v2",
     "sudoku-2026-09-16-en-easy-v1",
     "sudoku-2026-09-16-en-medium-v1",
     "sudoku-2026-09-16-en-hard-v1",
-    "letters-2026-09-16-en-v1",
-    "crossword-2026-09-16-en-v1",
-    "quiz-2026-09-16-en-v1",
+    "letters-2026-09-16-en-v2",
+    "crossword-2026-09-16-en-v2",
+    "quiz-2026-09-16-en-v2",
     "bridges-2026-09-16-en-v1",
     "binary-2026-09-16-en-v1",
     "target-2026-09-16-en-v1",
@@ -30,44 +30,56 @@
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-09-16-1",
+      "headline": "Nairobi will hold the first world athletics championships in Africa",
+      "summary": "World Athletics has awarded the 2029 World Athletics Championships to Nairobi, Kenya. It will be the twenty-second edition, and the first time the event is held in Africa. Munich, Germany, takes the 2031 championships.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2029_World_Athletics_Championships",
+      "publishedAt": "2026-09-15"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-09-16-2",
+      "headline": "Asian Games athletes will sleep on a cruise ship",
+      "summary": "The 2026 Asian Games are being held from 19 September to 4 October around Aichi Prefecture in Japan. Around 4,000 to 5,000 athletes will be housed on the Costa Serena, a cruise ship docked at Kinjo Pier. Nagoya is the third Japanese city to host the Games, after Tokyo in 1958 and Hiroshima in 1994.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+      "publishedAt": "2026-09-15"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-09-16-3",
+      "headline": "Chile is the first in South America to end dog-borne rabies",
+      "summary": "Chile has become the first country in South America to eliminate rabies transmitted by dogs. The World Health Organization has confirmed the milestone.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "id": "2026-09-16-4",
+      "headline": "A tooth in a Californian creek turns out to be a mastodon's",
+      "summary": "Brigid Lynch, a geomorphologist at Balance Hydrologics, spotted something in a creek in California's San Mateo County and thought it could be from an animal. It was an intact fossil molar from an adult Pacific mastodon, Mammut pacificus. The animals lived until about 11,700 years ago.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-geologist-in-california-found-something-strange-sticking-out-of-a-creek-reverse-image-search-told-her-it-was-an-ancient-mastodon-tooth-180989504/",
+      "publishedAt": "2026-09-15"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-09-16-1": [
       "quiz:1",
+      "quiz:4"
+    ],
+    "2026-09-16-2": [
       "quiz:2",
-      "word",
-      "crossword:3 Down"
+      "word"
     ],
-    "technology-1-canal": [
-      "quiz:3"
+    "2026-09-16-3": [
+      "quiz:3",
+      "crossword:1 Across"
     ],
-    "technology-1-chip": [
-      "quiz:4",
+    "2026-09-16-4": [
       "quiz:5",
-      "letters"
+      "letters",
+      "crossword:6 Down"
     ]
-  }
+  },
+  "publishedAt": "2026-09-16T02:24:55.352967Z"
 }
