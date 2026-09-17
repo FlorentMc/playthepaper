@@ -1,0 +1,208 @@
+{
+  "slug": "2026-09-17",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-17-1",
+      "headline": "Women's tennis moves its finals from Riyadh to Charlotte",
+      "summary": "The Women's Tennis Association will move its season-ending finals to Charlotte, North Carolina, from Riyadh, Saudi Arabia. The arrangement runs for three years beginning in 2027, with matches at the Spectrum Center. The association is also relocating its global headquarters to Charlotte from St. Petersburg, Florida.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "id": "2026-09-17-2",
+      "headline": "Japan counts more than 100,000 people aged 100 or older",
+      "summary": "Japan's health ministry has counted 107,677 people aged 100 or older. It is the first time the country has passed 100,000 since the records began in 1963. Of that number, 94,298 are women.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aging_of_Japan",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "2026-09-17-3",
+      "headline": "Fewer ships a day through the Panama Canal",
+      "summary": "The Panama Canal Authority has reduced the number of ships allowed through the canal each day from 36 to 32. Below-average rainfall and a strengthening El Niño have lowered water levels in the reservoirs that supply the waterway.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "2026-09-17-4",
+      "headline": "The largest new crater ever found is on the Moon",
+      "summary": "A scientist comparing before and after images of the Moon noticed something new on its eastern edge. It turned out to be the largest newly formed crater ever found in the solar system, now named McGetchin after the lunar scientist Tom McGetchin. It is 728 feet wide and 141 feet deep, and it formed between April 11 and May 22, 2024.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+      "publishedAt": "2026-09-16"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The Women's Tennis Association has announced a new home for its season-ending finals. They move from Riyadh, in Saudi Arabia, for three years beginning in 2027.",
+          "prompt": "Which American city will stage them?",
+          "options": [
+            "Charlotte",
+            "Dallas",
+            "Miami",
+            "Phoenix"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-17-1"
+        },
+        {
+          "lead": "Japan's health ministry publishes a count of the country's oldest residents each September. This year the number of people aged 100 or older passed a round figure for the first time since the records began in 1963.",
+          "prompt": "Which figure did it pass?",
+          "options": [
+            "50,000",
+            "100,000",
+            "250,000",
+            "500,000"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-17-2"
+        },
+        {
+          "lead": "The Panama Canal relies on fresh water held in reservoirs to move ships through. Its authority has cut the number allowed through each day from 36 to 32.",
+          "prompt": "What has forced the cut?",
+          "options": [
+            "A shortage of tugboats",
+            "A strike by canal pilots",
+            "Below-average rainfall",
+            "Damage to one of the locks"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-17-3"
+        },
+        {
+          "lead": "Japan's health ministry counted 107,677 people aged 100 or older this year. The count is not evenly divided between men and women.",
+          "prompt": "How many of them are women?",
+          "options": [
+            "52,140",
+            "71,690",
+            "84,520",
+            "94,298"
+          ],
+          "level": "medium",
+          "storyId": "2026-09-17-2"
+        },
+        {
+          "lead": "A scientist comparing before and after images of the Moon found the largest newly formed crater ever seen in the solar system, on the Moon's eastern edge. It has been named McGetchin, and it spans the length of two football fields.",
+          "prompt": "How wide is the crater?",
+          "options": [
+            "73 feet",
+            "246 feet",
+            "728 feet",
+            "2,300 feet"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-17-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "explanations": [
+        "The WTA finals move to Charlotte, North Carolina, with matches at the Spectrum Center. The association is also relocating its global headquarters there from St. Petersburg, Florida.",
+        "Japan counted 107,677 people aged 100 or older, passing 100,000 for the first time since records began in 1963. The figure had exceeded 50,000 in 2012 and 95,000 in 2024.",
+        "Below-average rainfall, together with a strengthening El Niño, has lowered water levels in the reservoirs that supply the canal. Daily ship transits fall from 36 to 32.",
+        "Of the 107,677 people aged 100 or older, 94,298 are women. The count has climbed past each milestone in turn, exceeding 1,000 in 1981, 10,000 in 1998 and 50,000 in 2012.",
+        "The crater is 728 feet wide, the length of two football fields. It is also 141 feet deep, and it formed when a comet or asteroid the size of a three- to six-story building hit the surface."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+        "excerpt": "The Women's Tennis Association (WTA) announces that its finals will move to Charlotte, North Carolina, United States, from Riyadh, Saudi Arabia, for three years beginning in 2027, with matches at the Spectrum Center."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+        "excerpt": "The WTA also relocates its global headquarters from St. Petersburg, Florida, U.S., to Charlotte."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aging_of_Japan",
+        "excerpt": "In September 2026, the health ministry reported Japan had 107,677 people with 100 years old or older, the first time the country surpassed 100,000 people—with 94,298 as being women—since the beginning of the records in 1963"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aging_of_Japan",
+        "excerpt": "Previous figures exceeded 1,000 in 1981, 10,000 in 1998, 50,000 in 2012 and 95,000 in 2024."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
+        "excerpt": "Japan's health ministry reports 107,677 people aged 100 or older, exceeding 100,000 for the first time since records began in 1963."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
+        "excerpt": "The Panama Canal Authority reduces daily ship transits through the canal from 36 to 32 as below-average rainfall and a strengthening El Niño lower water levels in reservoirs supplying the waterway."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+        "excerpt": "Officially named McGetchin after pioneering lunar scientist Tom McGetchin, the crater formed on the Moon’s eastern edge sometime between April 11 and May 22, 2024, after a comet or asteroid the size of a three- to six-story building hit the surface."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+        "excerpt": "The crash left a crater, 728 feet wide, that spans the length of two football fields. And at 141 feet deep, the crater could fit three vertically stacked yellow school buses."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+        "excerpt": "By comparing before and after images of the Moon, Wagner realized he had discovered the largest, newly formed crater ever found in the solar system."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "CRATER",
+      "storyId": "2026-09-17-4",
+      "teaser": "Today's word comes from a story about something new spotted on the Moon.",
+      "excerpt": "The crash left a crater, 728 feet wide, that spans the length of two football fields. And at 141 feet deep, the crater could fit three vertically stacked yellow school buses."
+    },
+    "letters": {
+      "pangram": "MINISTRY",
+      "storyId": "2026-09-17-2",
+      "teaser": "Today's letters come from a story about Japan's oldest residents.",
+      "excerpt": "In September 2026, the health ministry reported Japan had 107,677 people with 100 years old or older, the first time the country surpassed 100,000 people—with 94,298 as being women—since the beginning of the records in 1963"
+    },
+    "crossword": [
+      {
+        "answer": "NORTH",
+        "clue": "The Carolina that takes the WTA finals from 2027",
+        "storyId": "2026-09-17-1",
+        "excerpt": "The Women's Tennis Association (WTA) announces that its finals will move to Charlotte, North Carolina, United States, from Riyadh, Saudi Arabia, for three years beginning in 2027, with matches at the Spectrum Center."
+      },
+      {
+        "answer": "WOMEN",
+        "clue": "The 94,298 among Japan's oldest residents who are not men",
+        "storyId": "2026-09-17-2",
+        "excerpt": "In September 2026, the health ministry reported Japan had 107,677 people with 100 years old or older, the first time the country surpassed 100,000 people—with 94,298 as being women—since the beginning of the records in 1963"
+      },
+      {
+        "answer": "CANAL",
+        "clue": "The Panama waterway now taking 32 ships a day",
+        "storyId": "2026-09-17-3",
+        "excerpt": "The Panama Canal Authority reduces daily ship transits through the canal from 36 to 32 as below-average rainfall and a strengthening El Niño lower water levels in reservoirs supplying the waterway."
+      },
+      {
+        "answer": "MOON",
+        "clue": "Where McGetchin crater was found",
+        "storyId": "2026-09-17-4",
+        "excerpt": "By comparing before and after images of the Moon, Wagner realized he had discovered the largest, newly formed crater ever found in the solar system."
+      }
+    ]
+  }
+}

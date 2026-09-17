@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-17-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about something new spotted on the Moon."
+  },
+  "reveal": {
+    "answer": "CRATER",
+    "storyId": "2026-09-17-4",
+    "excerpt": "The crash left a crater, 728 feet wide, that spans the length of two football fields. And at 141 feet deep, the crater could fit three vertically stacked yellow school buses."
+  },
+  "storyId": "2026-09-17-4"
+}

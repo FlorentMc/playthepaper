@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-09-17-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "I",
+    "outer": "MNRSTY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about Japan's oldest residents."
+  },
+  "reveal": {
+    "answers": [
+      "INNS",
+      "INSIST",
+      "INSISTS",
+      "IRIS",
+      "MINI",
+      "MINISTRY",
+      "MINT",
+      "MINTS",
+      "MINTY",
+      "MIRI",
+      "MISS",
+      "MISSIS",
+      "MISSY",
+      "MIST",
+      "MISTS",
+      "MISTY",
+      "MITT",
+      "MITTS",
+      "NINNY",
+      "NITS",
+      "RIMS",
+      "SIMS",
+      "SINS",
+      "SIRS",
+      "SISSY",
+      "SITS",
+      "STINT",
+      "STIR",
+      "STIRS",
+      "TINNY",
+      "TINS",
+      "TINT",
+      "TINY",
+      "TITI",
+      "TRIM",
+      "TRINITY"
+    ],
+    "pangrams": [
+      "MINISTRY"
+    ],
+    "maxScore": 116,
+    "storyId": "2026-09-17-2",
+    "excerpt": "In September 2026, the health ministry reported Japan had 107,677 people with 100 years old or older, the first time the country surpassed 100,000 people—with 94,298 as being women—since the beginning of the records in 1963"
+  },
+  "storyId": "2026-09-17-2"
+}

@@ -1,16 +1,16 @@
 {
   "date": "2026-09-17",
-  "kind": "evergreen",
-  "label": "Evergreen · Culture",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-17-en-v1",
+    "word-2026-09-17-en-v2",
     "sudoku-2026-09-17-en-easy-v1",
     "sudoku-2026-09-17-en-medium-v1",
     "sudoku-2026-09-17-en-hard-v1",
-    "letters-2026-09-17-en-v1",
-    "crossword-2026-09-17-en-v1",
-    "quiz-2026-09-17-en-v1",
+    "letters-2026-09-17-en-v2",
+    "crossword-2026-09-17-en-v2",
+    "quiz-2026-09-17-en-v2",
     "bridges-2026-09-17-en-v1",
     "binary-2026-09-17-en-v1",
     "target-2026-09-17-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "culture-1-monalisa",
-      "headline": "A small panel that has hung in the Louvre since 1797",
-      "summary": "Leonardo da Vinci painted the Mona Lisa in oil on a white poplar panel, probably between 1503 and 1506, though he may have kept working on it as late as 1517. King Francis I of France acquired it after Leonardo's death in 1519, and it has normally been on display at the Louvre in Paris since 1797.",
+      "id": "2026-09-17-1",
+      "headline": "Women's tennis moves its finals from Riyadh to Charlotte",
+      "summary": "The Women's Tennis Association will move its season-ending finals to Charlotte, North Carolina, from Riyadh, Saudi Arabia. The arrangement runs for three years beginning in 2027, with matches at the Spectrum Center. The association is also relocating its global headquarters to Charlotte from St. Petersburg, Florida.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "publishedAt": "2026-09-16"
     },
     {
-      "id": "culture-1-piano",
-      "headline": "Eighty-eight keys, and the man who built the first of them",
-      "summary": "Most modern pianos have 52 white keys and 36 black keys, a total of 88. The invention of the instrument is credited to Bartolomeo Cristofori of Padua, keeper of the instruments for Ferdinando de' Medici, and an inventory made by the Medici family shows that a piano existed by 1700.",
+      "id": "2026-09-17-2",
+      "headline": "Japan counts more than 100,000 people aged 100 or older",
+      "summary": "Japan's health ministry has counted 107,677 people aged 100 or older. It is the first time the country has passed 100,000 since the records began in 1963. Of that number, 94,298 are women.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Piano",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Aging_of_Japan",
+      "publishedAt": "2026-09-15"
     },
     {
-      "id": "culture-1-tajmahal",
-      "headline": "A mausoleum in white marble on the bank of the Yamuna",
-      "summary": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his late wife, Mumtaz Mahal. The mausoleum was completed in 1648, and its most striking feature is the 23-metre-high marble dome above the tomb.",
+      "id": "2026-09-17-3",
+      "headline": "Fewer ships a day through the Panama Canal",
+      "summary": "The Panama Canal Authority has reduced the number of ships allowed through the canal each day from 36 to 32. Below-average rainfall and a strengthening El Niño have lowered water levels in the reservoirs that supply the waterway.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "2026-09-17-4",
+      "headline": "The largest new crater ever found is on the Moon",
+      "summary": "A scientist comparing before and after images of the Moon noticed something new on its eastern edge. It turned out to be the largest newly formed crater ever found in the solar system, now named McGetchin after the lunar scientist Tom McGetchin. It is 728 feet wide and 141 feet deep, and it formed between April 11 and May 22, 2024.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+      "publishedAt": "2026-09-16"
     }
   ],
   "seeds": {
-    "culture-1-monalisa": [
+    "2026-09-17-1": [
       "quiz:1",
+      "crossword:1 Down"
+    ],
+    "2026-09-17-2": [
+      "quiz:2",
       "quiz:4",
       "letters"
     ],
-    "culture-1-piano": [
-      "quiz:2",
-      "quiz:3",
-      "crossword:1 Down"
+    "2026-09-17-3": [
+      "quiz:3"
     ],
-    "culture-1-tajmahal": [
+    "2026-09-17-4": [
       "quiz:5",
       "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-17T02:25:26.184778Z"
 }
