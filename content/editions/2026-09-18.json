@@ -1,16 +1,16 @@
 {
   "date": "2026-09-18",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-18-en-v1",
+    "word-2026-09-18-en-v2",
     "sudoku-2026-09-18-en-easy-v1",
     "sudoku-2026-09-18-en-medium-v1",
     "sudoku-2026-09-18-en-hard-v1",
-    "letters-2026-09-18-en-v1",
-    "crossword-2026-09-18-en-v1",
-    "quiz-2026-09-18-en-v1",
+    "letters-2026-09-18-en-v2",
+    "crossword-2026-09-18-en-v2",
+    "quiz-2026-09-18-en-v2",
     "bridges-2026-09-18-en-v1",
     "binary-2026-09-18-en-v1",
     "target-2026-09-18-en-v1",
@@ -30,44 +30,56 @@
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-09-18-1",
+      "headline": "Clearlake Capital takes full control of Chelsea",
+      "summary": "Clearlake Capital has bought out Todd Boehly and Mark Walter's stakes to take full control of the Premier League club Chelsea. The deal values the 25 per cent share at around £950 million. Chelsea is now worth about £5 billion.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "publishedAt": "2026-09-16"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-09-18-2",
+      "headline": "Sweden's prime minister resigns after a three-seat defeat",
+      "summary": "Ulf Kristersson has announced his resignation as Prime Minister of Sweden. His right-wing bloc won 173 seats in the Riksdag, against 176 for the opposition led by Magdalena Andersson.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_17",
+      "publishedAt": "2026-09-17"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
+      "id": "2026-09-18-3",
+      "headline": "Americana awards return to the Ryman for a 25th year",
+      "summary": "The Americana Music Honors & Awards were held at the Ryman Auditorium in Nashville, Tennessee. It was the 25th edition of the ceremony, which began in 2002. The Heartbreakers performed for the first time since 2017.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Americana_Music_Honors_%26_Awards",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "id": "2026-09-18-4",
+      "headline": "The first new cat species in over a century",
+      "summary": "Biologists have named a new species of wild cat from Bolivia, the tilcayo tiger cat, which first became known to science in 2026. It is the first member of the cat family to be formally identified in over a century, after the Chinese mountain cat in 1892. It was found in the Yungas forest region, a cloud forest on the eastern slope of the Andes.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tilcayo_tiger_cat",
+      "publishedAt": "2026-09-17"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-09-18-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
+      "quiz:5",
       "crossword:1 Down"
     ],
-    "discovery-1-deep": [
+    "2026-09-18-2": [
+      "quiz:2",
+      "crossword:5 Across"
+    ],
+    "2026-09-18-3": [
       "quiz:3",
+      "letters"
+    ],
+    "2026-09-18-4": [
       "quiz:4",
       "word"
-    ],
-    "discovery-1-valley": [
-      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-09-18T02:23:04.374859Z"
 }

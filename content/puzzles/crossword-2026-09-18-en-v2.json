@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-18-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Snow runner"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Strike"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Kristersson's bloc won 173 of these in the Riksdag, three short of the opposition",
+          "storyId": "2026-09-18-2"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Hearing organ"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Had dinner"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "The 25 per cent slice of Chelsea that changed hands",
+          "storyId": "2026-09-18-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Set of tools"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Belonging to that thing"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Salt water expanse"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Have a meal"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##SKI",
+      "##HIT",
+      "SEATS",
+      "EAR##",
+      "ATE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-18-1",
+        "excerpt": "The deal is valued at around £950 million (€1.1 billion) for the 25% share. Chelsea is now worth about £5 billion (€5.8 billion)."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-09-18-2",
+        "excerpt": "Ulf Kristersson announces his resignation as Prime Minister of Sweden after his right-wing bloc win 173 seats in the Riksdag, compared to 176 won by the opposition, led by Magdalena Andersson."
+      }
+    ]
+  },
+  "storyId": "2026-09-18-1"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "quiz-2026-09-18-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "In association football, Clearlake Capital has bought out the stakes held by Todd Boehly and Mark Walter. The purchase gives it full control of a Premier League club.",
+        "prompt": "Which club is it?",
+        "options": [
+          "Arsenal",
+          "Chelsea",
+          "Everton",
+          "Tottenham Hotspur"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-18-1"
+      },
+      {
+        "lead": "Ulf Kristersson has announced his resignation as prime minister after his right-wing bloc won 173 seats, three fewer than the 176 won by the opposition led by Magdalena Andersson. The seats were contested in a general election in a Nordic country.",
+        "prompt": "Which country was it?",
+        "options": [
+          "Denmark",
+          "Finland",
+          "Norway",
+          "Sweden"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-18-2"
+      },
+      {
+        "lead": "The Americana Music Honors & Awards were held at the Ryman Auditorium, the 25th edition of a ceremony that began in 2002. The Heartbreakers performed there for the first time since 2017.",
+        "prompt": "In which city does the Ryman Auditorium stand?",
+        "options": [
+          "Austin",
+          "Memphis",
+          "Nashville",
+          "New Orleans"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-18-3"
+      },
+      {
+        "lead": "Biologists have named a new species of wild cat, the tilcayo tiger cat, found in the Yungas forest region on the eastern slope of the Andes. It is the first new member of the cat family identified in over a century.",
+        "prompt": "In which country was it found?",
+        "options": [
+          "Bolivia",
+          "Colombia",
+          "Ecuador",
+          "Peru"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-18-4"
+      },
+      {
+        "lead": "Clearlake Capital has taken full control of Chelsea after buying out Todd Boehly and Mark Walter. The club is now worth about £5 billion.",
+        "prompt": "What was the 25 per cent share they bought valued at?",
+        "options": [
+          "£95 million",
+          "£250 million",
+          "£950 million",
+          "£2.5 billion"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-18-1"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      3,
+      2,
+      0,
+      2
+    ],
+    "explanations": [
+      "The club is Chelsea, and Clearlake Capital now controls it outright after buying out Todd Boehly and Mark Walter. Chelsea is now worth about £5 billion.",
+      "The election was in Sweden, where Ulf Kristersson's right-wing bloc won 173 seats in the Riksdag against 176 for the opposition. Magdalena Andersson leads the opposition that won.",
+      "The Ryman Auditorium stands in Nashville, Tennessee. This was the 25th edition of the awards, which began in 2002.",
+      "The tilcayo tiger cat was found in Bolivia, in the Yungas forest region on the eastern slope of the Andes. It is the first new member of the cat family formally identified in over a century, after the Chinese mountain cat in 1892.",
+      "The 25 per cent share was valued at around £950 million, or €1.1 billion. Clearlake Capital bought it from Todd Boehly and Mark Walter to take full control of Chelsea."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "excerpt": "In association football, Clearlake Capital buys out Todd Boehly and Mark Walter's stakes to gain full control of Premier League club Chelsea."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "excerpt": "The deal is valued at around £950 million (€1.1 billion) for the 25% share. Chelsea is now worth about £5 billion (€5.8 billion)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_16",
+      "excerpt": "The Americana Music Honors & Awards are held at the Ryman Auditorium in Nashville, Tennessee, United States, with the Heartbreakers performing for the first time since lead vocalist Tom Petty's death in 2017."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_17",
+      "excerpt": "Ulf Kristersson announces his resignation as Prime Minister of Sweden after his right-wing bloc win 173 seats in the Riksdag, compared to 176 won by the opposition, led by Magdalena Andersson."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Americana_Music_Honors_%26_Awards",
+      "excerpt": "The ceremony is the 25th edition of the Americana Music Honors & Awards, which began in 2002."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tilcayo_tiger_cat",
+      "excerpt": "The tilcayo tiger cat, Leopardus tilcayo, is a species of wildcat from Bolivia, which first became known to science in 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tilcayo_tiger_cat",
+      "excerpt": "It is the first newly identified species of the Felidae family, or cat family, to be formally identified in over a century, after the Chinese mountain cat in 1892."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tilcayo_tiger_cat",
+      "excerpt": "The species was found in the Yungas forest region (a cloud forest), on the eastern slope of the Andes mountain range in Bolivia."
+    }
+  ]
+}

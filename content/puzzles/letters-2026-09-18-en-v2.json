@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-09-18-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "C",
+    "outer": "EMNORY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a night of Americana awards."
+  },
+  "reveal": {
+    "answers": [
+      "CEREMONY",
+      "COCO",
+      "COCOON",
+      "COERCE",
+      "COME",
+      "COMER",
+      "COMMENCE",
+      "COMMERCE",
+      "COMMON",
+      "COMMONER",
+      "CONCERN",
+      "CONE",
+      "CONEY",
+      "CONN",
+      "CONNER",
+      "CORE",
+      "CORN",
+      "CORNER",
+      "CORNY",
+      "CORONER",
+      "CORY",
+      "CREME",
+      "CROC",
+      "CRONE",
+      "CROON",
+      "CROONER",
+      "CRORE",
+      "ECONOMY",
+      "EMCEE",
+      "ENCORE",
+      "MERCER",
+      "MERCY",
+      "MOROCCO",
+      "NONCE",
+      "ONCE",
+      "RECON"
+    ],
+    "pangrams": [
+      "CEREMONY"
+    ],
+    "maxScore": 180,
+    "storyId": "2026-09-18-3",
+    "excerpt": "The ceremony is the 25th edition of the Americana Music Honors & Awards, which began in 2002."
+  },
+  "storyId": "2026-09-18-3"
+}

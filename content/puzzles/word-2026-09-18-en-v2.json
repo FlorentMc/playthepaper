@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-18-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a wild cat new to science."
+  },
+  "reveal": {
+    "answer": "FOREST",
+    "storyId": "2026-09-18-4",
+    "excerpt": "The species was found in the Yungas forest region (a cloud forest), on the eastern slope of the Andes mountain range in Bolivia."
+  },
+  "storyId": "2026-09-18-4"
+}
