@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-09-19-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-19",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Warren Buffett has stepped down as chairman of the company he led for decades, and his son Howard Graham Buffett replaces him. Greg Abel had already taken over as its chief executive at the beginning of 2026.",
+        "prompt": "Which company is it?",
+        "options": [
+          "Berkshire Hathaway",
+          "BlackRock",
+          "Goldman Sachs",
+          "JPMorgan Chase"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-19-1"
+      },
+      {
+        "lead": "The 16th-century Codex Azcatitlan has gone on display after France loaned two folios of it. It is an Aztec codex, normally housed at the Bibliothèque nationale de France, and it left its home country nearly two centuries ago.",
+        "prompt": "In which city is it now on show?",
+        "options": [
+          "Bogotá",
+          "Buenos Aires",
+          "Lima",
+          "Mexico City"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-19-3"
+      },
+      {
+        "lead": "A central bank has raised its benchmark interest rate by 0.25 percentage points, to its highest level since 1995. It cited inflation pressures from rising energy costs and a weak currency, and signalled further increases.",
+        "prompt": "Which central bank was it?",
+        "options": [
+          "The Bank of England",
+          "The Bank of Japan",
+          "The European Central Bank",
+          "The Federal Reserve"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-19-2"
+      },
+      {
+        "lead": "New Zealand's kakapo, the world's heaviest parrot, had a record breeding season this year, with 90 chicks added to the population. The Department of Conservation shared its latest tally on 1 September.",
+        "prompt": "How many kakapo did that tally come to?",
+        "options": [
+          "125",
+          "225",
+          "325",
+          "425"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-19-4"
+      },
+      {
+        "lead": "The Bank of Japan has raised its benchmark interest rate by 0.25 percentage points. It is the highest the rate has been since 1995, and the bank has signalled further increases.",
+        "prompt": "What level did the benchmark rate reach?",
+        "options": [
+          "0.75%",
+          "1.25%",
+          "1.75%",
+          "2.25%"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-19-2"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      3,
+      1,
+      2,
+      1
+    ],
+    "explanations": [
+      "The company is Berkshire Hathaway, and Warren Buffett's son Howard Graham Buffett replaces him as chairman. Greg Abel had already succeeded Buffett as chief executive at the beginning of 2026.",
+      "The codex is on display in Mexico City, after France loaned two folios of it. Mexico continues to seek the manuscript's permanent return from France.",
+      "It was the Bank of Japan, which raised its benchmark rate by 0.25 percentage points. It cited inflation pressures from rising energy costs and a weak yen.",
+      "The Department of Conservation shared a tally of 325 kakapo. A record 90 chicks were added to the population this year.",
+      "The rate reached 1.25%, the highest level since 1995. The Bank of Japan signalled further increases to come."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+      "excerpt": "Warren Buffett steps down as chairman of Berkshire Hathaway, with his son Howard Graham Buffett replacing him."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berkshire_Hathaway",
+      "excerpt": "Greg Abel succeeded Buffett as CEO at the beginning of 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+      "excerpt": "The Bank of Japan raises its benchmark interest rate by 0.25 percentage points to 1.25%, the highest level since 1995, citing inflation pressures from rising energy costs and a weak yen, and signals further increases."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_17",
+      "excerpt": "The 16th-century Codex Azcatitlan goes on display in Mexico City after France loaned two folios nearly two centuries after the manuscript left the country. Mexico continues seeking the codex's permanent return from France."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Codex_Azcatitlan",
+      "excerpt": "The Codex Azcatitlan is an Aztec codex detailing the history of the Mexica and their migration journey from Aztlán to the Spanish conquest of the Aztec Empire."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Codex_Azcatitlan",
+      "excerpt": "In the Bibliothèque nationale de France, where it is housed, it is known as Histoire mexicaine, [Manuscrit] Mexicain 59–64."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/new-zealand-welcomes-a-record-90-kakapo-chicks-helping-the-worlds-chunkiest-parrot-species-rebound-from-the-brink-of-extinction-180989511/",
+      "excerpt": "A record 90 chicks have been added to New Zealand's kakapo population this year, raising hopes that the critically endangered parrots can bounce back from the brink of extinction."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/new-zealand-welcomes-a-record-90-kakapo-chicks-helping-the-worlds-chunkiest-parrot-species-rebound-from-the-brink-of-extinction-180989511/",
+      "excerpt": "The kakapo, which lives only in New Zealand, is the world's heaviest parrot, topping the scales at up to nine pounds."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/new-zealand-welcomes-a-record-90-kakapo-chicks-helping-the-worlds-chunkiest-parrot-species-rebound-from-the-brink-of-extinction-180989511/",
+      "excerpt": "On September 1, New Zealand's Department of Conservation shared the latest tally: 325 kakapo individuals."
+    }
+  ]
+}

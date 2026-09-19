@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-19-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-19",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a record breeding season in New Zealand."
+  },
+  "reveal": {
+    "answer": "PARROT",
+    "storyId": "2026-09-19-4",
+    "excerpt": "The kakapo, which lives only in New Zealand, is the world's heaviest parrot, topping the scales at up to nine pounds."
+  },
+  "storyId": "2026-09-19-4"
+}

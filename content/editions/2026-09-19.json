@@ -1,16 +1,16 @@
 {
   "date": "2026-09-19",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-19-en-v1",
+    "word-2026-09-19-en-v2",
     "sudoku-2026-09-19-en-easy-v1",
     "sudoku-2026-09-19-en-medium-v1",
     "sudoku-2026-09-19-en-hard-v1",
-    "letters-2026-09-19-en-v1",
-    "crossword-2026-09-19-en-v1",
-    "quiz-2026-09-19-en-v1",
+    "letters-2026-09-19-en-v2",
+    "crossword-2026-09-19-en-v2",
+    "quiz-2026-09-19-en-v2",
     "bridges-2026-09-19-en-v1",
     "binary-2026-09-19-en-v1",
     "target-2026-09-19-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-09-19-1",
+      "headline": "Warren Buffett hands the Berkshire chair to his son",
+      "summary": "Warren Buffett has stepped down as chairman of Berkshire Hathaway. His son, Howard Graham Buffett, replaces him. Greg Abel had already succeeded Warren Buffett as chief executive at the beginning of 2026.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+      "publishedAt": "2026-09-18"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
+      "id": "2026-09-19-2",
+      "headline": "Japan's benchmark rate rises to its highest since 1995",
+      "summary": "The Bank of Japan has raised its benchmark interest rate by 0.25 percentage points to 1.25 per cent. That is the highest level since 1995. The bank pointed to inflation pressures from rising energy costs and a weak yen, and signalled further increases.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+      "publishedAt": "2026-09-18"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
+      "id": "2026-09-19-3",
+      "headline": "An Aztec codex returns to Mexico City on loan",
+      "summary": "The 16th-century Codex Azcatitlan has gone on display in Mexico City, after France loaned two folios. The manuscript left the country nearly two centuries ago. It sets out the history of the Mexica and their migration journey from Aztlán.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_17",
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "2026-09-19-4",
+      "headline": "A record year for the world's heaviest parrot",
+      "summary": "A record 90 chicks have been added to New Zealand's kakapo population this year. The Department of Conservation shared a tally of 325 birds on 1 September. The kakapo lives only in New Zealand and is the world's heaviest parrot.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/new-zealand-welcomes-a-record-90-kakapo-chicks-helping-the-worlds-chunkiest-parrot-species-rebound-from-the-brink-of-extinction-180989511/",
+      "publishedAt": "2026-09-17"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
+    "2026-09-19-1": [
       "quiz:1",
-      "quiz:5",
-      "word"
+      "crossword:1 Down"
     ],
-    "everyday-1-dominoes": [
+    "2026-09-19-3": [
       "quiz:2",
-      "quiz:3",
       "letters"
     ],
-    "everyday-1-greenwich": [
+    "2026-09-19-2": [
+      "quiz:3",
+      "quiz:5"
+    ],
+    "2026-09-19-4": [
       "quiz:4",
-      "crossword:1 Down"
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-19T02:22:54.036882Z"
 }
