@@ -1,0 +1,133 @@
+{
+  "slug": "2026-09-20",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-20-1",
+      "headline": "Japan take a fourth Pacific Nations Cup title",
+      "summary": "Japan have won the Pacific Nations Cup for the fourth time. They beat Fiji 20–15 in the final in Tokyo on 19 September. The semi-finals had been played in Ōsaka a week earlier, on 12 September.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Rugby_Pacific_Nations_Cup",
+      "publishedAt": "2026-09-19"
+    },
+    {
+      "id": "2026-09-20-2",
+      "headline": "Bolivia's senate backs a loan of US$1.9 billion",
+      "summary": "Bolivia's Senate has ratified an agreement to take a loan of US$1.9 billion from the International Monetary Fund. The country is in a deep economic crisis. Trade unions have threatened renewed protests in response.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "2026-09-20-3",
+      "headline": "A new snake from New Guinea is named after Slash",
+      "summary": "Researchers have named a newly identified snake from New Guinea Lielaphis slashi, or Slash's groundsnake. It honours the Guns N' Roses guitarist, who has been fascinated by reptiles for most of his life. The reddish-brown snake measures 28 inches long and was collected in the island's forests.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm",
+      "publishedAt": "2026-09-18"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Japan won the Pacific Nations Cup for the fourth time on 19 September, beating a Pacific rival in the final.",
+          "prompt": "Which team did Japan beat in the final?",
+          "options": ["Fiji", "Samoa", "Tonga", "Canada"],
+          "level": "easy",
+          "storyId": "2026-09-20-1"
+        },
+        {
+          "lead": "The Pacific Nations Cup was played in Japan, with the semi-finals on 12 September in Ōsaka and the final a week later.",
+          "prompt": "Which city hosted the final?",
+          "options": ["Tokyo", "Ōsaka", "Nagoya", "Sapporo"],
+          "level": "easy",
+          "storyId": "2026-09-20-1"
+        },
+        {
+          "lead": "Bolivia's Senate has ratified an agreement to take a loan of US$1.9 billion as the country faces a deep economic crisis.",
+          "prompt": "Which institution is lending the money?",
+          "options": ["International Monetary Fund", "World Bank", "Inter-American Development Bank", "European Investment Bank"],
+          "level": "easy",
+          "storyId": "2026-09-20-2"
+        },
+        {
+          "lead": "Researchers have described a snake species new to science and named it Lielaphis slashi, after Slash, the guitarist of Guns N' Roses.",
+          "prompt": "Where was the snake found?",
+          "options": ["New Guinea", "Borneo", "Madagascar", "Sumatra"],
+          "level": "medium",
+          "storyId": "2026-09-20-3"
+        },
+        {
+          "lead": "The specimen that turned out to be Slash's groundsnake is reddish-brown and was collected in the forests of New Guinea.",
+          "prompt": "How long is the snake?",
+          "options": ["8 inches", "18 inches", "28 inches", "48 inches"],
+          "level": "hard",
+          "storyId": "2026-09-20-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 0, 0, 2],
+      "explanations": [
+        "Japan beat Fiji 20–15 in the Grand Final. It was their fourth Pacific Nations Cup title.",
+        "The final was played in Tokyo on 19 September. The semi-finals had been held in Ōsaka on 12 September.",
+        "The loan of US$1.9 billion comes from the International Monetary Fund. Bolivia's Senate ratified the agreement as the country faces a deep economic crisis.",
+        "The snake was collected in the forests of New Guinea. It has been named Lielaphis slashi, or Slash's groundsnake.",
+        "The reddish-brown snake measures 28 inches long. It was collected in the forests of New Guinea."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_World_Rugby_Pacific_Nations_Cup",
+        "excerpt": "Japan won the tournament for the fourth time after defeating Fiji 20–15 in the Grand Final. Semi-finals were held in Ōsaka on 12 September, followed by the third-place play-off and final in Tokyo on 19 September."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
+        "excerpt": "The Senate of Bolivia ratifies an agreement to take a US$1.9 billion loan from the International Monetary Fund amid a deep economic crisis in the country, with trade unions threatening renewed protests in response."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm",
+        "excerpt": "Researchers have named a newly identified snake species from New Guinea Lielaphis slashi, or Slash's groundsnake. Her opportunity eventually came in the form of a reddish-brown snake measuring 28 inches long that had been collected in the forests of New Guinea."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SUNSET",
+      "storyId": "2026-09-20-3",
+      "teaser": "Today's word comes from a story about a snake newly named in New Guinea.",
+      "excerpt": "They are typically found just after sunset at the base of large trees where they are looking for something to eat."
+    },
+    "letters": {
+      "pangram": "GUITARIST",
+      "storyId": "2026-09-20-3",
+      "teaser": "Today's letters come from the musician the new snake is named after.",
+      "excerpt": "Slash, also known as Saul Hudson, is famous worldwide as the guitarist for Guns N' Roses."
+    },
+    "crossword": [
+      {
+        "answer": "FINAL",
+        "clue": "The last match of the Pacific Nations Cup, played in Tokyo",
+        "storyId": "2026-09-20-1",
+        "excerpt": "Semi-finals were held in Ōsaka on 12 September, followed by the third-place play-off and final in Tokyo on 19 September."
+      },
+      {
+        "answer": "LOAN",
+        "clue": "What Bolivia's senate agreed to take from the International Monetary Fund",
+        "storyId": "2026-09-20-2",
+        "excerpt": "The Senate of Bolivia ratifies an agreement to take a US$1.9 billion loan from the International Monetary Fund amid a deep economic crisis in the country."
+      },
+      {
+        "answer": "SNAKE",
+        "clue": "The reddish-brown creature that turned out to be a species new to science",
+        "storyId": "2026-09-20-3",
+        "excerpt": "Her opportunity eventually came in the form of a reddish-brown snake measuring 28 inches long that had been collected in the forests of New Guinea."
+      }
+    ]
+  }
+}

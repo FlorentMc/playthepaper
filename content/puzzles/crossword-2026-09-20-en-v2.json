@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-20-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#...#",
+      ".....",
+      ".....",
+      ".....",
+      "#...#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Amusement"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Pit worker"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Way in"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Innocent"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "clue": "Sheltered side"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "The last match of the Pacific Nations Cup, played in Tokyo",
+          "storyId": "2026-09-20-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Undo a knot"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Body's signal carrier"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Gentlemen"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Bread grain"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#FUN#",
+      "MINER",
+      "ENTRY",
+      "NAIVE",
+      "#LEE#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-20-1",
+        "excerpt": "Semi-finals were held in Ōsaka on 12 September, followed by the third-place play-off and final in Tokyo on 19 September."
+      }
+    ]
+  },
+  "storyId": "2026-09-20-1"
+}

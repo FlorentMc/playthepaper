@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-20-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a snake newly named in New Guinea."
+  },
+  "reveal": {
+    "answer": "SUNSET",
+    "storyId": "2026-09-20-3",
+    "excerpt": "They are typically found just after sunset at the base of large trees where they are looking for something to eat."
+  },
+  "storyId": "2026-09-20-3"
+}
