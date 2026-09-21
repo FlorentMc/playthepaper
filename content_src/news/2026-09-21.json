@@ -1,0 +1,172 @@
+{
+  "slug": "2026-09-21",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-21-1",
+      "headline": "The Asian Games open in Nagoya, and the host takes the first gold",
+      "summary": "The 20th Asian Games have opened in Nagoya, in Japan's Aichi Prefecture. Emperor Naruhito declared the Games open. The first gold medal went to the Japanese triathlete Takumi Hojo.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "id": "2026-09-21-2",
+      "headline": "Joey Logano wins the night race at Bristol",
+      "summary": "Joey Logano has won the Bass Pro Shops Night Race at Bristol Motor Speedway in Bristol, Tennessee. It was held on 19 September and was the 29th race of the NASCAR Cup Series season. Kyle Larson finished second and Carson Hocevar third.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Bass_Pro_Shops_Night_Race",
+      "publishedAt": "2026-09-19"
+    },
+    {
+      "id": "2026-09-21-3",
+      "headline": "Michelle Bachelet leaves the race to lead the United Nations",
+      "summary": "Michelle Bachelet of Chile has withdrawn from the race to become Secretary-General of the United Nations, saying she had lost support. She added that the latest informal poll puts Rebeca Grynspan of Costa Rica in the lead.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_19",
+      "publishedAt": "2026-09-19"
+    },
+    {
+      "id": "2026-09-21-4",
+      "headline": "Thirteen fatty acids give each cat its own scent",
+      "summary": "Researchers led by Iwate University have studied how cats tell one another apart by the smell of urine. They identified 13 branched-chain fatty acids whose mixture varies from one cat to the next, while staying much the same in a single animal. The compounds turned up in the kidney and in none of the other tissues examined.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+      "publishedAt": "2026-09-20"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The 20th Asian Games have opened in Japan, in Aichi Prefecture, at a ceremony led by Emperor Naruhito.",
+          "prompt": "Which city is hosting the Games?",
+          "options": ["Nagoya", "Sapporo", "Fukuoka", "Yokohama"],
+          "level": "easy",
+          "storyId": "2026-09-21-1"
+        },
+        {
+          "lead": "The first gold medal of the 2026 Asian Games went to Takumi Hojo of Japan, the host country.",
+          "prompt": "In which sport did he win it?",
+          "options": ["Triathlon", "Judo", "Swimming", "Archery"],
+          "level": "easy",
+          "storyId": "2026-09-21-1"
+        },
+        {
+          "lead": "The Bass Pro Shops Night Race was held on 19 September at Bristol Motor Speedway in Tennessee, the 29th race of the NASCAR Cup Series season.",
+          "prompt": "Who won it?",
+          "options": ["Joey Logano", "Kyle Larson", "Carson Hocevar", "Christopher Bell"],
+          "level": "easy",
+          "storyId": "2026-09-21-2"
+        },
+        {
+          "lead": "Michelle Bachelet of Chile has withdrawn from the race to become Secretary-General of the United Nations, and the latest informal poll puts Rebeca Grynspan in the lead.",
+          "prompt": "Which country does Rebeca Grynspan come from?",
+          "options": ["Costa Rica", "Uruguay", "Panama", "Ecuador"],
+          "level": "medium",
+          "storyId": "2026-09-21-3"
+        },
+        {
+          "lead": "Cats can tell one another apart by the smell of urine, and researchers led by Iwate University traced part of that to a set of branched-chain fatty acids.",
+          "prompt": "How many of those fatty acids did the team identify?",
+          "options": ["3", "13", "30", "300"],
+          "level": "hard",
+          "storyId": "2026-09-21-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 0, 0, 1],
+      "explanations": [
+        "The Games are being held in Nagoya, in Aichi Prefecture. Emperor Naruhito opened the 20th Asian Games there.",
+        "Takumi Hojo won the first gold medal of the Games in the triathlon. He was competing at home, for the host country.",
+        "Joey Logano won the Bass Pro Shops Night Race. Kyle Larson finished second and Carson Hocevar third.",
+        "Rebeca Grynspan comes from Costa Rica. The latest informal poll reports her in the lead to become Secretary-General of the United Nations.",
+        "The team identified 13 branched-chain fatty acids. Their mixture varies from one cat to the next, while staying much the same in a single animal."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+        "excerpt": "Japanese triathlete Takumi Hojo wins the first gold medal of the 2026 Asian Games."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_19",
+        "excerpt": "The 20th Asian Games are opened by Emperor Naruhito in Nagoya, Aichi Prefecture, Japan."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bass_Pro_Shops_Night_Race",
+        "excerpt": "The 2026 Bass Pro Shops Night Race was a NASCAR Cup Series race held on September 19, 2026, at Bristol Motor Speedway in Bristol, Tennessee on the 0.533-mile (0.858 km) concrete oval, it was the 29th race of the 2026 NASCAR Cup Series season."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bass_Pro_Shops_Night_Race",
+        "excerpt": "Joey Logano won the race. Kyle Larson finished 2nd, and Carson Hocevar finished 3rd."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_19",
+        "excerpt": "Chilean Michelle Bachelet announces that she is withdrawing from the race to become UN Secretary-General after losing support, and that in the latest informal poll, Costa Rica’s Rebeca Grynspan is reported in the lead."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+        "excerpt": "The scientists identified 13 branched-chain fatty acids (BFAs). The particular mixture and proportions of these compounds varied from one cat to another, yet remained relatively consistent within the same animal."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+        "excerpt": "\"After confirming that cats can distinguish individual urine odors, we used the flehmen response as a clue to identify urinary molecules that may contribute to individual scent recognition,\" said Professor Masao Miyazaki of Iwate University, who led the research project."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+        "excerpt": "Researchers detected BFAs in the kidney but not in the other tissues they examined."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "KIDNEY",
+      "storyId": "2026-09-21-4",
+      "teaser": "Today's word comes from a story about how cats tell one another apart.",
+      "excerpt": "Researchers detected BFAs in the kidney but not in the other tissues they examined."
+    },
+    "letters": {
+      "pangram": "BRISTOL",
+      "storyId": "2026-09-21-2",
+      "teaser": "Today's letters come from the Tennessee track where the night race was run.",
+      "excerpt": "The 2026 Bass Pro Shops Night Race was a NASCAR Cup Series race held on September 19, 2026, at Bristol Motor Speedway in Bristol, Tennessee on the 0.533-mile (0.858 km) concrete oval, it was the 29th race of the 2026 NASCAR Cup Series season."
+    },
+    "crossword": [
+      {
+        "answer": "MEDAL",
+        "clue": "Gold, silver or bronze at the Asian Games",
+        "storyId": "2026-09-21-1",
+        "excerpt": "Japanese triathlete Takumi Hojo wins the first gold medal of the 2026 Asian Games."
+      },
+      {
+        "answer": "RACE",
+        "clue": "What Joey Logano won at Bristol Motor Speedway",
+        "storyId": "2026-09-21-2",
+        "excerpt": "Joey Logano won the race. Kyle Larson finished 2nd, and Carson Hocevar finished 3rd."
+      },
+      {
+        "answer": "POLL",
+        "clue": "An informal vote among diplomats, now led by Rebeca Grynspan",
+        "storyId": "2026-09-21-3",
+        "excerpt": "Chilean Michelle Bachelet announces that she is withdrawing from the race to become UN Secretary-General after losing support, and that in the latest informal poll, Costa Rica’s Rebeca Grynspan is reported in the lead."
+      },
+      {
+        "answer": "SCENT",
+        "clue": "What a cat leaves in urine to say who it is",
+        "storyId": "2026-09-21-4",
+        "excerpt": "\"After confirming that cats can distinguish individual urine odors, we used the flehmen response as a clue to identify urinary molecules that may contribute to individual scent recognition,\" said Professor Masao Miyazaki of Iwate University, who led the research project."
+      }
+    ]
+  }
+}

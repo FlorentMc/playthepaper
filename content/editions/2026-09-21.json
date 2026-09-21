@@ -1,16 +1,16 @@
 {
   "date": "2026-09-21",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-21-en-v1",
+    "word-2026-09-21-en-v2",
     "sudoku-2026-09-21-en-easy-v1",
     "sudoku-2026-09-21-en-medium-v1",
     "sudoku-2026-09-21-en-hard-v1",
-    "letters-2026-09-21-en-v1",
-    "crossword-2026-09-21-en-v1",
-    "quiz-2026-09-21-en-v1",
+    "letters-2026-09-21-en-v2",
+    "crossword-2026-09-21-en-v2",
+    "quiz-2026-09-21-en-v2",
     "bridges-2026-09-21-en-v1",
     "binary-2026-09-21-en-v1",
     "target-2026-09-21-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-09-21-1",
+      "headline": "The Asian Games open in Nagoya, and the host takes the first gold",
+      "summary": "The 20th Asian Games have opened in Nagoya, in Japan's Aichi Prefecture. Emperor Naruhito declared the Games open. The first gold medal went to the Japanese triathlete Takumi Hojo.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+      "publishedAt": "2026-09-20"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-09-21-2",
+      "headline": "Joey Logano wins the night race at Bristol",
+      "summary": "Joey Logano has won the Bass Pro Shops Night Race at Bristol Motor Speedway in Bristol, Tennessee. It was held on 19 September and was the 29th race of the NASCAR Cup Series season. Kyle Larson finished second and Carson Hocevar third.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Bass_Pro_Shops_Night_Race",
+      "publishedAt": "2026-09-19"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
+      "id": "2026-09-21-3",
+      "headline": "Michelle Bachelet leaves the race to lead the United Nations",
+      "summary": "Michelle Bachelet of Chile has withdrawn from the race to become Secretary-General of the United Nations, saying she had lost support. She added that the latest informal poll puts Rebeca Grynspan of Costa Rica in the lead.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_19",
+      "publishedAt": "2026-09-19"
+    },
+    {
+      "id": "2026-09-21-4",
+      "headline": "Thirteen fatty acids give each cat its own scent",
+      "summary": "Researchers led by Iwate University have studied how cats tell one another apart by the smell of urine. They identified 13 branched-chain fatty acids whose mixture varies from one cat to the next, while staying much the same in a single animal. The compounds turned up in the kidney and in none of the other tissues examined.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260919031033.htm",
+      "publishedAt": "2026-09-20"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-09-21-1": [
       "quiz:1",
-      "quiz:5",
+      "quiz:2",
       "crossword:1 Down"
     ],
-    "nature-1-falls": [
-      "quiz:2",
-      "quiz:4",
+    "2026-09-21-2": [
+      "quiz:3",
       "letters"
     ],
-    "nature-1-galapagos": [
-      "quiz:3",
+    "2026-09-21-3": [
+      "quiz:4"
+    ],
+    "2026-09-21-4": [
+      "quiz:5",
       "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-21T02:26:40.943572Z"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-21-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-21",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "K",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about how cats tell one another apart."
+  },
+  "reveal": {
+    "answer": "KIDNEY",
+    "storyId": "2026-09-21-4",
+    "excerpt": "Researchers detected BFAs in the kidney but not in the other tissues they examined."
+  },
+  "storyId": "2026-09-21-4"
+}
