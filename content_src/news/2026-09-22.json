@@ -1,0 +1,198 @@
+{
+  "slug": "2026-09-22",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-22-1",
+      "headline": "Evenepoel wins a fourth straight world time trial title",
+      "summary": "Remco Evenepoel of Belgium has won the men's individual time trial at the Road World Championships in Montreal, Canada. He is the first man to win four consecutive titles in the event. The ride also equals the joint record for the most titles, held by Fabian Cancellara and Tony Martin.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_time_trial",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "id": "2026-09-22-2",
+      "headline": "Turf at 157 degrees as heat settles over Nashville",
+      "summary": "The artificial turf at Nissan Stadium in Nashville, Tennessee, reportedly reached 157 °F during the Tennessee Titans match against the Philadelphia Eagles. That is about 69 °C. Air temperatures at the time were approximately 95 °F.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "id": "2026-09-22-3",
+      "headline": "Singapore sets fines for eating on public buses",
+      "summary": "Singapore's Land Transport Authority has introduced fines of up to S$500, about US$390, for eating on public buses or placing feet on seats. Severe cleanliness or safety violations can incur penalties of up to S$5,000, about US$3,900.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_21",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "2026-09-22-4",
+      "headline": "A scrap in a Utrecht library turns out to be The Odyssey",
+      "summary": "A fragment of parchment was hidden among a collection of early Christian manuscripts from Egypt, stored within the library of Utrecht University. Mark de Kreij, of nearby Radboud University, recognised it as an excerpt from Book 12 of The Odyssey. Only about 30 pieces of the poem have been found that date to the third or fourth century.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-researcher-studying-in-a-dutch-library-was-amazed-to-discover-a-scrap-of-parchment-from-a-1700-year-old-copy-of-the-odyssey-180989524/",
+      "publishedAt": "2026-09-21"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The men's individual time trial at the Road World Championships was held on 20 September, and one rider took the title for a fourth year in a row.",
+          "prompt": "Which rider was it?",
+          "options": [
+            "Remco Evenepoel",
+            "Fabian Cancellara",
+            "Tony Martin",
+            "Filippo Ganna"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-22-1"
+        },
+        {
+          "lead": "Extreme heat sat over Nashville during the Tennessee Titans match against the Philadelphia Eagles, with air temperatures of approximately 95 °F.",
+          "prompt": "How hot did the artificial turf at Nissan Stadium reportedly get?",
+          "options": [
+            "117 °F",
+            "137 °F",
+            "157 °F",
+            "177 °F"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-22-2"
+        },
+        {
+          "lead": "Singapore's Land Transport Authority has introduced penalties for passengers who eat on public buses or place their feet on the seats.",
+          "prompt": "What is the largest fine for those two offences?",
+          "options": [
+            "S$50",
+            "S$150",
+            "S$500",
+            "S$1,500"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-22-3"
+        },
+        {
+          "lead": "Remco Evenepoel's win in the individual time trial was his fourth in a row, the first time any man has managed that at the Road World Championships.",
+          "prompt": "Which city held the time trial?",
+          "options": [
+            "Montreal",
+            "Vancouver",
+            "Toronto",
+            "Quebec City"
+          ],
+          "level": "medium",
+          "storyId": "2026-09-22-1"
+        },
+        {
+          "lead": "A researcher found a fragment of The Odyssey among early Christian manuscripts from Egypt held in the library of Utrecht University.",
+          "prompt": "About how many pieces of the poem have been found from the third or fourth century?",
+          "options": [
+            "About 3",
+            "About 30",
+            "About 300",
+            "About 3,000"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-22-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        0,
+        2,
+        2,
+        0,
+        1
+      ],
+      "explanations": [
+        "Remco Evenepoel of Belgium won the time trial. He is the first man to win four consecutive Road World Championship titles in the event.",
+        "The artificial turf reportedly reached 157 °F, or about 69 °C. The air above it was approximately 95 °F at the time of the game.",
+        "The fines run to S$500, about US$390. Severe cleanliness or safety violations can incur penalties of up to S$5,000.",
+        "The time trial took place in Montreal, Canada, on 20 September 2026. Evenepoel's win equals Fabian Cancellara and Tony Martin's joint record for the most titles.",
+        "Only about 30 pieces have been found that date to the third or fourth century. The Utrecht fragment carries verses from Book 12, recognised by Mark de Kreij of Radboud University."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_time_trial",
+        "excerpt": "The Men's time trial of the 2026 UCI Road World Championships was a cycling event that took place on 20 September 2026 in Montreal, Canada."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+        "excerpt": "In cycling, Belgian rider Remco Evenepoel becomes the first man to win four consecutive Road World Championship titles in the individual time trial event and equals Fabian Cancellara and Tony Martin's joint record for the most titles."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_20",
+        "excerpt": "In American football, the artificial turf at Nissan Stadium in Nashville, Tennessee, U.S., reportedly reaches 157 °F (69 °C) amidst extreme heat during the Tennessee Titans matchup against the Philadelphia Eagles. Air temperatures were approximately 95 °F (35 °C) at the time of the game."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_21",
+        "excerpt": "Singapore's Land Transport Authority introduces fines of up to S$500 (US$390) for eating on public buses or placing feet on seats, while severe cleanliness or safety violations can incur penalties of up to S$5,000 (US$3,900)."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-researcher-studying-in-a-dutch-library-was-amazed-to-discover-a-scrap-of-parchment-from-a-1700-year-old-copy-of-the-odyssey-180989524/",
+        "excerpt": "The fragment was hidden among a collection of early Christian manuscripts from Egypt, stored within the library of Utrecht University."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-researcher-studying-in-a-dutch-library-was-amazed-to-discover-a-scrap-of-parchment-from-a-1700-year-old-copy-of-the-odyssey-180989524/",
+        "excerpt": "Within these Greek texts, Mark de Kreij, an expert in Greek language and literature at nearby Radboud University, found a “damaged and discolored fragment with very small, neat letters,” per the statement. He recognized it as an excerpt from The Odyssey—specifically, Book 12."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-researcher-studying-in-a-dutch-library-was-amazed-to-discover-a-scrap-of-parchment-from-a-1700-year-old-copy-of-the-odyssey-180989524/",
+        "excerpt": "Portions of The Odyssey that are this old are rare: Only about 30 pieces have been found that date to the third or fourth century."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "HIDDEN",
+      "storyId": "2026-09-22-4",
+      "teaser": "Today's word comes from a story about a scrap of parchment in a Dutch library.",
+      "excerpt": "The fragment was hidden among a collection of early Christian manuscripts from Egypt, stored within the library of Utrecht University."
+    },
+    "letters": {
+      "pangram": "STADIUM",
+      "storyId": "2026-09-22-2",
+      "teaser": "Today's letters come from the Nashville ground where the turf grew too hot.",
+      "excerpt": "In American football, the artificial turf at Nissan Stadium in Nashville, Tennessee, U.S., reportedly reaches 157 °F (69 °C) amidst extreme heat during the Tennessee Titans matchup against the Philadelphia Eagles. Air temperatures were approximately 95 °F (35 °C) at the time of the game."
+    },
+    "crossword": [
+      {
+        "answer": "TRIAL",
+        "clue": "The race against the clock that Evenepoel won for a fourth year",
+        "storyId": "2026-09-22-1",
+        "excerpt": "In cycling, Belgian rider Remco Evenepoel becomes the first man to win four consecutive Road World Championship titles in the individual time trial event and equals Fabian Cancellara and Tony Martin's joint record for the most titles."
+      },
+      {
+        "answer": "TURF",
+        "clue": "The artificial surface that reached 157 degrees in Nashville",
+        "storyId": "2026-09-22-2",
+        "excerpt": "In American football, the artificial turf at Nissan Stadium in Nashville, Tennessee, U.S., reportedly reaches 157 °F (69 °C) amidst extreme heat during the Tennessee Titans matchup against the Philadelphia Eagles. Air temperatures were approximately 95 °F (35 °C) at the time of the game."
+      },
+      {
+        "answer": "BUSES",
+        "clue": "Where eating now costs up to S$500 in Singapore",
+        "storyId": "2026-09-22-3",
+        "excerpt": "Singapore's Land Transport Authority introduces fines of up to S$500 (US$390) for eating on public buses or placing feet on seats, while severe cleanliness or safety violations can incur penalties of up to S$5,000 (US$3,900)."
+      },
+      {
+        "answer": "GREEK",
+        "clue": "The language of the texts among which the fragment lay",
+        "storyId": "2026-09-22-4",
+        "excerpt": "Within these Greek texts, Mark de Kreij, an expert in Greek language and literature at nearby Radboud University, found a “damaged and discolored fragment with very small, neat letters,” per the statement. He recognized it as an excerpt from The Odyssey—specifically, Book 12."
+      }
+    ]
+  }
+}

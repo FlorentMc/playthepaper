@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-22-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "H",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a scrap of parchment in a Dutch library."
+  },
+  "reveal": {
+    "answer": "HIDDEN",
+    "storyId": "2026-09-22-4",
+    "excerpt": "The fragment was hidden among a collection of early Christian manuscripts from Egypt, stored within the library of Utrecht University."
+  },
+  "storyId": "2026-09-22-4"
+}

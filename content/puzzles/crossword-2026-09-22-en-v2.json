@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-22-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "....#",
+      ".....",
+      "#....",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Greek letter"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Swallow quickly"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "The language of the texts among which the fragment lay",
+          "storyId": "2026-09-22-4"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Costing nothing"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Have a go"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Omelette ingredient"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "The artificial surface that reached 157 degrees in Nashville",
+          "storyId": "2026-09-22-2"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Watchful"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Equal"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Piano part"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "ETA##",
+      "GULP#",
+      "GREEK",
+      "#FREE",
+      "##TRY"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "2026-09-22-2",
+        "excerpt": "In American football, the artificial turf at Nissan Stadium in Nashville, Tennessee, U.S., reportedly reaches 157 °F (69 °C) amidst extreme heat during the Tennessee Titans matchup against the Philadelphia Eagles. Air temperatures were approximately 95 °F (35 °C) at the time of the game."
+      },
+      {
+        "label": "6 Across",
+        "storyId": "2026-09-22-4",
+        "excerpt": "Within these Greek texts, Mark de Kreij, an expert in Greek language and literature at nearby Radboud University, found a “damaged and discolored fragment with very small, neat letters,” per the statement. He recognized it as an excerpt from The Odyssey—specifically, Book 12."
+      }
+    ]
+  },
+  "storyId": "2026-09-22-2"
+}
