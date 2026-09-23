@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-09-23-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The electric vehicle brand Ceer Motors has unveiled its first two models, both carrying the name EXOBOT.",
+        "prompt": "In which country were they unveiled?",
+        "options": [
+          "United Arab Emirates",
+          "Saudi Arabia",
+          "Qatar",
+          "Oman"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-23-1"
+      },
+      {
+        "lead": "Forest & Bird runs an annual competition to choose New Zealand's Bird of the Year, and about 105,000 votes were cast this time.",
+        "prompt": "Which critically endangered bird won?",
+        "options": [
+          "Kea",
+          "Kākāpō",
+          "Black robin",
+          "Hoiho"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-23-2"
+      },
+      {
+        "lead": "Ceer Motors, whose name means drive forward in Arabic, has put the EXOBOT badge on its first two electric models.",
+        "prompt": "Which two kinds of vehicle are they?",
+        "options": [
+          "A pickup and a van",
+          "A hatchback and an estate",
+          "A minibus and a coach",
+          "An SUV and a sedan"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-23-1"
+      },
+      {
+        "lead": "Researchers who reached a remote site in the Quebec wilderness found shatter cones in the rock, the mark of an ancient impact rather than a volcano.",
+        "prompt": "About how wide is the crater?",
+        "options": [
+          "About 5 kilometres",
+          "About 25 kilometres",
+          "About 75 kilometres",
+          "About 150 kilometres"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-23-3"
+      },
+      {
+        "lead": "The black robin was once close to disappearing from the Chatham Islands, and its recovery is credited to a female known as Old Blue.",
+        "prompt": "How many black robins survived on Little Mangere Island in 1980?",
+        "options": [
+          "Five",
+          "Fifteen",
+          "Fifty",
+          "Two hundred"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-23-2"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      2,
+      3,
+      1,
+      0
+    ],
+    "explanations": [
+      "They were unveiled in Saudi Arabia, and they are the brand's first electric vehicles in the country. Ceer makes sedans and SUVs for the GCC region.",
+      "The black robin won with more than 26,000 votes out of about 105,000. It is an endangered bird from the Chatham Islands, off the east coast of New Zealand.",
+      "The EXOBOT arrives as an SUV and a sedan. The name Ceer means drive forward in Arabic.",
+      "The crater measures about 25 kilometres across. Shatter cones in the rock showed that the feature was formed by an impact and not by a volcano.",
+      "Only five survived on Little Mangere Island in 1980. They were saved by Don Merton and his Wildlife Service team, and by Old Blue, the last remaining fertile female."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_21",
+      "excerpt": "Ceer Motors unveils the EXOBOT SUV and sedan in Saudi Arabia, its first electric vehicles in the country."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ceer_Motors",
+      "excerpt": "Ceer Motors is a Saudi Arabian electric vehicle brand that makes sedans and SUVs for the GCC region."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ceer_Motors",
+      "excerpt": "The name \"Ceer\" means \"drive forward\" in Arabic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_21",
+      "excerpt": "New Zealand's critically endangered black robin wins Forest & Bird's Bird of the Year competition with more than 26,000 votes out of about 105,000 votes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_robin",
+      "excerpt": "There are around 390 black robins as of 2026, but in 1980 only five survived on Little Mangere Island. They were saved from extinction by Don Merton and his Wildlife Service team, and by \"Old Blue\", the last remaining fertile female."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_robin",
+      "excerpt": "The black robin or Chatham Island robin (Moriori: karure, Māori: kakaruia; Petroica traversi) is an endangered bird from the Chatham Islands off the east coast of New Zealand."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+      "excerpt": "An amateur astronomer scouting campsites accidentally uncovered a massive 390-million-year-old impact crater hidden in the Quebec wilderness."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+      "excerpt": "Researchers discovered shatter cones in numerous rock outcrops. These distinctive structures form under the intense pressures produced during an impact and provided compelling evidence that the feature was not volcanic after all."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+      "excerpt": "The object responsible for the collision was powerful enough to produce a complex crater structure measuring about 25 kilometers (16 miles) across."
+    }
+  ]
+}

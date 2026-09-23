@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-23-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Toddler"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "With 'forward', what the name Ceer means in Arabic",
+          "storyId": "2026-09-23-1"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Devoured"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "A maker's name, as Ceer is on a Saudi electric car",
+          "storyId": "2026-09-23-1"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Number of fingers"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Saturn's largest moon"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Where a cake bakes"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Be inclined"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Money owed"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Uncommon"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##TOT",
+      "DRIVE",
+      "EATEN",
+      "BRAND",
+      "TEN##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "2026-09-23-1",
+        "excerpt": "The name \"Ceer\" means \"drive forward\" in Arabic."
+      },
+      {
+        "label": "7 Across",
+        "storyId": "2026-09-23-1",
+        "excerpt": "Ceer Motors is a Saudi Arabian electric vehicle brand that makes sedans and SUVs for the GCC region."
+      }
+    ]
+  },
+  "storyId": "2026-09-23-1"
+}
