@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-24-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-24",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about an amateur's find in Germany."
+  },
+  "reveal": {
+    "answer": "SILVER",
+    "storyId": "2026-09-24-3",
+    "excerpt": "Silver Roman coins dating back to the 2nd century are discovered by an amateur archaeologist in Germany. The coins are placed on display at the Rheinisches Landesmuseum Bonn museum in Bonn."
+  },
+  "storyId": "2026-09-24-3"
+}

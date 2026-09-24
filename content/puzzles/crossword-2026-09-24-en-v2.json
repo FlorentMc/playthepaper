@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-09-24-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-24",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Fix a result dishonestly"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Love deeply"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Sour yellow fruit"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Flat surface"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Wrongdoing"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Of the empire whose silver coins surfaced in Germany",
+          "storyId": "2026-09-24-3"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Press clothes"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Unit of heredity"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Range where a kicker set his altitude record",
+          "storyId": "2026-09-24-2"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Shop for cold meats"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##RIG",
+      "ADORE",
+      "LEMON",
+      "PLANE",
+      "SIN##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-24-3",
+        "excerpt": "The museum has a number of notable ancient busts and figures dating back to Roman times."
+      },
+      {
+        "label": "4 Down",
+        "storyId": "2026-09-24-2",
+        "excerpt": "Former American football and New England Patriots kicker Adam Vinatieri sets a Guinness World Records for the highest field goal at the Swiss Alps, with an altitude of 3,454 meters (11,332 ft)."
+      }
+    ]
+  },
+  "storyId": "2026-09-24-2"
+}

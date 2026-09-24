@@ -1,0 +1,233 @@
+{
+  "slug": "2026-09-24",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-24-1",
+      "headline": "Three world records for a weightlifter in Nagoya",
+      "summary": "Ri Song-gum of North Korea won the women's 49kg weightlifting gold at the 2026 Asian Games. She set three world records on the way: 94kg in the snatch, 121kg in the clean and jerk, and 215kg overall. The event was held at the Nagoya City Trade and Industry Centre.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ri_Song_Gum",
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "id": "2026-09-24-2",
+      "headline": "A field goal kicked high in the Swiss Alps",
+      "summary": "Adam Vinatieri has a Guinness World Records title for the highest field goal ever kicked. He made it in the Swiss Alps at an altitude of 3,454 metres, which is 11,332 feet. He played 24 seasons in the National Football League and won four Super Bowls.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adam_Vinatieri",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "2026-09-24-3",
+      "headline": "An amateur archaeologist finds silver Roman coins",
+      "summary": "An amateur archaeologist in Germany has discovered silver Roman coins dating back to the 2nd century. They have gone on display at the Rheinisches Landesmuseum Bonn. The museum is one of the oldest in the country and already holds ancient busts and figures from Roman times.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_22",
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "2026-09-24-4",
+      "headline": "A penguin named for the first time in a century",
+      "summary": "Researchers have recognised a new gentoo penguin on the Kerguelen Islands, the first new penguin species named in more than 100 years. Genetic work showed that what was treated as one gentoo species is really four. The team read whole genomes from 64 penguins at 10 breeding colonies.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+      "publishedAt": "2026-09-21"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The 2026 Asian Games are being held in Aichi Prefecture in Japan, and the women's 49kg weightlifting was decided at the Nagoya City Trade and Industry Centre.",
+          "prompt": "How many world records did Ri Song-gum set on her way to gold?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-24-1"
+        },
+        {
+          "lead": "Adam Vinatieri, a former New England Patriots kicker, carried a ball up a mountain and put it between the posts for a Guinness World Records title.",
+          "prompt": "In which mountain range did he set the record?",
+          "options": [
+            "The Rocky Mountains",
+            "The Swiss Alps",
+            "The Andes",
+            "The Himalayas"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-24-2"
+        },
+        {
+          "lead": "An amateur archaeologist in Germany turned up a set of silver Roman coins, now on display at the Rheinisches Landesmuseum Bonn.",
+          "prompt": "How far back do the coins date?",
+          "options": [
+            "From the 2nd century",
+            "From the 8th century",
+            "From the 14th century",
+            "From the 18th century"
+          ],
+          "level": "easy",
+          "storyId": "2026-09-24-3"
+        },
+        {
+          "lead": "To settle a long argument about how gentoo penguins should be classified, an international team read whole genomes from birds at ten breeding colonies.",
+          "prompt": "How many penguins did the team sequence?",
+          "options": [
+            "16 birds",
+            "64 birds",
+            "250 birds",
+            "1,000 birds"
+          ],
+          "level": "medium",
+          "storyId": "2026-09-24-4"
+        },
+        {
+          "lead": "Ri Song-gum's winning total of 215kg was made up of her best snatch and her best clean and jerk.",
+          "prompt": "What did she lift in the clean and jerk?",
+          "options": [
+            "111kg",
+            "116kg",
+            "121kg",
+            "126kg"
+          ],
+          "level": "hard",
+          "storyId": "2026-09-24-1"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "explanations": [
+        "She set three world records: 94kg in the snatch, 121kg in the clean and jerk, and 215kg overall. The gold came in the women's 49kg category at the 2026 Asian Games.",
+        "He set the record in the Swiss Alps, at an altitude of 3,454 metres. Guinness World Records lists it as the highest field goal kicked, at over 11,000 feet.",
+        "The coins date back to the 2nd century. They are on display at the Rheinisches Landesmuseum Bonn, which is one of the oldest museums in Germany.",
+        "The team built its answer from whole-genome sequences of 64 penguins collected from 10 breeding colonies. It was the first time the sampling covered nearly the entire range of gentoo penguins.",
+        "She lifted 121kg in the clean and jerk, a world record. Her 94kg snatch and her 215kg total were world records too."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_23",
+        "excerpt": "North Korean weightlifter Ri Song-gum wins gold in the women's 49kg category at the 2026 Asian Games while setting three world records: 94kg in the snatch, 121kg in the clean and jerk, and 215kg overall."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ri_Song_Gum",
+        "excerpt": "She has competed at multiple World Championships and at the Asian Games. At the 2026 Asian Games she set three world records and won gold."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Asian_Games",
+        "excerpt": "The 2026 Asian Games, officially the XX Asian Games and also known as Aichi–Nagoya 2026, is an ongoing multi-sport event being held in Aichi Prefecture in Japan from 19 September to 4 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weightlifting_at_the_2026_Asian_Games",
+        "excerpt": "The women's 49 kilograms competition at the 2026 Asian Games was held on 23 September 2026 at the Nagoya City Trade and Industry Centre."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_22",
+        "excerpt": "Former American football and New England Patriots kicker Adam Vinatieri sets a Guinness World Records for the highest field goal at the Swiss Alps, with an altitude of 3,454 meters (11,332 ft)."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adam_Vinatieri",
+        "excerpt": "He holds the Guinness World record for highest field goal kicked, at over 11,000 feet."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adam_Vinatieri",
+        "excerpt": "Adam Matthew Vinatieri (born December 28, 1972) is an American former professional football placekicker who played in the National Football League (NFL) for 24 seasons with the New England Patriots and Indianapolis Colts."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adam_Vinatieri",
+        "excerpt": "A four-time Super Bowl winner – three with the Patriots and one with the Colts – Vinatieri has the most Super Bowl wins for a kicker."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_22",
+        "excerpt": "Silver Roman coins dating back to the 2nd century are discovered by an amateur archaeologist in Germany. The coins are placed on display at the Rheinisches Landesmuseum Bonn museum in Bonn."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rheinisches_Landesmuseum_Bonn",
+        "excerpt": "The Rheinisches Landesmuseum Bonn, or LVR-LandesMuseum Bonn, is a museum in Bonn, Germany, run by the Rhineland Landscape Association. It is one of the oldest museums in the country."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rheinisches_Landesmuseum_Bonn",
+        "excerpt": "The museum has a number of notable ancient busts and figures dating back to Roman times."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+        "excerpt": "The birds live on the Kerguelen Islands, known in French as the Desolation Islands, nearly 2,000 miles from any permanently inhabited landmass."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+        "excerpt": "An international team led by researchers in Chile and at the University of California, Berkeley has now identified the population as a distinct species, making it the first new penguin species named in more than 100 years."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+        "excerpt": "Genetic evidence shows that what scientists once treated as a single, widely distributed gentoo penguin species is actually made up of four separate species. The new work represents a consensus built from whole-genome sequences of 64 penguins collected from 10 breeding colonies."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SILVER",
+      "storyId": "2026-09-24-3",
+      "teaser": "Today's word comes from a story about an amateur's find in Germany.",
+      "excerpt": "Silver Roman coins dating back to the 2nd century are discovered by an amateur archaeologist in Germany. The coins are placed on display at the Rheinisches Landesmuseum Bonn museum in Bonn."
+    },
+    "letters": {
+      "pangram": "PENGUINS",
+      "storyId": "2026-09-24-4",
+      "teaser": "Today's letters come from a story about four species where science counted one.",
+      "excerpt": "Genetic evidence shows that what scientists once treated as a single, widely distributed gentoo penguin species is actually made up of four separate species. The new work represents a consensus built from whole-genome sequences of 64 penguins collected from 10 breeding colonies."
+    },
+    "crossword": [
+      {
+        "answer": "GOLD",
+        "clue": "What Ri Song-gum won in the 49kg category",
+        "storyId": "2026-09-24-1",
+        "excerpt": "North Korean weightlifter Ri Song-gum wins gold in the women's 49kg category at the 2026 Asian Games while setting three world records: 94kg in the snatch, 121kg in the clean and jerk, and 215kg overall."
+      },
+      {
+        "answer": "ALPS",
+        "clue": "Range where a kicker set his altitude record",
+        "storyId": "2026-09-24-2",
+        "excerpt": "Former American football and New England Patriots kicker Adam Vinatieri sets a Guinness World Records for the highest field goal at the Swiss Alps, with an altitude of 3,454 meters (11,332 ft)."
+      },
+      {
+        "answer": "ROMAN",
+        "clue": "Of the empire whose silver coins surfaced in Germany",
+        "storyId": "2026-09-24-3",
+        "excerpt": "The museum has a number of notable ancient busts and figures dating back to Roman times."
+      },
+      {
+        "answer": "BIRDS",
+        "clue": "Penguins are these, even though they swim",
+        "storyId": "2026-09-24-4",
+        "excerpt": "The birds live on the Kerguelen Islands, known in French as the Desolation Islands, nearly 2,000 miles from any permanently inhabited landmass."
+      }
+    ]
+  }
+}
