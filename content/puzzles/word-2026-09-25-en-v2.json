@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-25-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-25",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "O",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a stone that travelled a long way."
+  },
+  "reveal": {
+    "answer": "ORIGIN",
+    "storyId": "2026-09-25-4",
+    "excerpt": "Its distant origin has raised one of the monument's most intriguing questions: how did such an enormous stone travel so far?"
+  },
+  "storyId": "2026-09-25-4"
+}

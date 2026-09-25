@@ -1,0 +1,166 @@
+{
+  "id": "quiz-2026-09-25-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-25",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Japan's Shin Ohashi swam the men's 200 metre breaststroke final at the 2026 Asian Games and touched the wall in 2:04.83.",
+        "prompt": "What did that swim achieve?",
+        "options": [
+          "A new world record",
+          "A national record for Japan",
+          "A personal best and nothing more",
+          "A junior record for his age group"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-25-1"
+      },
+      {
+        "lead": "The Chicago White Sox had lost 100 games or more in each of the three seasons before this one.",
+        "prompt": "What have they managed this season?",
+        "options": [
+          "Clinched a place in the playoffs",
+          "Won the World Series",
+          "Moved to a new home ground",
+          "Set a record for wins in a season"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-25-2"
+      },
+      {
+        "lead": "Moroccans voted on 23 September to elect all 395 members of the House of Representatives.",
+        "prompt": "Which party won the most seats?",
+        "options": [
+          "The Authenticity and Modernity Party",
+          "The National Rally of Independents",
+          "The Istiqlal Party",
+          "The lists of independent candidates"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-25-3"
+      },
+      {
+        "lead": "The six-tonne Altar Stone at the centre of Stonehenge came from northeast Scotland, roughly 700 km away, and how it travelled has long been argued over.",
+        "prompt": "What does the new study suggest moved it most of the way?",
+        "options": [
+          "Glaciers in the last ice age",
+          "Rafts along the coast",
+          "Rollers made of wooden logs",
+          "Teams of oxen on made roads"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-25-4"
+      },
+      {
+        "lead": "The previous world record in the men's 200 metre breaststroke was 2:05.48, set by China's Qin Haiyang in 2023.",
+        "prompt": "By how much did Shin Ohashi lower it?",
+        "options": [
+          "0.05 seconds",
+          "0.65 seconds",
+          "1.35 seconds",
+          "2.15 seconds"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-25-1"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "explanations": [
+      "The time of 2:04.83 was a world record in the men's 200 metre breaststroke. It beat the mark of 2:05.48 that China's Qin Haiyang set in 2023.",
+      "They clinched a place in the Major League Baseball playoffs, their first since 2021. No team had reached the playoffs after three straight seasons of 100 or more losses.",
+      "The Authenticity and Modernity Party took 97 of the 395 seats in the preliminary official results. The National Rally of Independents followed with 66 and the Istiqlal Party with 65.",
+      "The team modelled ancient ice movement and found that glaciers could have carried the stone as far as Dogger Bank in the North Sea. People would still have had to move it the rest of the way by hand.",
+      "He took 0.65 seconds off the record, finishing in 2:04.83. The old mark belonged to Qin Haiyang, who set it at the 2023 World Aquatics Championships."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_24",
+      "excerpt": "In swimming, Japan's Shin Ohashi wins gold in the men's 200-metre breaststroke at the 2026 Asian Games in 2:04.83, breaking China's Qin Haiyang's 2023 world record of 2:05.48 by 0.65 seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shin_Ohashi",
+      "excerpt": "At the 2026 Asian Games, Ohashi broke the world record in the 200 metre breaststroke, finishing in 2:04.83. He became the youngest male swimmer to break an individual long-course world record since Michael Phelps in 2002."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shin_Ohashi",
+      "excerpt": "Shin Ohashi (born 5 March 2009) is a Japanese swimmer specializing in breaststroke. At the 2026 Pan Pacific Swimming Championships, he broke his own junior world record to win silver in the 100 metres breaststroke."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qin_Haiyang",
+      "excerpt": "He previously held the world record in the 200m breaststroke, which he set at the 2023 World Aquatics Championships."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Swimming_at_the_2026_Asian_Games_%E2%80%93_Men%27s_200_metre_breaststroke",
+      "excerpt": "The men's 200 metre breaststroke event at the 2026 Asian Games took place on 24 September 2026 at the Tokyo Aquatics Centre."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_24",
+      "excerpt": "In baseball, the Major League Baseball's Chicago White Sox clinches the upcoming playoffs for the first time since 2021, following three-straight 100-loss seasons."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_White_Sox_season",
+      "excerpt": "Two days later, they secured a 9–1 victory over the same Royals, becoming the first team in MLB history to clinch the MLB playoffs after 3 straight seasons with 100+ loss seasons."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_White_Sox_season",
+      "excerpt": "The White Sox also ended their 3-losing season streak, winning their 81st game, a narrow 14–11 win over the Kansas City Royals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_White_Sox_season",
+      "excerpt": "The 2026 Chicago White Sox season is the club's 127th season in Chicago, their 126th in the American League and their 36th at Rate Field."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_24",
+      "excerpt": "Morocco's Authenticity and Modernity Party, led by Fatima Ezzahra El Mansouri, wins the most seats in yesterday's parliamentary election, taking 97 of 395 seats, followed by the ruling National Rally of Independents with 66 and the Istiqlal Party with 65."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+      "excerpt": "General elections were held in Morocco on 23 September 2026 to elect all 395 members of the House of Representatives."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+      "excerpt": "Twenty-eight political parties, including a coalition formed specifically for the election, together with two lists of independent candidates, contested all 395 seats."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005715.htm",
+      "excerpt": "Stonehenge's central Altar Stone is a six-tonne sandstone megalith that researchers now believe came from northeast Scotland, roughly 700 km (435 miles) from Stonehenge."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005715.htm",
+      "excerpt": "A team from Sheffield Hallam University and Curtin University, Australia, analyzed ancient ice movement and found that glaciers during Britain's last ice age may have transported the stone from Scotland's Orcadian Basin as far as Dogger Bank in the North Sea."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005715.htm",
+      "excerpt": "Its distant origin has raised one of the monument's most intriguing questions: how did such an enormous stone travel so far?"
+    }
+  ]
+}

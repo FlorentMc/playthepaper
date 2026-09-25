@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-25-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-25",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Month after April"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Seeing organ"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Frequently"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Intended to be given to"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Charge for a service"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Unit of length in the name of Ohashi's event, 200 of them",
+          "storyId": "2026-09-25-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Vote in favour"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Strong desire"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Not on"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Opponent"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##MAY",
+      "##EYE",
+      "OFTEN",
+      "FOR##",
+      "FEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-25-1",
+        "excerpt": "The men's 200 metre breaststroke event at the 2026 Asian Games took place on 24 September 2026 at the Tokyo Aquatics Centre."
+      }
+    ]
+  },
+  "storyId": "2026-09-25-1"
+}

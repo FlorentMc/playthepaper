@@ -1,16 +1,16 @@
 {
   "date": "2026-09-25",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-25-en-v1",
+    "word-2026-09-25-en-v2",
     "sudoku-2026-09-25-en-easy-v1",
     "sudoku-2026-09-25-en-medium-v1",
     "sudoku-2026-09-25-en-hard-v1",
-    "letters-2026-09-25-en-v1",
-    "crossword-2026-09-25-en-v1",
-    "quiz-2026-09-25-en-v1",
+    "letters-2026-09-25-en-v2",
+    "crossword-2026-09-25-en-v2",
+    "quiz-2026-09-25-en-v2",
     "bridges-2026-09-25-en-v1",
     "binary-2026-09-25-en-v1",
     "target-2026-09-25-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-09-25-1",
+      "headline": "A teenager takes the 200 metre breaststroke world record",
+      "summary": "Shin Ohashi of Japan won the men's 200 metre breaststroke at the 2026 Asian Games in 2:04.83. That took 0.65 seconds off the world record of 2:05.48, set by China's Qin Haiyang in 2023. Ohashi is the youngest male swimmer to break an individual long-course world record since Michael Phelps in 2002.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Shin_Ohashi",
+      "publishedAt": "2026-09-24"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-09-25-2",
+      "headline": "The Chicago White Sox reach the playoffs again",
+      "summary": "The Chicago White Sox have clinched a place in the Major League Baseball playoffs for the first time since 2021. They had lost 100 games or more in each of the three previous seasons. A 9-1 win over the Kansas City Royals settled it.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_White_Sox_season",
+      "publishedAt": "2026-09-24"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
+      "id": "2026-09-25-3",
+      "headline": "Morocco counts the votes from its parliamentary election",
+      "summary": "Moroccans voted on 23 September to elect all 395 members of the House of Representatives. Preliminary official results give the Authenticity and Modernity Party, led by Fatima Ezzahra El Mansouri, 97 seats. The National Rally of Independents took 66 and the Istiqlal Party 65.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+      "publishedAt": "2026-09-24"
+    },
+    {
+      "id": "2026-09-25-4",
+      "headline": "A glacier may have moved the Stonehenge altar stone",
+      "summary": "The six-tonne Altar Stone at the centre of Stonehenge came from northeast Scotland, roughly 700 km away. A team from Sheffield Hallam University and Curtin University modelled ancient ice movement and found that glaciers in the last ice age could have carried it as far as Dogger Bank in the North Sea. People would still have had to move it the rest of the way.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260922005715.htm",
+      "publishedAt": "2026-09-23"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-09-25-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
+      "quiz:5",
       "crossword:1 Down"
     ],
-    "discovery-1-deep": [
-      "quiz:3",
+    "2026-09-25-2": [
+      "quiz:2",
+      "letters"
+    ],
+    "2026-09-25-3": [
+      "quiz:3"
+    ],
+    "2026-09-25-4": [
       "quiz:4",
       "word"
-    ],
-    "discovery-1-valley": [
-      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-09-25T02:24:32.667462Z"
 }
