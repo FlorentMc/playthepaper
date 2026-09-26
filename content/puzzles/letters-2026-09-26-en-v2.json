@@ -1,0 +1,61 @@
+{
+  "id": "letters-2026-09-26-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-26",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "E",
+    "outer": "ACFLPU",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about an agreement on exploring space."
+  },
+  "reveal": {
+    "answers": [
+      "ALEC",
+      "APPEAL",
+      "APPLE",
+      "CAFE",
+      "CAPE",
+      "CELL",
+      "CLUE",
+      "FACE",
+      "FALAFEL",
+      "FECAL",
+      "FEEL",
+      "FELL",
+      "FELLA",
+      "FLEA",
+      "FLEE",
+      "FLEECE",
+      "FLUE",
+      "FUEL",
+      "LACE",
+      "LAPEL",
+      "LEAF",
+      "LEAP",
+      "LUCE",
+      "PACE",
+      "PAELLA",
+      "PALACE",
+      "PALE",
+      "PEACE",
+      "PEACEFUL",
+      "PEAL",
+      "PEEL",
+      "PEEP",
+      "PELE",
+      "PLACE",
+      "PLEA"
+    ],
+    "pangrams": [
+      "PEACEFUL"
+    ],
+    "maxScore": 99,
+    "storyId": "2026-09-26-2",
+    "excerpt": "Drafted by NASA and the US Department of State, the Accords establish a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars, and other astronomical objects."
+  },
+  "storyId": "2026-09-26-2"
+}

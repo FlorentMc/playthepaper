@@ -1,0 +1,169 @@
+{
+  "slug": "2026-09-26",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-26-1",
+      "headline": "Seven swimming golds for Zhang Zhanshuo at the Asian Games",
+      "summary": "China's Zhang Zhanshuo won the men's 400 metre freestyle on the final day of swimming at the 2026 Asian Games, in a time of 3:41.28. It was his seventh gold of the Games, and no athlete had won seven at a single Asian Games before. The swim also passed the Games record of 3:41.53 that Park Tae-hwan set in 2010.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zhang_Zhanshuo",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "id": "2026-09-26-2",
+      "headline": "Two more countries sign up to the Artemis Accords",
+      "summary": "Croatia has become the 74th country to sign the U.S.-led Artemis Accords, and the accession of Ivory Coast has taken the total to 75. The Accords set out a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars and other astronomical objects. They were drafted by NASA and the US Department of State.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Artemis_Accords",
+      "publishedAt": "2026-09-24"
+    },
+    {
+      "id": "2026-09-26-3",
+      "headline": "CERN starts changing the magnets inside the Large Hadron Collider",
+      "summary": "CERN has begun dismantling sections of the Large Hadron Collider so that the magnets which focus its particle beams can be replaced. The new ones use niobium-tin superconducting coils and reach 11.3 tesla, about 40% stronger than the fields the current magnets produce. The collider stretches 27 km around.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+      "publishedAt": "2026-09-25"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "China's Zhang Zhanshuo won the last swimming final of the 2026 Asian Games in a time of 3:41.28.",
+          "prompt": "How many gold medals did he win at those Games in all?",
+          "options": ["Four", "Five", "Six", "Seven"],
+          "level": "easy",
+          "storyId": "2026-09-26-1"
+        },
+        {
+          "lead": "Zhang Zhanshuo's seventh gold came in 3:41.28, passing the Asian Games record of 3:41.53 that Park Tae-hwan set in 2010.",
+          "prompt": "In which event did he swim it?",
+          "options": ["The 400 metre freestyle", "The 200 metre butterfly", "The 100 metre backstroke", "The 200 metre individual medley"],
+          "level": "easy",
+          "storyId": "2026-09-26-1"
+        },
+        {
+          "lead": "Croatia and Ivory Coast have both joined the Artemis Accords, the U.S.-led principles for exploring the Moon and Mars.",
+          "prompt": "How many countries have now signed them?",
+          "options": ["25 countries", "45 countries", "75 countries", "95 countries"],
+          "level": "easy",
+          "storyId": "2026-09-26-2"
+        },
+        {
+          "lead": "CERN has started taking out the magnets that focus the particle beams just before they collide inside the Large Hadron Collider.",
+          "prompt": "How far does that collider stretch around?",
+          "options": ["2.7 km", "27 km", "270 km", "2,700 km"],
+          "level": "medium",
+          "storyId": "2026-09-26-3"
+        },
+        {
+          "lead": "The magnets going in use niobium-tin superconducting coils in place of the niobium-titanium ones they replace.",
+          "prompt": "What magnetic field strength will they reach?",
+          "options": ["1.13 tesla", "4.5 tesla", "11.3 tesla", "113 tesla"],
+          "level": "hard",
+          "storyId": "2026-09-26-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [3, 0, 2, 1, 2],
+      "explanations": [
+        "He won seven, the first athlete to manage that at a single Asian Games. The last of them came in the men's 400 metre freestyle, in a time of 3:41.28.",
+        "It was the 400 metre freestyle, on the final day of swimming. His 3:41.28 overtook the Asian Games record of 3:41.53 that Park Tae-hwan set in 2010.",
+        "Seventy-five countries have signed the Accords, 34 of them in Europe. Croatia was the 74th, and the accession of Ivory Coast took the total to 75.",
+        "The Large Hadron Collider stretches 27 km around. Thousands of magnets of different types steer and control its particle beams.",
+        "The new magnets reach 11.3 tesla, about 40% stronger than the fields the current ones produce. Niobium-tin coils are what allow them to do it."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_25",
+        "excerpt": "In swimming, China's Zhang Zhanshuo becomes the first athlete to win seven gold medals at a single Asian Games, securing his seventh title in the men's 400-metre freestyle with a Games-record time of 3:41.28."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zhang_Zhanshuo",
+        "excerpt": "On the final day of swimming, Zhang took the 400 m freestyle with a time of 3:41.28, overtaking the Asian Games record of 3:41.53 Park Tae-hwan set in 2010 and completing his sweep of seven gold medals."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zhang_Zhanshuo",
+        "excerpt": "He became the first swimmer in history to win seven golds at a single Asian Games."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_23",
+        "excerpt": "Croatia joins the U.S.-led Artemis Accords, becoming the 74th country to do so."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Artemis_Accords",
+        "excerpt": "As of September 24, 2026, with the accession of Ivory Coast, 75 countries have signed the Accords, including 34 in Europe, 17 in Asia, 8 in South America, 5 in North America, 9 in Africa, and 2 in Oceania."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Artemis_Accords",
+        "excerpt": "Drafted by NASA and the US Department of State, the Accords establish a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars, and other astronomical objects."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+        "excerpt": "CERN Director-General Mark Thomson visited the LHC tunnel to mark the start of the dismantling of the accelerator sections that will be replaced by the new HiLumi LHC components."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+        "excerpt": "The Large Hadron Collider (LHC) stretches 27 km around and relies on thousands of magnets of different types - dipoles, quadrupoles, sextupoles, octupoles, decapoles, etc. - to steer and control its particle beams."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+        "excerpt": "Instead of niobium-titanium, the upgraded magnets use niobium-tin superconducting coils. This allows them to generate magnetic fields reaching 11.3 tesla, about 40% stronger than the fields produced by the current magnets."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "TUNNEL",
+      "storyId": "2026-09-26-3",
+      "teaser": "Today's word comes from a story about a physics machine being taken apart.",
+      "excerpt": "CERN Director-General Mark Thomson visited the LHC tunnel to mark the start of the dismantling of the accelerator sections that will be replaced by the new HiLumi LHC components."
+    },
+    "letters": {
+      "pangram": "PEACEFUL",
+      "storyId": "2026-09-26-2",
+      "teaser": "Today's letters come from a story about an agreement on exploring space.",
+      "excerpt": "Drafted by NASA and the US Department of State, the Accords establish a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars, and other astronomical objects."
+    },
+    "crossword": [
+      {
+        "answer": "SWEEP",
+        "clue": "What Zhang completed by taking all seven golds",
+        "storyId": "2026-09-26-1",
+        "excerpt": "On the final day of swimming, Zhang took the 400 m freestyle with a time of 3:41.28, overtaking the Asian Games record of 3:41.53 Park Tae-hwan set in 2010 and completing his sweep of seven gold medals."
+      },
+      {
+        "answer": "MOON",
+        "clue": "Place the Accords cover, along with Mars",
+        "storyId": "2026-09-26-2",
+        "excerpt": "Drafted by NASA and the US Department of State, the Accords establish a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars, and other astronomical objects."
+      },
+      {
+        "answer": "BEAMS",
+        "clue": "What the collider's magnets steer and control",
+        "storyId": "2026-09-26-3",
+        "excerpt": "The Large Hadron Collider (LHC) stretches 27 km around and relies on thousands of magnets of different types - dipoles, quadrupoles, sextupoles, octupoles, decapoles, etc. - to steer and control its particle beams."
+      },
+      {
+        "answer": "TESLA",
+        "clue": "Unit of magnetic field strength, 11.3 of them in the new magnets",
+        "storyId": "2026-09-26-3",
+        "excerpt": "Instead of niobium-titanium, the upgraded magnets use niobium-tin superconducting coils. This allows them to generate magnetic fields reaching 11.3 tesla, about 40% stronger than the fields produced by the current magnets."
+      }
+    ]
+  }
+}

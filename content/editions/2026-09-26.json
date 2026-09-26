@@ -1,16 +1,16 @@
 {
   "date": "2026-09-26",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-26-en-v1",
+    "word-2026-09-26-en-v2",
     "sudoku-2026-09-26-en-easy-v1",
     "sudoku-2026-09-26-en-medium-v1",
     "sudoku-2026-09-26-en-hard-v1",
-    "letters-2026-09-26-en-v1",
-    "crossword-2026-09-26-en-v1",
-    "quiz-2026-09-26-en-v1",
+    "letters-2026-09-26-en-v2",
+    "crossword-2026-09-26-en-v2",
+    "quiz-2026-09-26-en-v2",
     "bridges-2026-09-26-en-v1",
     "binary-2026-09-26-en-v1",
     "target-2026-09-26-en-v1",
@@ -30,44 +30,45 @@
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-09-26-1",
+      "headline": "Seven swimming golds for Zhang Zhanshuo at the Asian Games",
+      "summary": "China's Zhang Zhanshuo won the men's 400 metre freestyle on the final day of swimming at the 2026 Asian Games, in a time of 3:41.28. It was his seventh gold of the Games, and no athlete had won seven at a single Asian Games before. The swim also passed the Games record of 3:41.53 that Park Tae-hwan set in 2010.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Zhang_Zhanshuo",
+      "publishedAt": "2026-09-25"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
+      "id": "2026-09-26-2",
+      "headline": "Two more countries sign up to the Artemis Accords",
+      "summary": "Croatia has become the 74th country to sign the U.S.-led Artemis Accords, and the accession of Ivory Coast has taken the total to 75. The Accords set out a framework for cooperation in the civil exploration and peaceful use of the Moon, Mars and other astronomical objects. They were drafted by NASA and the US Department of State.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Artemis_Accords",
+      "publishedAt": "2026-09-24"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "id": "2026-09-26-3",
+      "headline": "CERN starts changing the magnets inside the Large Hadron Collider",
+      "summary": "CERN has begun dismantling sections of the Large Hadron Collider so that the magnets which focus its particle beams can be replaced. The new ones use niobium-tin superconducting coils and reach 11.3 tesla, about 40% stronger than the fields the current magnets produce. The collider stretches 27 km around.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+      "publishedAt": "2026-09-25"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
+    "2026-09-26-1": [
       "quiz:1",
-      "quiz:5",
-      "word"
-    ],
-    "everyday-1-dominoes": [
       "quiz:2",
+      "crossword:3 Down"
+    ],
+    "2026-09-26-2": [
       "quiz:3",
       "letters"
     ],
-    "everyday-1-greenwich": [
+    "2026-09-26-3": [
       "quiz:4",
-      "crossword:3 Down"
+      "quiz:5",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-26T02:27:31.596072Z"
 }
