@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-27-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-27",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Kitten's sound"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Repeat"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Police officer's shield"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Acceptable"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Set into a jelly"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Award Shai Bolton took home despite the loss",
+          "storyId": "2026-09-27-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Tense"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Sorrow"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Garden tool with teeth"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Marsh"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##MEW",
+      "#REDO",
+      "BADGE",
+      "OKAY#",
+      "GEL##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-27-1",
+        "excerpt": "The Norm Smith Medal was won by Fremantle midfielder Shai Bolton, polling 10 of a possible 15 votes. He became the fifth player to win the medal in a losing team, and the first since Chris Judd in 2005."
+      }
+    ]
+  },
+  "storyId": "2026-09-27-1"
+}

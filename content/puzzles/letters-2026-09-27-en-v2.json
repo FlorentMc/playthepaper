@@ -1,0 +1,46 @@
+{
+  "id": "letters-2026-09-27-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-27",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "T",
+    "outer": "CIORVY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a tennis semifinal."
+  },
+  "reveal": {
+    "answers": [
+      "CITY",
+      "COOT",
+      "CRITIC",
+      "OTTO",
+      "RIOT",
+      "ROOT",
+      "ROTI",
+      "ROTOR",
+      "TITI",
+      "TOOT",
+      "TORI",
+      "TORO",
+      "TORT",
+      "TORY",
+      "TOYO",
+      "TRIO",
+      "TROT",
+      "TROY",
+      "VICTOR",
+      "VICTORY"
+    ],
+    "pangrams": [
+      "VICTORY"
+    ],
+    "maxScore": 47,
+    "storyId": "2026-09-27-2",
+    "excerpt": "In tennis, Ukraine reaches its first Billie Jean King Cup final after defeating defending champion Italy 2–0 in the semifinals, with Elina Svitolina securing the decisive victory over Jasmine Paolini."
+  },
+  "storyId": "2026-09-27-2"
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "2026-09-27",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-27-1",
+      "headline": "Brisbane win the AFL grand final by seven points",
+      "summary": "The Brisbane Lions beat Fremantle by seven points in the Australian Football League grand final at the Melbourne Cricket Ground. It was the club's sixth premiership, and its third in a row. Fremantle's Shai Bolton won the Norm Smith Medal, only the fifth player to take it in a losing team.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_AFL_Grand_Final",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "id": "2026-09-27-2",
+      "headline": "Ukraine reach their first Billie Jean King Cup final",
+      "summary": "Ukraine have reached the final of the Billie Jean King Cup for the first time. They beat Italy, the two-time defending champions, 2–0 in the semifinals in Shenzhen, China. Elina Svitolina settled it with a win over Jasmine Paolini.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Billie_Jean_King_Cup_finals",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "id": "2026-09-27-3",
+      "headline": "The United States and China agree a tariff cut",
+      "summary": "The United States and China have agreed to cut tariffs on $30 billion of goods. The two countries will also set up a dialogue on artificial intelligence, to exchange views on its risks and benefits. The next round of that dialogue is due in November.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_state_visit_by_Xi_Jinping_to_the_United_States",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "id": "2026-09-27-4",
+      "headline": "Two new sea spiders found in the Salish Sea",
+      "summary": "Researchers at the University of British Columbia have identified two previously unknown species of sea spider, one of them with hairy legs and red eyes. They are the first sea spiders formally described from the Salish Sea in nearly 100 years. The animals belong to a lineage that arose roughly 500 million years ago and never left the water.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+      "publishedAt": "2026-09-25"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The Australian Football League season ended on Saturday with the grand final at the Melbourne Cricket Ground.",
+          "prompt": "Which club won the premiership?",
+          "options": ["The Brisbane Lions", "The Fremantle Dockers", "The Sydney Swans", "The Geelong Cats"],
+          "level": "easy",
+          "storyId": "2026-09-27-1"
+        },
+        {
+          "lead": "The Billie Jean King Cup is being played in Shenzhen, China, where Italy, the two-time defending champions, lost their semifinal 2–0.",
+          "prompt": "Which country reached its first final in the competition?",
+          "options": ["Ukraine", "Poland", "Belgium", "Kazakhstan"],
+          "level": "easy",
+          "storyId": "2026-09-27-2"
+        },
+        {
+          "lead": "Brisbane beat Fremantle in the Australian Football League grand final, taking the club's sixth premiership.",
+          "prompt": "By what margin did they win?",
+          "options": ["Seven points", "Seventeen points", "Twenty-seven points", "Thirty-seven points"],
+          "level": "easy",
+          "storyId": "2026-09-27-1"
+        },
+        {
+          "lead": "The United States and China have agreed to cut tariffs on a set amount of goods, and to open a dialogue on artificial intelligence.",
+          "prompt": "How much in goods does the tariff cut cover?",
+          "options": ["$300 million", "$3 billion", "$30 billion", "$300 billion"],
+          "level": "medium",
+          "storyId": "2026-09-27-3"
+        },
+        {
+          "lead": "Researchers at the University of British Columbia have described two new species of sea spider, the first named from the Salish Sea in nearly 100 years.",
+          "prompt": "Roughly how long ago did the sea spider lineage arise?",
+          "options": ["50 million years ago", "150 million years ago", "500 million years ago", "1.5 billion years ago"],
+          "level": "hard",
+          "storyId": "2026-09-27-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 0, 2, 2],
+      "explanations": [
+        "The Brisbane Lions won, beating Fremantle by seven points. It was the club's sixth premiership overall, and its third in a row.",
+        "Ukraine reached the final for the first time, beating Italy 2–0 in the semifinals. Elina Svitolina settled the tie with a win over Jasmine Paolini.",
+        "Brisbane won by seven points. The result gave them a third consecutive premiership, and a sixth in all.",
+        "The agreement covers $30 billion of goods. The two sides also agreed a dialogue on artificial intelligence, the next round of which is due in November.",
+        "Sea spiders belong to a lineage that arose roughly 500 million years ago. They are related to spiders, scorpions and horseshoe crabs, but they stayed entirely in the sea."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_AFL_Grand_Final",
+        "excerpt": "The 2026 AFL Grand Final was an Australian rules football match that was contested between the Fremantle Football Club and the Brisbane Lions at the Melbourne Cricket Ground on Saturday, 26 September 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_AFL_Grand_Final",
+        "excerpt": "It was the 131st annual grand final of the Australian Football League, staged to determine the premiers of the 2026 AFL season. Brisbane won by a margin of seven points, marking the club's sixth premiership overall, and third consecutive premiership."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_AFL_Grand_Final",
+        "excerpt": "The Norm Smith Medal was won by Fremantle midfielder Shai Bolton, polling 10 of a possible 15 votes. He became the fifth player to win the medal in a losing team, and the first since Chris Judd in 2005."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_26",
+        "excerpt": "In tennis, Ukraine reaches its first Billie Jean King Cup final after defeating defending champion Italy 2–0 in the semifinals, with Elina Svitolina securing the decisive victory over Jasmine Paolini."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Billie_Jean_King_Cup_finals",
+        "excerpt": "Italy were the two-time defending champions, but they lost to Ukraine in the semifinals."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Billie_Jean_King_Cup_finals",
+        "excerpt": "The event will be held in Shenzhen, China on 22–27 September 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_25",
+        "excerpt": "The United States and China reach an agreement to cut tariffs on $30 billion of goods and launch a dialogue on artificial intelligence."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_state_visit_by_Xi_Jinping_to_the_United_States",
+        "excerpt": "Both sides agreed to establish a China-US artificial intelligence dialogue to exchange views on the risks and benefits of AI. The next dialogue will be held in November this year."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+        "excerpt": "Researchers at the University of British Columbia have identified two previously unknown species of sea spider, including one with hairy legs and striking red eyes."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+        "excerpt": "The discoveries mark the first new sea spider species formally described from the Salish Sea in nearly 100 years."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+        "excerpt": "Sea spiders belong to an ancient lineage that arose roughly 500 million years ago. They are related to spiders, scorpions, and horseshoe crabs, but unlike their land-dwelling relatives, they remained entirely marine."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SPIDER",
+      "storyId": "2026-09-27-4",
+      "teaser": "Today's word comes from a story about two new sea creatures.",
+      "excerpt": "Researchers at the University of British Columbia have identified two previously unknown species of sea spider, including one with hairy legs and striking red eyes."
+    },
+    "letters": {
+      "pangram": "VICTORY",
+      "storyId": "2026-09-27-2",
+      "teaser": "Today's letters come from a story about a tennis semifinal.",
+      "excerpt": "In tennis, Ukraine reaches its first Billie Jean King Cup final after defeating defending champion Italy 2–0 in the semifinals, with Elina Svitolina securing the decisive victory over Jasmine Paolini."
+    },
+    "crossword": [
+      {
+        "answer": "MEDAL",
+        "clue": "Award Shai Bolton took home despite the loss",
+        "storyId": "2026-09-27-1",
+        "excerpt": "The Norm Smith Medal was won by Fremantle midfielder Shai Bolton, polling 10 of a possible 15 votes. He became the fifth player to win the medal in a losing team, and the first since Chris Judd in 2005."
+      },
+      {
+        "answer": "FINAL",
+        "clue": "Round Ukraine reached for the first time",
+        "storyId": "2026-09-27-2",
+        "excerpt": "In tennis, Ukraine reaches its first Billie Jean King Cup final after defeating defending champion Italy 2–0 in the semifinals, with Elina Svitolina securing the decisive victory over Jasmine Paolini."
+      },
+      {
+        "answer": "GOODS",
+        "clue": "What the agreed tariff cut applies to",
+        "storyId": "2026-09-27-3",
+        "excerpt": "The United States and China reach an agreement to cut tariffs on $30 billion of goods and launch a dialogue on artificial intelligence."
+      },
+      {
+        "answer": "CRABS",
+        "clue": "Horseshoe relatives of the sea spider",
+        "storyId": "2026-09-27-4",
+        "excerpt": "Sea spiders belong to an ancient lineage that arose roughly 500 million years ago. They are related to spiders, scorpions, and horseshoe crabs, but unlike their land-dwelling relatives, they remained entirely marine."
+      }
+    ]
+  }
+}

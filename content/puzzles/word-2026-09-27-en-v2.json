@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-27-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-27",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about two new sea creatures."
+  },
+  "reveal": {
+    "answer": "SPIDER",
+    "storyId": "2026-09-27-4",
+    "excerpt": "Researchers at the University of British Columbia have identified two previously unknown species of sea spider, including one with hairy legs and striking red eyes."
+  },
+  "storyId": "2026-09-27-4"
+}
