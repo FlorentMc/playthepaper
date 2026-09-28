@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-28-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a library buried by a volcano."
+  },
+  "reveal": {
+    "answer": "SCROLL",
+    "storyId": "2026-09-28-4",
+    "excerpt": "Today, the surviving library consists of about 1,800 scrolls and scroll fragments held in collections in Italy, France and England."
+  },
+  "storyId": "2026-09-28-4"
+}

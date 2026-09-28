@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-09-28-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Two giant pandas, Ping Ping and Fu Shuang, flew into the United States on Sunday under an agreement signed between the United States and China.",
+        "prompt": "Which city's zoo are they moving into?",
+        "options": [
+          "Memphis",
+          "Atlanta",
+          "Denver",
+          "San Diego"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-28-1"
+      },
+      {
+        "lead": "The Berlin Marathon was run for the 52nd time on Sunday. The men's race went to a runner who had already won it in 2021, and who this time set a personal best.",
+        "prompt": "Who won the men's race?",
+        "options": [
+          "Gemechu Dida",
+          "Gabriel Geay",
+          "Guye Adola",
+          "Selemon Barega"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-28-2"
+      },
+      {
+        "lead": "Germany's Olympic committee voted on Saturday to choose one city to put forward for a future Summer Olympics and Paralympics.",
+        "prompt": "Which city was selected?",
+        "options": [
+          "Hamburg",
+          "Leipzig",
+          "Frankfurt",
+          "Munich"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-28-3"
+      },
+      {
+        "lead": "Zoo Atlanta was one of only four institutions in the United States that housed giant pandas. That first run began in 1999, and has now been followed by a fresh agreement with China.",
+        "prompt": "In which year did the zoo's first run of giant pandas end?",
+        "options": [
+          "2018",
+          "2020",
+          "2022",
+          "2024"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-28-1"
+      },
+      {
+        "lead": "Researchers burned papyrus scrolls of their own in a furnace, to mimic the scrolls charred when Mount Vesuvius erupted, then scanned them for the lead in the ink.",
+        "prompt": "How much more strongly did the lead absorb X-rays than the burned papyrus around it?",
+        "options": [
+          "5 times as much",
+          "25 times as much",
+          "100 times as much",
+          "500 times as much"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-28-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      2,
+      3,
+      3,
+      1
+    ],
+    "explanations": [
+      "The pandas went to Zoo Atlanta, reaching it from the city's airport. The zoo announced in April that it had reached a new agreement with the China Wildlife Conservation Association.",
+      "Guye Adola won the men's race, his second Berlin title after 2021. He ran a personal best to take it.",
+      "Munich was selected, by 91 votes to 50 for the Rhine-Ruhr region. The city had voted on the idea in a referendum in October 2025, when 66.4% said yes.",
+      "The zoo housed giant pandas from 1999 to 2024. Ping Ping and Fu Shuang arrive under the agreement the zoo announced in April 2026.",
+      "The lead absorbed as much as 25 times more X-rays than the burned papyrus around it, which made the writing stand out. About 1,800 scrolls and fragments from that library survive, in collections in Italy, France and England."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_27",
+      "excerpt": "Two giant pandas, Ping Ping and Fu Shuang, arrive at the Atlanta zoo from the Hartsfield–Jackson Atlanta International Airport in Atlanta, Georgia, U.S., as part of an agreement signed between the U.S. and China."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zoo_Atlanta",
+      "excerpt": "On April 23, 2026, Zoo Atlanta announced that they reached a new agreement with the China Wildlife Conservation Association."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zoo_Atlanta",
+      "excerpt": "Two pandas - male Ping Ping and female Fu Shuang - will reside in Atlanta and future details, including dates, will be communicated by the zoo when available."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zoo_Atlanta",
+      "excerpt": "From 1999 to 2024, Zoo Atlanta was one of the four institutions in the U.S. that housed giant pandas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Berlin_Marathon",
+      "excerpt": "The 2026 Berlin Marathon was the 52nd edition of the annual marathon race in Berlin, held on Sunday, September 27, 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Berlin_Marathon",
+      "excerpt": "Ethiopian runner Tigst Assefa won the women's race running the 3rd all-time best marathon time and a course record of 2:11:04 despite acquiring an injury which forced her to adopt a visible limp in the final two kilometers."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Berlin_Marathon",
+      "excerpt": "In the men's race, the 2021 Berlin marathon champion Guye Adola ran a personal best to capture his second title in the event."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_26",
+      "excerpt": "Germany's Olympic committee selects Munich as its candidate to host the Summer Olympics and Paralympics in 2036, 2040, or 2044."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bids_for_the_2036_Summer_Olympics",
+      "excerpt": "On 26 September 2026, Munich was selected as the host city for the German bid, with 91 votes over 50 votes for the Rhine-Ruhr metropolitan region."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bids_for_the_2036_Summer_Olympics",
+      "excerpt": "On 26 October 2025, the referendum for Munich was held. Out of 305,201 residents, 66.4% voted ‘yes’, while 33.6% voted ‘no’."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
+      "excerpt": "Once the writing was finished, Seiler, an affiliate of Berkeley SETI, rolled up the papyrus, sealed it inside a container, placed it in a high-temperature furnace, and burned it until it was thoroughly carbonized."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
+      "excerpt": "When Mount Vesuvius erupted in 79 C.E., volcanic ash overwhelmed the city and transformed more than a thousand papyrus scrolls in a local library into fragile, charred remains."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
+      "excerpt": "Lead absorbed as much as 25 times more X rays than the burned papyrus around it, causing the writing to stand out dramatically."
+    }
+  ]
+}
