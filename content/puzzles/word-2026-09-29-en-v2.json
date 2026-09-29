@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-29-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-29",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a bicycle race around Mount Royal."
+  },
+  "reveal": {
+    "answer": "FINISH",
+    "storyId": "2026-09-29-1",
+    "excerpt": "The circuit included the Voie Camillien-Houde climb (2.3 kilometres (1.4 mi) at 6.2% average gradient), the Chemin de la Polytechnique with sections exceeding 11% gradient, and a false flat rising along Avenue du Parc, which served as the finish line."
+  },
+  "storyId": "2026-09-29-1"
+}

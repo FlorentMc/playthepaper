@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-09-29-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-09-29",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Knock sharply"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Sick"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "___ in love"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Grow older"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Rocky hilltop"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "A cyclist in the race, as McNulty was",
+          "storyId": "2026-09-29-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "The whole lot"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Work at, as a trade"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Floor covering at a door"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Long ___"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##RAP",
+      "##ILL",
+      "MADLY",
+      "AGE##",
+      "TOR##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-09-29-1",
+        "excerpt": "The race was won by United States rider Brandon McNulty, beating Australian rider Michael Matthews and Dutch rider Mathieu van der Poel by 13 seconds after escaping with around 30 kilometres (19 mi) remaining."
+      }
+    ]
+  },
+  "storyId": "2026-09-29-1"
+}

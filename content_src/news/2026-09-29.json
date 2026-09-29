@@ -1,0 +1,174 @@
+{
+  "slug": "2026-09-29",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-09-29-1",
+      "headline": "McNulty wins the world road race title in Montreal",
+      "summary": "The elite men's road race closed the cycling world championships in Montreal, Canada. Brandon McNulty of the United States went clear with around 30 kilometres remaining and finished 13 seconds ahead. He beat the Australian Michael Matthews and the Dutch rider Mathieu van der Poel.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "id": "2026-09-29-2",
+      "headline": "Swiss voters reject both of the day's initiatives",
+      "summary": "Switzerland put two proposals to a public vote on 27 September 2026. One proposed to enshrine a stricter form of Swiss neutrality; the other asked for safe food, through sustainable domestic production, more plant-based foods and clean drinking water. Both were rejected by a wide margin.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "id": "2026-09-29-3",
+      "headline": "Starship reaches orbit and releases 26 satellites",
+      "summary": "Starship flew for the fourteenth time, and for the first time it reached a sustained orbit. Ship 41 deployed 26 operational Starlink V3 satellites, the first operational payloads Starship has carried. The flight was then cut short, to about two hours in space instead of the eight that planners had intended.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starship_flight_14",
+      "publishedAt": "2026-09-28"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The cycling world championships ended with the elite men's road race, won by a rider who went clear on his own with about 30 kilometres left.",
+          "prompt": "Which rider won the men's road race?",
+          "options": ["Michael Matthews", "Mathieu van der Poel", "Brandon McNulty", "Tadej Pogačar"],
+          "level": "easy",
+          "storyId": "2026-09-29-1"
+        },
+        {
+          "lead": "The elite men's road race brought the cycling world championships to a close. It was held in a Canadian city, on a hilly finishing circuit that the riders covered twelve times.",
+          "prompt": "Which city hosted the race?",
+          "options": ["Quebec City", "Ottawa", "Toronto", "Montreal"],
+          "level": "easy",
+          "storyId": "2026-09-29-1"
+        },
+        {
+          "lead": "Switzerland put two popular initiatives to a public vote: one on a stricter form of Swiss neutrality, one on safe food and clean drinking water.",
+          "prompt": "What did the voters decide?",
+          "options": ["Both were accepted", "Both were rejected", "Only the neutrality initiative was accepted", "Only the food initiative was accepted"],
+          "level": "easy",
+          "storyId": "2026-09-29-2"
+        },
+        {
+          "lead": "On its fourteenth launch, Starship settled into a sustained orbit for the first time and released a batch of Starlink V3 satellites, the first operational payloads it has carried.",
+          "prompt": "How many satellites did it deploy?",
+          "options": ["6", "26", "60", "120"],
+          "level": "medium",
+          "storyId": "2026-09-29-3"
+        },
+        {
+          "lead": "SpaceX planners had intended to leave Ship 41 in space for around eight hours, but the mission profile was shortened and the ship came down early.",
+          "prompt": "How long did the ship spend in space?",
+          "options": ["About one hour", "About two hours", "About four hours", "About six hours"],
+          "level": "hard",
+          "storyId": "2026-09-29-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [2, 3, 1, 1, 1],
+      "explanations": [
+        "Brandon McNulty of the United States won the race. He escaped with around 30 kilometres remaining and finished 13 seconds clear of Michael Matthews and Mathieu van der Poel.",
+        "The race took place in Montreal, Canada, on 27 September 2026. Its finishing circuit ran 13.4 kilometres around Mount Royal, with 269 metres of climbing on every lap.",
+        "Both initiatives were rejected by a wide margin. They had been put to a public vote on 27 September 2026, one on Swiss neutrality and one on safe food.",
+        "Ship 41 deployed 26 operational Starlink V3 satellites, as Starlink Group 31-1. It was Starship's first deployment of operational payloads.",
+        "The ship spent about two hours in space. Planners had intended around eight hours, but the mission profile was shortened to have an early splashdown."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
+        "excerpt": "The Men's road race of the 2026 UCI Road World Championships was a cycling event that took place on 27 September 2026 in Montreal, Canada."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
+        "excerpt": "The race was won by United States rider Brandon McNulty, beating Australian rider Michael Matthews and Dutch rider Mathieu van der Poel by 13 seconds after escaping with around 30 kilometres (19 mi) remaining."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
+        "excerpt": "The circuit was 13.4 kilometres (8.3 mi) in length around Mount Royal, with 269 metres (883 ft) of elevation gain per lap. The circuit would be tackled 12 times."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_27",
+        "excerpt": "Swiss voters reject an initiative that proposed to enshrine a stricter form of Swiss neutrality, which would have prevented Switzerland from imposing economic sanctions and cooperating with NATO."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "excerpt": "The government has decided to put two proposals to a public vote on 27 September 2026:"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "excerpt": "Popular initiative ‘For safe food – through strengthening sustainable domestic production, increasing plant-based foods and ensuring clean drinking water (food initiative)’."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "excerpt": "Both referendums were rejected by a wide margin."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Starship_flight_14",
+        "excerpt": "Starship flight 14 was the fourteenth launch and the first operational flight of the SpaceX Starship launch system."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Starship_flight_14",
+        "excerpt": "Ship 41 performed an orbital-insertion burn, placing Starship into a sustained orbit for the first time. The spacecraft then deployed 26 operational Starlink V3 satellites as Starlink Group 31-1, marking Starship's first deployment of operational payloads."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Starship_flight_14",
+        "excerpt": "After approximately two hours in orbit, the mission profile was shortened to have an early splashdown. Initially, SpaceX mission planners intended for the ship to spend around eight hours in space, but this was shortened significantly to two hours."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "FINISH",
+      "storyId": "2026-09-29-1",
+      "teaser": "Today's word comes from a story about a bicycle race around Mount Royal.",
+      "excerpt": "The circuit included the Voie Camillien-Houde climb (2.3 kilometres (1.4 mi) at 6.2% average gradient), the Chemin de la Polytechnique with sections exceeding 11% gradient, and a false flat rising along Avenue du Parc, which served as the finish line."
+    },
+    "letters": {
+      "pangram": "STARSHIP",
+      "storyId": "2026-09-29-3",
+      "teaser": "Today's letters come from a story about a rocket reaching orbit.",
+      "excerpt": "Starship flight 14 was the fourteenth launch and the first operational flight of the SpaceX Starship launch system."
+    },
+    "crossword": [
+      {
+        "answer": "RIDER",
+        "clue": "A cyclist in the race, as McNulty was",
+        "storyId": "2026-09-29-1",
+        "excerpt": "The race was won by United States rider Brandon McNulty, beating Australian rider Michael Matthews and Dutch rider Mathieu van der Poel by 13 seconds after escaping with around 30 kilometres (19 mi) remaining."
+      },
+      {
+        "answer": "MOUNT",
+        "clue": "___ Royal, the hill the finishing circuit ran around",
+        "storyId": "2026-09-29-1",
+        "excerpt": "The circuit was 13.4 kilometres (8.3 mi) in length around Mount Royal, with 269 metres (883 ft) of elevation gain per lap."
+      },
+      {
+        "answer": "WATER",
+        "clue": "The food initiative wanted the drinking kind kept clean",
+        "storyId": "2026-09-29-2",
+        "excerpt": "Popular initiative ‘For safe food – through strengthening sustainable domestic production, increasing plant-based foods and ensuring clean drinking water (food initiative)’."
+      },
+      {
+        "answer": "ORBIT",
+        "clue": "Where Ship 41 spent about two hours",
+        "storyId": "2026-09-29-3",
+        "excerpt": "After approximately two hours in orbit, the mission profile was shortened to have an early splashdown."
+      }
+    ]
+  }
+}
