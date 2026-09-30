@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-09-30-en-v2",
+  "game": "letters",
+  "editionDate": "2026-09-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "H",
+    "outer": "IORSTY",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a badminton title defended."
+  },
+  "reveal": {
+    "answers": [
+      "HISS",
+      "HISSY",
+      "HISTORY",
+      "HITS",
+      "HOIST",
+      "HOOT",
+      "HOOTS",
+      "HORROR",
+      "HORRORS",
+      "HORST",
+      "HOST",
+      "HOSTS",
+      "HOTS",
+      "HOTSHOT",
+      "OOHS",
+      "ORTHO",
+      "RISHI",
+      "SHIRT",
+      "SHIRTS",
+      "SHOO",
+      "SHOOT",
+      "SHOOTS",
+      "SHORT",
+      "SHORTS",
+      "SHORTY",
+      "SHOT",
+      "SHOTS",
+      "SHRI",
+      "SITH",
+      "THIRST",
+      "THIRSTY",
+      "THIRTY",
+      "THIS",
+      "TOOTH",
+      "TOSH",
+      "TROTH"
+    ],
+    "pangrams": [
+      "HISTORY"
+    ],
+    "maxScore": 154,
+    "storyId": "2026-09-30-1",
+    "excerpt": "She won the gold medals at the 2023 and 2026 World Championships, making history as the first Korean women's singles player to win the World Championships title."
+  },
+  "storyId": "2026-09-30-1"
+}

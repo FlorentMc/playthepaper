@@ -1,16 +1,16 @@
 {
   "date": "2026-09-30",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-09-30-en-v1",
+    "word-2026-09-30-en-v2",
     "sudoku-2026-09-30-en-easy-v1",
     "sudoku-2026-09-30-en-medium-v1",
     "sudoku-2026-09-30-en-hard-v1",
-    "letters-2026-09-30-en-v1",
-    "crossword-2026-09-30-en-v1",
-    "quiz-2026-09-30-en-v1",
+    "letters-2026-09-30-en-v2",
+    "crossword-2026-09-30-en-v2",
+    "quiz-2026-09-30-en-v2",
     "bridges-2026-09-30-en-v1",
     "binary-2026-09-30-en-v1",
     "target-2026-09-30-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-09-30-1",
+      "headline": "An Se-young defends her Asian Games badminton title",
+      "summary": "An Se-young of South Korea won the women's singles badminton gold at the 2026 Asian Games. She beat Akane Yamaguchi of Japan 21–17, 21–9 in the final. She is the first woman to win two singles titles at the Games, and the first to defend the title.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Badminton_at_the_2026_Asian_Games_%E2%80%93_Women%27s_singles",
+      "publishedAt": "2026-09-29"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-09-30-2",
+      "headline": "Morocco gets its first woman prime minister",
+      "summary": "King Mohammed VI received Fatima Ezzahra El Mansouri at the Royal Palace on 29 September 2026 and appointed her prime minister of Morocco. She is the first woman to hold the office. A lawyer by training, she has been mayor of Marrakesh, first from 2009 to 2015 and then since 2021.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+      "publishedAt": "2026-09-29"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-09-30-3",
+      "headline": "Tokyo counts 34 rainy days in a row",
+      "summary": "The Japan Meteorological Agency recorded rainfall in Tokyo for 34 consecutive days. It is the longest streak since records began in 1886. The previous record, one day shorter, was set in 2019.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_29",
+      "publishedAt": "2026-09-29"
+    },
+    {
+      "id": "2026-09-30-4",
+      "headline": "Galápagos green turtles stayed close to home",
+      "summary": "Researchers tagged nine adult green sea turtles in the Galápagos in 2015 and followed them by satellite. None of them left the Galápagos Marine Reserve over the three years of the study, although the team had expected them to migrate to distant beaches in the western Pacific. Most stayed in shallow water close to the islands.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225032.htm",
+      "publishedAt": "2026-09-28"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-09-30-1": [
       "quiz:1",
-      "quiz:2",
-      "word",
-      "crossword:1 Down"
+      "letters",
+      "crossword:2 Down"
     ],
-    "technology-1-canal": [
+    "2026-09-30-2": [
+      "quiz:2",
+      "quiz:4"
+    ],
+    "2026-09-30-3": [
       "quiz:3"
     ],
-    "technology-1-chip": [
-      "quiz:4",
+    "2026-09-30-4": [
       "quiz:5",
-      "letters"
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-09-30T02:26:40.658648Z"
 }

@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-09-30-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-09-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "An Se-young won the women's singles badminton gold at the 2026 Asian Games, beating Akane Yamaguchi of Japan in the final.",
+        "prompt": "Which country does An Se-young represent?",
+        "options": [
+          "China",
+          "Japan",
+          "South Korea",
+          "Thailand"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-30-1"
+      },
+      {
+        "lead": "King Mohammed VI received Fatima Ezzahra El Mansouri at the Royal Palace on 29 September 2026 and appointed her prime minister. She is the first woman to hold the office.",
+        "prompt": "Which country now has a woman as prime minister for the first time?",
+        "options": [
+          "Algeria",
+          "Egypt",
+          "Morocco",
+          "Tunisia"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-30-2"
+      },
+      {
+        "lead": "Rain fell in Tokyo day after day through September. It was the longest such streak since records began in 1886.",
+        "prompt": "How many consecutive days of rainfall did the Japan Meteorological Agency report?",
+        "options": [
+          "24",
+          "34",
+          "44",
+          "54"
+        ],
+        "level": "easy",
+        "storyId": "2026-09-30-3"
+      },
+      {
+        "lead": "Before becoming prime minister, El Mansouri led one Moroccan city, first from 2009 to 2015 and then from 2021.",
+        "prompt": "Which city was she the mayor of?",
+        "options": [
+          "Casablanca",
+          "Fez",
+          "Marrakesh",
+          "Rabat"
+        ],
+        "level": "medium",
+        "storyId": "2026-09-30-2"
+      },
+      {
+        "lead": "None of the nine satellite-tagged green sea turtles left the Galápagos Marine Reserve over the three years of the study.",
+        "prompt": "How large is that marine reserve?",
+        "options": [
+          "1,980 square kilometres",
+          "19,800 square kilometres",
+          "198,000 square kilometres",
+          "1,980,000 square kilometres"
+        ],
+        "level": "hard",
+        "storyId": "2026-09-30-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    "explanations": [
+      "She represents South Korea. An Se-young also won the women's singles gold at the 2024 Summer Olympics and the world title in 2023 and 2026.",
+      "The country is Morocco. King Mohammed VI received El Mansouri at the Royal Palace on 29 September 2026 and appointed her, the first woman to hold the office.",
+      "The Agency reported 34 consecutive days. That is one day longer than the previous record, which was set in 2019.",
+      "She was mayor of Marrakesh. She held the post first from 2009 to 2015 and then from 2021, for the Authenticity and Modernity Party.",
+      "The Galápagos Marine Reserve covers 198,000 square kilometres. The turtles occasionally went as far as 25 kilometres from shore, but most remained much closer to the islands."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_29",
+      "excerpt": "In badminton, South Korea's An Se-young wins the women's singles gold medal at the 2026 Asian Games, becoming the first woman to win two singles titles and the first to defend the title, defeating Japan's Akane Yamaguchi 21–17, 21–9."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/An_Se-young",
+      "excerpt": "An Se-young (born 5 February 2002) is a South Korean badminton player, who won the gold medal at the 2024 Summer Olympics in the women's singles event."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/An_Se-young",
+      "excerpt": "She won the gold medals at the 2023 and 2026 World Championships, making history as the first Korean women's singles player to win the World Championships title."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+      "excerpt": "Fatima Ezzahra El Mansouri (born 3 January 1976) is a Moroccan politician and lawyer who is the prime minister–designate of Morocco since 29 September 2026. She is the first woman to hold the office."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+      "excerpt": "A member of the Authenticity and Modernity Party (PAM), she previously served as mayor of Marrakesh, first from 2009 to 2015, and then since 2021."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+      "excerpt": "On 29 September 2026, Mohammed VI received her at the Royal Palace and appointed El Mansouri as Prime Minister of Morocco, becoming the first woman to hold the office."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_29",
+      "excerpt": "The Japan Meteorological Agency reports rainfall in Tokyo for 34 consecutive days through today, the longest streak since records began in 1886 and one day longer than the previous record set in 2019."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225032.htm",
+      "excerpt": "We expected them to migrate to distant beaches in the western Pacific to reproduce, yet interestingly, none of our satellite-tagged turtles even left the Galápagos Marine Reserve over the three years of our study."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225032.htm",
+      "excerpt": "Rowe and his colleagues wanted to better understand where yellow morphs spend their time, how much territory they use, and whether they travel between islands within the 198,000 sq km Galápagos Marine Reserve. In 2015, the team carefully captured nine adults in shallow water near four islands."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260927225032.htm",
+      "excerpt": "Although the turtles occasionally traveled as far as 25km from shore, most remained much closer to the islands."
+    }
+  ]
+}

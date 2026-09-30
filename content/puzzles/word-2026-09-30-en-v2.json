@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-09-30-en-v2",
+  "game": "word",
+  "editionDate": "2026-09-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about turtles that stayed inside their reserve."
+  },
+  "reveal": {
+    "answer": "MARINE",
+    "storyId": "2026-09-30-4",
+    "excerpt": "We expected them to migrate to distant beaches in the western Pacific to reproduce, yet interestingly, none of our satellite-tagged turtles even left the Galápagos Marine Reserve over the three years of our study."
+  },
+  "storyId": "2026-09-30-4"
+}
