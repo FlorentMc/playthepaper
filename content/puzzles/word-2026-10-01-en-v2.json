@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-01-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-01",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a coronation in Uganda."
+  },
+  "reveal": {
+    "answer": "PALACE",
+    "storyId": "2026-10-01-1",
+    "excerpt": "The Babiito royal clan and the Tooro Kingdom Supreme Council scheduled his coronation and enthronement for 29 September 2026 at Karuziika Palace in Fort Portal."
+  },
+  "storyId": "2026-10-01-1"
+}

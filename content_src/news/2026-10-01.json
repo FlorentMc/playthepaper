@@ -1,0 +1,195 @@
+{
+  "slug": "2026-10-01",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-01-1",
+      "headline": "Uganda's Tooro Kingdom crowns a new king",
+      "summary": "The Tooro Kingdom in Uganda has crowned a new king. The Babiito royal clan selected Edward Rukidi Nyabongo I on 9 September 2026, and his coronation took place on 29 September at Karuziika Palace in Fort Portal. He was a television news anchor and editor before he came to the throne.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nyabongo_I_of_Tooro",
+      "publishedAt": "2026-09-29"
+    },
+    {
+      "id": "2026-10-01-2",
+      "headline": "The US Senate passes a college sports bill",
+      "summary": "Athletes at American colleges can be paid for the use of their name, image and likeness. The United States Senate has passed a bill that would set national rules for those payments and for transfers, by 77 votes to 22. It now goes to the House of Representatives.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Protect_College_Sports_Act_of_2026",
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "2026-10-01-3",
+      "headline": "Sharks heard a speaker 74 metres away",
+      "summary": "Blacktip sharks can hear further than anyone had shown in the wild. Researchers played low-frequency sounds through an underwater speaker in coastal water and filmed the sharks from a drone. They reacted from as far as 74 metres, or 243 feet, away.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053536.htm",
+      "publishedAt": "2026-09-29"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The Tooro Kingdom crowned a new king on 29 September 2026. The Babiito royal clan had selected him on 9 September.",
+          "prompt": "Which country is the Tooro Kingdom in?",
+          "options": [
+            "Ghana",
+            "Kenya",
+            "Uganda",
+            "Zambia"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-01-1"
+        },
+        {
+          "lead": "The man crowned as the new king of Tooro had a working life before the throne. For years he appeared on Ugandan television.",
+          "prompt": "Which kind of programme did he present?",
+          "options": [
+            "Drama",
+            "News",
+            "Sport",
+            "Weather"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-01-1"
+        },
+        {
+          "lead": "A bill setting national rules for paying college athletes passed the United States Senate on 28 September 2026. There were 22 votes against it.",
+          "prompt": "How many senators voted for the bill?",
+          "options": [
+            "33",
+            "41",
+            "55",
+            "77"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-01-2"
+        },
+        {
+          "lead": "The Protect College Sports Act would make college athletes report what they earn from their name, image and likeness. The duty to report starts above a set amount.",
+          "prompt": "Above what amount would those earnings have to be reported?",
+          "options": [
+            "$60",
+            "$600",
+            "$6,000",
+            "$60,000"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-01-2"
+        },
+        {
+          "lead": "Scientists tested the hearing of wild blacktip sharks by playing low-frequency sounds through an underwater speaker. A drone filmed the sharks from above as they reacted.",
+          "prompt": "From how far away did the sharks detect the sounds?",
+          "options": [
+            "Up to 7 metres",
+            "Up to 24 metres",
+            "Up to 74 metres",
+            "Up to 240 metres"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-01-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      "explanations": [
+        "The Tooro Kingdom is in Uganda. The Babiito royal clan selected him on 9 September 2026 and his coronation took place on 29 September.",
+        "He presented the news. He was a television news anchor and editor at the Uganda Broadcasting Corporation.",
+        "The Senate passed the bill 77-22. The vote was taken on 28 September 2026 and the bill then went to the United States House of Representatives.",
+        "Earnings greater than $600 would have to be reported. The bill covers the usage of players' name, image and likeness, and also transfers.",
+        "The sharks detected the sounds from up to 74 metres away. That is 243 feet, substantially farther than had previously been demonstrated in freely swimming sharks."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nyabongo_I_of_Tooro",
+        "excerpt": "On 9 September 2026, he was selected by the Babiito royal clan to succeed Oyo Nyimba Kabamba Iguru Rukidi IV as Omukama of Tooro, a selection endorsed by the Tooro Kingdom Supreme Council on 15 September. His coronation took place on 29 September 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nyabongo_I_of_Tooro",
+        "excerpt": "He worked for the Uganda Broadcasting Corporation (UBC) as a television news anchor and editor."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nyabongo_I_of_Tooro",
+        "excerpt": "He became known on Ugandan television through his presentation of English-language news bulletins, including UBC News Tonight."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Protect_College_Sports_Act_of_2026",
+        "excerpt": "The main goal of S. 4668 is to regulate college sports, especially the usage of players' name, image, and likeness (NIL) and transfers."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Protect_College_Sports_Act_of_2026",
+        "excerpt": "The bill will require reporting of all NIL earnings greater than $600."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Protect_College_Sports_Act_of_2026",
+        "excerpt": "On September 28, 2026 at 9:42 PM the Senate passed S. 4668 77-22 sending the bill to the United States House of Representatives."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053536.htm",
+        "excerpt": "Researchers studying blacktip sharks (Carcharhinus limbatus) used an underwater speaker, a drone, and wild sharks swimming naturally in coastal waters."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053536.htm",
+        "excerpt": "They detected low frequency sounds from distances of up to 74 meters (243 feet), substantially farther than had previously been demonstrated in freely swimming sharks."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "PALACE",
+      "storyId": "2026-10-01-1",
+      "teaser": "Today's word comes from a story about a coronation in Uganda.",
+      "excerpt": "The Babiito royal clan and the Tooro Kingdom Supreme Council scheduled his coronation and enthronement for 29 September 2026 at Karuziika Palace in Fort Portal."
+    },
+    "letters": {
+      "pangram": "HEARING",
+      "storyId": "2026-10-01-3",
+      "teaser": "Today's letters come from a story about sharks and sound.",
+      "excerpt": "The research also demonstrates why studying shark hearing in the ocean can reveal information that is difficult to obtain in laboratory tanks."
+    },
+    "crossword": [
+      {
+        "answer": "REIGN",
+        "clue": "A king's time on the throne",
+        "storyId": "2026-10-01-1",
+        "excerpt": "The council recognised Kijanangoma as Oyo's successor and supported his reign under the name Edward Rukidi Nyabongo I."
+      },
+      {
+        "answer": "DRONE",
+        "clue": "The flying camera that watched the sharks from above",
+        "storyId": "2026-10-01-3",
+        "excerpt": "Researchers studying blacktip sharks (Carcharhinus limbatus) used an underwater speaker, a drone, and wild sharks swimming naturally in coastal waters."
+      },
+      {
+        "answer": "OCEAN",
+        "clue": "Where the sharks were tested, rather than a tank",
+        "storyId": "2026-10-01-3",
+        "excerpt": "The research also demonstrates why studying shark hearing in the ocean can reveal information that is difficult to obtain in laboratory tanks."
+      },
+      {
+        "answer": "BILL",
+        "clue": "What the Senate passed on 28 September",
+        "storyId": "2026-10-01-2",
+        "excerpt": "On September 28, 2026 at 9:42 PM the Senate passed S. 4668 77-22 sending the bill to the United States House of Representatives."
+      }
+    ]
+  }
+}
