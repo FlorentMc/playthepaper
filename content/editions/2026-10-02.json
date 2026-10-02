@@ -1,16 +1,16 @@
 {
   "date": "2026-10-02",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-10-02-en-v1",
+    "word-2026-10-02-en-v2",
     "sudoku-2026-10-02-en-easy-v1",
     "sudoku-2026-10-02-en-medium-v1",
     "sudoku-2026-10-02-en-hard-v1",
-    "letters-2026-10-02-en-v1",
-    "crossword-2026-10-02-en-v1",
-    "quiz-2026-10-02-en-v1",
+    "letters-2026-10-02-en-v2",
+    "crossword-2026-10-02-en-v2",
+    "quiz-2026-10-02-en-v2",
     "bridges-2026-10-02-en-v1",
     "binary-2026-10-02-en-v1",
     "target-2026-10-02-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-10-02-1",
+      "headline": "Four astronauts launch towards the space station",
+      "summary": "Four astronauts are on their way to the International Space Station. SpaceX's Crew-13 mission launched on 1 October from Cape Canaveral Space Force Station in Florida, carrying two NASA astronauts, a Canadian Space Agency astronaut and a Roscosmos cosmonaut. The flight had been due in September, but a leak in an oxidizer tank held it back.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+      "publishedAt": "2026-10-01"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-10-02-2",
+      "headline": "A court clears the way for the Warner Bros. Discovery sale",
+      "summary": "Paramount Skydance is now free to complete its purchase of Warner Bros. Discovery. A court approved the company's settlement with California and 11 other American states on 30 September, and Paramount says it expects to finish the acquisition by 6 October. It agreed in February to pay $31 per share for the business.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+      "publishedAt": "2026-09-30"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
+      "id": "2026-10-02-3",
+      "headline": "San Marino swears in a new pair of Captains Regent",
+      "summary": "San Marino swore in a new pair of Captains Regent on 1 October. Gerardo Giovagnoli and William Casali took over from Alice Mina and Vladimiro Selva as the republic's joint heads of state. Each pair serves a six-month term, and the investiture always falls on 1 April and 1 October.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_1",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "id": "2026-10-02-4",
+      "headline": "Two new stick insects found in Australia",
+      "summary": "Australia has two new stick insects. A team at the University of Sydney re-examined the genus Anchiale and found two species that had never been described, one of them laying eggs with a lid-like structure. What had been counted as two species turns out to be five.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+      "publishedAt": "2026-10-01"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-10-02-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
-      "crossword:3 Down"
+      "quiz:5",
+      "crossword:7 Across"
     ],
-    "discovery-1-deep": [
+    "2026-10-02-2": [
+      "quiz:2"
+    ],
+    "2026-10-02-3": [
       "quiz:3",
+      "letters"
+    ],
+    "2026-10-02-4": [
       "quiz:4",
       "word"
-    ],
-    "discovery-1-valley": [
-      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-10-02T02:27:11.916202Z"
 }

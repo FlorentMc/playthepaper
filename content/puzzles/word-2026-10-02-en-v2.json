@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-02-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "I",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about two new stick insects in Australia."
+  },
+  "reveal": {
+    "answer": "INSECT",
+    "storyId": "2026-10-02-4",
+    "excerpt": "A University of Sydney research team reexamined Australian members of the stick insect genus Anchiale and discovered two new species. One produces unusual eggs with a distinctive lidlike structure."
+  },
+  "storyId": "2026-10-02-4"
+}

@@ -1,0 +1,233 @@
+{
+  "slug": "2026-10-02",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-02-1",
+      "headline": "Four astronauts launch towards the space station",
+      "summary": "Four astronauts are on their way to the International Space Station. SpaceX's Crew-13 mission launched on 1 October from Cape Canaveral Space Force Station in Florida, carrying two NASA astronauts, a Canadian Space Agency astronaut and a Roscosmos cosmonaut. The flight had been due in September, but a leak in an oxidizer tank held it back.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "id": "2026-10-02-2",
+      "headline": "A court clears the way for the Warner Bros. Discovery sale",
+      "summary": "Paramount Skydance is now free to complete its purchase of Warner Bros. Discovery. A court approved the company's settlement with California and 11 other American states on 30 September, and Paramount says it expects to finish the acquisition by 6 October. It agreed in February to pay $31 per share for the business.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+      "publishedAt": "2026-09-30"
+    },
+    {
+      "id": "2026-10-02-3",
+      "headline": "San Marino swears in a new pair of Captains Regent",
+      "summary": "San Marino swore in a new pair of Captains Regent on 1 October. Gerardo Giovagnoli and William Casali took over from Alice Mina and Vladimiro Selva as the republic's joint heads of state. Each pair serves a six-month term, and the investiture always falls on 1 April and 1 October.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_1",
+      "publishedAt": "2026-10-01"
+    },
+    {
+      "id": "2026-10-02-4",
+      "headline": "Two new stick insects found in Australia",
+      "summary": "Australia has two new stick insects. A team at the University of Sydney re-examined the genus Anchiale and found two species that had never been described, one of them laying eggs with a lid-like structure. What had been counted as two species turns out to be five.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+      "publishedAt": "2026-10-01"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "SpaceX launched its Crew-13 mission on 1 October with four people on board. Two came from NASA, one from the Canadian Space Agency and one from Roscosmos.",
+          "prompt": "Where was the crew heading?",
+          "options": [
+            "The International Space Station",
+            "The Lunar Gateway",
+            "The Moon's surface",
+            "The Tiangong space station"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-02-1"
+        },
+        {
+          "lead": "A court approved a settlement with a group of American states on 30 September, clearing the last obstacle to a big media takeover. Warner Bros. Discovery is being bought.",
+          "prompt": "Which company is buying it?",
+          "options": [
+            "Comcast",
+            "Netflix",
+            "Paramount Skydance",
+            "Sony Pictures"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-02-2"
+        },
+        {
+          "lead": "San Marino swore in two new Captains Regent on 1 October. The pair share the job of head of state, a tradition that dates back at least to 1243.",
+          "prompt": "How long does each pair hold the office?",
+          "options": [
+            "Six months",
+            "Two years",
+            "Four years",
+            "Seven years"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-02-3"
+        },
+        {
+          "lead": "A University of Sydney team took a fresh look at the Australian stick insects of the genus Anchiale. They found two species that nobody had recognised before.",
+          "prompt": "How many separate species does the group now turn out to contain?",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-02-4"
+        },
+        {
+          "lead": "Crew-13 was first due to fly on 12 September 2026, but a problem with the spacecraft pushed it back. The launch finally happened on 1 October.",
+          "prompt": "What held the mission up?",
+          "options": [
+            "A cracked heat shield",
+            "A fault in the flight software",
+            "A faulty parachute line",
+            "A leak in an oxidizer tank"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-02-1"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        0,
+        2,
+        0,
+        2,
+        3
+      ],
+      "explanations": [
+        "They were heading for the International Space Station. Joshua Kutryk, one of the four, is the first Canadian sent to orbit as part of the Commercial Crew Program.",
+        "Paramount Skydance is buying Warner Bros. Discovery. It announced the deal in February 2026 and expects to complete the acquisition by 6 October.",
+        "Each pair serves a six-month term. The investiture always takes place on 1 April and 1 October.",
+        "It contains five separate species. One of the newly described insects lays unusual eggs with a lid-like structure.",
+        "A leak in an oxidizer tank delayed the launch. The mission is the 13th operational SpaceX flight under NASA's Commercial Crew Program."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+        "excerpt": "The mission launched October 1, 2026 at 11:10:06 am to transport four crew members—NASA astronauts Jessica Watkins and Luke Delaney, CSA astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov—to the International Space Station (ISS)."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+        "excerpt": "Kutryk is the first Canadian to be sent to orbit as part of the Commercial Crew Program."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-13",
+        "excerpt": "The 13th operational SpaceX mission under NASA's Commercial Crew Program was scheduled to launch on September 12, 2026, but a leak in Grace's oxidizer tank delayed the launch."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_1",
+        "excerpt": "The SpaceX Crew-13 mission to the International Space Station launches, carrying two NASA astronauts, one Roscosmos cosmonaut, and one Canadian Space Agency astronaut, from Cape Canaveral Space Force Station in Florida, United States."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+        "excerpt": "On February 27, 2026, Paramount Skydance announced its intent to acquire Warner Bros. Discovery (WBD). As part of their definitive agreement, the company was to acquire WBD for $31 per share, valuing the company at $110.9 billion."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+        "excerpt": "In July 2026, California and 11 other U.S. states, as well as the Writers Guild of America, filed antitrust lawsuits in a California federal court to delay the consummation of the purchase."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+        "excerpt": "The settlement was approved by the court on September 30, 2026; Paramount stated that it expects to complete the acquisition by October 6, 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Captains_Regent",
+        "excerpt": "The Captains Regent are the heads of state, a function which they carry out as a single body, with a reciprocal right of veto."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Captains_Regent",
+        "excerpt": "Normally the Captains Regent are chosen from parties in coalition and serve a six-month term."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Captains_Regent",
+        "excerpt": "The investiture of the Captains Regent takes place on 1 April and 1 October every year. This tradition dates back at least to 1243."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_1",
+        "excerpt": "Gerardo Giovagnoli and William Casali are sworn in as the new Captains Regent of San Marino, succeeding Alice Mina and Vladimiro Selva."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+        "excerpt": "A University of Sydney research team reexamined Australian members of the stick insect genus Anchiale and discovered two new species. One produces unusual eggs with a distinctive lidlike structure."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+        "excerpt": "Their work shows that insects previously classified as just two species actually represent five separate species."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020315.htm",
+        "excerpt": "Stick insects belong to a group called Phasmatodea, a name derived from an ancient Greek word meaning \"phantom\" or \"ghost.\""
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "INSECT",
+      "storyId": "2026-10-02-4",
+      "teaser": "Today's word comes from a story about two new stick insects in Australia.",
+      "excerpt": "A University of Sydney research team reexamined Australian members of the stick insect genus Anchiale and discovered two new species. One produces unusual eggs with a distinctive lidlike structure."
+    },
+    "letters": {
+      "pangram": "CAPTAINS",
+      "storyId": "2026-10-02-3",
+      "teaser": "Today's letters come from a story about San Marino's pair of leaders.",
+      "excerpt": "The Captains Regent are the heads of state, a function which they carry out as a single body, with a reciprocal right of veto."
+    },
+    "crossword": [
+      {
+        "answer": "ORBIT",
+        "clue": "Where the Commercial Crew Program sent its first Canadian",
+        "storyId": "2026-10-02-1",
+        "excerpt": "Kutryk is the first Canadian to be sent to orbit as part of the Commercial Crew Program."
+      },
+      {
+        "answer": "SHARE",
+        "clue": "A single slice of a company, priced at $31 in this deal",
+        "storyId": "2026-10-02-2",
+        "excerpt": "On February 27, 2026, Paramount Skydance announced its intent to acquire Warner Bros. Discovery (WBD). As part of their definitive agreement, the company was to acquire WBD for $31 per share, valuing the company at $110.9 billion."
+      },
+      {
+        "answer": "SWORN",
+        "clue": "Put under oath on taking office",
+        "storyId": "2026-10-02-3",
+        "excerpt": "Gerardo Giovagnoli and William Casali are sworn in as the new Captains Regent of San Marino, succeeding Alice Mina and Vladimiro Selva."
+      },
+      {
+        "answer": "GHOST",
+        "clue": "What Phasmatodea means in ancient Greek",
+        "storyId": "2026-10-02-4",
+        "excerpt": "Stick insects belong to a group called Phasmatodea, a name derived from an ancient Greek word meaning \"phantom\" or \"ghost.\""
+      }
+    ]
+  }
+}

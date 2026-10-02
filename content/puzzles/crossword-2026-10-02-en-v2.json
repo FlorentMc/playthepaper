@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-02-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-02",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Beaver's construction"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Exact copy"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Path taken"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Where the Commercial Crew Program sent its first Canadian",
+          "storyId": "2026-10-02-1"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Animal kept at home"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Lack of belief"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Against"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Come together"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Farmer's harvest"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Folk wisdom"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##DAM",
+      "CLONE",
+      "ROUTE",
+      "ORBIT",
+      "PET##"
+    ],
+    "seeded": [
+      {
+        "label": "7 Across",
+        "storyId": "2026-10-02-1",
+        "excerpt": "Kutryk is the first Canadian to be sent to orbit as part of the Commercial Crew Program."
+      }
+    ]
+  },
+  "storyId": "2026-10-02-1"
+}
