@@ -1,0 +1,151 @@
+{
+  "id": "quiz-2026-10-03-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Guy Parmelin holds the rotating presidency of the Federal Council for 2026. On 2 October he announced that he would give up his seat in the government.",
+        "prompt": "Which country does Parmelin serve as president of?",
+        "options": [
+          "Austria",
+          "Belgium",
+          "Portugal",
+          "Switzerland"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-03-1"
+      },
+      {
+        "lead": "Siegfried Mureșan was put forward as prime minister-designate and needed 233 votes in parliament to be approved. On 30 September his proposed government received 182.",
+        "prompt": "Which country's parliament turned him down?",
+        "options": [
+          "Bulgaria",
+          "Hungary",
+          "Romania",
+          "Slovakia"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-03-2"
+      },
+      {
+        "lead": "Parmelin's resignation takes effect at the end of 2026, so parliament must hold a by-election to fill his seat. His party has given possible candidates until 23 October to come forward.",
+        "prompt": "In which month is that by-election due to be held?",
+        "options": [
+          "October",
+          "November",
+          "December",
+          "January"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-03-1"
+      },
+      {
+        "lead": "The Hōlei Sea Arch stood at the end of the Chain of Craters Road in Hawaiʻi Volcanoes National Park, cut from an ancient lava flow by the Pacific Ocean. The National Park Service has confirmed that it collapsed into the sea.",
+        "prompt": "Roughly how long had the arch been standing?",
+        "options": [
+          "About 150 years",
+          "About 550 years",
+          "About 1,500 years",
+          "About 5,500 years"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-03-3"
+      },
+      {
+        "lead": "The arch was a natural span of basalt on the southern coast of the Big Island, and the park service had worried for years that it would fall. Visitors once drove to the end of the road to look at it.",
+        "prompt": "How high was the arch?",
+        "options": [
+          "30 feet",
+          "60 feet",
+          "90 feet",
+          "150 feet"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-03-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      2,
+      2,
+      1,
+      2
+    ],
+    "explanations": [
+      "Parmelin is the president of Switzerland for 2026. He was elected to that post on 10 December 2025 with 203 valid votes in the Federal Assembly.",
+      "It was Romania's parliament. Mureșan received 182 of the 233 votes required for approval, and he is the third candidate for prime minister to be rejected this year.",
+      "The by-election will take place on 9 December 2026. Parmelin's resignation from the Federal Council takes effect on 31 December.",
+      "The sea carved it from an ancient lava flow roughly 550 years ago. It stood at the end of the Chain of Craters Road and was one of the park's best-known coastal landmarks.",
+      "The arch was 90 feet high and made of basalt. The park service closed the original overlook in 2020 because of cliff instability, and a large surf event broke away part of the arch's base in 2022."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guy_Parmelin",
+      "excerpt": "A member of the Swiss People's Party (SVP/UDC), he is currently the president of Switzerland for 2026, having previously served as president in 2021 and as vice president in 2020 and 2025."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guy_Parmelin",
+      "excerpt": "On 10 December 2025, Parmelin was elected Federal President for the year 2026 with 203 valid votes in the Federal Assembly (of a total of 246)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Swiss_Federal_Council_election",
+      "excerpt": "The announcement of President Guy Parmelin's resignation from the Federal Council on 2 October, effective on 31 December, triggered a by-election that will take place on 9 December 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Swiss_Federal_Council_election",
+      "excerpt": "The People's Party announced that candidates have until 23 October to nominate themselves as a candidate."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_30",
+      "excerpt": "Romania's parliament rejects prime minister-designate Siegfried Mureșan's proposed government, receiving 182 of the 233 votes required for approval, prolonging the political crisis that began after Ilie Bolojan's government fell in May."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Romanian_political_crisis",
+      "excerpt": "On 30 September 2026, Siegfried Mureșan failed to secure parliamentary approval to become new prime minister."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Romanian_political_crisis",
+      "excerpt": "On 4 June 2026, Eugen Tomac was rejected as a potential prime minister after talks broke down."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Romanian_political_crisis",
+      "excerpt": "On 22 June 2026, Adrian Veștea was rejected by parliament as the proposed new prime minister."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/H%C5%8Dlei_Sea_Arch",
+      "excerpt": "The Hōlei Sea Arch was a 90-foot (27 m)-high natural arch of basalt on the southern coast of the Big Island of Hawaiʻi, within Hawaiʻi Volcanoes National Park."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/H%C5%8Dlei_Sea_Arch",
+      "excerpt": "Carved by the Pacific Ocean from an ancient lava flow roughly 550 years ago, it stood at the end of the Chain of Craters Road and was one of the park's best-known coastal landmarks."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/H%C5%8Dlei_Sea_Arch",
+      "excerpt": "The National Park Service (NPS) closed the original overlook in 2020 because of cliff instability, and in 2022 a large surf event broke away part of the arch's base. The arch collapsed into the ocean in late September 2026, around the time of Hurricane Nolo."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_2",
+      "excerpt": "The U.S. National Park Service confirms that the Hōlei Sea Arch, located on Hawaii's Big Island, has collapsed into the Pacific Ocean."
+    }
+  ]
+}

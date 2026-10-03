@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-03-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "I",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a sea arch that fell into the Pacific."
+  },
+  "reveal": {
+    "answer": "ISLAND",
+    "storyId": "2026-10-03-3",
+    "excerpt": "The Hōlei Sea Arch was a 90-foot (27 m)-high natural arch of basalt on the southern coast of the Big Island of Hawaiʻi, within Hawaiʻi Volcanoes National Park."
+  },
+  "storyId": "2026-10-03-3"
+}

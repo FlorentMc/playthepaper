@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-03-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Piece of grass and earth"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "For what reason?"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "___ minister, the post Mureșan was turned down for",
+          "storyId": "2026-10-03-2"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Owns"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that thing"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Of the country whose Federal Council Parmelin is leaving",
+          "storyId": "2026-10-03-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Unit of electrical resistance"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Hair colouring"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Greek letter"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Rodent with a long tail"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##SOD",
+      "##WHY",
+      "PRIME",
+      "HAS##",
+      "ITS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-03-1",
+        "excerpt": "A member of the Swiss People's Party (SVP/UDC), he is currently the president of Switzerland for 2026, having previously served as president in 2021 and as vice president in 2020 and 2025."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-03-2",
+        "excerpt": "On 30 September 2026, Siegfried Mureșan failed to secure parliamentary approval to become new prime minister."
+      }
+    ]
+  },
+  "storyId": "2026-10-03-1"
+}
