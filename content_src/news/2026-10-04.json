@@ -1,0 +1,218 @@
+{
+  "slug": "2026-10-04",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-04-1",
+      "headline": "A medieval Bulgarian tsar's remains come home",
+      "summary": "Samuel ruled the First Bulgarian Empire and died in 1014. After decades of negotiation with Greece, his remains were transferred to Sofia on 3 October and placed in a sarcophagus in the Saint Sophia Church. His grave had been found in 1965 on an island in Lake Prespa.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Samuel_of_Bulgaria",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "id": "2026-10-04-2",
+      "headline": "Michael J. Fox is promoted within the Order of Canada",
+      "summary": "The actor Michael J. Fox has been promoted to companion level within the Order of Canada. The governor general, Louise Arbour, recognised his advocacy on Parkinson's disease and research. Fox had been an Officer of the order since 2010.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_J._Fox",
+      "publishedAt": "2026-10-02"
+    },
+    {
+      "id": "2026-10-04-3",
+      "headline": "Argentina offers citizenship for a large payment",
+      "summary": "Argentina has introduced a programme that lets foreigners obtain citizenship by paying into the state. One route is a contribution of US$350,000 to the Ministry of Economy; the other is $800,000 placed in a seven-year government bond. Spouses and children require lower additional payments.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Immigrant_investor_programs",
+      "publishedAt": "2026-10-02"
+    },
+    {
+      "id": "2026-10-04-4",
+      "headline": "Tiny fossils hint at an ancient sense of direction",
+      "summary": "Tiny magnetic fossils, 97 million years old, were preserved in ancient seafloor sediments. Researchers now think the structures worked as a navigation system, letting an ancient animal read Earth's magnetic field much like a map. Which creature made them is still unknown.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
+      "publishedAt": "2026-10-02"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The remains of Samuel, a tsar of the First Bulgarian Empire who died in 1014, have been returned by Greece after decades of negotiation. They were transferred on 3 October and placed in a sarcophagus.",
+          "prompt": "Which Bulgarian city did Samuel's remains arrive in?",
+          "options": [
+            "Burgas",
+            "Plovdiv",
+            "Sofia",
+            "Varna"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-04-1"
+        },
+        {
+          "lead": "Michael J. Fox has been honoured again by Canada for his advocacy on Parkinson's disease and research. He was already an Officer of the Order of Canada, appointed in 2010.",
+          "prompt": "Which level of the Order of Canada was he promoted to?",
+          "options": [
+            "Commander",
+            "Companion",
+            "Member",
+            "Officer"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-04-2"
+        },
+        {
+          "lead": "Argentina has introduced a programme that lets foreigners obtain citizenship by paying into the state. One route is a contribution to the Ministry of Economy.",
+          "prompt": "How large does that contribution have to be?",
+          "options": [
+            "$3,500",
+            "$35,000",
+            "$350,000",
+            "$3.5 million"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-04-3"
+        },
+        {
+          "lead": "Samuel's grave was located by a Greek professor, Nikolaos Moutsopoulos, in a church on an island in Lake Prespa. His remains were afterwards kept in the Museum of Byzantine Culture in Thessaloniki.",
+          "prompt": "In which year was the grave found?",
+          "options": [
+            "1935",
+            "1965",
+            "1985",
+            "2005"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-04-1"
+        },
+        {
+          "lead": "Magnetic fossils 97 million years old appear to have worked as a navigation system, letting an ancient animal read Earth's magnetic field much like a map. Which creature made them is still unknown, though the researchers name one suspect.",
+          "prompt": "Which animal do the researchers suggest as a possible maker?",
+          "options": [
+            "Eels",
+            "Salmon",
+            "Sea turtles",
+            "Whales"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-04-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "explanations": [
+        "They were transferred to Bulgaria's capital, Sofia, on 3 October. The remains were placed in a sarcophagus in the Saint Sophia Church there.",
+        "He was promoted to companion level within the Order of Canada. The governor general, Louise Arbour, recognised his advocacy on Parkinson's disease and research.",
+        "The contribution is US$350,000 to the Ministry of Economy. The other route is $800,000 placed in a seven-year government bond.",
+        "The grave was found in 1965, in the Church of St Achillios on an island in Lake Prespa. The remains were afterwards kept in the Museum of Byzantine Culture in Thessaloniki.",
+        "The researchers suggest eels, which evolved around 100 million years ago. Eels remain among the most elusive and poorly understood animals living today."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_3",
+        "excerpt": "The remains of Samuel, the former Bulgarian tsar during the First Bulgarian Empire who died in 1014, return to Bulgaria following decades of negotiation with Greece."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Samuel_of_Bulgaria",
+        "excerpt": "The remains were transferred to Bulgaria's capital Sofia on 3 October. They were placed in a sarcophagus in the Saint Sophia Church, Sofia."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Samuel_of_Bulgaria",
+        "excerpt": "Samuel's grave was found in 1965 by Greek professor Nikolaos Moutsopoulos in the Church of St Achillios on the eponymous island in Lake Prespa. His remains were kept in the Museum of Byzantine Culture in Thessaloniki."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_J._Fox",
+        "excerpt": "Fox was appointed an Officer of the Order of Canada in 2010, and was inducted into Canada's Walk of Fame in 2000 and the Hollywood Walk of Fame in 2002."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_J._Fox",
+        "excerpt": "2026: Promoted to Companion of the Order of Canada."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_2",
+        "excerpt": "Canadian–American actor Michael J. Fox is promoted to companion level within the Order of Canada by governor general Louise Arbour for his advocacy on Parkinson's disease and research."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Immigrant_investor_programs",
+        "excerpt": "In the context of its ongoing monetary crisis, in October 2026, Argentine president Javier Milei announced plans for the country to offer \"golden passports\" to individuals contributing $350,000 or investing $800,000 into a seven-year government bond."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_2",
+        "excerpt": "Argentina introduces an immigrant investor program allowing foreigners to obtain citizenship through a US$350,000 contribution to the Ministry of Economy or an $800,000 government bond, with lower additional payments required for spouses and children."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
+        "excerpt": "The evidence comes from tiny magnetic fossils dating back 97 million years. They were preserved in ancient seafloor sediments and appear to have been produced by an organism whose identity remains unknown."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
+        "excerpt": "Now, researchers have uncovered evidence that the structures may have functioned as a sophisticated navigation system, allowing an ancient animal to interpret Earth's magnetic field much like a map."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020329.htm",
+        "excerpt": "Harrison suggests that eels are one possible candidate. Eels evolved around 100 million years ago and remain among the most elusive and poorly understood animals living today."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "ISLAND",
+      "storyId": "2026-10-04-1",
+      "teaser": "Today's word comes from a story about a tsar's remains returning to Bulgaria.",
+      "excerpt": "Samuel's grave was found in 1965 by Greek professor Nikolaos Moutsopoulos in the Church of St Achillios on the eponymous island in Lake Prespa. His remains were kept in the Museum of Byzantine Culture in Thessaloniki."
+    },
+    "letters": {
+      "pangram": "SEDIMENTS",
+      "storyId": "2026-10-04-4",
+      "teaser": "Today's letters come from a story about 97-million-year-old magnetic fossils.",
+      "excerpt": "The evidence comes from tiny magnetic fossils dating back 97 million years. They were preserved in ancient seafloor sediments and appear to have been produced by an organism whose identity remains unknown."
+    },
+    "crossword": [
+      {
+        "answer": "GRAVE",
+        "clue": "What a Greek professor found on an island in Lake Prespa in 1965",
+        "storyId": "2026-10-04-1",
+        "excerpt": "Samuel's grave was found in 1965 by Greek professor Nikolaos Moutsopoulos in the Church of St Achillios on the eponymous island in Lake Prespa. His remains were kept in the Museum of Byzantine Culture in Thessaloniki."
+      },
+      {
+        "answer": "FAME",
+        "clue": "Canada and Hollywood each have a Walk of it",
+        "storyId": "2026-10-04-2",
+        "excerpt": "Fox was appointed an Officer of the Order of Canada in 2010, and was inducted into Canada's Walk of Fame in 2000 and the Hollywood Walk of Fame in 2002."
+      },
+      {
+        "answer": "BOND",
+        "clue": "Seven-year government security an applicant may buy for $800,000",
+        "storyId": "2026-10-04-3",
+        "excerpt": "In the context of its ongoing monetary crisis, in October 2026, Argentine president Javier Milei announced plans for the country to offer \"golden passports\" to individuals contributing $350,000 or investing $800,000 into a seven-year government bond."
+      },
+      {
+        "answer": "FIELD",
+        "clue": "Earth's magnetic one may have guided an ancient animal",
+        "storyId": "2026-10-04-4",
+        "excerpt": "Now, researchers have uncovered evidence that the structures may have functioned as a sophisticated navigation system, allowing an ancient animal to interpret Earth's magnetic field much like a map."
+      }
+    ]
+  }
+}

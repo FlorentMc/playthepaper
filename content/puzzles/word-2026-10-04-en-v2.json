@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-04-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-04",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "I",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a tsar's remains returning to Bulgaria."
+  },
+  "reveal": {
+    "answer": "ISLAND",
+    "storyId": "2026-10-04-1",
+    "excerpt": "Samuel's grave was found in 1965 by Greek professor Nikolaos Moutsopoulos in the Church of St Achillios on the eponymous island in Lake Prespa. His remains were kept in the Museum of Byzantine Culture in Thessaloniki."
+  },
+  "storyId": "2026-10-04-1"
+}
