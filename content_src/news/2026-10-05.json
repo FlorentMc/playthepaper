@@ -1,0 +1,218 @@
+{
+  "slug": "2026-10-05",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-05-1",
+      "headline": "The Roosters come from behind to win the NRL grand final",
+      "summary": "The Sydney Roosters beat the Newcastle Knights 19–18 in the NRL grand final at Accor Stadium on 4 October. They had trailed by six points at half-time, and the win gave them the Provan-Summons Trophy for the first time since 2019. The Roosters captain, James Tedesco, took the Clive Churchill Medal as player of the match.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_NRL_Grand_Final",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "id": "2026-10-05-2",
+      "headline": "Brazil's presidential election goes to a run-off",
+      "summary": "Brazilians voted on 4 October to elect a president, a vice president and the members of the National Congress. In the first round Senator Flávio Bolsonaro took 47% of the vote and the incumbent president, Luiz Inácio Lula da Silva, took 45%. The two will meet again in a run-off on 25 October 2026.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "id": "2026-10-05-3",
+      "headline": "Latvia's United List wins the most seats in the Saeima",
+      "summary": "Latvians voted on 3 October 2026 to elect the Saeima, their 100-member parliament. Preliminary results indicate that the centrist United List won the most seats. The party is led by the incumbent prime minister, Andris Kulbergs.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Latvian_parliamentary_election",
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "id": "2026-10-05-4",
+      "headline": "An Oklahoma crater turns out to be far younger than thought",
+      "summary": "A meteor impact structure lies buried beneath the town of Ames in Oklahoma. It had been grouped with a cluster of impacts dated to roughly 467.5 million years ago, but zircon crystals from granite altered by the strike now date it to about 370 million years ago. That makes the crater nearly 100 million years younger than previously believed.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+      "publishedAt": "2026-10-04"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Australian rugby league's championship match, the 2026 NRL Grand Final, was played at Accor Stadium on 4 October. The winners came back from six points down at half-time to take the match 19–18.",
+          "prompt": "Which club won the 2026 NRL Grand Final?",
+          "options": [
+            "Brisbane Broncos",
+            "Melbourne Storm",
+            "Newcastle Knights",
+            "Sydney Roosters"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-05-1"
+        },
+        {
+          "lead": "Brazil's general election on 4 October did not settle the presidency. Senator Flávio Bolsonaro took 47% of the first-round vote and the incumbent president, Luiz Inácio Lula da Silva, took 45%, so the two will meet again.",
+          "prompt": "On what date will the Brazilian run-off be held?",
+          "options": [
+            "11 October 2026",
+            "18 October 2026",
+            "25 October 2026",
+            "1 November 2026"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-05-2"
+        },
+        {
+          "lead": "Latvians voted on 3 October 2026 to elect the Saeima, their parliament. Preliminary results indicate that the centrist United List, led by the incumbent prime minister Andris Kulbergs, won the most seats.",
+          "prompt": "How many seats does the Saeima have?",
+          "options": [
+            "50",
+            "100",
+            "200",
+            "300"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-05-3"
+        },
+        {
+          "lead": "The Roosters came from six points down at half-time to win the 2026 NRL Grand Final 19–18 and claim the Provan-Summons Trophy for the first time since 2019. Their fullback and captain, James Tedesco, was judged player of the match.",
+          "prompt": "Which award went to the player of the match?",
+          "options": [
+            "Clive Churchill Medal",
+            "Dally M Medal",
+            "Provan-Summons Trophy",
+            "Wally Lewis Medal"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-05-1"
+        },
+        {
+          "lead": "A meteor impact structure lies buried beneath the town of Ames in Oklahoma. It had long been grouped with a cluster of impacts dated to roughly 467.5 million years ago, but the team dated zircon crystals from granite altered by the strike and found a much younger age.",
+          "prompt": "About how long ago did the meteorite strike?",
+          "options": [
+            "170 million years ago",
+            "270 million years ago",
+            "370 million years ago",
+            "470 million years ago"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-05-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        3,
+        2,
+        1,
+        0,
+        2
+      ],
+      "explanations": [
+        "The Sydney Roosters won 19–18 against the Newcastle Knights. It gave them the Provan-Summons Trophy for the first time since 2019.",
+        "The run-off is set for 25 October 2026. Flávio Bolsonaro is the eldest son of Lula's predecessor, Jair Bolsonaro.",
+        "The Saeima has 100 members. They are elected by open list proportional representation from five constituencies ranging in size from 11 to 38 seats.",
+        "James Tedesco was awarded the Clive Churchill Medal. He is the Roosters' fullback and captain.",
+        "The zircon dating puts the strike at about 370 million years ago, in the Late Devonian. That makes the crater nearly 100 million years younger than previously believed."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NRL_Grand_Final",
+        "excerpt": "The 2026 NRL Grand Final was the national rugby league football championship match contested between the Sydney Roosters and the Newcastle Knights at Accor Stadium in Sydney, on Sunday, 4 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NRL_Grand_Final",
+        "excerpt": "The Roosters defeated Newcastle 19–18 after trailing by six points at half-time to claim the Provan-Summons Trophy for the first time since 2019."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NRL_Grand_Final",
+        "excerpt": "Roosters fullback and captain James Tedesco was awarded the Clive Churchill Medal for being judged as player of the match."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "excerpt": "General elections were held in Brazil on 4 October 2026 to elect the president, vice president, members of the National Congress, the governors, vice governors and legislative assemblies of all federative units, and the district council of Fernando de Noronha."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "excerpt": "In the first round, senator Flávio Bolsonaro, the eldest son of Lula's predecessor Jair Bolsonaro, won 47% of the vote over incumbent president Luiz Inácio Lula da Silva's 45%. They will face each other in a run-off on 25 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Latvian_parliamentary_election",
+        "excerpt": "Parliamentary elections were held in Latvia on 3 October 2026, following the end of the term of the fourteenth Saeima elected in 2022."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Latvian_parliamentary_election",
+        "excerpt": "The 100 members of the Saeima are elected by open list proportional representation from five multi-member constituencies ranging in size from 11 to 38 seats and based on the regions of Latvia, with overseas votes included in the Rīga constituency."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_3",
+        "excerpt": "Preliminary results indicate that the centrist United List, led by incumbent prime minister Andris Kulbergs, won the most seats."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+        "excerpt": "Beneath the town of Ames, Oklahoma, lies a meteor impact structure that stretches for miles underground. Layers of sediment now cover the crater, but it remains significant both scientifically and economically."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+        "excerpt": "For years, the Ames crater was thought to belong to a cluster of major meteor impacts across North America dating to roughly 467.5 million years ago. That period is known as the Ordovician Meteor Event."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261002080012.htm",
+        "excerpt": "By dating zircon crystals taken from granite altered by the impact, the team determined that the meteorite struck about 370 million years ago during the Late Devonian. That makes the crater nearly 100 million years younger than previously believed."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "CRATER",
+      "storyId": "2026-10-05-4",
+      "teaser": "Today's word comes from a story about a buried crater in Oklahoma.",
+      "excerpt": "Beneath the town of Ames, Oklahoma, lies a meteor impact structure that stretches for miles underground. Layers of sediment now cover the crater, but it remains significant both scientifically and economically."
+    },
+    "letters": {
+      "pangram": "STADIUM",
+      "storyId": "2026-10-05-1",
+      "teaser": "Today's letters come from a story about a rugby league grand final.",
+      "excerpt": "The 2026 NRL Grand Final was the national rugby league football championship match contested between the Sydney Roosters and the Newcastle Knights at Accor Stadium in Sydney, on Sunday, 4 October 2026."
+    },
+    "crossword": [
+      {
+        "answer": "FINAL",
+        "clue": "Last match of the rugby league season, played at Accor Stadium",
+        "storyId": "2026-10-05-1",
+        "excerpt": "The 2026 NRL Grand Final was the national rugby league football championship match contested between the Sydney Roosters and the Newcastle Knights at Accor Stadium in Sydney, on Sunday, 4 October 2026."
+      },
+      {
+        "answer": "ROUND",
+        "clue": "Brazil's first one of voting left two candidates to meet again",
+        "storyId": "2026-10-05-2",
+        "excerpt": "In the first round, senator Flávio Bolsonaro, the eldest son of Lula's predecessor Jair Bolsonaro, won 47% of the vote over incumbent president Luiz Inácio Lula da Silva's 45%. They will face each other in a run-off on 25 October 2026."
+      },
+      {
+        "answer": "SEATS",
+        "clue": "What the United List won most of in Latvia",
+        "storyId": "2026-10-05-3",
+        "excerpt": "The 100 members of the Saeima are elected by open list proportional representation from five multi-member constituencies ranging in size from 11 to 38 seats and based on the regions of Latvia, with overseas votes included in the Rīga constituency."
+      },
+      {
+        "answer": "YEARS",
+        "clue": "Units counted in millions when dating the Oklahoma impact",
+        "storyId": "2026-10-05-4",
+        "excerpt": "By dating zircon crystals taken from granite altered by the impact, the team determined that the meteorite struck about 370 million years ago during the Late Devonian. That makes the crater nearly 100 million years younger than previously believed."
+      }
+    ]
+  }
+}

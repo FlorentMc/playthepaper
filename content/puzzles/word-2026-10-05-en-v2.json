@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-05-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-05",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a buried crater in Oklahoma."
+  },
+  "reveal": {
+    "answer": "CRATER",
+    "storyId": "2026-10-05-4",
+    "excerpt": "Beneath the town of Ames, Oklahoma, lies a meteor impact structure that stretches for miles underground. Layers of sediment now cover the crater, but it remains significant both scientifically and economically."
+  },
+  "storyId": "2026-10-05-4"
+}

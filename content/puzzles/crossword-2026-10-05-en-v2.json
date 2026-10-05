@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-05-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-05",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that man"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Unreturnable tennis serve"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Units counted in millions when dating the Oklahoma impact",
+          "storyId": "2026-10-05-4"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "As well"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Stitch"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Barn stack"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Cubes in a drink"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "What the United List won most of in Latvia",
+          "storyId": "2026-10-05-3"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Small deer"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Plant seeds"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "HIS##",
+      "ACE##",
+      "YEARS",
+      "##TOO",
+      "##SEW"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-10-05-3",
+        "excerpt": "The 100 members of the Saeima are elected by open list proportional representation from five multi-member constituencies ranging in size from 11 to 38 seats and based on the regions of Latvia, with overseas votes included in the Rīga constituency."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-05-4",
+        "excerpt": "By dating zircon crystals taken from granite altered by the impact, the team determined that the meteorite struck about 370 million years ago during the Late Devonian. That makes the crater nearly 100 million years younger than previously believed."
+      }
+    ]
+  },
+  "storyId": "2026-10-05-3"
+}
