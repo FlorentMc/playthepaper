@@ -1,0 +1,151 @@
+{
+  "id": "quiz-2026-10-06-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "On 5 October 2026 the Nobel Assembly at Karolinska Institutet announced an award to Karl Deisseroth of Stanford University and to the German scientists Peter Hegemann and Georg Nagel. It was given for their discoveries concerning light-gated ion channels and optogenetics.",
+        "prompt": "Which prize did the three scientists share?",
+        "options": [
+          "Nobel Prize in Chemistry",
+          "Nobel Prize in Literature",
+          "Nobel Prize in Physics",
+          "Nobel Prize in Physiology or Medicine"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-06-1"
+      },
+      {
+        "lead": "Quebec voted on 5 October 2026 to elect the members of its National Assembly. The governing Coalition Avenir Québec, led by Premier Christine Fréchette, lost all 79 of the seats it held.",
+        "prompt": "Which party won the most seats?",
+        "options": [
+          "Coalition Avenir Québec",
+          "Parti Québécois",
+          "Quebec Liberal Party",
+          "Québec solidaire"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-06-2"
+      },
+      {
+        "lead": "Spain's parliament voted down two emergency housing decrees that would have restricted evictions and frozen rents. The prime minister, Pedro Sánchez, then called a snap general election for all 350 seats in the Congress of Deputies.",
+        "prompt": "On what date will the Spanish election be held?",
+        "options": [
+          "1 November 2026",
+          "15 November 2026",
+          "29 November 2026",
+          "13 December 2026"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-06-3"
+      },
+      {
+        "lead": "Karl Deisseroth is a professor of bioengineering and of psychiatry and behavioural sciences at Stanford University. He shared the 2026 Nobel Prize in Physiology or Medicine with Peter Hegemann and Georg Nagel for discoveries concerning light-gated ion channels and optogenetics.",
+        "prompt": "In which year did Deisseroth name the field optogenetics?",
+        "options": [
+          "1996",
+          "2002",
+          "2006",
+          "2014"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-06-1"
+      },
+      {
+        "lead": "NASA has chosen a proposal led by the Planetary Science Institute to find out whether a large cave stretches underground from the opening of a pit on the Moon. The project, GIMLI, will study the Marius Hill Pit, and its team includes Honeybee Robotics and the University of Oslo.",
+        "prompt": "Which agency will provide the project's ground-penetrating radar?",
+        "options": [
+          "the Canadian Space Agency",
+          "the European Space Agency",
+          "the Japan Aerospace Exploration Agency",
+          "the Norwegian Space Agency"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-06-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      1,
+      2,
+      2,
+      3
+    ],
+    "explanations": [
+      "They shared the Nobel Prize in Physiology or Medicine. The prizes are presented each year on 10 December, the anniversary of Alfred Nobel's death.",
+      "The Parti Québécois won the most seats, its first win since 2012. Its leader, Paul St-Pierre Plamondon, is set to become the 34th Premier of Quebec at the head of a minority government.",
+      "The election is set for 29 November 2026. It will also fill 209 of the 267 seats in the Senate.",
+      "He named the field in 2006 and then developed its technologies. Optogenetics is now applied in fields including psychiatry and neurology.",
+      "The Norwegian Space Agency will provide the ground-penetrating radar. The pit lies in one of the Moon's most volcanically varied regions."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physiology_or_Medicine",
+      "excerpt": "The most recent Nobel prize was announced by the Nobel Assembly at Karolinska Institutet on 5 October 2026, and has been awarded to American Karl Deisseroth, Germans Peter Hegemann and Georg Nagel, for their discoveries concerning light-gated ion channels and optogenetics."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physiology_or_Medicine",
+      "excerpt": "The Nobel Prize is presented annually on the anniversary of Alfred Nobel's death, 10 December."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Deisseroth",
+      "excerpt": "He is the D.H. Chen Foundation Professor of Bioengineering and a professor of psychiatry and behavioral sciences at Stanford University. He was jointly awarded the Nobel Prize in Physiology or Medicine in 2026 for his work in optogenetics."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Deisseroth",
+      "excerpt": "Deisseroth named this field \"optogenetics\" in 2006 and followed up with the development of optogenetic technologies, leading to many applications, including in psychiatry and neurology."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Quebec_general_election",
+      "excerpt": "The 2026 Quebec general election was held on October 5, 2026, to elect members to the National Assembly of the 44th Quebec Legislature. Lieutenant Governor Manon Jeannotte dropped the writs of election on August 27, 2026, after Premier Christine Fréchette advised her to dissolve the legislature."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Quebec_general_election",
+      "excerpt": "Frechette would lead the governing Coalition Avenir Québec to a historic defeat, losing all 79 of their seats in the election. Plamondon would lead the Parti Quebecois to victory for the first time since 2012, and is set to become the 34th Premier of Quebec."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Quebec_general_election",
+      "excerpt": "The Parti Québécois lost most of its remaining seats but managed to elect its previously seatless leader Paul St-Pierre Plamondon to a seat."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Spanish_general_election",
+      "excerpt": "A Spanish general election will be held as snap election on 29 November 2026 to elect the members of the 16th Cortes Generales to four-year terms under the Spanish Constitution of 1978. All 350 seats in the Congress of Deputies will be up for election, as well as 209 of 267 seats in the Senate."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_5",
+      "excerpt": "Spanish prime minister Pedro Sánchez calls a snap general election for 29 November after Parliament voted down two emergency housing decrees that would have restricted evictions, frozen rents, and blocked vulture-fund property buys."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
+      "excerpt": "NASA has chosen a proposal led by the Planetary Science Institute to determine whether a potentially large cave stretches underground from the opening of a pit on the Moon."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
+      "excerpt": "GIMLI will concentrate on the Marius Hill Pit (MHP), a large opening located within one of the Moon's most volcanically varied regions. Like other pits identified on the Moon, MHP could provide an entrance into underground structures created by ancient volcanic activity."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261003234013.htm",
+      "excerpt": "In addition to PSI and Honeybee Robotics, the GIMLI team includes Co-Investigators from Boise State University, Johns Hopkins University, the Lunar and Planetary Institute, and the University of Oslo. The Norwegian Space Agency will provide the ground-penetrating radar."
+    }
+  ]
+}

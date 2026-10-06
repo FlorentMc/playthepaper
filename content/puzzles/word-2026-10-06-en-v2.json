@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-06-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-06",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "D",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about an election in Quebec."
+  },
+  "reveal": {
+    "answer": "DEFEAT",
+    "storyId": "2026-10-06-2",
+    "excerpt": "Frechette would lead the governing Coalition Avenir Québec to a historic defeat, losing all 79 of their seats in the election. Plamondon would lead the Parti Quebecois to victory for the first time since 2012, and is set to become the 34th Premier of Quebec."
+  },
+  "storyId": "2026-10-06-2"
+}
