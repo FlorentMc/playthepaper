@@ -1,16 +1,16 @@
 {
   "date": "2026-10-07",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-10-07-en-v1",
+    "word-2026-10-07-en-v2",
     "sudoku-2026-10-07-en-easy-v1",
     "sudoku-2026-10-07-en-medium-v1",
     "sudoku-2026-10-07-en-hard-v1",
-    "letters-2026-10-07-en-v1",
-    "crossword-2026-10-07-en-v1",
-    "quiz-2026-10-07-en-v1",
+    "letters-2026-10-07-en-v2",
+    "crossword-2026-10-07-en-v2",
+    "quiz-2026-10-07-en-v2",
     "bridges-2026-10-07-en-v1",
     "binary-2026-10-07-en-v1",
     "target-2026-10-07-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-10-07-1",
+      "headline": "A neutrino hunter at the South Pole wins the physics Nobel",
+      "summary": "The Belgian physicist Francis Halzen, of the University of Wisconsin–Madison, has been awarded the Nobel Prize in Physics for 2026. The citation names his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. He is the observatory's principal investigator; it stands at the Amundsen–Scott South Pole Station in Antarctica and has been operational since 2010.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Francis_Halzen",
+      "publishedAt": "2026-10-06"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-10-07-2",
+      "headline": "Kosovo's Assembly elects Justina Shiroka-Pula as president",
+      "summary": "The Assembly of Kosovo elected Justina Shiroka-Pula as president on 6 October 2026, with 81 votes. She is an economist and academic who was Minister of Energy and Mining from 2008 to 2011 and the first woman to lead the Kosova Academy of Sciences and Arts. She has served as president since 7 October, the third woman to hold the office.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Justina_Shiroka_Pula",
+      "publishedAt": "2026-10-06"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-10-07-3",
+      "headline": "Laos has a new prime minister",
+      "summary": "The National Assembly of Laos has approved Saleumxay Kommasith as prime minister, a post he has held since 5 October 2026. He was a deputy prime minister from 2022 to 2026 and before that Minister of Foreign Affairs, from April 2016 to November 2024. He succeeds Sonexay Siphandone, who became National Assembly president.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Saleumxay_Kommasith",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "id": "2026-10-07-4",
+      "headline": "Wasps move into the chambers Borneo trees build for ants",
+      "summary": "Scientists studying the tropical forests of Malaysian Borneo have found an unexpected shift in a long-running partnership. For at least 10 million years these ant-plants have produced hollow chambers where ants can live, and have supplied them with nutritious food bodies. Adult wasps are now using the same cavities, storing flies they have paralysed there as food for their young.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
+      "publishedAt": "2026-10-05"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-10-07-1": [
       "quiz:1",
-      "quiz:2",
-      "word",
+      "quiz:5",
+      "letters",
       "crossword:1 Down"
     ],
-    "technology-1-canal": [
+    "2026-10-07-2": [
+      "quiz:2"
+    ],
+    "2026-10-07-3": [
       "quiz:3"
     ],
-    "technology-1-chip": [
+    "2026-10-07-4": [
       "quiz:4",
-      "quiz:5",
-      "letters"
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-10-07T02:31:09.812198Z"
 }

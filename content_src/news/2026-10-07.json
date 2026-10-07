@@ -1,0 +1,222 @@
+{
+  "slug": "2026-10-07",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-07-1",
+      "headline": "A neutrino hunter at the South Pole wins the physics Nobel",
+      "summary": "The Belgian physicist Francis Halzen, of the University of Wisconsin–Madison, has been awarded the Nobel Prize in Physics for 2026. The citation names his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. He is the observatory's principal investigator; it stands at the Amundsen–Scott South Pole Station in Antarctica and has been operational since 2010.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Halzen",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "2026-10-07-2",
+      "headline": "Kosovo's Assembly elects Justina Shiroka-Pula as president",
+      "summary": "The Assembly of Kosovo elected Justina Shiroka-Pula as president on 6 October 2026, with 81 votes. She is an economist and academic who was Minister of Energy and Mining from 2008 to 2011 and the first woman to lead the Kosova Academy of Sciences and Arts. She has served as president since 7 October, the third woman to hold the office.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Justina_Shiroka_Pula",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "2026-10-07-3",
+      "headline": "Laos has a new prime minister",
+      "summary": "The National Assembly of Laos has approved Saleumxay Kommasith as prime minister, a post he has held since 5 October 2026. He was a deputy prime minister from 2022 to 2026 and before that Minister of Foreign Affairs, from April 2016 to November 2024. He succeeds Sonexay Siphandone, who became National Assembly president.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saleumxay_Kommasith",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "id": "2026-10-07-4",
+      "headline": "Wasps move into the chambers Borneo trees build for ants",
+      "summary": "Scientists studying the tropical forests of Malaysian Borneo have found an unexpected shift in a long-running partnership. For at least 10 million years these ant-plants have produced hollow chambers where ants can live, and have supplied them with nutritious food bodies. Adult wasps are now using the same cavities, storing flies they have paralysed there as food for their young.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
+      "publishedAt": "2026-10-05"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The Belgian physicist Francis Halzen is the principal investigator of the IceCube Neutrino Observatory in Antarctica, the world's largest neutrino detector. In 2026 he was honoured for his decisive contributions to it and for the discovery of high-energy neutrinos of astrophysical origin.",
+          "prompt": "Which prize was Francis Halzen awarded?",
+          "options": [
+            "Nobel Prize in Chemistry",
+            "Nobel Prize in Economic Sciences",
+            "Nobel Prize in Physics",
+            "Nobel Prize in Physiology or Medicine"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-07-1"
+        },
+        {
+          "lead": "On 6 October 2026 the Assembly of Kosovo chose the economist and academic Justina Shiroka-Pula for the country's highest office, with 81 votes. She is the third woman to hold it, after Atifete Jahjaga and Vjosa Osmani.",
+          "prompt": "Which office did Justina Shiroka-Pula take up on 7 October 2026?",
+          "options": [
+            "Mayor of Pristina",
+            "President of Kosovo",
+            "Prime Minister of Kosovo",
+            "Speaker of the Assembly of Kosovo"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-07-2"
+        },
+        {
+          "lead": "The National Assembly of Laos approved Saleumxay Kommasith as the country's new prime minister, a post he has held since 5 October 2026. He was Minister of Foreign Affairs from April 2016 to November 2024.",
+          "prompt": "Which post did Saleumxay Kommasith hold from 2022 to 2026?",
+          "options": [
+            "Deputy prime minister",
+            "Governor of the central bank",
+            "Minister of finance",
+            "President of the National Assembly"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-07-3"
+        },
+        {
+          "lead": "In the tropical forests of Malaysian Borneo, trees known as ant-plants produce hollow chambers where ants can live, and supply them with nutritious food bodies. The partnership has lasted at least 10 million years, and adult wasps have now been found using the same cavities.",
+          "prompt": "What do the wasps store in those cavities as food for their young?",
+          "options": [
+            "Chewed leaves from the tree",
+            "Flies they have paralysed",
+            "Nectar from the tree's flowers",
+            "Seeds from the forest floor"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-07-4"
+        },
+        {
+          "lead": "The Nobel Prize in Physics is presented in Stockholm at an annual ceremony on 10 December, the anniversary of Nobel's death. Francis Halzen received the 2026 prize for his work on the IceCube Neutrino Observatory.",
+          "prompt": "As of 2026, how many people have been awarded the Nobel Prize in Physics?",
+          "options": [
+            "130",
+            "180",
+            "230",
+            "280"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-07-1"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "explanations": [
+        "He was awarded the Nobel Prize in Physics. The citation named his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.",
+        "She became President of Kosovo, a post she has held since 7 October 2026. She is the third woman to hold the office, after Atifete Jahjaga and Vjosa Osmani.",
+        "He was a deputy prime minister from 2022 to 2026. Before that he was Minister of Foreign Affairs of Laos, from April 2016 to November 2024.",
+        "They store flies they have paralysed. Adult wasps hunt and paralyse the flies, then leave them inside the plant's cavities as food for their young.",
+        "As of 2026, a total of 230 people have been awarded the prize. It is presented in Stockholm at an annual ceremony on 10 December, the anniversary of Nobel's death."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Francis_Halzen",
+        "excerpt": "Halzen is the Principal Investigator of the IceCube Neutrino Observatory at the Amundsen–Scott South Pole Station in Antarctica, the world's largest neutrino detector which has been operational since 2010."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Francis_Halzen",
+        "excerpt": "In 2026, he was awarded the Nobel Prize in Physics \"for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.\""
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_6",
+        "excerpt": "Belgian physicist Francis Halzen from the University of Wisconsin–Madison is awarded the Nobel Prize in Physics for his \"decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin\"."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics",
+        "excerpt": "It is presented in Stockholm at an annual ceremony on 10 December, the anniversary of Nobel's death. As of 2026, a total of 230 people have been awarded the prize."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Justina_Shiroka_Pula",
+        "excerpt": "Justina Shiroka-Pula (born 1953) is a Kosovan economist, academic and politician who has served as the President of Kosovo since 7 October 2026. She is the third woman to hold the office, after Atifete Jahjaga and Vjosa Osmani."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Justina_Shiroka_Pula",
+        "excerpt": "On October 6, 2026, she was elected President of Kosovo with 81 votes in the Assembly of Kosovo."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Justina_Shiroka_Pula",
+        "excerpt": "Previously, she served as Minister of Energy and Mining from 2008 to 2011 and as president of the Kosova Academy of Sciences and Arts (ASHAK), becoming the first woman to lead the institution."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Saleumxay_Kommasith",
+        "excerpt": "Saleumxay Kommasith (born 31 October 1968) is a Laotian politician who has served as the Prime Minister of Laos since 5 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Saleumxay_Kommasith",
+        "excerpt": "He previously served as a Deputy Prime Minister from 2022 to 2026 and as Minister of Foreign Affairs of Laos from April 2016 to November 2024."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_5",
+        "excerpt": "The National Assembly of Laos approves deputy prime minister Saleumxay Kommasith as the new Prime Minister, succeeding Sonexay Siphandone, who became National Assembly president."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
+        "excerpt": "Scientists studying the tropical forests of Malaysian Borneo have discovered an unexpected shift in one of the region's long-running ecological partnerships."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
+        "excerpt": "For at least 10 million years, these \"ant-plants\" have maintained a close partnership with ants. The plants produce hollow chambers where ants can live and also supply them with nutritious food bodies."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261004001832.htm",
+        "excerpt": "Adult wasps hunt and paralyze the flies, then store them inside the plant's cavities as food for their young."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "HOLLOW",
+      "storyId": "2026-10-07-4",
+      "teaser": "Today's word comes from a story about trees in Borneo.",
+      "excerpt": "For at least 10 million years, these \"ant-plants\" have maintained a close partnership with ants. The plants produce hollow chambers where ants can live and also supply them with nutritious food bodies."
+    },
+    "letters": {
+      "pangram": "NEUTRINO",
+      "storyId": "2026-10-07-1",
+      "teaser": "Today's letters come from a story about a prize in physics.",
+      "excerpt": "Halzen is the Principal Investigator of the IceCube Neutrino Observatory at the Amundsen–Scott South Pole Station in Antarctica, the world's largest neutrino detector which has been operational since 2010."
+    },
+    "crossword": [
+      {
+        "answer": "SOUTH",
+        "clue": "Compass direction in the name of the Antarctic station holding IceCube",
+        "storyId": "2026-10-07-1",
+        "excerpt": "Halzen is the Principal Investigator of the IceCube Neutrino Observatory at the Amundsen–Scott South Pole Station in Antarctica, the world's largest neutrino detector which has been operational since 2010."
+      },
+      {
+        "answer": "YOUNG",
+        "clue": "Wasp offspring, fed on flies stored in a tree's cavities",
+        "storyId": "2026-10-07-4",
+        "excerpt": "Adult wasps hunt and paralyze the flies, then store them inside the plant's cavities as food for their young."
+      },
+      {
+        "answer": "ANT",
+        "clue": "Insect that lives in the hollow chambers of a Borneo tree",
+        "storyId": "2026-10-07-4",
+        "excerpt": "For at least 10 million years, these \"ant-plants\" have maintained a close partnership with ants. The plants produce hollow chambers where ants can live and also supply them with nutritious food bodies."
+      }
+    ]
+  }
+}

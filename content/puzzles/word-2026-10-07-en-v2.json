@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-07-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-07",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "H",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about trees in Borneo."
+  },
+  "reveal": {
+    "answer": "HOLLOW",
+    "storyId": "2026-10-07-4",
+    "excerpt": "For at least 10 million years, these \"ant-plants\" have maintained a close partnership with ants. The plants produce hollow chambers where ants can live and also supply them with nutritious food bodies."
+  },
+  "storyId": "2026-10-07-4"
+}
