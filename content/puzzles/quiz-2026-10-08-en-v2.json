@@ -1,0 +1,126 @@
+{
+  "id": "quiz-2026-10-08-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "This year's Nobel Prizes were announced during the first week of October. One went to Henri Kagan, of the University of Paris-Sud, and Kenso Soai, of the Tokyo University of Science, for their work on molecules that come in two forms that are mirror images of each other.",
+        "prompt": "Which prize were Henri Kagan and Kenso Soai awarded?",
+        "options": [
+          "Nobel Prize in Chemistry",
+          "Nobel Prize in Economic Sciences",
+          "Nobel Prize in Literature",
+          "Nobel Prize in Physics"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-08-1"
+      },
+      {
+        "lead": "A set of 377 results on open problems in mathematics was published in the first week of October. They fall in areas such as algebra, number theory, combinatorics and theoretical computer science.",
+        "prompt": "Which company released those 377 results?",
+        "options": [
+          "Google DeepMind",
+          "Meta",
+          "Microsoft",
+          "OpenAI"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-08-3"
+      },
+      {
+        "lead": "Indonesia has halted a programme that would have cleared millions of hectares of forest to grow more of one staple crop. The government says the country has achieved self-sufficiency in that crop, and will increase yields on existing farmland instead.",
+        "prompt": "Which crop was the forest to be cleared for?",
+        "options": [
+          "Maize",
+          "Palm oil",
+          "Rice",
+          "Soya beans"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-08-2"
+      },
+      {
+        "lead": "One of the most important events in the early solar system was a colossal collision between the young Earth and a body about the size of another planet. Astronomers are now using the James Webb Space Telescope to look for young star systems going through similar events.",
+        "prompt": "What is the Mars-sized body that struck the young Earth known as?",
+        "options": [
+          "Tethys",
+          "Thalia",
+          "Theia",
+          "Themis"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-08-4"
+      },
+      {
+        "lead": "Theoretical models suggest that young star systems holding exceptionally large amounts of warm dust should be relatively common. Observations tell a different story, and astronomers have only recently gathered enough of them to study.",
+        "prompt": "What share of young stars display observable signs of this stage?",
+        "options": [
+          "About 1 per cent",
+          "About 10 per cent",
+          "About 25 per cent",
+          "About half"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-08-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      3,
+      2,
+      2,
+      0
+    ],
+    "explanations": [
+      "It was the Nobel Prize in Chemistry, shared by Henri Kagan and Kenso Soai. Their work on the handedness of molecules allows drugmakers to develop safer, more precisely targeted medicines.",
+      "OpenAI released them. The 377 results fall in areas such as algebra, number theory, combinatorics and theoretical computer science.",
+      "The crop is rice, and Indonesia says it has achieved self-sufficiency in it. The country plans instead to increase yields on existing farmland through improved agricultural methods.",
+      "The Mars-sized body is known as Theia. Astronomers are now using NASA's James Webb Space Telescope to look for young star systems experiencing similarly violent events.",
+      "Only about 1% of young stars display observable signs of this stage. Scientists reached that estimate from the data gathered so far."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/two-chemists-win-nobel-prize-for-unraveling-a-mystery-of-molecular-handedness-helping-drugmakers-develop-safer-medications-180989643/",
+      "excerpt": "Two scientists have been awarded the Nobel Prize in Chemistry for their work untangling a perplexing puzzle about the “handedness” of molecules, allowing drugmakers to develop safer, more precisely targeted medicines."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/two-chemists-win-nobel-prize-for-unraveling-a-mystery-of-molecular-handedness-helping-drugmakers-develop-safer-medications-180989643/",
+      "excerpt": "Chemists Henri Kagan of the University of Paris-Sud and Kenso Soai of the Tokyo University of Science were named Nobel laureates on October 7."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_6",
+      "excerpt": "Indonesia halts a program to clear millions of hectares of forest for rice cultivation after achieving rice self-sufficiency, and plans instead to increase yields on existing farmland through improved agricultural methods."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_6",
+      "excerpt": "OpenAI releases 377 results on open problems in mathematics in areas such as algebra, number theory, combinatorics and theoretical computer science."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+      "excerpt": "Scientists think one of the most important events in the early solar system was a colossal collision between the young Earth and a Mars-sized body known as Theia."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+      "excerpt": "Based on data gathered so far, scientists estimate that only about 1% of young stars display observable signs of this stage."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+      "excerpt": "Now, astronomers are using NASA's James Webb Space Telescope to investigate young star systems that appear to be experiencing similarly violent events."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-08-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-08",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a prize in chemistry."
+  },
+  "reveal": {
+    "answer": "MIRROR",
+    "storyId": "2026-10-08-1",
+    "excerpt": "Some molecules come in two forms that are mirror images of each other, just like our right and left hands."
+  },
+  "storyId": "2026-10-08-1"
+}
