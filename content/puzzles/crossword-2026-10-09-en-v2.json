@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-09-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Spirit flavoured with juniper"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Small deer"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Used up"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Side away from the wind"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Long-haired ox of the high mountains"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Ancient language whose poetry Anne Carson translates",
+          "storyId": "2026-10-09-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Charged particle"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Fishing mesh"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Cunning"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Small green vegetable"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##GIN",
+      "##ROE",
+      "SPENT",
+      "LEE##",
+      "YAK##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-09-1",
+        "excerpt": "Anne Carson has been awarded the 2026 Nobel Prize in Literature for her genre-bending works that range from poetry and ancient Greek translations to collaborations with dancers and musicians."
+      }
+    ]
+  },
+  "storyId": "2026-10-09-1"
+}

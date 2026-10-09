@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-09-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about a new coral found off Costa Rica."
+  },
+  "reveal": {
+    "answer": "MARINE",
+    "storyId": "2026-10-09-4",
+    "excerpt": "Coral gardens like this one are considered vulnerable marine ecosystems."
+  },
+  "storyId": "2026-10-09-4"
+}

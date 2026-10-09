@@ -1,0 +1,218 @@
+{
+  "slug": "2026-10-09",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-09-1",
+      "headline": "Canadian poet Anne Carson wins the Nobel Prize in Literature",
+      "summary": "The 2026 Nobel Prize in Literature has gone to the Canadian poet Anne Carson. The Swedish Academy named the 76-year-old on 8 October, praising a bold and inventive body of work that moves between poetry, translations of ancient Greek and collaborations with dancers and musicians. Carson is the third Canadian-born writer to take the prize.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/canadian-poet-anne-carson-brings-ancient-wisdom-to-modern-audiences-now-shes-a-nobel-laureate-in-literature-180989655/",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "2026-10-09-2",
+      "headline": "British wildlife will replace people on Bank of England notes",
+      "summary": "The Bank of England has announced what will appear on its next set of pound sterling notes. An Atlantic puffin, a barn owl, a buff-tailed bumblebee and a European hedgehog have been chosen. It is the first time animals have replaced people on banknotes in England, a change intended to increase awareness of British wildlife.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "2026-10-09-3",
+      "headline": "Teruaki Satō takes Japanese baseball's Triple Crown",
+      "summary": "Teruaki Satō of the Hanshin Tigers has won the Triple Crown in Japanese baseball. The feat goes to a player who leads a league in batting average, home runs and runs batted in over the same season. The last NPB player to manage it was Munetaka Murakami in 2022.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "2026-10-09-4",
+      "headline": "A golden coral off Costa Rica needs a family of its own",
+      "summary": "A bright yellow coral found on underwater mountains off Costa Rica belongs to no known coral family, so scientists have created a new one for it. Its new genus name, Laurinque, means golden tree in Quenya, the Elvish language created by J.R.R. Tolkien. The branching colonies were found between 360 and 529 metres below the surface of the Pacific.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042116.htm",
+      "publishedAt": "2026-10-08"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Anne Carson is a 76-year-old Canadian poet who translates ancient Greek verse and writes for dancers and musicians. On 8 October the Swedish Academy named her a laureate.",
+          "prompt": "Which award did Anne Carson receive?",
+          "options": [
+            "The Nobel Peace Prize",
+            "The Nobel Prize in Economic Sciences",
+            "The Nobel Prize in Literature",
+            "The Nobel Prize in Physics"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-09-1"
+        },
+        {
+          "lead": "The Bank of England has announced the designs for its next set of pound sterling notes. For the first time in England, the portraits of people on the notes will be replaced.",
+          "prompt": "What will take their place?",
+          "options": [
+            "Animals",
+            "Bridges",
+            "Cathedrals",
+            "Landscape paintings"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-09-2"
+        },
+        {
+          "lead": "Teruaki Satō of the Hanshin Tigers led his league in batting average, home runs and runs batted in over the same season. No player in Japan's professional baseball had managed all three at once since 2022.",
+          "prompt": "What is that three-category feat called?",
+          "options": [
+            "The Golden Glove",
+            "The Grand Slam",
+            "The Perfect Game",
+            "The Triple Crown"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-09-3"
+        },
+        {
+          "lead": "A bright yellow, tree-shaped coral found on underwater mountains off Costa Rica proved so unusual that scientists created a new coral family for it. Its genus name means golden tree in a language invented for a fantasy world.",
+          "prompt": "Which author invented that language?",
+          "options": [
+            "C.S. Lewis",
+            "George R.R. Martin",
+            "J.R.R. Tolkien",
+            "Ursula K. Le Guin"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-09-4"
+        },
+        {
+          "lead": "Anne Carson is the third Canadian-born writer to win the literature prize. The first was Saul Bellow, honoured in 1976.",
+          "prompt": "Which Canadian-born writer won it in 2013?",
+          "options": [
+            "Alice Munro",
+            "Carol Shields",
+            "Margaret Atwood",
+            "Michael Ondaatje"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-09-1"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        0,
+        3,
+        2,
+        0
+      ],
+      "explanations": [
+        "Anne Carson was awarded the 2026 Nobel Prize in Literature. The Swedish Academy praised her bold and inventive work, which keeps a playful dialogue with the classical tradition.",
+        "An Atlantic puffin, a barn owl, a buff-tailed bumblebee and a European hedgehog will feature on the next set of notes. It is the first time animals have replaced people on banknotes in England, and the aim is to increase awareness of British wildlife.",
+        "Satō won the Triple Crown, which goes to a player who leads a league in batting average, home runs and runs batted in. The last NPB player to do it was Munetaka Murakami in 2022.",
+        "The coral's genus name, Laurinque, comes from Quenya, the Elvish language created by J.R.R. Tolkien for The Lord of the Rings. It means golden tree, which suits a bright yellow coral with branches.",
+        "Alice Munro won the literature prize in 2013. Carson is the third Canadian-born writer to take it, after Saul Bellow in 1976 and Munro."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/canadian-poet-anne-carson-brings-ancient-wisdom-to-modern-audiences-now-shes-a-nobel-laureate-in-literature-180989655/",
+        "excerpt": "Anne Carson has been awarded the 2026 Nobel Prize in Literature for her genre-bending works that range from poetry and ancient Greek translations to collaborations with dancers and musicians."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/canadian-poet-anne-carson-brings-ancient-wisdom-to-modern-audiences-now-shes-a-nobel-laureate-in-literature-180989655/",
+        "excerpt": "The Swedish Academy recognized the 76-year-old Canadian poet, essayist and translator on October 8 for \"her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature.\""
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/canadian-poet-anne-carson-brings-ancient-wisdom-to-modern-audiences-now-shes-a-nobel-laureate-in-literature-180989655/",
+        "excerpt": "Carson is the third Canadian-born writer to win the literature prize, following Saul Bellow in 1976 and Alice Munro in 2013."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+        "excerpt": "The Bank of England announces that the Atlantic puffin, barn owl, buff-tailed bumblebee, and European hedgehog will feature on the next set of pound sterling notes to be issued in the United Kingdom."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+        "excerpt": "It will be the first time animals have replaced people on banknotes in England, which is intended to increase awareness of British wildlife."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+        "excerpt": "In baseball, Teruaki Satō of the Hanshin Tigers wins the Triple Crown; the last NPB Triple Crown was won by Munetaka Murakami in 2022."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Triple_Crown_(baseball)",
+        "excerpt": "The term \"Triple Crown\" generally refers to the batting achievement of leading a league in batting average, home runs, and runs batted in (RBI) over the same season."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Teruaki_Sat%C5%8D",
+        "excerpt": "Teruaki Satō is a Japanese professional baseball infielder for the Hanshin Tigers of Nippon Professional Baseball (NPB)."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042116.htm",
+        "excerpt": "Scientists surveying underwater mountains off Costa Rica have identified a remarkable new coral that is unlike any known coral family."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042116.htm",
+        "excerpt": "The bright yellow coral, which has a branching, tree-like appearance, was discovered between 360 and 529 meters below the Pacific Ocean's surface."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042116.htm",
+        "excerpt": "The new genus, Laurinque, is derived from \"Laurinquë,\" which means \"golden tree\" in Quenya, the Elvish language created by J.R.R. Tolkien for The Lord of the Rings and The Silmarillion."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "MARINE",
+      "storyId": "2026-10-09-4",
+      "teaser": "Today's word comes from the story about a new coral found off Costa Rica.",
+      "excerpt": "Coral gardens like this one are considered vulnerable marine ecosystems."
+    },
+    "letters": {
+      "pangram": "TRANSLATOR",
+      "storyId": "2026-10-09-1",
+      "teaser": "Today's letters come from the story about this year's Nobel Prize in Literature.",
+      "excerpt": "The Swedish Academy recognized the 76-year-old Canadian poet, essayist and translator on October 8 for \"her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature.\""
+    },
+    "crossword": [
+      {
+        "answer": "GREEK",
+        "clue": "Ancient language whose poetry Anne Carson translates",
+        "storyId": "2026-10-09-1",
+        "excerpt": "Anne Carson has been awarded the 2026 Nobel Prize in Literature for her genre-bending works that range from poetry and ancient Greek translations to collaborations with dancers and musicians."
+      },
+      {
+        "answer": "OWL",
+        "clue": "Night bird of prey joining a puffin on England's next banknotes",
+        "storyId": "2026-10-09-2",
+        "excerpt": "The Bank of England announces that the Atlantic puffin, barn owl, buff-tailed bumblebee, and European hedgehog will feature on the next set of pound sterling notes to be issued in the United Kingdom."
+      },
+      {
+        "answer": "OCEAN",
+        "clue": "Pacific waters where the bright yellow coral was found",
+        "storyId": "2026-10-09-4",
+        "excerpt": "The bright yellow coral, which has a branching, tree-like appearance, was discovered between 360 and 529 meters below the Pacific Ocean's surface."
+      },
+      {
+        "answer": "CROWN",
+        "clue": "What Teruaki Satō won, with Triple in front of it",
+        "storyId": "2026-10-09-3",
+        "excerpt": "In baseball, Teruaki Satō of the Hanshin Tigers wins the Triple Crown; the last NPB Triple Crown was won by Munetaka Murakami in 2022."
+      }
+    ]
+  }
+}
