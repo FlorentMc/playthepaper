@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-10-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about a very old discovery in South Africa."
+  },
+  "reveal": {
+    "answer": "FOSSIL",
+    "storyId": "2026-10-10-4",
+    "excerpt": "In research published in Annals of Human Biology, the team reports the first known adult Homo erectus fossil from Drimolen."
+  },
+  "storyId": "2026-10-10-4"
+}

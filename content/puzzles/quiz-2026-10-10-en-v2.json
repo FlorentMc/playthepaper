@@ -1,0 +1,131 @@
+{
+  "id": "quiz-2026-10-10-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Navi Pillay is a South African judge who once served as the United Nations High Commissioner for Human Rights. On 9 October she was named this year's winner of one of the prizes founded by Alfred Nobel.",
+        "prompt": "Which prize did Navi Pillay win?",
+        "options": [
+          "The Nobel Peace Prize",
+          "The Nobel Prize in Chemistry",
+          "The Nobel Prize in Literature",
+          "The Nobel Prize in Physics"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-10-1"
+      },
+      {
+        "lead": "A'ja Wilson plays for the Las Vegas Aces in the WNBA. On 8 October she took one of the league's annual awards for a record fifth time, and for the third year in a row.",
+        "prompt": "Which award did she win?",
+        "options": [
+          "Defensive Player of the Year",
+          "Most Valuable Player",
+          "Rookie of the Year",
+          "Sixth Woman of the Year"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-10-2"
+      },
+      {
+        "lead": "Pope Leo XIV has approved the election of the Filipino cardinal Luis Antonio Tagle as dean, making him the first Asian to hold the post. The body he now leads is the one that elects a new pope.",
+        "prompt": "Which body is that?",
+        "options": [
+          "The College of Cardinals",
+          "The Dicastery for Evangelization",
+          "The Pontifical Academy of Sciences",
+          "The Synod of Bishops"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-10-3"
+      },
+      {
+        "lead": "Researchers working at Drimolen Main Quarry, in South Africa's Cradle of Humankind, have described the first known adult Homo erectus fossil from the site.",
+        "prompt": "How old is the specimen?",
+        "options": [
+          "About 200,000 years",
+          "About 1 million years",
+          "About 2 million years",
+          "About 4 million years"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-10-4"
+      },
+      {
+        "lead": "Adult Homo erectus fossils found elsewhere are roughly 200,000 years younger than the new South African one. They include specimens from Dmanisi, which date to about 1.8 million years ago.",
+        "prompt": "In which country is Dmanisi?",
+        "options": [
+          "Armenia",
+          "Georgia",
+          "Turkey",
+          "Ukraine"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-10-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    "explanations": [
+      "Navi Pillay was awarded the 2026 Nobel Peace Prize. The Norwegian Nobel Committee announced it in Oslo on 9 October, citing her efforts to promote peace and international law.",
+      "Wilson won the WNBA Most Valuable Player award for a record fifth time. She is the first player in league history to win it three years in a row.",
+      "Tagle is now dean of the College of Cardinals. He is the first Asian to lead the body that elects a new pope.",
+      "The specimen is about 2 million years old. That makes it roughly 200,000 years older than adult Homo erectus fossils discovered elsewhere.",
+      "Dmanisi is in Georgia. Its Homo erectus specimens date to about 1.8 million years ago, which the new Drimolen adult predates by roughly 200,000 years."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize",
+      "excerpt": "The 2026 Nobel Peace Prize is to be awarded to South African jurist Navi Pillay. This international peace prize was established according to Alfred Nobel's will that was announced on 9 October 2026 by the Norwegian Nobel Committee in Oslo, Norway, and will be awarded on 10 December 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+      "excerpt": "South African judge and former United Nations High Commissioner for Human Rights Navi Pillay is awarded the Nobel Peace Prize for \"her efforts to promote peace and international law\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+      "excerpt": "In women's basketball, Las Vegas Aces center A'ja Wilson wins a record fifth WNBA Most Valuable Player, becoming the first player in league history to win the award for three years in a row."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+      "excerpt": "Pope Leo XIV approves Filipino cardinal Luis Antonio Tagle's election as dean of the College of Cardinals, making him the first Asian to lead the body that elects a new pope."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luis_Antonio_Tagle",
+      "excerpt": "Luis Antonio Gokim Tagle, also commonly referred to by his nickname Chito, is a Filipino prelate of the Catholic Church, and currently the Dean of the College of Cardinals since October 9, 2026."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+      "excerpt": "The fossils come from Drimolen Main Quarry in South Africa's 'Cradle of Humankind,' one of the world's richest sites for remains of ancient human relatives."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+      "excerpt": "In research published in Annals of Human Biology, the team reports the first known adult Homo erectus fossil from Drimolen."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+      "excerpt": "The specimen is about 2 million years old, making it roughly 200,000 years older than adult Homo erectus fossils discovered elsewhere, including specimens from Dmanisi in Georgia that date to about 1.8 million years ago."
+    }
+  ]
+}

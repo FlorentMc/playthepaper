@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-10-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Paid work"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Big brass instrument"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Broader"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Tense"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Buzzing pollinator"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Court role Navi Pillay held in South Africa",
+          "storyId": "2026-10-10-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Follow orders"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Chocolate ___"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Sea's daily movement"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Silky trap"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##JOB",
+      "#TUBA",
+      "WIDER",
+      "EDGY#",
+      "BEE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-10-1",
+        "excerpt": "South African judge and former United Nations High Commissioner for Human Rights Navi Pillay is awarded the Nobel Peace Prize for \"her efforts to promote peace and international law\"."
+      }
+    ]
+  },
+  "storyId": "2026-10-10-1"
+}
