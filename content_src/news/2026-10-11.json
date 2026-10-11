@@ -1,0 +1,200 @@
+{
+  "slug": "2026-10-11",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-11-1",
+      "headline": "Paul Seixas becomes the youngest winner of Il Lombardia",
+      "summary": "Il Lombardia, a one-day road cycling race, held its 120th edition on 10 October. The French rider Paul Seixas won it, and is now the youngest winner of the Giro di Lombardia. The race ran 239 km from Bergamo to Como.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "id": "2026-10-11-2",
+      "headline": "Two stolen Renoir paintings are recovered in France",
+      "summary": "Four paintings by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, in France, on 8 September. Two were abandoned by the thieves and found in the museum's garden. The other two, Young Woman at the Well and Madame Colonna Romano, have now been recovered, and six suspects have been arrested.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Mus%C3%A9e_Renoir_theft",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "2026-10-11-3",
+      "headline": "A cheek swab from the world's oldest land animal",
+      "summary": "Jonathan, an Aldabra giant tortoise, is about 194 years old and the oldest land animal alive today. Scientists have taken a cheek swab from him to read his DNA. They hope his genetics will provide clues to extending lifespan in humans.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/scientists-took-a-cheek-swab-from-the-worlds-oldest-tortoise-his-dna-could-reveal-hints-to-longevity-180989663/",
+      "publishedAt": "2026-10-09"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Il Lombardia is a one-day road cycling race, and its 120th edition was held on 10 October. The French rider Paul Seixas won it.",
+          "prompt": "What was notable about his win?",
+          "options": [
+            "He became the first French winner of the race",
+            "He became the oldest winner of the race",
+            "He became the youngest winner of the race",
+            "He won the race for a fifth time"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-11-1"
+        },
+        {
+          "lead": "On 8 September thieves broke into the Musée Renoir in Cagnes-sur-Mer, in France, and took paintings by Pierre-Auguste Renoir. They abandoned some of them in the museum's garden as they fled.",
+          "prompt": "How many paintings did the thieves take?",
+          "options": [
+            "Two",
+            "Four",
+            "Six",
+            "Ten"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-11-2"
+        },
+        {
+          "lead": "The 120th edition of Il Lombardia, a one-day road cycling race, was held on 10 October. It started in Bergamo and covered 239 km.",
+          "prompt": "In which city did the race finish?",
+          "options": [
+            "Como",
+            "Cremona",
+            "Milan",
+            "Verona"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-11-1"
+        },
+        {
+          "lead": "The works taken from the Musée Renoir included Young Woman at the Well and Madame Colonna Romano. Six people suspected of the theft have been arrested, and the artworks have been recovered.",
+          "prompt": "What was each painting's estimated value?",
+          "options": [
+            "About €90,000",
+            "About €900,000",
+            "About €9 million",
+            "About €90 million"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-11-2"
+        },
+        {
+          "lead": "Jonathan is an Aldabra giant tortoise and the oldest land animal alive today. Scientists have taken a cheek swab from him, hoping his genetics provide clues to a long life.",
+          "prompt": "About how old is Jonathan?",
+          "options": [
+            "About 94 years",
+            "About 144 years",
+            "About 194 years",
+            "About 244 years"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-11-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        0,
+        2,
+        2
+      ],
+      "explanations": [
+        "Paul Seixas is now the youngest winner of the Giro di Lombardia. The 2026 running was the 120th edition of the race.",
+        "Four artworks by Renoir were taken from the Musée Renoir on 8 September. The thieves abandoned two of them in the museum's garden as they fled.",
+        "The race finished in Como, near the lakefront. It had started in Bergamo, 239 km earlier.",
+        "Each of the paintings had an estimated value of approximately €9 million. Two of the four works have now been recovered, and six suspects have been arrested.",
+        "Jonathan is about 194 years old. He is an Aldabra giant tortoise and the oldest land animal alive today."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+        "excerpt": "The 2026 Il Lombardia was the 120th edition of the Giro di Lombardia one-day road cycling race. The event, organized on 10 October 2026, is the 35th race of the 2026 UCI World Tour."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+        "excerpt": "Starting from Bergamo, the 239 km race finishes in Como near the lakefront."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+        "excerpt": "The race was won by Paul Seixas, who is currently the youngest winner of the Giro di Lombardia."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Paul_Seixas",
+        "excerpt": "Paul Seixas is a French road cyclist, who rides for UCI WorldTeam Decathlon CMA CGM Team."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Mus%C3%A9e_Renoir_theft",
+        "excerpt": "On 8 September 2026, four artworks by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, Alpes-Maritimes in France, though two of the paintings were later abandoned by the thieves and found in the museum's garden."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Mus%C3%A9e_Renoir_theft",
+        "excerpt": "Each of the paintings had an estimated value of approximately €9 million (£7.7m; $10.5m)."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
+        "excerpt": "Six people suspected of stealing Pierre-Auguste Renoir's paintings Young Woman at the Well and Madame Colonna Romano are arrested, and the artworks are recovered."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/scientists-took-a-cheek-swab-from-the-worlds-oldest-tortoise-his-dna-could-reveal-hints-to-longevity-180989663/",
+        "excerpt": "Jonathan, an Aldabra giant tortoise, is about 194 years old and the oldest land animal alive today. Discoveries about his genetics could provide clues to extending lifespan in humans"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/scientists-took-a-cheek-swab-from-the-worlds-oldest-tortoise-his-dna-could-reveal-hints-to-longevity-180989663/",
+        "excerpt": "Scientists Took a Cheek Swab From the World's Oldest Tortoise. His DNA Could Reveal Hints to Longevity"
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "GARDEN",
+      "storyId": "2026-10-11-2",
+      "teaser": "Today's word comes from the story about two recovered Renoir paintings.",
+      "excerpt": "On 8 September 2026, four artworks by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, Alpes-Maritimes in France, though two of the paintings were later abandoned by the thieves and found in the museum's garden."
+    },
+    "letters": {
+      "pangram": "PROVIDE",
+      "storyId": "2026-10-11-3",
+      "teaser": "Today's letters come from the story about the world's oldest tortoise.",
+      "excerpt": "Jonathan, an Aldabra giant tortoise, is about 194 years old and the oldest land animal alive today. Discoveries about his genetics could provide clues to extending lifespan in humans"
+    },
+    "crossword": [
+      {
+        "answer": "RACE",
+        "clue": "Event Paul Seixas won on the road to Como",
+        "storyId": "2026-10-11-1",
+        "excerpt": "Starting from Bergamo, the 239 km race finishes in Como near the lakefront."
+      },
+      {
+        "answer": "FOUND",
+        "clue": "Discovered at last, as the two missing Renoirs were",
+        "storyId": "2026-10-11-2",
+        "excerpt": "On 8 September 2026, four artworks by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, Alpes-Maritimes in France, though two of the paintings were later abandoned by the thieves and found in the museum's garden."
+      },
+      {
+        "answer": "WELL",
+        "clue": "Water source in the title of one recovered Renoir",
+        "storyId": "2026-10-11-2",
+        "excerpt": "Six people suspected of stealing Pierre-Auguste Renoir's paintings Young Woman at the Well and Madame Colonna Romano are arrested, and the artworks are recovered."
+      },
+      {
+        "answer": "GIANT",
+        "clue": "Huge, as Jonathan's Aldabra tortoise is",
+        "storyId": "2026-10-11-3",
+        "excerpt": "Jonathan, an Aldabra giant tortoise, is about 194 years old and the oldest land animal alive today. Discoveries about his genetics could provide clues to extending lifespan in humans"
+      }
+    ]
+  }
+}

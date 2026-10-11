@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-11-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "G",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about two recovered Renoir paintings."
+  },
+  "reveal": {
+    "answer": "GARDEN",
+    "storyId": "2026-10-11-2",
+    "excerpt": "On 8 September 2026, four artworks by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, Alpes-Maritimes in France, though two of the paintings were later abandoned by the thieves and found in the museum's garden."
+  },
+  "storyId": "2026-10-11-2"
+}

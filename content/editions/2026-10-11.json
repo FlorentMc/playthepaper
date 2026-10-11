@@ -1,16 +1,16 @@
 {
   "date": "2026-10-11",
-  "kind": "evergreen",
-  "label": "Evergreen · History",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-10-11-en-v1",
+    "word-2026-10-11-en-v2",
     "sudoku-2026-10-11-en-easy-v1",
     "sudoku-2026-10-11-en-medium-v1",
     "sudoku-2026-10-11-en-hard-v1",
-    "letters-2026-10-11-en-v1",
-    "crossword-2026-10-11-en-v1",
-    "quiz-2026-10-11-en-v1",
+    "letters-2026-10-11-en-v2",
+    "crossword-2026-10-11-en-v2",
+    "quiz-2026-10-11-en-v2",
     "bridges-2026-10-11-en-v1",
     "binary-2026-10-11-en-v1",
     "target-2026-10-11-en-v1",
@@ -30,44 +30,46 @@
   ],
   "stories": [
     {
-      "id": "history-1-gutenberg",
-      "headline": "Forty-two lines to a page: the book that started the press",
-      "summary": "The Gutenberg Bible, printed in the 1450s by Johannes Gutenberg in Mainz, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible, and a complete copy has 1,288 pages, usually bound in two volumes. Of the 158 or 180 copies originally printed, 49 survive in at least substantial portion.",
+      "id": "2026-10-11-1",
+      "headline": "Paul Seixas becomes the youngest winner of Il Lombardia",
+      "summary": "Il Lombardia, a one-day road cycling race, held its 120th edition on 10 October. The French rider Paul Seixas won it, and is now the youngest winner of the Giro di Lombardia. The race ran 239 km from Bergamo to Como.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Il_Lombardia",
+      "publishedAt": "2026-10-10"
     },
     {
-      "id": "history-1-pyramid",
-      "headline": "The tallest thing on Earth for 3,700 years",
-      "summary": "The Great Pyramid of Giza was built around 2600 BC, over about 26 years, as the tomb of the pharaoh Khufu. Initially standing at 146.6 metres, it was the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "id": "2026-10-11-2",
+      "headline": "Two stolen Renoir paintings are recovered in France",
+      "summary": "Four paintings by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, in France, on 8 September. Two were abandoned by the thieves and found in the museum's garden. The other two, Young Woman at the Well and Madame Colonna Romano, have now been recovered, and six suspects have been arrested.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Mus%C3%A9e_Renoir_theft",
+      "publishedAt": "2026-10-09"
     },
     {
-      "id": "history-1-machu",
-      "headline": "A citadel on a ridge above the Urubamba",
-      "summary": "Machu Picchu is a 15th-century Inca citadel on a mountain ridge at 2,430 metres in southern Peru, about 80 km north-west of Cusco, above the Urubamba River. Estimated to have been built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti, and it was abandoned roughly a century later.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
-      "publishedAt": "evergreen"
+      "id": "2026-10-11-3",
+      "headline": "A cheek swab from the world's oldest land animal",
+      "summary": "Jonathan, an Aldabra giant tortoise, is about 194 years old and the oldest land animal alive today. Scientists have taken a cheek swab from him to read his DNA. They hope his genetics will provide clues to extending lifespan in humans.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/scientists-took-a-cheek-swab-from-the-worlds-oldest-tortoise-his-dna-could-reveal-hints-to-longevity-180989663/",
+      "publishedAt": "2026-10-09"
     }
   ],
   "seeds": {
-    "history-1-gutenberg": [
+    "2026-10-11-1": [
       "quiz:1",
+      "quiz:3",
+      "crossword:2 Down"
+    ],
+    "2026-10-11-2": [
+      "quiz:2",
       "quiz:4",
-      "letters",
+      "word",
       "crossword:1 Down"
     ],
-    "history-1-pyramid": [
-      "quiz:2",
-      "quiz:3",
-      "word"
-    ],
-    "history-1-machu": [
-      "quiz:5"
+    "2026-10-11-3": [
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-10-11T02:24:52.755889Z"
 }

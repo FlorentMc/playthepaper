@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-11-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "To and ___"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Groan"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Liquid served with food"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Tree with needles and cones"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Word joining two items"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Discovered at last, as the two missing Renoirs were",
+          "storyId": "2026-10-11-2"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Event Paul Seixas won on the road to Como",
+          "storyId": "2026-10-11-1"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Single"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Chief"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Place for a massage"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FRO",
+      "#MOAN",
+      "SAUCE",
+      "PINE#",
+      "AND##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-11-2",
+        "excerpt": "On 8 September 2026, four artworks by Pierre-Auguste Renoir were stolen from the Musée Renoir in Cagnes-sur-Mer, Alpes-Maritimes in France, though two of the paintings were later abandoned by the thieves and found in the museum's garden."
+      },
+      {
+        "label": "2 Down",
+        "storyId": "2026-10-11-1",
+        "excerpt": "Starting from Bergamo, the 239 km race finishes in Como near the lakefront."
+      }
+    ]
+  },
+  "storyId": "2026-10-11-1"
+}
