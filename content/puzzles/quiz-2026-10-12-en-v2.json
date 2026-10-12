@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-10-12-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "An online primary held from 9 to 11 October chose Raphaël Glucksmann as the common candidate of the French Socialist Party, Place Publique and the Republican and Socialist Left for the 2027 French presidential election. He won outright in the first round, so the second round planned for 16–17 October was dropped.",
+        "prompt": "What share of the vote did he take in the first round?",
+        "options": [
+          "36.13%",
+          "46.13%",
+          "56.13%",
+          "66.13%"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-12-1"
+      },
+      {
+        "lead": "Kraków, in Poland, held the second round of its mayoral election on 11 October 2026. The seat was vacant after the recall of Aleksander Miszalski, and an independent member of the city council faced Monika Piątkowska of the Civic Coalition.",
+        "prompt": "Who won the election?",
+        "options": [
+          "Jarosław Gowin",
+          "Monika Piątkowska",
+          "Łukasz Gibała",
+          "Aleksander Miszalski"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-12-2"
+      },
+      {
+        "lead": "In American college football, the Kentucky Wildcats played the LSU Tigers at Kroger Field in Lexington. The game went to overtime, and Kentucky settled it with a 2-point conversion.",
+        "prompt": "What was the final score?",
+        "options": [
+          "21–20",
+          "28–27",
+          "35–34",
+          "42–41"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-12-3"
+      },
+      {
+        "lead": "The Kentucky Wildcats beat the LSU Tigers in overtime at Kroger Field. Overtime was introduced to the top division of American college football, the FBS, in 1996.",
+        "prompt": "What did the win make Kentucky the first team in FBS history to do?",
+        "options": [
+          "Win consecutive overtime games by one point",
+          "Win consecutive overtime games at home",
+          "Win an overtime game with a 2-point conversion",
+          "Win consecutive games against the LSU Tigers"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-12-3"
+      },
+      {
+        "lead": "The bare-throated bellbird and the red-legged seriema are two South American birds. Researchers put their calls on a par with a trumpeting elephant or a chainsaw, some of the loudest known from any bird.",
+        "prompt": "What amplitude can their sounds exceed?",
+        "options": [
+          "60 decibels",
+          "90 decibels",
+          "120 decibels",
+          "150 decibels"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-12-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      2,
+      2,
+      0,
+      2
+    ],
+    "explanations": [
+      "Raphaël Glucksmann took 66.13% of the vote in the first round. The margin was large enough to make the second round, scheduled for 16–17 October, unnecessary.",
+      "Łukasz Gibała, standing as an independent, won the Kraków mayoral election. He has been a member of Kraków City Council since 2018.",
+      "Kentucky won 35–34 in overtime at Kroger Field. The game was settled by a 2-point conversion.",
+      "Kentucky became the first team in FBS history to win consecutive overtime games by one point. Overtime was introduced to the division in 1996.",
+      "Their calls can exceed 120 decibels. That puts them on par with a trumpeting elephant or a chainsaw."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_French_Socialist_Party_presidential_primary",
+      "excerpt": "The 2026 French Socialist Party presidential primary was a primary election held online from 9 to 11 October 2026 to select a common candidate backed by the Socialist Party (PS), Place Publique (PP) and the Republican and Socialist Left (GRS) for the 2027 French presidential election."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_French_Socialist_Party_presidential_primary",
+      "excerpt": "Raphaël Glucksmann won in the first round with 66.13% of the vote, making the second round scheduled for 16–17 October unnecessary."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_mayoral_election",
+      "excerpt": "The 2026 Kraków mayoral election was held on 27 September 2026 in Kraków to fill a vacancy left after the recall of Aleksander Miszalski of the liberal Civic Coalition (KO) on 24 May 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_mayoral_election",
+      "excerpt": "The second round, between the independent candidate Łukasz Gibała and the Civic Coalition candidate Monika Piątkowska, took place on 11 October 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Krak%C3%B3w_mayoral_election",
+      "excerpt": "Gibała, a 4-time mayoral candidate and a member of Kraków City Council, defeated Piątkowska in the runoff in a landslide, by a margin of 62,878 (24.24pp) votes."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C5%81ukasz_Giba%C5%82a",
+      "excerpt": "Łukasz Gibała is a Polish politician serving as a member of the Kraków City Council since 2018. From 2007 to 2015, he was a member of the Sejm."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C5%81ukasz_Giba%C5%82a",
+      "excerpt": "He is the nephew of Jarosław Gowin."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_11",
+      "excerpt": "Independent candidate Łukasz Gibała wins the Kraków mayoral election in Poland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_10",
+      "excerpt": "In American college football, the Kentucky Wildcats football team defeats the LSU Tigers, 35–34, on a 2-point conversion in overtime, becoming the first team in FBS history to win consecutive overtime games by one point since overtime was introduced in 1996."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Kentucky_Wildcats_football_team",
+      "excerpt": "Kentucky becomes the first team in FBS history to win consecutive overtime games by one point since overtime was introduced in 1996."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Kentucky_Wildcats_football_team",
+      "excerpt": "Kentucky plays home games at Kroger Field located in Lexington, Kentucky."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/these-south-american-birds-can-match-a-jackhammers-ear-splitting-volume-making-them-some-of-the-worlds-loudest-known-avians-180989629/",
+      "excerpt": "These South American Birds Can Match a Jackhammer's Ear-Splitting Volume, Making Them Some of the World's Loudest Known Avians"
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/these-south-american-birds-can-match-a-jackhammers-ear-splitting-volume-making-them-some-of-the-worlds-loudest-known-avians-180989629/",
+      "excerpt": "The bare-throated bellbird and the red-legged seriema can produce sounds at amplitudes that exceed 120 decibels, which puts them on par with a trumpeting elephant or a chainsaw"
+    }
+  ]
+}

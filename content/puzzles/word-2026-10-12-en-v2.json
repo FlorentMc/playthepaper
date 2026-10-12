@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-12-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "V",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about two very loud South American birds."
+  },
+  "reveal": {
+    "answer": "VOLUME",
+    "storyId": "2026-10-12-4",
+    "excerpt": "These South American Birds Can Match a Jackhammer's Ear-Splitting Volume, Making Them Some of the World's Loudest Known Avians"
+  },
+  "storyId": "2026-10-12-4"
+}
