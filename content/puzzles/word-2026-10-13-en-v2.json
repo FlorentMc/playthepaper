@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-13-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "D",
+    "maxGuesses": 6,
+    "teaser": "Today’s word comes from the story about a record set on Mars."
+  },
+  "reveal": {
+    "answer": "DRIVEN",
+    "storyId": "2026-10-13-3",
+    "excerpt": "NASA’s Perseverance Mars rover has driven farther than any vehicle ever has on the surface of another world."
+  },
+  "storyId": "2026-10-13-3"
+}

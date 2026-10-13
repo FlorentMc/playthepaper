@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-13-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Pea's home"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Threesome"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "A short period"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Vague"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Need to pay back"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Award shared by Hall and Woodford on 12 October",
+          "storyId": "2026-10-13-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Slippery"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Buck's mate"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Melt"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "___ is it?"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##POD",
+      "#TRIO",
+      "WHILE",
+      "HAZY#",
+      "OWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-13-1",
+        "excerpt": "American economists Robert Ernest Hall and Michael Dean Woodford are jointly awarded the Nobel Memorial Prize in Economic Sciences for “microeconomic foundations of macroeconomic stabilisation”."
+      }
+    ]
+  },
+  "storyId": "2026-10-13-1"
+}
