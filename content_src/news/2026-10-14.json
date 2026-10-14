@@ -1,0 +1,205 @@
+{
+  "slug": "2026-10-14",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-14-1",
+      "headline": "Getty Images will go private in a deal with Koch",
+      "summary": "Getty Images, an American visual images company, says it will go private in a restructuring deal with Koch, Inc. Koch will invest $533 million, and Getty Images is expected to file for prepackaged Chapter 11 bankruptcy protection in the coming weeks. In July the company had moved to end a planned $3.7 billion merger with Shutterstock.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Getty_Images",
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "2026-10-14-2",
+      "headline": "All four engines are on the Artemis III core stage",
+      "summary": "NASA has installed all four RS-25 engines on the core stage of the Artemis III rocket. The twin solid rocket boosters beside it will provide more than 75 percent of the rocket’s thrust at liftoff from Launch Pad 39B. In the coming months NASA will roll the part-built rocket out of the Vehicle Assembly Building for a test of propellant loading.",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "2026-10-14-3",
+      "headline": "A Jurassic hunter that looked something like an otter",
+      "summary": "Researchers have described a furry Jurassic hunter named Megacauda sungei. It measured about half a metre from nose to tail, which made it remarkably large among its Jurassic relatives, and it caught prey in the water with backward-curving cusps on its teeth. With short fur and a broad, flattened tail, it would have looked something like an otter, a beaver or a platypus.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
+      "publishedAt": "2026-10-13"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Getty Images, an American visual images company, said it would go private in a restructuring deal with Koch, Inc., which is investing $533 million.",
+          "prompt": "Which form of bankruptcy protection is Getty Images expected to file for?",
+          "options": [
+            "Chapter 7 bankruptcy protection",
+            "Chapter 11 bankruptcy protection",
+            "Chapter 13 bankruptcy protection",
+            "Chapter 15 bankruptcy protection"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-14-1"
+        },
+        {
+          "lead": "NASA is assembling the rocket that will fly the Artemis III mission. Teams have now finished fitting the RS-25 engines to its core stage.",
+          "prompt": "How many RS-25 engines does the SLS core stage carry?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Six"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-14-2"
+        },
+        {
+          "lead": "Two solid rocket boosters stand beside the core stage. They will help lift the Artemis III rocket away from Launch Pad 39B.",
+          "prompt": "What share of the rocket’s thrust at liftoff do the twin boosters provide?",
+          "options": [
+            "More than 25 percent",
+            "More than 50 percent",
+            "More than 75 percent",
+            "More than 90 percent"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-14-2"
+        },
+        {
+          "lead": "Researchers have described a furry Jurassic hunter called Megacauda sungei, which caught prey in the water with backward-curving cusps on its teeth.",
+          "prompt": "How long was Megacauda sungei from nose to tail?",
+          "options": [
+            "About five centimetres",
+            "About half a metre",
+            "About two metres",
+            "About five metres"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-14-3"
+        },
+        {
+          "lead": "The teeth of Megacauda sungei were shaped for gripping prey in water, and one detail of them surprised the scientists who studied the fossil.",
+          "prompt": "How many roots did its specialised canine teeth have?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-14-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "explanations": [
+        "Getty Images is expected to file for prepackaged Chapter 11 bankruptcy protection. It comes as part of a restructuring deal with Koch, Inc., which is investing $533 million to take the company private.",
+        "The core stage carries four RS-25 engines, and all of them are now installed. In the coming months NASA will roll the part-built rocket to Launch Pad 39B for a test of propellant loading.",
+        "The twin solid boosters provide more than 75 percent of the total thrust at liftoff. They also help support the rest of the rocket and the Orion spacecraft during final assembly.",
+        "Megacauda sungei measured about half a metre from nose to tail. That was remarkably large compared with most of its Jurassic relatives.",
+        "Its specialised canine teeth had three roots, a feature that surprised the researchers. The same teeth carried backward-curving cusps that helped it catch prey in the water."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_12",
+        "excerpt": "American visual images company Getty Images announces that it will file for Chapter 11 bankruptcy."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Getty_Images",
+        "excerpt": "In October 2026, the company announced that it would be going private as part of a restructuring deal with Koch, Inc., which will invest $533 million in the company."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Getty_Images",
+        "excerpt": "As part of the deal, Getty Images is expected to file for prepackaged Chapter 11 bankruptcy protection within the coming weeks."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Getty_Images",
+        "excerpt": "In July 2026, Getty Images moved to terminate its planned $3.7 billion merger with Shutterstock after the UK Competition and Markets Authority required Shutterstock to divest its global editorial business as a condition for approval."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
+        "excerpt": "Teams also completed installation of all four RS-25 engines on the SLS core stage."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
+        "excerpt": "The twin solid boosters will help support the remaining rocket components and the Orion spacecraft during final assembly of the Artemis III rocket and provide more than 75 percent of the total SLS thrust during liftoff from NASA Kennedy’s Launch Pad 39B."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/",
+        "excerpt": "NASA will roll the short stack SLS rocket from the spaceport’s Vehicle Assembly Building to Launch Pad 39B for a tanking test in the coming months, where the Artemis launch team will practice procedures and timelines for loading propellant."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
+        "excerpt": "Known as Megacauda sungei, this ancient hunter measured only about half a meter (20 inches) from nose to tail, yet it was remarkably large compared with most of its Jurassic relatives."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
+        "excerpt": "With its short fur and broad, flattened tail, Megacauda sungei would have looked somewhat like a modern otter, beaver, or platypus."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185005.htm",
+        "excerpt": "Along with the backward-curving cusps that helped it catch aquatic prey, the animal possessed specialized canine teeth with three roots, a distinctive feature that surprised the researchers."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "THRUST",
+      "storyId": "2026-10-14-2",
+      "teaser": "Today’s word comes from the story about NASA’s Artemis III rocket.",
+      "excerpt": "The twin solid boosters will help support the remaining rocket components and the Orion spacecraft during final assembly of the Artemis III rocket and provide more than 75 percent of the total SLS thrust during liftoff from NASA Kennedy’s Launch Pad 39B."
+    },
+    "letters": {
+      "pangram": "PLATYPUS",
+      "storyId": "2026-10-14-3",
+      "teaser": "Today’s letters come from the story about a Jurassic hunter.",
+      "excerpt": "With its short fur and broad, flattened tail, Megacauda sungei would have looked somewhat like a modern otter, beaver, or platypus."
+    },
+    "crossword": [
+      {
+        "answer": "DEAL",
+        "clue": "Arrangement with Koch, Inc. that will take Getty Images private",
+        "storyId": "2026-10-14-1",
+        "excerpt": "As part of the deal, Getty Images is expected to file for prepackaged Chapter 11 bankruptcy protection within the coming weeks."
+      },
+      {
+        "answer": "STACK",
+        "clue": "Part-built form in which NASA will roll the rocket to the pad",
+        "storyId": "2026-10-14-2",
+        "excerpt": "NASA will roll the short stack SLS rocket from the spaceport’s Vehicle Assembly Building to Launch Pad 39B for a tanking test in the coming months, where the Artemis launch team will practice procedures and timelines for loading propellant."
+      },
+      {
+        "answer": "OTTER",
+        "clue": "Riverside swimmer that the Jurassic hunter resembled",
+        "storyId": "2026-10-14-3",
+        "excerpt": "With its short fur and broad, flattened tail, Megacauda sungei would have looked somewhat like a modern otter, beaver, or platypus."
+      },
+      {
+        "answer": "TEETH",
+        "clue": "What the Jurassic hunter gripped its prey with",
+        "storyId": "2026-10-14-3",
+        "excerpt": "Along with the backward-curving cusps that helped it catch aquatic prey, the animal possessed specialized canine teeth with three roots, a distinctive feature that surprised the researchers."
+      }
+    ]
+  }
+}

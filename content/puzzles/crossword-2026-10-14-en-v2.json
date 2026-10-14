@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-14-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Strange"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Oak or elm"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Worshipper of nature gods"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Milky gemstone"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Ink holder"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Church instrument"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Arrangement with Koch, Inc. that will take Getty Images private",
+          "storyId": "2026-10-14-1"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Cosy room"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Sticky roll"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Burst, as a balloon"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##ODD",
+      "#TREE",
+      "PAGAN",
+      "OPAL#",
+      "PEN##"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "2026-10-14-1",
+        "excerpt": "As part of the deal, Getty Images is expected to file for prepackaged Chapter 11 bankruptcy protection within the coming weeks."
+      }
+    ]
+  },
+  "storyId": "2026-10-14-1"
+}

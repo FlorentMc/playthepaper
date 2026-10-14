@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-14-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "T",
+    "maxGuesses": 6,
+    "teaser": "Today’s word comes from the story about NASA’s Artemis III rocket."
+  },
+  "reveal": {
+    "answer": "THRUST",
+    "storyId": "2026-10-14-2",
+    "excerpt": "The twin solid boosters will help support the remaining rocket components and the Orion spacecraft during final assembly of the Artemis III rocket and provide more than 75 percent of the total SLS thrust during liftoff from NASA Kennedy’s Launch Pad 39B."
+  },
+  "storyId": "2026-10-14-2"
+}
