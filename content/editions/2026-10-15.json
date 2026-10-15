@@ -1,16 +1,16 @@
 {
   "date": "2026-10-15",
-  "kind": "evergreen",
-  "label": "Evergreen · Culture",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-10-15-en-v1",
+    "word-2026-10-15-en-v2",
     "sudoku-2026-10-15-en-easy-v1",
     "sudoku-2026-10-15-en-medium-v1",
     "sudoku-2026-10-15-en-hard-v1",
-    "letters-2026-10-15-en-v1",
-    "crossword-2026-10-15-en-v1",
-    "quiz-2026-10-15-en-v1",
+    "letters-2026-10-15-en-v2",
+    "crossword-2026-10-15-en-v2",
+    "quiz-2026-10-15-en-v2",
     "bridges-2026-10-15-en-v1",
     "binary-2026-10-15-en-v1",
     "target-2026-10-15-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "culture-1-monalisa",
-      "headline": "A small panel that has hung in the Louvre since 1797",
-      "summary": "Leonardo da Vinci painted the Mona Lisa in oil on a white poplar panel, probably between 1503 and 1506, though he may have kept working on it as late as 1517. King Francis I of France acquired it after Leonardo's death in 1519, and it has normally been on display at the Louvre in Paris since 1797.",
+      "id": "2026-10-15-1",
+      "headline": "Formula 1 is heading to Rwanda in the 2030s",
+      "summary": "Formula 1 has announced a new grand prix in Kigali, Rwanda. The race is to run for at least 10 years, starting in the early 2030s on a new track. It would be the first Formula 1 grand prix in Africa since South Africa in 1993.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+      "publishedAt": "2026-10-13"
     },
     {
-      "id": "culture-1-piano",
-      "headline": "Eighty-eight keys, and the man who built the first of them",
-      "summary": "Most modern pianos have 52 white keys and 36 black keys, a total of 88. The invention of the instrument is credited to Bartolomeo Cristofori of Padua, keeper of the instruments for Ferdinando de' Medici, and an inventory made by the Medici family shows that a piano existed by 1700.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Piano",
-      "publishedAt": "evergreen"
+      "id": "2026-10-15-2",
+      "headline": "A van Gogh unseen in public for over 60 years",
+      "summary": "A painting by Vincent van Gogh called Chestnut Trees in Blossom is heading to auction. It has not been seen in public for over 60 years, and it comes from a private collection that also holds works by Cézanne and Renoir. The sale is expected to set a record.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/this-vincent-van-gogh-painting-has-not-been-seen-in-public-for-over-60-years-it-is-now-poised-to-set-a-record-at-an-upcoming-auction-180989680/",
+      "publishedAt": "2026-10-14"
     },
     {
-      "id": "culture-1-tajmahal",
-      "headline": "A mausoleum in white marble on the bank of the Yamuna",
-      "summary": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his late wife, Mumtaz Mahal. The mausoleum was completed in 1648, and its most striking feature is the 23-metre-high marble dome above the tomb.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-      "publishedAt": "evergreen"
+      "id": "2026-10-15-3",
+      "headline": "A wreck off Turkey may be the world's oldest",
+      "summary": "A wreck discovered off the coast of Turkey is a new contender for the oldest shipwreck in the world. Its cargo has been described as a time capsule from 4,700 years ago. The ship was probably carrying huge jars of olive oil or wine across the Mediterranean when it sank to the seafloor.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-new-contender-for-the-worlds-oldest-shipwreck-has-been-discovered-off-the-coast-of-turkey-its-ancient-cargo-is-a-time-capsule-from-4700-years-ago-180989682/",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "2026-10-15-4",
+      "headline": "Far-side rocks hint at why the Moon has two faces",
+      "summary": "The near side and the far side of the Moon look strikingly different, and a new study offers an explanation. Chang'e-6 became the first mission to return samples from the far side, in 2024, letting researchers compare rocks from both hemispheres. They suggest that uneven heating from Earth's gravitational pull drove enormous flows of ancient magma.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+      "publishedAt": "2026-10-14"
     }
   ],
   "seeds": {
-    "culture-1-monalisa": [
+    "2026-10-15-1": [
       "quiz:1",
-      "quiz:4",
-      "letters"
-    ],
-    "culture-1-piano": [
-      "quiz:2",
-      "quiz:3",
       "crossword:1 Down"
     ],
-    "culture-1-tajmahal": [
-      "quiz:5",
+    "2026-10-15-2": [
+      "quiz:2"
+    ],
+    "2026-10-15-3": [
+      "quiz:3",
       "word"
+    ],
+    "2026-10-15-4": [
+      "quiz:4",
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-10-15T02:25:23.010755Z"
 }

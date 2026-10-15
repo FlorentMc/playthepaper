@@ -1,0 +1,213 @@
+{
+  "slug": "2026-10-15",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-15-1",
+      "headline": "Formula 1 is heading to Rwanda in the 2030s",
+      "summary": "Formula 1 has announced a new grand prix in Kigali, Rwanda. The race is to run for at least 10 years, starting in the early 2030s on a new track. It would be the first Formula 1 grand prix in Africa since South Africa in 1993.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "2026-10-15-2",
+      "headline": "A van Gogh unseen in public for over 60 years",
+      "summary": "A painting by Vincent van Gogh called Chestnut Trees in Blossom is heading to auction. It has not been seen in public for over 60 years, and it comes from a private collection that also holds works by Cézanne and Renoir. The sale is expected to set a record.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/this-vincent-van-gogh-painting-has-not-been-seen-in-public-for-over-60-years-it-is-now-poised-to-set-a-record-at-an-upcoming-auction-180989680/",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "2026-10-15-3",
+      "headline": "A wreck off Turkey may be the world's oldest",
+      "summary": "A wreck discovered off the coast of Turkey is a new contender for the oldest shipwreck in the world. Its cargo has been described as a time capsule from 4,700 years ago. The ship was probably carrying huge jars of olive oil or wine across the Mediterranean when it sank to the seafloor.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-new-contender-for-the-worlds-oldest-shipwreck-has-been-discovered-off-the-coast-of-turkey-its-ancient-cargo-is-a-time-capsule-from-4700-years-ago-180989682/",
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "2026-10-15-4",
+      "headline": "Far-side rocks hint at why the Moon has two faces",
+      "summary": "The near side and the far side of the Moon look strikingly different, and a new study offers an explanation. Chang'e-6 became the first mission to return samples from the far side, in 2024, letting researchers compare rocks from both hemispheres. They suggest that uneven heating from Earth's gravitational pull drove enormous flows of ancient magma.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+      "publishedAt": "2026-10-14"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Formula 1 has announced a new grand prix in Rwanda, to run for at least 10 years from the early 2030s on a new track.",
+          "prompt": "Which city will host the new Rwandan grand prix?",
+          "options": [
+            "Kampala",
+            "Kigali",
+            "Mombasa",
+            "Nairobi"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-15-1"
+        },
+        {
+          "lead": "A painting by Vincent van Gogh called Chestnut Trees in Blossom is heading to auction from a private collection.",
+          "prompt": "How long has that painting been out of public view?",
+          "options": [
+            "More than 10 years",
+            "More than 30 years",
+            "More than 60 years",
+            "More than 100 years"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-15-2"
+        },
+        {
+          "lead": "A wreck found off the coast of Turkey is a new contender for the oldest in the world, and its cargo has been called a time capsule.",
+          "prompt": "How old is the cargo found in the wreck?",
+          "options": [
+            "About 1,200 years",
+            "About 2,400 years",
+            "About 4,700 years",
+            "About 9,000 years"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-15-3"
+        },
+        {
+          "lead": "The near side of the Moon and its far side look very different, and scientists have argued about why for decades. A new study compared rocks collected from both hemispheres.",
+          "prompt": "Which mission first brought back samples from the Moon's far side?",
+          "options": [
+            "Apollo 17",
+            "Chang'e-5",
+            "Chang'e-6",
+            "Luna 24"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-15-4"
+        },
+        {
+          "lead": "In the team's model the Moon's early magma ocean cooled evenly at first. Things changed once the Moon settled into an orbit that kept the same hemisphere facing our planet, when the two were much closer together.",
+          "prompt": "What does the study say heated the near side of the Moon more than the far side?",
+          "options": [
+            "Heat from Earth's gravitational pull",
+            "Heat from a giant collision with another body",
+            "Heat from radioactive decay in the crust",
+            "Heat from the young Sun"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-15-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        1,
+        2,
+        2,
+        2,
+        0
+      ],
+      "explanations": [
+        "The new grand prix will be held in Kigali, Rwanda. It is to run for at least 10 years, starting in the early 2030s on a new track.",
+        "The painting has not been seen in public for over 60 years. It is heading to auction as part of a private collection that also includes works by Cézanne and Renoir.",
+        "The cargo dates from 4,700 years ago. The ship was probably carrying huge jars of olive oil or wine across the Mediterranean when it sank to the seafloor.",
+        "Chang'e-6 was the first mission to return samples from the Moon's far side, in 2024. That let researchers compare far-side rocks directly with those brought back from the near side.",
+        "The study points to uneven heating from Earth's gravitational pull. That difference in heat is thought to have driven enormous flows of ancient magma inside the young Moon."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+        "excerpt": "In auto racing, Formula 1 announces a new grand prix in Kigali, Rwanda, to run for at least 10 years starting in the early 2030s with a new track."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_13",
+        "excerpt": "This would be the first F1 grand prix in Africa since South Africa in 1993."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/this-vincent-van-gogh-painting-has-not-been-seen-in-public-for-over-60-years-it-is-now-poised-to-set-a-record-at-an-upcoming-auction-180989680/",
+        "excerpt": "This Vincent van Gogh Painting Has Not Been Seen in Public for Over 60 Years. It Is Now Poised to Set a Record at an Upcoming Auction"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/this-vincent-van-gogh-painting-has-not-been-seen-in-public-for-over-60-years-it-is-now-poised-to-set-a-record-at-an-upcoming-auction-180989680/",
+        "excerpt": "The Dutch Post-Impressionist painted \"Chestnut Trees in Blossom\" during the highly productive yet tragic final months of his life."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/this-vincent-van-gogh-painting-has-not-been-seen-in-public-for-over-60-years-it-is-now-poised-to-set-a-record-at-an-upcoming-auction-180989680/",
+        "excerpt": "It is heading to auction as part of a \"legendary\" private collection which also includes works from Cézanne and Renoir"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-new-contender-for-the-worlds-oldest-shipwreck-has-been-discovered-off-the-coast-of-turkey-its-ancient-cargo-is-a-time-capsule-from-4700-years-ago-180989682/",
+        "excerpt": "A New Contender for the World's Oldest Shipwreck Has Been Discovered Off the Coast of Turkey. Its Ancient Cargo Is a 'Time Capsule' From 4,700 Years Ago"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-new-contender-for-the-worlds-oldest-shipwreck-has-been-discovered-off-the-coast-of-turkey-its-ancient-cargo-is-a-time-capsule-from-4700-years-ago-180989682/",
+        "excerpt": "The ship was likely transporting huge jars of olive oil or wine across the Mediterranean when it sank to the seafloor."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+        "excerpt": "A major opportunity to investigate this mystery arrived in 2024, when Chang'e-6 became the first mission to return samples from the Moon's far side."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+        "excerpt": "Their findings suggest that uneven heating from Earth's gravitational pull drove enormous flows of ancient magma, creating the dramatically different lunar landscapes we see today."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012185019.htm",
+        "excerpt": "In contrast, the far side is dominated by ancient, heavily cratered highlands, with a much thicker crust and relatively few volcanic plains."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "OLDEST",
+      "storyId": "2026-10-15-3",
+      "teaser": "Today's word comes from the story about an ancient wreck off Turkey.",
+      "excerpt": "A New Contender for the World's Oldest Shipwreck Has Been Discovered Off the Coast of Turkey. Its Ancient Cargo Is a 'Time Capsule' From 4,700 Years Ago"
+    },
+    "letters": {
+      "pangram": "VOLCANIC",
+      "storyId": "2026-10-15-4",
+      "teaser": "Today's letters come from the story about the Moon's two faces.",
+      "excerpt": "In contrast, the far side is dominated by ancient, heavily cratered highlands, with a much thicker crust and relatively few volcanic plains."
+    },
+    "crossword": [
+      {
+        "answer": "TRACK",
+        "clue": "New circuit being built for the Rwandan grand prix",
+        "storyId": "2026-10-15-1",
+        "excerpt": "In auto racing, Formula 1 announces a new grand prix in Kigali, Rwanda, to run for at least 10 years starting in the early 2030s with a new track."
+      },
+      {
+        "answer": "OLIVE",
+        "clue": "Tree whose oil may have filled the jars in the wreck",
+        "storyId": "2026-10-15-3",
+        "excerpt": "The ship was likely transporting huge jars of olive oil or wine across the Mediterranean when it sank to the seafloor."
+      },
+      {
+        "answer": "CRUST",
+        "clue": "Outer rock layer, thicker on the Moon's far side",
+        "storyId": "2026-10-15-4",
+        "excerpt": "In contrast, the far side is dominated by ancient, heavily cratered highlands, with a much thicker crust and relatively few volcanic plains."
+      },
+      {
+        "answer": "MAGMA",
+        "clue": "Molten rock that flowed inside the young Moon",
+        "storyId": "2026-10-15-4",
+        "excerpt": "Their findings suggest that uneven heating from Earth's gravitational pull drove enormous flows of ancient magma, creating the dramatically different lunar landscapes we see today."
+      }
+    ]
+  }
+}
