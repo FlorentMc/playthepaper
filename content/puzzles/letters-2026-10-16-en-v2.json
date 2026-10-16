@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-10-16-en-v2",
+  "game": "letters",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "DGHORT",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about low rainfall in England."
+  },
+  "reveal": {
+    "answers": [
+      "DOUGH",
+      "DOUR",
+      "DROUGHT",
+      "DRUG",
+      "DUGOUT",
+      "GOURD",
+      "GOUT",
+      "GROUT",
+      "GURU",
+      "HOUR",
+      "HURT",
+      "ODOUR",
+      "OUGHT",
+      "OUTDO",
+      "OUTDOOR",
+      "ROUGH",
+      "ROUT",
+      "RUDD",
+      "RUTH",
+      "THOROUGH",
+      "THOU",
+      "THOUGH",
+      "THOUGHT",
+      "THROUGH",
+      "THROUGHOUT",
+      "THRU",
+      "THUD",
+      "THUG",
+      "TOUGH",
+      "TOUR",
+      "TOUT",
+      "TROUGH",
+      "TROUT",
+      "TRUTH",
+      "TUTOR",
+      "TUTU"
+    ],
+    "pangrams": [
+      "DROUGHT"
+    ],
+    "maxScore": 142,
+    "storyId": "2026-10-16-3",
+    "excerpt": "The United Kingdom declares a severe drought in Cornwall, Devon, Dorset, Somerset, East Sussex, and West Sussex after prolonged low rainfall left more than 80% of England in drought and major reservoirs below 20% capacity."
+  },
+  "storyId": "2026-10-16-3"
+}

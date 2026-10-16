@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-16-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Male sheep"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Use your teeth"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "South-western English county now in severe drought",
+          "storyId": "2026-10-16-3"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Single article"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Damage the look of"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Waterway the new crossing spans between China and North Korea",
+          "storyId": "2026-10-16-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Tiny particle"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Adult males"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Test version of software"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Not bright"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##RAM",
+      "#BITE",
+      "DEVON",
+      "ITEM#",
+      "MAR##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-16-1",
+        "excerpt": "The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, opens following a 12-year delay."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-16-3",
+        "excerpt": "The United Kingdom declares a severe drought in Cornwall, Devon, Dorset, Somerset, East Sussex, and West Sussex after prolonged low rainfall left more than 80% of England in drought and major reservoirs below 20% capacity."
+      }
+    ]
+  },
+  "storyId": "2026-10-16-1"
+}

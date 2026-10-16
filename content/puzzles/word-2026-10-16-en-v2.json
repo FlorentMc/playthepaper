@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-16-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "B",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about a new crossing over the Yalu River."
+  },
+  "reveal": {
+    "answer": "BRIDGE",
+    "storyId": "2026-10-16-1",
+    "excerpt": "The cable-stayed bridge, which is 3 km long including the supporting roads, is intended as a replacement for the Sino-Korean Friendship Bridge."
+  },
+  "storyId": "2026-10-16-1"
+}

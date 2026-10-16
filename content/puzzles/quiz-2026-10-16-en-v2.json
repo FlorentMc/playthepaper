@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-10-16-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "A new road bridge across the Yalu River has opened between Dandong in China and Sinuiju in North Korea, long after building work began.",
+        "prompt": "How long was the opening delayed?",
+        "options": [
+          "4 years",
+          "8 years",
+          "12 years",
+          "20 years"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-16-1"
+      },
+      {
+        "lead": "Teachers, health workers and other civil servants in Ireland have begun nationwide industrial action, after talks with the government on a new pay agreement fell through.",
+        "prompt": "How many public sector workers took part?",
+        "options": [
+          "About 30,000",
+          "About 100,000",
+          "About 300,000",
+          "About 1 million"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-16-2"
+      },
+      {
+        "lead": "The United Kingdom has declared a severe drought in six counties, among them Cornwall, Devon and Somerset, after months of low rainfall.",
+        "prompt": "How much of England was in drought when the declaration was made?",
+        "options": [
+          "More than 20%",
+          "More than 40%",
+          "More than 60%",
+          "More than 80%"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-16-3"
+      },
+      {
+        "lead": "The new Yalu River bridge is a cable-stayed road crossing, built as a replacement for the Sino-Korean Friendship Bridge of 1943.",
+        "prompt": "How long is the new bridge, including the supporting roads?",
+        "options": [
+          "1 km",
+          "3 km",
+          "10 km",
+          "30 km"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-16-1"
+      },
+      {
+        "lead": "Leap seconds were added to Coordinated Universal Time now and then to keep it in step with the turning Earth, and the last one was added at the end of 2016.",
+        "prompt": "How many leap seconds were added in all?",
+        "options": [
+          "7",
+          "17",
+          "27",
+          "37"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-16-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      2,
+      3,
+      1,
+      2
+    ],
+    "explanations": [
+      "The bridge opened following a 12-year delay. Construction began in October 2011 and was mostly complete by October 2014, but the project stalled between 2014 and 2019 with work unfinished on the North Korean side.",
+      "Approximately 300,000 workers took part. It is Ireland's first general strike since 2009, and it followed the collapse of talks on a new public service pay agreement.",
+      "More than 80% of England was in drought when the declaration was made. Major reservoirs had fallen below 20% capacity after prolonged low rainfall.",
+      "The bridge is 3 km long, including the supporting roads. It replaces the Sino-Korean Friendship Bridge, which opened in 1943 and is wide enough for only a single rail track and a single reversible lane.",
+      "27 leap seconds were added to UTC in all. The last one fell on 31 December 2016, and UTC and atomic time now differ by 37 seconds."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "excerpt": "The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, opens following a 12-year delay."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Yalu_River_Bridge",
+      "excerpt": "The cable-stayed bridge, which is 3 km long including the supporting roads, is intended as a replacement for the Sino-Korean Friendship Bridge."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Yalu_River_Bridge",
+      "excerpt": "The Sino-Korean Friendship Bridge, which opened in 1943, is only wide enough for a single rail track and a single reversible lane."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Yalu_River_Bridge",
+      "excerpt": "Construction began in October 2011 and was mostly complete and connected with Xingdan Road by October 2014, but the project was stalled between 2014 and 2019, with work unfinished on the North Korean side."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_14",
+      "excerpt": "Over 300,000 public sector workers in Ireland, including teachers, health workers, and other civil servants, start a general strike, the first in the country since 2009, to protest against a deadlock in pay negotiations."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Irish_public_sector_strikes",
+      "excerpt": "In September 2026, approximately 300,000 workers across Ireland's public sector commenced nationwide industrial action, following negotiations with the Irish Government on securing a new public service pay agreement falling through."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Irish_public_sector_strikes",
+      "excerpt": "ASTI and INTO started work-to-rule on 6 October, with one-day strikes planned for 14 and 21 October."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "excerpt": "The United Kingdom declares a severe drought in Cornwall, Devon, Dorset, Somerset, East Sussex, and West Sussex after prolonged low rainfall left more than 80% of England in drought and major reservoirs below 20% capacity."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drought_in_the_United_Kingdom",
+      "excerpt": "The 2026 drought saw a rapid escalation into a severe meteorological and hydrological drought following an extraordinarily dry and hot summer."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "excerpt": "At the General Conference on Weights and Measures, the International Bureau of Weights and Measures votes to abolish future leap seconds and make Coordinated Universal Time (UTC) continuous, starting 20 May 2027."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leap_second",
+      "excerpt": "On 15 October 2026, the General Conference on Weights and Measures (CGPM) voted to discontinue the addition (or subtraction) of future leap seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leap_second",
+      "excerpt": "Since then, 27 leap seconds were added to UTC, with the most recent occurring on 31 December 2016; thus the difference between UTC and TAI is now 37 seconds."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leap_second",
+      "excerpt": "The leap second was introduced in 1972 (at that time UTC already lagged behind TAI by 10 seconds because of earlier methods of managing the difference)."
+    }
+  ]
+}
