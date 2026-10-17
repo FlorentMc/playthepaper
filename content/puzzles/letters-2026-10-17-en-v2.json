@@ -1,0 +1,54 @@
+{
+  "id": "letters-2026-10-17-en-v2",
+  "game": "letters",
+  "editionDate": "2026-10-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "B",
+    "outer": "ACEKMO",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about Milwaukee's four wins from behind."
+  },
+  "reveal": {
+    "answers": [
+      "ABACK",
+      "ABBA",
+      "AMBO",
+      "AMOEBA",
+      "BABA",
+      "BABE",
+      "BACK",
+      "BAKE",
+      "BAMBOO",
+      "BEAK",
+      "BEAM",
+      "BECAME",
+      "BECK",
+      "BECOME",
+      "BOCK",
+      "BOMB",
+      "BOOB",
+      "BOOK",
+      "BOOM",
+      "COBB",
+      "COMB",
+      "COMBO",
+      "COMEBACK",
+      "COOKBOOK",
+      "KEBAB",
+      "MAMBA",
+      "MAMBO",
+      "OBOE"
+    ],
+    "pangrams": [
+      "COMEBACK"
+    ],
+    "maxScore": 89,
+    "storyId": "2026-10-17-1",
+    "excerpt": "Having come from behind in all four games, the Brewers became the first team to have swept an opponent in a best-of-seven postseason series with four straight comeback victories."
+  },
+  "storyId": "2026-10-17-1"
+}

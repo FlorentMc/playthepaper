@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-17-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Timid"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Sock's end"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Pincers left out when the record crayfish was measured",
+          "storyId": "2026-10-17-3"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Wood for sturdy furniture"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Be in debt"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Holding in a company, which UniCredit may now raise without limit",
+          "storyId": "2026-10-17-2"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "In what way"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Word of agreement"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Pigeon's sound"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Rule passed by parliament"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##SHY",
+      "##TOE",
+      "CLAWS",
+      "OAK##",
+      "OWE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-17-2",
+        "excerpt": "The European Central Bank authorizes UniCredit to raise its stake in Commerzbank above 30% without an upper limit, allowing the Italian bank to proceed toward taking control of the German lender."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-17-3",
+        "excerpt": "The biggest specimen belonged to a Tennessee bottlebrush crayfish preserved in the collection at West Liberty University in West Virginia. It measured an impressive 86.6 millimeters, or approximately 3.4 inches, excluding its tail, claws, and antennae."
+      }
+    ]
+  },
+  "storyId": "2026-10-17-2"
+}

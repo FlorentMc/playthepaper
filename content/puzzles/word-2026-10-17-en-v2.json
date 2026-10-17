@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-17-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about the hunt for the biggest crayfish."
+  },
+  "reveal": {
+    "answer": "SURVEY",
+    "storyId": "2026-10-17-3",
+    "excerpt": "The investigation began when Caitlin Bloomer pulled an enormous Crawzilla crawdad from the mud during a biological survey in Kentucky."
+  },
+  "storyId": "2026-10-17-3"
+}

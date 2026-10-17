@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-10-17-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Milwaukee Brewers have swept their way through baseball's National League Championship Series in four games.",
+        "prompt": "Which team did the Brewers sweep to reach the World Series?",
+        "options": [
+          "Los Angeles Dodgers",
+          "Atlanta Braves",
+          "Chicago Cubs",
+          "San Diego Padres"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-17-1"
+      },
+      {
+        "lead": "The sweep takes Milwaukee back to the World Series after a very long wait for the club.",
+        "prompt": "When did the Brewers last reach the World Series?",
+        "options": [
+          "1962",
+          "1972",
+          "1982",
+          "1992"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-17-1"
+      },
+      {
+        "lead": "UniCredit, an Italian bank, has been building a holding in the German lender Commerzbank, and the European Central Bank has now lifted the ceiling on it.",
+        "prompt": "Above what level of ownership may UniCredit now go?",
+        "options": [
+          "10%",
+          "20%",
+          "30%",
+          "50%"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-17-2"
+      },
+      {
+        "lead": "A biological survey in Kentucky turned up an unusually large crayfish, and a search through preserved specimens followed.",
+        "prompt": "How many different species were among the 20 largest specimens?",
+        "options": [
+          "9",
+          "14",
+          "18",
+          "20"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-17-3"
+      },
+      {
+        "lead": "The biggest crayfish in the search was a Tennessee bottlebrush, kept in a university collection in West Virginia.",
+        "prompt": "How long was it, leaving out its tail, claws and antennae?",
+        "options": [
+          "56.6 mm",
+          "66.6 mm",
+          "76.6 mm",
+          "86.6 mm"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-17-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      2,
+      2,
+      2,
+      3
+    ],
+    "explanations": [
+      "They swept the Los Angeles Dodgers in four games. Milwaukee came from behind in every one of them, the first team to sweep a best-of-seven postseason series with four comeback wins.",
+      "The Brewers last reached the World Series in 1982. Jake Bauers won the award for most valuable player in this year's series, the first time a Brewer has taken it.",
+      "The European Central Bank cleared UniCredit to go beyond 30%, with no limit on how much it could own. Its takeover bid had already taken it to 47.6% of Commerzbank by July 2026.",
+      "The 20 largest specimens came from 18 different species. The results were published in the scientific journal Ecology.",
+      "The record-holder measured 86.6 mm, leaving out its tail, claws and antennae. It is a Tennessee bottlebrush crayfish, preserved in the collection at West Liberty University in West Virginia."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "excerpt": "In baseball, the Milwaukee Brewers sweep the Los Angeles Dodgers in the NLCS to advance to the 2026 World Series, their first since 1982."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_National_League_Championship_Series",
+      "excerpt": "Aaron Ashby pitched three innings for the save and the Brewers swept the Dodgers as they reached the World Series for the first time since 1982."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_National_League_Championship_Series",
+      "excerpt": "Having come from behind in all four games, the Brewers became the first team to have swept an opponent in a best-of-seven postseason series with four straight comeback victories."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_National_League_Championship_Series",
+      "excerpt": "Jake Bauers won the NLCS MVP, the first time for a Brewer."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_15",
+      "excerpt": "The European Central Bank authorizes UniCredit to raise its stake in Commerzbank above 30% without an upper limit, allowing the Italian bank to proceed toward taking control of the German lender."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UniCredit",
+      "excerpt": "On October 15, 2026, UniCredit said European Central Bank had given it permission to increase its stake in Commerzbank beyond 30%, with no limit on how much it could own."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UniCredit",
+      "excerpt": "The takeover bid resulted in UniCredit increasing its take in Commerzbank to 47.6% by July 2026."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+      "excerpt": "The investigation began when Caitlin Bloomer pulled an enormous Crawzilla crawdad from the mud during a biological survey in Kentucky."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+      "excerpt": "Their search produced a list of 20 exceptionally large individuals representing 18 different species. The results were published in the scientific journal Ecology."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+      "excerpt": "The biggest specimen belonged to a Tennessee bottlebrush crayfish preserved in the collection at West Liberty University in West Virginia. It measured an impressive 86.6 millimeters, or approximately 3.4 inches, excluding its tail, claws, and antennae."
+    }
+  ]
+}
