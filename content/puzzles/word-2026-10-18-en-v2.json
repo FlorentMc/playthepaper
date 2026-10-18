@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-18-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about how the nightjar flies."
+  },
+  "reveal": {
+    "answer": "FLIGHT",
+    "storyId": "2026-10-18-4",
+    "excerpt": "Scientists have discovered that European nightjars sacrifice flight efficiency for agility and use an unexpected wingbeat technique previously associated mainly with bats and insects."
+  },
+  "storyId": "2026-10-18-4"
+}

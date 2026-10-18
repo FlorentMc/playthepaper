@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-18-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Like sushi fish"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Put to work"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Number of legs on a spider"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Steal from"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Some, no matter which"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Sport with an oval ball, played in Toronto by Canada and England",
+          "storyId": "2026-10-18-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Cigarette leftover"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Not dry"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Period of history"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Atom that has lost or gained an electron"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##RAW",
+      "##USE",
+      "EIGHT",
+      "ROB##",
+      "ANY##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-18-1",
+        "excerpt": "In women's rugby union, Canada defeats England 24–21 in a WXV Global Series match in Toronto, ending the Red Roses' four-year unbeaten run at 41 matches (the longest in rugby union history) after Shoshanah Seumanutafa scores a late try."
+      }
+    ]
+  },
+  "storyId": "2026-10-18-1"
+}

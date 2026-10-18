@@ -1,0 +1,187 @@
+{
+  "slug": "2026-10-18",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-18-1",
+      "headline": "Canada end England's four-year unbeaten run in women's rugby",
+      "summary": "Canada beat England 24–21 in a WXV Global Series match in Toronto. The defeat ended the Red Roses' four-year unbeaten run at 41 matches, the longest in rugby union history. Shoshanah Seumanutafa scored a late try to settle it.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_WXV_Global_Series",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "2026-10-18-2",
+      "headline": "Czech governing party wins none of the contested Senate seats",
+      "summary": "Voters in Czechia have finished voting in the second round of their Senate election. With all votes counted, the governing ANO 2011 did not win any of the 27 contested seats and lost the only seat it was defending. Mayors and Independents won nine, more than any other party.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "id": "2026-10-18-3",
+      "headline": "Morocco's first woman prime minister takes office",
+      "summary": "Fatima Ezzahra El Mansouri has taken office as prime minister of Morocco, her four-party coalition government formally appointed. King Mohammed VI named her on 29 September 2026, the first woman to hold the office. She had earlier been mayor of Marrakesh.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "2026-10-18-4",
+      "headline": "The nightjar trades efficient wings for agility",
+      "summary": "Scientists have looked at how the European nightjar's wings work. The bird gives up some efficiency in flight in return for agility, and it keeps generating thrust even as the wings rise. That technique had mainly been associated with bats and insects.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+      "publishedAt": "2026-10-17"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Canada beat England 24–21 in a women's rugby match in Toronto, ending a run that had stood for four years.",
+          "prompt": "How many matches had England's Red Roses gone unbeaten?",
+          "options": ["21", "31", "41", "51"],
+          "level": "easy",
+          "storyId": "2026-10-18-1"
+        },
+        {
+          "lead": "Morocco's new four-party coalition government has been formally appointed, and its prime minister has taken office.",
+          "prompt": "Who appointed Fatima Ezzahra El Mansouri as prime minister?",
+          "options": ["King Mohammed VI", "King Hassan II", "King Mohammed V", "King Abdullah II"],
+          "level": "easy",
+          "storyId": "2026-10-18-3"
+        },
+        {
+          "lead": "Czechia has finished a two-round election for 27 seats in its Senate.",
+          "prompt": "How many of the contested seats did the Mayors and Independents party win?",
+          "options": ["Four", "Six", "Nine", "Fourteen"],
+          "level": "easy",
+          "storyId": "2026-10-18-2"
+        },
+        {
+          "lead": "Czech senators are elected over two rounds, and turnout in the first round was 43.31%.",
+          "prompt": "What was the turnout in the second round?",
+          "options": ["21.12%", "28.60%", "34.75%", "45.08%"],
+          "level": "medium",
+          "storyId": "2026-10-18-2"
+        },
+        {
+          "lead": "European nightjars keep generating thrust even as their wings rise, the upward half of each wingbeat.",
+          "prompt": "Which flying animals had that upward-stroke technique mainly been linked to before?",
+          "options": ["Bats and insects", "Owls and swifts", "Hummingbirds and bees", "Gulls and albatrosses"],
+          "level": "hard",
+          "storyId": "2026-10-18-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [2, 0, 2, 0, 0],
+      "explanations": [
+        "The run ended at 41 matches, the longest in rugby union history. Shoshanah Seumanutafa scored a late try to settle the game in Toronto.",
+        "King Mohammed VI appointed her on 29 September 2026, and she is the first woman to hold the office. She had earlier been mayor of Marrakesh.",
+        "They took nine, the most of any party. The governing ANO 2011 won none of the 27 contested seats and lost the only seat it was defending.",
+        "Turnout in the second round was 21.12%, against 43.31% in the first. The Czech Pirate Party lost its only Senate seat and has no representation in the chamber for the first time since 2012.",
+        "It is a wingbeat technique previously associated mainly with bats and insects. The nightjar itself makes an extraordinary migration between Europe and southern Africa."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+        "excerpt": "In women's rugby union, Canada defeats England 24–21 in a WXV Global Series match in Toronto, ending the Red Roses' four-year unbeaten run at 41 matches (the longest in rugby union history) after Shoshanah Seumanutafa scores a late try."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+        "excerpt": "With all votes counted, governing ANO 2011 did not win any of the 27 contested seats, and lost the only seat they defended in this election."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+        "excerpt": "Mayors and Independents party won the most contested seats in this election with nine, but also losing a one seat overall. Czech Pirate Party in this election lost their only seat in the Senate, ending with no representation in the chamber for the first time since 2012."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+        "excerpt": "Voter turnout was 43.31% in the first round and 21.12% in the second round."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
+        "excerpt": "In Czechia, opposition parties win 22 of the contested 27 seats in the Senate."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+        "excerpt": "On 29 September 2026, King Mohammed VI received her at the Royal Palace and appointed El Mansouri as Prime Minister–designate of Morocco, becoming the first woman to hold the office."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fatima_Ezzahra_El_Mansouri",
+        "excerpt": "She joined the PAM in 2008 and won a seat on the city council in 2009, after which she was selected as mayor of Marrakesh."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+        "excerpt": "Fatima Ezzahra El Mansouri, who was named Prime Minister by King Mohammed VI on 29 September, takes office as her four-party coalition Government is formally appointed."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+        "excerpt": "Scientists have discovered that European nightjars sacrifice flight efficiency for agility and use an unexpected wingbeat technique previously associated mainly with bats and insects."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+        "excerpt": "The European nightjar makes an extraordinary migration between Europe and southern Africa, but scientists have discovered that its wings are not as efficient as you might expect."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+        "excerpt": "Even as the bird raises its wings during the upward portion of each wingbeat, it continues to generate thrust, the force that helps propel it forward."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "FLIGHT",
+      "storyId": "2026-10-18-4",
+      "teaser": "Today's word comes from the story about how the nightjar flies.",
+      "excerpt": "Scientists have discovered that European nightjars sacrifice flight efficiency for agility and use an unexpected wingbeat technique previously associated mainly with bats and insects."
+    },
+    "letters": {
+      "pangram": "MATCHES",
+      "storyId": "2026-10-18-1",
+      "teaser": "Today's letters come from the story about England's unbeaten run ending in Toronto.",
+      "excerpt": "In women's rugby union, Canada defeats England 24–21 in a WXV Global Series match in Toronto, ending the Red Roses' four-year unbeaten run at 41 matches (the longest in rugby union history) after Shoshanah Seumanutafa scores a late try."
+    },
+    "crossword": [
+      {
+        "answer": "RUGBY",
+        "clue": "Sport with an oval ball, played in Toronto by Canada and England",
+        "storyId": "2026-10-18-1",
+        "excerpt": "In women's rugby union, Canada defeats England 24–21 in a WXV Global Series match in Toronto, ending the Red Roses' four-year unbeaten run at 41 matches (the longest in rugby union history) after Shoshanah Seumanutafa scores a late try."
+      },
+      {
+        "answer": "SEATS",
+        "clue": "Places in the Czech Senate, 27 of them contested",
+        "storyId": "2026-10-18-2",
+        "excerpt": "With all votes counted, governing ANO 2011 did not win any of the 27 contested seats, and lost the only seat they defended in this election."
+      },
+      {
+        "answer": "MAYOR",
+        "clue": "City's leader, the post El Mansouri held in Marrakesh",
+        "storyId": "2026-10-18-3",
+        "excerpt": "She joined the PAM in 2008 and won a seat on the city council in 2009, after which she was selected as mayor of Marrakesh."
+      },
+      {
+        "answer": "WINGS",
+        "clue": "What the nightjar raises on the upward half of a wingbeat",
+        "storyId": "2026-10-18-4",
+        "excerpt": "Even as the bird raises its wings during the upward portion of each wingbeat, it continues to generate thrust, the force that helps propel it forward."
+      }
+    ]
+  }
+}
