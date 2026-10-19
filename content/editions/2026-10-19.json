@@ -1,16 +1,16 @@
 {
   "date": "2026-10-19",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 4,
   "puzzles": [
-    "word-2026-10-19-en-v1",
+    "word-2026-10-19-en-v2",
     "sudoku-2026-10-19-en-easy-v1",
     "sudoku-2026-10-19-en-medium-v1",
     "sudoku-2026-10-19-en-hard-v1",
-    "letters-2026-10-19-en-v1",
-    "crossword-2026-10-19-en-v1",
-    "quiz-2026-10-19-en-v1",
+    "letters-2026-10-19-en-v3",
+    "crossword-2026-10-19-en-v2",
+    "quiz-2026-10-19-en-v2",
     "bridges-2026-10-19-en-v1",
     "binary-2026-10-19-en-v1",
     "target-2026-10-19-en-v1",
@@ -30,44 +30,45 @@
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-10-19-1",
+      "headline": "Florida Panthers set a hat-trick record in three straight games",
+      "summary": "The Florida Panthers have become the first team in the National Hockey League to record a natural hat trick in three consecutive games. A natural hat trick is three consecutive goals by one player, uninterrupted by any other player scoring for either team. The league's fastest took 21 seconds, set by Bill Mosienko in 1952.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
+      "publishedAt": "2026-10-17"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-10-19-2",
+      "headline": "Vietnam signs a free trade deal with four European nations",
+      "summary": "Vietnam has signed a free trade agreement with the European Free Trade Association, whose members are Iceland, Liechtenstein, Norway and Switzerland. It reduces or eliminates tariffs on industrial, agricultural and fish products. The agreement also covers services, intellectual property and sustainable development.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+      "publishedAt": "2026-10-18"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "id": "2026-10-19-3",
+      "headline": "Hairless dogs found at an ancient Peruvian burial complex",
+      "summary": "Archaeologists working at an ancient burial complex in Peru have found evidence of hairless dogs that lived more than 1,200 years ago, long before the rise of the Inca Empire. The complex, Castillo de Huarmey, lies approximately 190 miles north of Lima and covers 110 acres. It was occupied between 600 and 1050 CE.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+      "publishedAt": "2026-10-17"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-10-19-1": [
       "quiz:1",
-      "quiz:5",
-      "crossword:1 Down"
+      "quiz:3",
+      "word",
+      "crossword:3 Down"
     ],
-    "nature-1-falls": [
+    "2026-10-19-2": [
       "quiz:2",
-      "quiz:4",
       "letters"
     ],
-    "nature-1-galapagos": [
-      "quiz:3",
-      "word"
+    "2026-10-19-3": [
+      "quiz:4",
+      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-10-19T02:24:54.257998Z"
 }

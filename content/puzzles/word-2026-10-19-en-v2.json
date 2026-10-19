@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-19-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-19",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "H",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about a record set on the ice."
+  },
+  "reveal": {
+    "answer": "HOCKEY",
+    "storyId": "2026-10-19-1",
+    "excerpt": "In ice hockey, the Florida Panthers become the first team in the National Hockey League to record a natural hat trick in three consecutive games."
+  },
+  "storyId": "2026-10-19-1"
+}

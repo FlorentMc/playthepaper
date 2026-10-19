@@ -1,0 +1,159 @@
+{
+  "slug": "2026-10-19",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-19-1",
+      "headline": "Florida Panthers set a hat-trick record in three straight games",
+      "summary": "The Florida Panthers have become the first team in the National Hockey League to record a natural hat trick in three consecutive games. A natural hat trick is three consecutive goals by one player, uninterrupted by any other player scoring for either team. The league's fastest took 21 seconds, set by Bill Mosienko in 1952.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "id": "2026-10-19-2",
+      "headline": "Vietnam signs a free trade deal with four European nations",
+      "summary": "Vietnam has signed a free trade agreement with the European Free Trade Association, whose members are Iceland, Liechtenstein, Norway and Switzerland. It reduces or eliminates tariffs on industrial, agricultural and fish products. The agreement also covers services, intellectual property and sustainable development.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "id": "2026-10-19-3",
+      "headline": "Hairless dogs found at an ancient Peruvian burial complex",
+      "summary": "Archaeologists working at an ancient burial complex in Peru have found evidence of hairless dogs that lived more than 1,200 years ago, long before the rise of the Inca Empire. The complex, Castillo de Huarmey, lies approximately 190 miles north of Lima and covers 110 acres. It was occupied between 600 and 1050 CE.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+      "publishedAt": "2026-10-17"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "In ice hockey, one team has become the first in the National Hockey League to record a natural hat trick in three consecutive games.",
+          "prompt": "Which team set that record?",
+          "options": ["Florida Panthers", "Boston Bruins", "Edmonton Oilers", "Toronto Maple Leafs"],
+          "level": "easy",
+          "storyId": "2026-10-19-1"
+        },
+        {
+          "lead": "Vietnam has signed a free trade agreement that reduces or eliminates tariffs on industrial, agricultural and fish products.",
+          "prompt": "Which group of four European countries did Vietnam sign it with?",
+          "options": ["European Free Trade Association", "European Union", "Nordic Council", "Benelux Union"],
+          "level": "easy",
+          "storyId": "2026-10-19-2"
+        },
+        {
+          "lead": "The Florida Panthers have set a National Hockey League first with a natural hat trick in consecutive games. A natural hat trick is a run of goals by one player, uninterrupted by any other player scoring.",
+          "prompt": "In how many consecutive games did they record one?",
+          "options": ["Two", "Three", "Four", "Five"],
+          "level": "easy",
+          "storyId": "2026-10-19-1"
+        },
+        {
+          "lead": "Archaeologists have found the remains of hairless dogs at Castillo de Huarmey, an ancient burial complex in Peru.",
+          "prompt": "Roughly how far north of Lima does the complex lie?",
+          "options": ["19 miles", "190 miles", "900 miles", "1,900 miles"],
+          "level": "medium",
+          "storyId": "2026-10-19-3"
+        },
+        {
+          "lead": "Castillo de Huarmey was occupied between 600 and 1050 CE, roughly 400 years before the Inca rose to power, and served as an administrative and burial centre.",
+          "prompt": "Which empire did the complex serve?",
+          "options": ["Wari", "Moche", "Nazca", "Chimu"],
+          "level": "hard",
+          "storyId": "2026-10-19-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 1, 1, 0],
+      "explanations": [
+        "It was the Florida Panthers, the first team in the National Hockey League to record a natural hat trick in three consecutive games. A natural hat trick is three consecutive goals by one player, uninterrupted by any other player scoring for either team.",
+        "The agreement is with the European Free Trade Association, whose members are Iceland, Liechtenstein, Norway and Switzerland. It reduces or eliminates tariffs on industrial, agricultural and fish products, and also covers services, intellectual property and sustainable development.",
+        "They managed it in three consecutive games, a first in the National Hockey League. The league's fastest natural hat trick took 21 seconds, set by Bill Mosienko in 1952 for the Chicago Blackhawks.",
+        "Castillo de Huarmey lies approximately 190 miles north of Lima and covers 110 acres. It once served as an administrative and burial centre for the Wari Empire.",
+        "The complex served the Wari Empire as an administrative and burial centre. It was occupied between 600 and 1050 CE, roughly 400 years before the Inca rose to power."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
+        "excerpt": "In ice hockey, the Florida Panthers become the first team in the National Hockey League to record a natural hat trick in three consecutive games."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hat-trick",
+        "excerpt": "In ice hockey, a natural hat trick occurs when a player scores three consecutive goals, uninterrupted by any other player scoring for either team."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hat-trick",
+        "excerpt": "The NHL record for the fastest natural hat trick is 21 seconds, set by Bill Mosienko in 1952 for the Chicago Blackhawks."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+        "excerpt": "Vietnam signs a free trade agreement with the European Free Trade Association (Iceland, Liechtenstein, Norway, and Switzerland) that reduces or eliminates tariffs on industrial, agricultural, and fish products and covers services, intellectual property, and sustainable development."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "excerpt": "Archaeologists working at an ancient burial complex in Peru have uncovered remarkable evidence of hairless dogs that lived more than 1,200 years ago, long before the rise of the Inca Empire."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "excerpt": "Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070644.htm",
+        "excerpt": "The complex was occupied between 600 and 1050 CE, roughly 400 years before the Inca rose to power."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "HOCKEY",
+      "storyId": "2026-10-19-1",
+      "teaser": "Today's word comes from the story about a record set on the ice.",
+      "excerpt": "In ice hockey, the Florida Panthers become the first team in the National Hockey League to record a natural hat trick in three consecutive games."
+    },
+    "letters": {
+      "pangram": "AGREEMENT",
+      "storyId": "2026-10-19-2",
+      "teaser": "Today's letters come from the story about Vietnam's new deal with four European nations.",
+      "excerpt": "Vietnam signs a free trade agreement with the European Free Trade Association (Iceland, Liechtenstein, Norway, and Switzerland) that reduces or eliminates tariffs on industrial, agricultural, and fish products and covers services, intellectual property, and sustainable development."
+    },
+    "crossword": [
+      {
+        "answer": "TRICK",
+        "clue": "Feat the Panthers managed in three games running",
+        "storyId": "2026-10-19-1",
+        "excerpt": "In ice hockey, the Florida Panthers become the first team in the National Hockey League to record a natural hat trick in three consecutive games."
+      },
+      {
+        "answer": "GOALS",
+        "clue": "Three in a row by one player, uninterrupted",
+        "storyId": "2026-10-19-1",
+        "excerpt": "In ice hockey, a natural hat trick occurs when a player scores three consecutive goals, uninterrupted by any other player scoring for either team."
+      },
+      {
+        "answer": "TRADE",
+        "clue": "What Vietnam and four European nations agreed to free up",
+        "storyId": "2026-10-19-2",
+        "excerpt": "Vietnam signs a free trade agreement with the European Free Trade Association (Iceland, Liechtenstein, Norway, and Switzerland) that reduces or eliminates tariffs on industrial, agricultural, and fish products and covers services, intellectual property, and sustainable development."
+      },
+      {
+        "answer": "ACRES",
+        "clue": "Units of land, 110 of them at Castillo de Huarmey",
+        "storyId": "2026-10-19-3",
+        "excerpt": "Located approximately 190 miles north of Lima, Castillo de Huarmey covers 110 acres and once served as an administrative and burial center for the Wari Empire."
+      }
+    ]
+  }
+}
