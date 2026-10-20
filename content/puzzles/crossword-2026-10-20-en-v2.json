@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-20-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Concealed"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Block a single country can use to stop an EU decision",
+          "storyId": "2026-10-20-1"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Waltz or tango"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Part of the foot"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Farewell"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Therefore"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Tickling irritation"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Buck's mate"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Change"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Small amount of cream"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##HID",
+      "#VETO",
+      "DANCE",
+      "ARCH#",
+      "BYE##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "2026-10-20-1",
+        "excerpt": "In July 2026, following Bulgaria’s withdrawal of its veto, the Council of the EU authorized the signing of the association agreements with Andorra and San Marino, which organises their participation in the single market"
+      }
+    ]
+  },
+  "storyId": "2026-10-20-1"
+}

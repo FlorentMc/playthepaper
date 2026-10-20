@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-10-20-en-v2",
+  "game": "letters",
+  "editionDate": "2026-10-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "H",
+    "outer": "ABCDEL",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about coral regaining its colour in a laboratory."
+  },
+  "reveal": {
+    "answers": [
+      "ACHE",
+      "ACHED",
+      "AHEAD",
+      "BACH",
+      "BEACH",
+      "BEACHED",
+      "BEACHHEAD",
+      "BEECH",
+      "BEHEAD",
+      "BEHEADED",
+      "BEHELD",
+      "BELCH",
+      "BLAH",
+      "BLEACH",
+      "BLEACHED",
+      "CACHE",
+      "CHAD",
+      "DACHA",
+      "DAHL",
+      "EACH",
+      "HAHA",
+      "HALE",
+      "HALL",
+      "HEAD",
+      "HEADACHE",
+      "HEADED",
+      "HEAL",
+      "HEALED",
+      "HEED",
+      "HEEDED",
+      "HEEL",
+      "HELD",
+      "HELL",
+      "LEACH",
+      "LECH",
+      "LEECH"
+    ],
+    "pangrams": [
+      "BLEACHED"
+    ],
+    "maxScore": 144,
+    "storyId": "2026-10-20-3",
+    "excerpt": "Every bleached fragment that touched its healthy counterpart recovered completely within seven weeks. In contrast, the bleached fragments that were kept apart died."
+  },
+  "storyId": "2026-10-20-3"
+}

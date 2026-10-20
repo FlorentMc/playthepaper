@@ -1,0 +1,121 @@
+{
+  "id": "quiz-2026-10-20-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Two of Europe's smallest states have finished a long negotiation with the European Union and signed agreements tying them more closely to its economy.",
+        "prompt": "Which two European microstates signed association agreements with the European Union?",
+        "options": [
+          "Andorra and San Marino",
+          "Monaco and Liechtenstein",
+          "Malta and Cyprus",
+          "Iceland and Norway"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-20-1"
+      },
+      {
+        "lead": "Andorra and San Marino have each signed an association agreement with the European Union, which the Council of the EU authorised in July 2026.",
+        "prompt": "What does the agreement organise for the two states?",
+        "options": [
+          "Participation in the single market",
+          "Full membership of the European Union",
+          "Adoption of the euro as their currency",
+          "Membership of the Schengen Area"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-20-1"
+      },
+      {
+        "lead": "A country in central Africa says a malaria programme that has already cut cases sharply on one of its islands will now be extended to the mainland.",
+        "prompt": "Which country announced that it would expand the programme?",
+        "options": [
+          "Equatorial Guinea",
+          "Gabon",
+          "Cameroon",
+          "São Tomé and Príncipe"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-20-2"
+      },
+      {
+        "lead": "In a laboratory experiment, coral fragments that had turned white and were close to dying were left in contact with a healthy fragment from the same coral animal.",
+        "prompt": "How long did those bleached fragments take to regain their health?",
+        "options": [
+          "Seven weeks",
+          "Seven days",
+          "Seven months",
+          "Two years"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-20-3"
+      },
+      {
+        "lead": "In the coral experiment each pair held one healthy fragment and one bleached fragment from the same animal. Some pairs were left touching, while the others were kept apart.",
+        "prompt": "What became of the bleached fragments that were kept apart?",
+        "options": [
+          "They died",
+          "They recovered more slowly",
+          "They recovered just as quickly",
+          "They regained their colour but stayed weak"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-20-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanations": [
+      "The agreements were signed by Andorra and San Marino on 19 October 2026. The Council of the EU had authorised the signing in July 2026, after Bulgaria withdrew its veto.",
+      "The agreement organises their participation in the single market. The Council of the EU authorised the signing in July 2026, after Bulgaria withdrew its veto.",
+      "Equatorial Guinea said it would expand its malaria programme to the mainland and to Annobón. The programme has already heavily reduced malaria cases on Bioko Island.",
+      "They regained their health within seven weeks. Every bleached fragment that touched a healthy counterpart recovered completely.",
+      "The bleached fragments that were kept apart died. Only the fragments touching a healthy counterpart recovered completely, and they did so within seven weeks."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93European_Union_relations",
+      "excerpt": "The Association Agreement was signed on 19 October 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93European_Union_relations",
+      "excerpt": "In July 2026, following Bulgaria’s withdrawal of its veto, the Council of the EU authorized the signing of the association agreements with Andorra and San Marino, which organises their participation in the single market"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_18",
+      "excerpt": "Equatorial Guinea announces that it will expand its program combating malaria to the mainland and Annobón. The program has already heavily reduced malaria cases on Bioko Island."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230025.htm",
+      "excerpt": "In laboratory experiments, corals that had turned white and were close to dying regained their health within seven weeks."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230025.htm",
+      "excerpt": "Each pair consisted of one healthy fragment and one bleached fragment originating from the same coral animal."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261017230025.htm",
+      "excerpt": "Every bleached fragment that touched its healthy counterpart recovered completely within seven weeks. In contrast, the bleached fragments that were kept apart died."
+    }
+  ]
+}

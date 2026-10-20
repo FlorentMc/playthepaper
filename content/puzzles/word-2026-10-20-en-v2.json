@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-20-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about reefs brought back from the brink."
+  },
+  "reveal": {
+    "answer": "CORALS",
+    "storyId": "2026-10-20-3",
+    "excerpt": "In laboratory experiments, corals that had turned white and were close to dying regained their health within seven weeks."
+  },
+  "storyId": "2026-10-20-3"
+}
