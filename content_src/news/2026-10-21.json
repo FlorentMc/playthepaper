@@ -1,0 +1,178 @@
+{
+  "slug": "2026-10-21",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-21-1",
+      "headline": "Albertans vote to stay in Canada",
+      "summary": "Voters in Alberta have rejected pursuing a future referendum on separating from Canada. More than three-quarters supported the province remaining in Canada. The question was one of ten put to voters on 19 October 2026.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "id": "2026-10-21-2",
+      "headline": "A pumpkin passes three thousand pounds for the first time",
+      "summary": "A grower in Rhode Island has produced the first pumpkin to surpass 3,000 pounds. Ron Wallace's gourd weighed 3,156 pounds, the largest fruit on record. The previous best, a pumpkin of nearly 2,857 pounds, had been set a week earlier by the British grower Ian Paton.",
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/a-rhode-island-man-grew-the-first-pumpkin-to-surpass-3000-pounds-the-gargantuan-gourd-is-the-largest-fruit-ever-180989723/",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "2026-10-21-3",
+      "headline": "Japan launches a mission to scoop up a moon of Mars",
+      "summary": "Japan's space agency has launched the Martian Moons eXploration spacecraft from the Tanegashima Space Center towards Phobos. The mission aims to collect at least 10 grams of surface material and return the samples to Earth in 2031. A small rover will be set down on Phobos in 2029 to scout a sampling site.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martian_Moons_eXploration",
+      "publishedAt": "2026-10-19"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "On 19 October, voters in the province of Alberta answered ten referendum questions. One asked whether the province should begin the legal process towards a binding vote on separation.",
+          "prompt": "What share of voters supported Alberta staying where it is?",
+          "options": [
+            "More than three-quarters",
+            "About two-thirds",
+            "Just over half",
+            "Just under a third"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-21-1"
+        },
+        {
+          "lead": "Alberta's referendum asked whether the province should stay where it is, or start the legal process towards a binding vote on separating.",
+          "prompt": "Which country would Alberta have been seeking to separate from?",
+          "options": [
+            "Canada",
+            "United States",
+            "United Kingdom",
+            "Australia"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-21-1"
+        },
+        {
+          "lead": "Ron Wallace, a grower in Rhode Island, has raised the first pumpkin to surpass 3,000 pounds, the largest fruit on record.",
+          "prompt": "How much did his record pumpkin weigh?",
+          "options": [
+            "3,156 pounds",
+            "3,019 pounds",
+            "3,480 pounds",
+            "4,210 pounds"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-21-2"
+        },
+        {
+          "lead": "Japan's space agency has launched a spacecraft from the Tanegashima Space Center towards Phobos, one of the two moons of Mars. The plan is to land there, gather material and bring it home.",
+          "prompt": "How much surface material is the mission aiming to collect?",
+          "options": [
+            "At least 10 grams",
+            "About half a gram",
+            "About 100 grams",
+            "At least 10 kilograms"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-21-3"
+        },
+        {
+          "lead": "Before the spacecraft lands, it is due to set a small rover down on the surface of Phobos in 2029 to scout a landing and sampling site.",
+          "prompt": "What is the name of that rover?",
+          "options": [
+            "Idefix",
+            "Zhurong",
+            "Perseverance",
+            "Rosalind Franklin"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-21-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 0, 0, 0],
+      "explanations": [
+        "More than three-quarters of voters supported the province remaining in Canada. The question was one of ten put to Albertans on 19 October 2026.",
+        "Alberta would have been separating from Canada. Voters rejected pursuing a future independence referendum.",
+        "The pumpkin weighed 3,156 pounds. The previous record, a pumpkin of nearly 2,857 pounds, had been set a week earlier by the British grower Ian Paton.",
+        "The mission aims to collect at least 10 grams of surface material. The samples are due to reach Earth in 2031.",
+        "The rover is called Idefix. It is to be delivered to the surface of Phobos in 2029 to help identify a landing and sampling site."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_19",
+        "excerpt": "Albertan voters reject pursuing a future independence referendum, with more than three-quarters supporting the province remaining in Canada."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
+        "excerpt": "The independence question of the 2026 Alberta referendum is one of 10 questions of the 2026 Alberta referendums, which took place on October 19, 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
+        "excerpt": "The question was a choice of two options: whether to remain in Canada or for the province of Alberta to take steps toward holding a binding referendum on separating from Canada."
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-rhode-island-man-grew-the-first-pumpkin-to-surpass-3000-pounds-the-gargantuan-gourd-is-the-largest-fruit-ever-180989723/",
+        "excerpt": "On October 10, Ron Wallace took the pumpkin king crown with a 3,156-pounder. The previous record—a respectable, nearly 2,857-pound pumpkin—was set just a week earlier by British grower Ian Paton"
+      },
+      {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-rhode-island-man-grew-the-first-pumpkin-to-surpass-3000-pounds-the-gargantuan-gourd-is-the-largest-fruit-ever-180989723/",
+        "excerpt": "A Rhode Island Man Grew the First Pumpkin to Surpass 3,000 Pounds. The Gargantuan Gourd Is the Largest Fruit Ever"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+        "excerpt": "JAXA launches the Martian Moons eXploration spacecraft from the Tanegashima Space Center toward Phobos aboard an H3 rocket, aiming to collect at least 10 grams of surface material from the Martian moon and return the samples to Earth in 2031."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Martian_Moons_eXploration",
+        "excerpt": "It will deliver the rover Idefix to the surface of Phobos in 2029, which among other missions will identify a suitable landing and sampling site for MMX."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "REMAIN",
+      "storyId": "2026-10-21-1",
+      "teaser": "Today's word comes from the story about Alberta's referendum.",
+      "excerpt": "The question was a choice of two options: whether to remain in Canada or for the province of Alberta to take steps toward holding a binding referendum on separating from Canada."
+    },
+    "letters": {
+      "pangram": "SURFACE",
+      "storyId": "2026-10-21-3",
+      "teaser": "Today's letters come from the story about a mission to a moon of Mars.",
+      "excerpt": "It will deliver the rover Idefix to the surface of Phobos in 2029, which among other missions will identify a suitable landing and sampling site for MMX."
+    },
+    "crossword": [
+      {
+        "answer": "STEPS",
+        "clue": "Stages in a legal process",
+        "storyId": "2026-10-21-1",
+        "excerpt": "The question was a choice of two options: whether to remain in Canada or for the province of Alberta to take steps toward holding a binding referendum on separating from Canada."
+      },
+      {
+        "answer": "GOURD",
+        "clue": "What a pumpkin is, in plainer words",
+        "storyId": "2026-10-21-2",
+        "excerpt": "A Rhode Island Man Grew the First Pumpkin to Surpass 3,000 Pounds. The Gargantuan Gourd Is the Largest Fruit Ever"
+      },
+      {
+        "answer": "ROVER",
+        "clue": "Wheeled machine sent to explore a surface",
+        "storyId": "2026-10-21-3",
+        "excerpt": "It will deliver the rover Idefix to the surface of Phobos in 2029, which among other missions will identify a suitable landing and sampling site for MMX."
+      }
+    ]
+  }
+}

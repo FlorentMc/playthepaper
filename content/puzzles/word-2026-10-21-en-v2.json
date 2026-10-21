@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-21-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-21",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "R",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about Alberta's referendum."
+  },
+  "reveal": {
+    "answer": "REMAIN",
+    "storyId": "2026-10-21-1",
+    "excerpt": "The question was a choice of two options: whether to remain in Canada or for the province of Alberta to take steps toward holding a binding referendum on separating from Canada."
+  },
+  "storyId": "2026-10-21-1"
+}
