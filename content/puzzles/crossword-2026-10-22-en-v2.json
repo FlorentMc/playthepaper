@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-10-22-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "....#",
+      "....#",
+      ".....",
+      "#....",
+      "#...."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 4,
+          "clue": "Swindle"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Encourage strongly"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Direction naming the sea where the gas field lies",
+          "storyId": "2026-10-22-2"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Past of are"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "clue": "Bright, as a colour"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Star at the centre of our solar system"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Top of the head"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Say yes"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Underground railway"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Mother of chicks"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "SCAM#",
+      "URGE#",
+      "NORTH",
+      "#WERE",
+      "#NEON"
+    ],
+    "seeded": [
+      {
+        "label": "6 Across",
+        "storyId": "2026-10-22-2",
+        "excerpt": "Jackdaw gas field is a large offshore natural gas field which lies in Blocks 30/02a, 30/02d and 30/03a in the central North Sea, 240 kilometres (150 mi) east of Aberdeen."
+      }
+    ]
+  },
+  "storyId": "2026-10-22-2"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-10-22-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Paul St-Pierre Plamondon was sworn in on 21 October as the 34th premier of Quebec, after his side won the province's election earlier in the month.",
+        "prompt": "Which party did he lead to that win?",
+        "options": [
+          "Parti Québécois",
+          "Coalition Avenir Québec",
+          "Quebec Liberal Party",
+          "Québec solidaire"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-22-1"
+      },
+      {
+        "lead": "Britain's North Sea Transition Authority has approved production from the Jackdaw gas field, which sits offshore in the central North Sea.",
+        "prompt": "Which Scottish city does the field lie east of?",
+        "options": [
+          "Aberdeen",
+          "Dundee",
+          "Inverness",
+          "Glasgow"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-22-2"
+      },
+      {
+        "lead": "Electronic Arts has shut down BioWare, the Canadian video game developer it bought in 2007.",
+        "prompt": "Which Canadian city was the studio based in?",
+        "options": [
+          "Edmonton",
+          "Toronto",
+          "Vancouver",
+          "Montreal"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-22-3"
+      },
+      {
+        "lead": "BioWare was founded in 1995 by three people who had only just finished qualifying in a profession a long way from games.",
+        "prompt": "What had its founders newly trained as?",
+        "options": [
+          "Medical doctors",
+          "Architects",
+          "Airline pilots",
+          "Veterinary surgeons"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-22-3"
+      },
+      {
+        "lead": "Researchers in China have described a new cave snail, Erhaia dijiang, which lives in shallow water inside a cave and has entirely lost its eyes. It is the highest-dwelling cave snail yet recorded in its family.",
+        "prompt": "At what elevation was it found?",
+        "options": [
+          "2,062 metres",
+          "462 metres",
+          "1,205 metres",
+          "3,480 metres"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-22-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanations": [
+      "He led the Parti Québécois to victory. He has been the party's leader since 2020.",
+      "The field lies east of Aberdeen, in the central North Sea. It has been owned by Adura, a joint venture between Shell and Equinor, since 2025.",
+      "BioWare was based in Edmonton, Alberta. The studio was shut down on 21 October 2026, as part of a series of layoffs at Electronic Arts.",
+      "The three founders were newly graduated medical doctors. They set up the studio in 1995, and Electronic Arts acquired the company in 2007.",
+      "It was found at an elevation of 2,062 metres. That makes it the highest-altitude cave snail yet recorded within the family Erhaiidae."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
+      "excerpt": "Paul St-Pierre Plamondon is sworn in as the 34th premier of Quebec following the Parti Québécois's victory in the general election."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_St-Pierre_Plamondon",
+      "excerpt": "He has served as the leader of the Parti Québécois since 2020."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_St-Pierre_Plamondon",
+      "excerpt": "On October 5, 2026, St-Pierre Plamondon led his party to victory in the 2026 Quebec election."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jackdaw_gas_field",
+      "excerpt": "Jackdaw gas field is a large offshore natural gas field which lies in Blocks 30/02a, 30/02d and 30/03a in the central North Sea, 240 kilometres (150 mi) east of Aberdeen. It has been owned by Adura, a joint venture between Shell and Equinor, since 2025."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
+      "excerpt": "The North Sea Transition Authority (NSTA) of the United Kingdom approves production from the Jackdaw gas field after energy secretary Miatta Fahnbulleh authorized the NSTA to grant consent, allowing operator Adura to begin supplying gas by late October."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BioWare",
+      "excerpt": "BioWare was a Canadian video game developer based in Edmonton, Alberta. It was founded in 1995 by newly graduated medical doctors Ray Muzyka, Greg Zeschuk and Augustine Yip. The company was acquired by American publisher Electronic Arts in 2007."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BioWare",
+      "excerpt": "On 21 October 2026, the studio was shut down as part of a series of layoffs at Electronic Arts."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093445.htm",
+      "excerpt": "Scientists found Erhaia dijiang at an elevation of 2,062 meters, making it the highest-altitude cave snail yet recorded within the family Erhaiidae."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093445.htm",
+      "excerpt": "As a true cave-dwelling animal, it has entirely lost its eyes, with the structures normally associated with vision having fully degenerated."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261019093445.htm",
+      "excerpt": "Despite searching the shallow cave waters, researchers located only three living adults and one empty shell."
+    }
+  ]
+}
