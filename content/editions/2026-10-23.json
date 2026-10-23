@@ -1,16 +1,16 @@
 {
   "date": "2026-10-23",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 2,
+  "kind": "news",
+  "label": "Today",
+  "version": 3,
   "puzzles": [
-    "word-2026-10-23-en-v1",
+    "word-2026-10-23-en-v2",
     "sudoku-2026-10-23-en-easy-v1",
     "sudoku-2026-10-23-en-medium-v1",
     "sudoku-2026-10-23-en-hard-v1",
-    "letters-2026-10-23-en-v1",
-    "crossword-2026-10-23-en-v1",
-    "quiz-2026-10-23-en-v1",
+    "letters-2026-10-23-en-v2",
+    "crossword-2026-10-23-en-v2",
+    "quiz-2026-10-23-en-v2",
     "bridges-2026-10-23-en-v1",
     "binary-2026-10-23-en-v1",
     "target-2026-10-23-en-v1",
@@ -30,44 +30,55 @@
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-10-23-1",
+      "headline": "The United States will host the first Women's Club World Cup",
+      "summary": "FIFA has confirmed that the United States will host the first Women's Club World Cup. The tournament is scheduled to run from 5 to 30 January 2028, and 19 teams will contest it. It was originally planned for early 2026, but was delayed by two years.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2028_FIFA_Women%27s_Club_World_Cup",
+      "publishedAt": "2026-10-22"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-10-23-2",
+      "headline": "The Sakharov Prize goes to the International Criminal Court",
+      "summary": "The European Parliament has awarded its 2026 Sakharov Prize to the International Criminal Court and its officials, for their work in global justice and upholding international law. The prize is named after the Russian scientist and dissident Andrei Sakharov, and was established in December 1988. It carries a monetary award of €50,000.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Sakharov_Prize",
+      "publishedAt": "2026-10-22"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
+      "id": "2026-10-23-3",
+      "headline": "Finland licences the world's first store for spent nuclear fuel",
+      "summary": "Finland's government has granted the company Posiva an operating licence for Onkalo, a repository at Eurajoki on the country's west coast. It is the world's first licensed deep geological disposal facility for spent nuclear fuel. The store is being dug into granite bedrock about five kilometres from the Olkiluoto power plants.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Onkalo_spent_nuclear_fuel_repository",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "2026-10-23-4",
+      "headline": "Honey bees crowd out wild pollinators around Cambridge",
+      "summary": "Researchers at Anglia Ruskin University watched pollinators for two years at five sites in and around Cambridge. On bramble, doubling the density of honey bees went with a 14% fall in bumblebee numbers. The ivy bee, first documented in Britain in 2001, was the only pollinator seen to challenge the honey bees.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231227.htm",
+      "publishedAt": "2026-10-22"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-10-23-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
       "crossword:1 Down"
     ],
-    "discovery-1-deep": [
+    "2026-10-23-2": [
+      "quiz:2"
+    ],
+    "2026-10-23-3": [
       "quiz:3",
       "quiz:4",
-      "word"
+      "letters"
     ],
-    "discovery-1-valley": [
-      "quiz:5"
+    "2026-10-23-4": [
+      "quiz:5",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-10-23T02:26:33.094340Z"
 }

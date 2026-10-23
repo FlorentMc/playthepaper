@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-23-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "N",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about honey bees crowding out other pollinators."
+  },
+  "reveal": {
+    "answer": "NECTAR",
+    "storyId": "2026-10-23-4",
+    "excerpt": "Researchers observed insects visiting bramble (Rubus fruticosus) and ivy (Hedera helix), two flowering plants that provide important supplies of nectar and pollen."
+  },
+  "storyId": "2026-10-23-4"
+}

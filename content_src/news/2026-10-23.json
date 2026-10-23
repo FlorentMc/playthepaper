@@ -1,0 +1,223 @@
+{
+  "slug": "2026-10-23",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-23-1",
+      "headline": "The United States will host the first Women's Club World Cup",
+      "summary": "FIFA has confirmed that the United States will host the first Women's Club World Cup. The tournament is scheduled to run from 5 to 30 January 2028, and 19 teams will contest it. It was originally planned for early 2026, but was delayed by two years.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2028_FIFA_Women%27s_Club_World_Cup",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "2026-10-23-2",
+      "headline": "The Sakharov Prize goes to the International Criminal Court",
+      "summary": "The European Parliament has awarded its 2026 Sakharov Prize to the International Criminal Court and its officials, for their work in global justice and upholding international law. The prize is named after the Russian scientist and dissident Andrei Sakharov, and was established in December 1988. It carries a monetary award of €50,000.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sakharov_Prize",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "2026-10-23-3",
+      "headline": "Finland licences the world's first store for spent nuclear fuel",
+      "summary": "Finland's government has granted the company Posiva an operating licence for Onkalo, a repository at Eurajoki on the country's west coast. It is the world's first licensed deep geological disposal facility for spent nuclear fuel. The store is being dug into granite bedrock about five kilometres from the Olkiluoto power plants.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Onkalo_spent_nuclear_fuel_repository",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "2026-10-23-4",
+      "headline": "Honey bees crowd out wild pollinators around Cambridge",
+      "summary": "Researchers at Anglia Ruskin University watched pollinators for two years at five sites in and around Cambridge. On bramble, doubling the density of honey bees went with a 14% fall in bumblebee numbers. The ivy bee, first documented in Britain in 2001, was the only pollinator seen to challenge the honey bees.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231227.htm",
+      "publishedAt": "2026-10-22"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "FIFA has settled where the first Women's Club World Cup will be played, a new club tournament for women's teams set for January 2028.",
+          "prompt": "Which country will host it?",
+          "options": [
+            "Qatar",
+            "Australia",
+            "United States",
+            "Brazil"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-23-1"
+        },
+        {
+          "lead": "Each year the European Parliament gives its Sakharov Prize for Freedom of Thought to those who defend human rights. This year it went to an institution rather than to a person.",
+          "prompt": "Which body received the 2026 prize?",
+          "options": [
+            "The International Court of Justice",
+            "The International Criminal Court",
+            "The World Health Organization",
+            "The Council of Europe"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-23-2"
+        },
+        {
+          "lead": "A government has granted an operating licence for Onkalo, a store that will bury spent nuclear fuel in bedrock for good. It is the first such facility anywhere to be licensed.",
+          "prompt": "Which country granted the licence?",
+          "options": [
+            "Sweden",
+            "Norway",
+            "Denmark",
+            "Finland"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-23-3"
+        },
+        {
+          "lead": "The repository is being dug into granite bedrock near the Olkiluoto power plants, and its name is an ordinary Finnish word.",
+          "prompt": "What does the name Onkalo mean?",
+          "options": [
+            "A deep well",
+            "A small cave",
+            "A stone house",
+            "A long night"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-23-3"
+        },
+        {
+          "lead": "Over two years, researchers around Cambridge watched insects feeding on bramble and ivy flowers, and found honey bees driving other pollinators away. Only one of the wild pollinators was seen to push back.",
+          "prompt": "Which insect was it?",
+          "options": [
+            "The bumblebee",
+            "The hoverfly",
+            "The leafcutter bee",
+            "The ivy bee"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-23-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        2,
+        1,
+        3,
+        1,
+        3
+      ],
+      "explanations": [
+        "The United States will host it. The tournament is scheduled to be contested by 19 teams, from 5 to 30 January 2028.",
+        "The prize went to the International Criminal Court and its officials. It is named after the Russian scientist and dissident Andrei Sakharov, and carries €50,000.",
+        "Finland's government granted the licence, to the company Posiva. Onkalo is the world's first licensed deep geological disposal facility for spent nuclear fuel.",
+        "Onkalo means a small cave, or a cavity. The repository is being dug into granite bedrock about five kilometres from the Olkiluoto power plants.",
+        "The ivy bee was the only pollinator seen to challenge the honey bees. It is not native to Britain, and was first documented in the country in 2001."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_FIFA_Women%27s_Club_World_Cup",
+        "excerpt": "On October 22, 2026, it was confirmed by FIFA that the United States would host the inaugural edition of the tournament."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_FIFA_Women%27s_Club_World_Cup",
+        "excerpt": "It is scheduled to be contested by 19 teams from January 5 to 30 2028."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2028_FIFA_Women%27s_Club_World_Cup",
+        "excerpt": "The tournament was originally scheduled to be played in early 2026 but was delayed by two years."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+        "excerpt": "The European Parliament awards its 2026 Sakharov Prize to the International Criminal Court and its officials for their work in global justice and upholding international law."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sakharov_Prize",
+        "excerpt": "Named after Russian scientist and dissident Andrei Sakharov, the prize was established in December 1988 by the European Parliament."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sakharov_Prize",
+        "excerpt": "The prize includes a monetary award of €50,000."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+        "excerpt": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent nuclear fuel."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Onkalo_spent_nuclear_fuel_repository",
+        "excerpt": "It is near the Olkiluoto Nuclear Power Plant in the municipality of Eurajoki, on the west coast of Finland. It will be the world's first long-term disposal facility for spent nuclear fuel."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Onkalo_spent_nuclear_fuel_repository",
+        "excerpt": "The facility, named \"Onkalo\" (meaning \"small cave\" or \"cavity\") is being built in the granite bedrock at the Olkiluoto site, about five kilometers from the power plants."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261021231227.htm",
+        "excerpt": "The study, conducted by researchers at Anglia Ruskin University (ARU) and published in Ecological Entomology, followed pollinator activity over two years at five locations in and around Cambridge, England."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261021231227.htm",
+        "excerpt": "On bramble flowers, doubling the density of honey bees was associated with a 14% decrease in bumblebee abundance."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261021231227.htm",
+        "excerpt": "The ivy bee, a solitary species not native to Britain that was first documented in the country in 2001, was the only pollinator observed actively challenging honey bees."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "NECTAR",
+      "storyId": "2026-10-23-4",
+      "teaser": "Today's word comes from the story about honey bees crowding out other pollinators.",
+      "excerpt": "Researchers observed insects visiting bramble (Rubus fruticosus) and ivy (Hedera helix), two flowering plants that provide important supplies of nectar and pollen."
+    },
+    "letters": {
+      "pangram": "NUCLEAR",
+      "storyId": "2026-10-23-3",
+      "teaser": "Today's letters come from the story about Finland's store for spent nuclear fuel.",
+      "excerpt": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent nuclear fuel."
+    },
+    "crossword": [
+      {
+        "answer": "TEAMS",
+        "clue": "Nineteen of these will contest the 2028 tournament",
+        "storyId": "2026-10-23-1",
+        "excerpt": "It is scheduled to be contested by 19 teams from January 5 to 30 2028."
+      },
+      {
+        "answer": "COURT",
+        "clue": "The international criminal body given this year's Sakharov Prize",
+        "storyId": "2026-10-23-2",
+        "excerpt": "The European Parliament awards its 2026 Sakharov Prize to the International Criminal Court and its officials for their work in global justice and upholding international law."
+      },
+      {
+        "answer": "FUEL",
+        "clue": "What the canisters will hold, twelve assemblies at a time",
+        "storyId": "2026-10-23-3",
+        "excerpt": "Once in operation, the disposal process will involve placing twelve fuel assemblies into a boron steel canister and enclosing it in a copper capsule."
+      },
+      {
+        "answer": "IVY",
+        "clue": "Climbing plant whose flowers the insects were counted on",
+        "storyId": "2026-10-23-4",
+        "excerpt": "Researchers observed insects visiting bramble (Rubus fruticosus) and ivy (Hedera helix), two flowering plants that provide important supplies of nectar and pollen."
+      }
+    ]
+  }
+}
