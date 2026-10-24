@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-24-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-24",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "...##",
+      ".....",
+      "##...",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Letter after zeta"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Right away"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Theatre genre"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 2,
+          "length": 3,
+          "clue": "Cleaning cloth"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Change the colour of fabric"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Finish"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Dartmoor landmark"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "What Messi was given in Spain for his career",
+          "storyId": "2026-10-24-1"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 3,
+          "length": 3,
+          "clue": "Month after April"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "What platforms must verify under the new Greek law",
+          "storyId": "2026-10-24-3"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "ETA##",
+      "NOW##",
+      "DRAMA",
+      "##RAG",
+      "##DYE"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-10-24-1",
+        "excerpt": "Argentine football player Lionel Messi is awarded the 2026 Princess of Asturias Award for Sports for his career at FC Barcelona in Catalonia, Spain."
+      },
+      {
+        "label": "7 Down",
+        "storyId": "2026-10-24-3",
+        "excerpt": "Greece's parliament approves a law banning children under 15 from using social media from January 1, 2027, requiring age verification and penalties for platforms that fail to comply."
+      }
+    ]
+  },
+  "storyId": "2026-10-24-1"
+}

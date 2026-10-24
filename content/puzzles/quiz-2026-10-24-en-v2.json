@@ -1,0 +1,151 @@
+{
+  "id": "quiz-2026-10-24-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-24",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Spain's Princess of Asturias Awards are presented each October in Oviedo by the heir to the Spanish throne, and each category carries €50,000. The 2026 award for sports went to a footballer.",
+        "prompt": "Which player received it?",
+        "options": [
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "Kylian Mbappé",
+          "Andrés Iniesta"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-24-1"
+      },
+      {
+        "lead": "The Mercury Prize goes each year to the best album by an act from the United Kingdom or Ireland, chosen from a shortlist of twelve. This year it went to a British singer for her album This Music May Contain Hope.",
+        "prompt": "Who won the 2026 prize?",
+        "options": [
+          "Olivia Dean",
+          "Raye",
+          "Nia Archives",
+          "Dave"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-24-2"
+      },
+      {
+        "lead": "Greece's parliament has approved a law that will keep younger children off social media from 1 January 2027. Platforms will have to verify ages, and those that fail to comply face penalties.",
+        "prompt": "Children below which age will be barred?",
+        "options": [
+          "12",
+          "13",
+          "15",
+          "18"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-24-3"
+      },
+      {
+        "lead": "In April, metal detectorists in eastern Norway stumbled on a cache of 1,000-year-old silver coins. Researchers are still cataloguing the Mørstad hoard, and the count keeps climbing.",
+        "prompt": "How many coins does the hoard hold on the latest count?",
+        "options": [
+          "About 500",
+          "About 5,500",
+          "About 50,000",
+          "About 500,000"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-24-4"
+      },
+      {
+        "lead": "One silver coin in the hoard turned out to be exceedingly rare: only four of its type had ever been found before, and just one of those in Norway. It was minted for a Norwegian king who later became the patron saint of the country.",
+        "prompt": "Which king was it?",
+        "options": [
+          "Harald Hardrada",
+          "Magnus the Good",
+          "Cnut the Great",
+          "Olaf II Haraldsson"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-24-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      1,
+      2,
+      1,
+      3
+    ],
+    "explanations": [
+      "It went to Lionel Messi, for his career at FC Barcelona. The jury called him the player who has won the most titles in the history of football.",
+      "Raye won, for her album This Music May Contain Hope. The winner of the Mercury Prize receives a cheque for £25,000 and a winner's trophy.",
+      "The law covers children under 15. It starts on 1 January 2027, and platforms that fail to comply face penalties.",
+      "The latest count puts the hoard at an estimated 5,500 coins. The researcher overseeing the cataloguing thinks it may soon exceed 6,000.",
+      "The coin was minted during the reign of Olaf II Haraldsson. Fewer than 20 coins minted under Olaf have ever been found, and most of them outside Norway."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23",
+      "excerpt": "Argentine football player Lionel Messi is awarded the 2026 Princess of Asturias Award for Sports for his career at FC Barcelona in Catalonia, Spain."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Princess_of_Asturias_Awards",
+      "excerpt": "The awards are presented every October in a solemn ceremony at the Campoamor Theatre in Oviedo, the capital of the Principality of Asturias, and are presented by the heir to the Spanish throne, currently Leonor, Princess of Asturias."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Princess_of_Asturias_Awards",
+      "excerpt": "There is also a monetary prize of €50,000 for each category; this amount is shared if the category has more than one recipient."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Princess_of_Asturias_Awards",
+      "excerpt": "Leo Messi, the player who has won the most titles in the history of football, has also earned the respect and admiration of everyone for his exemplary behaviour on the field and for his consistency, humility and commitment to the team game."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+      "excerpt": "British singer Raye wins the 2026 Mercury Prize for her album This Music May Contain Hope."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mercury_Prize",
+      "excerpt": "The Mercury Prize, formerly called the Mercury Music Prize, is an annual music prize awarded for the best album released by a musical act from the United Kingdom or Ireland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mercury_Prize",
+      "excerpt": "Twelve submitted albums are shortlisted for the prize, chosen based solely on their musical merit and irrespective of how popular or successful an album or act that has been submitted may have been in the previous calendar year."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mercury_Prize",
+      "excerpt": "Unlike some other music awards, the overall winner of the Mercury Prize also receives a cheque for £25,000 and an additional winner's trophy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23",
+      "excerpt": "Greece's parliament approves a law banning children under 15 from using social media from January 1, 2027, requiring age verification and penalties for platforms that fail to comply."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/in-a-hoard-of-5500-viking-age-coins-archaeologists-in-norway-found-one-so-rare-that-they-already-consider-it-a-national-treasure-180989741/",
+      "excerpt": "While cataloging the hoard, they found an exceedingly rare silver coin minted during the reign of Olaf II Haraldsson, a Norwegian king who later became the patron saint of Norway."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/in-a-hoard-of-5500-viking-age-coins-archaeologists-in-norway-found-one-so-rare-that-they-already-consider-it-a-national-treasure-180989741/",
+      "excerpt": "She was shocked, as only four coins of that type had ever been found before, just one of which was discovered in Norway, during the restoration of church ruins in 1924. Fewer than 20 coins minted under Olaf have ever been found, and most have been discovered outside of Norway."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/in-a-hoard-of-5500-viking-age-coins-archaeologists-in-norway-found-one-so-rare-that-they-already-consider-it-a-national-treasure-180989741/",
+      "excerpt": "The cache now contains an estimated 5,500 coins, according to the latest count. “I am beginning to think that the hoard may soon exceed 6,000 coins,” Florent Audy, who is overseeing the Mørstad hoard cataloging process, says in the statement."
+    }
+  ]
+}
