@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-10-25-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-25",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The World Artistic Gymnastics Championships are being held in Rotterdam, in the Netherlands, from 17 to 25 October. Japan won the men's team gold, and one of its gymnasts went on to take the individual all-around title.",
+        "prompt": "Which gymnast won the men's all-around?",
+        "options": [
+          "Daiki Hashimoto",
+          "Shinnosuke Oka",
+          "Ryosuke Doi",
+          "Fusuke Maeda"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-25-1"
+      },
+      {
+        "lead": "Canada's prime minister, Mark Carney, travelled to Ankara in October 2026. Canada and Turkey have maintained diplomatic relations since 1943.",
+        "prompt": "What did the two countries begin during the visit?",
+        "options": [
+          "Negotiations for a free trade agreement",
+          "A shared embassy in Ankara",
+          "A joint space programme",
+          "A mutual visa waiver"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-25-2"
+      },
+      {
+        "lead": "A female southern cassowary at Adelaide Zoo in South Australia has laid two eggs, the first laid there in more than three decades. In the wild these birds lay among the leaves of dense rainforest, where the colour of the shell keeps the eggs hidden from predators.",
+        "prompt": "What colour are the eggs?",
+        "options": [
+          "Bright green",
+          "Pale blue",
+          "Speckled brown",
+          "Chalky white"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-25-3"
+      },
+      {
+        "lead": "The 2026 championships are the third that Rotterdam has hosted, after 1987 and 2010. This year's edition runs from 17 to 25 October.",
+        "prompt": "How many nations sent gymnasts to the championships?",
+        "options": [
+          "42",
+          "62",
+          "82",
+          "102"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-25-1"
+      },
+      {
+        "lead": "Southern cassowaries are huge flightless birds. They weigh up to 175 pounds and stand more than five feet tall, and only two kinds of bird in the world are larger.",
+        "prompt": "Which two birds are larger?",
+        "options": [
+          "Emus and ostriches",
+          "Emus and condors",
+          "Rheas and ostriches",
+          "Ostriches and pelicans"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-25-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "explanations": [
+      "It was Daiki Hashimoto, who also led the Japanese team to the team gold in Rotterdam. He won a gold for the all-around as well.",
+      "They began negotiations for a free trade agreement. Trade between the two nations totalled US$2.4 billion in 2019.",
+      "The eggs are bright green. In the wild that colour helps keep them hidden among the leaves of dense rainforest.",
+      "A total of 452 gymnasts from 82 nations took part. It was the third time Rotterdam had hosted the championships, after 1987 and 2010.",
+      "Emus and ostriches are larger, which makes the southern cassowary the third-largest bird in the world. One can weigh up to 175 pounds and stand more than five feet tall."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Artistic_Gymnastics_Championships",
+      "excerpt": "The 2026 World Artistic Gymnastics Championships are currently being held in Rotterdam, Netherlands from 17 to 25 October 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Artistic_Gymnastics_Championships",
+      "excerpt": "A total of 452 gymnasts from 82 nations participated in the World Championships in Rotterdam."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Artistic_Gymnastics_Championships",
+      "excerpt": "This will be the third time Rotterdam has hosted the Artistic Gymnastics World Championships after doing so in 1987 and 2010."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daiki_Hashimoto",
+      "excerpt": "At the 2026 World Championships, Hashimoto led the Japanese team to win the team gold. He also won a gold for all-around."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Turkey_relations",
+      "excerpt": "Canada and Turkey began negotiations for a free trade agreement in October 2026, during a visit to Ankara by Canadian Prime Minister Mark Carney."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Turkey_relations",
+      "excerpt": "Canada and Turkey have maintained diplomatic relations since 1943."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Turkey_relations",
+      "excerpt": "In 2019, trade between both nations totaled US$2.4 billion."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/conservationists-in-australia-celebrate-the-arrival-of-two-southern-cassowary-eggsthe-first-at-adelaide-zoo-in-34-years-180989739/",
+      "excerpt": "The large, bright green orbs are the first southern cassowary eggs laid at Adelaide Zoo in South Australia in more than three decades—and their arrival is an encouraging bright spot for a species facing an uncertain future."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/conservationists-in-australia-celebrate-the-arrival-of-two-southern-cassowary-eggsthe-first-at-adelaide-zoo-in-34-years-180989739/",
+      "excerpt": "“This is really exciting news for us because it has been 34 years since we’ve had successful cassowary chicks here at Adelaide Zoo, so the team and myself included are very excited,” says Erin Kasteliz, team supervisor for birds at the zoo, in a statement."
+    },
+    {
+      "publisher": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/conservationists-in-australia-celebrate-the-arrival-of-two-southern-cassowary-eggsthe-first-at-adelaide-zoo-in-34-years-180989739/",
+      "excerpt": "Weighing up to 175 pounds and standing more than five feet tall, they’re the third-largest birds in the world, trailing behind emus and ostriches."
+    }
+  ]
+}

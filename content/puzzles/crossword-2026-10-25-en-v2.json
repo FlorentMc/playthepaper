@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-25-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-25",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Plump"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Uncanny"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Tour leader"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "The shell colour that hides a cassowary clutch",
+          "storyId": "2026-10-25-3"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Piece of grass and earth"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Cooked in oil"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Assistant"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Adolescent"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "The two bright green orbs at Adelaide Zoo",
+          "storyId": "2026-10-25-3"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Money in Paris or Berlin"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FAT",
+      "EERIE",
+      "GUIDE",
+      "GREEN",
+      "SOD##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Down",
+        "storyId": "2026-10-25-3",
+        "excerpt": "But conservationists in Australia seem to have cracked the matchmaking code: A female cassowary recently laid two eggs after being paired with a potential mate."
+      },
+      {
+        "label": "7 Across",
+        "storyId": "2026-10-25-3",
+        "excerpt": "In the wild, cassowaries live in dense rainforest and will find a safe area amongst the leaves to lay, so that green helps keep the eggs hidden from predators."
+      }
+    ]
+  },
+  "storyId": "2026-10-25-3"
+}
