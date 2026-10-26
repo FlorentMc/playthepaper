@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-26-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-26",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about Sydney's new airport."
+  },
+  "reveal": {
+    "answer": "FLIGHT",
+    "storyId": "2026-10-26-2",
+    "excerpt": "Regularly scheduled passenger services commenced on 25 October 2026, with Jetstar flight JQ362 becoming the first domestic flight to depart the airport at 11 am to the Gold Coast."
+  },
+  "storyId": "2026-10-26-2"
+}

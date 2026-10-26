@@ -1,0 +1,222 @@
+{
+  "slug": "2026-10-26",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-26-1",
+      "headline": "Lula wins re-election as Brazil's president",
+      "summary": "Brazil held the second round of its presidential election on the last Sunday of October. Luiz Inácio Lula da Silva won re-election 52 to 48 percent, defeating Flávio Bolsonaro for a fourth non-consecutive term. He had trailed in the first round, taking 45% of the vote against his rival's 47%.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-26-2",
+      "headline": "Greater Sydney's second airport takes its first passengers",
+      "summary": "Western Sydney Airport in New South Wales began passenger operations on 25 October, as Greater Sydney's second airport. The first domestic flight to depart was a Jetstar service to the Gold Coast, which left at 11 am. The airport is named in honour of the Australian aviator Nancy Bird Walton.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-26-3",
+      "headline": "Yuri Yoshida takes her first LPGA Tour title",
+      "summary": "Japan's Yuri Yoshida has won the BMW Ladies Championship in South Korea, her first title on the LPGA Tour. She finished ahead of Australia's Minjee Lee and South Korea's Kim Sei-young. Yoshida had already won four times on the LPGA of Japan Tour.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yuri_Yoshida",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-26-4",
+      "headline": "Spinosaurus spent most of its time under water",
+      "summary": "A new study of fossil and modern skeletons concludes that Spinosaurus spent the vast majority of its time submerged in water. The dinosaur lived approximately 113 million to 94 million years ago, in what is now northern Africa. To judge whether an extinct animal had limbs modified for swimming, the team revived a statistical method from the 1940s.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+      "publishedAt": "2026-10-25"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Brazil elects its president in two rounds, and the second round falls on the last Sunday of October. In the first round the senator Flávio Bolsonaro had led with 47% of the vote, against the incumbent president's 45%.",
+          "prompt": "Who won the second round?",
+          "options": [
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Jair Bolsonaro",
+            "Dilma Rousseff"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-26-1"
+        },
+        {
+          "lead": "Greater Sydney's second airport opened to passengers on 25 October. The first domestic flight left the new airport at 11 am for the Gold Coast.",
+          "prompt": "Which airline operated that first departure?",
+          "options": [
+            "Jetstar",
+            "Qantas",
+            "Air New Zealand",
+            "Singapore Airlines"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-26-2"
+        },
+        {
+          "lead": "The BMW Ladies Championship is the LPGA Tour's stop in South Korea. This year it went to a Japanese golfer taking her first LPGA Tour title, having already won four times on the LPGA of Japan Tour.",
+          "prompt": "Who won the tournament?",
+          "options": [
+            "Yuri Yoshida",
+            "Minjee Lee",
+            "Kim Sei-young",
+            "Lydia Ko"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-26-3"
+        },
+        {
+          "lead": "The federal government announced a name for the new Sydney airport in March 2019, in honour of an Australian aviator.",
+          "prompt": "Whose name did the airport take?",
+          "options": [
+            "Nancy Bird Walton",
+            "Charles Kingsford Smith",
+            "Bert Hinkler",
+            "Hudson Fysh"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-26-2"
+        },
+        {
+          "lead": "Palaeontologists have long argued over how much time the dinosaur Spinosaurus spent in water. To judge whether an extinct animal had limbs modified for swimming, one team borrowed a wartime statistical method.",
+          "prompt": "What was that method first developed to estimate?",
+          "options": [
+            "Whether a blip on the radar screen was an enemy plane",
+            "Whether a coded radio signal came from a submarine",
+            "Whether a cargo convoy would reach port safely",
+            "Whether a parachute drop would land on target"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-26-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 0, 0, 0, 0],
+      "explanations": [
+        "Luiz Inácio Lula da Silva won re-election, 52 to 48 percent, for a fourth non-consecutive term. He is the first successful presidential candidate to have placed second in the first round and won the second round.",
+        "It was a Jetstar flight, JQ362, which left for the Gold Coast at 11 am. The airport had already been handling cargo flights since July.",
+        "Japan's Yuri Yoshida won, for her first LPGA Tour title. She had won four times on the LPGA of Japan Tour before this week.",
+        "The airport is named in honour of Nancy Bird Walton, an Australian aviator. The federal government announced the name on 4 March 2019.",
+        "It was developed to estimate the probability that an approaching blip on the radar screen was an enemy plane. The team used it instead to work out whether an extinct animal had limbs modified for swimming."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "excerpt": "In the first round, senator Flávio Bolsonaro of the state of Rio de Janeiro, the eldest son of Lula's predecessor Jair Bolsonaro, led with 47% of the vote over incumbent president Luiz Inácio Lula da Silva's 45%."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "excerpt": "If this threshold is not met by any candidate, the two most voted candidates in the first round participate in a second round of voting, held on the last Sunday of October, in this instance, 25 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "excerpt": "He was then succeeded by his chief of staff, Dilma Rousseff, who was elected in 2010 and 2014."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "Lula wins re-election 52 to 48 percent, defeating Bolsonaro for a fourth non-consecutive term and becoming the first successful presidential candidate to have placed second in the first round and won the second round."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "Western Sydney Airport in New South Wales, Australia, commences passenger operations as the Greater Sydney's second airport."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "In golf, Japan's Yuri Yoshida wins her first LPGA Tour title at the BMW Ladies Championship in South Jeolla Province, South Korea, finishing ahead of Australia's Minjee Lee and South Korea's Kim Sei-young."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+        "excerpt": "The airport commenced its first commercial cargo flights on 26 July 2026, and passenger operations commenced on 25 October 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+        "excerpt": "Regularly scheduled passenger services commenced on 25 October 2026, with Jetstar flight JQ362 becoming the first domestic flight to depart the airport at 11 am to the Gold Coast."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Western_Sydney_Airport",
+        "excerpt": "On 4 March 2019, the federal government announced that the airport would be named Nancy Bird Walton International Airport in honour of the Australian aviator Nancy Bird Walton."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yuri_Yoshida",
+        "excerpt": "She won four times on the LPGA of Japan Tour."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+        "excerpt": "\"We confidently recovered highly aquatic habits for Spinosaurus, indicating that it spent the vast majority of its time submerged in the water.\""
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+        "excerpt": "Spinosaurus lived approximately 113 million to 94 million years ago in what is now northern Africa."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+        "excerpt": "\"It was developed during WWII to estimate the probability that an approaching blip on the radar screen was an enemy plane. Caleb cleverly used it to get at whether or not an extinct animal had limbs modified for swimming.\""
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "FLIGHT",
+      "storyId": "2026-10-26-2",
+      "teaser": "Today's word comes from the story about Sydney's new airport.",
+      "excerpt": "Regularly scheduled passenger services commenced on 25 October 2026, with Jetstar flight JQ362 becoming the first domestic flight to depart the airport at 11 am to the Gold Coast."
+    },
+    "letters": {
+      "pangram": "ELECTION",
+      "storyId": "2026-10-26-1",
+      "teaser": "Today's letters come from the story about the vote in Brazil.",
+      "excerpt": "In the second round, Lula won re-election in an upset victory to a fourth non-consecutive term as president, outperforming his 2022 performance."
+    },
+    "crossword": [
+      {
+        "answer": "UPSET",
+        "clue": "What Brazil called a win by the candidate who came second in the first round",
+        "storyId": "2026-10-26-1",
+        "excerpt": "In the second round, Lula won re-election in an upset victory to a fourth non-consecutive term as president, outperforming his 2022 performance."
+      },
+      {
+        "answer": "COAST",
+        "clue": "Where the first Jetstar departure was headed: the Gold ___",
+        "storyId": "2026-10-26-2",
+        "excerpt": "Regularly scheduled passenger services commenced on 25 October 2026, with Jetstar flight JQ362 becoming the first domestic flight to depart the airport at 11 am to the Gold Coast."
+      },
+      {
+        "answer": "GOLF",
+        "clue": "The game Yoshida plays",
+        "storyId": "2026-10-26-3",
+        "excerpt": "In golf, Japan's Yuri Yoshida wins her first LPGA Tour title at the BMW Ladies Championship in South Jeolla Province, South Korea, finishing ahead of Australia's Minjee Lee and South Korea's Kim Sei-young."
+      },
+      {
+        "answer": "RADAR",
+        "clue": "Screen on which an approaching blip once had to be judged",
+        "storyId": "2026-10-26-4",
+        "excerpt": "\"It was developed during WWII to estimate the probability that an approaching blip on the radar screen was an enemy plane. Caleb cleverly used it to get at whether or not an extinct animal had limbs modified for swimming.\""
+      }
+    ]
+  }
+}
