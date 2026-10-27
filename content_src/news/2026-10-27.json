@@ -1,0 +1,232 @@
+{
+  "slug": "2026-10-27",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-27-1",
+      "headline": "Kyle Larson wins at Talladega for the first time",
+      "summary": "The YellaWood 500 was run at Talladega Superspeedway in Lincoln, Alabama, on 25 October. Kyle Larson won it, ahead of William Byron and Ricky Stenhouse Jr., and it was his first NASCAR Cup Series win at the circuit. An overtime finish stretched the race from 188 laps to 189.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_YellaWood_500",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-27-2",
+      "headline": "Serbia's Student List wins the early election",
+      "summary": "Serbia elected a new National Assembly on 25 October, in an early election; one had originally been due by December 2027. The Student List won 53.3% of the valid votes, with 96.9% of polling stations counted, against 39.7% for the Aleksandar Vučić – United Serbia list. Vučić conceded defeat, ending the Serbian Progressive Party's hold on power since 2012.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-27-3",
+      "headline": "Bulgaria's presidential vote goes to a second round",
+      "summary": "Bulgaria voted for a president on 25 October. The incumbent, Iliana Iotova, took 35% of the vote and the former prime minister Andrey Gyurov 32%, so the two will meet again in a runoff on 1 November. Turnout was a record low.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "2026-10-27-4",
+      "headline": "A giant fungus turns up in China's forests",
+      "summary": "Scientists surveying forests in Yunnan, in China, have found a giant fungus new to science. Its upright reproductive structures reach 50 cm in height and can weigh as much as 2.2 kg, and the species has been named Dianjunus rex. Its family appears to have originated about 65 million years ago, roughly a million years after the extinction that ended the dinosaurs.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+      "publishedAt": "2026-10-26"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Stock cars raced 189 laps at Talladega Superspeedway in Lincoln, Alabama, on 25 October, in the 34th round of the NASCAR Cup Series season. An overtime finish added the last of those laps.",
+          "prompt": "Who won the race?",
+          "options": [
+            "William Byron",
+            "Kyle Larson",
+            "Denny Hamlin",
+            "Ricky Stenhouse Jr."
+          ],
+          "level": "easy",
+          "storyId": "2026-10-27-1"
+        },
+        {
+          "lead": "Serbia elected a new National Assembly on 25 October, in an election held more than a year before one was due. The Serbian Progressive Party had been in power since 2012 and stood as the Aleksandar Vučić – United Serbia list.",
+          "prompt": "Which list won the election?",
+          "options": [
+            "Aleksandar Vučić – United Serbia",
+            "Factor of Stability",
+            "The Student List",
+            "Authentic Right"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-27-2"
+        },
+        {
+          "lead": "Bulgaria voted for a president on 25 October. No candidate won a majority, so the top two will meet in a runoff on 1 November, with the former prime minister Andrey Gyurov on 32% of the vote.",
+          "prompt": "Who led the first round?",
+          "options": [
+            "Andrey Gyurov",
+            "Iliana Iotova",
+            "Georgi Parvanov",
+            "Rumen Radev"
+          ],
+          "level": "easy",
+          "storyId": "2026-10-27-3"
+        },
+        {
+          "lead": "A fungus new to science has been found in the forests of Yunnan, in China. It sends up upright reproductive structures that can weigh as much as 2.2 kg, far more than those of related fungi.",
+          "prompt": "How tall can those structures grow?",
+          "options": [
+            "Up to 5 cm",
+            "Up to 15 cm",
+            "Up to 50 cm",
+            "Up to 2 m"
+          ],
+          "level": "medium",
+          "storyId": "2026-10-27-4"
+        },
+        {
+          "lead": "Bulgaria sets conditions for standing for president: a candidate must be a Bulgarian citizen holding no other nationality, and must have lived in the country for the previous five years. There is a minimum age as well.",
+          "prompt": "What is that minimum age?",
+          "options": [
+            "30 years old",
+            "35 years old",
+            "40 years old",
+            "45 years old"
+          ],
+          "level": "hard",
+          "storyId": "2026-10-27-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [1, 2, 1, 2, 2],
+      "explanations": [
+        "Kyle Larson won, ahead of William Byron and Ricky Stenhouse Jr. It was the Hendrick Motorsports driver's first NASCAR Cup Series win at the circuit.",
+        "The Student List won 53.3% of the valid votes, with 96.9% of polling stations counted, against 39.7% for Aleksandar Vučić – United Serbia. Vučić conceded defeat, ending his party's time in power since 2012.",
+        "The incumbent president, Iliana Iotova, led with 35% of the vote. She will face Andrey Gyurov in a second round on 1 November, after a first round with a record low turnout.",
+        "The structures reach 50 cm in height. The species has been named Dianjunus rex, and its family appears to have originated about 65 million years ago.",
+        "A candidate must be at least 40 years of age by election day. They must also hold no other nationality and have lived in the country for the previous five years."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "In auto racing, American driver Kyle Larson of Hendrick Motorsports wins the YellaWood 500 at the Talladega Superspeedway in Alabama, winning his first NASCAR Cup Series race at the circuit."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "The Student List wins the election with 53% of the vote, with former president Aleksandar Vučić conceding defeat."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+        "excerpt": "Incumbent Iliana Iotova wins and will face former acting prime minister Andrey Gyurov in a second round due to record low turnout and no candidate having a majority of the vote."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_YellaWood_500",
+        "excerpt": "The 2026 YellaWood 500 was a NASCAR Cup Series race held on October 25, 2026, at Talladega Superspeedway in Lincoln, Alabama."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_YellaWood_500",
+        "excerpt": "Contested over 189 laps on the 2.66 mile (4.28 km) superspeedway, extended from the original 188 laps due to a overtime finish, it was the 34th race of the 2026 NASCAR Cup Series season, and eighth race of The Chase."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_YellaWood_500",
+        "excerpt": "Kyle Larson won the race. William Byron finished 2nd, and Ricky Stenhouse Jr. finished 3rd. Ross Chastain and Cole Custer rounded out the top five, and Carson Hocevar, Todd Gilliland, Denny Hamlin, Alex Bowman, and Michael McDowell rounded out the top ten."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+        "excerpt": "Early parliamentary elections were held in Serbia on 25 October 2026 to elect members of the National Assembly. The elections were originally due by December 2027"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+        "excerpt": "The Student List won the election with a projected absolute majority of seats, defeating the Serbian Progressive Party (SNS), which had been in power since 2012."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+        "excerpt": "According to preliminary results from the Republic Electoral Commission (RIK), with 96.9% of polling stations counted, the Student List won 53.3% of the valid votes and the SNS-led \"Aleksandar Vučić – United Serbia\" list 39.7%"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+        "excerpt": "Presidential elections were held in Bulgaria on 25 October 2026. Incumbent president Iliana Iotova was eligible and ran for a full term."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+        "excerpt": "In the first round, Iotova won 35% of the vote, with former Prime Minister Andrey Gyurov winning 32%. As no candidate won a majority of the votes, a runoff election will be held on 1 November between them."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+        "excerpt": "In order to stand as a candidate, a person must be a Bulgarian citizen holding no other nationality, be at least 40 years of age by election day and have resided in the country for the previous five years."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+        "excerpt": "Scientists exploring the forests of Yunnan, China, have discovered an extraordinary giant fungus that is challenging previous assumptions about how large certain fungi can grow."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+        "excerpt": "The newly identified species, Dianjunus rex, produces upright reproductive structures that can reach 50 cm (20 inches) in height and weigh as much as 2.2 kg (4.9 pounds)."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+        "excerpt": "Their results suggest that the lineage originated approximately 65 million years ago, roughly one million years after the Cretaceous-Paleogene mass extinction. That catastrophic event eliminated the non-avian dinosaurs along with countless other animal and plant species."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "FUNGUS",
+      "storyId": "2026-10-27-4",
+      "teaser": "Today's word comes from the story about a giant find in China's forests.",
+      "excerpt": "Scientists exploring the forests of Yunnan, China, have discovered an extraordinary giant fungus that is challenging previous assumptions about how large certain fungi can grow."
+    },
+    "letters": {
+      "pangram": "OVERTIME",
+      "storyId": "2026-10-27-1",
+      "teaser": "Today's letters come from the story about the race at Talladega.",
+      "excerpt": "Contested over 189 laps on the 2.66 mile (4.28 km) superspeedway, extended from the original 188 laps due to a overtime finish, it was the 34th race of the 2026 NASCAR Cup Series season, and eighth race of The Chase."
+    },
+    "crossword": [
+      {
+        "answer": "LAPS",
+        "clue": "Circuits of the oval; the race at Talladega ran 189 of them",
+        "storyId": "2026-10-27-1",
+        "excerpt": "Contested over 189 laps on the 2.66 mile (4.28 km) superspeedway, extended from the original 188 laps due to a overtime finish, it was the 34th race of the 2026 NASCAR Cup Series season, and eighth race of The Chase."
+      },
+      {
+        "answer": "SEATS",
+        "clue": "What a winning list takes a majority of in Serbia's National Assembly",
+        "storyId": "2026-10-27-2",
+        "excerpt": "The Student List won the election with a projected absolute majority of seats, defeating the Serbian Progressive Party (SNS), which had been in power since 2012."
+      },
+      {
+        "answer": "ROUND",
+        "clue": "Bulgaria needs a second one of these on 1 November",
+        "storyId": "2026-10-27-3",
+        "excerpt": "In the first round, Iotova won 35% of the vote, with former Prime Minister Andrey Gyurov winning 32%. As no candidate won a majority of the votes, a runoff election will be held on 1 November between them."
+      },
+      {
+        "answer": "GIANT",
+        "clue": "What the new Yunnan fungus is, among its relatives",
+        "storyId": "2026-10-27-4",
+        "excerpt": "Scientists exploring the forests of Yunnan, China, have discovered an extraordinary giant fungus that is challenging previous assumptions about how large certain fungi can grow."
+      }
+    ]
+  }
+}
