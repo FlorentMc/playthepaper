@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-28-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about a tiny Australian hunter and its sleep."
+  },
+  "reveal": {
+    "answer": "SPIDER",
+    "storyId": "2026-10-28-3",
+    "excerpt": "The Australian jumping spider Portia fimbriata is only about the size of a one-euro coin when fully grown, but its hunting abilities make it particularly interesting to scientists."
+  },
+  "storyId": "2026-10-28-3"
+}

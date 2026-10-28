@@ -1,0 +1,169 @@
+{
+  "slug": "2026-10-28",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-10-28-1",
+      "headline": "Harry Kane wins the Ballon d'Or",
+      "summary": "Football's Ballon d'Or was handed out at the London Palladium on 26 October, the first time the ceremony has been organised outside France or Switzerland. The Bayern Munich forward Harry Kane won the men's award for the first time, and was the first English player to take it since Michael Owen in 2001. Alexia Putellas won the women's award for the third time in her career, equalling the record of Aitana Bonmatí.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "2026-10-28-2",
+      "headline": "Dictionary.com picks maxxing as its word of the year",
+      "summary": "Dictionary.com has named maxxing its word of the year for 2026, after a surge in its use across social media. The suffix -maxxing is internet slang for maximising a particular quality or activity. The site makes its choice from search trends across the year and the news events that drive them.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "2026-10-28-3",
+      "headline": "Spiders sleep in stages, one of them dream-like",
+      "summary": "Researchers at the University of Bonn have found that spiders sleep in distinct stages, including one that resembles the REM sleep of people. They studied the Australian jumping spider Portia fimbriata, which hunts other spiders rather than insects. A fully grown adult is only about the size of a one-euro coin.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+      "publishedAt": "2026-10-27"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Football's biggest individual prize, the Ballon d'Or, was handed out at the London Palladium on 26 October. It was the first time the ceremony has been organised outside France or Switzerland.",
+          "prompt": "Who won the men's award?",
+          "options": ["Lamine Yamal", "Harry Kane", "Kylian Mbappé", "Vinícius Júnior"],
+          "level": "easy",
+          "storyId": "2026-10-28-1"
+        },
+        {
+          "lead": "The women's Ballon d'Or Féminin was given out on the same evening in London. The winner had just taken the quadruple with FC Barcelona Femení, and was collecting the trophy for the third time in her career.",
+          "prompt": "Who won the women's award?",
+          "options": ["Aitana Bonmatí", "Sam Kerr", "Alexia Putellas", "Ada Hegerberg"],
+          "level": "easy",
+          "storyId": "2026-10-28-1"
+        },
+        {
+          "lead": "Dictionary.com has announced its word of the year for 2026, a choice it draws from search trends on the site and the news events that drive them. This year's pick is a suffix whose use surged across social media.",
+          "prompt": "Which word did it choose?",
+          "options": ["rizz", "goblin mode", "brain rot", "maxxing"],
+          "level": "easy",
+          "storyId": "2026-10-28-2"
+        },
+        {
+          "lead": "Researchers at the University of Bonn studied the Australian jumping spider Portia fimbriata, a hunter known for unusually crafty tactics. Most spiders of its kind go after insects.",
+          "prompt": "What does the genus Portia specialise in hunting?",
+          "options": ["Ants", "Beetles", "Other spiders", "Moths"],
+          "level": "medium",
+          "storyId": "2026-10-28-3"
+        },
+        {
+          "lead": "The Bonn team's subject, Portia fimbriata, is a very small animal, which is part of what makes its hunting skills so striking. The researchers describe a fully grown adult by comparing it to a familiar everyday object.",
+          "prompt": "What is a fully grown Portia fimbriata about the size of?",
+          "options": ["A grain of rice", "A one-euro coin", "A postage stamp", "A matchbox"],
+          "level": "hard",
+          "storyId": "2026-10-28-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [1, 2, 3, 2, 1],
+      "explanations": [
+        "Harry Kane won the Ballon d'Or for the first time. He was also the first English player to take the award since Michael Owen in 2001.",
+        "Alexia Putellas won the Ballon d'Or Féminin for the third time in her career. That equalled the record of Aitana Bonmatí.",
+        "Dictionary.com chose maxxing, after a surge in its use across social media. The suffix is internet slang for maximising a particular quality or activity.",
+        "Members of the genus Portia specialise in hunting other spiders. Most spiders capture insects instead.",
+        "A fully grown Portia fimbriata is only about the size of a one-euro coin. Its hunting abilities are what make it so interesting to scientists."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+        "excerpt": "Bayern Munich forward Harry Kane won the Ballon d'Or for the first time, and was the first English player to win the award since Michael Owen in 2001."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+        "excerpt": "In the women's category, Spanish midfielder Alexia Putellas won the Ballon d'Or Féminin for the third time in her career after winning the quadruple with FC Barcelona Femení, equalling the record of Aitana Bonmatí."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+        "excerpt": "The ceremony took place on 26 October 2026 at the London Palladium in London. This also marked the first time the ceremony was organised outside France or Switzerland."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+        "excerpt": "Dictionary.com says maxxing has been named its word of the year for 2026 following a surge in its use across social media."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/-maxxing",
+        "excerpt": "-maxxing is an Internet slang suffix meaning to optimize or maximize a particular quality or activity."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Word_of_the_year",
+        "excerpt": "The selection is based on search trends on the site throughout the year and the news events that drive them."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+        "excerpt": "Scientists at the University of Bonn have discovered that spiders experience distinct stages of sleep, including a REM-like state that shares surprising similarities with human sleep."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+        "excerpt": "The Australian jumping spider Portia fimbriata is only about the size of a one-euro coin when fully grown, but its hunting abilities make it particularly interesting to scientists."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
+        "excerpt": "Unlike many spiders that primarily capture insects, members of the genus Portia specialize in hunting other spiders."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SPIDER",
+      "storyId": "2026-10-28-3",
+      "teaser": "Today's word comes from the story about a tiny Australian hunter and its sleep.",
+      "excerpt": "The Australian jumping spider Portia fimbriata is only about the size of a one-euro coin when fully grown, but its hunting abilities make it particularly interesting to scientists."
+    },
+    "letters": {
+      "pangram": "ENGLISH",
+      "storyId": "2026-10-28-1",
+      "teaser": "Today's letters come from the story about football's biggest individual prize.",
+      "excerpt": "Bayern Munich forward Harry Kane won the Ballon d'Or for the first time, and was the first English player to win the award since Michael Owen in 2001."
+    },
+    "crossword": [
+      {
+        "answer": "AWARD",
+        "clue": "Prize handed out at the London Palladium on 26 October",
+        "storyId": "2026-10-28-1",
+        "excerpt": "Bayern Munich forward Harry Kane won the Ballon d'Or for the first time, and was the first English player to win the award since Michael Owen in 2001."
+      },
+      {
+        "answer": "SLANG",
+        "clue": "Informal language, the kind Dictionary.com has just honoured",
+        "storyId": "2026-10-28-2",
+        "excerpt": "-maxxing is an Internet slang suffix meaning to optimize or maximize a particular quality or activity."
+      },
+      {
+        "answer": "SLEEP",
+        "clue": "What the Bonn team found spiders do in distinct stages",
+        "storyId": "2026-10-28-3",
+        "excerpt": "Scientists at the University of Bonn have discovered that spiders experience distinct stages of sleep, including a REM-like state that shares surprising similarities with human sleep."
+      },
+      {
+        "answer": "COIN",
+        "clue": "Everyday object a jumping spider is said to match in size",
+        "storyId": "2026-10-28-3",
+        "excerpt": "The Australian jumping spider Portia fimbriata is only about the size of a one-euro coin when fully grown, but its hunting abilities make it particularly interesting to scientists."
+      }
+    ]
+  }
+}

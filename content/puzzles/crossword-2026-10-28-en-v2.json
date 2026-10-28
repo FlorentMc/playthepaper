@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-28-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Request"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Sorrow"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Informal language, the kind Dictionary.com has just honoured",
+          "storyId": "2026-10-28-2"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Below ___: not up to scratch"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Total up"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Prize handed out at the London Palladium on 26 October",
+          "storyId": "2026-10-28-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Male child"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Beer barrel"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Resort with hot springs"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Young man"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##ASK",
+      "##WOE",
+      "SLANG",
+      "PAR##",
+      "ADD##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-28-1",
+        "excerpt": "Bayern Munich forward Harry Kane won the Ballon d'Or for the first time, and was the first English player to win the award since Michael Owen in 2001."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-28-2",
+        "excerpt": "-maxxing is an Internet slang suffix meaning to optimize or maximize a particular quality or activity."
+      }
+    ]
+  },
+  "storyId": "2026-10-28-1"
+}
