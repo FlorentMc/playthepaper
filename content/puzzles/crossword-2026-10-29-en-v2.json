@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-29-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "To and ___"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Pleased"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Roofing stone"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "House and family"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Female sheep"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Tongue of fire"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "What the Bank of Canada lifted by 25 basis points",
+          "storyId": "2026-10-29-3"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Poem of praise"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "What fire salamanders do under ultraviolet light",
+          "storyId": "2026-10-29-4"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "That girl"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FRO",
+      "#GLAD",
+      "SLATE",
+      "HOME#",
+      "EWE##"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "2026-10-29-3",
+        "excerpt": "The Bank of Canada raises its policy interest rate by 25 basis points to 2.5%, its first increase since July 2023, citing persistent inflation driven partly by higher oil and gasoline prices"
+      },
+      {
+        "label": "4 Down",
+        "storyId": "2026-10-29-4",
+        "excerpt": "New research has revealed that fire salamanders possess an unexpected ability to fluoresce under ultraviolet light. The glow is most pronounced on the yellow underside of their bodies and along their sides."
+      }
+    ]
+  },
+  "storyId": "2026-10-29-3"
+}

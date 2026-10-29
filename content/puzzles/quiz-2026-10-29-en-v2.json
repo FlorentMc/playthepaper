@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-10-29-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The 77th Japan Series, a best-of-seven final between the champions of Japan's Central and Pacific Leagues, was over in four games. Neither side had lost a match on the way to it.",
+        "prompt": "Which team swept the series to win a 13th title?",
+        "options": [
+          "Hanshin Tigers",
+          "Yokohama DeNA BayStars",
+          "Fukuoka SoftBank Hawks",
+          "Yomiuri Giants"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-29-1"
+      },
+      {
+        "lead": "A company in India has completed what is described as the country's largest-ever initial public offering, ahead of its stock-market debut in Mumbai. Bids of about $77 billion came in, making it India's most-subscribed IPO.",
+        "prompt": "How much did the offering raise?",
+        "options": [
+          "US$320 million",
+          "US$1.6 billion",
+          "US$3.2 billion",
+          "US$32 billion"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-29-2"
+      },
+      {
+        "lead": "Canada's central bank has moved its policy interest rate, its first increase since July 2023. The rise was 25 basis points, and the bank pointed to inflation that has stayed stubborn.",
+        "prompt": "Where does the policy rate now stand?",
+        "options": [
+          "0.5%",
+          "1.5%",
+          "2.5%",
+          "4.5%"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-29-3"
+      },
+      {
+        "lead": "Researchers have found that fire salamanders fluoresce when ultraviolet light falls on them. Compounds in the skin absorb the ultraviolet, which people cannot see, and give that energy back out as visible light.",
+        "prompt": "Which two colours does that visible light show?",
+        "options": [
+          "Green and cyan",
+          "Red and orange",
+          "Blue and violet",
+          "Pink and gold"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-29-4"
+      },
+      {
+        "lead": "The team traced the salamanders' fluorescence mainly to glands in the skin and the substances those glands release. They also looked at how those secretions behaved once they had left the animal.",
+        "prompt": "How long can the secretions stay fluorescent?",
+        "options": [
+          "More than 10 minutes",
+          "More than 2 hours",
+          "More than 24 hours",
+          "More than a week"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-29-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    "explanations": [
+      "The Fukuoka SoftBank Hawks swept the Yokohama DeNA BayStars in four games. It was the club's 13th Japan Series championship.",
+      "Jio Platforms raised US$3.2 billion. The offering drew about $77 billion in bids and was fully subscribed within 100 minutes of opening.",
+      "The policy rate now stands at 2.5%. The Bank of Canada cited persistent inflation, driven partly by higher oil and gasoline prices.",
+      "The salamanders glow in vivid green and cyan. The effect is strongest on the yellow underside of the body and along the sides.",
+      "The secretions can remain fluorescent for more than 24 hours after leaving the salamander's body. The researchers traced the glow mainly to glands in the animals' skin."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Japan_Series",
+      "excerpt": "The 77th edition of the Japan Series, it was a best-of-seven playoff series played between the Central League (CL) Climax Series champion Yokohama DeNA BayStars and the Pacific League (PL) Climax Series champion Fukuoka SoftBank Hawks."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Japan_Series",
+      "excerpt": "The Hawks swept the BayStars in 4 games to take home their 13th Japan Series championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Japan_Series",
+      "excerpt": "Neither SoftBank nor DeNA suffered a loss in their roads to the Japan Series this season."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "excerpt": "Jio Platforms raises US$3.2 billion in India's largest-ever initial public offering (IPO), attracting about $77 billion in bids and becoming the country's most-subscribed IPO before its stock-market debut in Mumbai."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+      "excerpt": "The Bank of Canada raises its policy interest rate by 25 basis points to 2.5%, its first increase since July 2023, citing persistent inflation driven partly by higher oil and gasoline prices"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jio_Platforms",
+      "excerpt": "The issue was fully subscribed within 100 minutes of opening and closed the first day at 3.01 times subscription, led by institutional demand."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
+      "excerpt": "New research has revealed that fire salamanders possess an unexpected ability to fluoresce under ultraviolet light. The glow is most pronounced on the yellow underside of their bodies and along their sides."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
+      "excerpt": "The phenomenon occurs when compounds in the salamander's skin absorb ultraviolet light, which humans cannot see, and reemit that energy as visible light. This process produces vivid green and cyan colors."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
+      "excerpt": "Researchers traced the fluorescence primarily to glands in the animals' skin and the substances those glands release. Remarkably, these secretions can remain fluorescent for more than 24 hours after leaving the salamander's body."
+    }
+  ]
+}

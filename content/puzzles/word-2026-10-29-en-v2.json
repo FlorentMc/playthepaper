@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-29-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-29",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "Y",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about salamanders that glow in the dark."
+  },
+  "reveal": {
+    "answer": "YELLOW",
+    "storyId": "2026-10-29-4",
+    "excerpt": "New research has revealed that fire salamanders possess an unexpected ability to fluoresce under ultraviolet light. The glow is most pronounced on the yellow underside of their bodies and along their sides."
+  },
+  "storyId": "2026-10-29-4"
+}
