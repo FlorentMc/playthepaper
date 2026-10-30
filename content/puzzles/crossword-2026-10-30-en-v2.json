@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-10-30-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-10-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Gasping cry"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Dried grass for horses"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "What Canada's government took in an AI company",
+          "storyId": "2026-10-30-3"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Be wrong"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Yes, to a sailor"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "DoorDash is offering $65 for each one of these",
+          "storyId": "2026-10-30-2"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Wood for sturdy furniture"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Farewell"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Salt water expanse"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Have a go"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##SOB",
+      "##HAY",
+      "STAKE",
+      "ERR##",
+      "AYE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-10-30-2",
+        "excerpt": "In October 2026, DoorDash announced plans to acquire Instacart in a $17 billion deal, offering $65 per share. The deal would expand DoorDash's grocery delivery services and give Instacart customers access to more than 50,000 additional stores."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-10-30-3",
+        "excerpt": "Canada's federal government invests up to C$1.6 billion (US$1.1 billion) in Toronto-based artificial intelligence company Cohere, taking an equity stake as part of a C$7 billion (US$5 billion) funding round intended to expand domestic computing infrastructure and AI development."
+      }
+    ]
+  },
+  "storyId": "2026-10-30-2"
+}

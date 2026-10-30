@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-30-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about an elephant tooth found in northern Israel."
+  },
+  "reveal": {
+    "answer": "FOSSIL",
+    "storyId": "2026-10-30-4",
+    "excerpt": "A single ancient elephant tooth is offering scientists a remarkable glimpse into a world that existed nearly 700,000 years ago. Found in northern Israel, the fossil has helped researchers reconstruct a surprisingly lush prehistoric landscape."
+  },
+  "storyId": "2026-10-30-4"
+}

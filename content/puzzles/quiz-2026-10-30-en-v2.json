@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-10-30-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-30",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Baseball's World Series was decided in five games, with the American League champion Tampa Bay Rays beaten in the final. The winners were taking the trophy for the first time.",
+        "prompt": "Which team won this year's World Series?",
+        "options": [
+          "Cleveland Guardians",
+          "Los Angeles Dodgers",
+          "Milwaukee Brewers",
+          "New York Yankees"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-30-1"
+      },
+      {
+        "lead": "The delivery company DoorDash has announced plans to acquire the grocery delivery company Instacart. The deal would give Instacart customers access to more than 50,000 additional stores.",
+        "prompt": "How much is DoorDash paying for Instacart?",
+        "options": [
+          "$1.7 billion",
+          "$17 billion",
+          "$70 billion",
+          "$170 billion"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-30-2"
+      },
+      {
+        "lead": "Canada's federal government is investing up to C$1.6 billion in the artificial intelligence company Cohere, taking an equity stake. The money is part of a C$7 billion funding round intended to expand domestic computing infrastructure.",
+        "prompt": "Which city is Cohere based in?",
+        "options": [
+          "Montreal",
+          "Ottawa",
+          "Toronto",
+          "Vancouver"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-30-3"
+      },
+      {
+        "lead": "A single ancient elephant tooth found in northern Israel has let researchers reconstruct a surprisingly lush landscape of nearly 700,000 years ago. The fossil belonged to a species whose scientific name is Palaeoloxodon antiquus.",
+        "prompt": "What is that species commonly called?",
+        "options": [
+          "Straight-tusked elephant",
+          "Woolly mammoth",
+          "African forest elephant",
+          "Asian elephant"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-30-4"
+      },
+      {
+        "lead": "The elephant remains were unearthed alongside handaxes and cleavers made from basalt, a volcanic rock. Those implements belong to one of the oldest and most widespread stone tool technologies in human history.",
+        "prompt": "Which stone tool tradition do those handaxes and cleavers belong to?",
+        "options": [
+          "Acheulian",
+          "Clactonian",
+          "Mousterian",
+          "Oldowan"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-30-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "explanations": [
+      "The Milwaukee Brewers defeated the Tampa Bay Rays in five games. They closed the series in Game 5, winning 4–1 to clinch their first title.",
+      "The deal is worth $17 billion, at $65 per share. The companies expect it to be finalised in late 2027 or early 2028.",
+      "Cohere is based in Toronto. Canada's federal government is investing up to C$1.6 billion, about US$1.1 billion, for an equity stake.",
+      "Palaeoloxodon antiquus is commonly known as the straight-tusked elephant. Its tooth was found in northern Israel, where the landscape nearly 700,000 years ago was surprisingly lush.",
+      "They belong to the Acheulian tradition, one of the oldest and most widespread stone tool technologies in human history. The handaxes and cleavers were made from basalt, a volcanic rock."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Series",
+      "excerpt": "The 122nd edition of the World Series, the best-of-seven playoff series was played from October 23 to 28 by the American League (AL) champion Tampa Bay Rays and the National League (NL) champion Milwaukee Brewers, who defeated the Rays in five games to win their first championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Series",
+      "excerpt": "Milwaukee closed the series in Game 5, maintaining another early lead to win 4–1 and clinch their first title."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_World_Series",
+      "excerpt": "Brewers catcher William Contreras was named the World Series Most Valuable Player (MVP) after batting .381 and going 10-for-13 on Automated Ball-Strike System (ABS) challenges in the series."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DoorDash",
+      "excerpt": "In October 2026, DoorDash announced plans to acquire Instacart in a $17 billion deal, offering $65 per share. The deal would expand DoorDash's grocery delivery services and give Instacart customers access to more than 50,000 additional stores."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DoorDash",
+      "excerpt": "The companies expect the deal to be finalized in late 2027 or early 2028."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+      "excerpt": "Canada's federal government invests up to C$1.6 billion (US$1.1 billion) in Toronto-based artificial intelligence company Cohere, taking an equity stake as part of a C$7 billion (US$5 billion) funding round intended to expand domestic computing infrastructure and AI development."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
+      "excerpt": "A single ancient elephant tooth is offering scientists a remarkable glimpse into a world that existed nearly 700,000 years ago. Found in northern Israel, the fossil has helped researchers reconstruct a surprisingly lush prehistoric landscape."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
+      "excerpt": "The fossils belonged to Palaeoloxodon antiquus, commonly known as the straight-tusked elephant."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
+      "excerpt": "Elephant remains were unearthed alongside handaxes and cleavers made from basalt, a volcanic rock. These implements belong to the Acheulian tradition, one of the oldest and most widespread stone tool technologies in human history."
+    }
+  ]
+}
