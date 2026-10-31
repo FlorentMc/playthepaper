@@ -1,0 +1,126 @@
+{
+  "id": "quiz-2026-10-31-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-10-31",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Breeders' Cup World Championships opened at Keeneland Race Course in Lexington, Kentucky. One of the first day's races was the Juvenile Fillies Turf.",
+        "prompt": "Which horse won the Juvenile Fillies Turf?",
+        "options": [
+          "Emphatic",
+          "Haffner",
+          "Hughes",
+          "Sun Goddess"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-31-1"
+      },
+      {
+        "lead": "The Breeders' Cup World Championships is in its 43rd edition, with 14 Grade I races run on 30 and 31 October. The meeting is being held in Lexington, Kentucky.",
+        "prompt": "Which racecourse is hosting this year's Breeders' Cup?",
+        "options": [
+          "Churchill Downs",
+          "Del Mar",
+          "Keeneland",
+          "Santa Anita Park"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-31-1"
+      },
+      {
+        "lead": "Pope Leo XIV, known before his election as Cardinal Prevost, has long been a registered voter and kept voting in state and federal elections as a bishop and as a cardinal. This autumn he voted in midterm elections, the first pontiff to vote in secular elections after taking office.",
+        "prompt": "Which country's midterm elections did he vote in?",
+        "options": [
+          "Argentina",
+          "Italy",
+          "Peru",
+          "United States"
+        ],
+        "level": "easy",
+        "storyId": "2026-10-31-2"
+      },
+      {
+        "lead": "Pope Leo XIV kept the voter registration he had held long before his election. It is held in Will County.",
+        "prompt": "Which state is Will County in?",
+        "options": [
+          "Illinois",
+          "Louisiana",
+          "New York",
+          "Ohio"
+        ],
+        "level": "medium",
+        "storyId": "2026-10-31-2"
+      },
+      {
+        "lead": "Researchers led by University College London tracked how crocodiles and their ancient relatives responded to 250 million years of changing climate. They gathered records from over 400 living and extinct species.",
+        "prompt": "How many fossils did the study analyse?",
+        "options": [
+          "More than 700",
+          "More than 7,000",
+          "More than 70,000",
+          "More than 700,000"
+        ],
+        "level": "hard",
+        "storyId": "2026-10-31-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "explanations": [
+      "Sun Goddess won the Juvenile Fillies Turf at Keeneland. Emphatic took the Juvenile Fillies on the same day.",
+      "The meeting is at Keeneland Race Course in Lexington, Kentucky. It is the 43rd edition of the Breeders' Cup, and all 14 races are Grade I.",
+      "He voted in the 2026 United States midterm elections. That makes him the first pontiff to vote in secular elections after taking office.",
+      "Will County is in Illinois, where Pope Leo XIV is a registered voter. He continued to vote in both state and federal elections as a bishop and as a cardinal.",
+      "The study analysed more than 7,000 fossils, along with records from over 400 living and extinct species. It was published in Science Advances by a team led by University College London."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Breeders%27_Cup",
+      "excerpt": "The 2026 Breeders' Cup World Championships is the 43rd edition of the premier event of the North American Thoroughbred horse racing year. The 14 races, all of which are Grade I ranked, take place on October 30 and 31 at Keeneland Race Course in Lexington, Kentucky."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
+      "excerpt": "In thoroughbred horse racing, race horse Sun Goddess dominates the Juvenile Fillies Turf at the Keeneland racetrack in Lexington, Kentucky, United States during the Breeders' Cup. Additionally, Emphatic wins the Juvenile Fillies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pope_Leo_XIV",
+      "excerpt": "As pope, he voted in the 2026 United States midterm elections, making him the first pontiff to vote in secular elections after ascension to the papacy."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pope_Leo_XIV",
+      "excerpt": "Throughout his time as a bishop and as a cardinal, Prevost continued to vote in both state and federal elections in the United States, being a registered voter in Will County, Illinois."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "excerpt": "Scientists led by UCL (University College London) found that crocodiles and their ancient relatives spent much of their 250 million years of evolutionary history following warm climates rather than adapting to dramatically different temperatures."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "excerpt": "Published in Science Advances, the study analyzed more than 7,000 fossils and records from over 400 living and extinct species."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+      "excerpt": "The results suggest that tropical and subtropical regions remained suitable for crocodile relatives after the asteroid struck, even as the environments available to many dinosaurs deteriorated."
+    }
+  ]
+}

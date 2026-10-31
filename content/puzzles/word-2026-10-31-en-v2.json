@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-10-31-en-v2",
+  "game": "word",
+  "editionDate": "2026-10-31",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about the Breeders' Cup at Keeneland."
+  },
+  "reveal": {
+    "answer": "COURSE",
+    "storyId": "2026-10-31-1",
+    "excerpt": "The 2026 Breeders' Cup World Championships is the 43rd edition of the premier event of the North American Thoroughbred horse racing year. The 14 races, all of which are Grade I ranked, take place on October 30 and 31 at Keeneland Race Course in Lexington, Kentucky."
+  },
+  "storyId": "2026-10-31-1"
+}
