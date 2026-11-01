@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-01-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-01",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about the Games that opened in Dakar."
+  },
+  "reveal": {
+    "answer": "SUMMER",
+    "storyId": "2026-11-01-1",
+    "excerpt": "The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa."
+  },
+  "storyId": "2026-11-01-1"
+}

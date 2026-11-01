@@ -1,0 +1,46 @@
+{
+  "id": "letters-2026-11-01-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-01",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "E",
+    "outer": "ACGHNX",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about the record cryptocurrency theft."
+  },
+  "reveal": {
+    "answers": [
+      "ACHE",
+      "ACNE",
+      "ANNEX",
+      "CACHE",
+      "CAGE",
+      "CANE",
+      "CHANCE",
+      "CHANGE",
+      "EACH",
+      "ENGAGE",
+      "ENHANCE",
+      "EXCHANGE",
+      "EXEC",
+      "GAGE",
+      "GENE",
+      "GHEE",
+      "HENCE",
+      "HENNA",
+      "NANCE",
+      "NENE"
+    ],
+    "pangrams": [
+      "EXCHANGE"
+    ],
+    "maxScore": 75,
+    "storyId": "2026-11-01-2",
+    "excerpt": "On 29 October 2026, US$6.3 billion worth of digital assets were stolen from Binance, a cryptocurrency exchange"
+  },
+  "storyId": "2026-11-01-2"
+}

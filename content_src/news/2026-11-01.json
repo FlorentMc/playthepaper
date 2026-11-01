@@ -1,0 +1,169 @@
+{
+  "slug": "2026-11-01",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-01-1",
+      "headline": "The Youth Olympic Games open in Dakar, a first for Africa",
+      "summary": "The Summer Youth Olympic Games opened in Dakar, Senegal, on 31 October. They are the first IOC event to be held in Africa, and they run for 14 days, to 13 November. The programme has 25 sports.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "2026-11-01-2",
+      "headline": "Binance confirms a record $6.3 billion cryptocurrency theft",
+      "summary": "Digital assets worth US$6.3 billion were stolen from the cryptocurrency exchange Binance on 29 October. It is the largest cryptocurrency heist so far, ahead of the $1.5 billion Bybit hack in 2025. Binance halted all trades at first and says it will cover all losses, and about $3 billion of the stolen stablecoins have been frozen.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Binance_hack",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "2026-11-01-3",
+      "headline": "An early defensive wall emerges at Oued Beht in Morocco",
+      "summary": "Excavations at Oued Beht, in the hills of north-west Morocco, have dated a ditch, rampart and wall built across a ridge above a river. The structure is about 4,000 to 3,500 years old. The team says it is the oldest large construction of a likely defensive kind yet confirmed in north Africa beyond the Nile Valley.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm",
+      "publishedAt": "2026-10-31"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The Summer Youth Olympic Games opened on 31 October and run for 14 days. They are the first IOC event to be held in Africa.",
+          "prompt": "In which city did they open?",
+          "options": ["Abidjan", "Accra", "Dakar", "Nairobi"],
+          "level": "easy",
+          "storyId": "2026-11-01-1"
+        },
+        {
+          "lead": "The Games in Dakar run from 31 October to 13 November, with 153 events on the programme.",
+          "prompt": "How many sports do those events cover?",
+          "options": ["15", "25", "35", "45"],
+          "level": "easy",
+          "storyId": "2026-11-01-1"
+        },
+        {
+          "lead": "Digital assets were stolen from the cryptocurrency exchange Binance on 29 October. It is the largest cryptocurrency heist so far, ahead of the $1.5 billion Bybit hack in 2025.",
+          "prompt": "How much was taken?",
+          "options": ["US$63 million", "US$630 million", "US$6.3 billion", "US$63 billion"],
+          "level": "easy",
+          "storyId": "2026-11-01-2"
+        },
+        {
+          "lead": "Archaeologists have dated a ditch, rampart and wall built across a ridge at Oued Beht, on hills overlooking a river in north Africa.",
+          "prompt": "In which country is the site?",
+          "options": ["Algeria", "Libya", "Morocco", "Tunisia"],
+          "level": "medium",
+          "storyId": "2026-11-01-3"
+        },
+        {
+          "lead": "The ditch, rampart and wall at Oued Beht form the oldest large structure of a likely defensive kind yet confirmed in north Africa beyond the Nile Valley.",
+          "prompt": "Roughly how old is it?",
+          "options": ["About 1,000 to 500 years old", "About 4,000 to 3,500 years old", "About 9,000 to 8,500 years old", "About 15,000 to 14,500 years old"],
+          "level": "hard",
+          "storyId": "2026-11-01-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [2, 1, 2, 2, 1],
+      "explanations": [
+        "The Games opened in Dakar, in Senegal. They are the first IOC event to be held in Africa.",
+        "The programme covers 25 sports across 153 events. The Games run for 14 days, from 31 October to 13 November.",
+        "US$6.3 billion worth of digital assets were stolen from Binance. About $3 billion of the stolen stablecoins have since been frozen.",
+        "Oued Beht lies in the hills of north-west Morocco. The site sits on a ridge between a river and a ravine.",
+        "The structure is about 4,000 to 3,500 years old. It is the earliest known large-scale construction of a probably defensive nature in north Africa beyond the Nile Valley."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
+        "excerpt": "The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+        "excerpt": "The 2026 Summer Youth Olympics will feature 153 events in 25 sports."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Summer_Youth_Olympics",
+        "excerpt": "it is now scheduled to be held there for 14 days—from 31 October to 13 November 2026, becoming the first IOC event to be held in Africa and the first Youth Olympic Games under the IOC presidency of Kirsty Coventry"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Binance_hack",
+        "excerpt": "On 29 October 2026, US$6.3 billion worth of digital assets were stolen from Binance, a cryptocurrency exchange"
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Binance_hack",
+        "excerpt": "The exchange hack is the largest ever cryptocurrency heist, surpassing the $1.5 billion Bybit hack in 2025, with the most affected blockchains being that of Ethereum and Bitcoin."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Binance_hack",
+        "excerpt": "Binance, having initially halted all trades, has stated it will cover all losses, while approximately $3 billion of the stolen stablecoins have been frozen."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm",
+        "excerpt": "In the hills of north-west Morocco, overlooking the river that gives the site its name, research at Oued Beht is bringing to light a previously unknown chapter of the region’s past."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm",
+        "excerpt": "New excavations have clarified the existence of a multi-phase ditch, rampart and wall built across a narrow section of the Oued Beht ridge between the river and a ravine."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261030003022.htm",
+        "excerpt": "Our new study shows how we uncovered the earliest known large-scale construction of a probably defensive nature in north Africa beyond the Nile Valley. It’s about 4,000 to 3,500 years old."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SUMMER",
+      "storyId": "2026-11-01-1",
+      "teaser": "Today's word comes from the story about the Games that opened in Dakar.",
+      "excerpt": "The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa."
+    },
+    "letters": {
+      "pangram": "EXCHANGE",
+      "storyId": "2026-11-01-2",
+      "teaser": "Today's letters come from the story about the record cryptocurrency theft.",
+      "excerpt": "On 29 October 2026, US$6.3 billion worth of digital assets were stolen from Binance, a cryptocurrency exchange"
+    },
+    "crossword": [
+      {
+        "answer": "RIDGE",
+        "clue": "Long crest of high ground, the one the Oued Beht wall crosses",
+        "storyId": "2026-11-01-3",
+        "excerpt": "New excavations have clarified the existence of a multi-phase ditch, rampart and wall built across a narrow section of the Oued Beht ridge between the river and a ravine."
+      },
+      {
+        "answer": "DITCH",
+        "clue": "Dug channel found with the rampart at Oued Beht",
+        "storyId": "2026-11-01-3",
+        "excerpt": "New excavations have clarified the existence of a multi-phase ditch, rampart and wall built across a narrow section of the Oued Beht ridge between the river and a ravine."
+      },
+      {
+        "answer": "HEIST",
+        "clue": "A robbery, as the record cryptocurrency one was",
+        "storyId": "2026-11-01-2",
+        "excerpt": "The exchange hack is the largest ever cryptocurrency heist, surpassing the $1.5 billion Bybit hack in 2025, with the most affected blockchains being that of Ethereum and Bitcoin."
+      },
+      {
+        "answer": "EVENT",
+        "clue": "Something staged, as the Games in Dakar are for the IOC in Africa",
+        "storyId": "2026-11-01-1",
+        "excerpt": "The 2026 Summer Youth Olympics opens in Dakar, Senegal, marking the first IOC event in Africa."
+      }
+    ]
+  }
+}

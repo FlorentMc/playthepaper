@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-01-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-01",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#....",
+      ".....",
+      ".....",
+      ".....",
+      "....#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Songbird"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Room on a ship"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "To one side"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Window ___"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "clue": "Costing nothing"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Focused beam of light"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Tolerate"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Long crest of high ground, the one the Oued Beht wall crosses",
+          "storyId": "2026-11-01-3"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "It bends when you kneel"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Back of the lower leg"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#LARK",
+      "CABIN",
+      "ASIDE",
+      "LEDGE",
+      "FREE#"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-11-01-3",
+        "excerpt": "New excavations have clarified the existence of a multi-phase ditch, rampart and wall built across a narrow section of the Oued Beht ridge between the river and a ravine."
+      }
+    ]
+  },
+  "storyId": "2026-11-01-3"
+}
