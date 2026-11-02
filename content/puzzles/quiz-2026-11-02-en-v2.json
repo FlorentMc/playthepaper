@@ -1,0 +1,146 @@
+{
+  "id": "quiz-2026-11-02-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-02",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "At the Mexico City Grand Prix, a third-place finish was enough to settle the Formula One World Drivers' Championship.",
+        "prompt": "Which driver took the title?",
+        "options": [
+          "George Russell",
+          "Kimi Antonelli",
+          "Lewis Hamilton",
+          "Max Verstappen"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-02-1"
+      },
+      {
+        "lead": "The WNBA Finals went to a seventh game, the first time any WNBA playoff series had gone that far. The deciding game was played on 31 October.",
+        "prompt": "Which team won its first championship?",
+        "options": [
+          "Atlanta Dream",
+          "Golden State Valkyries",
+          "Las Vegas Aces",
+          "New York Liberty"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-02-2"
+      },
+      {
+        "lead": "The second event of this season's ISU Grand Prix of Figure Skating was held in Kelowna, British Columbia. Kévin Aymoz won the men's event.",
+        "prompt": "Which country does he skate for?",
+        "options": [
+          "Canada",
+          "France",
+          "Italy",
+          "Japan"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-02-3"
+      },
+      {
+        "lead": "Researchers laid young trees flat and watched their stems curve upward as they grew, lifting their tops back towards vertical.",
+        "prompt": "Which young trees did they use?",
+        "options": [
+          "Birch",
+          "Oak",
+          "Pine",
+          "Poplar"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-02-4"
+      },
+      {
+        "lead": "To study one internal sense on its own, researchers removed the directional signals that gravity and light give a plant.",
+        "prompt": "What is that sense called?",
+        "options": [
+          "Osmosis",
+          "Photosynthesis",
+          "Proprioception",
+          "Transpiration"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-02-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      1,
+      1,
+      3,
+      2
+    ],
+    "explanations": [
+      "Kimi Antonelli clinched the Formula One World Drivers' Championship by finishing third. He is the youngest driver to take the title, and the first Mercedes driver to win it since 2020.",
+      "The Golden State Valkyries beat the Atlanta Dream four games to three. It was the first WNBA Finals, and the first WNBA playoff series of any kind, to reach a seventh game.",
+      "Kévin Aymoz of France won the men's event. Mao Shimada of Japan won the women's event at the same competition.",
+      "The researchers worked with young poplar trees. Laid flat, their stems curved upward as they grew, lifting their tops back towards vertical.",
+      "The sense is called proprioception. The team removed the directional signals that gravity and light provide so that it could be studied on its own."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "excerpt": "Kimi Antonelli clinched the Formula One World Drivers' Championship after finishing third at the Mexico City Grand Prix, becoming the youngest Drivers' Champion"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+      "excerpt": "Kimi Antonelli clinched his first Formula One World Drivers' Championship, and Mercedes' first Drivers' Championship since 2020, after achieving third."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+      "excerpt": "Ahead of him, Max Verstappen (Red Bull) won the race and Lewis Hamilton (Ferrari) finished second."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_WNBA_Finals",
+      "excerpt": "The series began on October 17 and ended on October 31, when the Golden State Valkyries defeated the Atlanta Dream four games to three to claim their first championship in franchise history."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_WNBA_Finals",
+      "excerpt": "Golden State's Gabby Williams was named the WNBA Finals Most Valuable Player."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_WNBA_Finals",
+      "excerpt": "It was the first WNBA Finals and first WNBA playoff series of any kind to go to a game seven."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Skate_Canada_International",
+      "excerpt": "Kévin Aymoz of France won the men's event, Mao Shimada of Japan won the women's event, Lia Pereira and Trennt Michaud of Canada won the pairs event, and Lilah Fear and Lewis Gibson of Great Britain won the ice dance event."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Skate_Canada_International",
+      "excerpt": "it is the second event of the 2026–27 ISU Grand Prix of Figure Skating: a senior-level international invitational competition series. It will be held from 29 October to 1 November at the Prospera Place in Kelowna, British Columbia."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+      "excerpt": "The experiment began with young poplar trees positioned horizontally. As the trees grew, their stems gradually curved upward, bringing their tops back toward a vertical position."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+      "excerpt": "This response depends on a specialized type of wood called tension wood. Unlike ordinary wood, tension wood can generate pulling forces as it develops."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+      "excerpt": "To understand how this internal sense works independently, researchers needed to eliminate the directional signals provided by gravity and light. They developed an unusual experimental system designed to isolate proprioception."
+    }
+  ]
+}

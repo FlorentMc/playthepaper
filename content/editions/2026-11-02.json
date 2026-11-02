@@ -1,57 +1,68 @@
 {
   "date": "2026-11-02",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-02-en-v1",
+    "word-2026-11-02-en-v2",
     "sudoku-2026-11-02-en-easy-v1",
     "sudoku-2026-11-02-en-medium-v1",
     "sudoku-2026-11-02-en-hard-v1",
-    "letters-2026-11-02-en-v1",
-    "crossword-2026-11-02-en-v1",
-    "quiz-2026-11-02-en-v1"
+    "letters-2026-11-02-en-v2",
+    "crossword-2026-11-02-en-v2",
+    "quiz-2026-11-02-en-v2"
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-11-02-1",
+      "headline": "Kimi Antonelli clinches the Formula One drivers' title",
+      "summary": "Kimi Antonelli finished third at the Mexico City Grand Prix, and that was enough to clinch the Formula One World Drivers' Championship. He is the youngest driver to take the title, and the first Mercedes driver to win it since 2020. Max Verstappen won the race, with Lewis Hamilton second.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+      "publishedAt": "2026-11-01"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-11-02-2",
+      "headline": "Golden State win the WNBA title in a first game seven",
+      "summary": "The Golden State Valkyries beat the Atlanta Dream four games to three to win the WNBA title, the first championship in the franchise's history. The series was the first of any kind in the league to go to a seventh game. Gabby Williams was named the finals' Most Valuable Player.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_WNBA_Finals",
+      "publishedAt": "2026-10-31"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
+      "id": "2026-11-02-3",
+      "headline": "Kévin Aymoz takes the men's title at Skate Canada",
+      "summary": "Skate Canada International, the second event of this season's ISU Grand Prix of Figure Skating, was held in Kelowna, British Columbia. Kévin Aymoz of France won the men's event and Mao Shimada of Japan the women's. Lia Pereira and Trennt Michaud took the pairs title for Canada, and Lilah Fear and Lewis Gibson the ice dance for Great Britain.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Skate_Canada_International",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "id": "2026-11-02-4",
+      "headline": "Trees straighten themselves with a wood that pulls",
+      "summary": "Researchers laid young poplar trees on their side. As the trees grew, their stems curved upward and lifted their tops back towards vertical, a response that depends on a specialised wood called tension wood, which pulls as it develops. By removing the directional signals that gravity and light provide, the team isolated the internal sense behind it: proprioception.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030003006.htm",
+      "publishedAt": "2026-10-31"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-11-02-1": [
       "quiz:1",
-      "quiz:5",
       "crossword:1 Down"
     ],
-    "nature-1-falls": [
-      "quiz:2",
-      "quiz:4",
-      "letters"
+    "2026-11-02-2": [
+      "quiz:2"
     ],
-    "nature-1-galapagos": [
+    "2026-11-02-3": [
       "quiz:3",
       "word"
+    ],
+    "2026-11-02-4": [
+      "quiz:4",
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-02T02:23:03.799176Z"
 }

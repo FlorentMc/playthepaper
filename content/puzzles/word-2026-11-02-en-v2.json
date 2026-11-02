@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-02-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-02",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about the skating event in Kelowna."
+  },
+  "reveal": {
+    "answer": "FIGURE",
+    "storyId": "2026-11-02-3",
+    "excerpt": "it is the second event of the 2026–27 ISU Grand Prix of Figure Skating: a senior-level international invitational competition series. It will be held from 29 October to 1 November at the Prospera Place in Kelowna, British Columbia."
+  },
+  "storyId": "2026-11-02-3"
+}

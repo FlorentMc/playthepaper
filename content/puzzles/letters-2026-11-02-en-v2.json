@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-11-02-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-02",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "R",
+    "outer": "AGITVY",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about trees straightening themselves."
+  },
+  "reveal": {
+    "answers": [
+      "AIRY",
+      "ARIA",
+      "ARRAY",
+      "ARTY",
+      "AVATAR",
+      "GRAVITY",
+      "GRAVY",
+      "GRAY",
+      "GRIT",
+      "GRITTY",
+      "RAGA",
+      "RAGTAG",
+      "RARITY",
+      "RATTY",
+      "RAYA",
+      "TARRY",
+      "TART",
+      "TARTAR",
+      "TIARA",
+      "TRAIT",
+      "TRAY",
+      "TRIG",
+      "TRIVIA",
+      "VARY"
+    ],
+    "pangrams": [
+      "GRAVITY"
+    ],
+    "maxScore": 91,
+    "storyId": "2026-11-02-4",
+    "excerpt": "To understand how this internal sense works independently, researchers needed to eliminate the directional signals provided by gravity and light. They developed an unusual experimental system designed to isolate proprioception."
+  },
+  "storyId": "2026-11-02-4"
+}
