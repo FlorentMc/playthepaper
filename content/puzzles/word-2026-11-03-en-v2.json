@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-03-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from the story about the ape found in Egypt."
+  },
+  "reveal": {
+    "answer": "FOSSIL",
+    "storyId": "2026-11-03-4",
+    "excerpt": "The newly identified species, named Masripithecus moghraensis, lived approximately 17 to 18 million years ago during the Early Miocene. Its fossilized remains were recovered from Wadi Moghra in northern Egypt, making it the first definitive fossil ape ever discovered in North Africa."
+  },
+  "storyId": "2026-11-03-4"
+}

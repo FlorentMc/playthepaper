@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-03-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "....#",
+      ".....",
+      "#....",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Gave food to"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Finished"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Insurgent"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Impolite"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Toddler"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Intended to be given to"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Always"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Almgren's first run over the distance, and he won it",
+          "storyId": "2026-11-03-1"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Repeat"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Allow"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "FED##",
+      "OVER#",
+      "REBEL",
+      "#RUDE",
+      "##TOT"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-11-03-1",
+        "excerpt": "In his marathon debut, Andreas Almgren became the first Swede to win the race in any division, the 13th nationality to win the men's division, and 25th nationality added to all the division champions."
+      }
+    ]
+  },
+  "storyId": "2026-11-03-1"
+}

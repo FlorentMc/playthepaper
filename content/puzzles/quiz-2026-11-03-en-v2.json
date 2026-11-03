@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-11-03-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-03",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Around 60,000 runners started the 55th New York City Marathon on 1 November. A Swede won the men's division in his marathon debut.",
+        "prompt": "Who was he?",
+        "options": [
+          "Andreas Almgren",
+          "Benson Kipruto",
+          "Geoffrey Kamworor",
+          "Yemaneberhan Crippa"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-03-1"
+      },
+      {
+        "lead": "In heavy rain in Tampa on 1 November, the Tampa Bay Buccaneers won a National Football League game 16-0 without completing a single pass, the first team to manage that since 1974.",
+        "prompt": "Which team did they shut out?",
+        "options": [
+          "Atlanta Falcons",
+          "Carolina Panthers",
+          "Green Bay Packers",
+          "Pittsburgh Steelers"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-03-2"
+      },
+      {
+        "lead": "The United States Food and Drug Administration has approved the first generic version of lenacapavir, a twice-yearly injection that prevents HIV. It is expected to be sold cheaply in 120 low- and middle-income countries.",
+        "prompt": "About how much is it expected to cost a year in those countries?",
+        "options": [
+          "About US$40",
+          "About US$400",
+          "About US$4,000",
+          "About US$40,000"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-03-3"
+      },
+      {
+        "lead": "A fossil ape recovered from Wadi Moghra in northern Egypt has been named Masripithecus moghraensis. It is the first definitive fossil ape ever discovered in North Africa.",
+        "prompt": "Roughly how long ago did it live?",
+        "options": [
+          "About 1 to 2 million years ago",
+          "About 17 to 18 million years ago",
+          "About 170 to 180 million years ago",
+          "About 1.7 to 1.8 billion years ago"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-03-4"
+      },
+      {
+        "lead": "Tampa Bay won that game on the ground. Bucky Irving and Kenneth Gainwell both rushed for over 100 yards, and the team set a franchise record for rushing yards.",
+        "prompt": "How many yards did the Buccaneers put up on the ground?",
+        "options": [
+          "224",
+          "274",
+          "324",
+          "374"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-03-2"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "explanations": [
+      "Andreas Almgren won the men's division in his marathon debut. He was the first Swede to win the New York City Marathon in any division.",
+      "They beat the Atlanta Falcons 16-0 in Week 8. It was the first time a National Football League team had won a game without completing a pass since the Buffalo Bills did so in 1974.",
+      "It is expected to cost about US$40 annually in 120 low- and middle-income countries. The approval covers the first generic version of the twice-yearly injection.",
+      "It lived approximately 17 to 18 million years ago, during the Early Miocene. The remains consist only of lower jaw material, recovered from Wadi Moghra in northern Egypt.",
+      "The Buccaneers put up a franchise record 324 yards on the ground. Bucky Irving and Kenneth Gainwell both rushed for over 100 yards in the game."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_York_City_Marathon",
+      "excerpt": "The 2026 New York City Marathon was the 55th edition of the annual marathon race in New York City that took place on Sunday, November 1, 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_York_City_Marathon",
+      "excerpt": "Around 60,000 runners started the race."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_York_City_Marathon",
+      "excerpt": "In his marathon debut, Andreas Almgren became the first Swede to win the race in any division, the 13th nationality to win the men's division, and 25th nationality added to all the division champions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_1",
+      "excerpt": "Tampa Bay Buccaneers refuse to complete a pass during its 16-0 victory against the rival Atlanta Falcons in Week 8, becoming the first National Football League team to win a game without completing a pass since the Buffalo Bills did so in 1974."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Tampa_Bay_Buccaneers_season",
+      "excerpt": "Heavy rain made for sloppy, wet, and difficult conditions. Quarterback Baker Mayfield made only three pass attempts, and failed to complete a single pass."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Tampa_Bay_Buccaneers_season",
+      "excerpt": "The Buccaneers became the second team in the Super Bowl era, and first team since the 1974 Buffalo Bills to finish (and win) a game without completing a pass."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Tampa_Bay_Buccaneers_season",
+      "excerpt": "Running backs Bucky Irving and Kenneth Gainwell both rushed for over 100 yards each, as the Buccaneers put up a franchise record 324 yards on the ground."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2",
+      "excerpt": "The United States Food and Drug Administration approves the first generic version of lenacapavir, a twice-yearly HIV prevention injection expected to cost about US$40 annually in 120 low- and middle-income countries."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+      "excerpt": "The newly identified species, named Masripithecus moghraensis, lived approximately 17 to 18 million years ago during the Early Miocene. Its fossilized remains were recovered from Wadi Moghra in northern Egypt, making it the first definitive fossil ape ever discovered in North Africa."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031011638.htm",
+      "excerpt": "Although the remains consist only of lower jaw material, they contain an unusual combination of anatomical features that distinguishes the animal from other apes of similar age."
+    }
+  ]
+}
