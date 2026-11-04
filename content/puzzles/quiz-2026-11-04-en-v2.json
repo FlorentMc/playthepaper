@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-11-04-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-04",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Melbourne Cup was run at Melbourne's Flemington Racecourse on 3 November, the 166th running of the Australian race. Ethan Brown rode the winner.",
+        "prompt": "Which horse won?",
+        "options": [
+          "Juja Kibo",
+          "Point of Law",
+          "Royal Supremacy",
+          "Zahrann"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-04-1"
+      },
+      {
+        "lead": "The Miguel de Cervantes Prize is awarded each year to honour the lifetime achievement of an outstanding writer in the Spanish language. This year it went to a writer and journalist born in 1945.",
+        "prompt": "Who was awarded the prize?",
+        "options": [
+          "Álvaro Pombo",
+          "Cristina Fernández Cubas",
+          "Gonzalo Celorio",
+          "Luis Mateo Díez"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-04-2"
+      },
+      {
+        "lead": "The Reserve Bank of Australia has raised its benchmark interest rate by 0.25 percentage points, citing persistent inflation and rising energy costs. The new level is the highest since 2008.",
+        "prompt": "What is the new benchmark rate?",
+        "options": [
+          "2.85%",
+          "3.85%",
+          "4.85%",
+          "5.85%"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-04-3"
+      },
+      {
+        "lead": "The Melbourne Cup is run over a long distance at Flemington Racecourse. Point of Law came home first this year for the jockey Ethan Brown.",
+        "prompt": "How far did the horses run?",
+        "options": [
+          "1,600 metres",
+          "2,400 metres",
+          "3,200 metres",
+          "4,000 metres"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-04-1"
+      },
+      {
+        "lead": "Japan's Hayabusa2 mission returned samples of the asteroid Ryugu from space in 2020. A new study has found all five fundamental nucleobases, the molecular letters of life, in that material.",
+        "prompt": "How much asteroid material did the mission deliver in total?",
+        "options": [
+          "5.4 grams",
+          "54 grams",
+          "5.4 kilograms",
+          "54 kilograms"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-04-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      1,
+      2,
+      2,
+      0
+    ],
+    "explanations": [
+      "The winner of the 2026 Melbourne Cup was Point of Law, jockeyed by Ethan Brown. It was the 166th running of the race.",
+      "The prize went to Cristina Fernández Cubas, a Spanish writer and journalist born in 1945. She published her first collection of short stories, Mi hermana Elba, in 1980.",
+      "The Reserve Bank of Australia raised its benchmark interest rate to 4.85%, its highest level since 2008. The rise was 0.25 percentage points.",
+      "The race was run over 3,200 metres. It was held on 3 November 2026 at Melbourne's Flemington Racecourse.",
+      "Hayabusa2 delivered a total of 5.4 grams of pristine asteroid material. The samples were returned from space in 2020."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+      "excerpt": "The 2026 Melbourne Cup, known commercially as the 2026 Lexus Melbourne Cup, was the 166th running of the Melbourne Cup, an Australian thoroughbred horse race."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+      "excerpt": "The race, ran over 3,200 metres (1.988 mi), was held on 3 November 2026 at Melbourne's Flemington Racecourse."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+      "excerpt": "The winner of the 2026 Melbourne Cup was Point of Law, jockeyed by Ethan Brown."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes_Prize",
+      "excerpt": "The Miguel de Cervantes Prize (Spanish: Premio de Literatura en Lengua Castellana Miguel de Cervantes) is awarded annually to honour the lifetime achievement of an outstanding writer in the Spanish language."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes_Prize",
+      "excerpt": "The winner receives a monetary award of €125,000, which makes it one of the richest literary prizes in the world."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes_Prize",
+      "excerpt": "The prize was established in 1975 by the Ministry of Culture of Spain and first awarded the following year."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_Cubas",
+      "excerpt": "Cristina Fernández Cubas (born 1945) is a Spanish writer and journalist."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_Cubas",
+      "excerpt": "Fernández Cubas practised journalism from an early age and published her first collection of short stories, Mi hermana Elba, in 1980."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "excerpt": "Spanish author Cristina Fernández Cubas is awarded the Cervantes Prize."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "excerpt": "The Reserve Bank of Australia raises its benchmark interest rate by 0.25 percentage points to 4.85%, its highest level since 2008, citing persistent inflation and rising energy costs associated with the Iran war."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "excerpt": "A new study reveals all five fundamental nucleobases – the molecular “letters” of life – have been detected in samples from the asteroid Ryugu."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "excerpt": "The Ryugu samples were returned from space in 2020 by Japan Aerospace Exploration Agency’s (JAXA) Hayabusa2 mission."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "excerpt": "Hayabusa2 delivered a total of 5.4 grams of pristine asteroid material."
+    }
+  ]
+}

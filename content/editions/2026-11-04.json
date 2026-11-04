@@ -1,57 +1,68 @@
 {
   "date": "2026-11-04",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-04-en-v1",
+    "word-2026-11-04-en-v2",
     "sudoku-2026-11-04-en-easy-v1",
     "sudoku-2026-11-04-en-medium-v1",
     "sudoku-2026-11-04-en-hard-v1",
-    "letters-2026-11-04-en-v1",
-    "crossword-2026-11-04-en-v1",
-    "quiz-2026-11-04-en-v1"
+    "letters-2026-11-04-en-v2",
+    "crossword-2026-11-04-en-v2",
+    "quiz-2026-11-04-en-v2"
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-11-04-1",
+      "headline": "Point of Law wins the Melbourne Cup at Flemington",
+      "summary": "The 2026 Melbourne Cup was the 166th running of the race and was held on 3 November at Melbourne's Flemington Racecourse. Point of Law won it over 3,200 metres, jockeyed by Ethan Brown.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Melbourne_Cup",
+      "publishedAt": "2026-11-03"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-11-04-2",
+      "headline": "Cristina Fernández Cubas wins the Cervantes Prize",
+      "summary": "The Miguel de Cervantes Prize is awarded each year to honour the lifetime achievement of an outstanding writer in the Spanish language. It goes this year to Cristina Fernández Cubas, a Spanish writer and journalist who published her first collection of short stories in 1980. The winner receives €125,000.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes_Prize",
+      "publishedAt": "2026-11-03"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-11-04-3",
+      "headline": "Australia's central bank lifts its rate to its highest since 2008",
+      "summary": "The Reserve Bank of Australia has raised its benchmark interest rate by 0.25 percentage points to 4.85%. That is its highest level since 2008. The bank pointed to persistent inflation and rising energy costs.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_3",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "2026-11-04-4",
+      "headline": "All five molecular letters of life found on Ryugu",
+      "summary": "Samples brought back from the asteroid Ryugu contain all five fundamental nucleobases, the molecular letters of life. Japan's Hayabusa2 mission returned the samples from space in 2020. It delivered a total of 5.4 grams of pristine asteroid material.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "publishedAt": "2026-11-03"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-11-04-1": [
       "quiz:1",
-      "quiz:2",
-      "word"
-    ],
-    "technology-1-canal": [
-      "quiz:3",
+      "quiz:4",
+      "word",
       "crossword:1 Down"
     ],
-    "technology-1-chip": [
-      "quiz:4",
-      "quiz:5",
+    "2026-11-04-2": [
+      "quiz:2",
       "letters"
+    ],
+    "2026-11-04-3": [
+      "quiz:3"
+    ],
+    "2026-11-04-4": [
+      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-11-04T02:27:07.866471Z"
 }
