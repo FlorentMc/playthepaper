@@ -1,0 +1,164 @@
+{
+  "slug": "2026-11-05",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-05-1",
+      "headline": "Democrats win a majority in both houses of Congress",
+      "summary": "Americans voted on 3 November in the midterm elections, with all 435 seats in the House of Representatives and 35 of the 100 Senate seats contested. By the following day the Democratic Party had won a majority in both houses of the incoming 120th Congress. It also took numerous other offices that Republicans had held.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "2026-11-05-2",
+      "headline": "Singapore raises its maximum haze fine tenfold",
+      "summary": "Singapore's parliament has amended the Transboundary Haze Pollution Act of 2014, a law that seeks to deter firms inside or outside Singapore from activities that contribute to haze over the city state. Maximum fines rise tenfold to S$20 million, about US$15 million. The amendments also introduce arrest powers and permit trials without the defendant present.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "2026-11-05-3",
+      "headline": "NASA's Swift observatory comes down after almost 22 years",
+      "summary": "NASA's Neil Gehrels Swift Observatory re-entered Earth's atmosphere on Wednesday, almost 22 years after launch. The US Space Force confirmed that it came down over the North Sumatra region of Indonesia. Swift launched in 2004 with three telescopes to study gamma-ray bursts, the most powerful explosions in the universe, and had been designed for a two-year prime mission.",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+      "publishedAt": "2026-11-02"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The United States held its midterm elections on 3 November, with every seat in the lower chamber of Congress up for election.",
+          "prompt": "How many seats in the House of Representatives were contested?",
+          "options": ["100", "218", "435", "538"],
+          "level": "easy",
+          "storyId": "2026-11-05-1"
+        },
+        {
+          "lead": "Counting after the midterms gave one party a majority in both the House of Representatives and the Senate for the incoming 120th Congress.",
+          "prompt": "Which party won a majority of seats in both houses?",
+          "options": ["The Democratic Party", "The Green Party", "The Libertarian Party", "The Republican Party"],
+          "level": "easy",
+          "storyId": "2026-11-05-1"
+        },
+        {
+          "lead": "Singapore's parliament has amended its 2014 haze law after widespread air pollution drifted in from Indonesian wildfires. The changes also bring in arrest powers.",
+          "prompt": "What is the new maximum fine under the law?",
+          "options": ["S$2 million", "S$20 million", "S$200 million", "S$2 billion"],
+          "level": "easy",
+          "storyId": "2026-11-05-2"
+        },
+        {
+          "lead": "NASA's Neil Gehrels Swift Observatory re-entered Earth's atmosphere this week, ending a mission that studied gamma-ray bursts, the most powerful explosions in the universe.",
+          "prompt": "In which year did Swift launch?",
+          "options": ["1994", "1999", "2004", "2009"],
+          "level": "medium",
+          "storyId": "2026-11-05-3"
+        },
+        {
+          "lead": "Swift kept observing for almost 22 years, far longer than the mission NASA first planned for it.",
+          "prompt": "How long was Swift's prime mission originally designed to last?",
+          "options": ["Six months", "Two years", "Five years", "Ten years"],
+          "level": "hard",
+          "storyId": "2026-11-05-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [2, 0, 1, 2, 1],
+      "explanations": [
+        "All 435 seats in the House of Representatives were contested. The Senate put up 35 of its 100 seats on the same day.",
+        "The Democratic Party won a majority of seats in both houses of Congress. It also took numerous other offices that Republicans had held.",
+        "The maximum fine rises tenfold to S$20 million, about US$15 million. The amended law also introduces arrest powers and permits trials without the defendant present.",
+        "Swift launched in 2004 to explore the universe's most powerful explosions. It came down almost 22 years later, over the North Sumatra region of Indonesia.",
+        "Swift was originally designed for a two-year prime mission. It went on observing for almost 22 years with its three telescopes."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "excerpt": "Elections were held in the United States on November 3, 2026, during the second term of Republican president Donald Trump."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "excerpt": "All 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "excerpt": "As of November 4, the Democratic Party has won a majority of seats in both houses of Congress, and won numerous other offices currently held by Republicans."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_4",
+        "excerpt": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Transboundary_Haze_Pollution_Act_of_2014",
+        "excerpt": "The Act seeks to deter firms or entities in or outside Singapore from carrying out activities that contribute to transboundary haze affecting Singapore."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+        "excerpt": "NASA’s Neil Gehrels Swift Observatory re-entered Earth’s atmosphere Wednesday, almost 22 years after launch. At launch, Swift was a first-of-its-kind multiwavelength observatory designed to study the most powerful explosions in the cosmos using its three telescopes."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+        "excerpt": "The U.S. Space Force confirmed that the Swift spacecraft re-entered Earth’s atmosphere at 7:39 a.m. EST Wednesday over the North Sumatra region of Indonesia, at approximately 3.4 degrees north latitude and 98.6 degrees east longitude."
+      },
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+        "excerpt": "NASA’s Swift launched in 2004 to explore the universe’s most powerful explosions, called gamma-ray bursts. It was originally designed for a two-year prime mission."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "LAUNCH",
+      "storyId": "2026-11-05-3",
+      "teaser": "Today's word comes from the story about NASA's Swift observatory.",
+      "excerpt": "NASA’s Neil Gehrels Swift Observatory re-entered Earth’s atmosphere Wednesday, almost 22 years after launch."
+    },
+    "letters": {
+      "pangram": "POLLUTION",
+      "storyId": "2026-11-05-2",
+      "teaser": "Today's letters come from the story about Singapore's haze law.",
+      "excerpt": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires."
+    },
+    "crossword": [
+      {
+        "answer": "SEATS",
+        "clue": "Places in Congress, 435 of them contested in the lower chamber",
+        "storyId": "2026-11-05-1",
+        "excerpt": "All 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress."
+      },
+      {
+        "answer": "HAZE",
+        "clue": "The smoky air that drifts over Singapore from fires abroad",
+        "storyId": "2026-11-05-2",
+        "excerpt": "The Act seeks to deter firms or entities in or outside Singapore from carrying out activities that contribute to transboundary haze affecting Singapore."
+      },
+      {
+        "answer": "FINES",
+        "clue": "Money penalties, raised tenfold by Singapore's amended law",
+        "storyId": "2026-11-05-2",
+        "excerpt": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires."
+      },
+      {
+        "answer": "PRIME",
+        "clue": "The word NASA uses for a mission's first planned stretch",
+        "storyId": "2026-11-05-3",
+        "excerpt": "NASA’s Swift launched in 2004 to explore the universe’s most powerful explosions, called gamma-ray bursts. It was originally designed for a two-year prime mission."
+      }
+    ]
+  }
+}

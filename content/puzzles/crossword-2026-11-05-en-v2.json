@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-11-05-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-05",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "That girl"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Great achievement"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Public square"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Loathe"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that thing"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Places in Congress, 435 of them contested in the lower chamber",
+          "storyId": "2026-11-05-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "The smoky air that drifts over Singapore from fires abroad",
+          "storyId": "2026-11-05-2"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Greek letter"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Smooth and level"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Greek letter"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##SHE",
+      "#FEAT",
+      "PLAZA",
+      "HATE#",
+      "ITS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-11-05-1",
+        "excerpt": "All 435 seats in the U.S. House of Representatives and 35 of the 100 seats in the U.S. Senate were contested to determine the 120th United States Congress."
+      },
+      {
+        "label": "2 Down",
+        "storyId": "2026-11-05-2",
+        "excerpt": "The Act seeks to deter firms or entities in or outside Singapore from carrying out activities that contribute to transboundary haze affecting Singapore."
+      }
+    ]
+  },
+  "storyId": "2026-11-05-1"
+}

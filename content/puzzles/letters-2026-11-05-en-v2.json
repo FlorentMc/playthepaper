@@ -1,0 +1,55 @@
+{
+  "id": "letters-2026-11-05-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-05",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "U",
+    "outer": "ILNOPT",
+    "minLength": 4,
+    "teaser": "Today's letters come from the story about Singapore's haze law."
+  },
+  "reveal": {
+    "answers": [
+      "INPUT",
+      "INTUITION",
+      "LOUP",
+      "LOUT",
+      "LULL",
+      "LULU",
+      "LUPIN",
+      "NOUN",
+      "NULL",
+      "OUTPUT",
+      "PINUP",
+      "POLLUTION",
+      "POUT",
+      "PULL",
+      "PULP",
+      "PULPIT",
+      "PUNT",
+      "PUPIL",
+      "PUTT",
+      "TOUT",
+      "TUITION",
+      "TULIP",
+      "TUTTI",
+      "TUTU",
+      "UNION",
+      "UNIT",
+      "UNTIL",
+      "UNTO",
+      "UPON"
+    ],
+    "pangrams": [
+      "POLLUTION"
+    ],
+    "maxScore": 100,
+    "storyId": "2026-11-05-2",
+    "excerpt": "The Singaporean parliament amends the Transboundary Haze Pollution Act of 2014, introducing arrest powers, permitting trials without defendants present, and increasing maximum fines tenfold to S$20 million (US$15 million) following widespread air pollution from Indonesian wildfires."
+  },
+  "storyId": "2026-11-05-2"
+}
