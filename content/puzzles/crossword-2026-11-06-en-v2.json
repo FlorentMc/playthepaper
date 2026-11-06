@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-06-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-06",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#...#",
+      ".....",
+      ".....",
+      ".....",
+      "#...#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Signal to an actor"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Planet Earth"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Monastery church"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Elegance"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "clue": "Picnic pest"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Hooded snake"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Not rural"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Choose by ballot, as Grenada did on Thursday",
+          "storyId": "2026-11-06-1"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Joker"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Hair colouring"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#CUE#",
+      "WORLD",
+      "ABBEY",
+      "GRACE",
+      "#ANT#"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-11-06-1",
+        "excerpt": "Grenadians vote to elect 15 members of the House of Representatives."
+      }
+    ]
+  },
+  "storyId": "2026-11-06-1"
+}

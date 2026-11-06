@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-06-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-06",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "L",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a golf tour that has closed down."
+  },
+  "reveal": {
+    "answer": "LEAGUE",
+    "storyId": "2026-11-06-2",
+    "excerpt": "The Invitational Series became the LIV Golf League in 2023."
+  },
+  "storyId": "2026-11-06-2"
+}

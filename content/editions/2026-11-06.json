@@ -1,57 +1,58 @@
 {
   "date": "2026-11-06",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-06-en-v1",
+    "word-2026-11-06-en-v2",
     "sudoku-2026-11-06-en-easy-v1",
     "sudoku-2026-11-06-en-medium-v1",
     "sudoku-2026-11-06-en-hard-v1",
-    "letters-2026-11-06-en-v1",
-    "crossword-2026-11-06-en-v1",
-    "quiz-2026-11-06-en-v1"
+    "letters-2026-11-06-en-v2",
+    "crossword-2026-11-06-en-v2",
+    "quiz-2026-11-06-en-v2"
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-11-06-1",
+      "headline": "Grenada returns Dickon Mitchell for a second term",
+      "summary": "Grenadians voted on 5 November to fill all 15 seats in their House of Representatives. The National Democratic Congress was returned to office, giving Dickon Mitchell a second consecutive term as prime minister. The opposition New National Party leader, Emmalin Pierre, lost her own seat.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Grenadian_general_election",
+      "publishedAt": "2026-11-05"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-11-06-2",
+      "headline": "LIV Golf winds up after five seasons",
+      "summary": "LIV Golf, the breakaway men's golf tour, has ceased operations after five seasons and will liquidate its assets. Saudi Arabia's Public Investment Fund, which financed the tour from the start, withdrew its support in April, and a rescue plan from the investment firm BC Partners then fell through.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/LIV_Golf",
+      "publishedAt": "2026-11-05"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "id": "2026-11-06-3",
+      "headline": "A companion star is ploughing through Betelgeuse",
+      "summary": "Betelgeuse, the red supergiant on the shoulder of Orion, appears to have a small companion star moving through its outer atmosphere. Radio measurements gathered between 2021 and 2026 show the giant star stretching and rounding in step with where that companion, Siwarha, is expected to be. The wider atmosphere has also warmed back to normal since the Great Dimming of late 2019 and early 2020.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+      "publishedAt": "2026-11-03"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-11-06-1": [
       "quiz:1",
       "quiz:2",
-      "letters",
-      "crossword:1 Down"
+      "crossword:3 Down"
     ],
-    "discovery-1-deep": [
+    "2026-11-06-2": [
       "quiz:3",
       "quiz:4",
       "word"
     ],
-    "discovery-1-valley": [
-      "quiz:5"
+    "2026-11-06-3": [
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-06T02:24:32.417656Z"
 }

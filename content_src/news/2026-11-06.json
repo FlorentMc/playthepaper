@@ -1,0 +1,180 @@
+{
+  "slug": "2026-11-06",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-06-1",
+      "headline": "Grenada returns Dickon Mitchell for a second term",
+      "summary": "Grenadians voted on 5 November to fill all 15 seats in their House of Representatives. The National Democratic Congress was returned to office, giving Dickon Mitchell a second consecutive term as prime minister. The opposition New National Party leader, Emmalin Pierre, lost her own seat.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Grenadian_general_election",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "2026-11-06-2",
+      "headline": "LIV Golf winds up after five seasons",
+      "summary": "LIV Golf, the breakaway men's golf tour, has ceased operations after five seasons and will liquidate its assets. Saudi Arabia's Public Investment Fund, which financed the tour from the start, withdrew its support in April, and a rescue plan from the investment firm BC Partners then fell through.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LIV_Golf",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "2026-11-06-3",
+      "headline": "A companion star is ploughing through Betelgeuse",
+      "summary": "Betelgeuse, the red supergiant on the shoulder of Orion, appears to have a small companion star moving through its outer atmosphere. Radio measurements gathered between 2021 and 2026 show the giant star stretching and rounding in step with where that companion, Siwarha, is expected to be. The wider atmosphere has also warmed back to normal since the Great Dimming of late 2019 and early 2020."
+      ,
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+      "publishedAt": "2026-11-03"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Grenadians went to the polls on 5 November to choose every member of their House of Representatives. The island elects them in single-member constituencies.",
+          "prompt": "How many members of the House of Representatives were being elected?",
+          "options": ["9", "15", "31", "60"],
+          "level": "easy",
+          "storyId": "2026-11-06-1"
+        },
+        {
+          "lead": "The vote returned the incumbent prime minister, Dickon Mitchell, and kept his National Democratic Congress in government. The opposition New National Party leader lost her own seat.",
+          "prompt": "Which consecutive term as prime minister did Dickon Mitchell win?",
+          "options": ["His first", "His second", "His third", "His fourth"],
+          "level": "easy",
+          "storyId": "2026-11-06-1"
+        },
+        {
+          "lead": "The breakaway men's golf tour LIV Golf has ceased operations after five seasons. Its name was taken from a Roman numeral, which stood for the number of holes its events once played.",
+          "prompt": "Which number does the Roman numeral LIV stand for?",
+          "options": ["46", "49", "54", "56"],
+          "level": "easy",
+          "storyId": "2026-11-06-2"
+        },
+        {
+          "lead": "The British investment firm BC Partners had offered LIV Golf a cash injection to relaunch the tour for the 2027 season, on condition that most of its top players stayed. The firm pulled out in November.",
+          "prompt": "How large was the cash injection BC Partners was to provide?",
+          "options": ["$3 million", "$30 million", "$300 million", "$3 billion"],
+          "level": "medium",
+          "storyId": "2026-11-06-2"
+        },
+        {
+          "lead": "Astronomers have new evidence that a small companion star, Siwarha, passes through the outer atmosphere of the red supergiant Betelgeuse. The companion was first proposed in 2024 to explain a slow cycle in the giant star's brightness.",
+          "prompt": "Roughly how long is that brightness cycle?",
+          "options": ["210 days", "2,100 days", "21,000 days", "210,000 days"],
+          "level": "hard",
+          "storyId": "2026-11-06-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [1, 1, 2, 2, 1],
+      "explanations": [
+        "All 15 seats in the House of Representatives were up for election. They are filled by first-past-the-post voting in single-member constituencies.",
+        "Dickon Mitchell won a second consecutive term for the National Democratic Congress. Emmalin Pierre, who leads the New National Party, lost her seat in St. Andrew South East.",
+        "LIV is the Roman numeral for 54, the number of holes the tour's events used to play. The 2026 season moved to 72 holes instead.",
+        "BC Partners was to provide a $300 million cash injection for the 2027 season. Saudi Arabia's Public Investment Fund had already withdrawn its own funding in April 2026.",
+        "Betelgeuse brightens and dims approximately every 2,100 days. Siwarha is thought to orbit at only about twice the red supergiant's radius, which takes it through the star's atmosphere."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+        "excerpt": "Grenadians vote to elect 15 members of the House of Representatives. Incumbent prime minister Dickon Mitchell wins a second consecutive NDC government, with opposition NNP leader Emmalin Pierre losing her seat in St. Andrew South East."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Grenadian_general_election",
+        "excerpt": "General elections were held in Grenada on 5 November 2026. The 15 members of the House of Representatives are elected by first-past-the-post voting in single-member constituencies."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Democratic_Congress_(Grenada)",
+        "excerpt": "The National Democratic Congress (NDC) is a social democratic and centre-left political party in Grenada. The party is led by current prime minister Dickon Mitchell."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/New_National_Party_(Grenada)",
+        "excerpt": "The New National Party (NNP) is a conservative political party in Grenada. It is led by Emmalin Pierre."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LIV_Golf",
+        "excerpt": "The name \"LIV\" referred to the Roman numeral 54, the number of holes that used to be played at LIV events (this was changed to 72 in the 2026 season). The Invitational Series became the LIV Golf League in 2023."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LIV_Golf",
+        "excerpt": "The British investment firm BC Partners was slated to provide a $300 million cash injection to keep the league afloat in time for the 2027 season on the condition that most of the top players remained with the tour."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LIV_Golf",
+        "excerpt": "LIV Golf was financed by the Public Investment Fund (PIF), the sovereign wealth fund of Saudi Arabia. The PIF withdrew funding for LIV Golf in April 2026 and LIV Golf filed for bankruptcy in September 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+        "excerpt": "In golf, professional tour LIV Golf ceases operations after five seasons and liquidates its assets, following bankruptcy proceedings and the withdrawal of financial support from Saudi Arabia's Public Investment Fund and prospective investor BC Partners Credit."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+        "excerpt": "Astronomers first proposed the companion's existence in 2024 as a possible explanation for a puzzling cycle in which Betelgeuse's brightness changes approximately every 2,100 days."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+        "excerpt": "Betelgeuse is a massive red supergiant located in the constellation Orion, where it forms the famous hunter's shoulder. Its estimated orbital distance is only about twice the red supergiant's radius."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+        "excerpt": "The team analyzed observations gathered between 2021 and 2026 at seven radio frequencies ranging from 22 GHz to 485 GHz. The event, known as the Great Dimming, raised questions about what was happening inside the aging star."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "LEAGUE",
+      "storyId": "2026-11-06-2",
+      "teaser": "Today's word comes from a story about a golf tour that has closed down.",
+      "excerpt": "The Invitational Series became the LIV Golf League in 2023."
+    },
+    "letters": {
+      "pangram": "BRACELET",
+      "storyId": "2026-11-06-3",
+      "teaser": "Today's letters come from a story about a star and its close companion.",
+      "excerpt": "The giant star's name comes from the Arabic expression meaning \"the hand of al-Jawza,\" while Siwarha means \"her bracelet.\""
+    },
+    "crossword": [
+      {
+        "answer": "ELECT",
+        "clue": "Choose by ballot, as Grenada did on Thursday",
+        "storyId": "2026-11-06-1",
+        "excerpt": "Grenadians vote to elect 15 members of the House of Representatives."
+      },
+      {
+        "answer": "SEAT",
+        "clue": "What the opposition leader lost in St. Andrew South East",
+        "storyId": "2026-11-06-1",
+        "excerpt": "Incumbent prime minister Dickon Mitchell wins a second consecutive NDC government, with opposition NNP leader Emmalin Pierre losing her seat in St. Andrew South East."
+      },
+      {
+        "answer": "HOLES",
+        "clue": "Units of a golf round, 54 of them at LIV events until this year",
+        "storyId": "2026-11-06-2",
+        "excerpt": "The name \"LIV\" referred to the Roman numeral 54, the number of holes that used to be played at LIV events (this was changed to 72 in the 2026 season)."
+      },
+      {
+        "answer": "ORBIT",
+        "clue": "Path Siwarha takes around Betelgeuse, through its atmosphere",
+        "storyId": "2026-11-06-3",
+        "excerpt": "Unlike a planet or star traveling far from its host, Siwarha is believed to follow an orbit that takes it directly through Betelgeuse's extended atmosphere."
+      }
+    ]
+  }
+}
