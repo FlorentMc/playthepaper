@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-07-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-07",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "B",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a king and a prime minister's resignation."
+  },
+  "reveal": {
+    "answer": "BUDGET",
+    "storyId": "2026-11-07-2",
+    "excerpt": "King Philippe of Belgium refuses Bart De Wever's resignation as the prime minister, telling him to continue with budget negotiations."
+  },
+  "storyId": "2026-11-07-2"
+}

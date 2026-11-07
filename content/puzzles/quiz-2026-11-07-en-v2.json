@@ -1,0 +1,146 @@
+{
+  "id": "quiz-2026-11-07-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-07",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Paraguay's Senate removed President Santiago Peña from office after the collapse of Ueno Bank. Pedro Alliana was sworn in as the country's new president on 6 November.",
+        "prompt": "Which office did Pedro Alliana hold before he was sworn in?",
+        "options": [
+          "Vice president",
+          "President of the Senate",
+          "Minister of finance",
+          "Attorney general"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-07-1"
+      },
+      {
+        "lead": "Bart De Wever offered to step down as prime minister of Belgium after negotiations over the country's budget stalled. The decision then rested with King Philippe.",
+        "prompt": "What did the king do with the resignation?",
+        "options": [
+          "He refused it",
+          "He accepted it",
+          "He postponed a decision for a month",
+          "He referred it to parliament"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-07-2"
+      },
+      {
+        "lead": "A new law called the Digital Economy Act for Digital and Electronic Payments has been approved. It gives the government a say in how customers are allowed to pay.",
+        "prompt": "Which country approved the act?",
+        "options": [
+          "Argentina",
+          "Colombia",
+          "Mexico",
+          "Peru"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-07-3"
+      },
+      {
+        "lead": "Ueno Bank was licensed to operate in Paraguay in 2023 and grew quickly, acquiring Visión Banco the following year. By the middle of 2026 it served a large share of the country's adults.",
+        "prompt": "How many customers did Ueno Bank report as of June 2026?",
+        "options": [
+          "294,000",
+          "2.94 million",
+          "29.4 million",
+          "294 million"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-07-1"
+      },
+      {
+        "lead": "An international team led by Curtin University found fossilised red blood cells, and chemical evidence of blood molecules, in the bones of Aratasaurus museunacionali. The meat-eating dinosaur's remains are about 115 million years old.",
+        "prompt": "In which country was the dinosaur discovered?",
+        "options": [
+          "Argentina",
+          "Brazil",
+          "Chile",
+          "Peru"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-07-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    "explanations": [
+      "Alliana was Paraguay's vice president, and was sworn in as president on 6 November 2026. He had earlier been a national deputy and president of the Chamber of Deputies.",
+      "King Philippe refused the resignation and told Bart De Wever to continue with budget negotiations. De Wever has served as prime minister of Belgium since February 2025.",
+      "Mexico approved the Digital Economy Act for Digital and Electronic Payments. The law allows the government to designate sectors in which digital payments are the only accepted means of payment.",
+      "Ueno Bank reported 2.94 million customers as of June 2026. That was equivalent to about 63% of Paraguay's adult population.",
+      "Aratasaurus museunacionali was discovered in northeastern Brazil. The analysis found preserved heme molecules, which are components of the protein that lets red blood cells carry oxygen."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "excerpt": "Vice President Pedro Alliana is sworn in as President of Paraguay."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "excerpt": "King Philippe of Belgium refuses Bart De Wever's resignation as the prime minister, telling him to continue with budget negotiations."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "excerpt": "2026 Paraguay banking crisis is an ongoing financial crisis primarily impacting the economy of Paraguay, following the collapse of Ueno Bank which has left millions of customers unable to reach their savings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "excerpt": "Ueno Bank was first licensed to operate as a bank in 2023. In 2024, it acquired Visión Banco, which was integrated into its operational structure."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "excerpt": "as of June 2026, the company reported 2.94 million customers, equivalent to about 63% of Paraguay's adult population"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pedro_Alliana",
+      "excerpt": "Hércules Pedro Lorenzo Alliana Rodríguez (born 19 February 1974) is a Paraguayan politician who serves as the President of the Republic of Paraguay since 6 November 2026. A former National Deputy of Paraguay from 2013 to 2023, he previously served as president of the Chamber of Deputies."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bart_De_Wever",
+      "excerpt": "Bart Albert Liliane De Wever (born 21 December 1970) is a Belgian politician who has served as the Prime Minister of Belgium since February 2025."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "excerpt": "Mexico approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "excerpt": "An international team led by Curtin University found fossilized red blood cells and chemical evidence of blood molecules in the remains of Aratasaurus museunacionali, a meat-eating theropod dinosaur discovered in northeastern Brazil."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "excerpt": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "excerpt": "Chemical analysis revealed preserved heme molecules, which are components of hemoglobin, the protein that allows red blood cells to transport oxygen."
+    }
+  ]
+}

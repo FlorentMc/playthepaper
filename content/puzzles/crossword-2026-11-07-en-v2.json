@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-11-07-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-07",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Piece of legislation, like Mexico's new one on digital payments",
+          "storyId": "2026-11-07-3"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Feathery scarf"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "What chemical analysis traced inside a dinosaur's red cells",
+          "storyId": "2026-11-07-4"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Make an engine roar"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Had dinner"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Higher than"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "Pigeon's sound"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "A little bit"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Undergarment with cups"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Permit"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##ACT",
+      "##BOA",
+      "BLOOD",
+      "REV##",
+      "ATE##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Across",
+        "storyId": "2026-11-07-3",
+        "excerpt": "Mexico approves the Digital Economy Act for Digital and Electronic Payments, which allows it to designate sectors in which digital payments are the only accepted means of payment."
+      },
+      {
+        "label": "5 Across",
+        "storyId": "2026-11-07-4",
+        "excerpt": "Chemical analysis revealed preserved heme molecules, which are components of hemoglobin, the protein that allows red blood cells to transport oxygen."
+      }
+    ]
+  },
+  "storyId": "2026-11-07-3"
+}

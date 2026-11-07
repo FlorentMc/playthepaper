@@ -1,57 +1,69 @@
 {
   "date": "2026-11-07",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-07-en-v1",
+    "word-2026-11-07-en-v2",
     "sudoku-2026-11-07-en-easy-v1",
     "sudoku-2026-11-07-en-medium-v1",
     "sudoku-2026-11-07-en-hard-v1",
-    "letters-2026-11-07-en-v1",
-    "crossword-2026-11-07-en-v1",
-    "quiz-2026-11-07-en-v1"
+    "letters-2026-11-07-en-v2",
+    "crossword-2026-11-07-en-v2",
+    "quiz-2026-11-07-en-v2"
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-11-07-1",
+      "headline": "Paraguay swears in Pedro Alliana as president",
+      "summary": "Paraguay's Senate removed President Santiago Peña from office after the collapse of Ueno Bank, which left millions of customers unable to reach their savings. Vice President Pedro Alliana was sworn in as president on 6 November. Ueno had been licensed as a bank only in 2023.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Paraguay_banking_crisis",
+      "publishedAt": "2026-11-06"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
+      "id": "2026-11-07-2",
+      "headline": "Belgium's king refuses his prime minister's resignation",
+      "summary": "Bart De Wever offered to resign as prime minister of Belgium as negotiations over the country's budget stalled. King Philippe refused the resignation and told him to continue with the budget talks. De Wever has held the office since February 2025.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_6",
+      "publishedAt": "2026-11-06"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
+      "id": "2026-11-07-3",
+      "headline": "Mexico passes a law on digital payments",
+      "summary": "Mexico has approved a law called the Digital Economy Act for Digital and Electronic Payments. It allows the government to designate sectors in which digital payments are the only accepted means of payment.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_5",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "2026-11-07-4",
+      "headline": "Dinosaur blood survives in 115-million-year-old bones",
+      "summary": "An international team led by Curtin University has found fossilised red blood cells, and chemical evidence of blood molecules, in the bones of a meat-eating dinosaur called Aratasaurus museunacionali. The remains are about 115 million years old. The analysis found heme molecules, which are components of the protein that lets red blood cells carry oxygen.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "publishedAt": "2026-11-06"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
+    "2026-11-07-1": [
       "quiz:1",
-      "quiz:5",
+      "quiz:4"
+    ],
+    "2026-11-07-2": [
+      "quiz:2",
       "word"
     ],
-    "everyday-1-dominoes": [
-      "quiz:2",
+    "2026-11-07-3": [
       "quiz:3",
-      "letters"
+      "crossword:1 Across"
     ],
-    "everyday-1-greenwich": [
-      "quiz:4",
-      "crossword:1 Down"
+    "2026-11-07-4": [
+      "quiz:5",
+      "letters",
+      "crossword:5 Across"
     ]
-  }
+  },
+  "publishedAt": "2026-11-07T02:26:29.623488Z"
 }
