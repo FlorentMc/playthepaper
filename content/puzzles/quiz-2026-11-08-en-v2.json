@@ -1,0 +1,131 @@
+{
+  "id": "quiz-2026-11-08-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-08",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Tesla's chief executive, Elon Musk, has said the company will stop making its Cybertruck pickup at its Texas factory.",
+        "prompt": "When will production of the Cybertruck end?",
+        "options": [
+          "mid-2027",
+          "mid-2028",
+          "mid-2029",
+          "mid-2030"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-08-1"
+      },
+      {
+        "lead": "New Zealanders have voted, and the preliminary count left the two largest parties almost level.",
+        "prompt": "Which party won the most seats on the preliminary count?",
+        "options": [
+          "The National Party",
+          "The Labour Party",
+          "The Green Party",
+          "ACT New Zealand"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-08-2"
+      },
+      {
+        "lead": "The space the Cybertruck leaves behind at Tesla's Texas plant is not going to stand empty. Another model is to be built there in larger numbers.",
+        "prompt": "Which Tesla model will take over that factory space?",
+        "options": [
+          "Cybercab",
+          "Model S",
+          "Semi",
+          "Roadster"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-08-1"
+      },
+      {
+        "lead": "New Zealand fills its parliament under a mixed-member proportional system, with some members winning local electorates and the rest coming from closed party lists.",
+        "prompt": "How many members were elected to the House of Representatives?",
+        "options": [
+          "111",
+          "121",
+          "131",
+          "141"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-08-2"
+      },
+      {
+        "lead": "Researchers led by Aarhus University looked at what grew across Europe long before farming and found open, mixed country rather than closed forest.",
+        "prompt": "For how long did that mixture of habitats dominate Europe's landscapes?",
+        "options": [
+          "More than 200,000 years",
+          "More than 2 million years",
+          "More than 20 million years",
+          "More than 200 million years"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-08-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      2,
+      2
+    ],
+    "explanations": [
+      "Production of the Cybertruck ends in mid-2027. The announcement came on 6 November, after news publications had described the pickup as an automotive flop.",
+      "The National Party won the most seats, helped by a large overhang. Labour was narrowly ahead in the popular vote, the first such split since 1981.",
+      "The freed space goes to increased production of the Cybercab. Tesla's chief executive said the existing factory space at Gigafactory Texas would be used for it.",
+      "Voters elected 131 members. Of those, 71 were elected from single-member electorates and 60 came from closed party lists.",
+      "The mixture dominated Europe's landscapes for more than 20 million years. Large grazing animals helped to prevent trees and shrubs from taking over."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+      "excerpt": "On November 6, 2026, Tesla CEO Elon Musk announced on X that Cybertruck production will end in mid-2027 and that the existing factory space in Gigafactory Texas will be used for increased Cybercab production."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+      "excerpt": "In response to its disappointing sales, multiple news publications have described it as an \"automotive flop\"."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "excerpt": "Voters elected 131 members to the House of Representatives under the mixed-member proportional (MMP) voting system, comprising 71 members elected from single-member electorates and 60 members elected from closed party lists to achieve proportionality."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "excerpt": "Preliminary results showed that the Labour Party is ahead in the popular vote by a small margin, but still have six fewer seats than the National Party due to the latter's large overhang. This is the first election since 1981 in which National won the most seats but lost the popular vote."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "excerpt": "Around 399,000 special votes, out of the 2,832,000 total votes cast, have yet to be counted. Official results are due on 27 November 2026."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+      "excerpt": "Researchers led by Aarhus University have found that this mixture of habitats dominated Europe's landscapes for more than 20 million years."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+      "excerpt": "Instead, much of the continent was a vibrant landscape of scattered trees, open woodlands, grassy clearings, and colorful wildflower meadows. Birds and butterflies flourished in these sunlit habitats, while enormous grazing animals helped prevent trees and shrubs from taking over."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+      "excerpt": "These included fossilized pollen and larger plant remains, charcoal left by ancient wildfires, and chemical signatures preserved in the teeth and bones of plant-eating animals."
+    }
+  ]
+}

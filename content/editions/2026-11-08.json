@@ -1,57 +1,58 @@
 {
   "date": "2026-11-08",
-  "kind": "evergreen",
-  "label": "Evergreen · History",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-08-en-v1",
+    "word-2026-11-08-en-v2",
     "sudoku-2026-11-08-en-easy-v1",
     "sudoku-2026-11-08-en-medium-v1",
     "sudoku-2026-11-08-en-hard-v1",
-    "letters-2026-11-08-en-v1",
-    "crossword-2026-11-08-en-v1",
-    "quiz-2026-11-08-en-v1"
+    "letters-2026-11-08-en-v2",
+    "crossword-2026-11-08-en-v2",
+    "quiz-2026-11-08-en-v2"
   ],
   "stories": [
     {
-      "id": "history-1-gutenberg",
-      "headline": "Forty-two lines to a page: the book that started the press",
-      "summary": "The Gutenberg Bible, printed in the 1450s by Johannes Gutenberg in Mainz, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible, and a complete copy has 1,288 pages, usually bound in two volumes. Of the 158 or 180 copies originally printed, 49 survive in at least substantial portion.",
+      "id": "2026-11-08-1",
+      "headline": "Tesla will stop building the Cybertruck in 2027",
+      "summary": "Tesla has said it will end production of its Cybertruck pickup in mid-2027. The factory space at Gigafactory Texas is to be used to build more of the Cybercab instead. News publications had already described the pickup as an automotive flop.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+      "publishedAt": "2026-11-06"
     },
     {
-      "id": "history-1-pyramid",
-      "headline": "The tallest thing on Earth for 3,700 years",
-      "summary": "The Great Pyramid of Giza was built around 2600 BC, over about 26 years, as the tomb of the pharaoh Khufu. Initially standing at 146.6 metres, it was the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "id": "2026-11-08-2",
+      "headline": "New Zealand's election ends too close to call",
+      "summary": "New Zealanders have elected 131 members to the House of Representatives under the mixed-member proportional system. The National Party took the most seats while Labour led the popular vote by a small margin, the first such split since 1981. Around 399,000 special votes are still to be counted, and official results are due on 27 November.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "publishedAt": "2026-11-07"
     },
     {
-      "id": "history-1-machu",
-      "headline": "A citadel on a ridge above the Urubamba",
-      "summary": "Machu Picchu is a 15th-century Inca citadel on a mountain ridge at 2,430 metres in southern Peru, about 80 km north-west of Cusco, above the Urubamba River. Estimated to have been built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti, and it was abandoned roughly a century later.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
-      "publishedAt": "evergreen"
+      "id": "2026-11-08-3",
+      "headline": "Europe's wild past was open country, not deep forest",
+      "summary": "Researchers led by Aarhus University have reconstructed what Europe's landscapes looked like long before farming, using fossilised pollen, charcoal left by ancient wildfires and chemical traces in animal teeth and bones. They found scattered trees, open woodlands, grassy clearings and wildflower meadows rather than closed forest, a mixture that lasted more than 20 million years. Large grazing animals helped to prevent trees and shrubs from taking over.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+      "publishedAt": "2026-11-07"
     }
   ],
   "seeds": {
-    "history-1-gutenberg": [
+    "2026-11-08-1": [
       "quiz:1",
-      "quiz:4",
-      "letters",
+      "quiz:3",
       "crossword:1 Down"
     ],
-    "history-1-pyramid": [
+    "2026-11-08-2": [
       "quiz:2",
-      "quiz:3",
-      "word"
+      "quiz:4"
     ],
-    "history-1-machu": [
-      "quiz:5"
+    "2026-11-08-3": [
+      "quiz:5",
+      "word",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-08T02:28:03.875615Z"
 }

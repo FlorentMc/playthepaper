@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-08-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-08",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#...#",
+      ".....",
+      ".....",
+      ".....",
+      "#...#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Sound of disapproval"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Ancient remain"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Spare"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Challenged"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 1,
+          "length": 3,
+          "clue": "Unhappy"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "The US state whose Tesla plant will stop making the Cybertruck",
+          "storyId": "2026-11-08-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Beyond, as a prefix"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "In need of sleep"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Colour of a stop sign"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Dishonourable man"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#TUT#",
+      "RELIC",
+      "EXTRA",
+      "DARED",
+      "#SAD#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-11-08-1",
+        "excerpt": "On November 6, 2026, Tesla CEO Elon Musk announced on X that Cybertruck production will end in mid-2027 and that the existing factory space in Gigafactory Texas will be used for increased Cybercab production."
+      }
+    ]
+  },
+  "storyId": "2026-11-08-1"
+}

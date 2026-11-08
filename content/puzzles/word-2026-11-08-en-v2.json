@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-08-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-08",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "M",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about what Europe looked like before farming."
+  },
+  "reveal": {
+    "answer": "MOSAIC",
+    "storyId": "2026-11-08-3",
+    "excerpt": "Across more than 20 million years, Europe's landscapes were typically a shifting mosaic of trees, open spaces, and flowering plants rather than continuous stretches of closed forest."
+  },
+  "storyId": "2026-11-08-3"
+}
