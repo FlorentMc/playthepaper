@@ -1,0 +1,194 @@
+{
+  "slug": "2026-11-09",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-09-1",
+      "headline": "Tom Laperche wins the Route du Rhum in record time",
+      "summary": "The French sailor Tom Laperche has won the Route du Rhum, the single-handed yacht race that runs from Saint Malo in Brittany to Guadeloupe in the Caribbean. He crossed the finish line on 7 November in a record six days, 13 hours, 27 minutes and 40 seconds. That is six hours and 19 minutes faster than the time Charles Caudrelier set in 2022.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Route_du_Rhum",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "id": "2026-11-09-2",
+      "headline": "Kyle Larson takes a third NASCAR Cup Series title",
+      "summary": "Kyle Larson of Hendrick Motorsports has won his third NASCAR Cup Series championship, and his second in a row. He clinched the title at the season finale, after winning three races in the Chase. He is the first back-to-back champion since Jimmie Johnson in 2009 and 2010.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "id": "2026-11-09-3",
+      "headline": "Strange gas hints at hidden volcanic activity on Mars",
+      "summary": "An international team has found unusual concentrations of hydrogen chloride gas above fractures in the Alba Mons volcanic region of Mars. They think the gas may be rising from hot magma underground, which would mean Mars still has dormant volcanic systems. On Earth the same gas is frequently released through openings connected to magma.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+      "publishedAt": "2026-11-07"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "Tom Laperche has won the Route du Rhum, the solo yacht race that crosses the Atlantic from Saint Malo in Brittany.",
+          "prompt": "Which Caribbean island does the race finish at?",
+          "options": [
+            "Guadeloupe",
+            "Martinique",
+            "Barbados",
+            "Saint Lucia"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-09-1"
+        },
+        {
+          "lead": "Kyle Larson of Hendrick Motorsports has won the NASCAR Cup Series championship again, having gone into the season as the reigning champion.",
+          "prompt": "Which Cup Series championship was this for Larson?",
+          "options": [
+            "His first",
+            "His second",
+            "His third",
+            "His fourth"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-09-2"
+        },
+        {
+          "lead": "The Route du Rhum is a single-handed race across the Atlantic from Saint Malo in Brittany. It is not an annual fixture.",
+          "prompt": "How often is the Route du Rhum held?",
+          "options": [
+            "Every year",
+            "Every two years",
+            "Every three years",
+            "Every four years"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-09-1"
+        },
+        {
+          "lead": "Larson is the first NASCAR driver since 2010 to win the Cup Series championship in consecutive seasons.",
+          "prompt": "Who was the last driver before him to manage that?",
+          "options": [
+            "Jimmie Johnson",
+            "Denny Hamlin",
+            "Matt Kenseth",
+            "Christopher Bell"
+          ],
+          "level": "medium",
+          "storyId": "2026-11-09-2"
+        },
+        {
+          "lead": "An international team has found unusual concentrations of one gas above fractures in the Alba Mons volcanic region of Mars. They think it may be rising from hot magma underground.",
+          "prompt": "Which gas did the researchers find there?",
+          "options": [
+            "Methane",
+            "Hydrogen chloride",
+            "Sulphur dioxide",
+            "Carbon monoxide"
+          ],
+          "level": "hard",
+          "storyId": "2026-11-09-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        0,
+        2,
+        3,
+        0,
+        1
+      ],
+      "explanations": [
+        "The race finishes at Pointe-à-Pitre in Guadeloupe. It starts at Saint Malo in Brittany, in Metropolitan France.",
+        "It was his third Cup Series championship, and his second in a row. He clinched it at the season finale after winning three races in the Chase.",
+        "The Route du Rhum takes place every four years in November. Tom Laperche's winning time was six days, 13 hours, 27 minutes and 40 seconds.",
+        "Jimmie Johnson was the last to do it, winning in 2009 and 2010. Larson was also the first driver to clinch the championship early since Matt Kenseth in 2003.",
+        "The gas is hydrogen chloride, found above fractures in the Alba Mons volcanic region. On Earth it is frequently released through openings connected to magma."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Route_du_Rhum",
+        "excerpt": "The Route du Rhum is a transatlantic single-handed yacht race, which takes place every four years in November. The course is between Saint Malo, Brittany, Metropolitan France and Pointe-à-Pitre, Guadeloupe, overseas France, in the Caribbean."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Route_du_Rhum",
+        "excerpt": "Laperche crossed the finish line at 10:31PM local time on 7 November 2026 (2:31AM GMT 8 November) in Guadeloupe."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+        "excerpt": "In sailing, Frenchman Tom Laperche wins the 2026 Route du Rhum in a record six days, 13 hours, 27 minutes and 40 seconds, beating Charles Caudrelier's 2022 time by six hours and 19 minutes."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "excerpt": "Kyle Larson won his third Cup Series championship and second consecutively."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "excerpt": "Kyle Larson of Hendrick Motorsports returned as the reigning NASCAR Cup Series champion. For the first time since 2013, NASCAR utilized The Chase as their championship format after twelve seasons of using the elimination-style playoff format, with revised rules from its last installation."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+        "excerpt": "Within the Chase, Larson won three races and clinched the championship following the conclusion of stage 1 of the season finale, becoming the first back-to-back champion since Jimmie Johnson in 2009 and 2010, and the first to clinch the championship early since Matt Kenseth in 2003."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+        "excerpt": "Researchers have identified unusual concentrations of hydrogen chloride gas above fractures in the Alba Mons volcanic region."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+        "excerpt": "An international team led by Alexander Trokhimovskiy believes the gas could originate from hot magma underground. If confirmed, this would indicate that Mars still has dormant volcanic systems capable of releasing gases to the surface."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+        "excerpt": "On Earth, hydrogen chloride is frequently released through openings connected to magma, raising the possibility that similar processes could be occurring on Mars."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "RECORD",
+      "storyId": "2026-11-09-1",
+      "teaser": "Today's word comes from a story about a record crossing of the Atlantic.",
+      "excerpt": "The current record is 6d 13h 27m 40s set by Tom Laperche on 8 November 2026, beating out Charles Caudrelier's 2022 record of 6d 19h 47m 25s by over 6 hours."
+    },
+    "letters": {
+      "pangram": "VOLCANIC",
+      "storyId": "2026-11-09-3",
+      "teaser": "Today's letters come from a story about gas escaping from Mars.",
+      "excerpt": "Researchers have identified unusual concentrations of hydrogen chloride gas above fractures in the Alba Mons volcanic region."
+    },
+    "crossword": [
+      {
+        "answer": "YACHT",
+        "clue": "The Route du Rhum is a single-handed transatlantic race for one of these",
+        "storyId": "2026-11-09-1",
+        "excerpt": "The Route du Rhum is a transatlantic single-handed yacht race, which takes place every four years in November. The course is between Saint Malo, Brittany, Metropolitan France and Pointe-à-Pitre, Guadeloupe, overseas France, in the Caribbean."
+      },
+      {
+        "answer": "CHASE",
+        "clue": "NASCAR brought this championship format back for the 2026 season",
+        "storyId": "2026-11-09-2",
+        "excerpt": "Kyle Larson of Hendrick Motorsports returned as the reigning NASCAR Cup Series champion. For the first time since 2013, NASCAR utilized The Chase as their championship format after twelve seasons of using the elimination-style playoff format, with revised rules from its last installation."
+      },
+      {
+        "answer": "MAGMA",
+        "clue": "Molten rock underground that may be feeding the Martian gas",
+        "storyId": "2026-11-09-3",
+        "excerpt": "An international team led by Alexander Trokhimovskiy believes the gas could originate from hot magma underground. If confirmed, this would indicate that Mars still has dormant volcanic systems capable of releasing gases to the surface."
+      }
+    ]
+  }
+}

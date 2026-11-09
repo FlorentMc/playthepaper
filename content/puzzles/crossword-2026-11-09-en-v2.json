@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-09-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "....#",
+      ".....",
+      "#....",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Cook in hot oil"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "It falls in autumn"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Aunt's husband"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Pronoun for others"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Letter after sigma"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Illness with fever and aches"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Monthly payment to a landlord"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "The Route du Rhum is a single-handed transatlantic race for one of these",
+          "storyId": "2026-11-09-1"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Jumping pest"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Australian bird that cannot fly"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "FRY##",
+      "LEAF#",
+      "UNCLE",
+      "#THEM",
+      "##TAU"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-11-09-1",
+        "excerpt": "The Route du Rhum is a transatlantic single-handed yacht race, which takes place every four years in November. The course is between Saint Malo, Brittany, Metropolitan France and Pointe-à-Pitre, Guadeloupe, overseas France, in the Caribbean."
+      }
+    ]
+  },
+  "storyId": "2026-11-09-1"
+}

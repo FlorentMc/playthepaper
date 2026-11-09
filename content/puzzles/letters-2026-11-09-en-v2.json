@@ -1,0 +1,50 @@
+{
+  "id": "letters-2026-11-09-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "V",
+    "outer": "ACILNO",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about gas escaping from Mars."
+  },
+  "reveal": {
+    "answers": [
+      "ANVIL",
+      "AVAIL",
+      "AVIAN",
+      "CIVIC",
+      "CIVIL",
+      "CIVILIAN",
+      "LAVA",
+      "NAVAL",
+      "NOVA",
+      "OVAL",
+      "VAIL",
+      "VAIN",
+      "VANILLA",
+      "VIAL",
+      "VILLA",
+      "VILLAIN",
+      "VINO",
+      "VIOLA",
+      "VIOLIN",
+      "VIVA",
+      "VOCAL",
+      "VOILA",
+      "VOLCANIC",
+      "VOLCANO"
+    ],
+    "pangrams": [
+      "VOLCANIC"
+    ],
+    "maxScore": 108,
+    "storyId": "2026-11-09-3",
+    "excerpt": "Researchers have identified unusual concentrations of hydrogen chloride gas above fractures in the Alba Mons volcanic region."
+  },
+  "storyId": "2026-11-09-3"
+}

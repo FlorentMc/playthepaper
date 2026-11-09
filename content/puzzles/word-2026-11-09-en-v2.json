@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-09-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-09",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "R",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a record crossing of the Atlantic."
+  },
+  "reveal": {
+    "answer": "RECORD",
+    "storyId": "2026-11-09-1",
+    "excerpt": "The current record is 6d 13h 27m 40s set by Tom Laperche on 8 November 2026, beating out Charles Caudrelier's 2022 record of 6d 19h 47m 25s by over 6 hours."
+  },
+  "storyId": "2026-11-09-1"
+}
