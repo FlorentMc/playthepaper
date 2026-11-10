@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-11-10-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The twentieth round of the Formula One season was the São Paulo Grand Prix at Interlagos, where one team sealed the World Constructors' Championship.",
+        "prompt": "Which team won the 2026 Constructors' Championship?",
+        "options": [
+          "Ferrari",
+          "McLaren",
+          "Mercedes",
+          "Red Bull"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-10-1"
+      },
+      {
+        "lead": "The 2026 Booker Prize has been awarded for a post-apocalyptic novel, The End of Everything.",
+        "prompt": "Which author wrote the winning novel?",
+        "options": [
+          "Ali Smith",
+          "Colm Tóibín",
+          "M. John Harrison",
+          "Zadie Smith"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-10-2"
+      },
+      {
+        "lead": "A national competition regulator has fined the food-delivery platforms Woowa Brothers and Coupang ₩331.1 billion and ₩300.8 billion respectively.",
+        "prompt": "Which country's Fair Trade Commission issued those fines?",
+        "options": [
+          "Japan",
+          "Singapore",
+          "South Korea",
+          "Taiwan"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-10-3"
+      },
+      {
+        "lead": "Researchers have described a slow pathway linking the digestive system and the brain, which helps explain how a liking for a flavour builds up with repeated experience.",
+        "prompt": "Which brain chemical does that slow pathway work through?",
+        "options": [
+          "Adrenaline",
+          "Dopamine",
+          "Insulin",
+          "Serotonin"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-10-4"
+      },
+      {
+        "lead": "Mercedes sealed the Formula One World Constructors' Championship at the São Paulo Grand Prix, a title they had last won in 2021.",
+        "prompt": "How many constructors' championships has Mercedes now won?",
+        "options": [
+          "Their fifth",
+          "Their seventh",
+          "Their ninth",
+          "Their eleventh"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-10-1"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      2,
+      2,
+      1,
+      2
+    ],
+    "explanations": [
+      "Mercedes took the title at the São Paulo Grand Prix at the Interlagos Circuit. It is their first Constructors' Championship since 2021.",
+      "The winner was M. John Harrison, an English author and literary critic. His earlier work includes the Viriconium sequence and the Kefahuchi Tract trilogy.",
+      "It was the South Korean Fair Trade Commission. It found that the two food-delivery platforms restricted competition by requiring restaurants to match rival platforms' terms.",
+      "The pathway works through dopamine, and links the digestive system and the brain. Its slow signals let the brain learn about the benefits of a food after it has been eaten.",
+      "It was their ninth Constructors' Championship, and their first since 2021. Lewis Hamilton started his 400th race in the same Grand Prix."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship",
+      "excerpt": "Mercedes secured their ninth Constructors' Championship at the São Paulo Grand Prix."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
+      "excerpt": "The 2026 São Paulo Grand Prix was a Formula One motor race that was held on 8 November 2026 at the Interlagos Circuit in São Paulo, Brazil. It was the twentieth round of the 2026 Formula One World Championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
+      "excerpt": "Lewis Hamilton (Ferrari) started his 400th race, and Mercedes won their first Constructors' Championship since 2021."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_S%C3%A3o_Paulo_Grand_Prix",
+      "excerpt": "During a wet qualification session, Lando Norris (McLaren) took pole position. He converted it to a win in a damp Grand Prix, with Max Verstappen, who started 21st, and his teammate Isack Hadjar rounding off the podium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Booker_Prize",
+      "excerpt": "The 2026 Booker Prize is a literary award worth £50,000 given for the best English-language novel published between 1 October 2025 and 30 September 2026 in either the United Kingdom or Ireland."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M._John_Harrison",
+      "excerpt": "Michael John Harrison, known for publication purposes primarily as M. John Harrison, is an English author and literary critic."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M._John_Harrison",
+      "excerpt": "His novel The End of Everything won the Booker Prize in 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M._John_Harrison",
+      "excerpt": "His work includes the Viriconium sequence of novels and short stories (1971–1984), Climbers (1989), and the Kefahuchi Tract trilogy, which consists of Light (2002), Nova Swing (2006) and Empty Space (2012)."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "excerpt": "M. John Harrison wins the 2026 Booker Prize for his post-apocalyptic novel The End of Everything."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "excerpt": "The South Korean Fair Trade Commission issues fines of ₩331.1 billion (US$247 million) for Woowa Brothers and ₩300.8 billion ($222 million) for Coupang, finding that their food-delivery platforms restricted competition by requiring restaurants to match rival platforms' terms."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
+      "excerpt": "Their research reveals a little-understood dopamine pathway linking the digestive system and the brain, helping explain how we develop a liking for certain flavors through repeated experience."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
+      "excerpt": "This slower pathway responds to information coming from inside the body, allowing the brain to learn about the benefits of food after it has been consumed."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
+      "excerpt": "Once the brain connects the taste of coffee with caffeine's stimulating effects, Knight explained, \"that coffee starts to taste a lot better.\""
+    }
+  ]
+}

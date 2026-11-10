@@ -1,0 +1,59 @@
+{
+  "id": "letters-2026-11-10-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "F",
+    "outer": "ALMORU",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a motor racing title won in Brazil."
+  },
+  "reveal": {
+    "answers": [
+      "AFAR",
+      "ALFA",
+      "ALFALFA",
+      "ALOOF",
+      "FALL",
+      "FARM",
+      "FARO",
+      "FLAM",
+      "FLOOR",
+      "FLORA",
+      "FLORAL",
+      "FLOUR",
+      "FLUFF",
+      "FOAL",
+      "FOAM",
+      "FOOL",
+      "FORA",
+      "FORM",
+      "FORMAL",
+      "FORMULA",
+      "FORUM",
+      "FOUL",
+      "FOUR",
+      "FROM",
+      "FULL",
+      "LOAF",
+      "MUFF",
+      "OFFAL",
+      "RAFF",
+      "ROLF",
+      "ROOF",
+      "ROOMFUL",
+      "RUFF"
+    ],
+    "pangrams": [
+      "FORMULA"
+    ],
+    "maxScore": 96,
+    "storyId": "2026-11-10-1",
+    "excerpt": "The 2026 São Paulo Grand Prix was a Formula One motor race that was held on 8 November 2026 at the Interlagos Circuit in São Paulo, Brazil. It was the twentieth round of the 2026 Formula One World Championship."
+  },
+  "storyId": "2026-11-10-1"
+}

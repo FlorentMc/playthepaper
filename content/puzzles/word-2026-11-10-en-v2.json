@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-10-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "C",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about why a bitter drink grows on us."
+  },
+  "reveal": {
+    "answer": "COFFEE",
+    "storyId": "2026-11-10-4",
+    "excerpt": "Once the brain connects the taste of coffee with caffeine's stimulating effects, Knight explained, \"that coffee starts to taste a lot better.\""
+  },
+  "storyId": "2026-11-10-4"
+}

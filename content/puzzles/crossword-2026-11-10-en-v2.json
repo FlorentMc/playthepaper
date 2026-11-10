@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-10-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-10",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "#....",
+      "#....",
+      ".....",
+      "....#",
+      "....#"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "The front place on the grid, which Norris took in wet qualifying",
+          "storyId": "2026-11-10-1"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Once ___ a time"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "General direction"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Fairy-tale giant"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 4,
+          "clue": "Twelve months"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Rid of unwanted members"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Show with arias"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "Solitary person"
+        },
+        {
+          "number": 4,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Conclusion"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Child's plaything"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "#POLE",
+      "#UPON",
+      "TREND",
+      "OGRE#",
+      "YEAR#"
+    ],
+    "seeded": [
+      {
+        "label": "1 Across",
+        "storyId": "2026-11-10-1",
+        "excerpt": "During a wet qualification session, Lando Norris (McLaren) took pole position. He converted it to a win in a damp Grand Prix, with Max Verstappen, who started 21st, and his teammate Isack Hadjar rounding off the podium."
+      }
+    ]
+  },
+  "storyId": "2026-11-10-1"
+}
