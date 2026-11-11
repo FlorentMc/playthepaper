@@ -1,0 +1,55 @@
+{
+  "id": "letters-2026-11-11-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "D",
+    "outer": "GIKMNO",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a museum returning what it held."
+  },
+  "reveal": {
+    "answers": [
+      "DIDO",
+      "DIGGING",
+      "DIMMING",
+      "DING",
+      "DINGING",
+      "DINGO",
+      "DINING",
+      "DINK",
+      "DODGING",
+      "DODO",
+      "DOGGING",
+      "DOING",
+      "DOMINION",
+      "DOMINO",
+      "DONG",
+      "DOOM",
+      "GOOD",
+      "IDIOM",
+      "INDIGO",
+      "KIDDING",
+      "KIDDO",
+      "KIND",
+      "KINGDOM",
+      "MIND",
+      "MINDING",
+      "MODI",
+      "MONDO",
+      "MOOD",
+      "NODDING"
+    ],
+    "pangrams": [
+      "KINGDOM"
+    ],
+    "maxScore": 132,
+    "storyId": "2026-11-11-3",
+    "excerpt": "The Pitt Rivers Museum in Oxford, England, United Kingdom, returns the remains of 39 Naga people, collected during the British Raj, to a delegation from Nagaland, India, following six years of discussions over repatriation."
+  },
+  "storyId": "2026-11-11-3"
+}

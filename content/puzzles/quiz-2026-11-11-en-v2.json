@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-11-11-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "American college football decides its champion through the College Football Playoff, and its organisers have agreed a bigger field from the 2027 season.",
+        "prompt": "How many teams will the College Football Playoff include from the 2027 season?",
+        "options": [
+          "12",
+          "16",
+          "20",
+          "24"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-11-1"
+      },
+      {
+        "lead": "A commerce ministry has extended its suspension of export restrictions on certain rare earths, industrial diamonds and lithium battery technology to January 10, 2027.",
+        "prompt": "Which country's commerce ministry extended that suspension?",
+        "options": [
+          "Chile",
+          "China",
+          "India",
+          "Vietnam"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-11-2"
+      },
+      {
+        "lead": "The remains of 39 Naga people, collected during the British Raj, have been returned to a delegation from Nagaland in India after six years of discussions over repatriation.",
+        "prompt": "In which English city is the museum that returned the remains?",
+        "options": [
+          "Cambridge",
+          "Liverpool",
+          "Manchester",
+          "Oxford"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-11-3"
+      },
+      {
+        "lead": "A tiny freshwater killifish with brilliant orange markings has been described as a new species in the Brazilian Amazon, where it lives in a handful of forest pools.",
+        "prompt": "How long is the fish in standard length?",
+        "options": [
+          "Less than three centimetres",
+          "About ten centimetres",
+          "About thirty centimetres",
+          "About one metre"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-11-4"
+      },
+      {
+        "lead": "The 24-team playoff guarantees a place to each champion of the four power conferences, and awards most of the rest of the field to the highest-ranked teams at large.",
+        "prompt": "How many at-large bids will the new playoff award?",
+        "options": [
+          "9",
+          "14",
+          "19",
+          "23"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-11-1"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      1,
+      3,
+      0,
+      2
+    ],
+    "explanations": [
+      "The playoff will expand to a 24-team format from the 2027 season, and will run that way through 2031. It has been a 12-team competition since 2024.",
+      "It was the Chinese commerce ministry, which pushed the suspension back to January 10, 2027. The materials covered include certain rare earths, industrial diamonds and lithium battery technology.",
+      "It was the Pitt Rivers Museum in Oxford. The remains of 39 Naga people were collected during the British Raj and have gone to a delegation from Nagaland, India.",
+      "Laimosemion laranja measures less than three centimetres in standard length. Males carry rows of bright orange spots and bold orange chevron patterns near the tail.",
+      "There are 19 at-large bids, awarded to the remaining highest-ranked teams. The rest of the field is made up of conference champions, including each champion of the four power conferences."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/College_Football_Playoff",
+      "excerpt": "The CFP Board of Managers voted in 2023 to expand the playoff to 12 teams beginning in 2024, an arrangement that will last through the end of the 2026 season. Beginning in 2027, the playoff will further expand to a 24-team playoff through the 2031 season."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/College_Football_Playoff",
+      "excerpt": "Guaranteed bids for each champion of the four power conferences (ACC, Big Ten, Big 12, and SEC). All four conferences have agreed to no longer hold conference championship games."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/College_Football_Playoff",
+      "excerpt": "At-large bids for the 19 remaining highest-ranked teams, which could include additional conference champions."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "excerpt": "In college football, the College Football Playoff announces it will expand from 12 to 24 teams starting in the 2027 season."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "excerpt": "The Chinese commerce ministry extends the suspension of export restrictions on certain rare earths, industrial diamonds, and lithium battery technology to January 10, 2027, amid ongoing trade negotiations with the United States."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "excerpt": "The Pitt Rivers Museum in Oxford, England, United Kingdom, returns the remains of 39 Naga people, collected during the British Raj, to a delegation from Nagaland, India, following six years of discussions over repatriation."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+      "excerpt": "A tiny fish with brilliant orange markings has been discovered in the Brazilian Amazon, but scientists warn that the newly identified species may already be at risk of extinction."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+      "excerpt": "The new species, named Laimosemion laranja, belongs to a group of small freshwater fish known as killifish. It measures less than three centimeters in standard length, but its appearance is anything but ordinary."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+      "excerpt": "Because its habitat is so restricted and faces multiple threats, the researchers believe the fish meets the criteria for classification as Endangered under guidelines established by the International Union for Conservation of Nature (IUCN)."
+    }
+  ]
+}

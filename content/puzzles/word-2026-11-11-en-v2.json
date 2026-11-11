@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-11-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-11",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "O",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a tiny new fish in the Amazon."
+  },
+  "reveal": {
+    "answer": "ORANGE",
+    "storyId": "2026-11-11-4",
+    "excerpt": "Males have rows of bright orange spots along the front half of their bodies, followed by bold orange chevron patterns near the tail."
+  },
+  "storyId": "2026-11-11-4"
+}

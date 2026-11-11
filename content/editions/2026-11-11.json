@@ -1,57 +1,69 @@
 {
   "date": "2026-11-11",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-11-en-v1",
+    "word-2026-11-11-en-v2",
     "sudoku-2026-11-11-en-easy-v1",
     "sudoku-2026-11-11-en-medium-v1",
     "sudoku-2026-11-11-en-hard-v1",
-    "letters-2026-11-11-en-v1",
-    "crossword-2026-11-11-en-v1",
-    "quiz-2026-11-11-en-v1"
+    "letters-2026-11-11-en-v2",
+    "crossword-2026-11-11-en-v2",
+    "quiz-2026-11-11-en-v2"
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-11-11-1",
+      "headline": "College football's playoff grows to 24 teams from 2027",
+      "summary": "The College Football Playoff will grow from 12 teams to 24 from the 2027 season, and will keep that size through 2031. Each champion of the four power conferences, the ACC, the Big Ten, the Big 12 and the SEC, is guaranteed a place, and all four have agreed to stop holding their own championship games. Another 19 places go to the remaining highest-ranked teams.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/College_Football_Playoff",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-11-11-2",
+      "headline": "China extends its suspension of export restrictions",
+      "summary": "China's commerce ministry has extended its suspension of export restrictions on certain rare earths, industrial diamonds and lithium battery technology. The suspension now runs to January 10, 2027. Trade negotiations with the United States are continuing.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-11-11-3",
+      "headline": "Oxford museum returns Naga remains to a Nagaland delegation",
+      "summary": "The Pitt Rivers Museum in Oxford has returned the remains of 39 Naga people to a delegation from Nagaland, India. They were collected during the British Raj. The return follows six years of discussions over repatriation.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_9",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "2026-11-11-4",
+      "headline": "A tiny orange fish is new to science in the Amazon",
+      "summary": "A tiny fish with brilliant orange markings has been described as a new species in the Brazilian Amazon. Named Laimosemion laranja, it belongs to the killifish group and measures less than three centimetres in standard length. Scientists know it from only three small forest pools near Laranjal do Jari, and believe it already meets the criteria for Endangered status.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104084019.htm",
+      "publishedAt": "2026-11-08"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-11-11-1": [
       "quiz:1",
-      "quiz:2",
-      "word"
-    ],
-    "technology-1-canal": [
-      "quiz:3",
+      "quiz:5",
       "crossword:1 Down"
     ],
-    "technology-1-chip": [
-      "quiz:4",
-      "quiz:5",
+    "2026-11-11-2": [
+      "quiz:2",
+      "crossword:5 Across"
+    ],
+    "2026-11-11-3": [
+      "quiz:3",
       "letters"
+    ],
+    "2026-11-11-4": [
+      "quiz:4",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-11-11T02:22:24.238052Z"
 }
