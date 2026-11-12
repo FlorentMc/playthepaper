@@ -1,0 +1,208 @@
+{
+  "slug": "2026-11-12",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-12-1",
+      "headline": "A record-breaking liner is sunk to become a reef",
+      "summary": "The SS United States, a retired American ocean liner, has been sunk off the coast of Destin–Fort Walton Beach in Florida. She now lies on the seabed as the world's largest artificial reef, surpassing the USS Oriskany. Built during 1950 and 1951, she still holds the Blue Riband for the fastest crossing of the Atlantic by a liner, set on her maiden voyage in 1952.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SS_United_States",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "2026-11-12-2",
+      "headline": "Peru unveils what it calls the world's tallest papal statue",
+      "summary": "Pope Leo XIV left Argentina and arrived in Peru during a papal trip to South America. Peru marked the visit by unveiling a statue of him 14 metres tall, which it describes as the world's tallest.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "2026-11-12-3",
+      "headline": "Germany plans a strategic reserve of natural gas",
+      "summary": "The German cabinet has approved draft legislation to create a strategic natural gas reserve. It would hold 24 terawatt-hours, equivalent to approximately 10% of national storage capacity. The aim is to keep gas supplies going during emergencies.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "2026-11-12-4",
+      "headline": "Two teeth reveal a giant rodent from ancient Thailand",
+      "summary": "Fossil teeth from a lignite mine in Krabi Province, Thailand, belong to a rodent that lived about 34 million years ago. Named Yakamys sirindhornae, it may have weighed around 30 kilograms, roughly twice as much as other known rodents of its time. Only a lower second molar and a lower incisor have been found.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+      "publishedAt": "2026-11-10"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "A retired American ocean liner has been sunk off the coast of Destin–Fort Walton Beach in Florida, after years of searching for a new use for her.",
+          "prompt": "What has the sunken liner become?",
+          "options": [
+            "The world's deepest shipwreck",
+            "The world's largest artificial reef",
+            "The world's largest floating hotel",
+            "The world's largest museum ship"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-12-1"
+        },
+        {
+          "lead": "Pope Leo XIV left Argentina during a papal trip to South America, and the country he arrived in unveiled a statue of him said to be the world's tallest.",
+          "prompt": "Which country unveiled that statue?",
+          "options": [
+            "Bolivia",
+            "Chile",
+            "Ecuador",
+            "Peru"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-12-2"
+        },
+        {
+          "lead": "The SS United States still holds the Blue Riband for the fastest crossing by an ocean liner in either direction, set on her maiden voyage in 1952.",
+          "prompt": "Which ocean did she cross to earn that title?",
+          "options": [
+            "The Arctic Ocean",
+            "The Atlantic Ocean",
+            "The Indian Ocean",
+            "The Pacific Ocean"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-12-1"
+        },
+        {
+          "lead": "The German cabinet has approved draft legislation for a strategic natural gas reserve, meant to keep supplies going during emergencies.",
+          "prompt": "How much gas is the reserve to hold?",
+          "options": [
+            "6 terawatt-hours",
+            "12 terawatt-hours",
+            "24 terawatt-hours",
+            "48 terawatt-hours"
+          ],
+          "level": "medium",
+          "storyId": "2026-11-12-3"
+        },
+        {
+          "lead": "Two fossil teeth from a lignite mine in Krabi Province, Thailand, belong to a rodent that lived about 34 million years ago, named Yakamys sirindhornae.",
+          "prompt": "How heavy do researchers think that rodent was?",
+          "options": [
+            "About 3 kilograms",
+            "About 10 kilograms",
+            "About 30 kilograms",
+            "About 100 kilograms"
+          ],
+          "level": "hard",
+          "storyId": "2026-11-12-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        1,
+        3,
+        1,
+        2,
+        2
+      ],
+      "explanations": [
+        "She became the world's largest artificial reef, surpassing the USS Oriskany. The SS United States was sunk off Destin–Fort Walton Beach in Florida on 11 November 2026.",
+        "Peru unveiled the statue, which it describes as the world's tallest. Pope Leo XIV had arrived from Argentina during a papal trip to South America.",
+        "It was the Atlantic Ocean. She was the fastest ocean liner to cross it in either direction, and the Blue Riband she earned in 1952 remains uncontested.",
+        "The reserve is to hold 24 terawatt-hours. That is equivalent to approximately 10% of national storage capacity.",
+        "Tooth measurements put Yakamys sirindhornae at approximately 30 kilograms. That is about twice as heavy as other known rodents of the same period."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SS_United_States",
+        "excerpt": "SS United States is a retired American ocean liner that was built during 1950 and 1951 for United States Lines."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SS_United_States",
+        "excerpt": "She was the largest ocean liner to be entirely constructed in the United States and the fastest ocean liner to cross the Atlantic Ocean in either direction, earning the Blue Riband for the highest average speed since her maiden voyage in 1952, a title that remains uncontested."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SS_United_States",
+        "excerpt": "The ship is currently being sunk as of November 11, 2026, surpassing the USS Oriskany to become the world's largest artificial reef."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+        "excerpt": "The American ocean liner SS United States is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+        "excerpt": "Pope Leo XIV departs Argentina and arrives in Peru during his papal trip to South America. Peru unveils a 14 m (46 ft)-tall statue of him, described as the world's tallest."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+        "excerpt": "The German cabinet approves draft legislation establishing a strategic natural gas reserve of 24 terawatt-hours, equivalent to approximately 10% of national storage capacity, to maintain gas supplies during emergencies."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+        "excerpt": "Scientists have uncovered fossils of a giant rodent that lived in Thailand 34 million years ago, revealing that enormous rodents evolved much earlier than previously thought."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+        "excerpt": "Its remains, consisting of a lower second molar and a lower incisor, were recovered from the Bang Mark Pit at the Krabi lignite mine in Thailand's Krabi Province."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+        "excerpt": "Their results suggest that Yakamys sirindhornae weighed approximately 30 kilograms, making it about twice as heavy as other known rodents from the same period."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "VOYAGE",
+      "storyId": "2026-11-12-1",
+      "teaser": "Today's word comes from a story about a record-setting ocean liner.",
+      "excerpt": "She was the largest ocean liner to be entirely constructed in the United States and the fastest ocean liner to cross the Atlantic Ocean in either direction, earning the Blue Riband for the highest average speed since her maiden voyage in 1952, a title that remains uncontested."
+    },
+    "letters": {
+      "pangram": "CABINET",
+      "storyId": "2026-11-12-3",
+      "teaser": "Today's letters come from a story about a country stocking up on gas.",
+      "excerpt": "The German cabinet approves draft legislation establishing a strategic natural gas reserve of 24 terawatt-hours, equivalent to approximately 10% of national storage capacity, to maintain gas supplies during emergencies."
+    },
+    "crossword": [
+      {
+        "answer": "REEF",
+        "clue": "What the sunken liner now forms off the Florida coast",
+        "storyId": "2026-11-12-1",
+        "excerpt": "The American ocean liner SS United States is sunk off the coast of Destin–Fort Walton Beach, Florida, United States, to become the world's largest artificial reef."
+      },
+      {
+        "answer": "PAPAL",
+        "clue": "Of the pope, as in the South American trip during which a statue was unveiled",
+        "storyId": "2026-11-12-2",
+        "excerpt": "Pope Leo XIV departs Argentina and arrives in Peru during his papal trip to South America. Peru unveils a 14 m (46 ft)-tall statue of him, described as the world's tallest."
+      },
+      {
+        "answer": "DRAFT",
+        "clue": "Not yet final, like the German legislation on a gas reserve",
+        "storyId": "2026-11-12-3",
+        "excerpt": "The German cabinet approves draft legislation establishing a strategic natural gas reserve of 24 terawatt-hours, equivalent to approximately 10% of national storage capacity, to maintain gas supplies during emergencies."
+      },
+      {
+        "answer": "GIANT",
+        "clue": "Enormous, like the ancient rodent found in Thailand",
+        "storyId": "2026-11-12-4",
+        "excerpt": "Scientists have uncovered fossils of a giant rodent that lived in Thailand 34 million years ago, revealing that enormous rodents evolved much earlier than previously thought."
+      }
+    ]
+  }
+}

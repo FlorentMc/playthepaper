@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-12-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-12",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "V",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a record-setting ocean liner."
+  },
+  "reveal": {
+    "answer": "VOYAGE",
+    "storyId": "2026-11-12-1",
+    "excerpt": "She was the largest ocean liner to be entirely constructed in the United States and the fastest ocean liner to cross the Atlantic Ocean in either direction, earning the Blue Riband for the highest average speed since her maiden voyage in 1952, a title that remains uncontested."
+  },
+  "storyId": "2026-11-12-1"
+}
