@@ -1,0 +1,126 @@
+{
+  "id": "quiz-2026-11-13-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "A Democratic district attorney has won a seat in the United States Senate, after more than a week of ballot counting.",
+        "prompt": "In which state did Scott Colom win his Senate seat?",
+        "options": [
+          "Alabama",
+          "Georgia",
+          "Louisiana",
+          "Mississippi"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-13-1"
+      },
+      {
+        "lead": "The Kenyan president, William Ruto, has signed a deal that reopens a market for the country's tea growers after a ban of 20 months.",
+        "prompt": "Which country agreed to lift its ban on imports of Kenyan tea?",
+        "options": [
+          "Egypt",
+          "Ethiopia",
+          "Somalia",
+          "Sudan"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-13-2"
+      },
+      {
+        "lead": "Scott Colom's win in Mississippi took the seat from the Republican who had held it.",
+        "prompt": "Which incumbent senator did Scott Colom defeat?",
+        "options": [
+          "Cindy Hyde-Smith",
+          "Deb Fischer",
+          "Katie Britt",
+          "Marsha Blackburn"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-13-1"
+      },
+      {
+        "lead": "A silver sixpence bought in an album of coins at a car boot sale in Greater Manchester has turned out to be strangely damaged.",
+        "prompt": "During whose reign was the sixpence issued?",
+        "options": [
+          "King George III",
+          "King George IV",
+          "King William IV",
+          "Queen Victoria"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-13-3"
+      },
+      {
+        "lead": "Researchers measured the crushed portrait side of the sixpence to see how deep the damage ran.",
+        "prompt": "How big was the difference between its highest and lowest measured points?",
+        "options": [
+          "About 0.075 millimetres",
+          "About 0.75 millimetres",
+          "About 7.5 millimetres",
+          "About 75 millimetres"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-13-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      3,
+      0,
+      2,
+      1
+    ],
+    "explanations": [
+      "He won in Mississippi, where counting ran on for more than a week. Colom is the first Democrat elected to the Senate in the state since 1982.",
+      "Sudan agreed to lift the ban, which had stood for 20 months. The deal was signed by the Kenyan president, William Ruto.",
+      "He defeated the Republican incumbent Cindy Hyde-Smith. The result was considered an upset.",
+      "The sixpence was issued during the reign of King William IV. It was bought as part of a whole album of coins, although it carried a price tag of its own.",
+      "The difference reached approximately 0.75 millimetres. On a thin silver coin that counts as a substantial distortion."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "excerpt": "The 2026 United States Senate election in Mississippi was held on November 3, 2026, to elect a member of the United States Senate to represent the state of Mississippi. Democratic district attorney Scott Colom defeated Republican incumbent Cindy Hyde-Smith in what was considered an upset."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "excerpt": "After more than a week of ballot counting, Colom was projected the winner on November 11."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "excerpt": "Colom is the first Democrat elected to the Senate in Mississippi since 1982, the first African American senator elected in the state since 1874, and the first African American senator ever elected in the state by popular vote."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "excerpt": "Kenyan president William Ruto signs a deal for Sudan to lift its 20-month ban on imports of tea from Kenya."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+      "excerpt": "The findings, reported by IA STUDIO in the journal npj Heritage Science, center on a silver sixpence issued during the reign of King William IV."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+      "excerpt": "The coin was found in an album containing various coins at a car boot sale in Greater Manchester, England. Although the sixpence had an individual price tag of £8, the entire album was subsequently purchased as a single lot rather than the coin being bought separately."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+      "excerpt": "Across the damaged central portrait area, the difference between the highest and lowest measured points reached approximately 0.75 millimeters."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-13-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-13",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a strangely damaged coin."
+  },
+  "reveal": {
+    "answer": "SILVER",
+    "storyId": "2026-11-13-3",
+    "excerpt": "The findings, reported by IA STUDIO in the journal npj Heritage Science, center on a silver sixpence issued during the reign of King William IV."
+  },
+  "storyId": "2026-11-13-3"
+}

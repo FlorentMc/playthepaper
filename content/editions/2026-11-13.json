@@ -1,57 +1,58 @@
 {
   "date": "2026-11-13",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-13-en-v1",
+    "word-2026-11-13-en-v2",
     "sudoku-2026-11-13-en-easy-v1",
     "sudoku-2026-11-13-en-medium-v1",
     "sudoku-2026-11-13-en-hard-v1",
-    "letters-2026-11-13-en-v1",
-    "crossword-2026-11-13-en-v1",
-    "quiz-2026-11-13-en-v1"
+    "letters-2026-11-13-en-v2",
+    "crossword-2026-11-13-en-v2",
+    "quiz-2026-11-13-en-v2"
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-11-13-1",
+      "headline": "Scott Colom takes a Senate seat in Mississippi",
+      "summary": "Scott Colom, a Democratic district attorney, has won a United States Senate seat in Mississippi. He defeated the Republican incumbent Cindy Hyde-Smith in what was considered an upset, after more than a week of ballot counting. He is the first African American senator elected in the state since 1874.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-11-13-2",
+      "headline": "Sudan lifts its ban on tea from Kenya",
+      "summary": "Sudan has agreed to lift its ban on imports of tea from Kenya, which had stood for 20 months. The deal was signed by the Kenyan president, William Ruto.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "id": "2026-11-13-3",
+      "headline": "A car boot sixpence carries a minting mystery",
+      "summary": "A silver sixpence issued during the reign of King William IV was found in an album of coins at a car boot sale in Greater Manchester. Researchers have now measured the damage to its portrait side, where the difference between the highest and lowest points reaches about 0.75 millimetres.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205359.htm",
+      "publishedAt": "2026-11-11"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-11-13-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
+      "quiz:3",
       "crossword:1 Down"
     ],
-    "discovery-1-deep": [
-      "quiz:3",
-      "quiz:4",
-      "word"
+    "2026-11-13-2": [
+      "quiz:2"
     ],
-    "discovery-1-valley": [
-      "quiz:5"
+    "2026-11-13-3": [
+      "quiz:4",
+      "quiz:5",
+      "word",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-13T02:24:13.810768Z"
 }
