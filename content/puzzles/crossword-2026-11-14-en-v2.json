@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-14-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Most common English word"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Close tightly"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Oyster's gem"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Identical"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that thing"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Microsoft's messaging app, among the services knocked out",
+          "storyId": "2026-11-14-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Long-eared runner"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Wing of a building"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Place to sit"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Letter before omega"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##THE",
+      "#SEAL",
+      "PEARL",
+      "SAME#",
+      "ITS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-11-14-1",
+        "excerpt": "There has been a major global Microsoft outage since 12 November 2026, with users in more than 70 countries reporting issues with numerous services including Microsoft 365, Outlook, Microsoft Teams and Copilot."
+      }
+    ]
+  },
+  "storyId": "2026-11-14-1"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-14-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "O",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a worldwide computer failure."
+  },
+  "reveal": {
+    "answer": "OUTAGE",
+    "storyId": "2026-11-14-1",
+    "excerpt": "There has been a major global Microsoft outage since 12 November 2026, with users in more than 70 countries reporting issues with numerous services including Microsoft 365, Outlook, Microsoft Teams and Copilot."
+  },
+  "storyId": "2026-11-14-1"
+}

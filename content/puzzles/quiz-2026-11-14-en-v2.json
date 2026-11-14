@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-11-14-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-14",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The 27th Latin Grammy Awards were held on 12 November at the MGM Grand Garden Arena, where Daddy Yankee was named the Latin Recording Academy's Person of the Year.",
+        "prompt": "In which city did the ceremony take place?",
+        "options": [
+          "Las Vegas",
+          "Los Angeles",
+          "Miami",
+          "San Juan"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-14-2"
+      },
+      {
+        "lead": "The ashes of the Guatemalan novelist Miguel Ángel Asturias arrived in Guatemala City on 12 November, having lain in the Père Lachaise Cemetery in Paris since his death in 1974.",
+        "prompt": "Which prize did Asturias win in 1967?",
+        "options": [
+          "The Booker Prize",
+          "The Cervantes Prize",
+          "The Nobel Prize in Literature",
+          "The Prix Goncourt"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-14-3"
+      },
+      {
+        "lead": "Microsoft services including Microsoft 365, Outlook, Teams and Copilot stopped working for users around the world on 12 November.",
+        "prompt": "In how many countries did users report problems?",
+        "options": [
+          "More than 7",
+          "More than 20",
+          "More than 70",
+          "More than 140"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-14-1"
+      },
+      {
+        "lead": "The outage continued into a second day, with businesses, airlines and government agencies affected around the world.",
+        "prompt": "What did Microsoft blame the outage on?",
+        "options": [
+          "A cut undersea cable",
+          "A cyber attack",
+          "A fire at a data centre",
+          "Settings applied to servers after an update"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-14-1"
+      },
+      {
+        "lead": "Researchers at the University of Tübingen tested two carrion crows on patterns of moving dots, and found that they decide twice as quickly as humans and monkeys.",
+        "prompt": "How long did the crows take on average to make their choice?",
+        "options": [
+          "95 milliseconds",
+          "235 milliseconds",
+          "480 milliseconds",
+          "900 milliseconds"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-14-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      2,
+      2,
+      3,
+      1
+    ],
+    "explanations": [
+      "The ceremony was held at the MGM Grand Garden Arena in Las Vegas. Roselyn Sánchez presented it for the tenth time.",
+      "He won the Nobel Prize in Literature in 1967. His remains are to be interred at the Centro Cultural Miguel Ángel Asturias on 15 November.",
+      "Users in more than 70 countries reported problems. The outage ran on into Friday 13 November, affecting businesses, airlines and government agencies.",
+      "Microsoft blamed settings applied to its servers after an update. It said the outage was not caused by a cyber attack or AI agents.",
+      "They needed an average of just 235 milliseconds. Their brain cells began to separate the two choices only 70 milliseconds after the dots appeared."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+      "excerpt": "There has been a major global Microsoft outage since 12 November 2026, with users in more than 70 countries reporting issues with numerous services including Microsoft 365, Outlook, Microsoft Teams and Copilot."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+      "excerpt": "Microsoft said that the outage was not caused by a cyber attack or AI agents, and blamed the outage on settings applied to servers after an update."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+      "excerpt": "The outage continued into Friday 13 November, affecting businesses, airlines and government agencies worldwide."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/27th_Annual_Latin_Grammy_Awards",
+      "excerpt": "The 27th Annual Latin Grammy Awards ceremony was held on November 12, 2026, at the MGM Grand Garden Arena in Las Vegas."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/27th_Annual_Latin_Grammy_Awards",
+      "excerpt": "Puerto Rican actress Roselyn Sánchez served as host for the tenth time."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/27th_Annual_Latin_Grammy_Awards",
+      "excerpt": "Puerto Rican rapper and singer Daddy Yankee was announced as this year's Latin Recording Academy Person of the Year."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+      "excerpt": "U.S. Rep-elect Bobby Pulido of Texas's 15th congressional district wins a Latin Grammy Award for Best Tejano Album."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias",
+      "excerpt": "Winning the Nobel Prize in Literature in 1967, his work helped bring attention to the importance of indigenous cultures, especially those of his native Guatemala."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias",
+      "excerpt": "Asturias spent his final years in Madrid, where he died in 1974. He is buried in the 10th division of the Père Lachaise Cemetery in Paris."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias",
+      "excerpt": "Asturias' ashes arrived in Guatemala City on 12 November 2026 with a ceremony attended by President Arévalo. His remains will be interred at the Centro Cultural Miguel Ángel Asturias on 15 November."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+      "excerpt": "In experiments involving two carrion crows, the birds needed an average of just 235 milliseconds to determine which way a pattern of moving dots was traveling and respond with their choice."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+      "excerpt": "Crows can make visual decisions twice as quickly as humans and monkeys, according to new research from the University of Tübingen."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+      "excerpt": "Just 70 milliseconds after the moving dots appeared, neurons associated with the different choices were already showing distinct patterns of activity."
+    }
+  ]
+}

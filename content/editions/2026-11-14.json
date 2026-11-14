@@ -1,57 +1,68 @@
 {
   "date": "2026-11-14",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-14-en-v1",
+    "word-2026-11-14-en-v2",
     "sudoku-2026-11-14-en-easy-v1",
     "sudoku-2026-11-14-en-medium-v1",
     "sudoku-2026-11-14-en-hard-v1",
-    "letters-2026-11-14-en-v1",
-    "crossword-2026-11-14-en-v1",
-    "quiz-2026-11-14-en-v1"
+    "letters-2026-11-14-en-v2",
+    "crossword-2026-11-14-en-v2",
+    "quiz-2026-11-14-en-v2"
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-11-14-1",
+      "headline": "A global Microsoft outage runs into a second day",
+      "summary": "A major Microsoft outage began on 12 November and ran on into a second day. Users in more than 70 countries reported problems with Microsoft 365, Outlook, Teams and Copilot, and businesses, airlines and government agencies were affected. Microsoft said the cause was not a cyber attack but settings applied to its servers after an update.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Microsoft_outage",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
+      "id": "2026-11-14-2",
+      "headline": "A Latin Grammy for a congressman-elect from Texas",
+      "summary": "The 27th Latin Grammy Awards were held on 12 November at the MGM Grand Garden Arena in Las Vegas. Bobby Pulido, newly elected to the United States House of Representatives for a district in Texas, won the award for Best Tejano Album. Daddy Yankee was named the Latin Recording Academy's Person of the Year.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/27th_Annual_Latin_Grammy_Awards",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
+      "id": "2026-11-14-3",
+      "headline": "Guatemala welcomes home the ashes of a Nobel laureate",
+      "summary": "The ashes of the Guatemalan writer Miguel Ángel Asturias arrived in Guatemala City on 12 November, at a ceremony attended by President Arévalo. Asturias won the Nobel Prize in Literature in 1967 and died in Madrid in 1974, and had lain since in the Père Lachaise Cemetery in Paris. His remains are to be interred at the Centro Cultural Miguel Ángel Asturias on 15 November.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Asturias",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "2026-11-14-4",
+      "headline": "Crows decide twice as fast as people",
+      "summary": "Researchers at the University of Tübingen tested two carrion crows on patterns of moving dots and found that they decide twice as quickly as humans and monkeys. The birds needed an average of 235 milliseconds to judge which way the dots were travelling and to respond with their choice. Their brain cells began to separate the two choices just 70 milliseconds after the dots appeared.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+      "publishedAt": "2026-11-12"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
-      "quiz:1",
-      "quiz:5",
-      "word"
+    "2026-11-14-2": [
+      "quiz:1"
     ],
-    "everyday-1-dominoes": [
-      "quiz:2",
+    "2026-11-14-3": [
+      "quiz:2"
+    ],
+    "2026-11-14-1": [
       "quiz:3",
-      "letters"
-    ],
-    "everyday-1-greenwich": [
       "quiz:4",
+      "word",
       "crossword:1 Down"
+    ],
+    "2026-11-14-4": [
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-14T02:25:38.485990Z"
 }
