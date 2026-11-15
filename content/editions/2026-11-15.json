@@ -1,57 +1,69 @@
 {
   "date": "2026-11-15",
-  "kind": "evergreen",
-  "label": "Evergreen · History",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-15-en-v1",
+    "word-2026-11-15-en-v2",
     "sudoku-2026-11-15-en-easy-v1",
     "sudoku-2026-11-15-en-medium-v1",
     "sudoku-2026-11-15-en-hard-v1",
-    "letters-2026-11-15-en-v1",
-    "crossword-2026-11-15-en-v1",
-    "quiz-2026-11-15-en-v1"
+    "letters-2026-11-15-en-v2",
+    "crossword-2026-11-15-en-v2",
+    "quiz-2026-11-15-en-v2"
   ],
   "stories": [
     {
-      "id": "history-1-gutenberg",
-      "headline": "Forty-two lines to a page: the book that started the press",
-      "summary": "The Gutenberg Bible, printed in the 1450s by Johannes Gutenberg in Mainz, was the earliest major book printed in Europe using mass-produced metal movable type. Most of its pages carry 42 lines, giving it the name 42-line Bible, and a complete copy has 1,288 pages, usually bound in two volumes. Of the 158 or 180 copies originally printed, 49 survive in at least substantial portion.",
+      "id": "2026-11-15-1",
+      "headline": "The Philippines wins the first Eurovision Song Contest Asia",
+      "summary": "The first Eurovision Song Contest Asia was held on 14 November at the One Bangkok Forum in Bangkok, with broadcasters from 11 countries taking part. The Philippines won with \"Sobra-Sobra\", performed by Carmelle, topping both the jury vote and the online vote. Thailand, Vietnam, Malaysia and Laos completed the top five.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+      "publishedAt": "2026-11-14"
     },
     {
-      "id": "history-1-pyramid",
-      "headline": "The tallest thing on Earth for 3,700 years",
-      "summary": "The Great Pyramid of Giza was built around 2600 BC, over about 26 years, as the tomb of the pharaoh Khufu. Initially standing at 146.6 metres, it was the world's tallest human-made structure for more than 3,700 years. Over time most of its smooth white limestone casing was removed, lowering it to the current 138.5 metres.",
+      "id": "2026-11-15-2",
+      "headline": "Italy fines Meta over the Facebook app on Android",
+      "summary": "Italy's data protection authority has fined Meta €805 million, or US$887 million. It found that the Facebook Android app had access to users' photos and videos without specific consent or disclosure.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+      "publishedAt": "2026-11-14"
     },
     {
-      "id": "history-1-machu",
-      "headline": "A citadel on a ridge above the Urubamba",
-      "summary": "Machu Picchu is a 15th-century Inca citadel on a mountain ridge at 2,430 metres in southern Peru, about 80 km north-west of Cusco, above the Urubamba River. Estimated to have been built around 1450, it is believed to have served as an estate for the Inca emperor Pachacuti, and it was abandoned roughly a century later.",
+      "id": "2026-11-15-3",
+      "headline": "Canada finishes free-trade talks with the Philippines",
+      "summary": "Canada has concluded negotiations on a free-trade agreement with the Philippines, the Canadian prime minister Mark Carney announced. Signing is expected in 2027. The agreement would eliminate more than 90% of tariff lines.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+      "publishedAt": "2026-11-14"
+    },
+    {
+      "id": "2026-11-15-4",
+      "headline": "A new icy world beyond Pluto may be a dwarf planet",
+      "summary": "Astronomers have found an enormous icy world beyond Pluto that could become the sixth officially recognised dwarf planet in the solar system. The object, named 2026 ED138 for now, was picked out in observations from the Simonyi Survey Telescope at the Vera C. Rubin Observatory. It lies about 46 astronomical units from the Sun, where Pluto orbits at about 40.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "publishedAt": "2026-11-14"
     }
   ],
   "seeds": {
-    "history-1-gutenberg": [
+    "2026-11-15-1": [
       "quiz:1",
       "quiz:4",
-      "letters",
-      "crossword:1 Down"
+      "letters"
     ],
-    "history-1-pyramid": [
-      "quiz:2",
+    "2026-11-15-2": [
+      "quiz:2"
+    ],
+    "2026-11-15-3": [
       "quiz:3",
-      "word"
+      "crossword:3 Down"
     ],
-    "history-1-machu": [
-      "quiz:5"
+    "2026-11-15-4": [
+      "quiz:5",
+      "word",
+      "crossword:5 Across"
     ]
-  }
+  },
+  "publishedAt": "2026-11-15T02:24:45.626789Z"
 }

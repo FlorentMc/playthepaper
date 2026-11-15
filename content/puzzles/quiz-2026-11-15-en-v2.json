@@ -1,0 +1,131 @@
+{
+  "id": "quiz-2026-11-15-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-15",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The first Eurovision Song Contest Asia, a regional version of the European song contest, was staged in Bangkok on 14 November.",
+        "prompt": "Which country won it?",
+        "options": [
+          "Malaysia",
+          "Thailand",
+          "The Philippines",
+          "Vietnam"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-15-1"
+      },
+      {
+        "lead": "A European data protection authority has fined Meta €805 million after finding that the Facebook app on Android could reach users' photos and videos without clear consent.",
+        "prompt": "Which country's authority imposed the fine?",
+        "options": [
+          "France",
+          "Germany",
+          "Ireland",
+          "Italy"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-15-2"
+      },
+      {
+        "lead": "Negotiations on a free-trade agreement with the Philippines have concluded, with signing expected in 2027 and more than 90% of tariff lines to go.",
+        "prompt": "Which country concluded the agreement with the Philippines?",
+        "options": [
+          "Australia",
+          "Canada",
+          "Japan",
+          "South Korea"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-15-3"
+      },
+      {
+        "lead": "The contest was held at the One Bangkok Forum under licence from the European Broadcasting Union, and most entries were chosen in national finals.",
+        "prompt": "How many countries' broadcasters took part?",
+        "options": [
+          "Seven",
+          "Eleven",
+          "Nineteen",
+          "Twenty-six"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-15-1"
+      },
+      {
+        "lead": "Astronomers have picked out a large icy object beyond Neptune that may become the solar system's sixth dwarf planet. Pluto orbits at an average distance of about 40 astronomical units from the Sun.",
+        "prompt": "How far from the Sun does the new object currently lie?",
+        "options": [
+          "About 14 astronomical units",
+          "About 26 astronomical units",
+          "About 46 astronomical units",
+          "About 96 astronomical units"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-15-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      3,
+      1,
+      1,
+      2
+    ],
+    "explanations": [
+      "The Philippines won with \"Sobra-Sobra\", performed by Carmelle. It topped both the jury vote and the online vote.",
+      "Italy's data protection authority imposed the fine, worth US$887 million. It found that the Facebook Android app had access to photos and videos without specific consent or disclosure.",
+      "Canada concluded the talks, announced by prime minister Mark Carney. The agreement would eliminate more than 90% of tariff lines, with signing expected in 2027.",
+      "Broadcasters from 11 countries took part in the inaugural edition. It was held on 14 November 2026 at the One Bangkok Forum in Bangkok.",
+      "The object lies approximately 46 astronomical units from the Sun. Pluto, by comparison, has an average orbital distance of about 40 au."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+      "excerpt": "The winner was the Philippines with the song \"Sobra-Sobra\", performed by Carmelle and written by Gianina Camille del Rosario and Mart Sam Emmanuel Olavides. The Philippines won both the jury and online vote, with Thailand, Vietnam, Malaysia, and Laos completing the top five."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+      "excerpt": "On 11 September 2026, broadcasters from 11 countries were announced to be participating in the inaugural edition."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_Asia",
+      "excerpt": "On 31 March 2026, the EBU, Voxovation, and S2O Productions announced that the inaugural edition of the contest would be held on 14 November 2026 in Bangkok, Thailand; the venue was confirmed to be One Bangkok Forum on 21 September."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+      "excerpt": "The Italian Data Protection Authority fines American technology company Meta for €805 million (US$887 million) after it was found that the Facebook Android app had access to users' photos and videos without specific consent or disclosure."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+      "excerpt": "Canadian prime minister Mark Carney announces that negotiations for a free-trade agreement (FTA) with the Philippines have concluded, with signing expected in 2027. The FTA would eliminate more than 90% of tariff lines."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "excerpt": "An enormous icy world discovered beyond Pluto could soon become the sixth officially recognized dwarf planet in our solar system."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "excerpt": "ED138 currently lies approximately 46 astronomical units (au) from the Sun. One astronomical unit represents the average distance separating Earth and the Sun. By comparison, Pluto's average orbital distance is about 40 au."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "excerpt": "The object, temporarily named 2026 ED138, was identified by an astronomer analyzing observations from the Simonyi Survey Telescope at the NSF-DOE Vera C. Rubin Observatory."
+    }
+  ]
+}

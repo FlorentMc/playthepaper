@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-15-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-15",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a new icy world beyond Pluto."
+  },
+  "reveal": {
+    "answer": "PLANET",
+    "storyId": "2026-11-15-4",
+    "excerpt": "An enormous icy world discovered beyond Pluto could soon become the sixth officially recognized dwarf planet in our solar system."
+  },
+  "storyId": "2026-11-15-4"
+}
