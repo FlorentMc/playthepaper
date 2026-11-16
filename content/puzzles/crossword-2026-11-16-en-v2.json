@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-16-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Gave food to"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Fur wrap"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Rider's mount"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "External"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Be nosy"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Four tens"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Or ___"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Doe or stag"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Buy things"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Golf's European circuit, which ended its season in Dubai",
+          "storyId": "2026-11-16-1"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FED",
+      "STOLE",
+      "HORSE",
+      "OUTER",
+      "PRY##"
+    ],
+    "seeded": [
+      {
+        "label": "5 Down",
+        "storyId": "2026-11-16-1",
+        "excerpt": "In golf, Rory McIlroy equals Colin Montgomerie's record for the most Harry Vardon Trophies after winning his eighth Race to Dubai title, which McIlroy claimed after finishing second at the DP World Tour Championship."
+      }
+    ]
+  },
+  "storyId": "2026-11-16-1"
+}

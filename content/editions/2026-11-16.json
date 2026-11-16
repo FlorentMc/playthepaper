@@ -1,57 +1,68 @@
 {
   "date": "2026-11-16",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-16-en-v1",
+    "word-2026-11-16-en-v2",
     "sudoku-2026-11-16-en-easy-v1",
     "sudoku-2026-11-16-en-medium-v1",
     "sudoku-2026-11-16-en-hard-v1",
-    "letters-2026-11-16-en-v1",
-    "crossword-2026-11-16-en-v1",
-    "quiz-2026-11-16-en-v1"
+    "letters-2026-11-16-en-v2",
+    "crossword-2026-11-16-en-v2",
+    "quiz-2026-11-16-en-v2"
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-11-16-1",
+      "headline": "McIlroy equals a golf record with an eighth Race to Dubai",
+      "summary": "Rory McIlroy has won the Race to Dubai for the eighth time, equalling Colin Montgomerie's record for the most Harry Vardon Trophies. He claimed the season-long title after finishing second at the DP World Tour Championship.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-11-16-2",
+      "headline": "Australia win a fourth straight women's rugby league World Cup",
+      "summary": "Australia have won the Women's Rugby League World Cup for the fourth time in a row. They defeated New Zealand 34–10 in the final in Brisbane.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
+      "id": "2026-11-16-3",
+      "headline": "Cape Verde returns José Maria Neves for a second term",
+      "summary": "Presidential elections were held in Cape Verde on 15 November 2026. The incumbent, José Maria Neves, was re-elected to a second consecutive term in the first round, against Joana Rosa. Cape Verde is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "2026-11-16-4",
+      "headline": "A dead star pulses every eight minutes beside a Sun-like companion",
+      "summary": "Astronomers have found a dead star sending out radio pulses every eight minutes while orbiting a Sun-like star more than 5,000 light-years away. It is the first time such signals have been identified in a system where a white dwarf orbits a Sun-like star. The discovery was made by researchers at the Curtin University branch of the International Centre for Radio Astronomy Research.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "publishedAt": "2026-11-15"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-11-16-1": [
       "quiz:1",
-      "quiz:5",
-      "crossword:1 Down"
+      "letters",
+      "crossword:5 Down"
     ],
-    "nature-1-falls": [
+    "2026-11-16-2": [
       "quiz:2",
-      "quiz:4",
-      "letters"
+      "quiz:4"
     ],
-    "nature-1-galapagos": [
-      "quiz:3",
+    "2026-11-16-3": [
+      "quiz:3"
+    ],
+    "2026-11-16-4": [
+      "quiz:5",
       "word"
     ]
-  }
+  },
+  "publishedAt": "2026-11-16T02:23:35.951233Z"
 }

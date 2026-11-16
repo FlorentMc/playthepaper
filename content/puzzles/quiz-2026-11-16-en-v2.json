@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-11-16-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-16",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Golf's European tour closed its season with the DP World Tour Championship, which settled the season-long Race to Dubai.",
+        "prompt": "Who won the Race to Dubai for the eighth time?",
+        "options": [
+          "Jon Rahm",
+          "Rory McIlroy",
+          "Tommy Fleetwood",
+          "Viktor Hovland"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-16-1"
+      },
+      {
+        "lead": "The final of the Women's Rugby League World Cup was played in Brisbane, where New Zealand were beaten 34–10.",
+        "prompt": "Which country won the title?",
+        "options": [
+          "Australia",
+          "England",
+          "New Zealand",
+          "Samoa"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-16-2"
+      },
+      {
+        "lead": "An archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa, held a presidential election on 15 November 2026, and the incumbent, José Maria Neves, was re-elected in the first round.",
+        "prompt": "Which country was it?",
+        "options": [
+          "Cape Verde",
+          "Comoros",
+          "São Tomé and Príncipe",
+          "Seychelles"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-16-3"
+      },
+      {
+        "lead": "Australia beat New Zealand in the Brisbane final to take the women's rugby league World Cup again.",
+        "prompt": "How many World Cup titles in a row does that make for Australia?",
+        "options": [
+          "Second",
+          "Third",
+          "Fourth",
+          "Fifth"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-16-2"
+      },
+      {
+        "lead": "Astronomers have found a dead star sending radio pulses as it orbits a Sun-like star more than 5,000 light-years away. The pulses arrive on a strict timetable.",
+        "prompt": "How often do the pulses arrive?",
+        "options": [
+          "Every eight seconds",
+          "Every eight minutes",
+          "Every eight hours",
+          "Every eight days"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-16-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "explanations": [
+      "Rory McIlroy won his eighth Race to Dubai title. That equals Colin Montgomerie's record for the most Harry Vardon Trophies, and McIlroy sealed it by finishing second at the DP World Tour Championship.",
+      "Australia won the final 34–10 in Brisbane. It was the country's fourth consecutive World Cup title in women's rugby league.",
+      "The country is Cape Verde, where José Maria Neves was re-elected in the first round against Joana Rosa. It is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa.",
+      "It was Australia's fourth consecutive World Cup title. New Zealand were defeated 34–10 in the final in Brisbane.",
+      "The pulses arrive every eight minutes. They come from a dead star orbiting a Sun-like star more than 5,000 light-years away, the first time such signals have been found in that kind of pair."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "excerpt": "In golf, Rory McIlroy equals Colin Montgomerie's record for the most Harry Vardon Trophies after winning his eighth Race to Dubai title, which McIlroy claimed after finishing second at the DP World Tour Championship."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "excerpt": "In women's rugby league, Australia wins its fourth consecutive World Cup title after defeating New Zealand 34–10 in the final in Brisbane."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+      "excerpt": "Presidential elections were held in Cape Verde on 15 November 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+      "excerpt": "Incumbent president and PAICV candidate José Maria Neves was re-elected to a second consecutive term in the first round."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cape_Verdean_presidential_election",
+      "excerpt": "Incumbent president José Maria Neves won a second consecutive term against Joana Rosa."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cape_Verde",
+      "excerpt": "Cape Verde, also referred to in English by its Portuguese name Cabo Verde, and known officially as the Republic of Cabo Verde, is an archipelagic country in the eastern Atlantic Ocean, off the coast of West Africa."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "excerpt": "Astronomers have discovered a dead star sending out mysterious radio pulses every eight minutes while orbiting a Sun-like star more than 5,000 light-years away."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "excerpt": "This marks the first time such signals have been identified in a system where a white dwarf orbits a Sun-like star."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "excerpt": "The discovery was made by researchers at the Curtin University branch of the International Centre for Radio Astronomy Research (ICRAR)."
+    }
+  ]
+}
