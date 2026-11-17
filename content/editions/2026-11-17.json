@@ -1,57 +1,69 @@
 {
   "date": "2026-11-17",
-  "kind": "evergreen",
-  "label": "Evergreen · Science",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-17-en-v1",
+    "word-2026-11-17-en-v2",
     "sudoku-2026-11-17-en-easy-v1",
     "sudoku-2026-11-17-en-medium-v1",
     "sudoku-2026-11-17-en-hard-v1",
-    "letters-2026-11-17-en-v1",
-    "crossword-2026-11-17-en-v1",
-    "quiz-2026-11-17-en-v1"
+    "letters-2026-11-17-en-v2",
+    "crossword-2026-11-17-en-v2",
+    "quiz-2026-11-17-en-v2"
   ],
   "stories": [
     {
-      "id": "science-1-light",
-      "headline": "Fast, but never instant: what the speed of light really means",
-      "summary": "Light in a vacuum travels at exactly 299,792,458 metres per second, roughly a billion kilometres an hour. The figure is exact because, since 1983, the metre itself has been defined as the distance light travels in a vacuum in 1/299,792,458 of a second. Even at that speed, light from the Sun takes 8 minutes 19 seconds to reach the Earth.",
+      "id": "2026-11-17-1",
+      "headline": "England end Spain's record 43-match unbeaten run",
+      "summary": "England beat Spain 3–2 in the group stage of UEFA Nations League A. The result ended Spain's 43-match unbeaten streak, the longest ever put together by a national team.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Speed_of_light",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "science-1-bones",
-      "headline": "Counting the bones of the adult skeleton",
-      "summary": "A newborn has around 270 bones. Many fuse together during growth, so an adult is left with around 206: 80 in the axial skeleton of skull, spine and rib cage, and 126 in the limbs and their girdles.",
+      "id": "2026-11-17-2",
+      "headline": "Mirra Andreeva wins the WTA Finals on her debut",
+      "summary": "Mirra Andreeva beat Elina Svitolina 7–5, 6–3 to win the women's singles title at the WTA Finals, played on outdoor hard courts at Indian Wells, California. She was the youngest champion since Maria Sharapova in 2004, and the first to take the title on her tournament debut since Ashleigh Barty in 2019.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Human_skeleton",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "science-1-cern",
-      "headline": "The laboratory beneath the Franco-Swiss border",
-      "summary": "CERN, established in 1954, is based in Meyrin, a western suburb of Geneva, on the France–Switzerland border. Its Large Hadron Collider runs through a 27 km circular tunnel located 100 metres underground. In 1989 the World Wide Web was invented there by Tim Berners-Lee.",
+      "id": "2026-11-17-3",
+      "headline": "A fanfiction archive comes back after weeks offline",
+      "summary": "Archive of Our Own, a nonprofit repository for fanfiction, went down on 29 October 2026 after a security incident. Its volunteers warned that the work might take two to four weeks. The site was restored to limited functionality 17 days after the attack.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CERN",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "2026-11-17-4",
+      "headline": "One deep-sea rock sheltered 245 tiny animals",
+      "summary": "Researchers opened 244 fist-sized rocks called polymetallic nodules, gathered from the Clarion-Clipperton Zone in the central Pacific Ocean, and found 4,139 small animals in their cracks. Each nodule held 17 animals on average, but one held 245. The nodules are made largely of iron and manganese oxides and grow by only a few millimetres over a million years.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm",
+      "publishedAt": "2026-11-16"
     }
   ],
   "seeds": {
-    "science-1-light": [
+    "2026-11-17-1": [
       "quiz:1",
+      "crossword:2 Down"
+    ],
+    "2026-11-17-2": [
       "quiz:2",
       "word"
     ],
-    "science-1-bones": [
+    "2026-11-17-3": [
       "quiz:3",
       "quiz:4",
-      "crossword:1 Down"
+      "letters",
+      "crossword:4 Down"
     ],
-    "science-1-cern": [
-      "quiz:5",
-      "letters"
+    "2026-11-17-4": [
+      "quiz:5"
     ]
-  }
+  },
+  "publishedAt": "2026-11-17T02:25:24.062454Z"
 }

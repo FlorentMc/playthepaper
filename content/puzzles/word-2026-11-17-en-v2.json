@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-17-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "T",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a title won at Indian Wells."
+  },
+  "reveal": {
+    "answer": "TENNIS",
+    "storyId": "2026-11-17-2",
+    "excerpt": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title."
+  },
+  "storyId": "2026-11-17-2"
+}

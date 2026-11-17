@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-11-17-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-17",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Letter after zeta"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Above"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Talk"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Curly hairdo"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Some, no matter which"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Each"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Spain's unbeaten run was the longest by a national one of these",
+          "storyId": "2026-11-17-1"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Vessel in the flood story"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "The archive's code is this kind of source, free for anyone to read",
+          "storyId": "2026-11-17-3"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Resort with hot springs"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##ETA",
+      "#OVER",
+      "SPEAK",
+      "PERM#",
+      "ANY##"
+    ],
+    "seeded": [
+      {
+        "label": "2 Down",
+        "storyId": "2026-11-17-1",
+        "excerpt": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team."
+      },
+      {
+        "label": "4 Down",
+        "storyId": "2026-11-17-3",
+        "excerpt": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works."
+      }
+    ]
+  },
+  "storyId": "2026-11-17-1"
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "2026-11-17",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-17-1",
+      "headline": "England end Spain's record 43-match unbeaten run",
+      "summary": "England beat Spain 3–2 in the group stage of UEFA Nations League A. The result ended Spain's 43-match unbeaten streak, the longest ever put together by a national team.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "2026-11-17-2",
+      "headline": "Mirra Andreeva wins the WTA Finals on her debut",
+      "summary": "Mirra Andreeva beat Elina Svitolina 7–5, 6–3 to win the women's singles title at the WTA Finals, played on outdoor hard courts at Indian Wells, California. She was the youngest champion since Maria Sharapova in 2004, and the first to take the title on her tournament debut since Ashleigh Barty in 2019.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "2026-11-17-3",
+      "headline": "A fanfiction archive comes back after weeks offline",
+      "summary": "Archive of Our Own, a nonprofit repository for fanfiction, went down on 29 October 2026 after a security incident. Its volunteers warned that the work might take two to four weeks. The site was restored to limited functionality 17 days after the attack.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "2026-11-17-4",
+      "headline": "One deep-sea rock sheltered 245 tiny animals",
+      "summary": "Researchers opened 244 fist-sized rocks called polymetallic nodules, gathered from the Clarion-Clipperton Zone in the central Pacific Ocean, and found 4,139 small animals in their cracks. Each nodule held 17 animals on average, but one held 245. The nodules are made largely of iron and manganese oxides and grow by only a few millimetres over a million years.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm",
+      "publishedAt": "2026-11-16"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "England travelled to Spain for a group-stage match in UEFA Nations League A. Spain arrived on the longest unbeaten run ever put together by a national team.",
+          "prompt": "What was the result?",
+          "options": [
+            "England won 3–2",
+            "England won 2–1",
+            "A 2–2 draw",
+            "Spain won 3–1"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-17-1"
+        },
+        {
+          "lead": "The WTA Finals closed the women's tennis season on outdoor hard courts at Indian Wells, California.",
+          "prompt": "Who won the singles title?",
+          "options": [
+            "Mirra Andreeva",
+            "Elina Svitolina",
+            "Aryna Sabalenka",
+            "Coco Gauff"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-17-2"
+        },
+        {
+          "lead": "Archive of Our Own, known as AO3, went down on 29 October 2026 after a security incident and stayed offline for more than two weeks. It is run by a nonprofit called the Organization for Transformative Works.",
+          "prompt": "What does the site hold?",
+          "options": [
+            "Fanfiction",
+            "Court records",
+            "Scientific papers",
+            "Recipes"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-17-3"
+        },
+        {
+          "lead": "The archive sorts its holdings into more than 82,900 fandoms, and it has been collecting them since 2008.",
+          "prompt": "How many works did it hold in September 2026?",
+          "options": [
+            "More than 2 million",
+            "More than 6 million",
+            "More than 18 million",
+            "More than 40 million"
+          ],
+          "level": "medium",
+          "storyId": "2026-11-17-3"
+        },
+        {
+          "lead": "Scientists in the central Pacific split open 244 fist-sized rocks from the deep seabed, called polymetallic nodules, and counted the tiny animals living in their cracks. Most of the rocks held only a handful.",
+          "prompt": "How many animals were inside the most crowded single nodule?",
+          "options": [
+            "45",
+            "105",
+            "245",
+            "605"
+          ],
+          "level": "hard",
+          "storyId": "2026-11-17-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "explanations": [
+        "England won the match 3–2. The defeat ended Spain's 43-match unbeaten streak, the longest by a national team.",
+        "Mirra Andreeva won, beating Elina Svitolina 7–5, 6–3 in the final. She was the youngest WTA Finals champion since Maria Sharapova in 2004.",
+        "The site is a nonprofit, open-source repository for fanfiction and other fanworks. It was restored to limited functionality 17 days after being targeted in a cyberattack.",
+        "The archive held over 18,470,000 works, spread across more than 82,900 fandoms. It was created in 2008 by the Organization for Transformative Works.",
+        "One nodule sheltered 245 animals. Across all 244 nodules the team counted 4,139 animals, an average of 17 in each."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+        "excerpt": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles",
+        "excerpt": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_WTA_Finals_%E2%80%93_Singles",
+        "excerpt": "Andreeva was the youngest player to win the WTA Finals since Maria Sharapova in 2004, the first to win the title without losing a set since Iga Świątek in 2023, and first to win the title on tournament debut since Ashleigh Barty in 2019."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+        "excerpt": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+        "excerpt": "As of 18 September 2026, Archive of Our Own hosts over 18,470,000 works in over 82,900 fandoms, including those related to real people (RPF)."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
+        "excerpt": "On 29 October 2026, following a security incident, the site went down for a period of maintenance that was originally announced to last twelve hours, but was extended later that day to two to four weeks."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+        "excerpt": "Non-profit fanfiction repository website Archive of Our Own is restored to limited functionality 17 days after being targeted in a cyberattack."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm",
+        "excerpt": "Across 244 nodules, the team identified 4,139 individual animals. Each nodule contained an average of 17 animals, but one particularly crowded specimen sheltered an astonishing 245 individuals."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm",
+        "excerpt": "To explore these hidden habitats, the research team collected nodules from the Clarion-Clipperton Zone, a vast region of the central Pacific Ocean."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261114202133.htm",
+        "excerpt": "Polymetallic nodules are dark, roughly fist-sized formations made largely of iron and manganese oxides. They grow at an extraordinarily slow pace, often adding only a few millimeters over a million years."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "TENNIS",
+      "storyId": "2026-11-17-2",
+      "teaser": "Today's word comes from a story about a title won at Indian Wells.",
+      "excerpt": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title."
+    },
+    "letters": {
+      "pangram": "ARCHIVE",
+      "storyId": "2026-11-17-3",
+      "teaser": "Today's letters come from a story about a fanfiction site that is back online.",
+      "excerpt": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works."
+    },
+    "crossword": [
+      {
+        "answer": "TEAM",
+        "clue": "Spain's unbeaten run was the longest by a national one of these",
+        "storyId": "2026-11-17-1",
+        "excerpt": "In association football, England defeats Spain 3–2 in the group stage of UEFA Nations League A to end Spain's 43-match unbeaten streak, the longest by a national team."
+      },
+      {
+        "answer": "HARD",
+        "clue": "The kind of court the WTA Finals were played on, not clay or grass",
+        "storyId": "2026-11-17-2",
+        "excerpt": "At the 2026 WTA Finals, Mirra Andreeva defeated Elina Svitolina in the final, 7–5, 6–3 to win the women's singles tennis title. The tournament was played on outdoor hard courts at Indian Wells, California, US."
+      },
+      {
+        "answer": "OPEN",
+        "clue": "The archive's code is this kind of source, free for anyone to read",
+        "storyId": "2026-11-17-3",
+        "excerpt": "Archive of Our Own (AO3) is a nonprofit, open-source repository for fanfiction (fanfic) and other fanworks contributed by users. The site was created in 2008 by the Organization for Transformative Works."
+      },
+      {
+        "answer": "IRON",
+        "clue": "Metal making up much of the nodules, alongside manganese",
+        "storyId": "2026-11-17-4",
+        "excerpt": "Polymetallic nodules are dark, roughly fist-sized formations made largely of iron and manganese oxides. They grow at an extraordinarily slow pace, often adding only a few millimeters over a million years."
+      }
+    ]
+  }
+}
