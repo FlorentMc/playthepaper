@@ -1,0 +1,136 @@
+{
+  "id": "quiz-2026-11-18-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Grey Cup decides the Canadian Football League title. This year's game was played at McMahon Stadium in Calgary, where the East Division champion Montreal Alouettes met the West Division champions.",
+        "prompt": "Which team won?",
+        "options": [
+          "Edmonton Elks",
+          "Montreal Alouettes",
+          "Toronto Argonauts",
+          "Calgary Stampeders"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-18-1"
+      },
+      {
+        "lead": "Several of Apple's services stopped working for a time, among them Apple Pay, iCloud, the App Store and AppleCare. A spokesperson for the company ruled out a cyberattack.",
+        "prompt": "What did Apple say had caused the trouble?",
+        "options": [
+          "An internal update",
+          "A power cut at a data centre",
+          "A cut undersea cable",
+          "An expired security certificate"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-18-2"
+      },
+      {
+        "lead": "The Italian bank UniCredit has been working towards a takeover of a large German lender. The European Commission and the United States Federal Reserve have now approved it.",
+        "prompt": "Which bank is UniCredit buying?",
+        "options": [
+          "Commerzbank",
+          "Deutsche Bank",
+          "Banco Santander",
+          "BNP Paribas"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-18-3"
+      },
+      {
+        "lead": "The European Commission granted the takeover unconditional antitrust clearance, and the United States Federal Reserve approved it as well. The European Central Bank had already approved it in October.",
+        "prompt": "How much is the takeover worth?",
+        "options": [
+          "€4.5 billion",
+          "€45 billion",
+          "€145 billion",
+          "€450 billion"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-18-3"
+      },
+      {
+        "lead": "The Hera spacecraft is studying Didymos and its smaller companion Dimorphos, the asteroid pair that NASA's DART spacecraft crashed into in 2022. Hera has sent back a view of a side of Didymos that scientists had not previously seen in such detail.",
+        "prompt": "From what distance was that image taken?",
+        "options": [
+          "6 km",
+          "60 km",
+          "600 km",
+          "6,000 km"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-18-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "explanations": [
+      "The Edmonton Elks won, beating the Montreal Alouettes 37–30. It was their 15th Canadian Football League title and their first Grey Cup since 2015.",
+      "Apple put the problems down to an internal update. Its spokesperson ruled out a cyberattack.",
+      "UniCredit is buying Germany's Commerzbank. The European Commission granted the deal unconditional antitrust clearance.",
+      "The proposed acquisition is worth €45 billion, or US$49 billion. The European Central Bank approved it in October, before the European Commission and the United States Federal Reserve.",
+      "The image was taken from a distance of 60 km. Hera's Asteroid Framing Camera captures images in black and white."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+      "excerpt": "In Canadian football, the Edmonton Elks win their 15th Canadian Football League title after beating the Montreal Alouettes 37–30 in the Grey Cup. They previously won in 2015."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/113th_Grey_Cup",
+      "excerpt": "The game was played on November 15, 2026, at McMahon Stadium in Calgary, Alberta. It was the sixth time that Calgary hosted the Grey Cup, with the previous being in 2019."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/113th_Grey_Cup",
+      "excerpt": "The West Division champion Edmonton Elks defeated the East Division champion Montreal Alouettes 37–30 to win their first Grey Cup since 2015."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "excerpt": "American technology company Apple experiences an outage with several of its services, including Apple Pay, iCloud, the App Store, and AppleCare. The company's spokesperson attributed the problems to an internal update and rules out a cyberattack."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
+      "excerpt": "The European Commission (EC) and the United States Federal Reserve approve Italian bank UniCredit's proposed €45 billion (US$49 billion) acquisition of Germany's Commerzbank, following the European Central Bank's approval in October."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
+      "excerpt": "The EC grants unconditional antitrust clearance."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+      "excerpt": "On September 26, 2022, NASA's DART spacecraft deliberately crashed into Dimorphos, the smaller of the two asteroids in the system. Hera's latest image provides a look at its larger companion, Didymos, from a side that scientists had not previously seen in such detail."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+      "excerpt": "The image was taken from a distance of 60 km using Hera's monochromatic Asteroid Framing Camera, which captures images in black and white."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+      "excerpt": "Although most of Dimorphos, which measures 151 m across, is concealed in shadow, the much larger Didymos, with a diameter of 780 m, is clearly visible."
+    }
+  ]
+}

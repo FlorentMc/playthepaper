@@ -1,0 +1,62 @@
+{
+  "id": "letters-2026-11-18-en-v2",
+  "game": "letters",
+  "editionDate": "2026-11-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-en50k-2026-09",
+  "payload": {
+    "center": "D",
+    "outer": "AIMSTU",
+    "minLength": 4,
+    "teaser": "Today's letters come from a story about a championship game in Calgary."
+  },
+  "reveal": {
+    "answers": [
+      "ADDS",
+      "ADMIT",
+      "ADMITS",
+      "AIDS",
+      "AMID",
+      "AMIDST",
+      "AUDIT",
+      "DADA",
+      "DADS",
+      "DAIS",
+      "DAMS",
+      "DATA",
+      "DIDST",
+      "DISMISS",
+      "DISS",
+      "DUDS",
+      "DUMA",
+      "DUMAS",
+      "DUST",
+      "MADAM",
+      "MADS",
+      "MAID",
+      "MAIDS",
+      "MAUD",
+      "MIDST",
+      "SADISM",
+      "SADIST",
+      "SADISTS",
+      "SAID",
+      "STADIUM",
+      "STADIUMS",
+      "STUD",
+      "STUDS",
+      "SUDS",
+      "TIMID"
+    ],
+    "pangrams": [
+      "STADIUM",
+      "STADIUMS"
+    ],
+    "maxScore": 130,
+    "storyId": "2026-11-18-1",
+    "excerpt": "The game was played on November 15, 2026, at McMahon Stadium in Calgary, Alberta. It was the sixth time that Calgary hosted the Grey Cup, with the previous being in 2019."
+  },
+  "storyId": "2026-11-18-1"
+}

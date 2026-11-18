@@ -1,57 +1,68 @@
 {
   "date": "2026-11-18",
-  "kind": "evergreen",
-  "label": "Evergreen · Technology",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-18-en-v1",
+    "word-2026-11-18-en-v2",
     "sudoku-2026-11-18-en-easy-v1",
     "sudoku-2026-11-18-en-medium-v1",
     "sudoku-2026-11-18-en-hard-v1",
-    "letters-2026-11-18-en-v1",
-    "crossword-2026-11-18-en-v1",
-    "quiz-2026-11-18-en-v1"
+    "letters-2026-11-18-en-v2",
+    "crossword-2026-11-18-en-v2",
+    "quiz-2026-11-18-en-v2"
   ],
   "stories": [
     {
-      "id": "technology-1-flyer",
-      "headline": "Twelve seconds that began the age of flight",
-      "summary": "On 17 December 1903 the Wright Flyer made the first sustained flight by a piloted, powered and controlled heavier-than-air aircraft, near Kitty Hawk, North Carolina. The brothers flew it four times that day: Orville's first flight lasted 12 seconds and covered 37 metres, shorter than the wingspan of a Boeing 747, and the fourth, by Wilbur, stayed up for 59 seconds and covered 260 metres. Unoccupied, the machine weighed 274 kg.",
+      "id": "2026-11-18-1",
+      "headline": "Edmonton Elks win a 15th Grey Cup",
+      "summary": "The Edmonton Elks beat the Montreal Alouettes 37–30 to take the Canadian Football League title. It was their 15th Grey Cup and their first since 2015. The game was played at McMahon Stadium in Calgary, the sixth time the city has hosted the final.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/113th_Grey_Cup",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "technology-1-chip",
-      "headline": "The first microprocessor you could buy",
-      "summary": "The Intel 4004, released on 15 November 1971, was the first in a long line of Intel central processing units. Priced at 60 US dollars, the chip packed 2,300 transistors and ran at a maximum clock rate of 740 kHz.",
+      "id": "2026-11-18-2",
+      "headline": "An outage hits Apple Pay, iCloud and the App Store",
+      "summary": "Several Apple services stopped working, among them Apple Pay, iCloud, the App Store and AppleCare. A spokesperson for the company put the problems down to an internal update. The same spokesperson ruled out a cyberattack.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Intel_4004",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "publishedAt": "2026-11-17"
     },
     {
-      "id": "technology-1-canal",
-      "headline": "A staircase of water across an isthmus",
-      "summary": "The Panama Canal is an artificial 82-kilometre waterway that cuts across the narrowest point of the Isthmus of Panama to connect the Caribbean Sea with the Pacific Ocean. It was formally opened on 15 August 1914, with the passage of the cargo ship SS Ancon. Locks at each end lift ships up to Gatun Lake, 26 metres above sea level, and lower them again on the other side.",
+      "id": "2026-11-18-3",
+      "headline": "UniCredit's takeover wins approval in Europe and the US",
+      "summary": "The European Commission and the United States Federal Reserve approved the Italian bank UniCredit's proposed €45 billion acquisition of Germany's Commerzbank. The European Central Bank had given its approval in October. The Commission granted the deal unconditional antitrust clearance.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_16",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "2026-11-18-4",
+      "headline": "Hera sends back a new side of an asteroid",
+      "summary": "The Hera spacecraft has returned an image of the asteroid Didymos from a side that scientists had not previously seen in such detail. It was taken from a distance of 60 km with a camera that works in black and white. Didymos has a diameter of 780 m, and its smaller companion Dimorphos, struck by NASA's DART spacecraft in 2022, measures 151 m across.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+      "publishedAt": "2026-11-16"
     }
   ],
   "seeds": {
-    "technology-1-flyer": [
+    "2026-11-18-1": [
       "quiz:1",
-      "quiz:2",
-      "word"
-    ],
-    "technology-1-canal": [
-      "quiz:3"
-    ],
-    "technology-1-chip": [
-      "quiz:4",
-      "quiz:5",
       "letters",
-      "crossword:2 Down"
+      "crossword:5 Down"
+    ],
+    "2026-11-18-2": [
+      "quiz:2"
+    ],
+    "2026-11-18-3": [
+      "quiz:3",
+      "quiz:4"
+    ],
+    "2026-11-18-4": [
+      "quiz:5",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-11-18T02:23:07.106963Z"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-18-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-18",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a spacecraft's close-up of an asteroid."
+  },
+  "reveal": {
+    "answer": "SHADOW",
+    "storyId": "2026-11-18-4",
+    "excerpt": "Although most of Dimorphos, which measures 151 m across, is concealed in shadow, the much larger Didymos, with a diameter of 780 m, is clearly visible."
+  },
+  "storyId": "2026-11-18-4"
+}
