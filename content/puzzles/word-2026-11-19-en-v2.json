@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-19-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-19",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "O",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a spacecraft passing a distance never passed before."
+  },
+  "reveal": {
+    "answer": "OBJECT",
+    "storyId": "2026-11-19-4",
+    "excerpt": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977."
+  },
+  "storyId": "2026-11-19-4"
+}

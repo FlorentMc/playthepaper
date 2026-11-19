@@ -1,0 +1,131 @@
+{
+  "id": "quiz-2026-11-19-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-19",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Alaska's United States Senate election was held on November 3, and the result is now known. The seat was held by the Republican incumbent Dan S. Sullivan.",
+        "prompt": "Who won the seat?",
+        "options": [
+          "Mary Peltola",
+          "Dan S. Sullivan",
+          "Lisa Murkowski",
+          "Mark Begich"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-19-1"
+      },
+      {
+        "lead": "Canada and China have agreed further tariff reductions, after talks held before the APEC summit in Shenzhen. The Canadian prime minister Mark Carney met China's leader.",
+        "prompt": "Who is that leader?",
+        "options": [
+          "Xi Jinping",
+          "Li Qiang",
+          "Wang Yi",
+          "Hu Jintao"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-19-2"
+      },
+      {
+        "lead": "The French president Emmanuel Macron made a state visit and established a strategic partnership with his hosts. The two countries signed agreements on defence, energy and technology cooperation.",
+        "prompt": "Which country did he visit?",
+        "options": [
+          "Malaysia",
+          "Indonesia",
+          "Thailand",
+          "Vietnam"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-19-3"
+      },
+      {
+        "lead": "China is reducing tariffs on a fixed value of Canadian exports, while Canada extends relief for Chinese steel and aluminium. The two sides agreed the cuts before the APEC summit in Shenzhen.",
+        "prompt": "How much in Canadian exports is covered by China's cut?",
+        "options": [
+          "C$4 million",
+          "C$40 million",
+          "C$400 million",
+          "C$4 billion"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-19-2"
+      },
+      {
+        "lead": "NASA's Voyager 1 has become the first man-made object to reach one light-day from Earth, the distance a particle of light can travel in 24 hours. The spacecraft launched in 1977.",
+        "prompt": "About how far is one light-day?",
+        "options": [
+          "About 1.6 billion miles",
+          "About 16 billion miles",
+          "About 160 billion miles",
+          "About 1.6 trillion miles"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-19-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    "explanations": [
+      "Mary Peltola won the seat, defeating the Republican incumbent Dan S. Sullivan. She is the first Alaska Native senator, and the first Democrat to win a Senate election in Alaska since 2008.",
+      "The Canadian prime minister met Xi Jinping, the Chinese leader. Their talks came before the APEC summit in Shenzhen.",
+      "Macron's state visit was to Malaysia. The two countries established a strategic partnership and signed agreements on defence, energy and technology cooperation.",
+      "China is reducing tariffs on C$400 million in Canadian exports. Canada, for its part, is extending relief for Chinese steel and aluminium.",
+      "One light-day is about 16 billion miles, or about 26 billion kilometres. Voyager 2 is not due to be one light-day from Earth until November 2035."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+      "excerpt": "The 2026 United States Senate election in Alaska was held on November 3, 2026, to elect a member of the United States Senate to represent the state of Alaska. Democratic former representative Mary Peltola defeated Republican incumbent Dan S. Sullivan."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
+      "excerpt": "Peltola is the first Alaska Native senator, and the first Democrat to win a U.S. Senate election in Alaska since 2008."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "excerpt": "Canada and China agree to further tariff reductions following talks between Canadian prime minister Mark Carney and Chinese leader Xi Jinping before the APEC summit in Shenzhen."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "excerpt": "China reduces tariffs on C$400 million (¥1.8 billion) in Canadian exports, while Canada extends relief for Chinese steel and aluminium."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+      "excerpt": "France and Malaysia establish a strategic partnership, signing agreements on defence, energy, and technology cooperation during French president Emmanuel Macron's state visit."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "excerpt": "NASA's space probe Voyager 1 reaches the distance of one light-day from Earth, being the first man-made object to reach that distance, after it launched in 1977."
+    },
+    {
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "excerpt": "That's the distance a particle of light can travel in 24 hours, equaling about 16 billion miles (about 26 billion kilometers), a point that Voyager 1 will reach on Wednesday, Nov. 18, 2026, at 5:16:07 a.m. EST."
+    },
+    {
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "excerpt": "Voyager 2 is on pace to be one light-day away from Earth in nine more years, in November 2035."
+    }
+  ]
+}
