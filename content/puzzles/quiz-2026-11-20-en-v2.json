@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-11-20-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "An 1890 painting by Vincent van Gogh, Blossoming Chestnut Trees, came up for auction at Sotheby's in New York City on 18 November. The sale set a new record for the artist.",
+        "prompt": "How much did the painting fetch, including fees?",
+        "options": [
+          "US$19.4 million",
+          "US$90.4 million",
+          "US$190.4 million",
+          "US$290.4 million"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-20-1"
+      },
+      {
+        "lead": "Bangladeshi wicketkeeper Litton Das set a world record for the most dismissals in a single Test innings, against South Africa in Johannesburg.",
+        "prompt": "How many dismissals did he make in that innings?",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-20-2"
+      },
+      {
+        "lead": "At the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting in Shenzhen, the Philippines signed its first free trade agreement with a Latin American country.",
+        "prompt": "Which country did the Philippines sign it with?",
+        "options": [
+          "Chile",
+          "Peru",
+          "Colombia",
+          "Mexico"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-20-3"
+      },
+      {
+        "lead": "An extinct whale named Scaphokogia huachafo has been described from a fossil skull. It lived during the Late Miocene, between 6.3 and 5.6 million years ago.",
+        "prompt": "About how long was it?",
+        "options": [
+          "About 0.7 metres",
+          "About 2.7 metres",
+          "About 7 metres",
+          "About 17 metres"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-20-4"
+      },
+      {
+        "lead": "The extinct whale Scaphokogia huachafo takes the second half of its name from a word in Peruvian Spanish. It was chosen for the extreme asymmetry of the animal's skull.",
+        "prompt": "What does the word huachafo describe?",
+        "options": [
+          "Something excessively flashy or tacky",
+          "Something unusually long and narrow",
+          "Something hidden deep underwater",
+          "Something newly discovered"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-20-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      3,
+      0,
+      1,
+      0
+    ],
+    "explanations": [
+      "The painting sold for US$190.4 million including fees, a record for Van Gogh. That surpassed the $117.2 million paid for his Orchard with Cypresses in 2022.",
+      "Das made eight dismissals in the innings, six catches and two stumpings. No wicket-keeper had taken that many in a single Test innings before.",
+      "The Philippines signed the agreement with Chile. It is the first free trade agreement the Philippines has made with a Latin American country.",
+      "The whale measured approximately 2.7 metres in length. It lived during the Late Miocene, between 6.3 and 5.6 million years ago.",
+      "Huachafo is Peruvian Spanish for something excessively flashy, bizarre, extravagant or even tacky. The name suits a skull with the most extreme facial asymmetry known in any whale or dolphin."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blossoming_Chestnut_Trees",
+      "excerpt": "Blossoming Chestnut Trees or Châtaigniers en fleurs is an 1890 painting by Vincent van Gogh. It was put up for auction at Sotheby's in New York City in November 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blossoming_Chestnut_Trees",
+      "excerpt": "On 18 November 2026, the work sold for US$190.4 million (including fees), setting a record for Van Gogh."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blossoming_Chestnut_Trees",
+      "excerpt": "Art dealer Bill Acquavella placed the winning bid of US$165 million before fees. At the time, the sale made it the fourth most expensive painting sold at auction."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "excerpt": "Vincent van Gogh's 1890 painting Blossoming Chestnut Trees sells for US$190.4 million at Sotheby's in New York City, United States, setting a new auction record for Van Gogh and surpassing the $117.2 million paid for Orchard with Cypresses (1888) in 2022."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+      "excerpt": "In Test cricket, Bangladeshi wicketkeeper Litton Das sets a world record for the most dismissals in a single Test innings, recording six catches and two stumpings against South Africa in Johannesburg."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladeshi_cricket_team_in_South_Africa_in_2026%E2%80%9327",
+      "excerpt": "Litton Das effected eight dismissals in the second innings of the match, breaking the record for the most dismissals by a wicket-keeper in a Test innings."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+      "excerpt": "The Philippines and Chile sign a free trade agreement as part of the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting in Shenzhen, China, marking the former's first such agreement with a Latin American country."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+      "excerpt": "Named Scaphokogia huachafo, the whale lived during the Late Miocene, between 6.3 and 5.6 million years ago, and measured approximately 2.7 meters in length."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+      "excerpt": "Its fossilized skull displays the most extreme facial asymmetry known in any whale or dolphin, and possibly in any mammal."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261118065528.htm",
+      "excerpt": "The word huachafo comes from Peruvian Spanish and is commonly used to describe something excessively flashy, bizarre, extravagant, or even tacky."
+    }
+  ]
+}

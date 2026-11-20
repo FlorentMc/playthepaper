@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-20-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-20",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "##...",
+      ".....",
+      "...##",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Haul behind"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 2,
+          "length": 3,
+          "clue": "Feel sorry about"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Warning"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 3,
+          "clue": "Look at"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Belonging to that man"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Blossoming chestnuts in the Van Gogh title",
+          "storyId": "2026-11-20-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "___ house"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Soaked"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Cigarette leftover"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 1,
+          "length": 3,
+          "clue": "Necklace of flowers"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##TOW",
+      "##RUE",
+      "ALERT",
+      "SEE##",
+      "HIS##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-11-20-1",
+        "excerpt": "Blossoming Chestnut Trees or Châtaigniers en fleurs is an 1890 painting by Vincent van Gogh. It was put up for auction at Sotheby's in New York City in November 2026."
+      }
+    ]
+  },
+  "storyId": "2026-11-20-1"
+}
