@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-21-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-21",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "L",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a record-breaking video game release."
+  },
+  "reveal": {
+    "answer": "LAUNCH",
+    "storyId": "2026-11-21-1",
+    "excerpt": "Grand Theft Auto VI sold 32.5 million preorder copies and generated US$3.79 billion within 24 hours of its release, making it the largest entertainment launch in history."
+  },
+  "storyId": "2026-11-21-1"
+}

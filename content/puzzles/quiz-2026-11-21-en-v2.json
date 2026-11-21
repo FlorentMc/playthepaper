@@ -1,0 +1,141 @@
+{
+  "id": "quiz-2026-11-21-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-21",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "Grand Theft Auto VI went on sale on 19 November 2026 for the PlayStation 5 and Xbox Series X/S. Within a day it had become the largest entertainment launch in history.",
+        "prompt": "How much did it generate in its first 24 hours?",
+        "options": [
+          "US$379 million",
+          "US$1.79 billion",
+          "US$3.79 billion",
+          "US$7.39 billion"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-21-1"
+      },
+      {
+        "lead": "A president resigned, and on 19 November 2026 the national parliament, known as the State Great Khural, voted 96 to 8 to relieve him of his presidential duties.",
+        "prompt": "Which country's president was this?",
+        "options": [
+          "Kazakhstan",
+          "Mongolia",
+          "Nepal",
+          "Uzbekistan"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-21-2"
+      },
+      {
+        "lead": "Grand Theft Auto VI sold 32.5 million preorder copies before it came out, and it was released for two consoles. About three-quarters of those preorders were for one of them.",
+        "prompt": "Which console took approximately 75% of the preorders?",
+        "options": [
+          "PlayStation 5",
+          "Nintendo Switch 2",
+          "Steam Deck",
+          "Xbox Series X/S"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-21-1"
+      },
+      {
+        "lead": "After the State Great Khural accepted the president's resignation, the parliament's speaker, Sandagiin Byambatsogt, took on the presidential duties as acting officeholder.",
+        "prompt": "By when must a new president be elected and inaugurated?",
+        "options": [
+          "Within one month",
+          "Within four months",
+          "Within one year",
+          "Within two years"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-21-2"
+      },
+      {
+        "lead": "A University of Arkansas team fused simulated lunar regolith into interlocking blocks using a relatively low-power light source, and without adding a binding agent.",
+        "prompt": "Which 3D printing technique did they use?",
+        "options": [
+          "Binder jetting",
+          "Fused deposition modelling",
+          "Laser powder bed fusion",
+          "Stereolithography"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-21-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    "explanations": [
+      "The game generated US$3.79 billion within 24 hours of its release. That made it the largest entertainment launch in history.",
+      "It was Mongolia's president, Ukhnaagiin Khürelsükh, whose resignation the State Great Khural accepted on 19 November 2026. He had served as the country's sixth president from 2021.",
+      "Approximately 75% of the preorders were made for PlayStation 5. The remaining 25% were for Xbox Series X/S.",
+      "A new president must be elected and inaugurated within four months. Until then the parliament's speaker, Sandagiin Byambatsogt, holds the presidential duties as acting officeholder.",
+      "They used laser powder bed fusion, a 3D printing technique. A relatively low-power light source fused the simulated lunar regolith directly, with no binding agent added."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "excerpt": "After two delays, further leaks, and an extensive marketing campaign, it was released on 19 November 2026 for the PlayStation 5 and Xbox Series X/S to universal critical acclaim."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "excerpt": "Grand Theft Auto VI sold 32.5 million preorder copies and generated US$3.79 billion within 24 hours of its release, making it the largest entertainment launch in history."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "excerpt": "This made it the most preordered video game of all time, surpassing the previous record of 8 million copies held by Cyberpunk 2077. Approximately 75% of preorders were made for PlayStation 5, while the remaining 25% were for Xbox Series X/S."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+      "excerpt": "Ukhnaagiin Khürelsükh is a Mongolian politician who served as the country's sixth president from 2021 to 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+      "excerpt": "His resignation was accepted (96–8) by the State Great Khural on 19 November 2026, formally relieving him of his presidential duties."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+      "excerpt": "Under Mongolian law, the parliament's speaker, Sandagiin Byambatsogt (MPP), assumed the presidential duties as acting officeholder until a new president is elected and inaugurated within four months."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+      "excerpt": "The State Great Khural accepts the resignation of Mongolian president Ukhnaagiin Khürelsükh. The chamber's chairman, Sandagiin Byambatsogt, assumes the acting presidency until a new election is held within four months."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+      "excerpt": "To manufacture the bricks, the team used a 3D printing technique known as laser powder bed fusion."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+      "excerpt": "Unlike Earth's soil, lunar regolith contains no organic material. Instead, it is made up of sharp, irregular fragments produced by billions of years of impacts from asteroids, micrometeorites, and other debris striking the Moon."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+      "excerpt": "The University of Arkansas team demonstrated a different approach. Using a relatively low-power light source, they became the first researchers to directly fuse simulated lunar regolith into interlocking, reconfigurable construction blocks without adding a binding agent."
+    }
+  ]
+}

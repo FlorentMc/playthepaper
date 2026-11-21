@@ -1,57 +1,58 @@
 {
   "date": "2026-11-21",
-  "kind": "evergreen",
-  "label": "Evergreen · Everyday",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-21-en-v1",
+    "word-2026-11-21-en-v2",
     "sudoku-2026-11-21-en-easy-v1",
     "sudoku-2026-11-21-en-medium-v1",
     "sudoku-2026-11-21-en-hard-v1",
-    "letters-2026-11-21-en-v1",
-    "crossword-2026-11-21-en-v1",
-    "quiz-2026-11-21-en-v1"
+    "letters-2026-11-21-en-v2",
+    "crossword-2026-11-21-en-v2",
+    "quiz-2026-11-21-en-v2"
   ],
   "stories": [
     {
-      "id": "everyday-1-pencil",
-      "headline": "Why there has never been any lead in a pencil",
-      "summary": "The black core of a pencil is graphite and has never contained the element lead. In 1565 a large deposit of graphite was discovered at Borrowdale in Cumbria; in 1795 Nicolas-Jacques Conté found a way to mix powdered graphite with clay and fire the rods in a kiln, and on 30 March 1858 Hymen Lipman received the first patent for attaching an eraser to the end of a pencil.",
+      "id": "2026-11-21-1",
+      "headline": "Grand Theft Auto VI has the biggest launch in history",
+      "summary": "Grand Theft Auto VI was released on 19 November 2026 for the PlayStation 5 and Xbox Series X/S. It sold 32.5 million preorder copies and generated US$3.79 billion within 24 hours of its release, the largest entertainment launch in history. Approximately 75% of the preorders were made for PlayStation 5.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pencil",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+      "publishedAt": "2026-11-19"
     },
     {
-      "id": "everyday-1-dominoes",
-      "headline": "Every tile in the box: the arithmetic of a domino set",
-      "summary": "The traditional European domino set consists of 28 tiles, also known as bones, stones or simply dominoes, featuring every combination of spot counts from zero to six. Larger sets extend the idea: a double-nine set has 55 tiles and a double-twelve set 91.",
+      "id": "2026-11-21-2",
+      "headline": "Mongolia's president leaves office after a parliament vote",
+      "summary": "The State Great Khural, the Mongolian parliament, has accepted the resignation of president Ukhnaagiin Khürelsükh by 96 votes to 8. He had served as the country's sixth president from 2021. Under Mongolian law the parliament's speaker, Sandagiin Byambatsogt, has taken on the presidential duties until a new president is elected within four months.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Dominoes",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Ukhnaagiin_Kh%C3%BCrels%C3%BCkh",
+      "publishedAt": "2026-11-19"
     },
     {
-      "id": "everyday-1-greenwich",
-      "headline": "The hill where the world's clocks are set",
-      "summary": "The Royal Observatory, Greenwich, stands on a hill in Greenwich Park in south-east London, overlooking the River Thames. It was commissioned by King Charles II in 1675, and because the Prime Meridian passed through it, it gave its name to Greenwich Mean Time. The meridian was adopted as the world's Prime Meridian at the International Meridian Conference in Washington on 22 October 1884.",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
-      "publishedAt": "evergreen"
+      "id": "2026-11-21-3",
+      "headline": "Interlocking bricks printed from simulated Moon soil",
+      "summary": "Researchers at the University of Arkansas have turned simulated lunar regolith into interlocking bricks. They used a 3D printing technique called laser powder bed fusion. They were the first to fuse the material into construction blocks without adding a binding agent.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261119194525.htm",
+      "publishedAt": "2026-11-20"
     }
   ],
   "seeds": {
-    "everyday-1-pencil": [
+    "2026-11-21-1": [
       "quiz:1",
-      "quiz:5",
-      "word"
-    ],
-    "everyday-1-dominoes": [
-      "quiz:2",
       "quiz:3",
-      "letters"
-    ],
-    "everyday-1-greenwich": [
-      "quiz:4",
+      "word",
       "crossword:1 Down"
+    ],
+    "2026-11-21-2": [
+      "quiz:2",
+      "quiz:4"
+    ],
+    "2026-11-21-3": [
+      "quiz:5",
+      "letters"
     ]
-  }
+  },
+  "publishedAt": "2026-11-21T02:28:05.564269Z"
 }
