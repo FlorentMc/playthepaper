@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-22-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a spacecraft arriving at Mercury."
+  },
+  "reveal": {
+    "answer": "PLANET",
+    "storyId": "2026-11-22-3",
+    "excerpt": "BepiColombo is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) to the planet Mercury."
+  },
+  "storyId": "2026-11-22-3"
+}

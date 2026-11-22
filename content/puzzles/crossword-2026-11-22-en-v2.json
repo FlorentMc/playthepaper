@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-22-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-22",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Liveliness"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Business between countries, freed up by the new agreements",
+          "storyId": "2026-11-22-1"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Mountain chain"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Request at a restaurant"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Afternoon cuppa"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Black-and-white animal"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Cliff's brink"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Look closely"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Horse's pace"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Uncommon"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##PEP",
+      "TRADE",
+      "RANGE",
+      "ORDER",
+      "TEA##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "2026-11-22-1",
+        "excerpt": "Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods."
+      }
+    ]
+  },
+  "storyId": "2026-11-22-1"
+}

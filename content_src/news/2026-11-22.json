@@ -1,0 +1,154 @@
+{
+  "slug": "2026-11-22",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-22-1",
+      "headline": "Indonesia and the EU sign a trade and investment deal",
+      "summary": "Indonesia and the European Union have signed trade and investment agreements. The agreements will lift 98.5% of tariffs on European Union goods. Negotiations on the deal were concluded in Bali on 23 September 2025.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "id": "2026-11-22-2",
+      "headline": "Saudi Arabia to triple the crude oil it stores in Japan",
+      "summary": "Japan's trade ministry says Saudi Arabia has agreed to triple the volume of crude oil stored in Japan, taking it to 24 million barrels. The oil is held in Japan's joint stockpiling system, which it runs with Saudi Arabia, Kuwait and the United Arab Emirates.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "id": "2026-11-22-3",
+      "headline": "BepiColombo settles into orbit around Mercury",
+      "summary": "The European Space Agency has announced that the BepiColombo spacecraft inserted itself into orbit around Mercury on 21 November 2026. It is a joint mission with the Japan Aerospace Exploration Agency. The stacked spacecraft took eight years to position itself, flying past the Earth, the Moon and Venus on the way.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BepiColombo",
+      "publishedAt": "2026-11-21"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The European Union has signed trade and investment agreements with a country in south-east Asia. The deal lifts almost all tariffs on European Union goods.",
+          "prompt": "Which country signed the agreements with the European Union?",
+          "options": ["Indonesia", "Malaysia", "Thailand", "Vietnam"],
+          "level": "easy",
+          "storyId": "2026-11-22-1"
+        },
+        {
+          "lead": "Japan's trade ministry says Saudi Arabia has agreed to triple the volume of crude oil it stores in Japan, under a joint stockpiling system.",
+          "prompt": "What volume will the crude oil stored in Japan rise to?",
+          "options": ["4 million barrels", "12 million barrels", "24 million barrels", "48 million barrels"],
+          "level": "easy",
+          "storyId": "2026-11-22-2"
+        },
+        {
+          "lead": "Indonesia and the European Union have signed trade and investment agreements, after concluding their negotiations in Bali in September 2025.",
+          "prompt": "What share of tariffs on European Union goods will the agreements lift?",
+          "options": ["68.5%", "78.5%", "88.5%", "98.5%"],
+          "level": "easy",
+          "storyId": "2026-11-22-1"
+        },
+        {
+          "lead": "The BepiColombo spacecraft has inserted itself into orbit around Mercury. The European Space Agency runs the mission jointly with one other space agency.",
+          "prompt": "Which agency is the European Space Agency's partner on BepiColombo?",
+          "options": ["China National Space Administration", "Indian Space Research Organisation", "Japan Aerospace Exploration Agency", "National Aeronautics and Space Administration"],
+          "level": "medium",
+          "storyId": "2026-11-22-3"
+        },
+        {
+          "lead": "The stacked BepiColombo spacecraft took eight years to position itself to enter orbit around Mercury. On the way it flew past the Earth, the Moon and Venus, and made several passes of Mercury itself.",
+          "prompt": "How many gravity assists did the spacecraft use along the way?",
+          "options": ["Three", "Six", "Nine", "Twelve"],
+          "level": "hard",
+          "storyId": "2026-11-22-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [0, 2, 3, 2, 2],
+      "explanations": [
+        "Indonesia signed the agreements with the European Union. They will lift 98.5% of tariffs on European Union goods.",
+        "The volume will rise to 24 million barrels. Saudi Arabia agreed to triple the crude oil it stores in Japan, under a system Japan also runs with Kuwait and the United Arab Emirates.",
+        "The agreements will lift 98.5% of tariffs on European Union goods. Negotiations on the deal were concluded in Bali on 23 September 2025.",
+        "The partner is the Japan Aerospace Exploration Agency. BepiColombo is a joint mission of the two agencies to the planet Mercury.",
+        "The spacecraft used nine gravity assists. The stacked craft took eight years to position itself to enter Mercury orbit."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+        "excerpt": "Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93European_Union_trade_relations",
+        "excerpt": "Negotiations on the agreement were concluded in Bali on 23 September 2025. On 29 June 2026 the European Commission sent the CEPA and a separate Investment Protection Agreement to the Council of the European Union for signature and conclusion."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_21",
+        "excerpt": "The Japanese trade ministry announces that Saudi Arabia agreed to triple the volume of crude oil stored in Japan to 24 million barrels, under Japan's joint stockpiling system with Saudi Arabia, Kuwait, and the United Arab Emirates."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BepiColombo",
+        "excerpt": "BepiColombo is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) to the planet Mercury."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BepiColombo",
+        "excerpt": "MTM was jettisoned on September 3, 2026, and the orbit insertion procedure for the MPO+MMO (Mio) stack was conducted at Mercury on November 21, 2026."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BepiColombo",
+        "excerpt": "The stacked spacecraft took eight years to position itself to enter Mercury orbit. During this time it used solar electric propulsion and nine gravity assists, flying past the Earth and Moon in April 2020, Venus in 2020 and 2021, and six Mercury flybys between 2021 and 2025."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "PLANET",
+      "storyId": "2026-11-22-3",
+      "teaser": "Today's word comes from a story about a spacecraft arriving at Mercury.",
+      "excerpt": "BepiColombo is a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) to the planet Mercury."
+    },
+    "letters": {
+      "pangram": "INVESTMENT",
+      "storyId": "2026-11-22-1",
+      "teaser": "Today's letters come from a story about a new trade deal in south-east Asia.",
+      "excerpt": "Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods."
+    },
+    "crossword": [
+      {
+        "answer": "TRADE",
+        "clue": "Business between countries, freed up by the new agreements",
+        "storyId": "2026-11-22-1",
+        "excerpt": "Indonesia and the European Union sign trade and investment agreements that will lift 98.5% of tariffs on EU goods."
+      },
+      {
+        "answer": "CRUDE",
+        "clue": "Unrefined oil, the kind being stockpiled in Japan",
+        "storyId": "2026-11-22-2",
+        "excerpt": "The Japanese trade ministry announces that Saudi Arabia agreed to triple the volume of crude oil stored in Japan to 24 million barrels, under Japan's joint stockpiling system with Saudi Arabia, Kuwait, and the United Arab Emirates."
+      },
+      {
+        "answer": "ORBIT",
+        "clue": "Path a craft settles into around Mercury",
+        "storyId": "2026-11-22-3",
+        "excerpt": "The stacked spacecraft took eight years to position itself to enter Mercury orbit. During this time it used solar electric propulsion and nine gravity assists, flying past the Earth and Moon in April 2020, Venus in 2020 and 2021, and six Mercury flybys between 2021 and 2025."
+      },
+      {
+        "answer": "EIGHT",
+        "clue": "Number of years BepiColombo took to reach its destination",
+        "storyId": "2026-11-22-3",
+        "excerpt": "The stacked spacecraft took eight years to position itself to enter Mercury orbit. During this time it used solar electric propulsion and nine gravity assists, flying past the Earth and Moon in April 2020, Venus in 2020 and 2021, and six Mercury flybys between 2021 and 2025."
+      }
+    ]
+  }
+}
