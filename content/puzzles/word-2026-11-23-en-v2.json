@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-23-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "A",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a very old tortoise."
+  },
+  "reveal": {
+    "answer": "ANIMAL",
+    "storyId": "2026-11-23-4",
+    "excerpt": "At an estimated 194 years old, a giant tortoise named Jonathan has lived longer than any other known land animal alive today."
+  },
+  "storyId": "2026-11-23-4"
+}

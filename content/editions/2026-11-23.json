@@ -1,57 +1,68 @@
 {
   "date": "2026-11-23",
-  "kind": "evergreen",
-  "label": "Evergreen · Nature",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-23-en-v1",
+    "word-2026-11-23-en-v2",
     "sudoku-2026-11-23-en-easy-v1",
     "sudoku-2026-11-23-en-medium-v1",
     "sudoku-2026-11-23-en-hard-v1",
-    "letters-2026-11-23-en-v1",
-    "crossword-2026-11-23-en-v1",
-    "quiz-2026-11-23-en-v1"
+    "letters-2026-11-23-en-v2",
+    "crossword-2026-11-23-en-v2",
+    "quiz-2026-11-23-en-v2"
   ],
   "stories": [
     {
-      "id": "nature-1-whale",
-      "headline": "The largest animal that has ever lived",
-      "summary": "The blue whale is the largest animal known ever to have existed. The longest one scientifically measured was 29.9 metres from snout to tail, and the heart of one stranded animal weighed 180 kg, the largest known in any animal. Whalers hunted the species almost to extinction until the International Whaling Commission banned all blue whale hunting in 1966.",
+      "id": "2026-11-23-1",
+      "headline": "Alcaraz wins his first ATP Finals title in Turin",
+      "summary": "Carlos Alcaraz has beaten Alexander Zverev in the final of the ATP Finals, 6–2, 7–6(9–7). It is his first singles title at the season-ending men's tennis event. The tournament ran from 15 to 22 November 2026 on indoor hardcourts at the Inalpi Arena in Turin, Italy.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Blue_whale",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals",
+      "publishedAt": "2026-11-22"
     },
     {
-      "id": "nature-1-falls",
-      "headline": "A kilometre of falling water in the Venezuelan highlands",
-      "summary": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a single plunge of 807 metres. The water drops over the edge of the Auyán-tepui mountain in Canaima National Park, a UNESCO World Heritage Site.",
+      "id": "2026-11-23-2",
+      "headline": "Márquez equals a record with an eighth premier-class title",
+      "summary": "Marc Márquez has been crowned the 2026 MotoGP World Champion. He finished eighth at the Portuguese Grand Prix, which was enough to settle the title. It is his eighth premier-class title, equalling Giacomo Agostini's record, and his tenth world championship overall.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Angel_Falls",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+      "publishedAt": "2026-11-22"
     },
     {
-      "id": "nature-1-galapagos",
-      "headline": "The islands that straddle the equator",
-      "summary": "The Galápagos Islands are an archipelago of volcanic islands in the eastern Pacific, located around the equator about 900 km west of the South American mainland. HMS Beagle reached them on 15 September 1835, and the young naturalist Charles Darwin, aboard on the ship's second voyage, was so struck by the volcanic landscape that he later called the archipelago \"that land of craters\".",
+      "id": "2026-11-23-3",
+      "headline": "A Hong Kong film takes the top Golden Horse award",
+      "summary": "The 63rd Golden Horse Awards took place on November 22, 2026, at the Taipei Music Center in Taipei, Taiwan. The Hong Kong drama film We Are Born Good won Best Narrative Feature. The awards honour Chinese-language cinema.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "2026-11-23-4",
+      "headline": "A tortoise of 194 gives up some of his secrets",
+      "summary": "Jonathan, a giant tortoise believed to have hatched in 1832, is the oldest known land animal alive today. Researchers have identified 287 distinctive genetic variants in him, linked to protection against the effects of ageing. The work was published in Science Advances.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+      "publishedAt": "2026-11-22"
     }
   ],
   "seeds": {
-    "nature-1-whale": [
+    "2026-11-23-1": [
       "quiz:1",
-      "quiz:5",
       "crossword:1 Down"
     ],
-    "nature-1-falls": [
+    "2026-11-23-2": [
       "quiz:2",
-      "quiz:4",
+      "quiz:4"
+    ],
+    "2026-11-23-3": [
+      "quiz:3",
       "letters"
     ],
-    "nature-1-galapagos": [
-      "quiz:3",
+    "2026-11-23-4": [
+      "quiz:5",
       "word"
     ]
-  }
+  },
+  "publishedAt": "2026-11-23T02:22:10.645965Z"
 }

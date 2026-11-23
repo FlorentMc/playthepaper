@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-23-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      "#....",
+      ".....",
+      "....#",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Sweet, seedy fruit that grows on a tree"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Mosquito's mark"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Flat board"
+        },
+        {
+          "number": 6,
+          "row": 3,
+          "col": 0,
+          "length": 4,
+          "clue": "Shut noisily"
+        },
+        {
+          "number": 7,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Unwell"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "The last match of the tennis tournament in Turin",
+          "storyId": "2026-11-23-1"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Thing on a list"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Set into a jelly"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Round toy to kick or throw"
+        },
+        {
+          "number": 5,
+          "row": 2,
+          "col": 0,
+          "length": 3,
+          "clue": "Letter before omega"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FIG",
+      "#BITE",
+      "PANEL",
+      "SLAM#",
+      "ILL##"
+    ],
+    "seeded": [
+      {
+        "label": "1 Down",
+        "storyId": "2026-11-23-1",
+        "excerpt": "In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6(9–7) to win his first singles title at the 2026 ATP Finals."
+      }
+    ]
+  },
+  "storyId": "2026-11-23-1"
+}

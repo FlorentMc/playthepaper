@@ -1,0 +1,146 @@
+{
+  "id": "quiz-2026-11-23-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-23",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The ATP Finals, the season-ending men's tennis event, was played on indoor hardcourts at the Inalpi Arena in Turin, Italy. The 2026 final was settled in two sets.",
+        "prompt": "Who won the 2026 ATP Finals singles title?",
+        "options": [
+          "Carlos Alcaraz",
+          "Daniil Medvedev",
+          "Ben Shelton",
+          "Alexander Zverev"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-23-1"
+      },
+      {
+        "lead": "The MotoGP season reached its twenty-first round at the Portuguese Grand Prix, held at the Autódromo Internacional do Algarve in Portimão. The riders' title was settled there.",
+        "prompt": "Who was crowned the 2026 MotoGP World Champion?",
+        "options": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Marc Márquez",
+          "Raúl Fernández"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-23-2"
+      },
+      {
+        "lead": "The 63rd Golden Horse Awards were held on November 22, 2026. The ceremony honours achievements in Chinese-language cinema.",
+        "prompt": "In which city did the 63rd Golden Horse Awards take place?",
+        "options": [
+          "Hong Kong",
+          "Shanghai",
+          "Singapore",
+          "Taipei"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-23-3"
+      },
+      {
+        "lead": "Márquez's title in Portugal was his eighth in the premier class of motorcycle racing. That equalled the record for the most premier-class world titles.",
+        "prompt": "Whose record for premier-class world titles did Márquez equal?",
+        "options": [
+          "Ángel Nieto",
+          "Giacomo Agostini",
+          "Mike Hailwood",
+          "Valentino Rossi"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-23-2"
+      },
+      {
+        "lead": "Jonathan is a giant tortoise believed to have hatched in 1832, which makes him the oldest known land animal alive today. Researchers studying his long life looked for genetic variants that protect against the effects of ageing.",
+        "prompt": "How many distinctive genetic variants did the researchers identify?",
+        "options": [
+          "87",
+          "187",
+          "287",
+          "387"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-23-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      0,
+      2,
+      3,
+      1,
+      2
+    ],
+    "explanations": [
+      "Carlos Alcaraz won, beating Alexander Zverev 6–2, 7–6(9–7) in the final. It was his first singles title at the season-ending event.",
+      "Marc Márquez took the title. His eighth-place finish at the Portuguese Grand Prix was enough for him to be crowned the 2026 World Champion.",
+      "The awards took place in Taipei, Taiwan. The ceremony was held at the Taipei Music Center on November 22, 2026.",
+      "He equalled Giacomo Agostini's record of eight premier-class titles. It was also his tenth world championship overall, which took him past Valentino Rossi's tally.",
+      "They identified 287 distinctive genetic variants. The study, published in Science Advances, linked them to protection against the effects of aging."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "excerpt": "In tennis, Carlos Alcaraz defeats Alexander Zverev in the final, 6–2, 7–6(9–7) to win his first singles title at the 2026 ATP Finals."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_ATP_Finals",
+      "excerpt": "The 2026 ATP Finals was a men's tennis tournament held from 15 to 22 November 2026. It was played on indoor hardcourts at the Inalpi Arena in Turin, Italy for the sixth consecutive time."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "excerpt": "In motorcycle racing, Spanish rider Marc Márquez of Ducati Corse secures his eighth MotoGP World Championship after finishing eighth at the Portuguese Grand Prix, equalling Giacomo Agostini's record for the most premier-class motorcycle racing world titles."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+      "excerpt": "While Aprilia riders Bezzecchi, Jorge Martín, and Raúl Fernández locked out the Grand Prix podium, Márquez's eighth-place finish was enough for him to be crowned the 2026 World Champion."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+      "excerpt": "It marked his eighth premier class title, equalling Giacomo Agostini's record, and his tenth world championship overall, surpassing Valentino Rossi's tally."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Portuguese_motorcycle_Grand_Prix",
+      "excerpt": "The 2026 Portuguese motorcycle Grand Prix was the twenty-first round of the 2026 Grand Prix motorcycle racing season. All races were held at the Autódromo Internacional do Algarve in Portimão on 22 November 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards",
+      "excerpt": "The 63rd Golden Horse Awards took place on November 22, 2026, at the Taipei Music Center in Taipei, Taiwan. Organized by the Taipei Golden Horse Film Festival Executive Committee, the ceremony honored outstanding achievements in Chinese-language cinema from 2025 and 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/63rd_Golden_Horse_Awards",
+      "excerpt": "Hong Kong drama film We Are Born Good, directed by Yeung Leung Chuen in his feature debut, won Best Narrative Feature."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+      "excerpt": "At an estimated 194 years old, a giant tortoise named Jonathan has lived longer than any other known land animal alive today."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+      "excerpt": "In a study published in Science Advances, researchers identified 287 distinctive genetic variants associated with protection against the effects of aging."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+      "excerpt": "Jonathan is an Aldabra giant tortoise (Aldabrachelys gigantea) believed to have hatched in 1832. That means he was already alive during the lifetimes of Charles Darwin and Queen Victoria."
+    }
+  ]
+}
