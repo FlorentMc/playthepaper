@@ -1,0 +1,228 @@
+{
+  "slug": "2026-11-24",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-24-1",
+      "headline": "FIFA names the hosts of the next two Women's World Cups",
+      "summary": "FIFA has confirmed who will stage the next two Women's World Cups. The 2031 tournament will be shared by Costa Rica, Jamaica, Mexico and the United States, and the 2035 tournament by England, Northern Ireland, Scotland and Wales. The 2031 finals will be the first to involve 48 national teams.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2031_FIFA_Women%27s_World_Cup",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "2026-11-24-2",
+      "headline": "The UN climate conference in Turkey ends without an agreement",
+      "summary": "The 31st United Nations climate conference, COP31, was held at the Expo Center in Antalya, Turkey. Negotiators did not work out a climate pact, divided over language relating to fossil fuels. It was the longest-running UN climate summit on record, and the first to conclude without an agreement since 2009.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "2026-11-24-3",
+      "headline": "Kenya and the Democratic Republic of the Congo restore ties",
+      "summary": "The president of the Democratic Republic of the Congo, Félix Tshisekedi, and the president of Kenya, William Ruto, have agreed to restore full diplomatic relations. They met at a summit in Oyo, in the Republic of the Congo, hosted by President Denis Sassou Nguesso. Faure Gnassingbé, a former president of Togo, mediated.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "2026-11-24-4",
+      "headline": "A spider named for Stephen Colbert has its genome read",
+      "summary": "Researchers have read the genome of a trapdoor spider that lives in California's coastal dunes. Aptostichus stephencolberti carries 4.6 billion DNA base pairs, which is not the largest among spiders but is still significant. The species is Stephen Colbert's namesake in the spider world.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm",
+      "publishedAt": "2026-11-22"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "FIFA has chosen the four countries that will share the 2031 Women's World Cup. Three of them are Mexico, Costa Rica and Jamaica.",
+          "prompt": "Which country completes the list of 2031 hosts?",
+          "options": [
+            "Argentina",
+            "Brazil",
+            "Canada",
+            "United States"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-24-1"
+        },
+        {
+          "lead": "The 31st United Nations climate conference, COP31, was held at an Expo Center in Turkey. It closed without an agreement.",
+          "prompt": "In which Turkish city was COP31 held?",
+          "options": [
+            "Ankara",
+            "Antalya",
+            "Istanbul",
+            "Izmir"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-24-2"
+        },
+        {
+          "lead": "The presidents of two African countries met at a summit hosted by Denis Sassou Nguesso, with a former president of Togo acting as mediator. They agreed to restore full diplomatic relations.",
+          "prompt": "Which two countries agreed to restore full diplomatic relations?",
+          "options": [
+            "Chad and Sudan",
+            "Ghana and Nigeria",
+            "Kenya and the Democratic Republic of the Congo",
+            "Rwanda and Uganda"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-24-3"
+        },
+        {
+          "lead": "The Women's World Cup is expanding, beginning with the 2031 tournament that Costa Rica, Jamaica, Mexico and the United States will share.",
+          "prompt": "How many national teams will play in the 2031 Women's World Cup?",
+          "options": [
+            "24",
+            "32",
+            "48",
+            "64"
+          ],
+          "level": "medium",
+          "storyId": "2026-11-24-1"
+        },
+        {
+          "lead": "Researchers have read the genome of Aptostichus stephencolberti, a trapdoor spider from California's coastal dunes. For such a small animal, its genome is remarkably large.",
+          "prompt": "How many DNA base pairs does the spider's genome contain?",
+          "options": [
+            "46 million",
+            "460 million",
+            "4.6 billion",
+            "46 billion"
+          ],
+          "level": "hard",
+          "storyId": "2026-11-24-4"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [
+        3,
+        1,
+        2,
+        2,
+        2
+      ],
+      "explanations": [
+        "The United States joins Mexico, Costa Rica and Jamaica as hosts. It will be the first Women's World Cup to be hosted in more than two countries.",
+        "It was held at the Expo Center in Antalya. The talks were the longest-running UN climate summit on record.",
+        "Kenya and the Democratic Republic of the Congo agreed to restore full relations. Their presidents, William Ruto and Félix Tshisekedi, met at a summit in Oyo, in the Republic of the Congo.",
+        "The 2031 tournament will be the first to involve 48 national teams. The 2035 tournament, in England, Northern Ireland, Scotland and Wales, will be contested by the same number.",
+        "It contains 4.6 billion DNA base pairs, or 4.6 gigabases. The team behind the work said that is not the largest genome among the spiders, but it is significant."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+        "excerpt": "In association football, FIFA confirms Costa Rica, Jamaica, Mexico, and the United States as joint hosts of the 2031 Women's World Cup, while England, Northern Ireland, Scotland, and Wales will jointly host the 2035 tournament."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2031_FIFA_Women%27s_World_Cup",
+        "excerpt": "The tournament hosts are Mexico, the United States, Costa Rica, and Jamaica."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2031_FIFA_Women%27s_World_Cup",
+        "excerpt": "The tournament will be the first to involve 48 national teams."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2031_FIFA_Women%27s_World_Cup",
+        "excerpt": "This will also be the first Women's World Cup to be hosted in more than two countries."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2035_FIFA_Women%27s_World_Cup",
+        "excerpt": "The tournament is the first time England, Northern Ireland, Scotland, and Wales host the FIFA Women's World Cup, as well as the fourth FIFA Women's World Cup in Europe after Sweden in 1995, Germany in 2011, and France in 2019."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2035_FIFA_Women%27s_World_Cup",
+        "excerpt": "The 2035 FIFA Women's World Cup will be contested by 48 teams as part of an expansion starting with the 2031 edition."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+        "excerpt": "The 2026 United Nations Climate Change Conference or Conference of the Parties to the UNFCCC, more commonly known as COP31, was held at the Expo Center in Antalya, Turkey."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+        "excerpt": "In the longest-running UN climate summit on record, negotiators did not work out a climate pact because of divisions over language relating to fossil fuels."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+        "excerpt": "This made COP 31 the first conference to conclude without an agreement in place since COP 15 in 2009."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+        "excerpt": "Democratic Republic of the Congo president Félix Tshisekedi and Kenyan president William Ruto agree to restore full diplomatic relations after a summit in Oyo, Republic of the Congo, hosted by the country's president Denis Sassou Nguesso and mediated by Togolese former president Faure Gnassingbé."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm",
+        "excerpt": "The species, known as Aptostichus stephencolberti, is a trapdoor spider that lives in California's coastal dunes."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm",
+        "excerpt": "\"At 4.6 gigabases, or 4.6 billion DNA base pairs, it's not the largest genome among the spiders, but it's significant,\" said corresponding author Jason Bond, a professor in the UC Davis Department of Entomology and Nematology."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm",
+        "excerpt": "Bond agreed, and Aptostichus stephencolberti became Colbert's namesake in the spider world."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SPIDER",
+      "storyId": "2026-11-24-4",
+      "teaser": "Today's word comes from a story about a spider in the Californian dunes.",
+      "excerpt": "The species, known as Aptostichus stephencolberti, is a trapdoor spider that lives in California's coastal dunes."
+    },
+    "letters": {
+      "pangram": "CLIMATE",
+      "storyId": "2026-11-24-2",
+      "teaser": "Today's letters come from a story about a United Nations climate summit.",
+      "excerpt": "In the longest-running UN climate summit on record, negotiators did not work out a climate pact because of divisions over language relating to fossil fuels."
+    },
+    "crossword": [
+      {
+        "answer": "TEAMS",
+        "clue": "Forty-eight of these will contest the 2031 tournament",
+        "storyId": "2026-11-24-1",
+        "excerpt": "The tournament will be the first to involve 48 national teams."
+      },
+      {
+        "answer": "PACT",
+        "clue": "Climate deal the summit in Turkey failed to reach",
+        "storyId": "2026-11-24-2",
+        "excerpt": "In the longest-running UN climate summit on record, negotiators did not work out a climate pact because of divisions over language relating to fossil fuels."
+      },
+      {
+        "answer": "FULL",
+        "clue": "Complete, as the restored diplomatic relations are",
+        "storyId": "2026-11-24-3",
+        "excerpt": "Democratic Republic of the Congo president Félix Tshisekedi and Kenyan president William Ruto agree to restore full diplomatic relations after a summit in Oyo, Republic of the Congo, hosted by the country's president Denis Sassou Nguesso and mediated by Togolese former president Faure Gnassingbé."
+      },
+      {
+        "answer": "DUNES",
+        "clue": "Sandy coastal ground where the trapdoor spider lives",
+        "storyId": "2026-11-24-4",
+        "excerpt": "The species, known as Aptostichus stephencolberti, is a trapdoor spider that lives in California's coastal dunes."
+      }
+    ]
+  }
+}
