@@ -1,0 +1,146 @@
+{
+  "id": "quiz-2026-11-26-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-26",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "The Macy's Thanksgiving Day Parade was due to run in New York City on Thanksgiving Day, 26 November. For the first time in its history, Macy's moved it to the following Saturday morning, 28 November.",
+        "prompt": "Why was the parade put back?",
+        "options": [
+          "A drivers' strike",
+          "A power failure",
+          "A security alert",
+          "Severe weather"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-26-1"
+      },
+      {
+        "lead": "The 75th Miss Universe pageant was held in San Juan on 24 November. Jennifer Barreto won the title, the first married woman and mother to do so.",
+        "prompt": "Which country does Jennifer Barreto represent?",
+        "options": [
+          "Dominican Republic",
+          "Mexico",
+          "Philippines",
+          "Puerto Rico"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-26-2"
+      },
+      {
+        "lead": "The European Union and the United Kingdom have fined three large manufacturers for exchanging commercially sensitive information between 2019 and 2023.",
+        "prompt": "What do the three fined companies make?",
+        "options": [
+          "Cement",
+          "Fertiliser",
+          "Fragrances",
+          "Paint"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-26-3"
+      },
+      {
+        "lead": "Shenzhou 24 lifted off from the Jiuquan Satellite Launch Center on 25 November and docked with the Tiangong space station at 03:56 UTC. On board was Muhammad Zeeshan Ali, the first person from his country to reach orbit.",
+        "prompt": "Which country is Muhammad Zeeshan Ali from?",
+        "options": [
+          "Bangladesh",
+          "Indonesia",
+          "Pakistan",
+          "Sri Lanka"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-26-4"
+      },
+      {
+        "lead": "The fines on Firmenich, Givaudan and International Flavors & Fragrances were imposed by the European Union and the United Kingdom. They cover the exchange of commercially sensitive information between 2019 and 2023.",
+        "prompt": "How much did the fines come to in total?",
+        "options": [
+          "More than €57 million",
+          "More than €570 million",
+          "More than €5.7 billion",
+          "More than €57 billion"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-26-3"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      3,
+      2,
+      2,
+      1
+    ],
+    "explanations": [
+      "Severe weather moved the parade to the Saturday after Thanksgiving, 28 November. It was cancelled from 1942 to 1944 amid World War II, but it had never before been postponed.",
+      "Jennifer Barreto represents Puerto Rico and won the title in San Juan. She is the sixth titleholder from her country and the first since Zuleyka Rivera in 2006.",
+      "They are the fragrance manufacturers Firmenich, Givaudan and International Flavors & Fragrances. The European Union and the United Kingdom fined them for exchanging commercially sensitive information between 2019 and 2023.",
+      "Muhammad Zeeshan Ali is Pakistani, and the first Pakistani to reach orbit. He is aboard the Tiangong space station for a one-week visit.",
+      "The fines total more than €570 million, or US$626 million. They cover the exchange of commercially sensitive information between 2019 and 2023."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade",
+      "excerpt": "While 2024 marked the 100th anniversary of the first parade, its 100th edition is set to be held in 2026 since the parade was canceled from 1942 to 1944 amid World War II; materials required for the balloons were instead used for war efforts."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade",
+      "excerpt": "However, the 2026 parade was postponed to the Saturday after Thanksgiving due to severe weather, marking the first time in history that the parade has been postponed."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade",
+      "excerpt": "This caused Macy's to move the parade from Thanksgiving Day, November 26, to the following Saturday morning, November 28, 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "excerpt": "The Macy’s Thanksgiving Day Parade in New York City is postponed to Saturday, November 28, 2026 due to thunderstorms."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026",
+      "excerpt": "Miss Universe 2026 was the 75th Miss Universe pageant, held at the José Miguel Agrelot Coliseum in San Juan, Puerto Rico, on 24 November 2026."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026",
+      "excerpt": "Jennifer Barreto of Puerto Rico won the competition, succeeding Fátima Bosch of Mexico."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miss_Universe_2026",
+      "excerpt": "Barreto is the first married woman and mother to win the competition, as well as the sixth titleholder from her country and the first since Zuleyka Rivera in 2006."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_25",
+      "excerpt": "The European Union and United Kingdom impose fines totalling more than €570 million (US$626 million) on fragrance manufacturers Firmenich, Givaudan, and International Flavors & Fragrances for exchanging commercially sensitive information between 2019 and 2023."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shenzhou_24",
+      "excerpt": "Shenzhou 24 launched aboard a Long March 2F/G rocket from the Jiuquan Satellite Launch Center on 25 November 2026, at 00:18:52 UTC (08:18:52 CST, local time at the launch site). The spacecraft docked with the forward port of the Tianhe core module of Tiangong at 03:56 UTC."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shenzhou_24",
+      "excerpt": "The mission is carrying Pakistani astronaut Muhammad Zeeshan Ali to Tiangong for a one-week visit, making him the first Pakistani to reach orbit."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shenzhou_24",
+      "excerpt": "The mission is commanded by Tang Hongbo, who previously flew to Tiangong on Shenzhou 12 and Shenzhou 17, making him the first Chinese astronaut to visit the station three times."
+    }
+  ]
+}

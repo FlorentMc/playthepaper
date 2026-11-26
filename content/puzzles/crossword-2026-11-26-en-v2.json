@@ -1,0 +1,120 @@
+{
+  "id": "crossword-2026-11-26-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-26",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "...##",
+      "....#",
+      ".....",
+      "#....",
+      "##..."
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Much ___ About Nothing"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Wriggler in the soil"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Arm joint"
+        },
+        {
+          "number": 8,
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Be alive"
+        },
+        {
+          "number": 9,
+          "row": 4,
+          "col": 2,
+          "length": 3,
+          "clue": "Golf ball's perch"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "length": 3,
+          "clue": "Wonder and amazement"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Toy baby"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Path around the Earth that a Pakistani reached for the first time",
+          "storyId": "2026-11-26-4"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "What Macy's did with the parade's date",
+          "storyId": "2026-11-26-1"
+        },
+        {
+          "number": 7,
+          "row": 2,
+          "col": 4,
+          "length": 3,
+          "clue": "Tiny, in Scotland"
+        }
+      ]
+    },
+    "teaser": "Two of today's clues come from the news."
+  },
+  "reveal": {
+    "solution": [
+      "ADO##",
+      "WORM#",
+      "ELBOW",
+      "#LIVE",
+      "##TEE"
+    ],
+    "seeded": [
+      {
+        "label": "3 Down",
+        "storyId": "2026-11-26-4",
+        "excerpt": "The mission is carrying Pakistani astronaut Muhammad Zeeshan Ali to Tiangong for a one-week visit, making him the first Pakistani to reach orbit."
+      },
+      {
+        "label": "5 Down",
+        "storyId": "2026-11-26-1",
+        "excerpt": "This caused Macy's to move the parade from Thanksgiving Day, November 26, to the following Saturday morning, November 28, 2026."
+      }
+    ]
+  },
+  "storyId": "2026-11-26-1"
+}

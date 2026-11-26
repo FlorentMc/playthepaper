@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-26-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-26",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "P",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a parade postponed by severe weather."
+  },
+  "reveal": {
+    "answer": "PARADE",
+    "storyId": "2026-11-26-1",
+    "excerpt": "However, the 2026 parade was postponed to the Saturday after Thanksgiving due to severe weather, marking the first time in history that the parade has been postponed."
+  },
+  "storyId": "2026-11-26-1"
+}
