@@ -1,0 +1,156 @@
+{
+  "id": "quiz-2026-11-27-en-v2",
+  "game": "quiz",
+  "editionDate": "2026-11-27",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "payload": {
+    "questions": [
+      {
+        "lead": "African football's governing body stripped the winners of the 2025 Africa Cup of Nations of their title in March, awarding the final to the hosts, Morocco. On 24 November the Court of Arbitration for Sport overturned that decision.",
+        "prompt": "Which country has been reinstated as champions?",
+        "options": [
+          "Egypt",
+          "Ivory Coast",
+          "Morocco",
+          "Senegal"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-27-1"
+      },
+      {
+        "lead": "Pablo Hernández de Cos, a Spanish economist, has been elected the new president of the European Central Bank. He was the 70th governor of the Bank of Spain from 2018 to 2024.",
+        "prompt": "Whom does he succeed as president of the bank?",
+        "options": [
+          "Christine Lagarde",
+          "Jean-Claude Trichet",
+          "Mario Draghi",
+          "Wim Duisenberg"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-27-2"
+      },
+      {
+        "lead": "The United States Federal Communications Commission has approved a plan for a very large constellation of solar-powered satellites that would run data centres in orbit. The network is called Starmind.",
+        "prompt": "Which company is behind Starmind?",
+        "options": [
+          "Amazon",
+          "Boeing",
+          "SpaceX",
+          "Telesat"
+        ],
+        "level": "easy",
+        "storyId": "2026-11-27-3"
+      },
+      {
+        "lead": "Starmind is a planned constellation of solar-powered satellites that would work as data centres in orbit for SpaceX. The Federal Communications Commission has now cleared it for deployment.",
+        "prompt": "How many satellites does the authorisation cover?",
+        "options": [
+          "Up to one thousand",
+          "Up to ten thousand",
+          "Up to one hundred thousand",
+          "Up to one million"
+        ],
+        "level": "medium",
+        "storyId": "2026-11-27-3"
+      },
+      {
+        "lead": "A small fossil found in Scotland in 1984, nicknamed Lizzie, was regarded for nearly three decades as one of the earliest known reptiles. A closer look inside the rock changed that.",
+        "prompt": "What did the closer look find in the animal?",
+        "options": [
+          "A four-chambered heart",
+          "Feather impressions",
+          "Hollow, bird-like bones",
+          "Internal gills containing bone"
+        ],
+        "level": "hard",
+        "storyId": "2026-11-27-4"
+      }
+    ],
+    "wagerQuestion": 4
+  },
+  "reveal": {
+    "answers": [
+      3,
+      0,
+      2,
+      3,
+      3
+    ],
+    "explanations": [
+      "Senegal are the champions again, after the Court of Arbitration for Sport ruled in their favour on 24 November. They had won the final 1–0 after extra time, before the CAF Appeal Board ruled in March that they had forfeited it.",
+      "He succeeds Christine Lagarde, who resigned as president of the European Central Bank. Hernández de Cos has been general manager of the Bank for International Settlements since 1 July 2025.",
+      "Starmind is SpaceX's planned constellation of solar-powered, space-based data centre satellites. They are to be launched into orbit on the company's Starship rocket.",
+      "The authorisation covers up to one million satellites. The Federal Communications Commission approved the request on 25 November 2026, despite concerns about space debris and interference with astronomical objects.",
+      "Lizzie had a primitive skull, internal gills containing bone and a mouth resembling that of a fish, with thousands of tiny teeth. That makes the 345-million-year-old Westlothiana lizziae a very different animal from the early reptile it was taken for."
+    ]
+  },
+  "sources": [
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "excerpt": "On 24 November 2026, the Court of Arbitration for Sport ruled in favour of Senegal, reinstating them as the winners of the tournament."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "excerpt": "On 17 March 2026, the CAF Appeal Board ruled that Senegal had forfeited the final through their actions, awarding Morocco a 3–0 victory."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "excerpt": "The final between Senegal and hosts Morocco was marred by controversy after Senegal walked off the pitch for 17 minutes in protest over a disallowed goal and a VAR decision in stoppage time. Senegal returned to the pitch and won 1–0 after extra time"
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "excerpt": "Spanish economist Pablo Hernández de Cos is elected as the new president of the European Central Bank, succeeding French lawyer Christine Lagarde after her resignation."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_26",
+      "excerpt": "The United States Federal Communications Commission authorizes SpaceX to deploy up to one million satellites for its Starmind space-based data center network, despite concerns about space debris and interference with astronomical objects."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pablo_Hern%C3%A1ndez_de_Cos",
+      "excerpt": "Pablo Hernández de Cos (born 20 January 1971) is a Spanish economist and monetary policymaker who has served as the general manager of the Bank for International Settlements since 1 July 2025."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pablo_Hern%C3%A1ndez_de_Cos",
+      "excerpt": "He served as the 70th governor of the Bank of Spain from 2018 to 2024."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starmind_(satellite)",
+      "excerpt": "On November 25, 2026, the FCC approved SpaceX's request for a Starmind constellation of up to 1 million satellites."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starmind_(satellite)",
+      "excerpt": "SpaceX says the AI1 satellites would operate in a sun-synchronous orbit in order to capture continuous solar power, and that the design is meant to avoid Earth's grid, land, and cooling constraints."
+    },
+    {
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starmind_(satellite)",
+      "excerpt": "The satellites are to be launched into orbit on SpaceX's Starship rocket."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+      "excerpt": "A small fossil discovered in Scotland and regarded for nearly three decades as one of the earliest known reptiles has turned out to be a very different kind of prehistoric animal."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+      "excerpt": "The 345-million-year-old fossil, discovered in 1984, belongs to a species called Westlothiana lizziae."
+    },
+    {
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+      "excerpt": "Lizzie possessed a primitive skull, internal gills containing bone, and a mouth resembling that of a fish, complete with thousands of tiny teeth."
+    }
+  ]
+}

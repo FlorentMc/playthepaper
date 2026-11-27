@@ -1,57 +1,68 @@
 {
   "date": "2026-11-27",
-  "kind": "evergreen",
-  "label": "Evergreen · Discovery",
-  "version": 1,
+  "kind": "news",
+  "label": "Today",
+  "version": 2,
   "puzzles": [
-    "word-2026-11-27-en-v1",
+    "word-2026-11-27-en-v2",
     "sudoku-2026-11-27-en-easy-v1",
     "sudoku-2026-11-27-en-medium-v1",
     "sudoku-2026-11-27-en-hard-v1",
-    "letters-2026-11-27-en-v1",
-    "crossword-2026-11-27-en-v1",
-    "quiz-2026-11-27-en-v1"
+    "letters-2026-11-27-en-v2",
+    "crossword-2026-11-27-en-v2",
+    "quiz-2026-11-27-en-v2"
   ],
   "stories": [
     {
-      "id": "discovery-1-penicillin",
-      "headline": "A contaminated plate, a holiday, and the first antibiotic",
-      "summary": "On 3 September 1928, Alexander Fleming returned to his laboratory from a holiday with his family in Suffolk and noticed that one of the culture plates he had left on a bench was contaminated with a fungus, and that the staphylococci around it had been destroyed. He shared the 1945 Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain for the discovery of penicillin.",
+      "id": "2026-11-27-1",
+      "headline": "Senegal are reinstated as Africa Cup of Nations champions",
+      "summary": "Senegal beat the hosts, Morocco, 1–0 after extra time in the final of the 2025 Africa Cup of Nations. In March the CAF Appeal Board ruled that they had forfeited the match by walking off the pitch, and awarded Morocco a 3–0 victory. On 24 November the Court of Arbitration for Sport ruled in Senegal's favour and reinstated them as the winners.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/2025_Africa_Cup_of_Nations",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "discovery-1-deep",
-      "headline": "The deepest point in the ocean, measured to the metre",
-      "summary": "The Challenger Deep is the deepest known point of the seabed, lying in the western Pacific at the southern end of the Mariana Trench. A 2021 study put its depth at 10,935 metres, give or take about six metres. The first descent by any vehicle was made by the United States Navy's bathyscaphe Trieste in January 1960.",
+      "id": "2026-11-27-2",
+      "headline": "A Spanish economist is elected to lead the European Central Bank",
+      "summary": "Pablo Hernández de Cos has been elected as the new president of the European Central Bank. He succeeds Christine Lagarde, who resigned. He was the 70th governor of the Bank of Spain from 2018 to 2024, and has been general manager of the Bank for International Settlements since 1 July 2025.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Challenger_Deep",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Pablo_Hern%C3%A1ndez_de_Cos",
+      "publishedAt": "2026-11-26"
     },
     {
-      "id": "discovery-1-valley",
-      "headline": "The valley where the pharaohs were laid to rest",
-      "summary": "The Valley of the Kings is a wadi on the west bank of the Nile, opposite Thebes, the modern-day Luxor. For nearly 500 years rock-cut tombs were excavated there for the pharaohs and powerful nobles of Egypt's New Kingdom, and it is now known to contain 65 tombs and chambers. Howard Carter discovered the tomb of Tutankhamun there on 4 November 1922.",
+      "id": "2026-11-27-3",
+      "headline": "SpaceX is cleared to launch up to a million satellites",
+      "summary": "The United States Federal Communications Commission has authorised SpaceX to deploy up to one million satellites for Starmind, its space-based data centre network. The satellites are solar-powered, would operate in a sun-synchronous orbit, and are to be launched on the company's Starship rocket. The decision was taken despite concerns about space debris and interference with astronomical objects.",
       "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
-      "publishedAt": "evergreen"
+      "url": "https://en.wikipedia.org/wiki/Starmind_(satellite)",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "2026-11-27-4",
+      "headline": "A Scottish fossil turns out not to be an early reptile",
+      "summary": "A small fossil found in Scotland in 1984 was regarded for nearly three decades as one of the earliest known reptiles. A closer look inside the rock found a primitive skull, internal gills containing bone and a mouth resembling that of a fish, with thousands of tiny teeth. The animal, Westlothiana lizziae, is 345 million years old.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+      "publishedAt": "2026-11-26"
     }
   ],
   "seeds": {
-    "discovery-1-penicillin": [
+    "2026-11-27-1": [
       "quiz:1",
-      "quiz:2",
-      "letters",
-      "crossword:1 Down"
+      "crossword:3 Down"
     ],
-    "discovery-1-deep": [
+    "2026-11-27-2": [
+      "quiz:2"
+    ],
+    "2026-11-27-3": [
       "quiz:3",
       "quiz:4",
-      "word"
+      "letters"
     ],
-    "discovery-1-valley": [
-      "quiz:5"
+    "2026-11-27-4": [
+      "quiz:5",
+      "word"
     ]
-  }
+  },
+  "publishedAt": "2026-11-27T02:28:11.158799Z"
 }

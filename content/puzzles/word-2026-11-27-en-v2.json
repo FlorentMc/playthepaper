@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-27-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-27",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "F",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about a fossil that turned out not to be a reptile."
+  },
+  "reveal": {
+    "answer": "FOSSIL",
+    "storyId": "2026-11-27-4",
+    "excerpt": "The 345-million-year-old fossil, discovered in 1984, belongs to a species called Westlothiana lizziae."
+  },
+  "storyId": "2026-11-27-4"
+}
