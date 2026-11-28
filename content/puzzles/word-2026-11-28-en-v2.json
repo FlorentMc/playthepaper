@@ -1,0 +1,21 @@
+{
+  "id": "word-2026-11-28-en-v2",
+  "game": "word",
+  "editionDate": "2026-11-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "length": 6,
+    "firstLetter": "S",
+    "maxGuesses": 6,
+    "teaser": "Today's word comes from a story about the shape of a narwhal's tusk."
+  },
+  "reveal": {
+    "answer": "SPIRAL",
+    "storyId": "2026-11-28-3",
+    "excerpt": "Rather than forming a single spiral, the tusk's tiny structural components create two intertwined helices that twist in opposite directions."
+  },
+  "storyId": "2026-11-28-3"
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "2026-11-28",
+  "label": "Today",
+  "stories": [
+    {
+      "id": "2026-11-28-1",
+      "headline": "Malinin sets a figure skating world record in Tokyo",
+      "summary": "Ilia Malinin of the United States has set a world record in the men's short programme at the NHK Trophy in Tokyo, Japan. He scored 114.81 points on the opening day of the competition, which runs from 27 to 29 November. The previous record of 113.97 points had been held since the 2022 Winter Olympics by his compatriot Nathan Chen.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_NHK_Trophy",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "2026-11-28-2",
+      "headline": "New Zealand's final count leaves its coalition short of a majority",
+      "summary": "The counting of special votes in New Zealand's general election has cost the National Party two electorate seats. The National-ACT-New Zealand First coalition government now holds 65 of the 130 seats and has fallen below a majority, leaving a hung parliament. The Opportunity Party, which won seven seats and entered Parliament for the first time, is in a kingmaker position.",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "2026-11-28-3",
+      "headline": "The narwhal's spiral tusk holds two opposite twists",
+      "summary": "The male narwhal grows a corkscrew-shaped tooth, unlike the curved tusks of elephants and walruses. It is the upper left canine, which grows forward through the upper lip, twisting anticlockwise, and can reach two metres, as much as half the animal's body length. Researchers have found that its tiny structural components form two intertwined helices that twist in opposite directions.",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+      "publishedAt": "2026-11-27"
+    }
+  ],
+  "quiz": {
+    "payload": {
+      "questions": [
+        {
+          "lead": "The NHK Trophy, a figure skating competition, opened in Tokyo, Japan, on 27 November. The men's short programme world record fell on the first day.",
+          "prompt": "Which skater set the new record?",
+          "options": [
+            "Daniel Grassl",
+            "Ilia Malinin",
+            "Kevin Aymoz",
+            "Shun Sato"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-28-1"
+        },
+        {
+          "lead": "Ilia Malinin of the United States scored 114.81 points in the men's short programme at the NHK Trophy in Tokyo. The record he beat had stood since the 2022 Winter Olympics.",
+          "prompt": "Whose world record did he surpass?",
+          "options": [
+            "Nathan Chen",
+            "Shoma Uno",
+            "Yuma Kagiyama",
+            "Yuzuru Hanyu"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-28-1"
+        },
+        {
+          "lead": "The counting of special votes in New Zealand's general election has produced the final result. One party won the most seats even though it lost the popular vote, for the first time since 1981.",
+          "prompt": "Which party won the most seats?",
+          "options": [
+            "ACT New Zealand",
+            "Labour Party",
+            "National Party",
+            "Te Pati Maori"
+          ],
+          "level": "easy",
+          "storyId": "2026-11-28-2"
+        },
+        {
+          "lead": "New Zealand's election has ended in a hung parliament. The National-ACT-New Zealand First coalition government stayed in office but fell below a majority, with the Opportunity Party and its seven seats in a kingmaker position.",
+          "prompt": "How many of the 130 seats does the coalition hold?",
+          "options": [
+            "61",
+            "63",
+            "65",
+            "67"
+          ],
+          "level": "medium",
+          "storyId": "2026-11-28-2"
+        },
+        {
+          "lead": "The male narwhal grows a corkscrew-shaped tooth. The upper left canine grows forward through the upper lip, twisting anticlockwise, and can reach two metres, as much as half the animal's body length.",
+          "prompt": "What do the tusk's tiny structural components form?",
+          "options": [
+            "A honeycomb of hollow channels",
+            "Concentric rings, like those in a tree trunk",
+            "One continuous spiral",
+            "Two intertwined helices that twist in opposite directions"
+          ],
+          "level": "hard",
+          "storyId": "2026-11-28-3"
+        }
+      ],
+      "wagerQuestion": 4
+    },
+    "reveal": {
+      "answers": [1, 0, 2, 2, 3],
+      "explanations": [
+        "Ilia Malinin of the United States set the record, with a score of 114.81. That beat the previous mark of 113.97 points, which his compatriot Nathan Chen had set at the 2022 Winter Olympics.",
+        "The record belonged to Nathan Chen, Malinin's compatriot, who scored 113.97 points at the 2022 Winter Olympics. Malinin's 114.81 points at the NHK Trophy in Tokyo now stand as the world record.",
+        "The National Party won the most seats. It is the first election since 1981 in which the party has won the most seats but lost the popular vote.",
+        "The coalition holds 65 of the 130 seats. The counting of special votes took two electorate seats from the National Party, including one overhang seat, and left the government below a majority.",
+        "They form two intertwined helices that twist in opposite directions, rather than a single spiral. The tooth itself is the narwhal's upper left canine, and it can reach two metres, as much as half the animal's body length."
+      ]
+    },
+    "sources": [
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NHK_Trophy",
+        "excerpt": "Ilia Malinin set a new world record in the men's short program with a score of 114.81, breaking the previous record score set by Nathan Chen of 113.97 at the 2022 Olympics."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_NHK_Trophy",
+        "excerpt": "It will be held from November 27 to 29 at the Keio Arena Tokyo in Tokyo, Japan."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+        "excerpt": "In figure skating, Ilia Malinin of the United States sets a men's short programme world record with 114.81 points at the NHK Trophy in Tokyo, Japan, surpassing compatriot Nathan Chen's previous record of 113.97 points set at the 2022 Winter Olympics."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+        "excerpt": "The election resulted in a hung parliament. The incumbent National-ACT-New Zealand First coalition government holds 65 of the 130 seats."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+        "excerpt": "This is the first election since 1981 in which National won the most seats but lost the popular vote."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_New_Zealand_general_election",
+        "excerpt": "The Opportunity Party won 6.1% of the party vote, gaining seven seats and becoming the first new party to be elected to Parliament since 2011."
+      },
+      {
+        "publisher": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_27",
+        "excerpt": "The counting of special votes results in the National Party losing two electorate seats, including one overhang seat. The National-ACT-NZ First coalition government falls below a majority to 65 seats, placing the Opportunity Party into a kingmaker position."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+        "excerpt": "Whereas elongated teeth, including elephant and walrus tusks and beaver incisors, grow in curved shapes, the male narwhal develops a remarkable corkscrew-shaped tooth."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+        "excerpt": "Typically, the upper left canine grows forward through the upper lip, twisting counterclockwise as it extends. It can reach two meters (6.6 feet) in length, equivalent to as much as half the animal's body length."
+      },
+      {
+        "publisher": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+        "excerpt": "Rather than forming a single spiral, the tusk's tiny structural components create two intertwined helices that twist in opposite directions."
+      }
+    ]
+  },
+  "seeds": {
+    "word": {
+      "answer": "SPIRAL",
+      "storyId": "2026-11-28-3",
+      "teaser": "Today's word comes from a story about the shape of a narwhal's tusk.",
+      "excerpt": "Rather than forming a single spiral, the tusk's tiny structural components create two intertwined helices that twist in opposite directions."
+    },
+    "letters": {
+      "pangram": "SKATING",
+      "storyId": "2026-11-28-1",
+      "teaser": "Today's letters come from a story about a world record set at a competition in Tokyo.",
+      "excerpt": "In figure skating, Ilia Malinin of the United States sets a men's short programme world record with 114.81 points at the NHK Trophy in Tokyo, Japan, surpassing compatriot Nathan Chen's previous record of 113.97 points set at the 2022 Winter Olympics."
+    },
+    "crossword": [
+      {
+        "answer": "SCORE",
+        "clue": "Malinin's record 114.81 in the short programme",
+        "storyId": "2026-11-28-1",
+        "excerpt": "Ilia Malinin set a new world record in the men's short program with a score of 114.81, breaking the previous record score set by Nathan Chen of 113.97 at the 2022 Olympics."
+      },
+      {
+        "answer": "SEATS",
+        "clue": "The New Zealand coalition holds 65 of the 130",
+        "storyId": "2026-11-28-2",
+        "excerpt": "The election resulted in a hung parliament. The incumbent National-ACT-New Zealand First coalition government holds 65 of the 130 seats."
+      },
+      {
+        "answer": "TOOTH",
+        "clue": "The narwhal's corkscrew-shaped one, up to two metres long",
+        "storyId": "2026-11-28-3",
+        "excerpt": "Whereas elongated teeth, including elephant and walrus tusks and beaver incisors, grow in curved shapes, the male narwhal develops a remarkable corkscrew-shaped tooth."
+      }
+    ]
+  }
+}

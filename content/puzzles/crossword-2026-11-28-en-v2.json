@@ -1,0 +1,114 @@
+{
+  "id": "crossword-2026-11-28-en-v2",
+  "game": "crossword",
+  "editionDate": "2026-11-28",
+  "locale": "en-GB",
+  "contentVersion": 2,
+  "scoringVersion": 1,
+  "dictionaryVersion": "enable1-2026-09",
+  "payload": {
+    "size": 5,
+    "grid": [
+      "##...",
+      ".....",
+      ".....",
+      ".....",
+      "...##"
+    ],
+    "clues": {
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Animal's hairy covering"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Malinin's record 114.81 in the short programme",
+          "storyId": "2026-11-28-1"
+        },
+        {
+          "number": 6,
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "Of great size"
+        },
+        {
+          "number": 7,
+          "row": 3,
+          "col": 0,
+          "length": 5,
+          "clue": "Winged heavenly being"
+        },
+        {
+          "number": 8,
+          "row": 4,
+          "col": 0,
+          "length": 3,
+          "clue": "Honey maker"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Counterfeit"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "length": 4,
+          "clue": "Encourage strongly"
+        },
+        {
+          "number": 3,
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Scottish dance"
+        },
+        {
+          "number": 4,
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Thick flat piece"
+        },
+        {
+          "number": 5,
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "Sugar source"
+        }
+      ]
+    },
+    "teaser": "One of today's clues comes from the news."
+  },
+  "reveal": {
+    "solution": [
+      "##FUR",
+      "SCORE",
+      "LARGE",
+      "ANGEL",
+      "BEE##"
+    ],
+    "seeded": [
+      {
+        "label": "4 Across",
+        "storyId": "2026-11-28-1",
+        "excerpt": "Ilia Malinin set a new world record in the men's short program with a score of 114.81, breaking the previous record score set by Nathan Chen of 113.97 at the 2022 Olympics."
+      }
+    ]
+  },
+  "storyId": "2026-11-28-1"
+}
